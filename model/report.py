@@ -57,7 +57,7 @@ def main(path):
             for r in xs:
                 w.writerow([tier] + [r[k] for k in fields[1:]] + ["；".join(r["近期状态"]), "；".join(r["人工警示"])])
     missing = Counter(x.split("缺")[0] for r in ok if r["等级"] == "数据不足" for x in r["缺数据"])
-    text = f"""# 全 A 筛选结果 v0.3
+    text = f"""# 全 A 筛选结果 {path.name[11:]}
 
 **这不是买入清单。** 分数未经回测，所有公司的审计、立案、质押、减持和资金占用都还没有人工核查。
 
