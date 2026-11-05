@@ -86,7 +86,7 @@ def main():
                 done.add(r["code"])
     todo = [x for x in keep if x["f12"] not in done][:limit]
     lock, n, fails = threading.Lock(), [0], [0]
-    with raw.open("a") as f, (OUT / "inputs.jsonl").open("a") as fin, ThreadPoolExecutor(2) as ex:
+    with raw.open("a") as f, (OUT / "inputs.jsonl").open("a") as fin, ThreadPoolExecutor(3) as ex:
         for fu in as_completed([ex.submit(one, x) for x in todo]):
             pair = fu.result()
             r = pair["result"]
