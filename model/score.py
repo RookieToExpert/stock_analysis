@@ -3,11 +3,36 @@
 import json, sys, time, urllib.request
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from rules import MANUAL, action, blue_chip, grade, metrics, missing_fields, recent_state, score, state_unknown, vetoes, warnings
+from rules import MANUAL, recent_from_rows, action, blue_chip, grade, metrics, missing_fields, recent_state, score, state_unknown, vetoes, warnings
 
 OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 HDR = {"User-Agent": "Mozilla/5.0", "Referer": "https://emweb.securities.eastmoney.com/"}
 F10 = "https://datacenter.eastmoney.com/securities/api/data"
+
+
+MAIN_FIELDS = ("REPORT_DATE", "NOTICE_DATE", "UPDATE_DATE", "TOTALOPERATEREVE", "PARENTNETPROFIT",
+               "KCFJCXSYJLR", "ROEJQ", "XSMLL", "ROIC", "ZCFZL")
+CF_FIELDS = ("REPORT_DATE", "NOTICE_DATE", "UPDATE_DATE", "NETPROFIT", "NETCASH_OPERATE", "CONSTRUCT_LONG_ASSET",
+             "ACCEPT_INVEST_CASH", "ASSIGN_DIVIDEND_PORFIT", "SUBSIDIARY_PAY_DIVIDEND")
+BS_FIELDS = ("REPORT_DATE", "NOTICE_DATE", "UPDATE_DATE", "TOTAL_ASSETS", "TOTAL_LIABILITIES", "TOTAL_PARENT_EQUITY",
+             "MONETARYFUNDS", "TRADE_FINASSET_NOTFVTPL", "SHORT_LOAN", "LONG_LOAN", "BOND_PAYABLE",
+             "NONCURRENT_LIAB_1YEAR", "GOODWILL", "OPINION_TYPE")
+
+
+class SchemaError(ValueError):
+    pass
+
+
+def check_schema(rows, fields, label):
+    """字段缺失说明接口变了，要明确失败，不能变成缺分。"""
+    if rows:
+        lost = [f for f in fields if f not in rows[0]]
+        if lost:
+            raise SchemaError(f"{label}缺字段: {lost}")
+
+
+def pick(row, fields):
+    return {k: row.get(k) for k in fields}
 
 
 def get(url):
@@ -33,12 +58,14 @@ def dividends(code):
             "&sortColumns=PLAN_NOTICE_DATE&source=WEB&client=WEB")
     if not d.get("success") and d.get("code") != 9201:
         raise ValueError(f"分红接口异常: {d.get('code')} {d.get('message')}")
-    out = {}
+    out, kept = {}, []
     for x in (d.get("result") or {}).get("data") or []:
         ex, cash, shares = x.get("EX_DIVIDEND_DATE"), x.get("PRETAX_BONUS_RMB"), x.get("TOTAL_SHARES")
         if x.get("ASSIGN_PROGRESS") == "实施分配" and ex and cash and shares:
             out[ex[:4]] = out.get(ex[:4], 0) + cash / 10 * shares
-    return out
+            kept.append({"report": x.get("REPORT_DATE"), "notice": x.get("NOTICE_DATE"), "ex": ex,
+                         "cash_per_10": cash, "shares": shares, "plan": x.get("IMPL_PLAN_PROFILE")})
+    return out, kept
 
 
 def fetch(code, quote=None):
@@ -50,33 +77,22 @@ def fetch(code, quote=None):
                 "&pageNumber=1&pageSize=30&sortTypes=-1&sortColumns=REPORT_DATE&source=HSF10&client=PC")
     cf = rows(f"{F10}/get?type=RPT_F10_FINANCE_GCASHFLOW&sty=APP_F10_GCASHFLOW&{tail}")
     bal = rows(f"{F10}/get?type=RPT_F10_FINANCE_GBALANCE&sty=F10_FINANCE_GBALANCE&{tail}")
+    check_schema(main, MAIN_FIELDS, "主要指标")
+    check_schema(cf, CF_FIELDS, "现金流量表")
+    check_schema(bal, BS_FIELDS, "资产负债表")
     cfy = {r["REPORT_DATE"][:4]: r for r in cf if r["REPORT_DATE"][5:10] == "12-31"}
-    div = dividends(code)
+    div, div_rows = dividends(code)
     years = []
     for r in main:
         if r["REPORT_DATE"][5:10] != "12-31":
             continue
         c = cfy.get(r["REPORT_DATE"][:4], {})
         years.append({"year": r["REPORT_DATE"][:4], "rev": r.get("TOTALOPERATEREVE"),
-                      "np": r.get("PARENTNETPROFIT"), "np_all": c.get("NETPROFIT"), "roe": r.get("ROEJQ"), "gm": r.get("XSMLL"),
+                      "np": r.get("PARENTNETPROFIT"), "np_all": c.get("NETPROFIT"), "kf": r.get("KCFJCXSYJLR"),
+                      "roic": r.get("ROIC"), "roe": r.get("ROEJQ"), "gm": r.get("XSMLL"),
                       "ocf": c.get("NETCASH_OPERATE"), "capex": c.get("CONSTRUCT_LONG_ASSET"),
                       "invest": c.get("ACCEPT_INVEST_CASH") or 0, "paid": div.get(r["REPORT_DATE"][:4], 0)})
-    # TTM 扣非 = 最新累计 + 上年全年 - 上年同期累计
-    latest = main[0]
-    ttm = latest.get("KCFJCXSYJLR")
-    ly = str(int(latest["REPORT_DATE"][:4]) - 1)
-    by = {r["REPORT_DATE"][:10]: r for r in main}
-    prev = by.get(ly + latest["REPORT_DATE"][4:10])  # 上年同期
-    if latest["REPORT_DATE"][5:10] != "12-31":
-        a = by.get(f"{ly}-12-31")
-        ttm = ttm + a["KCFJCXSYJLR"] - prev["KCFJCXSYJLR"] if a and prev and ttm is not None else None
-    kf_yoy = gm_delta = None
-    if prev:
-        k0, k1 = latest.get("KCFJCXSYJLR"), prev.get("KCFJCXSYJLR")
-        if k0 is not None and k1 and k1 > 0:
-            kf_yoy = (k0 / k1 - 1) * 100
-        if latest.get("XSMLL") is not None and prev.get("XSMLL") is not None:
-            gm_delta = latest["XSMLL"] - prev["XSMLL"]
+    ttm, kf_yoy, gm_delta = recent_from_rows(main)
     b = bal[0] if bal else {}
     # 报表行存在时，借款和商誉的空值表示未列示；报表整行缺失时保持未知
     z = lambda k: (b.get(k) or 0) if b else None
@@ -88,34 +104,35 @@ def fetch(code, quote=None):
     q = quote or get(f"https://push2.eastmoney.com/api/qt/stock/get?secid={1 if sh else 0}.{code}"
                      "&fields=f43,f58,f116,f127")["data"]
     return {"code": code, "name": q.get("f58"), "industry": q.get("f127"), "price": q["f43"] / 100,
-            "mv": q.get("f116"), "ttm_np": ttm, "kf_yoy": kf_yoy, "gm_delta": gm_delta, "bs": bs, "years": years, "high36": None}
+            "mv": q.get("f116"), "ttm_np": ttm, "kf_yoy": kf_yoy, "gm_delta": gm_delta, "bs": bs, "years": years,
+            **dict(zip(("high36", "vol", "closes"), price_stats(code))),
+            "source": {"main": [pick(r, MAIN_FIELDS) for r in main[:24]],
+                       "cash_flow": [pick(r, CF_FIELDS) for r in cf if r["REPORT_DATE"][5:10] == "12-31"][:7],
+                       "balance": [pick(r, BS_FIELDS) for r in bal[:1]], "dividends": div_rows}}
 
 
 def price_stats(code):
-    """返回 (近36个月前复权最高价, 月收益年化波动率%)。"""
+    """返回 (近36个月前复权最高价, 月收益年化波动率%, 月收盘价)。"""
     d = get(f"https://push2his.eastmoney.com/api/qt/stock/kline/get?secid={1 if code.startswith('6') else 0}.{code}"
             "&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55&klt=103&fqt=1&end=20500101&lmt=37")
     rows_ = [x.split(",") for x in (d.get("data") or {}).get("klines") or []]
-    if len(rows_) < 13:
-        return None, None
     closes = [float(x[2]) for x in rows_]
+    if len(rows_) < 13:
+        return None, None, closes
     rets = [b / a - 1 for a, b in zip(closes, closes[1:]) if a > 0]
     mean = sum(rets) / len(rets)
     vol = (sum((r - mean) ** 2 for r in rets) / (len(rets) - 1)) ** 0.5 * 12 ** 0.5 * 100
-    return max(float(x[3]) for x in rows_[-36:]), vol
+    return max(float(x[3]) for x in rows_[-36:]), vol, closes
 
 
 def evaluate(d):
     """fetch 结果 -> 输出记录。分数档、近期状态、人工项分开。"""
     m = metrics(d)
     v, s, miss = vetoes(d, m), score(m), missing_fields(d)
-    if not v and not miss and s["总分"] >= 60 and d.get("high36") is None:
-        d["high36"], d["vol"] = price_stats(d["code"])
-        m = metrics(d)
     st, w, unk = recent_state(m), warnings(m), state_unknown(m)
     g = grade(s["总分"], v, miss)
     return {"code": d["code"], "name": d["name"], "industry": d["industry"], "price": d["price"], "mv": d["mv"], **s,
-            "等级": g, "动作": action(g, st, w, unk), "蓝筹条件": blue_chip(d["mv"], m), "排雷": v, "缺数据": miss,
+            "等级": g, "数据状态": "待核查" if miss else "完整", "动作": action(g, st, w, unk), "蓝筹条件": blue_chip(d["mv"], m), "排雷": v, "缺数据": miss,
             "近期状态": st, "状态未知": unk, "人工警示": w, "人工核查": {k: "未查" for k in MANUAL}, "metrics": m}
 
 

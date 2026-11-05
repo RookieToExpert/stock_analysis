@@ -1,10 +1,10 @@
 import unittest
-from rules import (action, blue_chip, clean_years, grade, metrics, missing_fields, recent_state,
+from rules import (action, recent_from_rows, blue_chip, clean_years, grade, metrics, missing_fields, recent_state,
                    score, state_unknown, vetoes, warnings)
 
 
 def yr(year=2025, **k):
-    b = dict(year=str(year), rev=100, np=20, np_all=21, roe=18, gm=45, ocf=25, capex=5, invest=0, paid=10)
+    b = dict(year=str(year), rev=100, np=20, np_all=21, kf=19, roe=18, gm=45, ocf=25, capex=5, invest=0, paid=10)
     return {**b, **k}
 
 
@@ -14,9 +14,34 @@ def years(n=5, **k):
 
 def base(**k):
     d = dict(code="1", name="好公司", industry="化学制品", mv=300e8, ttm_np=20e8, price=90, high36=100, vol=20,
-             kf_yoy=1, gm_delta=0, years=[yr(2025 - i, np=20e8, np_all=21e8, ocf=25e8, capex=5e8, paid=10e8, rev=100e8) for i in range(5)],
+             kf_yoy=1, gm_delta=0, years=[yr(2025 - i, np=20e8, np_all=21e8, kf=19e8, ocf=25e8, capex=5e8, paid=10e8, rev=100e8) for i in range(5)],
              bs=dict(equity=100e8, assets=130e8, liab=30e8, cash=50e8, debt=0, goodwill=2e8))
     return {**d, **k}
+
+
+def row(date, kf=100, gm=40):
+    return {"REPORT_DATE": f"{date} 00:00:00", "KCFJCXSYJLR": kf, "XSMLL": gm}
+
+
+class Recent(unittest.TestCase):
+    def test_q3_ttm_and_yoy(self):
+        rows = [row("2026-09-30", 80, 38), row("2025-12-31", 150, 40), row("2025-09-30", 100, 41)]
+        ttm, yoy, gm = recent_from_rows(rows)
+        self.assertEqual(ttm, 130)
+        self.assertAlmostEqual(yoy, -20)
+        self.assertAlmostEqual(gm, -3)
+
+    def test_annual_uses_annual_value(self):
+        self.assertEqual(recent_from_rows([row("2025-12-31", 150), row("2024-12-31", 100)])[0], 150)
+
+    def test_misaligned_period_returns_none(self):
+        ttm, yoy, gm = recent_from_rows([row("2026-09-30"), row("2025-12-31"), row("2025-06-30")])
+        self.assertIsNone(ttm)
+        self.assertIsNone(yoy)
+        self.assertIsNone(gm)
+
+    def test_loss_base_has_no_yoy(self):
+        self.assertIsNone(recent_from_rows([row("2025-12-31", 50), row("2024-12-31", -10)])[1])
 
 
 class Missing(unittest.TestCase):
@@ -121,6 +146,11 @@ class Rules(unittest.TestCase):
         self.assertEqual(action("合格", [], [], ["回撤"]), "人工补查")
         self.assertEqual(action("合格", [], [], []), "人工排雷")
         self.assertEqual(action("观察", ["x"], [], []), "不操作")
+
+    def test_st_name_variants(self):
+        for name in ("ST测试", "*ST测试", "S*ST测试", "PT金田A", "测试退"):
+            d = base(name=name)
+            self.assertIn("ST/退市风险", vetoes(d, metrics(d)), name)
 
     def test_grade(self):
         self.assertEqual(grade(95, ["x"], []), "出局")

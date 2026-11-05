@@ -3,7 +3,7 @@
 未知用 None，真实的 0 用 0。缺数据不得分，也不能进入“合格”。
 """
 FINANCIAL = ("银行", "保险", "证券", "多元金融")
-CORE_YEAR = ("rev", "np", "np_all", "roe", "gm", "ocf", "capex", "paid")
+CORE_YEAR = ("rev", "np", "np_all", "kf", "roe", "gm", "ocf", "capex", "paid")
 CORE_BS = ("assets", "liab", "equity", "cash", "debt", "goodwill")
 MANUAL = ("审计意见", "立案/处罚", "质押", "减持", "资金占用/担保")
 BLUE_MV = 200e8
@@ -26,6 +26,33 @@ def _median(xs):
     s = sorted(xs)
     m = len(s) // 2
     return s[m] if len(s) % 2 else (s[m - 1] + s[m]) / 2
+
+
+def recent_from_rows(rows):
+    """由主要财务指标行（新→旧）计算 TTM 扣非、同比。上年同期缺失时返回 None，不做近似。"""
+    if not rows:
+        return None, None, None
+    latest = rows[0]
+    date = latest["REPORT_DATE"][:10]
+    year, tail = int(date[:4]), date[4:]
+    by = {r["REPORT_DATE"][:10]: r for r in rows}
+    prev = by.get(f"{year - 1}{tail}")
+    kf = _n(latest.get("KCFJCXSYJLR"))
+    ttm = kf
+    if tail != "-12-31":
+        last_year = by.get(f"{year - 1}-12-31")
+        a = _n(last_year.get("KCFJCXSYJLR")) if last_year else None
+        b = _n(prev.get("KCFJCXSYJLR")) if prev else None
+        ttm = kf + a - b if None not in (kf, a, b) else None
+    kf_yoy = gm_delta = None
+    if prev:
+        k1 = _n(prev.get("KCFJCXSYJLR"))
+        if kf is not None and k1 is not None and k1 > 0:
+            kf_yoy = (kf / k1 - 1) * 100
+        g0, g1 = _n(latest.get("XSMLL")), _n(prev.get("XSMLL"))
+        if g0 is not None and g1 is not None:
+            gm_delta = g0 - g1
+    return ttm, kf_yoy, gm_delta
 
 
 def clean_years(years):
@@ -89,6 +116,7 @@ def metrics(d):
         "ocf_np": ocf5 / np_all5 if ocf5 is not None and np_all5 and np_all5 > 0 else None,
         "rev_cagr": ((rev0 / rev4) ** 0.25 - 1) * 100 if rev0 and rev4 and rev0 > 0 and rev4 > 0 else None,
         "ep": ttm / mv * 100 if ttm is not None and mv else None,
+        "ep_norm": sum(r["kf"] for r in y) / 5 / mv * 100 if complete("kf") and mv else None,
         "fcf_yield": fcf_avg / mv * 100 if fcf_avg is not None and mv else None,
         "sust_yield": sustainable,
         "paid_years": sum(1 for r in y if (_n(r.get("paid")) or 0) > 0) if complete("paid") else None,
@@ -112,7 +140,7 @@ def metrics(d):
 def vetoes(d, m):
     out = []
     name = d.get("name") or ""
-    if "ST" in name.upper() or "退" in name:
+    if any(k in name.upper() for k in ("ST", "PT")) or "退" in name:
         out.append("ST/退市风险")
     if any(k in (d.get("industry") or "") for k in FINANCIAL):
         out.append("金融股需单独建模")

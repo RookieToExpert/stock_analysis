@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""全 A 筛选：python3 model/screen.py [--limit N]。结果逐只写入 results/<日期>/raw.jsonl，可断点续跑。"""
+"""全 A 筛选：python3 model/screen.py [--limit N] [--out 目录]。逐只写入输入快照和结果，可断点续跑。"""
 import json, sys, threading, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
@@ -10,6 +10,8 @@ from score import evaluate, fetch, get
 
 FS = "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23"  # 沪深主板、创业板、科创板，不含北交所
 OUT = Path(__file__).parent.parent / "results" / f"{date.today().isoformat()}-v0.3"
+if "--out" in sys.argv:
+    OUT = Path(sys.argv[sys.argv.index("--out") + 1])
 
 
 def universe():
@@ -53,11 +55,12 @@ def one(x):
     time.sleep(0.3)
     for attempt in range(2):
         try:
-            return evaluate(fetch(code, quote))
+            d = fetch(code, quote)
+            return {"input": d, "result": evaluate(d)}
         except Exception as e:
             err = repr(e)
             time.sleep(3)
-    return {"code": code, "error": err}
+    return {"result": {"code": code, "error": err}}
 
 
 def main():
@@ -83,10 +86,14 @@ def main():
                 done.add(r["code"])
     todo = [x for x in keep if x["f12"] not in done][:limit]
     lock, n, fails = threading.Lock(), [0], [0]
-    with raw.open("a") as f, ThreadPoolExecutor(2) as ex:
+    with raw.open("a") as f, (OUT / "inputs.jsonl").open("a") as fin, ThreadPoolExecutor(2) as ex:
         for fu in as_completed([ex.submit(one, x) for x in todo]):
-            r = fu.result()
+            pair = fu.result()
+            r = pair["result"]
             with lock:
+                if "input" in pair:
+                    fin.write(json.dumps(pair["input"], ensure_ascii=False, default=str) + "\n")
+                    fin.flush()
                 f.write(json.dumps(r, ensure_ascii=False, default=str) + "\n")
                 f.flush()
                 n[0] += 1
