@@ -8,6 +8,8 @@ A 股长期投资的选股标准、评分脚本和投资记录。
 - [巴菲特因子研究线](docs/BUFFETT_FACTOR.md)
 - [数据字段说明](docs/DATA_DICTIONARY.md)
 - [持仓记录模板](journal/TEMPLATE.md)
+- [阅读清单](docs/READING.md)
+- 最新名单和输入快照：[results/2026-11-05-v0.3.1](results/2026-11-05-v0.3.1/README.md)
 - [国光股份持仓记录](journal/002749-国光股份.md)
 - 规则试跑结果：`results/sanity_2026-11-05.json`，这不是推荐名单
 

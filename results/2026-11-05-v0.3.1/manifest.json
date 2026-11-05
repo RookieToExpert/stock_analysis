@@ -1,0 +1,31 @@
+{
+ "snapshot": "2026-11-05-v0.3.1",
+ "data_date": "2026-11-05",
+ "model_version": "v0.3.1",
+ "code_commit": "0071e091b64b93a917daf0ef714ef44a9f198635",
+ "source": "东方财富公开接口，直连",
+ "stocks": 2881,
+ "note": "快照保存抓取时的接口数据。NOTICE_DATE、UPDATE_DATE 不证明数据等于公告当时版本，不能直接用于回测。",
+ "files": {
+  "inputs.jsonl.gz": {
+   "bytes": 8368288,
+   "sha256": "1480b28e0db48a72bf2a1cef3e07c263caafc3c2d78d33a0d2352746b237d02b"
+  },
+  "raw.jsonl.gz": {
+   "bytes": 666099,
+   "sha256": "6e8db5d7452dca8860c49a2e0b4af3a073ce59498f580ce8e49038b358896141"
+  },
+  "universe.json": {
+   "bytes": 233,
+   "sha256": "bf44c6b3673338b9288299412f715273c8ff8c0a69b3c736e8d2bf115ba36b39"
+  },
+  "list.csv": {
+   "bytes": 15311,
+   "sha256": "8ed2323857c076a1173bc500eedc9a0564fc50373a90fefff6f324c99b3a2132"
+  },
+  "buffett_research.csv": {
+   "bytes": 4338,
+   "sha256": "40b44df1997f00da927d1f5dfcbaf9643bfeccac81573c4cd6462ee74465f7d9"
+  }
+ }
+}

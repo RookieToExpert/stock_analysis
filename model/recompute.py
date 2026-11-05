@@ -6,12 +6,12 @@ sys.path.insert(0, str(Path(__file__).parent))
 from score import evaluate
 
 
-def read_lines(path):
-    gz = path / "inputs.jsonl.gz"
+def read_lines(path, name="inputs"):
+    gz = path / f"{name}.jsonl.gz"
     if gz.exists():
         with gzip.open(gz, "rt", encoding="utf-8") as f:
             return f.read().splitlines()
-    return (path / "inputs.jsonl").read_text().splitlines()
+    return (path / f"{name}.jsonl").read_text().splitlines()
 
 
 def norm(x):
@@ -20,7 +20,7 @@ def norm(x):
 
 def main(path):
     expected = {}
-    for line in (path / "raw.jsonl").read_text().splitlines():
+    for line in read_lines(path, "raw"):
         r = json.loads(line)
         if "error" not in r:
             expected[r["code"]] = r

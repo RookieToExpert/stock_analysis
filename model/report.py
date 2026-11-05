@@ -3,11 +3,13 @@
 import csv, json, statistics, sys
 from collections import Counter
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+from recompute import read_lines
 
 
 def load(path):
     last = {}
-    for line in (path / "raw.jsonl").read_text().splitlines():
+    for line in read_lines(path, "raw"):
         r = json.loads(line)
         if r["code"] not in last or "error" not in r:
             last[r["code"]] = r
@@ -60,6 +62,7 @@ def main(path):
 **这不是买入清单。** 分数未经回测，所有公司的审计、立案、质押、减持和资金占用都还没有人工核查。
 
 - 数据日期：{path.name[:10]}
+- 输入快照和校验信息：`inputs.jsonl.gz`、`manifest.json`
 - 全市场 {uni['列表返回']} 只，进入打分 {uni['待打分']} 只，成功 {len(ok)} 只，失败 {len(errs)} 只
 - 预筛剔除：{uni['剔除']}
 - 分档：{dict(grades)}
