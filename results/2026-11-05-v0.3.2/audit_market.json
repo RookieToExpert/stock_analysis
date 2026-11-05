@@ -1,0 +1,72 @@
+[
+{
+"code": "002128",
+"name": "电投能源",
+"snapshot_price": 27.53,
+"sina_close": 27.53,
+"sina_date": "2026-11-05",
+"mv": 86071913682,
+"shares": 3126477068,
+"price_x_shares": 86071913682.04001
+},
+{
+"code": "603605",
+"name": "珀莱雅",
+"snapshot_price": 50.68,
+"sina_close": 50.68,
+"sina_date": "2026-11-05",
+"mv": 20068072397,
+"shares": 395976172,
+"price_x_shares": 20068072396.96
+},
+{
+"code": "605368",
+"name": "蓝天燃气",
+"snapshot_price": 6.42,
+"sina_close": 6.42,
+"sina_date": "2026-11-05",
+"mv": 4588029445,
+"shares": 714646331,
+"price_x_shares": 4588029445.0199995
+},
+{
+"code": "002315",
+"name": "焦点科技",
+"snapshot_price": 30.02,
+"sina_close": 30.02,
+"sina_date": "2026-11-05",
+"mv": 12409535092,
+"shares": 413375586,
+"price_x_shares": 12409535091.72
+},
+{
+"code": "605011",
+"name": "杭州热电",
+"snapshot_price": 15.8,
+"sina_close": 15.8,
+"sina_date": "2026-11-05",
+"mv": 6321580000,
+"shares": 400100000,
+"price_x_shares": 6321580000.0
+},
+{
+"code": "002149",
+"name": "西部材料",
+"snapshot_price": 36.45,
+"sina_close": 36.45,
+"sina_date": "2026-11-05",
+"mv": 17795410287,
+"shares": 488214274,
+"price_x_shares": 17795410287.300003
+},
+{
+"code": "600961",
+"name": "株冶集团",
+"snapshot_price": 18.54,
+"sina_close": 18.54,
+"sina_date": "2026-11-05",
+"mv": 19891059914,
+"shares": 1072872703,
+"price_x_shares": 19891059913.62
+}
+]

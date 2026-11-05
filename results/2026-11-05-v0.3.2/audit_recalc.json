@@ -1,0 +1,86 @@
+[
+ {
+  "code": "002128",
+  "name": "电投能源",
+  "层": "主名单",
+  "diff": {},
+  "score": 76,
+  "score_original": 76,
+  "replaced": 9,
+  "veto_original": [],
+  "report_total": 76,
+  "grade": "合格"
+ },
+ {
+  "code": "603605",
+  "name": "珀莱雅",
+  "层": "主名单",
+  "diff": {},
+  "score": 80,
+  "score_original": 80,
+  "replaced": 0,
+  "veto_original": [],
+  "report_total": 80,
+  "grade": "合格"
+ },
+ {
+  "code": "605368",
+  "name": "蓝天燃气",
+  "层": "副名单",
+  "diff": {},
+  "score": 79,
+  "score_original": 79,
+  "replaced": 4,
+  "veto_original": [],
+  "report_total": 79,
+  "grade": "合格"
+ },
+ {
+  "code": "002315",
+  "name": "焦点科技",
+  "层": "副名单",
+  "diff": {},
+  "score": 79,
+  "score_original": 79,
+  "replaced": 0,
+  "veto_original": [],
+  "report_total": 79,
+  "grade": "合格"
+ },
+ {
+  "code": "605011",
+  "name": "杭州热电",
+  "层": "非合格",
+  "diff": {},
+  "score": 52,
+  "score_original": 52,
+  "replaced": 0,
+  "veto_original": [],
+  "report_total": 52,
+  "grade": "放弃"
+ },
+ {
+  "code": "002149",
+  "name": "西部材料",
+  "层": "非合格",
+  "diff": {},
+  "score": 38,
+  "score_original": 38,
+  "replaced": 4,
+  "veto_original": [],
+  "report_total": 38,
+  "grade": "放弃"
+ },
+ {
+  "code": "600961",
+  "name": "株冶集团",
+  "层": "数据缺失风险",
+  "diff": {},
+  "score": 51,
+  "score_original": 47,
+  "replaced": 6,
+  "veto_original": [],
+  "report_total": 51,
+  "grade": "数据不足"
+ }
+]

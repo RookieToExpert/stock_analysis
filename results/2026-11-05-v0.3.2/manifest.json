@@ -1,0 +1,34 @@
+{
+ "snapshot": "2026-11-05-v0.3.2",
+ "data_date": "2026-11-05",
+ "model_version": "v0.3.2",
+ "code_commit": "e2b694c6ef6fe6990781792b4ca58a4d9a1532f2",
+ "stocks": 2881,
+ "note": "财务数据为接口当前值，可能已追溯调整，不能直接用于回测。",
+ "files": {
+  "inputs.jsonl.gz": {
+   "bytes": 10919480,
+   "sha256": "df1d6b69eee40e04bdd7ce40db0070a7b471867304eb50188078008811bfd68a"
+  },
+  "raw.jsonl.gz": {
+   "bytes": 666217,
+   "sha256": "43e58c0d597744407da8a10cf120335a7b6f2408358a43da3b1a0bd62e72e909"
+  },
+  "universe.json": {
+   "bytes": 233,
+   "sha256": "bf44c6b3673338b9288299412f715273c8ff8c0a69b3c736e8d2bf115ba36b39"
+  },
+  "list.csv": {
+   "bytes": 17170,
+   "sha256": "c631a6e8c6660c891f4b31d0cd411295b8818043d9ef949b4d068710ad12e38c"
+  },
+  "buffett_research.csv": {
+   "bytes": 4336,
+   "sha256": "a3b4edab367c206b993d70ae1312249895fa1b374e8b05a21106477ad7d83de5"
+  },
+  "changes_from_v0.3.1.csv": {
+   "bytes": 45948,
+   "sha256": "506990451ba5dea956958efb58625700357626862ad5f529f2ac770ab4ff74b5"
+  }
+ }
+}

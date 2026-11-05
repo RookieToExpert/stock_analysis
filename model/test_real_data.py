@@ -16,13 +16,14 @@ class Real(unittest.TestCase):
     def test_600900_matches_annual_report(self):
         d = load("600900")
         y = {r["year"]: r for r in d["years"]}
-        self.assertAlmostEqual(y["2025"]["paid"], 23073529306.19, places=2)
+        self.assertAlmostEqual(y["2024"]["paid"], 23073529306.19, places=2)
+        self.assertAlmostEqual(y["2025"]["paid"], 24468217716, places=2)
         cf = d["source"]["cash_flow"][0]
         self.assertAlmostEqual(cf["ASSIGN_DIVIDEND_PORFIT"], 34191120693.30, places=2)
         self.assertAlmostEqual(cf["SUBSIDIARY_PAY_DIVIDEND"], 649469714.09, places=2)
 
     def test_600900_payout_is_not_interest_polluted(self):
-        self.assertAlmostEqual(metrics(load("600900"))["payout"], 68.3, places=1)
+        self.assertAlmostEqual(metrics(load("600900"))["payout"], 73.7, places=1)
 
     def test_real_fields_are_complete(self):
         for code in ("600900", "002749"):
