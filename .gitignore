@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+results/*/raw.jsonl
+results/*/universe_list.json
+results/*/run.log
+results/2026-11-05/
