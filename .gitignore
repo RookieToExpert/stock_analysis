@@ -5,3 +5,4 @@ results/*/universe_list.json
 results/*/run.log
 results/2026-11-05/
 results/*/inputs.jsonl
+data/
