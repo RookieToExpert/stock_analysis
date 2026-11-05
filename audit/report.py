@@ -111,7 +111,7 @@ def main(path, txt, meta_path, old):
         w.writerow(["code", "kind", "title", "url", "sha256"])
         for m in sorted(meta.values(), key=lambda x: (x["code"], x["kind"])):
             w.writerow([m["code"], m["kind"], m["title"], m["url"], m["sha256"]])
-    print("changes", len(changed), "bs", Counter(x[3] for x in bs_rows), "ex", ex_ok, ex_bad, bad_ex[:6])
+    print("changes", len(changed), "bs", Counter(x[3] for x in bs_rows), "ex", ex["ok"], ex["bad"])
 
 
 if __name__ == "__main__":
