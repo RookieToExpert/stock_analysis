@@ -1,5 +1,5 @@
 import unittest
-from rules import (action, recent_from_rows, blue_chip, clean_years, grade, metrics, missing_fields, recent_state,
+from rules import (action, fiscal_dividends, recent_from_rows, blue_chip, clean_years, grade, metrics, missing_fields, recent_state,
                    score, state_unknown, vetoes, warnings)
 
 
@@ -21,6 +21,40 @@ def base(**k):
 
 def row(date, kf=100, gm=40):
     return {"REPORT_DATE": f"{date} 00:00:00", "KCFJCXSYJLR": kf, "XSMLL": gm}
+
+
+def dv(time, plan, progress, total=0, unassign="0"):
+    return {"REPORT_TIME": f"{time} 00:00:00", "IMPL_PLAN_PROFILE": plan, "ASSIGN_PROGRESS": progress,
+            "TOTAL_DIVIDEND": total, "IS_UNASSIGN": unassign}
+
+
+class FiscalDividend(unittest.TestCase):
+    def test_multiple_payments_are_not_added_twice(self):
+        r = fiscal_dividends([dv("2024-12-31", "10派7.33元", "实施方案", 100), dv("2024-06-30", "10派2.1元", "实施方案", 100)])
+        self.assertEqual(r["2024"], {"paid": 100, "status": "实施"})
+
+    def test_interim_no_dividend_does_not_hide_annual_payment(self):
+        r = fiscal_dividends([dv("2025-12-31", "10派1元", "实施方案", 50), dv("2025-06-30", "不分配不转增", "董事会预案", 50, "1")])
+        self.assertEqual(r["2025"]["paid"], 50)
+
+    def test_explicit_no_dividend_is_real_zero(self):
+        r = fiscal_dividends([dv("2024-12-31", "不分配不转增", "股东大会预案", 0, "1")])
+        self.assertEqual(r["2024"], {"paid": 0, "status": "不分配"})
+
+    def test_share_only_plan_is_zero_cash(self):
+        r = fiscal_dividends([dv("2024-12-31", "10转3股", "实施方案", 0)])
+        self.assertEqual(r["2024"], {"paid": 0, "status": "不分配"})
+
+    def test_pending_cash_plan_is_unknown(self):
+        r = fiscal_dividends([dv("2025-12-31", "10派1元", "股东大会预案", 50)])
+        self.assertEqual(r["2025"], {"paid": None, "status": "待实施"})
+
+    def test_only_interim_no_dividend_is_unknown(self):
+        r = fiscal_dividends([dv("2025-06-30", "不分配不转增", "董事会预案", 0, "1")])
+        self.assertEqual(r["2025"], {"paid": None, "status": "未知"})
+
+    def test_missing_year_stays_missing(self):
+        self.assertNotIn("2023", fiscal_dividends([dv("2024-12-31", "不分配不转增", "董事会预案", 0, "1")]))
 
 
 class Recent(unittest.TestCase):

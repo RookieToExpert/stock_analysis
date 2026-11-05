@@ -55,6 +55,36 @@ def recent_from_rows(rows):
     return ttm, kf_yoy, gm_delta
 
 
+def fiscal_dividends(rows):
+    """按所属财年整理分红。返回 {年份: {"paid": 金额或 None, "status": 状态}}。
+
+    TOTAL_DIVIDEND 是财年合计，同一年多行会重复，不能相加。
+    实施：有已实施现金方案；不分配：年报明确不分配且没有实施；
+    待实施：有现金方案但未实施；未知：只有中期不分配或信息不全。
+    """
+    years = {}
+    for r in rows:
+        t = r.get("REPORT_TIME") or ""
+        if len(t) >= 10:
+            years.setdefault(t[:4], []).append(r)
+    out = {}
+    for y, xs in years.items():
+        done = [x for x in xs if x.get("ASSIGN_PROGRESS") == "实施方案" and "派" in (x.get("IMPL_PLAN_PROFILE") or "")]
+        plan = [x for x in xs if x.get("ASSIGN_PROGRESS") != "实施方案" and "派" in (x.get("IMPL_PLAN_PROFILE") or "")]
+        annual = [x for x in xs if (x.get("REPORT_TIME") or "")[5:10] == "12-31"]
+        only_shares = [x for x in xs if x.get("ASSIGN_PROGRESS") == "实施方案"]
+        if done:
+            total = max((_n(x.get("TOTAL_DIVIDEND")) or 0) for x in done)
+            out[y] = {"paid": total if total > 0 else None, "status": "实施" if total > 0 else "未知"}
+        elif plan:
+            out[y] = {"paid": None, "status": "待实施"}
+        elif annual and (only_shares or any(str(x.get("IS_UNASSIGN")) == "1" for x in annual)):
+            out[y] = {"paid": 0, "status": "不分配"}
+        else:
+            out[y] = {"paid": None, "status": "未知"}
+    return out
+
+
 def clean_years(years):
     """取最新 5 个唯一且连续的年度；不足则返回实际连续部分。"""
     seen, out = set(), []

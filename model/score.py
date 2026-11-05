@@ -3,7 +3,7 @@
 import json, sys, time, urllib.request
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from rules import MANUAL, recent_from_rows, action, blue_chip, grade, metrics, missing_fields, recent_state, score, state_unknown, vetoes, warnings
+from rules import MANUAL, fiscal_dividends, recent_from_rows, action, blue_chip, grade, metrics, missing_fields, recent_state, score, state_unknown, vetoes, warnings
 
 OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 HDR = {"User-Agent": "Mozilla/5.0", "Referer": "https://emweb.securities.eastmoney.com/"}
@@ -51,21 +51,20 @@ def rows(url):
     return ((get(url).get("result") or {}).get("data")) or []
 
 
-def dividends(code):
-    """按除息年份汇总已实施的普通股现金分红，单位元。接口 9201 表示无记录。"""
-    d = get("https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_SHAREBONUS_DET&columns=ALL"
-            f"&filter=(SECURITY_CODE=%22{code}%22)&pageNumber=1&pageSize=60&sortTypes=-1"
-            "&sortColumns=PLAN_NOTICE_DATE&source=WEB&client=WEB")
+DIV_FIELDS = ("REPORT_DATE", "REPORT_TIME", "NOTICE_DATE", "IMPL_PLAN_PROFILE", "ASSIGN_PROGRESS", "EX_DIVIDEND_DATE",
+              "PAY_CASH_DATE", "IS_UNASSIGN", "TOTAL_DIVIDEND", "TOTAL_DIVIDEND_A")
+
+
+def dividend_rows(code):
+    """官方财年分红记录。接口返回空表示没有任何记录，不等于确认零分红。"""
+    secu = f"{code}.{'SH' if code.startswith('6') else 'SZ'}"
+    d = get(f"{F10}/v1/get?reportName=RPT_F10_DIVIDEND_MAIN&columns=ALL&filter=(SECUCODE=%22{secu}%22)"
+            "&pageNumber=1&pageSize=120&sortTypes=-1&sortColumns=NOTICE_DATE&source=HSF10&client=PC")
     if not d.get("success") and d.get("code") != 9201:
         raise ValueError(f"分红接口异常: {d.get('code')} {d.get('message')}")
-    out, kept = {}, []
-    for x in (d.get("result") or {}).get("data") or []:
-        ex, cash, shares = x.get("EX_DIVIDEND_DATE"), x.get("PRETAX_BONUS_RMB"), x.get("TOTAL_SHARES")
-        if x.get("ASSIGN_PROGRESS") == "实施分配" and ex and cash and shares:
-            out[ex[:4]] = out.get(ex[:4], 0) + cash / 10 * shares
-            kept.append({"report": x.get("REPORT_DATE"), "notice": x.get("NOTICE_DATE"), "ex": ex,
-                         "cash_per_10": cash, "shares": shares, "plan": x.get("IMPL_PLAN_PROFILE")})
-    return out, kept
+    rows = (d.get("result") or {}).get("data") or []
+    check_schema(rows, DIV_FIELDS, "分红")
+    return [pick(r, DIV_FIELDS) for r in rows]
 
 
 def fetch(code, quote=None):
@@ -81,7 +80,8 @@ def fetch(code, quote=None):
     check_schema(cf, CF_FIELDS, "现金流量表")
     check_schema(bal, BS_FIELDS, "资产负债表")
     cfy = {r["REPORT_DATE"][:4]: r for r in cf if r["REPORT_DATE"][5:10] == "12-31"}
-    div, div_rows = dividends(code)
+    div_rows = dividend_rows(code)
+    fy = fiscal_dividends(div_rows)
     years = []
     for r in main:
         if r["REPORT_DATE"][5:10] != "12-31":
@@ -91,7 +91,8 @@ def fetch(code, quote=None):
                       "np": r.get("PARENTNETPROFIT"), "np_all": c.get("NETPROFIT"), "kf": r.get("KCFJCXSYJLR"),
                       "roic": r.get("ROIC"), "roe": r.get("ROEJQ"), "gm": r.get("XSMLL"),
                       "ocf": c.get("NETCASH_OPERATE"), "capex": c.get("CONSTRUCT_LONG_ASSET"),
-                      "invest": c.get("ACCEPT_INVEST_CASH") or 0, "paid": div.get(r["REPORT_DATE"][:4], 0)})
+                      "invest": c.get("ACCEPT_INVEST_CASH") or 0, **{k: fy.get(r["REPORT_DATE"][:4], {"paid": None, "status": "未知"})[v]
+                         for k, v in (("paid", "paid"), ("paid_status", "status"))}})
     ttm, kf_yoy, gm_delta = recent_from_rows(main)
     b = bal[0] if bal else {}
     # 报表行存在时，借款和商誉的空值表示未列示；报表整行缺失时保持未知
