@@ -4,6 +4,7 @@ A 股长期投资的选股标准、评分脚本和投资记录。
 
 - [选股标准](docs/MODEL.md)
 - [策略规格](docs/STRATEGY_SPEC.md)
+- [时点版策略规格 v1.1](docs/STRATEGY_SPEC_V1_1.md)
 - [AI 使用规则](docs/AI_VALIDATION.md)
 - [巴菲特因子研究线](docs/BUFFETT_FACTOR.md)
 - [数据字段说明](docs/DATA_DICTIONARY.md)
