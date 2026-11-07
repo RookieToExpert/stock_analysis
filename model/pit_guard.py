@@ -2,14 +2,19 @@
 
 所有请求都从 baostock.util.socketutil.send_msg 发出，包括登录、登出和翻页。
 闸门替换这个入口，所以不会漏算。计数在发送前写盘，进程中途被杀只会多算，不会少算。
+
+客户端 send_msg 不设超时，吞掉所有异常后返回 None，翻页时 None 还会被当成数据读完；
+对方关闭连接时它的接收循环会一直空转。所以闸门用 Deadline 包住连接，把超时、断开和
+无响应都变成 NetworkError，并丢弃这条连接：迟到的响应不能被下一个请求读到。
 """
-import fcntl, json, os, time
+import fcntl, json, os, socket, time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 BLACKLIST = "10001011"
 DAILY_LIMIT = 40000
 MIN_INTERVAL = 1.0
+REQUEST_TIMEOUT = 60.0
 HEADER_LENGTH = 21
 CN = timezone(timedelta(hours=8))
 
@@ -29,10 +34,55 @@ class QuotaDone(SystemExit):
         super().__init__(0)
 
 
+class NetworkError(Exception):
+    """请求超时、连接断开或没有响应。这条连接已被丢弃，要重新登录才能再发请求。"""
+
+
+class Deadline:
+    """包住真实连接：一次请求从发送到收完不超过 timeout 秒，对方关闭连接按失败算。
+
+    抛出的异常会被客户端吞掉，所以原因同时记在 failure，由 Guard.call 读取。
+    """
+    def __init__(self, raw, timeout, clock=time.monotonic):
+        self.raw, self.timeout, self.clock = raw, timeout, clock
+        self.deadline, self.failure = 0.0, None
+
+    def fail(self, why):
+        self.failure = why
+        raise NetworkError(why)
+
+    def send(self, data):
+        self.deadline, self.failure = self.clock() + self.timeout, None
+        try:
+            self.raw.settimeout(self.timeout)
+            return self.raw.send(data)
+        except OSError as e:
+            self.fail(f"发送失败 {e!r}")
+
+    def recv(self, size):
+        left = self.deadline - self.clock()
+        if left <= 0:
+            self.fail(f"{self.timeout:g} 秒内没有收完响应")
+        try:
+            self.raw.settimeout(left)
+            data = self.raw.recv(size)
+        except socket.timeout:
+            self.fail(f"{self.timeout:g} 秒内没有收完响应")
+        except OSError as e:
+            self.fail(f"接收失败 {e!r}")
+        if not data:
+            self.fail("对方关闭了连接")
+        return data
+
+    def close(self):
+        self.raw.close()
+
+
 class Guard:
-    def __init__(self, state_dir, limit=DAILY_LIMIT, interval=MIN_INTERVAL, now=time.time, sleep=time.sleep):
+    def __init__(self, state_dir, limit=DAILY_LIMIT, interval=MIN_INTERVAL, now=time.time, sleep=time.sleep, timeout=REQUEST_TIMEOUT):
         self.dir = Path(state_dir)
-        self.limit, self.interval, self.now, self.sleep = limit, interval, now, sleep
+        self.limit, self.interval, self.now, self.sleep, self.timeout = limit, interval, now, sleep, timeout
+        self.context = None
         self.state_file = self.dir / "state.json"
         self.block_file = self.dir / "blocked.json"
         self.lock = None
@@ -101,6 +151,8 @@ class Guard:
         if self.state is None:
             raise Stop("未取得运行锁，不发送请求")
         self.check_block()
+        if self.context is not None and getattr(self.context, "default_socket", None) is None:
+            raise NetworkError("连接已丢弃，需要重新登录")
         if self.remaining() <= 0:
             raise QuotaDone(f"今日额度 {self.limit} 已用完")
         wait = self.state["last"] + self.interval - self.now()
@@ -118,6 +170,25 @@ class Guard:
         self.check_response(resp)
         return resp
 
+    def call(self, real, msg):
+        raw = self.context.default_socket
+        conn = raw if isinstance(raw, Deadline) else Deadline(raw, self.timeout)
+        self.context.default_socket = conn
+        resp = real(msg)
+        if conn.failure or resp is None:
+            self.drop()
+            raise NetworkError(conn.failure or "没有收到响应")
+        return resp
+
+    def drop(self):
+        conn, self.context.default_socket = self.context.default_socket, None
+        try:
+            conn.close()
+        except OSError:
+            pass
+
     def install(self, sock):
         real = sock.send_msg
-        sock.send_msg = lambda msg: self.send(real, msg)
+        self.context = sock.context
+        socket.setdefaulttimeout(self.timeout)  # 建立连接时也不能无限等
+        sock.send_msg = lambda msg: self.send(lambda m: self.call(real, m), msg)

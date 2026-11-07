@@ -1,9 +1,9 @@
-import json, socket, tempfile, unittest
+import json, socket, sys, tempfile, types, unittest
 from pathlib import Path
 from unittest import mock
 
 import pit_fetch
-from pit_guard import Blocked, CN, Guard, QuotaDone, Stop
+from pit_guard import Blocked, CN, Deadline, Guard, NetworkError, QuotaDone, Stop
 
 
 def message(code, text="x", tail="data"):
@@ -214,6 +214,8 @@ class FakeClient:
     def __getattr__(self, name):
         def call(*a, **k):
             self.calls.append(name)
+            if name == "login":
+                self.sock.context.default_socket = mock.Mock()
             self.sock.send_msg(name)
             return self.answer(name, a, k)
         return call
@@ -222,10 +224,130 @@ class FakeClient:
 class Sock:
     def __init__(self, reply):
         self.reply, self.sent = reply, []
+        self.context = types.SimpleNamespace()
 
     def send_msg(self, m):
         self.sent.append(m)
         return self.reply(m, len(self.sent))
+
+
+class DeadlineTest(unittest.TestCase):
+    def conn(self, *recv):
+        self.t = [0.0]
+        self.raw = mock.Mock()
+        self.raw.recv.side_effect = recv
+        return Deadline(self.raw, 60, clock=lambda: self.t[0])
+
+    def test_passes_data_and_sets_remaining_time(self):
+        c = self.conn(b"a", b"b")
+        c.send(b"m")
+        self.assertEqual(c.recv(8), b"a")
+        self.t[0] = 45
+        self.assertEqual(c.recv(8), b"b")
+        self.raw.settimeout.assert_called_with(15)
+        self.assertIsNone(c.failure)
+
+    def test_silent_server_times_out(self):
+        c = self.conn(socket.timeout())
+        c.send(b"m")
+        with self.assertRaises(NetworkError):
+            c.recv(8)
+        self.assertIn("60", c.failure)
+
+    def test_slow_trickle_stops_at_total_deadline(self):
+        c = self.conn(b"a", b"b")
+        c.send(b"m")
+        c.recv(8)
+        self.t[0] = 60
+        with self.assertRaises(NetworkError):
+            c.recv(8)
+        self.assertEqual(self.raw.recv.call_count, 1)
+
+    def test_closed_by_peer_does_not_spin(self):
+        c = self.conn(b"")
+        c.send(b"m")
+        with self.assertRaises(NetworkError):
+            c.recv(8)
+        self.assertIn("关闭", c.failure)
+
+    def test_reset_and_send_error_recorded(self):
+        c = self.conn(ConnectionResetError())
+        c.send(b"m")
+        with self.assertRaises(NetworkError):
+            c.recv(8)
+        c = self.conn()
+        self.raw.send.side_effect = BrokenPipeError()
+        with self.assertRaises(NetworkError):
+            c.send(b"m")
+        self.assertIn("发送失败", c.failure)
+
+    def test_each_request_gets_a_fresh_deadline(self):
+        c = self.conn(b"a", b"b")
+        c.send(b"m")
+        c.recv(8)
+        self.t[0] = 100
+        c.send(b"m")
+        self.assertEqual(c.recv(8), b"b")
+
+
+class GuardNetworkTest(NoNetwork):
+    def installed(self, real):
+        g = self.guard(limit=10)
+        sock = types.SimpleNamespace(send_msg=real, context=types.SimpleNamespace(default_socket=mock.Mock()))
+        old = socket.getdefaulttimeout()
+        self.addCleanup(socket.setdefaulttimeout, old)
+        g.install(sock)
+        return g, sock
+
+    def test_install_bounds_connect_time(self):
+        self.installed(lambda m: "")
+        self.assertEqual(socket.getdefaulttimeout(), 60)
+
+    def test_swallowed_failure_is_raised_and_connection_dropped(self):
+        def real(m):
+            try:
+                conn.fail("超时")
+            except NetworkError:
+                return None
+        g, sock = self.installed(real)
+        raw = sock.context.default_socket
+        conn = Deadline(raw, 60)
+        sock.context.default_socket = conn
+        with self.assertRaises(NetworkError) as e:
+            sock.send_msg("m")
+        self.assertIn("超时", str(e.exception))
+        self.assertIsNone(sock.context.default_socket)
+        raw.close.assert_called_once()
+
+    def test_none_response_is_network_error(self):
+        g, sock = self.installed(lambda m: None)
+        with self.assertRaises(NetworkError):
+            sock.send_msg("m")
+        self.assertIsNone(sock.context.default_socket)
+
+    def test_dropped_connection_sends_and_counts_nothing(self):
+        real = mock.Mock(return_value=None)
+        g, sock = self.installed(real)
+        with self.assertRaises(NetworkError):
+            sock.send_msg("m")
+        with self.assertRaises(NetworkError):
+            sock.send_msg("m")
+        self.assertEqual(real.call_count, 1)
+        self.assertEqual(g.used(), 1)
+
+    def test_good_response_keeps_connection(self):
+        g, sock = self.installed(lambda m: message("0"))
+        sock.send_msg("a")
+        first = sock.context.default_socket
+        sock.send_msg("b")
+        self.assertIs(sock.context.default_socket, first)
+        self.assertIsInstance(first, Deadline)
+
+    def test_failed_request_still_counted_and_blacklist_still_wins(self):
+        g, sock = self.installed(lambda m: message("10001011"))
+        with self.assertRaises(Blocked):
+            sock.send_msg("a")
+        self.assertEqual(g.used(), 1)
 
 
 class MainTest(NoNetwork):
@@ -331,6 +453,87 @@ class MainTest(NoNetwork):
             return Result([], "10004003", "未知") if n == "query_stock_basic" else Result()
         with self.assertRaises(Stop):
             self.run_main(answer=answer, codes=[f"sh.6000{i:02d}" for i in range(20)])
+
+    def logins(self, client):
+        return client.calls.count("login")
+
+    def run_stop(self, reply, **k):
+        """返回 Stop 时已调用的客户端方法和 sleep 记录。"""
+        seen = {}
+        real = FakeClient
+        def spy(*a):
+            seen["client"] = real(*a)
+            return seen["client"]
+        with mock.patch.object(sys.modules[__name__], "FakeClient", spy), mock.patch.object(pit_fetch, "reconnect", wraps=pit_fetch.reconnect) as rc:
+            with self.assertRaises(Stop) as e:
+                self.run_main(reply=reply, **k)
+        return seen["client"], rc, e.exception
+
+    def test_one_network_failure_waits_logs_in_once_and_continues(self):
+        sock, client, out = self.run_main(reply=lambda m, n: None if n == 2 else message("0"))
+        self.assertEqual(self.logins(client), 2)
+        self.assertFalse((out / "sh.600001.json").exists())
+        self.assertTrue((out / "sh.600002.json").exists())
+        self.assertEqual(client.calls[-1], "logout")
+
+    def test_reconnect_waits_five_minutes(self):
+        waits = []
+        with mock.patch.object(pit_fetch.time, "sleep", waits.append), mock.patch.object(pit_fetch, "bs", mock.Mock(login=Result)):
+            pit_fetch.reconnect(False)
+        self.assertEqual(waits, [300])
+
+    def test_failure_after_relogin_stops_without_third_login(self):
+        client, rc, e = self.run_stop(lambda m, n: message("0") if n in (1, 3) else None, codes=[f"sh.6000{i:02d}" for i in range(9)])
+        self.assertEqual(self.logins(client), 2)
+        self.assertEqual(rc.call_count, 2)
+        self.assertIn("再次", str(e))
+
+    def test_relogin_network_failure_stops(self):
+        client, rc, e = self.run_stop(lambda m, n: message("0") if n == 1 else None, codes=[f"sh.6000{i:02d}" for i in range(9)])
+        self.assertEqual(self.logins(client), 2)
+        self.assertEqual(rc.call_count, 1)
+        self.assertIn("重新登录失败", str(e))
+
+    def test_relogin_error_code_stops(self):
+        n = {"login": 0}
+        def answer(name, a, k):
+            if name == "login":
+                n["login"] += 1
+                return Result() if n["login"] == 1 else Result([], "10001001", "x")
+            return Result([["2000-01-01", ""]] if name == "query_stock_basic" else [])
+        with self.assertRaises(Stop):
+            self.run_main(reply=lambda m, k: None if k == 2 else message("0"), answer=answer)
+        self.assertEqual(n["login"], 2)
+
+    def test_saved_stock_clears_the_strike(self):
+        def reply(m, n):
+            if m == "query_stock_basic":
+                reply.basic += 1
+                if reply.basic in (1, 3):
+                    return None
+            return message("0")
+        reply.basic = 0
+        sock, client, out = self.run_main(reply=reply, codes=[f"sh.6000{i:02d}" for i in range(4)])
+        self.assertEqual(self.logins(client), 3)
+        self.assertTrue((out / "sh.600001.json").exists())
+        self.assertTrue((out / "sh.600003.json").exists())
+
+    def test_blacklist_at_relogin_is_not_swallowed(self):
+        with self.assertRaises(Blocked):
+            self.run_main(reply=lambda m, n: {2: None, 3: message("10001011")}.get(n, message("0")))
+        self.assertTrue((self.dir / "s/blocked.json").exists())
+
+    def test_first_login_network_failure_exits_without_retry(self):
+        with self.assertRaises(NetworkError):
+            self.run_main(reply=lambda m, n: None)
+        state = json.loads((self.dir / "s/state.json").read_text())
+        self.assertEqual(sum(state["days"].values()), 1)
+
+    def test_probe_network_failure_does_not_relogin(self):
+        with self.assertRaises(NetworkError):
+            self.run_main(reply=lambda m, n: None if n == 2 else message("0"), args=["--probe"])
+        state = json.loads((self.dir / "s/state.json").read_text())
+        self.assertEqual(sum(state["days"].values()), 2)
 
     def test_probe_is_three_messages(self):
         sock, client, _ = self.run_main(args=["--probe"])

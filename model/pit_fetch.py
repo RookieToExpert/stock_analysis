@@ -6,12 +6,15 @@
 请求限制由 pit_guard.py 执行：单进程、请求至少隔 1 秒、北京时间每天最多 4 万次。
 收到 10001011 立即退出，并写 data/pit_state/blocked.json；标记存在时不会发出任何请求。
 人工确认可以恢复后，才运行 --clear-block。
+
+单次请求 60 秒没收完、连接断开或没有响应，都算网络错误：丢弃连接，等 5 分钟，只重新登录一次。
+重新登录失败，或之后没存下一只股票就又出网络错误，进程停止，等人工决定。
 """
 import json, re, sys, time
 from datetime import date
 from pathlib import Path
 
-from pit_guard import BLACKLIST, Blocked, Guard, QuotaDone, Stop
+from pit_guard import BLACKLIST, Blocked, Guard, NetworkError, QuotaDone, Stop
 
 ROOT = Path(__file__).parent.parent
 OUT = ROOT / "data" / "pit"
@@ -20,6 +23,7 @@ START = "2016-01-01"
 FIRST_ANNUAL, LAST_YEAR, FIRST_QUARTER = 2012, 2026, 2016
 PRE_IPO_YEARS = 2
 STOCK_RESERVE = 160
+RECONNECT_WAIT = 300
 PROBE_CODE = "sh.600000"
 
 bs = None
@@ -142,6 +146,17 @@ def one(code):
     return d
 
 
+def reconnect(again):
+    if again:
+        raise Stop("重新登录后再次出现网络错误，停止，等人工决定")
+    print("wait", RECONNECT_WAIT, "s then login once", flush=True)
+    time.sleep(RECONNECT_WAIT)
+    try:
+        login()
+    except (NetworkError, RuntimeError) as e:
+        raise Stop(f"重新登录失败，停止，等人工决定：{e!r}")
+
+
 def download(args):
     OUT.mkdir(parents=True, exist_ok=True)
     codes = sorted({c for xs in universe().values() for c in xs})
@@ -149,7 +164,7 @@ def download(args):
     if "--limit" in args:
         todo = todo[:int(args[args.index("--limit") + 1])]
     print("codes", len(codes), "todo", len(todo), "used today", guard.used(), flush=True)
-    t0, bad = time.time(), 0
+    t0, bad, net_failed = time.time(), 0, False
     for n, c in enumerate(todo, 1):
         if guard.remaining() < STOCK_RESERVE:
             raise QuotaDone(f"今日剩余 {guard.remaining()} 次，不足一只股票，停止")
@@ -158,7 +173,11 @@ def download(args):
             tmp = OUT / f"{c}.tmp"
             tmp.write_text(json.dumps(d, ensure_ascii=False))
             tmp.rename(OUT / f"{c}.json")
-            bad = 0
+            bad, net_failed = 0, False
+        except NetworkError as e:
+            print("network fail", c, repr(e)[:120], flush=True)
+            reconnect(net_failed)
+            net_failed = True
         except Exception as e:
             bad += 1
             print("fail", c, repr(e)[:120], flush=True)
