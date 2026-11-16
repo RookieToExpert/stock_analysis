@@ -36,3 +36,15 @@ class BalanceVerification(unittest.TestCase):
         self.assertTrue(evaluate(d)['metrics']['invest_vs_paid'])
         d['financing_verification']['end_year']=2025
         self.assertIsNone(evaluate(d)['metrics']['invest_vs_paid'])
+
+    def test_financing_evidence_before_window_end_rejected(self):
+        d=self.data();d['financing_verification']=dict(parent_equity_financing=0,complete=True,
+            includes_noncash=True,excludes_minority=True,source='issuance-event-ledger',
+            start_year=2020,end_year=2024,available_date='2023-12-31')
+        self.assertIsNone(evaluate(d)['metrics']['invest_vs_paid'])
+
+    def test_negative_complete_debt_not_verified(self):
+        d=self.data();d['bs']['debt']=-100
+        d['balance_verification']=dict(available_cash=0,complete_interest_debt=-1,
+            statement_date='2025-12-31',available_date='2026-04-30',source='bad-amount')
+        self.assertIsNone(evaluate(d)['metrics']['net_cash'])

@@ -9,6 +9,7 @@ from datetime import date,timedelta
 from decimal import Decimal
 from pathlib import Path
 from total_return import analyze,CoverageError
+from action_verification import apply_verified_actions
 
 _CACHE={}
 _LOCK=threading.Lock()
@@ -89,6 +90,7 @@ def reconstruct(code,as_of,dividends,cal,root):
     if sorted(dates)!=cal['dates']:raise CoverageError('daily data does not cover independent calendar')
     overlays=action_rows(dividends,code,as_of,cal['start'],cal['end'])
     data=copy.deepcopy(data);data.setdefault('dividend',[]).extend(overlays)
+    verified_actions=apply_verified_actions(data,as_of)
     calculation=analyze(data,cal['start'],cal['end'])
     series=calculation['series'];m=calculation['metrics'];monthly={}
     for r in series:monthly[r['date'][:7]]=r['index']
@@ -100,6 +102,9 @@ def reconstruct(code,as_of,dividends,cal,root):
             'reason':'cash/bonus model and input consistency checked; full issuer audit pending',
             'source':{'local_sha256':hashlib.sha256(raw).hexdigest(),'fetched':data.get('fetched'),
                       'calendar':cal,'overlays':overlays,'events':calculation['events'],
+                      'redundant_adjustment_dates':calculation['redundant_adjustment_dates'],
+                      'adjustments':data.get('adjust',[]),
+                      'verified_actions':verified_actions,
                       'daily':[r for r in data['daily'] if cal['start']<=r['date']<=cal['end']]}}
 
 

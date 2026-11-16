@@ -1,0 +1,13 @@
+[
+  {
+    "code": "sh.600007",
+    "ex_date": "2024-06-24",
+    "available_date": "2024-06-18",
+    "expected_cash": ["0.8", "0.5"],
+    "cash": "1.3",
+    "shares": "0",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-06-18/1220377252.PDF",
+    "pages": [1, 2],
+    "reason": "2023年度及特别权益分派合计每股1.30元；原下载仅记录年度0.80元，遗漏特别0.50元。"
+  }
+]

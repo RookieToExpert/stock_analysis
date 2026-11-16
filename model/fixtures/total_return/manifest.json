@@ -16,5 +16,11 @@
     "fetched": "2026-11-07",
     "retained_start": "2023-10-31",
     "retained_end": "2026-10-30"
+  },
+  "sh.600012": {
+    "download_sha256": "3d9845686c43abd851e57d6479b5e63a7593581d45d8236f01e112bede719dbb",
+    "retained_start": "2023-10-31",
+    "retained_end": "2026-10-30",
+    "purpose": "unchanged cumulative factor regression"
   }
 }

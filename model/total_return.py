@@ -11,6 +11,8 @@ class CoverageError(ValueError):
 
 
 def number(value, label):
+    if isinstance(value, bool):
+        raise CoverageError('boolean '+label)
     try:
         x=float(value)
     except (ValueError,TypeError):
@@ -18,6 +20,32 @@ def number(value, label):
     if not math.isfinite(x):
         raise CoverageError('nonfinite '+label)
     return x
+
+
+def redundant_adjustment_dates(snapshot, events):
+    """仅识别已知事件之后、前后复权累计因子均未变化的重复记录。"""
+    ignored = []
+    previous = None
+    anchored = False
+    for row in sorted(snapshot.get('adjust', []), key=lambda r: r.get('dividOperateDate', '')):
+        day = row.get('dividOperateDate', '')
+        factors = []
+        for field in ('foreAdjustFactor', 'backAdjustFactor'):
+            try:
+                value = number(row.get(field), field)
+                factors.append(value if value > 0 else None)
+            except CoverageError:
+                factors.append(None)
+        unchanged = (previous is not None and day > previous[0]
+                     and None not in factors and factors == previous[1])
+        if day in events:
+            anchored = True
+        elif anchored and unchanged:
+            ignored.append(day)
+        else:
+            anchored = False
+        previous = (day, factors)
+    return ignored
 
 
 def events_from_snapshot(snapshot, start, end):
@@ -43,9 +71,10 @@ def events_from_snapshot(snapshot, start, end):
         if day in events and events[day]!=e:
             raise CoverageError('conflicting events '+day)
         events[day]=e
+    redundant = set(redundant_adjustment_dates(snapshot, events))
     for r in snapshot.get('adjust',[]):
         day=r.get('dividOperateDate','')
-        if start < day <= end and day not in events:
+        if start < day <= end and day not in events and day not in redundant:
             raise CoverageError('adjustment without corporate action '+day)
     return events
 
@@ -100,4 +129,5 @@ def analyze(snapshot, start, end):
     series=build(snapshot['daily'],events,start,end)
     return {'assumption':'gross-ex-date-close-reinvestment-v1','start':start,'end':end,
             'events':events,'series':series,'metrics':risk(series),
+            'redundant_adjustment_dates':[d for d in redundant_adjustment_dates(snapshot,events) if start<d<=end],
             'validation':'internal consistency only; official announcement audit required'}

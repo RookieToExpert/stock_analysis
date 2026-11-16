@@ -73,3 +73,9 @@ price_risk.basis 可为 eastmoney-fqt1 或 tencent-qfq；两源都失败则为 N
 `data_checks_passed=true` 不等于公告全量审计通过，后者 `total_return_verified=false` 仍保留。当前研究主名单要求重建成功；无法重建则保留价格代理和 reconstruction_failure，`risk_eligible=false`，不参与新主名单的波动率门槛计算。旧快照无该字段时维持旧排名。
 
 本地来源由 STOCK_ANALYSIS_PIT_DIR 指定，默认仓库 data/pit，只读不联网Baostock。网络补充来源继续显式禁用代理。新输入/结果含 calculation_revision=2026-11-16-r4，筛选输出 manifest 校验同日期、同修订；不兼容旧目录续跑。证据与剩余门槛见 [本次验收](../results/default-pipeline-2026-11-16/README.md)。
+
+## 2026-11-16-r5 重复因子及公告纠正
+
+默认修订升为r5。对已知公司行动之后、前后复权累计因子均未变的重复记录，仅跳过其“缺事件”误报，仍校验逐日参考价。source新增 adjustments、redundant_adjustment_dates、verified_actions，以保存原始因子、忽略日期及公告纠正前记录。
+
+model/verified_actions.json只容纳已核对发行人公告的精确纠正，按证券、除息日、预期旧金额、零送转及非未来可用日匹配，未知冲突不得覆盖。现有一项为600007的2024-06-24特别分红漏记；并非通用自动判定。融资核验available_date须不早于窗口结束年年底，完整有息负债须非负。详见 [扩大样本验收](../results/expanded-risk-2026-11-16/README.md)。

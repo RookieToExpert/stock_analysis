@@ -201,7 +201,7 @@ def metrics(d):
                 and verified.get("available_date") and verified["available_date"] <= d.get("as_of", "")
                 and available is not None and complete_debt is not None
                 and cash is not None and debt is not None
-                and 0 <= available <= cash and complete_debt >= debt):
+                and 0 <= available <= cash and complete_debt >= max(0, debt)):
             net_cash = available >= complete_debt
     np5 = sum(r["np"] for r in y) if complete("np") else None
     np_all5 = sum(r["np_all"] for r in y) if complete("np_all") else None
@@ -218,8 +218,10 @@ def metrics(d):
         evidence = d.get("financing_verification") or {}
         amount = _n(evidence.get("parent_equity_financing"))
         try:
-            available = date.fromisoformat(evidence.get("available_date", "")) <= date.fromisoformat(d["as_of"])
-        except (ValueError, TypeError):
+            available = (len(dy) == 5 and date(int(dy[0]["year"]), 12, 31)
+                         <= date.fromisoformat(evidence.get("available_date", ""))
+                         <= date.fromisoformat(d["as_of"]))
+        except (ValueError, TypeError, KeyError):
             available = False
         if (available and amount is not None and amount >= 0 and evidence.get("complete") is True
                 and evidence.get("includes_noncash") is True and evidence.get("excludes_minority") is True

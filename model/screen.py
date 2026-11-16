@@ -10,7 +10,7 @@ from rules import FINANCIAL
 from score import evaluate, fetch, get, CALCULATION_REVISION
 
 FS = "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23"  # 沪深主板、创业板、科创板，不含北交所
-OUT = Path(__file__).parent.parent / "results" / f"{datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat()}-v0.3.3-r4"
+OUT = Path(__file__).parent.parent / "results" / f"{datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat()}-v0.3.3-{CALCULATION_REVISION.rsplit('-', 1)[-1]}"
 if "--out" in sys.argv:
     OUT = Path(sys.argv[sys.argv.index("--out") + 1])
 
