@@ -31,3 +31,5 @@ cd model && python3 -m unittest
 **验证通过前，分数只供研究，不能当作已证明能赚钱的买入信号。**
 
 本仓库内容用于个人研究，不构成投资建议。
+
+- [v0.3.3 修复范围与验收](docs/evidence/v0.3.3_repair.md)（codex 分支；未替换运行中的 main 下载任务）

@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """用法：python3 model/score.py 002749 600519 ...  数据源：东方财富、腾讯行情，只读。"""
 import json, sys, time, urllib.request
+from datetime import datetime
+from zoneinfo import ZoneInfo
+from rules import recent_details
+import score_v032
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from rules import MANUAL, fiscal_dividends, recent_from_rows, action, blue_chip, grade, metrics, missing_fields, recent_state, score, state_unknown, vetoes, warnings
@@ -91,7 +95,7 @@ def fetch(code, quote=None):
                       "np": r.get("PARENTNETPROFIT"), "np_all": c.get("NETPROFIT"), "kf": r.get("KCFJCXSYJLR"),
                       "roic": r.get("ROIC"), "roe": r.get("ROEJQ"), "gm": r.get("XSMLL"),
                       "ocf": c.get("NETCASH_OPERATE"), "capex": c.get("CONSTRUCT_LONG_ASSET"),
-                      "invest": c.get("ACCEPT_INVEST_CASH") or 0, **{k: fy.get(r["REPORT_DATE"][:4], {"paid": None, "status": "未知"})[v]
+                      "invest": c.get("ACCEPT_INVEST_CASH"), **{k: fy.get(r["REPORT_DATE"][:4], {"paid": None, "status": "未知"})[v]
                          for k, v in (("paid", "paid"), ("paid_status", "status"))}})
     ttm, kf_yoy, gm_delta = recent_from_rows(main)
     b = bal[0] if bal else {}
@@ -104,7 +108,8 @@ def fetch(code, quote=None):
     # 批量筛选时由全市场列表传入 quote，避免逐只请求行情接口
     q = quote or get(f"https://push2.eastmoney.com/api/qt/stock/get?secid={1 if sh else 0}.{code}"
                      "&fields=f43,f58,f116,f127")["data"]
-    return {"code": code, "name": q.get("f58"), "industry": q.get("f127"), "price": q["f43"] / 100,
+    return {"model_version": "0.3.3", "as_of": datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat(),
+            **recent_details(main), "code": code, "name": q.get("f58"), "industry": q.get("f127"), "price": q["f43"] / 100,
             "mv": q.get("f116"), "ttm_np": ttm, "kf_yoy": kf_yoy, "gm_delta": gm_delta, "bs": bs, "years": years,
             **dict(zip(("high36", "vol", "closes"), price_stats(code))),
             "source": {"main": [pick(r, MAIN_FIELDS) for r in main[:24]],
@@ -128,11 +133,15 @@ def price_stats(code):
 
 def evaluate(d):
     """fetch 结果 -> 输出记录。分数档、近期状态、人工项分开。"""
+    if d.get("model_version") is None or d.get("model_version") == "0.3.2":
+        return score_v032.evaluate(d)
+    if d["model_version"] != "0.3.3":
+        raise ValueError("Unsupported model_version")
     m = metrics(d)
     v, s, miss = vetoes(d, m), score(m), missing_fields(d)
     st, w, unk = recent_state(m), warnings(m), state_unknown(m)
     g = grade(s["总分"], v, miss)
-    return {"code": d["code"], "name": d["name"], "industry": d["industry"], "price": d["price"], "mv": d["mv"], **s,
+    return {"model_version": "0.3.3", "as_of": d["as_of"], "code": d["code"], "name": d["name"], "industry": d["industry"], "price": d["price"], "mv": d["mv"], **s,
             "等级": g, "数据状态": "待核查" if miss else "完整", "动作": action(g, st, w, unk), "蓝筹条件": blue_chip(d["mv"], m), "排雷": v, "缺数据": miss,
             "近期状态": st, "状态未知": unk, "人工警示": w, "人工核查": {k: "未查" for k in MANUAL}, "metrics": m}
 

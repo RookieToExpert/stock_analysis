@@ -3,7 +3,7 @@
 未知用 None，真实的 0 用 0。缺数据不得分，也不能进入“合格”。
 """
 FINANCIAL = ("银行", "保险", "证券", "多元金融")
-CORE_YEAR = ("rev", "np", "np_all", "kf", "roe", "gm", "ocf", "capex", "paid")
+CORE_YEAR = ("rev", "np", "np_all", "kf", "roe", "gm", "ocf", "capex")
 CORE_BS = ("assets", "liab", "equity", "cash", "debt", "goodwill")
 MANUAL = ("审计意见", "立案/处罚", "质押", "减持", "资金占用/担保")
 BLUE_MV = 200e8
@@ -101,6 +101,51 @@ def clean_years(years):
     return out
 
 
+def dividend_years(d):
+    """固定窗口，不跳过零分红或未知年份。7月1日前止于前年，否则去年。"""
+    if d.get("model_version") != "0.3.3":
+        return clean_years(d.get("years") or [])
+    from datetime import date
+    day = date.fromisoformat(d["as_of"])
+    end = day.year - (2 if day.month < 7 else 1)
+    by = {int(x["year"]): x for x in d.get("years", [])}
+    return [by.get(y, {"year": str(y)}) for y in range(end, end - 5, -1)]
+
+
+def recent_details(rows):
+    """累计/单季同时观察；非正基期不用百分比掩盖亏损扩大。"""
+    by = {r["REPORT_DATE"][:10]: r for r in rows}
+    if not by:
+        return {"quarter_kf_yoy": None, "profit_deterioration": [], "quarter_known": False}
+    day = max(by)
+    year, tail = int(day[:4]), day[4:]
+    value = lambda y, t: _n(by.get(f"{y}{t}", {}).get("KCFJCXSYJLR"))
+    now, prev = value(year, tail), value(year - 1, tail)
+    alerts = []
+    def assess(a, b, label):
+        if a is None or b is None:
+            return None
+        if b <= 0 and a < b:
+            alerts.append(label + "亏损扩大")
+        elif b > 0 and a < 0:
+            alerts.append(label + "由盈转亏")
+        return (a / b - 1) * 100 if b > 0 else None
+    assess(now, prev, "累计扣非")
+    preceding = {"-03-31": None, "-06-30": "-03-31", "-09-30": "-06-30", "-12-31": "-09-30"}
+    if tail not in preceding:
+        a = b = None
+    elif preceding[tail] is None:
+        a, b = now, prev
+    else:
+        n0, p0 = value(year, preceding[tail]), value(year - 1, preceding[tail])
+        a = now - n0 if None not in (now, n0) else None
+        b = prev - p0 if None not in (prev, p0) else None
+    yoy = assess(a, b, "单季扣非")
+    return {"quarter_kf_yoy": yoy, "profit_deterioration": alerts,
+            "quarter_known": a is not None and b is not None,
+            "quarter_kf": a, "quarter_kf_prev": b}
+
+
 def missing_fields(d):
     """核心字段覆盖检查，返回缺失项；非空即数据不足。"""
     y = clean_years(d.get("years") or [])
@@ -111,6 +156,11 @@ def missing_fields(d):
         n = sum(1 for r in y if _n(r.get(k)) is None)
         if n:
             out.append(f"{k}缺{n}年")
+    dy = dividend_years(d)
+    for key in ("paid", "np", "invest"):
+        n = sum(_n(x.get(key)) is None for x in dy)
+        if n:
+            out.append(f"分红窗口{key}缺{n}年")
     bs = d.get("bs") or {}
     out += [f"资产负债表缺{k}" for k in CORE_BS if _n(bs.get(k)) is None]
     for k, label in (("ttm_np", "TTM利润"), ("mv", "市值")):
@@ -132,7 +182,10 @@ def metrics(d):
     np_all5 = sum(r["np_all"] for r in y) if complete("np_all") else None
     ocf5 = sum(r["ocf"] for r in y) if complete("ocf") else None
     fcf_avg = (ocf5 - sum(r["capex"] for r in y)) / 5 if complete("ocf", "capex") else None
-    paid5 = sum(r["paid"] for r in y) if complete("paid") else None
+    dy = dividend_years(d)
+    dc = lambda key: len(dy) == 5 and all(_n(x.get(key)) is not None for x in dy)
+    paid5 = sum(x["paid"] for x in dy) if dc("paid") else None
+    div_np5 = sum(x["np"] for x in dy) if dc("np") else None
     roes, gms = (vals("roe"), vals("gm"))
     sustainable = None
     if mv and fcf_avg is not None and paid5 is not None and ttm is not None:
@@ -149,9 +202,9 @@ def metrics(d):
         "ep_norm": sum(r["kf"] for r in y) / 5 / mv * 100 if complete("kf") and mv else None,
         "fcf_yield": fcf_avg / mv * 100 if fcf_avg is not None and mv else None,
         "sust_yield": sustainable,
-        "paid_years": sum(1 for r in y if (_n(r.get("paid")) or 0) > 0) if complete("paid") else None,
-        "payout": paid5 / np5 * 100 if paid5 is not None and np5 and np5 > 0 else None,
-        "invest_vs_paid": sum(r.get("invest") or 0 for r in y) <= paid5 if paid5 is not None else None,
+        "paid_years": sum(x["paid"] > 0 for x in dy) if dc("paid") else None,
+        "payout": paid5 / div_np5 * 100 if paid5 is not None and div_np5 and div_np5 > 0 else None,
+        "invest_vs_paid": sum(x["invest"] for x in dy) <= paid5 if paid5 is not None and dc("invest") else None,
         "debt_ratio": liab / assets * 100 if liab is not None and assets else None,
         "net_cash": cash >= debt if cash is not None and debt is not None else None,
         "gw_ratio": gw / eq * 100 if gw is not None and eq and eq > 0 else None,
@@ -164,6 +217,8 @@ def metrics(d):
         "gm_delta": _n(d.get("gm_delta")),
         "drawdown": (1 - d["price"] / d["high36"]) * 100 if _n(d.get("price")) and _n(d.get("high36")) else None,
         "vol": _n(d.get("vol")),
+        **({k: d.get(k) for k in ("quarter_kf_yoy", "profit_deterioration", "quarter_known")}
+           if "quarter_known" in d else {}),
     }
 
 
@@ -196,6 +251,9 @@ def warnings(m):
 def recent_state(m):
     """近期状态：只放基本面恶化和股价大跌。"""
     out = []
+    out.extend(m.get("profit_deterioration") or [])
+    if m.get("quarter_kf_yoy") is not None and m["quarter_kf_yoy"] <= -20:
+        out.append(f"单季扣非同比{m['quarter_kf_yoy']:.0f}%")
     if m["kf_yoy"] is not None and m["kf_yoy"] <= -20:
         out.append(f"扣非利润同比{m['kf_yoy']:.0f}%")
     if m["gm_delta"] is not None and m["gm_delta"] <= -3:
@@ -206,7 +264,7 @@ def recent_state(m):
 
 
 def state_unknown(m):
-    return [k for k, label in (("kf_yoy", "利润同比"), ("gm_delta", "毛利率同比"), ("drawdown", "回撤")) if m[k] is None]
+    return [k for k, label in (("kf_yoy", "利润同比"), ("gm_delta", "毛利率同比"), ("drawdown", "回撤")) if m[k] is None] + (["quarter_kf"] if m.get("quarter_known") is False else [])
 
 
 def score(m):
