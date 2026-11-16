@@ -40,14 +40,14 @@ def pick(row, fields):
     return {k: row.get(k) for k in fields}
 
 
-def get(url):
+def get(url, attempts=5):
     # CDN 偶有不通的节点，短超时重试比长时间等待更快
-    for i in range(5):
+    for i in range(attempts):
         try:
             req = urllib.request.Request(url, headers=HDR)
             return json.load(OPENER.open(req, timeout=8))
         except Exception:
-            if i == 4:
+            if i == attempts - 1:
                 raise
             time.sleep(1 + i)
 
@@ -128,12 +128,37 @@ def fetch(code, quote=None):
 
 
 def fetch_price_risk(code, as_of):
-    url = (f"https://push2his.eastmoney.com/api/qt/stock/kline/get?secid={1 if code.startswith('6') else 0}.{code}"
-           f"&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55&klt=103&fqt=1&end={as_of.replace('-', '')}&lmt=38")
-    response = get(url)
-    raw = (response.get("data") or {}).get("klines") or []
-    result = calculate_price_risk(raw, as_of)
-    result.update(source_url=url, raw_klines=raw)
+    """整条序列切换来源，不拼接。所有请求由无代理 OPENER 发出。"""
+    market = 'sh' if code.startswith('6') else 'sz'
+    primary = (f"https://push2his.eastmoney.com/api/qt/stock/kline/get?secid={1 if market == 'sh' else 0}.{code}"
+               f"&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55&klt=103&fqt=1&end={as_of.replace('-', '')}&lmt=38")
+    fallback = f"https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param={market}{code},month,,{as_of},40,qfq"
+    failures = []
+    for vendor, url in (("eastmoney-fqt1", primary), ("tencent-qfq", fallback)):
+        raw = []
+        try:
+            response = get(url, attempts=2)
+            if vendor == "eastmoney-fqt1":
+                payload = response.get("data") or {}
+                if payload.get("code") != code:
+                    raise ValueError("unexpected security code")
+                raw = payload.get("klines") or []
+            else:
+                if response.get("code") != 0:
+                    raise ValueError("Tencent response error")
+                payload = (response.get("data") or {}).get(market + code) or {}
+                # 不接受 month/hfqmonth 代替明确要求的 qfqmonth。
+                raw = [",".join(map(str, row[:5])) for row in payload.get("qfqmonth", [])]
+            result = calculate_price_risk(raw, as_of)
+            if result["status"] != "proxy":
+                raise ValueError(result["reason"])
+            result.update(basis=vendor, source_url=url, raw_klines=raw, source_failures=failures)
+            return result
+        except (OSError, ValueError, TypeError, KeyError, IndexError) as exc:
+            failures.append({"basis": vendor, "error": f"{type(exc).__name__}: {exc}",
+                             "source_url": url, "raw_klines": raw})
+    result = calculate_price_risk([], as_of)
+    result.update(basis=None, reason="all price sources unavailable or invalid", source_failures=failures)
     return result
 
 

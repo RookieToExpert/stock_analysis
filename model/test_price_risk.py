@@ -57,3 +57,35 @@ class BalanceCoverage(unittest.TestCase):
     def test_unlisted_lease_in_existing_statement(self):
         from score import balance_metrics
         self.assertEqual(balance_metrics({'LEASE_LIAB':None})['debt'],0)
+
+
+class PriceSourceFallback(unittest.TestCase):
+    def test_network_error_switches_whole_series(self):
+        from unittest.mock import patch
+        from http.client import RemoteDisconnected
+        from score import fetch_price_risk
+        tx={'code':0,'data':{'sh601919':{'qfqmonth':[r.split(',') for r in bars()]}}}
+        with patch('score.get', side_effect=[RemoteDisconnected('closed'),tx]) as getter:
+            r=fetch_price_risk('601919','2026-11-16')
+        self.assertEqual(r['basis'],'tencent-qfq')
+        self.assertEqual(r['raw_klines'],bars())
+        self.assertEqual(len(r['source_failures']),1)
+        self.assertEqual(getter.call_count,2)
+
+    def test_primary_success_does_not_query_fallback(self):
+        from unittest.mock import patch
+        from score import fetch_price_risk
+        with patch('score.get',return_value={'data':{'code':'601919','klines':bars()}}) as getter:
+            r=fetch_price_risk('601919','2026-11-16')
+        self.assertEqual(r['basis'],'eastmoney-fqt1')
+        self.assertEqual(getter.call_count,1)
+
+    def test_no_unadjusted_substitution_and_no_crash(self):
+        from unittest.mock import patch
+        from score import fetch_price_risk
+        with patch('score.get',side_effect=[ValueError('bad response'),{'code':0,'data':{'sh601919':{'month':[r.split(',') for r in bars()]}}}]):
+            r=fetch_price_risk('601919','2026-11-16')
+        self.assertEqual(r['status'],'unknown')
+        self.assertIsNone(r['drawdown'])
+        self.assertIsNone(r['vol'])
+        self.assertEqual(len(r['source_failures']),2)
