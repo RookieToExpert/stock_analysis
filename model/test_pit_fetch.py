@@ -3,7 +3,7 @@ from pathlib import Path
 from unittest import mock
 
 import pit_fetch
-from pit_guard import Blocked, CN, Deadline, Guard, NetworkError, QuotaDone, Stop
+from pit_guard import Blocked, CN, ConnectFailed, Deadline, Guard, NetworkError, QuotaDone, Stop
 
 
 def message(code, text="x", tail="data"):
@@ -349,6 +349,47 @@ class GuardNetworkTest(NoNetwork):
             sock.send_msg("a")
         self.assertEqual(g.used(), 1)
 
+    def with_connect(self, connected):
+        """仿照客户端 SocketUtil.connect：连不上也照样把 socket 设成默认连接。"""
+        raw = mock.Mock()
+        if not connected:
+            raw.getpeername.side_effect = OSError(107, "Transport endpoint is not connected")
+        ctx = types.SimpleNamespace(default_socket=None)
+        class Util:
+            def connect(self, key):
+                ctx.default_socket = raw
+        real = mock.Mock(return_value=message("0"))
+        sock = types.SimpleNamespace(send_msg=real, context=ctx, SocketUtil=Util)
+        g = self.guard(limit=10)
+        self.addCleanup(socket.setdefaulttimeout, socket.getdefaulttimeout())
+        g.install(sock)
+        return g, sock, raw, real
+
+    def test_unconnected_socket_raises_connect_failed_and_sends_nothing(self):
+        g, sock, raw, real = self.with_connect(False)
+        with self.assertRaises(ConnectFailed):
+            sock.SocketUtil().connect("0")
+        self.assertIsNone(sock.context.default_socket)
+        raw.close.assert_called_once()
+        with self.assertRaises(NetworkError):
+            sock.send_msg("login")
+        real.assert_not_called()
+        self.assertEqual(g.used(), 0)
+
+    def test_connected_socket_passes_through(self):
+        g, sock, raw, real = self.with_connect(True)
+        sock.SocketUtil().connect("0")
+        self.assertIs(sock.context.default_socket, raw)
+        sock.send_msg("login")
+        self.assertEqual(g.used(), 1)
+
+    def test_connect_refused_while_blocked(self):
+        g, sock, raw, real = self.with_connect(True)
+        g.block_file.write_text("{}")
+        with self.assertRaises(Blocked):
+            sock.SocketUtil().connect("0")
+        self.assertIsNone(sock.context.default_socket)
+
 
 class MainTest(NoNetwork):
     def run_main(self, reply=lambda m, n: message("0"), answer=None, args=(), limit=40000, codes=("sh.600001", "sh.600002")):
@@ -481,6 +522,64 @@ class MainTest(NoNetwork):
         with mock.patch.object(pit_fetch.time, "sleep", waits.append), mock.patch.object(pit_fetch, "bs", mock.Mock(login=Result)):
             pit_fetch.reconnect(False)
         self.assertEqual(waits, [300])
+
+    def reconnect_with(self, logins):
+        """logins: 每次 login 的结果，异常就抛出，其余当返回值。返回 (sleep 记录, login 次数, 异常)。"""
+        waits, it = [], iter(logins)
+        def login():
+            x = next(it)
+            if isinstance(x, BaseException):
+                raise x
+            return x
+        pit_fetch.guard = mock.Mock(block=mock.Mock())
+        bs = mock.Mock(login=mock.Mock(side_effect=login))
+        err = None
+        with mock.patch.object(pit_fetch.time, "sleep", waits.append), mock.patch.object(pit_fetch, "bs", bs):
+            try:
+                pit_fetch.reconnect(False)
+            except Stop as e:
+                err = e
+        return waits, bs.login.call_count, err
+
+    def test_connect_failure_backs_off_then_recovers(self):
+        cf = ConnectFailed("连不上")
+        waits, n, err = self.reconnect_with([cf, cf, Result()])
+        self.assertIsNone(err)
+        self.assertEqual(waits, [300, 600, 1200])
+        self.assertEqual(n, 3)
+
+    def test_connect_failure_every_time_stops_after_four(self):
+        waits, n, err = self.reconnect_with([ConnectFailed("x")] * 10)
+        self.assertEqual(waits, list(pit_fetch.RECONNECT_WAITS))
+        self.assertEqual(n, 4)
+        self.assertIn("连不上服务器", str(err))
+
+    def test_login_failure_after_tcp_connects_still_stops_at_once(self):
+        waits, n, err = self.reconnect_with([ConnectFailed("x"), NetworkError("发送失败")])
+        self.assertEqual(n, 2)
+        self.assertEqual(waits, [300, 600])
+        self.assertIn("重新登录失败", str(err))
+        waits, n, err = self.reconnect_with([Result([], "10001001", "x")])
+        self.assertEqual(n, 1)
+        self.assertIn("重新登录失败", str(err))
+
+    def test_blacklist_during_backoff_not_swallowed(self):
+        waits, n, err = self.reconnect_with([ConnectFailed("x"), Blocked("10001011"), Result()])
+        self.assertIsInstance(err, Blocked)
+        self.assertEqual(n, 2)
+
+    def test_connect_failure_mid_run_then_continues(self):
+        state = {"n": 0}
+        def answer(name, a, k):
+            if name == "login":
+                state["n"] += 1
+                if state["n"] in (2, 3):
+                    raise ConnectFailed("连不上")
+            return Result([["2000-01-01", ""]] if name == "query_stock_basic" else [])
+        sock, client, out = self.run_main(reply=lambda m, n: None if n == 2 else message("0"), answer=answer)
+        self.assertEqual(state["n"], 4)
+        self.assertFalse((out / "sh.600001.json").exists())
+        self.assertTrue((out / "sh.600002.json").exists())
 
     def test_failure_after_relogin_stops_without_third_login(self):
         client, rc, e = self.run_stop(lambda m, n: message("0") if n in (1, 3) else None, codes=[f"sh.6000{i:02d}" for i in range(9)])

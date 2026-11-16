@@ -38,6 +38,14 @@ class NetworkError(Exception):
     """请求超时、连接断开或没有响应。这条连接已被丢弃，要重新登录才能再发请求。"""
 
 
+class ConnectFailed(NetworkError):
+    """TCP 连接都没建立，没有发出任何请求，也不计数。
+
+    客户端 SocketUtil.connect 连不上时只打印一句，仍把没连上的 socket 设为默认连接，
+    随后 login 往里写就变成 BrokenPipe。闸门在 connect 之后检查，连不上就直接抛这个。
+    """
+
+
 class Deadline:
     """包住真实连接：一次请求从发送到收完不超过 timeout 秒，对方关闭连接按失败算。
 
@@ -187,8 +195,27 @@ class Guard:
         except OSError:
             pass
 
+    def connect(self, real, util, *a, **k):
+        """调用客户端的 connect，再确认 socket 真的连上了；没连上就丢弃并抛 ConnectFailed。"""
+        self.check_block()
+        real(util, *a, **k)
+        conn = getattr(self.context, "default_socket", None)
+        try:
+            conn.getpeername()
+        except (OSError, AttributeError):
+            self.context.default_socket = None
+            try:
+                conn.close()
+            except (OSError, AttributeError):
+                pass
+            raise ConnectFailed("连不上服务器（TCP 连接未建立），没有发出请求")
+
     def install(self, sock):
         real = sock.send_msg
         self.context = sock.context
         socket.setdefaulttimeout(self.timeout)  # 建立连接时也不能无限等
         sock.send_msg = lambda msg: self.send(lambda m: self.call(real, m), msg)
+        util = getattr(sock, "SocketUtil", None)
+        if util is not None:
+            real_connect = util.connect
+            util.connect = lambda this, *a, **k: self.connect(real_connect, this, *a, **k)

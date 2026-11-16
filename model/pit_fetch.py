@@ -7,14 +7,15 @@
 收到 10001011 立即退出，并写 data/pit_state/blocked.json；标记存在时不会发出任何请求。
 人工确认可以恢复后，才运行 --clear-block。
 
-单次请求 60 秒没收完、连接断开或没有响应，都算网络错误：丢弃连接，等 5 分钟，只重新登录一次。
-重新登录失败，或之后没存下一只股票就又出网络错误，进程停止，等人工决定。
+单次请求 60 秒没收完、连接断开或没有响应，都算网络错误：丢弃连接，等 5 分钟后重新登录。
+重新登录时如果连 TCP 都建不起来（没发出请求），按 5/10/20/40 分钟加长等待再试，最多 4 次。
+TCP 连上但登录失败、4 次都连不上，或之后没存下一只股票就又出网络错误，进程停止，等人工决定。
 """
 import json, re, sys, time
 from datetime import date
 from pathlib import Path
 
-from pit_guard import BLACKLIST, Blocked, Guard, NetworkError, QuotaDone, Stop
+from pit_guard import BLACKLIST, Blocked, ConnectFailed, Guard, NetworkError, QuotaDone, Stop
 
 ROOT = Path(__file__).parent.parent
 OUT = ROOT / "data" / "pit"
@@ -23,7 +24,7 @@ START = "2016-01-01"
 FIRST_ANNUAL, LAST_YEAR, FIRST_QUARTER = 2012, 2026, 2016
 PRE_IPO_YEARS = 2
 STOCK_RESERVE = 160
-RECONNECT_WAIT = 300
+RECONNECT_WAITS = (300, 600, 1200, 2400)
 PROBE_CODE = "sh.600000"
 
 bs = None
@@ -147,14 +148,24 @@ def one(code):
 
 
 def reconnect(again):
+    """断线后重新登录。
+
+    TCP 连不上（ConnectFailed）时没有发出请求，按 RECONNECT_WAITS 逐次加长等待再试；
+    全部用完仍连不上就停止。TCP 连上了但登录失败，仍然立刻停止，等人工决定。
+    """
     if again:
         raise Stop("重新登录后再次出现网络错误，停止，等人工决定")
-    print("wait", RECONNECT_WAIT, "s then login once", flush=True)
-    time.sleep(RECONNECT_WAIT)
-    try:
-        login()
-    except (NetworkError, RuntimeError) as e:
-        raise Stop(f"重新登录失败，停止，等人工决定：{e!r}")
+    for i, wait in enumerate(RECONNECT_WAITS, 1):
+        print("wait", wait, f"s then login ({i}/{len(RECONNECT_WAITS)})", flush=True)
+        time.sleep(wait)
+        try:
+            login()
+            return
+        except ConnectFailed as e:
+            print("connect fail", repr(e)[:120], flush=True)
+        except (NetworkError, RuntimeError) as e:
+            raise Stop(f"重新登录失败，停止，等人工决定：{e!r}")
+    raise Stop(f"连续 {len(RECONNECT_WAITS)} 次连不上服务器（共等 {sum(RECONNECT_WAITS)} 秒），停止，等人工决定")
 
 
 def download(args):
