@@ -77,7 +77,7 @@ def balance_metrics(b):
         raise SchemaError("资产负债表缺字段: LEASE_LIAB")
     # 报表行存在时，借款和商誉的空值表示未列示；报表整行缺失时保持未知
     z = lambda k: (b.get(k) or 0) if b else None
-    return {"equity": b.get("TOTAL_PARENT_EQUITY"), "assets": b.get("TOTAL_ASSETS"), "liab": b.get("TOTAL_LIABILITIES"),
+    return {"statement_date": (b.get("REPORT_DATE") or "")[:10], "equity": b.get("TOTAL_PARENT_EQUITY"), "assets": b.get("TOTAL_ASSETS"), "liab": b.get("TOTAL_LIABILITIES"),
           "cash": ((b.get("MONETARYFUNDS") or 0) + (b.get("TRADE_FINASSET_NOTFVTPL") or 0)) if b.get("MONETARYFUNDS") is not None else None,
           "debt": sum(z(k) for k in ("SHORT_LOAN", "LONG_LOAN", "BOND_PAYABLE", "NONCURRENT_LIAB_1YEAR", "LEASE_LIAB")) if b else None,
           "goodwill": z("GOODWILL")}
@@ -120,7 +120,7 @@ def fetch(code, quote=None):
     return {"model_version": "0.3.3", "as_of": as_of,
             **recent_details(main), "code": code, "name": q.get("f58"), "industry": q.get("f127"), "price": q["f43"] / 100,
             "mv": q.get("f116"), "ttm_np": ttm, "kf_yoy": kf_yoy, "gm_delta": gm_delta, "bs": bs, "years": years,
-            "balance_basis": "debt-includes-noncurrent-lease-v1",
+            "balance_basis": "cash-debt-verification-v2",
             "price_risk": risk, **{k: risk[k] for k in ("high36", "vol", "closes")},
             "source": {"main": [pick(r, MAIN_FIELDS) for r in main[:24]],
                        "cash_flow": [pick(r, CF_FIELDS) for r in cf if r["REPORT_DATE"][5:10] == "12-31"][:7],

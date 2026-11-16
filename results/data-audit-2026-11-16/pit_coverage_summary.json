@@ -1,0 +1,779 @@
+{
+  "downloaded": 3488,
+  "scope": "all listed stocks before IPO-age/industry eligibility; diagnostic not final strategy gate",
+  "evaluations": [
+    {
+      "date": "2017-05-02",
+      "all_listed_universe": 3208,
+      "not_downloaded_or_unreadable": 992,
+      "annual_incomplete": 1059,
+      "preliminary_missing_fraction": 0.6393391521197007,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          4536
+        ],
+        [
+          "CFOToNP",
+          1176
+        ],
+        [
+          "gpMargin",
+          228
+        ],
+        [
+          "roeAvg",
+          86
+        ],
+        [
+          "MBRevenue",
+          59
+        ],
+        [
+          "liabilityToAsset",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2017-09-01",
+      "all_listed_universe": 3348,
+      "not_downloaded_or_unreadable": 1063,
+      "annual_incomplete": 1128,
+      "preliminary_missing_fraction": 0.6544205495818399,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          5932
+        ],
+        [
+          "CFOToNP",
+          1175
+        ],
+        [
+          "gpMargin",
+          228
+        ],
+        [
+          "roeAvg",
+          85
+        ],
+        [
+          "MBRevenue",
+          59
+        ],
+        [
+          "liabilityToAsset",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2018-05-02",
+      "all_listed_universe": 3515,
+      "not_downloaded_or_unreadable": 1144,
+      "annual_incomplete": 1193,
+      "preliminary_missing_fraction": 0.6648648648648648,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          5816
+        ],
+        [
+          "CFOToNP",
+          1128
+        ],
+        [
+          "gpMargin",
+          246
+        ],
+        [
+          "roeAvg",
+          55
+        ],
+        [
+          "MBRevenue",
+          14
+        ],
+        [
+          "liabilityToAsset",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2018-09-03",
+      "all_listed_universe": 3543,
+      "not_downloaded_or_unreadable": 1154,
+      "annual_incomplete": 1210,
+      "preliminary_missing_fraction": 0.6672311600338696,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          6204
+        ],
+        [
+          "CFOToNP",
+          1123
+        ],
+        [
+          "gpMargin",
+          246
+        ],
+        [
+          "roeAvg",
+          56
+        ],
+        [
+          "MBRevenue",
+          14
+        ],
+        [
+          "liabilityToAsset",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2019-05-06",
+      "all_listed_universe": 3611,
+      "not_downloaded_or_unreadable": 1196,
+      "annual_incomplete": 1264,
+      "preliminary_missing_fraction": 0.6812517308224868,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          4701
+        ],
+        [
+          "CFOToNP",
+          1236
+        ],
+        [
+          "gpMargin",
+          273
+        ],
+        [
+          "roeAvg",
+          51
+        ],
+        [
+          "MBRevenue",
+          12
+        ],
+        [
+          "liabilityToAsset",
+          1
+        ],
+        [
+          "totalShare",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2019-09-02",
+      "all_listed_universe": 3681,
+      "not_downloaded_or_unreadable": 1219,
+      "annual_incomplete": 1312,
+      "preliminary_missing_fraction": 0.6875848954088563,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          5629
+        ],
+        [
+          "CFOToNP",
+          1222
+        ],
+        [
+          "gpMargin",
+          276
+        ],
+        [
+          "roeAvg",
+          49
+        ],
+        [
+          "MBRevenue",
+          13
+        ],
+        [
+          "liabilityToAsset",
+          1
+        ],
+        [
+          "totalShare",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2020-05-06",
+      "all_listed_universe": 3834,
+      "not_downloaded_or_unreadable": 1277,
+      "annual_incomplete": 1388,
+      "preliminary_missing_fraction": 0.6950965049556599,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          5828
+        ],
+        [
+          "CFOToNP",
+          1255
+        ],
+        [
+          "gpMargin",
+          308
+        ],
+        [
+          "roeAvg",
+          60
+        ],
+        [
+          "MBRevenue",
+          7
+        ],
+        [
+          "totalShare",
+          5
+        ],
+        [
+          "dupontPnitoni",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2020-09-01",
+      "all_listed_universe": 3979,
+      "not_downloaded_or_unreadable": 1329,
+      "annual_incomplete": 1462,
+      "preliminary_missing_fraction": 0.7014325207338528,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          7456
+        ],
+        [
+          "CFOToNP",
+          1281
+        ],
+        [
+          "gpMargin",
+          310
+        ],
+        [
+          "roeAvg",
+          65
+        ],
+        [
+          "MBRevenue",
+          9
+        ],
+        [
+          "totalShare",
+          5
+        ],
+        [
+          "dupontPnitoni",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2021-05-06",
+      "all_listed_universe": 4289,
+      "not_downloaded_or_unreadable": 1469,
+      "annual_incomplete": 1504,
+      "preliminary_missing_fraction": 0.6931685707624154,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          7720
+        ],
+        [
+          "CFOToNP",
+          1339
+        ],
+        [
+          "gpMargin",
+          348
+        ],
+        [
+          "roeAvg",
+          82
+        ],
+        [
+          "MBRevenue",
+          26
+        ],
+        [
+          "totalShare",
+          6
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ],
+        [
+          "dupontPnitoni",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2021-09-01",
+      "all_listed_universe": 4456,
+      "not_downloaded_or_unreadable": 1536,
+      "annual_incomplete": 1604,
+      "preliminary_missing_fraction": 0.7046678635547576,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          9436
+        ],
+        [
+          "CFOToNP",
+          1318
+        ],
+        [
+          "gpMargin",
+          352
+        ],
+        [
+          "roeAvg",
+          72
+        ],
+        [
+          "MBRevenue",
+          27
+        ],
+        [
+          "totalShare",
+          6
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ],
+        [
+          "dupontPnitoni",
+          1
+        ]
+      ]
+    },
+    {
+      "date": "2022-05-05",
+      "all_listed_universe": 4713,
+      "not_downloaded_or_unreadable": 1662,
+      "annual_incomplete": 1642,
+      "preliminary_missing_fraction": 0.7010396774877997,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          8185
+        ],
+        [
+          "CFOToNP",
+          1598
+        ],
+        [
+          "gpMargin",
+          391
+        ],
+        [
+          "roeAvg",
+          98
+        ],
+        [
+          "MBRevenue",
+          40
+        ],
+        [
+          "totalShare",
+          20
+        ],
+        [
+          "dupontPnitoni",
+          3
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ]
+      ]
+    },
+    {
+      "date": "2022-09-01",
+      "all_listed_universe": 4786,
+      "not_downloaded_or_unreadable": 1697,
+      "annual_incomplete": 1680,
+      "preliminary_missing_fraction": 0.7055996656916005,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          9225
+        ],
+        [
+          "CFOToNP",
+          1521
+        ],
+        [
+          "gpMargin",
+          388
+        ],
+        [
+          "roeAvg",
+          77
+        ],
+        [
+          "MBRevenue",
+          39
+        ],
+        [
+          "totalShare",
+          22
+        ],
+        [
+          "dupontPnitoni",
+          3
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ]
+      ]
+    },
+    {
+      "date": "2023-05-04",
+      "all_listed_universe": 4972,
+      "not_downloaded_or_unreadable": 1771,
+      "annual_incomplete": 1820,
+      "preliminary_missing_fraction": 0.7222445695897023,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          7641
+        ],
+        [
+          "CFOToNP",
+          2009
+        ],
+        [
+          "gpMargin",
+          419
+        ],
+        [
+          "roeAvg",
+          91
+        ],
+        [
+          "MBRevenue",
+          57
+        ],
+        [
+          "totalShare",
+          29
+        ],
+        [
+          "dupontPnitoni",
+          3
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ]
+      ]
+    },
+    {
+      "date": "2023-09-01",
+      "all_listed_universe": 5050,
+      "not_downloaded_or_unreadable": 1825,
+      "annual_incomplete": 1844,
+      "preliminary_missing_fraction": 0.7265346534653465,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          8393
+        ],
+        [
+          "CFOToNP",
+          1946
+        ],
+        [
+          "gpMargin",
+          419
+        ],
+        [
+          "roeAvg",
+          82
+        ],
+        [
+          "MBRevenue",
+          58
+        ],
+        [
+          "totalShare",
+          30
+        ],
+        [
+          "dupontPnitoni",
+          3
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ]
+      ]
+    },
+    {
+      "date": "2024-05-06",
+      "all_listed_universe": 5112,
+      "not_downloaded_or_unreadable": 1853,
+      "annual_incomplete": 1905,
+      "preliminary_missing_fraction": 0.735133020344288,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          5497
+        ],
+        [
+          "CFOToNP",
+          2354
+        ],
+        [
+          "gpMargin",
+          437
+        ],
+        [
+          "roeAvg",
+          88
+        ],
+        [
+          "MBRevenue",
+          61
+        ],
+        [
+          "totalShare",
+          30
+        ],
+        [
+          "dupontPnitoni",
+          3
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ]
+      ]
+    },
+    {
+      "date": "2024-09-02",
+      "all_listed_universe": 5097,
+      "not_downloaded_or_unreadable": 1855,
+      "annual_incomplete": 1889,
+      "preliminary_missing_fraction": 0.7345497351383167,
+      "top_missing_reasons": [
+        [
+          "rows=0",
+          5629
+        ],
+        [
+          "CFOToNP",
+          2288
+        ],
+        [
+          "gpMargin",
+          435
+        ],
+        [
+          "roeAvg",
+          81
+        ],
+        [
+          "MBRevenue",
+          61
+        ],
+        [
+          "totalShare",
+          30
+        ],
+        [
+          "dupontPnitoni",
+          3
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ]
+      ]
+    },
+    {
+      "date": "2025-05-06",
+      "all_listed_universe": 5144,
+      "not_downloaded_or_unreadable": 1883,
+      "annual_incomplete": 1646,
+      "preliminary_missing_fraction": 0.6860419906687403,
+      "top_missing_reasons": [
+        [
+          "CFOToNP",
+          2833
+        ],
+        [
+          "rows=0",
+          2572
+        ],
+        [
+          "gpMargin",
+          437
+        ],
+        [
+          "roeAvg",
+          69
+        ],
+        [
+          "MBRevenue",
+          68
+        ],
+        [
+          "totalShare",
+          25
+        ],
+        [
+          "dupontPnitoni",
+          2
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ]
+      ]
+    },
+    {
+      "date": "2025-09-01",
+      "all_listed_universe": 5151,
+      "not_downloaded_or_unreadable": 1887,
+      "annual_incomplete": 1649,
+      "preliminary_missing_fraction": 0.6864686468646864,
+      "top_missing_reasons": [
+        [
+          "CFOToNP",
+          2810
+        ],
+        [
+          "rows=0",
+          2764
+        ],
+        [
+          "gpMargin",
+          437
+        ],
+        [
+          "MBRevenue",
+          68
+        ],
+        [
+          "roeAvg",
+          67
+        ],
+        [
+          "totalShare",
+          25
+        ],
+        [
+          "dupontPnitoni",
+          2
+        ],
+        [
+          "liabilityToAsset",
+          2
+        ]
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "all_listed_universe": 5199,
+      "not_downloaded_or_unreadable": 1899,
+      "annual_incomplete": 1663,
+      "preliminary_missing_fraction": 0.6851317561069437,
+      "top_missing_reasons": [
+        [
+          "CFOToNP",
+          3352
+        ],
+        [
+          "rows=0",
+          1798
+        ],
+        [
+          "gpMargin",
+          435
+        ],
+        [
+          "roeAvg",
+          63
+        ],
+        [
+          "MBRevenue",
+          60
+        ],
+        [
+          "totalShare",
+          20
+        ],
+        [
+          "dupontPnitoni",
+          2
+        ]
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "all_listed_universe": 5212,
+      "not_downloaded_or_unreadable": 1904,
+      "annual_incomplete": 1671,
+      "preliminary_missing_fraction": 0.6859171143514965,
+      "top_missing_reasons": [
+        [
+          "CFOToNP",
+          3325
+        ],
+        [
+          "rows=0",
+          2082
+        ],
+        [
+          "gpMargin",
+          435
+        ],
+        [
+          "roeAvg",
+          63
+        ],
+        [
+          "MBRevenue",
+          60
+        ],
+        [
+          "totalShare",
+          21
+        ],
+        [
+          "dupontPnitoni",
+          2
+        ]
+      ]
+    }
+  ],
+  "read_errors": {},
+  "backtest_allowed": false,
+  "remaining_gates": [
+    "official financial/dividend audit",
+    "ST announcement audit",
+    "unrestated vintage verification",
+    "total-return benchmarks",
+    "daily and action coverage"
+  ]
+}

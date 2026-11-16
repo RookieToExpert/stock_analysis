@@ -54,3 +54,14 @@
 ### 直连行情备用来源
 
 price_risk.basis 可为 eastmoney-fqt1 或 tencent-qfq；两源都失败则为 None。只在整个序列可用且验证通过时采用，原始行、来源 URL、主源失败原因都入快照。始终显式禁用环境代理。两源的前复权算法尚未证明完全一致，指标仍是代理，不能视作可靠全收益或忽略人工核验。
+
+## 可用现金／完整债务核验 v2
+
+新 fetch 的 balance_basis=cash-debt-verification-v2。账面 cash 与 debt（含非流动租赁）仍展示，但 net_cash 默认未知，不给“现金≥有息负债”的7分，并进入人工补查。
+
+人工核验结果可在输入快照追加 balance_verification：available_cash、complete_interest_debt、statement_date、available_date、source。必须与 bs.statement_date 同期、可用日不晚于评价日、来源非空；可用现金不能大于账面代理，完整债务不能小于已知债务，金额有限且非负。只有核对附注和分类后才能填写，不自动生成“已核验”。永续工具按实际条款归类，不能机械全部加或全部不加。
+
+这修复了未核实口径却先加安全分的问题，但不等于全市场受限资金/永续工具数据已补齐。旧快照没有 v2 标记时保留旧得分。融资仍为合并吸收投资现金代理，非现金稀释保持未覆盖提示。
+
+
+同一 v2 抓取口径下，“分红≥股权融资”的5分也要求 financing_verification。合并吸收投资现金不能证明没有非现金稀释，不再独自支持这5分。核验记录需母公司融资总额 parent_equity_financing、与分红窗口一致的 start_year/end_year、非未来 available_date、source，以及明确 complete/includes_noncash/excludes_minority 均为 true；金额来自发行与股本事件台账，不自动推算。缺记录则该项未知、0分、人工补查。原 invest 字段继续保留作原始代理和缺失诊断。

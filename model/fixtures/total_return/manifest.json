@@ -1,0 +1,20 @@
+{
+  "sh.601919": {
+    "download_sha256": "d5c22af34e3eae0cf65bf61a6450a9fdcb20ea71d8487a27b02fb3cc61383f85",
+    "fetched": "2026-11-08",
+    "retained_start": "2023-10-31",
+    "retained_end": "2026-10-30"
+  },
+  "sh.601225": {
+    "download_sha256": "2275d2552345ac9594b7ef47e0c817cb866df618da8ffa1d49cabf4ab8e932a5",
+    "fetched": "2026-11-07",
+    "retained_start": "2023-10-31",
+    "retained_end": "2026-10-30"
+  },
+  "sh.600900": {
+    "download_sha256": "a6a5a2ff5cec1ea11e804529ede058f41322951ed98f0ef0726b3804efcc5b04",
+    "fetched": "2026-11-07",
+    "retained_start": "2023-10-31",
+    "retained_end": "2026-10-30"
+  }
+}

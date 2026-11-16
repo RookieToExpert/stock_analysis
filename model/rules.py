@@ -2,6 +2,9 @@
 
 未知用 None，真实的 0 用 0。缺数据不得分，也不能进入“合格”。
 """
+import math
+from datetime import date
+
 FINANCIAL = ("银行", "保险", "证券", "多元金融")
 CORE_YEAR = ("rev", "np", "np_all", "kf", "roe", "gm", "ocf", "capex")
 CORE_BS = ("assets", "liab", "equity", "cash", "debt", "goodwill")
@@ -10,7 +13,7 @@ BLUE_MV = 200e8
 
 
 def _n(v):
-    return v if isinstance(v, (int, float)) and v == v else None
+    return v if isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) else None
 
 
 def _tier(v, tiers):
@@ -178,6 +181,28 @@ def metrics(d):
     bs = d.get("bs") or {}
     assets, liab, eq = _n(bs.get("assets")), _n(bs.get("liab")), _n(bs.get("equity"))
     cash, debt, gw = _n(bs.get("cash")), _n(bs.get("debt")), _n(bs.get("goodwill"))
+    # 新口径仅对有附注核验的可用现金/完整债务给净现金安全分。
+    # 账面代理仍用于展示与存贷双高观察，不能代替附注核验。
+    verified = d.get("balance_verification") or {}
+    net_cash = cash >= debt if cash is not None and debt is not None else None
+    if d.get("balance_basis") == "cash-debt-verification-v2":
+        net_cash = None
+        available = _n(verified.get("available_cash"))
+        complete_debt = _n(verified.get("complete_interest_debt"))
+        try:
+            valid_dates = (date.fromisoformat(verified.get("statement_date", ""))
+                           <= date.fromisoformat(verified.get("available_date", ""))
+                           <= date.fromisoformat(d.get("as_of", "")))
+        except (ValueError, TypeError):
+            valid_dates = False
+        if (valid_dates and isinstance(verified.get("source"), str) and verified["source"].strip()
+                and verified.get("statement_date")
+                and verified.get("statement_date") == bs.get("statement_date")
+                and verified.get("available_date") and verified["available_date"] <= d.get("as_of", "")
+                and available is not None and complete_debt is not None
+                and cash is not None and debt is not None
+                and 0 <= available <= cash and complete_debt >= debt):
+            net_cash = available >= complete_debt
     np5 = sum(r["np"] for r in y) if complete("np") else None
     np_all5 = sum(r["np_all"] for r in y) if complete("np_all") else None
     ocf5 = sum(r["ocf"] for r in y) if complete("ocf") else None
@@ -186,6 +211,23 @@ def metrics(d):
     dc = lambda key: len(dy) == 5 and all(_n(x.get(key)) is not None for x in dy)
     paid5 = sum(x["paid"] for x in dy) if dc("paid") else None
     div_np5 = sum(x["np"] for x in dy) if dc("np") else None
+    financing = sum(x["invest"] for x in dy) if dc("invest") else None
+    financing_verified = None
+    if d.get("balance_basis") == "cash-debt-verification-v2":
+        financing = None
+        evidence = d.get("financing_verification") or {}
+        amount = _n(evidence.get("parent_equity_financing"))
+        try:
+            available = date.fromisoformat(evidence.get("available_date", "")) <= date.fromisoformat(d["as_of"])
+        except (ValueError, TypeError):
+            available = False
+        if (available and amount is not None and amount >= 0 and evidence.get("complete") is True
+                and evidence.get("includes_noncash") is True and evidence.get("excludes_minority") is True
+                and isinstance(evidence.get("source"), str) and evidence["source"].strip()
+                and evidence.get("start_year") == int(dy[-1]["year"])
+                and evidence.get("end_year") == int(dy[0]["year"])):
+            financing = amount
+        financing_verified = financing is not None
     roes, gms = (vals("roe"), vals("gm"))
     sustainable = None
     if mv and fcf_avg is not None and paid5 is not None and ttm is not None:
@@ -204,9 +246,9 @@ def metrics(d):
         "sust_yield": sustainable,
         "paid_years": sum(x["paid"] > 0 for x in dy) if dc("paid") else None,
         "payout": paid5 / div_np5 * 100 if paid5 is not None and div_np5 and div_np5 > 0 else None,
-        "invest_vs_paid": sum(x["invest"] for x in dy) <= paid5 if paid5 is not None and dc("invest") else None,
+        "invest_vs_paid": financing <= paid5 if paid5 is not None and financing is not None else None,
         "debt_ratio": liab / assets * 100 if liab is not None and assets else None,
-        "net_cash": cash >= debt if cash is not None and debt is not None else None,
+        "net_cash": net_cash,
         "gw_ratio": gw / eq * 100 if gw is not None and eq and eq > 0 else None,
         "cash_ratio": cash / assets * 100 if cash is not None and assets else None,
         "debt_assets": debt / assets * 100 if debt is not None and assets else None,
@@ -220,6 +262,7 @@ def metrics(d):
         "vol": _n(d.get("vol")),
         **({k: d.get(k) for k in ("quarter_kf_yoy", "profit_deterioration", "quarter_known")}
            if "quarter_known" in d else {}),
+        **({"cash_debt_verified": net_cash is not None, "financing_verified": financing_verified} if d.get("balance_basis") == "cash-debt-verification-v2" else {}),
     }
 
 
@@ -265,7 +308,7 @@ def recent_state(m):
 
 
 def state_unknown(m):
-    return [k for k, label in (("kf_yoy", "利润同比"), ("gm_delta", "毛利率同比"), ("drawdown", "回撤")) if m[k] is None] + (["quarter_kf"] if m.get("quarter_known") is False else [])
+    return [k for k, label in (("kf_yoy", "利润同比"), ("gm_delta", "毛利率同比"), ("drawdown", "回撤")) if m[k] is None] + (["quarter_kf"] if m.get("quarter_known") is False else []) + (["可用现金及完整债务"] if m.get("cash_debt_verified") is False else []) + (["母公司融资及非现金稀释"] if m.get("financing_verified") is False else [])
 
 
 def score(m):

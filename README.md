@@ -33,3 +33,5 @@ cd model && python3 -m unittest
 本仓库内容用于个人研究，不构成投资建议。
 
 - [v0.3.3 修复范围与验收](docs/evidence/v0.3.3_repair.md)（codex 分支；未替换运行中的 main 下载任务）
+
+- [总回报重建、历史数据审计与周期实验](results/data-audit-2026-11-16/README.md)（独立研究输出；未完成正式回测验收）

@@ -1,0 +1,22 @@
+[
+  {
+    "code": "sh.601919",
+    "announcement_date": "2026-10-16",
+    "dividOperateDate": "2026-10-23",
+    "dividPayDate": "2026-10-23",
+    "dividCashPsBeforeTax": "0.43",
+    "dividStocksPs": "0",
+    "dividReserveToStockPs": "0",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606711.PDF"
+  },
+  {
+    "code": "sh.601225",
+    "announcement_date": "2026-10-15",
+    "dividOperateDate": "2026-10-22",
+    "dividPayDate": "2026-10-22",
+    "dividCashPsBeforeTax": "0.058",
+    "dividStocksPs": "0",
+    "dividReserveToStockPs": "0",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12641610&stockid=601225"
+  }
+]
