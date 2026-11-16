@@ -1,0 +1,29 @@
+{
+  "601919": {
+    "status": "reconstructed",
+    "basis": "gross-ex-date-close-reinvestment-v1",
+    "reference_date": "2026-10-30",
+    "drawdown": 0.0,
+    "max_drawdown": 31.569880978404175,
+    "vol": 32.304059358545324,
+    "data_checks_passed": true
+  },
+  "601225": {
+    "status": "reconstructed",
+    "basis": "gross-ex-date-close-reinvestment-v1",
+    "reference_date": "2026-10-30",
+    "drawdown": 0.4928062213731432,
+    "max_drawdown": 31.509702252192774,
+    "vol": 28.80723552652431,
+    "data_checks_passed": true
+  },
+  "600900": {
+    "status": "reconstructed",
+    "basis": "gross-ex-date-close-reinvestment-v1",
+    "reference_date": "2026-10-30",
+    "drawdown": 0.8336112037345855,
+    "max_drawdown": 15.501969501332146,
+    "vol": 14.888842334415417,
+    "data_checks_passed": true
+  }
+}

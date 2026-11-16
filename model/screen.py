@@ -2,14 +2,15 @@
 """全 A 筛选：python3 model/screen.py [--limit N] [--out 目录]。逐只写入输入快照和结果，可断点续跑。"""
 import json, sys, threading, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from rules import FINANCIAL
-from score import evaluate, fetch, get
+from score import evaluate, fetch, get, CALCULATION_REVISION
 
 FS = "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23"  # 沪深主板、创业板、科创板，不含北交所
-OUT = Path(__file__).parent.parent / "results" / f"{date.today().isoformat()}-v0.3"
+OUT = Path(__file__).parent.parent / "results" / f"{datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat()}-v0.3.3-r4"
 if "--out" in sys.argv:
     OUT = Path(sys.argv[sys.argv.index("--out") + 1])
 
@@ -30,9 +31,12 @@ def universe():
 def prefilter(items):
     """返回 (待打分, 各剔除原因计数)。市值分界在全部有效报价股票上计算。"""
     live = [x for x in items if isinstance(x.get("f20"), (int, float)) and x["f20"] > 0]
+    if not live:
+        return [], {"无有效报价": len(items)}, None
     mvs = sorted(x["f20"] for x in live)
     cut = mvs[int(len(mvs) * 0.3)]
-    cutoff_date = int(f"{date.today().year - 5}{date.today():%m%d}")
+    today = datetime.now(ZoneInfo("Asia/Shanghai")).date()
+    cutoff_date = int(f"{today.year - 5}{today:%m%d}")
     keep, drop = [], {"无有效报价": len(items) - len(live), "ST/退市": 0, "金融股": 0, "上市不满5年": 0, "市值最小30%": 0}
     for x in live:
         name, ind, listed = x.get("f14") or "", x.get("f100") or "", x.get("f26")
@@ -63,9 +67,23 @@ def one(x):
     return {"result": {"code": code, "error": err}}
 
 
+def ensure_manifest(path, as_of):
+    expected = {"model_version": "0.3.3", "calculation_revision": CALCULATION_REVISION, "as_of": as_of}
+    manifest = path / "manifest.json"
+    if manifest.exists():
+        actual = json.loads(manifest.read_text())
+        if any(actual.get(k) != v for k, v in expected.items()):
+            raise ValueError("输出目录属于不同日期或计算版本，请指定新 --out，不能混合续跑")
+    else:
+        if any((path / name).exists() for name in ("raw.jsonl", "inputs.jsonl", "raw.jsonl.gz", "inputs.jsonl.gz")):
+            raise ValueError("已有输出缺少版本清单，拒绝混入新结果，请指定新 --out")
+        manifest.write_text(json.dumps(expected, ensure_ascii=False, indent=2))
+
+
 def main():
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else None
     OUT.mkdir(parents=True, exist_ok=True)
+    ensure_manifest(OUT, datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat())
     cache = OUT / "universe_list.json"
     if cache.exists():  # 同一天只拉一次全市场列表
         items = json.loads(cache.read_text())

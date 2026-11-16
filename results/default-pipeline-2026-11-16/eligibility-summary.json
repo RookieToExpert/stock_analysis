@@ -1,0 +1,186 @@
+{
+  "scope": "IPO age and ST only; industry and market-cap cut not yet certified",
+  "strategy_gate_pass": false,
+  "evaluations": {
+    "2017-05-02": {
+      "universe": 3208,
+      "excluded": 415,
+      "unknown_eligibility": 974,
+      "eligible_annual_missing": 661,
+      "eligible_complete": 1158,
+      "known_age_ST_eligible": 1819,
+      "missing_fraction_among_known_eligible": 0.3633864760857614
+    },
+    "2017-09-01": {
+      "universe": 3348,
+      "excluded": 467,
+      "unknown_eligibility": 1045,
+      "eligible_annual_missing": 669,
+      "eligible_complete": 1167,
+      "known_age_ST_eligible": 1836,
+      "missing_fraction_among_known_eligible": 0.36437908496732024
+    },
+    "2018-05-02": {
+      "universe": 3515,
+      "excluded": 566,
+      "unknown_eligibility": 1126,
+      "eligible_annual_missing": 643,
+      "eligible_complete": 1180,
+      "known_age_ST_eligible": 1823,
+      "missing_fraction_among_known_eligible": 0.35271530444322546
+    },
+    "2018-09-03": {
+      "universe": 3543,
+      "excluded": 583,
+      "unknown_eligibility": 1136,
+      "eligible_annual_missing": 646,
+      "eligible_complete": 1178,
+      "known_age_ST_eligible": 1824,
+      "missing_fraction_among_known_eligible": 0.3541666666666667
+    },
+    "2019-05-06": {
+      "universe": 3611,
+      "excluded": 651,
+      "unknown_eligibility": 1178,
+      "eligible_annual_missing": 676,
+      "eligible_complete": 1106,
+      "known_age_ST_eligible": 1782,
+      "missing_fraction_among_known_eligible": 0.3793490460157127
+    },
+    "2019-09-02": {
+      "universe": 3681,
+      "excluded": 691,
+      "unknown_eligibility": 1201,
+      "eligible_annual_missing": 676,
+      "eligible_complete": 1113,
+      "known_age_ST_eligible": 1789,
+      "missing_fraction_among_known_eligible": 0.37786472889882616
+    },
+    "2020-05-06": {
+      "universe": 3834,
+      "excluded": 770,
+      "unknown_eligibility": 1259,
+      "eligible_annual_missing": 670,
+      "eligible_complete": 1135,
+      "known_age_ST_eligible": 1805,
+      "missing_fraction_among_known_eligible": 0.37119113573407203
+    },
+    "2020-09-01": {
+      "universe": 3979,
+      "excluded": 846,
+      "unknown_eligibility": 1312,
+      "eligible_annual_missing": 643,
+      "eligible_complete": 1178,
+      "known_age_ST_eligible": 1821,
+      "missing_fraction_among_known_eligible": 0.3531026908292147
+    },
+    "2021-05-06": {
+      "universe": 4289,
+      "excluded": 995,
+      "unknown_eligibility": 1452,
+      "eligible_annual_missing": 627,
+      "eligible_complete": 1215,
+      "known_age_ST_eligible": 1842,
+      "missing_fraction_among_known_eligible": 0.34039087947882735
+    },
+    "2021-09-01": {
+      "universe": 4456,
+      "excluded": 1026,
+      "unknown_eligibility": 1519,
+      "eligible_annual_missing": 679,
+      "eligible_complete": 1232,
+      "known_age_ST_eligible": 1911,
+      "missing_fraction_among_known_eligible": 0.3553113553113553
+    },
+    "2022-05-05": {
+      "universe": 4713,
+      "excluded": 1013,
+      "unknown_eligibility": 1645,
+      "eligible_annual_missing": 757,
+      "eligible_complete": 1298,
+      "known_age_ST_eligible": 2055,
+      "missing_fraction_among_known_eligible": 0.3683698296836983
+    },
+    "2022-09-01": {
+      "universe": 4786,
+      "excluded": 981,
+      "unknown_eligibility": 1680,
+      "eligible_annual_missing": 774,
+      "eligible_complete": 1351,
+      "known_age_ST_eligible": 2125,
+      "missing_fraction_among_known_eligible": 0.36423529411764705
+    },
+    "2023-05-04": {
+      "universe": 4972,
+      "excluded": 1009,
+      "unknown_eligibility": 1755,
+      "eligible_annual_missing": 886,
+      "eligible_complete": 1322,
+      "known_age_ST_eligible": 2208,
+      "missing_fraction_among_known_eligible": 0.401268115942029
+    },
+    "2023-09-01": {
+      "universe": 5050,
+      "excluded": 1017,
+      "unknown_eligibility": 1811,
+      "eligible_annual_missing": 881,
+      "eligible_complete": 1341,
+      "known_age_ST_eligible": 2222,
+      "missing_fraction_among_known_eligible": 0.39648964896489647
+    },
+    "2024-05-06": {
+      "universe": 5112,
+      "excluded": 1069,
+      "unknown_eligibility": 1839,
+      "eligible_annual_missing": 900,
+      "eligible_complete": 1304,
+      "known_age_ST_eligible": 2204,
+      "missing_fraction_among_known_eligible": 0.40834845735027225
+    },
+    "2024-09-02": {
+      "universe": 5097,
+      "excluded": 985,
+      "unknown_eligibility": 1843,
+      "eligible_annual_missing": 948,
+      "eligible_complete": 1321,
+      "known_age_ST_eligible": 2269,
+      "missing_fraction_among_known_eligible": 0.4178052005288673
+    },
+    "2025-05-06": {
+      "universe": 5144,
+      "excluded": 954,
+      "unknown_eligibility": 1871,
+      "eligible_annual_missing": 994,
+      "eligible_complete": 1325,
+      "known_age_ST_eligible": 2319,
+      "missing_fraction_among_known_eligible": 0.4286330314790858
+    },
+    "2025-09-01": {
+      "universe": 5151,
+      "excluded": 845,
+      "unknown_eligibility": 1875,
+      "eligible_annual_missing": 1050,
+      "eligible_complete": 1381,
+      "known_age_ST_eligible": 2431,
+      "missing_fraction_among_known_eligible": 0.4319210201563143
+    },
+    "2026-05-06": {
+      "universe": 5199,
+      "excluded": 772,
+      "unknown_eligibility": 1887,
+      "eligible_annual_missing": 1122,
+      "eligible_complete": 1418,
+      "known_age_ST_eligible": 2540,
+      "missing_fraction_among_known_eligible": 0.44173228346456694
+    },
+    "2026-09-01": {
+      "universe": 5212,
+      "excluded": 643,
+      "unknown_eligibility": 1892,
+      "eligible_annual_missing": 1190,
+      "eligible_complete": 1487,
+      "known_age_ST_eligible": 2677,
+      "missing_fraction_among_known_eligible": 0.4445274561075831
+    }
+  }
+}

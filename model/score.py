@@ -6,6 +6,7 @@ from zoneinfo import ZoneInfo
 from rules import recent_details
 import score_v032
 from price_risk import calculate as calculate_price_risk
+from risk_pipeline import current_risk
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from rules import MANUAL, fiscal_dividends, recent_from_rows, action, blue_chip, grade, metrics, missing_fields, recent_state, score, state_unknown, vetoes, warnings
@@ -13,6 +14,7 @@ from rules import MANUAL, fiscal_dividends, recent_from_rows, action, blue_chip,
 OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 HDR = {"User-Agent": "Mozilla/5.0", "Referer": "https://emweb.securities.eastmoney.com/"}
 F10 = "https://datacenter.eastmoney.com/securities/api/data"
+CALCULATION_REVISION = "2026-11-16-r4"
 
 
 MAIN_FIELDS = ("REPORT_DATE", "NOTICE_DATE", "UPDATE_DATE", "TOTALOPERATEREVE", "PARENTNETPROFIT",
@@ -116,8 +118,12 @@ def fetch(code, quote=None):
     q = quote or get(f"https://push2.eastmoney.com/api/qt/stock/get?secid={1 if sh else 0}.{code}"
                      "&fields=f43,f58,f116,f127")["data"]
     as_of = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
-    risk = fetch_price_risk(code, as_of)
-    return {"model_version": "0.3.3", "as_of": as_of,
+    try:
+        risk = current_risk(code, as_of, div_rows, get)
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        risk = fetch_price_risk(code, as_of)
+        risk["reconstruction_failure"] = f"{type(exc).__name__}: {exc}"
+    return {"model_version": "0.3.3", "calculation_revision": CALCULATION_REVISION, "as_of": as_of,
             **recent_details(main), "code": code, "name": q.get("f58"), "industry": q.get("f127"), "price": q["f43"] / 100,
             "mv": q.get("f116"), "ttm_np": ttm, "kf_yoy": kf_yoy, "gm_delta": gm_delta, "bs": bs, "years": years,
             "balance_basis": "cash-debt-verification-v2",
@@ -172,12 +178,20 @@ def evaluate(d):
     v, s, miss = vetoes(d, m), score(m), missing_fields(d)
     st, w, unk = recent_state(m), warnings(m), state_unknown(m)
     if "balance_basis" in d:
-        w.append("现金未扣受限资金；融资未覆盖非现金稀释；永续工具需人工核查")
+        if m.get("cash_debt_verified") is not True:
+            w.append("可用现金、完整债务及永续工具需附注核验")
+        if m.get("financing_verified") is not True:
+            w.append("母公司融资及非现金稀释需事件台账核验")
     if "price_risk" in d:
-        w.append("价格指标为前复权代理，全收益口径未验证")
+        if d["price_risk"].get("status") == "reconstructed":
+            w.append("总回报按除息日收盘再投资重建；全量发行人公告审计未完成")
+        else:
+            w.append("价格仅为代理：不参与新主名单波动率排名")
     g = grade(s["总分"], v, miss)
-    return {"model_version": "0.3.3", "as_of": d["as_of"], "code": d["code"], "name": d["name"], "industry": d["industry"], "price": d["price"], "mv": d["mv"], **s,
-            "等级": g, "数据状态": "待核查" if miss else "完整", "动作": action(g, st, w, unk), "蓝筹条件": blue_chip(d["mv"], m), "排雷": v, "缺数据": miss,
+    return {"model_version": "0.3.3", "as_of": d["as_of"],
+            **({"calculation_revision": d["calculation_revision"]} if "calculation_revision" in d else {}),
+            **({"risk_eligible": d["price_risk"].get("status") == "reconstructed" and d["price_risk"].get("data_checks_passed") is True, "risk_basis": d["price_risk"].get("basis")} if "price_risk" in d else {}), "code": d["code"], "name": d["name"], "industry": d["industry"], "price": d["price"], "mv": d["mv"], **s,
+            "等级": g, "数据状态": "待核查" if miss else "核心完整，专项待核查" if unk else "完整", "动作": action(g, st, w, unk), "蓝筹条件": blue_chip(d["mv"], m), "排雷": v, "缺数据": miss,
             "近期状态": st, "状态未知": unk, "人工警示": w, "人工核查": {k: "未查" for k in MANUAL}, "metrics": m}
 
 

@@ -65,3 +65,11 @@ price_risk.basis 可为 eastmoney-fqt1 或 tencent-qfq；两源都失败则为 N
 
 
 同一 v2 抓取口径下，“分红≥股权融资”的5分也要求 financing_verification。合并吸收投资现金不能证明没有非现金稀释，不再独自支持这5分。核验记录需母公司融资总额 parent_equity_financing、与分红窗口一致的 start_year/end_year、非未来 available_date、source，以及明确 complete/includes_noncash/excludes_minority 均为 true；金额来自发行与股本事件台账，不自动推算。缺记录则该项未知、0分、人工补查。原 invest 字段继续保留作原始代理和缺失诊断。
+
+## 2026-11-16-r4 默认总回报输入（替代上述“只用代理”的当前行为）
+
+`price_risk.status=reconstructed` 表示本地不复权日线、公司行动与独立交易日历通过一致性检查；basis 为 `gross-ex-date-close-reinvestment-v1`。drawdown 为截至上个完整月末的当前回撤，max_drawdown 为区间最大回撤，vol 为36个月收益的样本标准差年化。均使用同一税前再投资指数，非实际到账交易收益。完整日线、事件、补充事件、来源日历与文件哈希保存在 source。
+
+`data_checks_passed=true` 不等于公告全量审计通过，后者 `total_return_verified=false` 仍保留。当前研究主名单要求重建成功；无法重建则保留价格代理和 reconstruction_failure，`risk_eligible=false`，不参与新主名单的波动率门槛计算。旧快照无该字段时维持旧排名。
+
+本地来源由 STOCK_ANALYSIS_PIT_DIR 指定，默认仓库 data/pit，只读不联网Baostock。网络补充来源继续显式禁用代理。新输入/结果含 calculation_revision=2026-11-16-r4，筛选输出 manifest 校验同日期、同修订；不兼容旧目录续跑。证据与剩余门槛见 [本次验收](../results/default-pipeline-2026-11-16/README.md)。

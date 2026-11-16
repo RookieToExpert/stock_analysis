@@ -19,13 +19,13 @@ def load(path):
 def split(rows):
     """主名单：蓝筹条件 + 合格 + 蓝筹池内波动率不属于最高 30%。其余合格公司进副名单。"""
     good = [r for r in rows if r.get("等级") == "合格"]
-    pool = sorted(r["metrics"]["vol"] for r in rows if r.get("蓝筹条件") and r.get("等级") in ("合格", "观察")
+    pool = sorted(r["metrics"]["vol"] for r in rows if r.get("risk_eligible", True) and r.get("蓝筹条件") and r.get("等级") in ("合格", "观察")
                   and r["metrics"].get("vol") is not None)
     cut = pool[int(len(pool) * 0.7)] if pool else None
     main, other = [], []
     for r in good:
         vol = r["metrics"].get("vol")
-        (main if r.get("蓝筹条件") and vol is not None and cut is not None and vol <= cut else other).append(r)
+        (main if r.get("risk_eligible", True) and r.get("蓝筹条件") and vol is not None and cut is not None and vol <= cut else other).append(r)
     key = lambda r: (-r["总分"], -r["mv"])
     return sorted(main, key=key), sorted(other, key=key), cut
 

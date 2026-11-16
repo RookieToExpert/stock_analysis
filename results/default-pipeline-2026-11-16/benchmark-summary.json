@@ -1,0 +1,44 @@
+{
+  "H00300": {
+    "code": "H00300",
+    "basis": "official-gross-total-return",
+    "source_url": "https://www.csindex.com.cn/csindex-home/perf/index-perf?indexCode=H00300&startDate=20170501&endDate=20261113",
+    "start": "2017-05-02",
+    "end": "2026-10-30",
+    "excluded_dates": [
+      "2017-05-01",
+      "2018-06-18",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-13"
+    ],
+    "trading_days": 2307
+  },
+  "H00922": {
+    "code": "H00922",
+    "basis": "official-gross-total-return",
+    "source_url": "https://www.csindex.com.cn/csindex-home/perf/index-perf?indexCode=H00922&startDate=20170501&endDate=20261113",
+    "start": "2017-05-02",
+    "end": "2026-10-30",
+    "excluded_dates": [
+      "2017-05-01",
+      "2018-06-18",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-13"
+    ],
+    "trading_days": 2307
+  }
+}
