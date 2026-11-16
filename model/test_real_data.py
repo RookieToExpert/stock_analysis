@@ -3,7 +3,9 @@ import json
 import unittest
 from pathlib import Path
 from rules import metrics, missing_fields
-from score import BS_FIELDS, CF_FIELDS, MAIN_FIELDS, evaluate
+# Fixtures are frozen v0.3.2 captures, not current API schema samples.
+from score_v032 import BS_FIELDS, CF_FIELDS, MAIN_FIELDS
+from score import evaluate
 
 FIX = Path(__file__).parent / "fixtures"
 

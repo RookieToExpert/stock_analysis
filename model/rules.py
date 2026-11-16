@@ -215,7 +215,8 @@ def metrics(d):
         "np5_nonpositive": np5 is not None and np5 <= 0,
         "kf_yoy": _n(d.get("kf_yoy")),
         "gm_delta": _n(d.get("gm_delta")),
-        "drawdown": (1 - d["price"] / d["high36"]) * 100 if _n(d.get("price")) and _n(d.get("high36")) else None,
+        "drawdown": (d["price_risk"].get("drawdown") if "price_risk" in d else
+                     (1 - d["price"] / d["high36"]) * 100 if _n(d.get("price")) and _n(d.get("high36")) else None),
         "vol": _n(d.get("vol")),
         **({k: d.get(k) for k in ("quarter_kf_yoy", "profit_deterioration", "quarter_known")}
            if "quarter_known" in d else {}),

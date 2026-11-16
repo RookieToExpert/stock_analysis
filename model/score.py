@@ -5,6 +5,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 from rules import recent_details
 import score_v032
+from price_risk import calculate as calculate_price_risk
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from rules import MANUAL, fiscal_dividends, recent_from_rows, action, blue_chip, grade, metrics, missing_fields, recent_state, score, state_unknown, vetoes, warnings
@@ -20,7 +21,7 @@ CF_FIELDS = ("REPORT_DATE", "NOTICE_DATE", "UPDATE_DATE", "NETPROFIT", "NETCASH_
              "ACCEPT_INVEST_CASH", "ASSIGN_DIVIDEND_PORFIT", "SUBSIDIARY_PAY_DIVIDEND")
 BS_FIELDS = ("REPORT_DATE", "NOTICE_DATE", "UPDATE_DATE", "TOTAL_ASSETS", "TOTAL_LIABILITIES", "TOTAL_PARENT_EQUITY",
              "MONETARYFUNDS", "TRADE_FINASSET_NOTFVTPL", "SHORT_LOAN", "LONG_LOAN", "BOND_PAYABLE",
-             "NONCURRENT_LIAB_1YEAR", "GOODWILL", "OPINION_TYPE")
+             "NONCURRENT_LIAB_1YEAR", "LEASE_LIAB", "GOODWILL", "OPINION_TYPE")
 
 
 class SchemaError(ValueError):
@@ -71,6 +72,17 @@ def dividend_rows(code):
     return [pick(r, DIV_FIELDS) for r in rows]
 
 
+def balance_metrics(b):
+    if b and "LEASE_LIAB" not in b:
+        raise SchemaError("资产负债表缺字段: LEASE_LIAB")
+    # 报表行存在时，借款和商誉的空值表示未列示；报表整行缺失时保持未知
+    z = lambda k: (b.get(k) or 0) if b else None
+    return {"equity": b.get("TOTAL_PARENT_EQUITY"), "assets": b.get("TOTAL_ASSETS"), "liab": b.get("TOTAL_LIABILITIES"),
+          "cash": ((b.get("MONETARYFUNDS") or 0) + (b.get("TRADE_FINASSET_NOTFVTPL") or 0)) if b.get("MONETARYFUNDS") is not None else None,
+          "debt": sum(z(k) for k in ("SHORT_LOAN", "LONG_LOAN", "BOND_PAYABLE", "NONCURRENT_LIAB_1YEAR", "LEASE_LIAB")) if b else None,
+          "goodwill": z("GOODWILL")}
+
+
 def fetch(code, quote=None):
     sh = code.startswith("6")
     secu = f"{code}.{'SH' if sh else 'SZ'}"
@@ -99,36 +111,30 @@ def fetch(code, quote=None):
                          for k, v in (("paid", "paid"), ("paid_status", "status"))}})
     ttm, kf_yoy, gm_delta = recent_from_rows(main)
     b = bal[0] if bal else {}
-    # 报表行存在时，借款和商誉的空值表示未列示；报表整行缺失时保持未知
-    z = lambda k: (b.get(k) or 0) if b else None
-    bs = {"equity": b.get("TOTAL_PARENT_EQUITY"), "assets": b.get("TOTAL_ASSETS"), "liab": b.get("TOTAL_LIABILITIES"),
-          "cash": ((b.get("MONETARYFUNDS") or 0) + (b.get("TRADE_FINASSET_NOTFVTPL") or 0)) if b.get("MONETARYFUNDS") is not None else None,
-          "debt": sum(z(k) for k in ("SHORT_LOAN", "LONG_LOAN", "BOND_PAYABLE", "NONCURRENT_LIAB_1YEAR")) if b else None,
-          "goodwill": z("GOODWILL")}
+    bs = balance_metrics(b)
     # 批量筛选时由全市场列表传入 quote，避免逐只请求行情接口
     q = quote or get(f"https://push2.eastmoney.com/api/qt/stock/get?secid={1 if sh else 0}.{code}"
                      "&fields=f43,f58,f116,f127")["data"]
-    return {"model_version": "0.3.3", "as_of": datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat(),
+    as_of = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
+    risk = fetch_price_risk(code, as_of)
+    return {"model_version": "0.3.3", "as_of": as_of,
             **recent_details(main), "code": code, "name": q.get("f58"), "industry": q.get("f127"), "price": q["f43"] / 100,
             "mv": q.get("f116"), "ttm_np": ttm, "kf_yoy": kf_yoy, "gm_delta": gm_delta, "bs": bs, "years": years,
-            **dict(zip(("high36", "vol", "closes"), price_stats(code))),
+            "balance_basis": "debt-includes-noncurrent-lease-v1",
+            "price_risk": risk, **{k: risk[k] for k in ("high36", "vol", "closes")},
             "source": {"main": [pick(r, MAIN_FIELDS) for r in main[:24]],
                        "cash_flow": [pick(r, CF_FIELDS) for r in cf if r["REPORT_DATE"][5:10] == "12-31"][:7],
                        "balance": [pick(r, BS_FIELDS) for r in bal[:1]], "dividends": div_rows}}
 
 
-def price_stats(code):
-    """返回 (近36个月前复权最高价, 月收益年化波动率%, 月收盘价)。"""
-    d = get(f"https://push2his.eastmoney.com/api/qt/stock/kline/get?secid={1 if code.startswith('6') else 0}.{code}"
-            "&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55&klt=103&fqt=1&end=20500101&lmt=37")
-    rows_ = [x.split(",") for x in (d.get("data") or {}).get("klines") or []]
-    closes = [float(x[2]) for x in rows_]
-    if len(rows_) < 13:
-        return None, None, closes
-    rets = [b / a - 1 for a, b in zip(closes, closes[1:]) if a > 0]
-    mean = sum(rets) / len(rets)
-    vol = (sum((r - mean) ** 2 for r in rets) / (len(rets) - 1)) ** 0.5 * 12 ** 0.5 * 100
-    return max(float(x[3]) for x in rows_[-36:]), vol, closes
+def fetch_price_risk(code, as_of):
+    url = (f"https://push2his.eastmoney.com/api/qt/stock/kline/get?secid={1 if code.startswith('6') else 0}.{code}"
+           f"&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55&klt=103&fqt=1&end={as_of.replace('-', '')}&lmt=38")
+    response = get(url)
+    raw = (response.get("data") or {}).get("klines") or []
+    result = calculate_price_risk(raw, as_of)
+    result.update(source_url=url, raw_klines=raw)
+    return result
 
 
 def evaluate(d):
@@ -140,6 +146,10 @@ def evaluate(d):
     m = metrics(d)
     v, s, miss = vetoes(d, m), score(m), missing_fields(d)
     st, w, unk = recent_state(m), warnings(m), state_unknown(m)
+    if "balance_basis" in d:
+        w.append("现金未扣受限资金；融资未覆盖非现金稀释；永续工具需人工核查")
+    if "price_risk" in d:
+        w.append("价格指标为前复权代理，全收益口径未验证")
     g = grade(s["总分"], v, miss)
     return {"model_version": "0.3.3", "as_of": d["as_of"], "code": d["code"], "name": d["name"], "industry": d["industry"], "price": d["price"], "mv": d["mv"], **s,
             "等级": g, "数据状态": "待核查" if miss else "完整", "动作": action(g, st, w, unk), "蓝筹条件": blue_chip(d["mv"], m), "排雷": v, "缺数据": miss,
