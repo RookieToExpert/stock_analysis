@@ -19,6 +19,20 @@ def eligibility(data, day):
     rows=[r for r in data.get('daily',[]) if r.get('date')==day]
     if len(rows)!=1 or rows[0].get('isST') not in ('0','1'):return None,'evaluation_day_ST_unknown'
     if rows[0]['isST']=='1':return False,'ST'
+    # A 1 -> 0 flag also occurs during delisting. It is not proof of ST release.
+    history=sorted((r for r in data.get('daily',[]) if r.get('date','')<=day),key=lambda r:r['date'])
+    last_st=max((r['date'] for r in history if r.get('isST')=='1'),default=None)
+    if last_st:
+        releases=[r['date'] for r in history if r['date']>last_st and r.get('isST')=='0']
+        effective=min(releases)
+        proof=data.get('st_release_verification') or {}
+        try:
+            available=date.fromisoformat(proof.get('available_date',''))
+            valid=(proof.get('source') and proof.get('effective_date')==effective
+                   and available<=date.fromisoformat(effective)
+                   and proof.get('status')=='normal_listing')
+        except (ValueError,TypeError):valid=False
+        if not valid:return None,'ST_release_requires_issuer_evidence'
     return True,'age_ST_pass'
 
 

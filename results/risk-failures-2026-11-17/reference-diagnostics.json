@@ -1,0 +1,2402 @@
+[
+  {
+    "code": "sh.600165",
+    "date": "2025-12-11",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.3593
+    },
+    "prev": 4.04,
+    "reference": 2.84,
+    "price_implied_cash_only_diagnostic": -2.660412,
+    "difference": -1.1276276861781036
+  },
+  {
+    "code": "sh.600211",
+    "date": "2026-09-15",
+    "event": {
+      "cash": 1.146,
+      "shares": 0.0
+    },
+    "prev": 37.61,
+    "reference": 36.48,
+    "price_implied_cash_only_diagnostic": 1.1300000000000026,
+    "difference": -0.015999999999998238
+  },
+  {
+    "code": "sh.600256",
+    "date": "2025-07-18",
+    "event": {
+      "cash": 0.622,
+      "shares": 0.0
+    },
+    "prev": 6.08,
+    "reference": 5.47,
+    "price_implied_cash_only_diagnostic": 0.6100000000000003,
+    "difference": -0.011999999999999567
+  },
+  {
+    "code": "sh.600375",
+    "date": "2024-12-26",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.45
+    },
+    "prev": 6.14,
+    "reference": 5.77,
+    "price_implied_cash_only_diagnostic": -7.9965,
+    "difference": -3.263877551020408
+  },
+  {
+    "code": "sh.600382",
+    "date": "2024-07-12",
+    "event": {
+      "cash": 0.1828,
+      "shares": 0.0
+    },
+    "prev": 3.74,
+    "reference": 3.58,
+    "price_implied_cash_only_diagnostic": 0.16000000000000014,
+    "difference": -0.02279999999999971
+  },
+  {
+    "code": "sh.600519",
+    "date": "2025-06-26",
+    "event": {
+      "cash": 27.673,
+      "shares": 0.0
+    },
+    "prev": 1435.86,
+    "reference": 1408.26,
+    "price_implied_cash_only_diagnostic": 27.59999999999991,
+    "difference": -0.07300000000009277
+  },
+  {
+    "code": "sh.600580",
+    "date": "2025-06-27",
+    "event": {
+      "cash": 0.15,
+      "shares": 0.2
+    },
+    "prev": 23.39,
+    "reference": 19.38,
+    "price_implied_cash_only_diagnostic": 0.1340000000000039,
+    "difference": -0.013333333333328312
+  },
+  {
+    "code": "sh.600589",
+    "date": "2023-12-29",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.1
+    },
+    "prev": 3.84,
+    "reference": 3.04,
+    "price_implied_cash_only_diagnostic": -2.5440000000000005,
+    "difference": -1.2114285714285715
+  },
+  {
+    "code": "sh.600639",
+    "date": "2025-08-06",
+    "event": {
+      "cash": 0.3227,
+      "shares": 0.0
+    },
+    "prev": 10.82,
+    "reference": 10.51,
+    "price_implied_cash_only_diagnostic": 0.3100000000000005,
+    "difference": -0.012699999999998823
+  },
+  {
+    "code": "sh.600690",
+    "date": "2024-08-16",
+    "event": {
+      "cash": 0.80131,
+      "shares": 0.0
+    },
+    "prev": 24.92,
+    "reference": 24.13,
+    "price_implied_cash_only_diagnostic": 0.7900000000000027,
+    "difference": -0.011309999999998155
+  },
+  {
+    "code": "sh.600694",
+    "date": "2024-06-11",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.1
+    },
+    "prev": 19.61,
+    "reference": 16.99,
+    "price_implied_cash_only_diagnostic": 0.9209999999999994,
+    "difference": -0.07181818181818045
+  },
+  {
+    "code": "sh.600715",
+    "date": "2024-12-16",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.188773
+    },
+    "prev": 2.45,
+    "reference": 2.12,
+    "price_implied_cash_only_diagnostic": -2.1901987600000004,
+    "difference": -1.000651396924213
+  },
+  {
+    "code": "sh.600729",
+    "date": "2024-06-27",
+    "event": {
+      "cash": 1.3561,
+      "shares": 0.0
+    },
+    "prev": 24.12,
+    "reference": 22.78,
+    "price_implied_cash_only_diagnostic": 1.3399999999999999,
+    "difference": -0.016100000000001558
+  },
+  {
+    "code": "sh.600826",
+    "date": "2024-06-28",
+    "event": {
+      "cash": 0.28,
+      "shares": 0.4
+    },
+    "prev": 7.95,
+    "reference": 5.52,
+    "price_implied_cash_only_diagnostic": 0.2220000000000013,
+    "difference": -0.041428571428570926
+  },
+  {
+    "code": "sh.601021",
+    "date": "2026-08-03",
+    "event": {
+      "cash": 0.53,
+      "shares": 0.0
+    },
+    "prev": 47.0,
+    "reference": 46.49,
+    "price_implied_cash_only_diagnostic": 0.509999999999998,
+    "difference": -0.020000000000003126
+  },
+  {
+    "code": "sh.601318",
+    "date": "2025-06-30",
+    "event": {
+      "cash": 1.62,
+      "shares": 0.0
+    },
+    "prev": 56.96,
+    "reference": 55.36,
+    "price_implied_cash_only_diagnostic": 1.6000000000000014,
+    "difference": -0.01999999999999602
+  },
+  {
+    "code": "sh.601615",
+    "date": "2024-07-05",
+    "event": {
+      "cash": 0.3041,
+      "shares": 0.0
+    },
+    "prev": 9.27,
+    "reference": 8.98,
+    "price_implied_cash_only_diagnostic": 0.28999999999999915,
+    "difference": -0.01410000000000089
+  },
+  {
+    "code": "sh.601666",
+    "date": "2025-06-09",
+    "event": {
+      "cash": 0.6,
+      "shares": 0.0
+    },
+    "prev": 8.48,
+    "reference": 7.91,
+    "price_implied_cash_only_diagnostic": 0.5700000000000003,
+    "difference": -0.02999999999999936
+  },
+  {
+    "code": "sh.601799",
+    "date": "2026-05-18",
+    "event": {
+      "cash": 1.8,
+      "shares": 0.0
+    },
+    "prev": 136.01,
+    "reference": 134.23,
+    "price_implied_cash_only_diagnostic": 1.7800000000000011,
+    "difference": -0.020000000000010232
+  },
+  {
+    "code": "sh.603007",
+    "date": "2024-12-26",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.155346
+    },
+    "prev": 15.39,
+    "reference": 8.28,
+    "price_implied_cash_only_diagnostic": -2.4562648799999955,
+    "difference": -1.1396151151601632
+  },
+  {
+    "code": "sh.603018",
+    "date": "2026-06-29",
+    "event": {
+      "cash": 0.125,
+      "shares": 0.2
+    },
+    "prev": 6.42,
+    "reference": 5.26,
+    "price_implied_cash_only_diagnostic": 0.10800000000000054,
+    "difference": -0.014166666666666217
+  },
+  {
+    "code": "sh.603030",
+    "date": "2023-12-26",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.971919
+    },
+    "prev": 2.7,
+    "reference": 2.31,
+    "price_implied_cash_only_diagnostic": -1.8551328900000001,
+    "difference": -0.9407754020322334
+  },
+  {
+    "code": "sh.603052",
+    "date": "2025-06-23",
+    "event": {
+      "cash": 0.25,
+      "shares": 0.4
+    },
+    "prev": 36.78,
+    "reference": 26.22,
+    "price_implied_cash_only_diagnostic": 0.07200000000000273,
+    "difference": -0.12714285714285367
+  },
+  {
+    "code": "sh.603067",
+    "date": "2025-06-24",
+    "event": {
+      "cash": 0.19,
+      "shares": 0.4
+    },
+    "prev": 20.18,
+    "reference": 14.32,
+    "price_implied_cash_only_diagnostic": 0.13200000000000145,
+    "difference": -0.041428571428571814
+  },
+  {
+    "code": "sh.603093",
+    "date": "2026-08-10",
+    "event": {
+      "cash": 0.069,
+      "shares": 0.45
+    },
+    "prev": 18.05,
+    "reference": 12.44,
+    "price_implied_cash_only_diagnostic": 0.012000000000000455,
+    "difference": -0.039310344827583776
+  },
+  {
+    "code": "sh.603095",
+    "date": "2025-06-06",
+    "event": {
+      "cash": 0.8,
+      "shares": 0.4
+    },
+    "prev": 23.15,
+    "reference": 16.0,
+    "price_implied_cash_only_diagnostic": 0.75,
+    "difference": -0.035714285714286476
+  },
+  {
+    "code": "sh.603096",
+    "date": "2024-06-07",
+    "event": {
+      "cash": 0.9,
+      "shares": 0.0
+    },
+    "prev": 16.9,
+    "reference": 16.05,
+    "price_implied_cash_only_diagnostic": 0.8499999999999979,
+    "difference": -0.05000000000000249
+  },
+  {
+    "code": "sh.603102",
+    "date": "2025-08-05",
+    "event": {
+      "cash": 0.75,
+      "shares": 0.0
+    },
+    "prev": 43.47,
+    "reference": 42.74,
+    "price_implied_cash_only_diagnostic": 0.7299999999999969,
+    "difference": -0.020000000000003126
+  },
+  {
+    "code": "sh.603119",
+    "date": "2024-06-18",
+    "event": {
+      "cash": 0.14,
+      "shares": 0.3
+    },
+    "prev": 23.85,
+    "reference": 18.25,
+    "price_implied_cash_only_diagnostic": 0.125,
+    "difference": -0.01153846153846061
+  },
+  {
+    "code": "sh.603161",
+    "date": "2024-07-10",
+    "event": {
+      "cash": 0.285,
+      "shares": 0.42
+    },
+    "prev": 14.36,
+    "reference": 9.94,
+    "price_implied_cash_only_diagnostic": 0.24520000000000053,
+    "difference": -0.02802816901408356
+  },
+  {
+    "code": "sh.603165",
+    "date": "2025-05-15",
+    "event": {
+      "cash": 0.5,
+      "shares": 0.0
+    },
+    "prev": 12.12,
+    "reference": 11.64,
+    "price_implied_cash_only_diagnostic": 0.47999999999999865,
+    "difference": -0.02000000000000135
+  },
+  {
+    "code": "sh.603237",
+    "date": "2024-07-08",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.4
+    },
+    "prev": 23.89,
+    "reference": 16.49,
+    "price_implied_cash_only_diagnostic": 0.8040000000000056,
+    "difference": -0.13999999999999702
+  },
+  {
+    "code": "sh.603276",
+    "date": "2024-06-25",
+    "event": {
+      "cash": 0.2,
+      "shares": 0.3
+    },
+    "prev": 17.94,
+    "reference": 13.67,
+    "price_implied_cash_only_diagnostic": 0.16900000000000048,
+    "difference": -0.023846153846152518
+  },
+  {
+    "code": "sh.603281",
+    "date": "2026-07-03",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.4
+    },
+    "prev": 40.12,
+    "reference": 28.17,
+    "price_implied_cash_only_diagnostic": 0.681999999999995,
+    "difference": -0.22714285714285865
+  },
+  {
+    "code": "sh.603283",
+    "date": "2025-06-12",
+    "event": {
+      "cash": 0.56,
+      "shares": 0.4
+    },
+    "prev": 44.78,
+    "reference": 31.74,
+    "price_implied_cash_only_diagnostic": 0.3440000000000083,
+    "difference": -0.15428571428571303
+  },
+  {
+    "code": "sh.603296",
+    "date": "2024-06-11",
+    "event": {
+      "cash": 1.2,
+      "shares": 0.4
+    },
+    "prev": 82.0,
+    "reference": 57.75,
+    "price_implied_cash_only_diagnostic": 1.1500000000000057,
+    "difference": -0.0357142857142847
+  },
+  {
+    "code": "sh.603303",
+    "date": "2025-09-23",
+    "event": {
+      "cash": 0.641,
+      "shares": 0.0
+    },
+    "prev": 14.29,
+    "reference": 13.66,
+    "price_implied_cash_only_diagnostic": 0.629999999999999,
+    "difference": -0.011000000000001009
+  },
+  {
+    "code": "sh.603324",
+    "date": "2024-07-04",
+    "event": {
+      "cash": 0.27,
+      "shares": 0.2
+    },
+    "prev": 26.29,
+    "reference": 21.71,
+    "price_implied_cash_only_diagnostic": 0.23799999999999955,
+    "difference": -0.026666666666667282
+  },
+  {
+    "code": "sh.603337",
+    "date": "2024-07-09",
+    "event": {
+      "cash": 0.5,
+      "shares": 0.0
+    },
+    "prev": 26.02,
+    "reference": 25.54,
+    "price_implied_cash_only_diagnostic": 0.4800000000000004,
+    "difference": -0.019999999999999574
+  },
+  {
+    "code": "sh.603368",
+    "date": "2026-06-16",
+    "event": {
+      "cash": 0.68,
+      "shares": 0.0
+    },
+    "prev": 16.68,
+    "reference": 16.02,
+    "price_implied_cash_only_diagnostic": 0.6600000000000001,
+    "difference": -0.019999999999999574
+  },
+  {
+    "code": "sh.603444",
+    "date": "2024-09-13",
+    "event": {
+      "cash": 4.5,
+      "shares": 0.0
+    },
+    "prev": 197.1,
+    "reference": 192.62,
+    "price_implied_cash_only_diagnostic": 4.47999999999999,
+    "difference": -0.020000000000010232
+  },
+  {
+    "code": "sh.603507",
+    "date": "2024-07-08",
+    "event": {
+      "cash": 0.39,
+      "shares": 0.3
+    },
+    "prev": 29.91,
+    "reference": 22.75,
+    "price_implied_cash_only_diagnostic": 0.33500000000000085,
+    "difference": -0.04230769230769482
+  },
+  {
+    "code": "sh.603529",
+    "date": "2026-09-24",
+    "event": {
+      "cash": 0.392,
+      "shares": 0.0
+    },
+    "prev": 21.66,
+    "reference": 21.28,
+    "price_implied_cash_only_diagnostic": 0.379999999999999,
+    "difference": -0.012000000000000455
+  },
+  {
+    "code": "sh.603551",
+    "date": "2024-06-04",
+    "event": {
+      "cash": 0.8,
+      "shares": 0.0
+    },
+    "prev": 12.29,
+    "reference": 11.52,
+    "price_implied_cash_only_diagnostic": 0.7699999999999996,
+    "difference": -0.030000000000001137
+  },
+  {
+    "code": "sh.603558",
+    "date": "2026-08-25",
+    "event": {
+      "cash": 0.3,
+      "shares": 0.0
+    },
+    "prev": 12.19,
+    "reference": 11.91,
+    "price_implied_cash_only_diagnostic": 0.27999999999999936,
+    "difference": -0.02000000000000135
+  },
+  {
+    "code": "sh.603559",
+    "date": "2024-12-26",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.8
+    },
+    "prev": 10.83,
+    "reference": 7.48,
+    "price_implied_cash_only_diagnostic": -10.113999999999999,
+    "difference": -3.612142857142857
+  },
+  {
+    "code": "sh.603579",
+    "date": "2024-06-05",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.3
+    },
+    "prev": 23.6,
+    "reference": 17.53,
+    "price_implied_cash_only_diagnostic": 0.8109999999999999,
+    "difference": -0.14538461538461434
+  },
+  {
+    "code": "sh.603606",
+    "date": "2026-05-26",
+    "event": {
+      "cash": 0.56,
+      "shares": 0.2
+    },
+    "prev": 56.98,
+    "reference": 47.05,
+    "price_implied_cash_only_diagnostic": 0.5200000000000031,
+    "difference": -0.03333333333333144
+  },
+  {
+    "code": "sh.603610",
+    "date": "2024-06-13",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.0
+    },
+    "prev": 12.02,
+    "reference": 11.04,
+    "price_implied_cash_only_diagnostic": 0.9800000000000004,
+    "difference": -0.019999999999999574
+  },
+  {
+    "code": "sh.603629",
+    "date": "2026-07-07",
+    "event": {
+      "cash": 0.37,
+      "shares": 0.4
+    },
+    "prev": 172.9,
+    "reference": 123.41,
+    "price_implied_cash_only_diagnostic": 0.1260000000000332,
+    "difference": -0.17428571428570194
+  },
+  {
+    "code": "sh.603658",
+    "date": "2024-06-05",
+    "event": {
+      "cash": 1.05208,
+      "shares": 0.0
+    },
+    "prev": 51.15,
+    "reference": 50.11,
+    "price_implied_cash_only_diagnostic": 1.0399999999999991,
+    "difference": -0.012079999999997426
+  },
+  {
+    "code": "sh.603688",
+    "date": "2024-05-22",
+    "event": {
+      "cash": 5.7,
+      "shares": 0.5
+    },
+    "prev": 71.38,
+    "reference": 43.81,
+    "price_implied_cash_only_diagnostic": 5.664999999999992,
+    "difference": -0.023333333333340533
+  },
+  {
+    "code": "sh.603725",
+    "date": "2024-06-07",
+    "event": {
+      "cash": 0.17,
+      "shares": 0.4
+    },
+    "prev": 11.28,
+    "reference": 7.96,
+    "price_implied_cash_only_diagnostic": 0.13599999999999923,
+    "difference": -0.024285714285714022
+  },
+  {
+    "code": "sh.603816",
+    "date": "2024-06-07",
+    "event": {
+      "cash": 1.39,
+      "shares": 0.0
+    },
+    "prev": 36.91,
+    "reference": 35.54,
+    "price_implied_cash_only_diagnostic": 1.3699999999999974,
+    "difference": -0.020000000000003126
+  },
+  {
+    "code": "sh.603833",
+    "date": "2024-07-09",
+    "event": {
+      "cash": 2.76,
+      "shares": 0.0
+    },
+    "prev": 49.08,
+    "reference": 46.34,
+    "price_implied_cash_only_diagnostic": 2.739999999999995,
+    "difference": -0.020000000000003126
+  },
+  {
+    "code": "sh.603836",
+    "date": "2026-06-22",
+    "event": {
+      "cash": 0.2,
+      "shares": 0.4
+    },
+    "prev": 11.49,
+    "reference": 8.1,
+    "price_implied_cash_only_diagnostic": 0.15000000000000213,
+    "difference": -0.0357142857142847
+  },
+  {
+    "code": "sh.603871",
+    "date": "2024-06-18",
+    "event": {
+      "cash": 0.5,
+      "shares": 0.4
+    },
+    "prev": 25.57,
+    "reference": 17.93,
+    "price_implied_cash_only_diagnostic": 0.4680000000000035,
+    "difference": -0.022857142857141355
+  },
+  {
+    "code": "sh.605009",
+    "date": "2025-06-12",
+    "event": {
+      "cash": 0.85,
+      "shares": 0.4
+    },
+    "prev": 68.7,
+    "reference": 48.59,
+    "price_implied_cash_only_diagnostic": 0.6740000000000066,
+    "difference": -0.125714285714281
+  },
+  {
+    "code": "sh.605090",
+    "date": "2025-06-03",
+    "event": {
+      "cash": 0.82868,
+      "shares": 0.0
+    },
+    "prev": 27.23,
+    "reference": 26.42,
+    "price_implied_cash_only_diagnostic": 0.8099999999999987,
+    "difference": -0.018679999999999808
+  },
+  {
+    "code": "sh.605128",
+    "date": "2025-05-22",
+    "event": {
+      "cash": 0.388,
+      "shares": 0.49
+    },
+    "prev": 45.59,
+    "reference": 30.43,
+    "price_implied_cash_only_diagnostic": 0.24930000000000518,
+    "difference": -0.0930872483221421
+  },
+  {
+    "code": "sh.605189",
+    "date": "2025-06-26",
+    "event": {
+      "cash": 0.18,
+      "shares": 0.3
+    },
+    "prev": 15.75,
+    "reference": 12.02,
+    "price_implied_cash_only_diagnostic": 0.12400000000000055,
+    "difference": -0.04307692307692257
+  },
+  {
+    "code": "sh.605266",
+    "date": "2025-06-18",
+    "event": {
+      "cash": 1.1,
+      "shares": 0.0
+    },
+    "prev": 22.83,
+    "reference": 21.78,
+    "price_implied_cash_only_diagnostic": 1.0499999999999972,
+    "difference": -0.05000000000000426
+  },
+  {
+    "code": "sh.605369",
+    "date": "2025-06-26",
+    "event": {
+      "cash": 0.4,
+      "shares": 0.4
+    },
+    "prev": 26.94,
+    "reference": 18.97,
+    "price_implied_cash_only_diagnostic": 0.382000000000005,
+    "difference": -0.012857142857139792
+  },
+  {
+    "code": "sh.605377",
+    "date": "2024-06-14",
+    "event": {
+      "cash": 1.1,
+      "shares": 0.4
+    },
+    "prev": 21.38,
+    "reference": 14.5,
+    "price_implied_cash_only_diagnostic": 1.0800000000000018,
+    "difference": -0.014285714285714235
+  },
+  {
+    "code": "sh.605388",
+    "date": "2024-06-05",
+    "event": {
+      "cash": 0.1,
+      "shares": 0.4
+    },
+    "prev": 8.64,
+    "reference": 6.12,
+    "price_implied_cash_only_diagnostic": 0.07200000000000095,
+    "difference": -0.019999999999998685
+  },
+  {
+    "code": "sh.605398",
+    "date": "2024-08-16",
+    "event": {
+      "cash": 0.12,
+      "shares": 0.4
+    },
+    "prev": 19.19,
+    "reference": 13.67,
+    "price_implied_cash_only_diagnostic": 0.052000000000003155,
+    "difference": -0.048571428571428044
+  },
+  {
+    "code": "sh.605488",
+    "date": "2025-05-30",
+    "event": {
+      "cash": 0.15,
+      "shares": 0.4
+    },
+    "prev": 48.15,
+    "reference": 34.4,
+    "price_implied_cash_only_diagnostic": -0.00999999999999801,
+    "difference": -0.11428571428571388
+  },
+  {
+    "code": "sh.605499",
+    "date": "2026-09-24",
+    "event": {
+      "cash": 3.0,
+      "shares": 0.0
+    },
+    "prev": 114.45,
+    "reference": 111.48,
+    "price_implied_cash_only_diagnostic": 2.969999999999999,
+    "difference": -0.030000000000001137
+  },
+  {
+    "code": "sh.605589",
+    "date": "2025-05-19",
+    "event": {
+      "cash": 0.55,
+      "shares": 0.0
+    },
+    "prev": 26.95,
+    "reference": 26.42,
+    "price_implied_cash_only_diagnostic": 0.5299999999999976,
+    "difference": -0.020000000000003126
+  },
+  {
+    "code": "sh.688005",
+    "date": "2025-03-06",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.49
+    },
+    "prev": 37.1,
+    "reference": 25.07,
+    "price_implied_cash_only_diagnostic": -0.25430000000000064,
+    "difference": -0.17067114093959646
+  },
+  {
+    "code": "sh.688016",
+    "date": "2024-11-08",
+    "event": {
+      "cash": 1.66205,
+      "shares": 0.0
+    },
+    "prev": 105.68,
+    "reference": 104.03,
+    "price_implied_cash_only_diagnostic": 1.6500000000000057,
+    "difference": -0.012049999999987904
+  },
+  {
+    "code": "sh.688018",
+    "date": "2024-05-16",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.4
+    },
+    "prev": 106.0,
+    "reference": 75.7,
+    "price_implied_cash_only_diagnostic": 0.01999999999999602,
+    "difference": -0.7000000000000028
+  },
+  {
+    "code": "sh.688019",
+    "date": "2024-06-11",
+    "event": {
+      "cash": 0.35,
+      "shares": 0.3
+    },
+    "prev": 163.29,
+    "reference": 125.37,
+    "price_implied_cash_only_diagnostic": 0.3089999999999691,
+    "difference": -0.031538461538474394
+  },
+  {
+    "code": "sh.688023",
+    "date": "2024-07-05",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.3
+    },
+    "prev": 37.34,
+    "reference": 28.77,
+    "price_implied_cash_only_diagnostic": -0.06099999999999994,
+    "difference": -0.04692307692307551
+  },
+  {
+    "code": "sh.688037",
+    "date": "2024-07-17",
+    "event": {
+      "cash": 0.2,
+      "shares": 0.45
+    },
+    "prev": 92.15,
+    "reference": 63.43,
+    "price_implied_cash_only_diagnostic": 0.17650000000000432,
+    "difference": -0.01620689655172214
+  },
+  {
+    "code": "sh.688049",
+    "date": "2025-08-07",
+    "event": {
+      "cash": 0.23,
+      "shares": 0.2
+    },
+    "prev": 59.41,
+    "reference": 49.37,
+    "price_implied_cash_only_diagnostic": 0.16600000000000392,
+    "difference": -0.05333333333332746
+  },
+  {
+    "code": "sh.688050",
+    "date": "2024-06-05",
+    "event": {
+      "cash": 0.49,
+      "shares": 0.8
+    },
+    "prev": 145.88,
+    "reference": 80.82,
+    "price_implied_cash_only_diagnostic": 0.40399999999999636,
+    "difference": -0.047777777777781694
+  },
+  {
+    "code": "sh.688058",
+    "date": "2024-06-21",
+    "event": {
+      "cash": 0.26,
+      "shares": 0.4
+    },
+    "prev": 31.0,
+    "reference": 22.17,
+    "price_implied_cash_only_diagnostic": -0.038000000000000256,
+    "difference": -0.21285714285714263
+  },
+  {
+    "code": "sh.688069",
+    "date": "2026-06-16",
+    "event": {
+      "cash": 0.5,
+      "shares": 0.4
+    },
+    "prev": 56.7,
+    "reference": 40.56,
+    "price_implied_cash_only_diagnostic": -0.08399999999999608,
+    "difference": -0.41714285714285637
+  },
+  {
+    "code": "sh.688072",
+    "date": "2024-06-11",
+    "event": {
+      "cash": 0.35,
+      "shares": 0.48
+    },
+    "prev": 204.1,
+    "reference": 137.77,
+    "price_implied_cash_only_diagnostic": 0.2003999999999735,
+    "difference": -0.10108108108107672
+  },
+  {
+    "code": "sh.688073",
+    "date": "2024-06-26",
+    "event": {
+      "cash": 0.9,
+      "shares": 0.0
+    },
+    "prev": 30.72,
+    "reference": 29.84,
+    "price_implied_cash_only_diagnostic": 0.879999999999999,
+    "difference": -0.019999999999999574
+  },
+  {
+    "code": "sh.688083",
+    "date": "2025-06-06",
+    "event": {
+      "cash": 0.5,
+      "shares": 0.4
+    },
+    "prev": 97.56,
+    "reference": 69.43,
+    "price_implied_cash_only_diagnostic": 0.3580000000000041,
+    "difference": -0.10142857142857054
+  },
+  {
+    "code": "sh.688090",
+    "date": "2024-06-24",
+    "event": {
+      "cash": 0.22,
+      "shares": 0.4
+    },
+    "prev": 36.73,
+    "reference": 26.11,
+    "price_implied_cash_only_diagnostic": 0.17600000000000193,
+    "difference": -0.03142857142857025
+  },
+  {
+    "code": "sh.688092",
+    "date": "2024-06-14",
+    "event": {
+      "cash": 0.51,
+      "shares": 0.4
+    },
+    "prev": 31.95,
+    "reference": 22.55,
+    "price_implied_cash_only_diagnostic": 0.379999999999999,
+    "difference": -0.09285714285714519
+  },
+  {
+    "code": "sh.688096",
+    "date": "2025-07-15",
+    "event": {
+      "cash": 0.15,
+      "shares": 0.4
+    },
+    "prev": 15.44,
+    "reference": 10.97,
+    "price_implied_cash_only_diagnostic": 0.08199999999999896,
+    "difference": -0.04857142857142982
+  },
+  {
+    "code": "sh.688120",
+    "date": "2024-07-02",
+    "event": {
+      "cash": 0.55,
+      "shares": 0.49
+    },
+    "prev": 187.91,
+    "reference": 125.79,
+    "price_implied_cash_only_diagnostic": 0.4829000000000008,
+    "difference": -0.045033557046991746
+  },
+  {
+    "code": "sh.688130",
+    "date": "2024-07-12",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.4
+    },
+    "prev": 28.79,
+    "reference": 20.61,
+    "price_implied_cash_only_diagnostic": -0.0639999999999965,
+    "difference": -0.04571428571428271
+  },
+  {
+    "code": "sh.688152",
+    "date": "2025-06-13",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.3
+    },
+    "prev": 53.7,
+    "reference": 41.42,
+    "price_implied_cash_only_diagnostic": -0.1460000000000008,
+    "difference": -0.1123076923076951
+  },
+  {
+    "code": "sh.688167",
+    "date": "2026-06-10",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.45
+    },
+    "prev": 440.87,
+    "reference": 304.47,
+    "price_implied_cash_only_diagnostic": -0.611500000000035,
+    "difference": -0.4217241379310508
+  },
+  {
+    "code": "sh.688169",
+    "date": "2025-06-24",
+    "event": {
+      "cash": 1.06964,
+      "shares": 0.4
+    },
+    "prev": 201.0,
+    "reference": 142.83,
+    "price_implied_cash_only_diagnostic": 1.0379999999999825,
+    "difference": -0.022600000000011278
+  },
+  {
+    "code": "sh.688171",
+    "date": "2026-07-10",
+    "event": {
+      "cash": 0.045,
+      "shares": 0.4
+    },
+    "prev": 38.8,
+    "reference": 27.79,
+    "price_implied_cash_only_diagnostic": -0.10600000000000165,
+    "difference": -0.10785714285714221
+  },
+  {
+    "code": "sh.688186",
+    "date": "2025-06-12",
+    "event": {
+      "cash": 0.3825,
+      "shares": 0.0
+    },
+    "prev": 26.77,
+    "reference": 26.41,
+    "price_implied_cash_only_diagnostic": 0.35999999999999943,
+    "difference": -0.022500000000000853
+  },
+  {
+    "code": "sh.688193",
+    "date": "2026-06-10",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.0
+    },
+    "prev": 52.93,
+    "reference": 51.96,
+    "price_implied_cash_only_diagnostic": 0.9699999999999989,
+    "difference": -0.030000000000001137
+  },
+  {
+    "code": "sh.688199",
+    "date": "2024-06-19",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.49
+    },
+    "prev": 22.48,
+    "reference": 15.11,
+    "price_implied_cash_only_diagnostic": -0.03389999999999915,
+    "difference": -0.022751677852347996
+  },
+  {
+    "code": "sh.688200",
+    "date": "2026-06-11",
+    "event": {
+      "cash": 1.19,
+      "shares": 0.48
+    },
+    "prev": 467.46,
+    "reference": 315.13,
+    "price_implied_cash_only_diagnostic": 1.0675999999999704,
+    "difference": -0.0827027027027043
+  },
+  {
+    "code": "sh.688201",
+    "date": "2024-07-09",
+    "event": {
+      "cash": 0.03,
+      "shares": 0.48
+    },
+    "prev": 10.49,
+    "reference": 7.09,
+    "price_implied_cash_only_diagnostic": -0.0031999999999996476,
+    "difference": -0.022432432432431426
+  },
+  {
+    "code": "sh.688208",
+    "date": "2025-05-14",
+    "event": {
+      "cash": 0.5,
+      "shares": 0.49
+    },
+    "prev": 43.9,
+    "reference": 29.27,
+    "price_implied_cash_only_diagnostic": 0.28770000000000095,
+    "difference": -0.14248322147651038
+  },
+  {
+    "code": "sh.688215",
+    "date": "2025-07-11",
+    "event": {
+      "cash": 0.10032,
+      "shares": 0.20064
+    },
+    "prev": 46.1,
+    "reference": 38.36,
+    "price_implied_cash_only_diagnostic": 0.04344960000000242,
+    "difference": -0.04736673773987121
+  },
+  {
+    "code": "sh.688231",
+    "date": "2026-06-23",
+    "event": {
+      "cash": 0.07,
+      "shares": 0.3
+    },
+    "prev": 47.15,
+    "reference": 36.37,
+    "price_implied_cash_only_diagnostic": -0.13100000000000023,
+    "difference": -0.15461538461538282
+  },
+  {
+    "code": "sh.688239",
+    "date": "2025-06-03",
+    "event": {
+      "cash": 0.22,
+      "shares": 0.3
+    },
+    "prev": 41.19,
+    "reference": 31.55,
+    "price_implied_cash_only_diagnostic": 0.17499999999999716,
+    "difference": -0.03461538461538893
+  },
+  {
+    "code": "sh.688244",
+    "date": "2024-06-17",
+    "event": {
+      "cash": 0.226,
+      "shares": 0.48
+    },
+    "prev": 44.82,
+    "reference": 30.23,
+    "price_implied_cash_only_diagnostic": 0.07959999999999923,
+    "difference": -0.09891891891891902
+  },
+  {
+    "code": "sh.688251",
+    "date": "2024-07-01",
+    "event": {
+      "cash": 0.22,
+      "shares": 0.45
+    },
+    "prev": 18.57,
+    "reference": 12.68,
+    "price_implied_cash_only_diagnostic": 0.18400000000000105,
+    "difference": -0.024827586206894736
+  },
+  {
+    "code": "sh.688257",
+    "date": "2024-06-19",
+    "event": {
+      "cash": 0.4,
+      "shares": 0.4
+    },
+    "prev": 21.3,
+    "reference": 15.01,
+    "price_implied_cash_only_diagnostic": 0.28600000000000136,
+    "difference": -0.08142857142856919
+  },
+  {
+    "code": "sh.688258",
+    "date": "2024-07-11",
+    "event": {
+      "cash": 0.19869,
+      "shares": 0.4
+    },
+    "prev": 29.54,
+    "reference": 21.06,
+    "price_implied_cash_only_diagnostic": 0.05600000000000449,
+    "difference": -0.10192142857142628
+  },
+  {
+    "code": "sh.688259",
+    "date": "2024-08-13",
+    "event": {
+      "cash": 0.26,
+      "shares": 0.4
+    },
+    "prev": 36.16,
+    "reference": 25.71,
+    "price_implied_cash_only_diagnostic": 0.16599999999999682,
+    "difference": -0.0671428571428585
+  },
+  {
+    "code": "sh.688261",
+    "date": "2024-07-04",
+    "event": {
+      "cash": 0.17875,
+      "shares": 0.3
+    },
+    "prev": 49.1,
+    "reference": 37.66,
+    "price_implied_cash_only_diagnostic": 0.142000000000003,
+    "difference": -0.028269230769225828
+  },
+  {
+    "code": "sh.688267",
+    "date": "2026-06-18",
+    "event": {
+      "cash": 0.2,
+      "shares": 0.3
+    },
+    "prev": 30.33,
+    "reference": 23.27,
+    "price_implied_cash_only_diagnostic": 0.07899999999999707,
+    "difference": -0.09307692307692506
+  },
+  {
+    "code": "sh.688270",
+    "date": "2026-06-17",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.4
+    },
+    "prev": 108.95,
+    "reference": 77.86,
+    "price_implied_cash_only_diagnostic": -0.053999999999987836,
+    "difference": -0.03857142857141582
+  },
+  {
+    "code": "sh.688286",
+    "date": "2026-07-02",
+    "event": {
+      "cash": 0.27,
+      "shares": 0.4
+    },
+    "prev": 133.33,
+    "reference": 95.25,
+    "price_implied_cash_only_diagnostic": -0.01999999999998181,
+    "difference": -0.20714285714285552
+  },
+  {
+    "code": "sh.688289",
+    "date": "2023-12-11",
+    "event": {
+      "cash": 0.2622,
+      "shares": 0.0
+    },
+    "prev": 19.18,
+    "reference": 18.93,
+    "price_implied_cash_only_diagnostic": 0.25,
+    "difference": -0.012199999999999989
+  },
+  {
+    "code": "sh.688301",
+    "date": "2024-06-17",
+    "event": {
+      "cash": 2.0,
+      "shares": 0.4
+    },
+    "prev": 189.83,
+    "reference": 134.23,
+    "price_implied_cash_only_diagnostic": 1.9080000000000439,
+    "difference": -0.06571428571425031
+  },
+  {
+    "code": "sh.688325",
+    "date": "2025-07-08",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.0
+    },
+    "prev": 48.04,
+    "reference": 47.06,
+    "price_implied_cash_only_diagnostic": 0.9799999999999969,
+    "difference": -0.020000000000003126
+  },
+  {
+    "code": "sh.688326",
+    "date": "2026-06-26",
+    "event": {
+      "cash": 0.3,
+      "shares": 0.0
+    },
+    "prev": 70.33,
+    "reference": 70.05,
+    "price_implied_cash_only_diagnostic": 0.28000000000000114,
+    "difference": -0.01999999999999602
+  },
+  {
+    "code": "sh.688348",
+    "date": "2024-07-03",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.4
+    },
+    "prev": 57.7,
+    "reference": 40.64,
+    "price_implied_cash_only_diagnostic": 0.8040000000000092,
+    "difference": -0.13999999999999346
+  },
+  {
+    "code": "sh.688366",
+    "date": "2024-06-20",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.4
+    },
+    "prev": 90.1,
+    "reference": 63.88,
+    "price_implied_cash_only_diagnostic": 0.6679999999999922,
+    "difference": -0.23714285714285666
+  },
+  {
+    "code": "sh.688368",
+    "date": "2024-06-14",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.4
+    },
+    "prev": 75.31,
+    "reference": 53.97,
+    "price_implied_cash_only_diagnostic": -0.24799999999999045,
+    "difference": -0.17714285714285438
+  },
+  {
+    "code": "sh.688378",
+    "date": "2025-06-18",
+    "event": {
+      "cash": 0.25,
+      "shares": 0.2
+    },
+    "prev": 18.78,
+    "reference": 15.48,
+    "price_implied_cash_only_diagnostic": 0.20400000000000063,
+    "difference": -0.03833333333333222
+  },
+  {
+    "code": "sh.688388",
+    "date": "2026-06-17",
+    "event": {
+      "cash": 0.045,
+      "shares": 0.45
+    },
+    "prev": 70.9,
+    "reference": 48.93,
+    "price_implied_cash_only_diagnostic": -0.048499999999989996,
+    "difference": -0.06448275862068442
+  },
+  {
+    "code": "sh.688391",
+    "date": "2024-05-14",
+    "event": {
+      "cash": 0.8,
+      "shares": 0.45
+    },
+    "prev": 41.8,
+    "reference": 28.44,
+    "price_implied_cash_only_diagnostic": 0.5619999999999976,
+    "difference": -0.1641379310344817
+  },
+  {
+    "code": "sh.688398",
+    "date": "2024-06-20",
+    "event": {
+      "cash": 0.4,
+      "shares": 0.45
+    },
+    "prev": 27.85,
+    "reference": 18.98,
+    "price_implied_cash_only_diagnostic": 0.3290000000000006,
+    "difference": -0.048965517241377654
+  },
+  {
+    "code": "sh.688408",
+    "date": "2024-07-11",
+    "event": {
+      "cash": 0.88,
+      "shares": 0.49
+    },
+    "prev": 85.11,
+    "reference": 56.71,
+    "price_implied_cash_only_diagnostic": 0.6120999999999981,
+    "difference": -0.17979865771811632
+  },
+  {
+    "code": "sh.688409",
+    "date": "2024-06-24",
+    "event": {
+      "cash": 0.5,
+      "shares": 0.48
+    },
+    "prev": 66.89,
+    "reference": 45.06,
+    "price_implied_cash_only_diagnostic": 0.20120000000000005,
+    "difference": -0.20189189189188994
+  },
+  {
+    "code": "sh.688416",
+    "date": "2026-06-24",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.3
+    },
+    "prev": 146.4,
+    "reference": 112.88,
+    "price_implied_cash_only_diagnostic": -0.3439999999999941,
+    "difference": -0.26461538461538225
+  },
+  {
+    "code": "sh.688419",
+    "date": "2025-07-11",
+    "event": {
+      "cash": 0.4,
+      "shares": 0.4
+    },
+    "prev": 37.32,
+    "reference": 26.43,
+    "price_implied_cash_only_diagnostic": 0.31800000000000495,
+    "difference": -0.058571428571426054
+  },
+  {
+    "code": "sh.688448",
+    "date": "2026-06-02",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.35
+    },
+    "prev": 69.63,
+    "reference": 51.6,
+    "price_implied_cash_only_diagnostic": -0.030000000000015348,
+    "difference": -0.0222222222222328
+  },
+  {
+    "code": "sh.688458",
+    "date": "2024-06-27",
+    "event": {
+      "cash": 0.1,
+      "shares": 0.4
+    },
+    "prev": 39.15,
+    "reference": 28.01,
+    "price_implied_cash_only_diagnostic": -0.06400000000000006,
+    "difference": -0.11714285714285921
+  },
+  {
+    "code": "sh.688479",
+    "date": "2026-06-03",
+    "event": {
+      "cash": 0.26,
+      "shares": 0.4
+    },
+    "prev": 41.41,
+    "reference": 29.5,
+    "price_implied_cash_only_diagnostic": 0.10999999999999943,
+    "difference": -0.10714285714285765
+  },
+  {
+    "code": "sh.688486",
+    "date": "2024-06-03",
+    "event": {
+      "cash": 1.40255,
+      "shares": 0.48
+    },
+    "prev": 84.46,
+    "reference": 56.25,
+    "price_implied_cash_only_diagnostic": 1.2099999999999937,
+    "difference": -0.1301013513513567
+  },
+  {
+    "code": "sh.688489",
+    "date": "2026-05-27",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.48
+    },
+    "prev": 42.31,
+    "reference": 28.78,
+    "price_implied_cash_only_diagnostic": -0.284399999999998,
+    "difference": -0.19216216216216253
+  },
+  {
+    "code": "sh.688498",
+    "date": "2026-05-18",
+    "event": {
+      "cash": 0.7,
+      "shares": 0.45
+    },
+    "prev": 1559.0,
+    "reference": 1075.73,
+    "price_implied_cash_only_diagnostic": -0.8084999999998672,
+    "difference": -1.0403448275862957
+  },
+  {
+    "code": "sh.688503",
+    "date": "2024-06-11",
+    "event": {
+      "cash": 1.13104,
+      "shares": 0.48
+    },
+    "prev": 51.95,
+    "reference": 34.81,
+    "price_implied_cash_only_diagnostic": 0.4311999999999969,
+    "difference": -0.47286486486486723
+  },
+  {
+    "code": "sh.688507",
+    "date": "2024-06-19",
+    "event": {
+      "cash": 0.38,
+      "shares": 0.46
+    },
+    "prev": 78.0,
+    "reference": 53.29,
+    "price_implied_cash_only_diagnostic": 0.19660000000000366,
+    "difference": -0.1256164383561611
+  },
+  {
+    "code": "sh.688522",
+    "date": "2025-06-06",
+    "event": {
+      "cash": 0.1,
+      "shares": 0.4
+    },
+    "prev": 71.17,
+    "reference": 50.79,
+    "price_implied_cash_only_diagnostic": 0.06400000000000716,
+    "difference": -0.025714285714279583
+  },
+  {
+    "code": "sh.688531",
+    "date": "2024-06-07",
+    "event": {
+      "cash": 0.8,
+      "shares": 0.45
+    },
+    "prev": 64.54,
+    "reference": 44.21,
+    "price_implied_cash_only_diagnostic": 0.43550000000000466,
+    "difference": -0.25137931034482364
+  },
+  {
+    "code": "sh.688535",
+    "date": "2026-04-30",
+    "event": {
+      "cash": 0.1,
+      "shares": 0.48
+    },
+    "prev": 131.0,
+    "reference": 88.53,
+    "price_implied_cash_only_diagnostic": -0.024400000000014188,
+    "difference": -0.0840540540540502
+  },
+  {
+    "code": "sh.688543",
+    "date": "2024-06-07",
+    "event": {
+      "cash": 0.8,
+      "shares": 0.2
+    },
+    "prev": 55.2,
+    "reference": 45.42,
+    "price_implied_cash_only_diagnostic": 0.6960000000000051,
+    "difference": -0.0866666666666589
+  },
+  {
+    "code": "sh.688550",
+    "date": "2024-06-14",
+    "event": {
+      "cash": 0.45,
+      "shares": 0.3
+    },
+    "prev": 34.7,
+    "reference": 26.43,
+    "price_implied_cash_only_diagnostic": 0.3410000000000011,
+    "difference": -0.08384615384615302
+  },
+  {
+    "code": "sh.688551",
+    "date": "2026-06-05",
+    "event": {
+      "cash": 0.2,
+      "shares": 0.3
+    },
+    "prev": 73.1,
+    "reference": 56.23,
+    "price_implied_cash_only_diagnostic": 0.000999999999990564,
+    "difference": -0.15307692307693088
+  },
+  {
+    "code": "sh.688553",
+    "date": "2026-06-17",
+    "event": {
+      "cash": 0.2,
+      "shares": 0.48
+    },
+    "prev": 16.26,
+    "reference": 10.87,
+    "price_implied_cash_only_diagnostic": 0.17240000000000322,
+    "difference": -0.01864864864864657
+  },
+  {
+    "code": "sh.688557",
+    "date": "2026-07-09",
+    "event": {
+      "cash": 0.33,
+      "shares": 0.45
+    },
+    "prev": 31.33,
+    "reference": 21.46,
+    "price_implied_cash_only_diagnostic": 0.2129999999999974,
+    "difference": -0.08068965517241367
+  },
+  {
+    "code": "sh.688576",
+    "date": "2024-08-22",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.0
+    },
+    "prev": 51.93,
+    "reference": 51.01,
+    "price_implied_cash_only_diagnostic": 0.9200000000000017,
+    "difference": -0.0799999999999983
+  },
+  {
+    "code": "sh.688580",
+    "date": "2024-06-05",
+    "event": {
+      "cash": 1.5058,
+      "shares": 0.4
+    },
+    "prev": 43.99,
+    "reference": 30.45,
+    "price_implied_cash_only_diagnostic": 1.3600000000000065,
+    "difference": -0.10414285714285398
+  },
+  {
+    "code": "sh.688581",
+    "date": "2024-06-21",
+    "event": {
+      "cash": 1.45,
+      "shares": 0.4
+    },
+    "prev": 76.79,
+    "reference": 53.93,
+    "price_implied_cash_only_diagnostic": 1.288000000000011,
+    "difference": -0.115714285714283
+  },
+  {
+    "code": "sh.688589",
+    "date": "2025-06-06",
+    "event": {
+      "cash": 0.3,
+      "shares": 0.2
+    },
+    "prev": 25.22,
+    "reference": 20.78,
+    "price_implied_cash_only_diagnostic": 0.2839999999999989,
+    "difference": -0.013333333333335418
+  },
+  {
+    "code": "sh.688592",
+    "date": "2025-07-09",
+    "event": {
+      "cash": 0.12,
+      "shares": 0.3
+    },
+    "prev": 45.79,
+    "reference": 35.28,
+    "price_implied_cash_only_diagnostic": -0.07400000000000517,
+    "difference": -0.14923076923076906
+  },
+  {
+    "code": "sh.688597",
+    "date": "2025-06-23",
+    "event": {
+      "cash": 0.153,
+      "shares": 0.4
+    },
+    "prev": 10.68,
+    "reference": 7.75,
+    "price_implied_cash_only_diagnostic": -0.16999999999999993,
+    "difference": -0.23071428571428587
+  },
+  {
+    "code": "sh.688598",
+    "date": "2024-07-03",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.49
+    },
+    "prev": 28.15,
+    "reference": 18.92,
+    "price_implied_cash_only_diagnostic": -0.04080000000000439,
+    "difference": -0.027382550335573796
+  },
+  {
+    "code": "sh.688603",
+    "date": "2025-01-06",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.45
+    },
+    "prev": 114.05,
+    "reference": 78.98,
+    "price_implied_cash_only_diagnostic": -0.47100000000000364,
+    "difference": -0.32482758620689367
+  },
+  {
+    "code": "sh.688606",
+    "date": "2024-06-20",
+    "event": {
+      "cash": 1.5,
+      "shares": 0.0
+    },
+    "prev": 50.06,
+    "reference": 48.59,
+    "price_implied_cash_only_diagnostic": 1.4699999999999989,
+    "difference": -0.030000000000001137
+  },
+  {
+    "code": "sh.688608",
+    "date": "2025-07-02",
+    "event": {
+      "cash": 1.2,
+      "shares": 0.4
+    },
+    "prev": 338.61,
+    "reference": 241.2,
+    "price_implied_cash_only_diagnostic": 0.9300000000000637,
+    "difference": -0.19285714285709332
+  },
+  {
+    "code": "sh.688616",
+    "date": "2024-07-03",
+    "event": {
+      "cash": 0.3,
+      "shares": 0.2
+    },
+    "prev": 10.96,
+    "reference": 8.92,
+    "price_implied_cash_only_diagnostic": 0.256000000000002,
+    "difference": -0.03666666666666529
+  },
+  {
+    "code": "sh.688617",
+    "date": "2024-07-26",
+    "event": {
+      "cash": 2.0,
+      "shares": 0.45
+    },
+    "prev": 472.55,
+    "reference": 324.99,
+    "price_implied_cash_only_diagnostic": 1.3145000000000095,
+    "difference": -0.47275862068966035
+  },
+  {
+    "code": "sh.688618",
+    "date": "2024-06-11",
+    "event": {
+      "cash": 0.52,
+      "shares": 0.48
+    },
+    "prev": 39.52,
+    "reference": 26.43,
+    "price_implied_cash_only_diagnostic": 0.4036000000000044,
+    "difference": -0.07864864864864884
+  },
+  {
+    "code": "sh.688623",
+    "date": "2025-06-24",
+    "event": {
+      "cash": 1.072,
+      "shares": 0.0
+    },
+    "prev": 62.38,
+    "reference": 61.32,
+    "price_implied_cash_only_diagnostic": 1.0600000000000023,
+    "difference": -0.012000000000000455
+  },
+  {
+    "code": "sh.688625",
+    "date": "2024-07-01",
+    "event": {
+      "cash": 0.75,
+      "shares": 0.0
+    },
+    "prev": 36.36,
+    "reference": 35.63,
+    "price_implied_cash_only_diagnostic": 0.7299999999999969,
+    "difference": -0.020000000000003126
+  },
+  {
+    "code": "sh.688633",
+    "date": "2024-06-07",
+    "event": {
+      "cash": 0.45,
+      "shares": 0.4
+    },
+    "prev": 26.22,
+    "reference": 18.43,
+    "price_implied_cash_only_diagnostic": 0.41799999999999926,
+    "difference": -0.022857142857141355
+  },
+  {
+    "code": "sh.688639",
+    "date": "2024-07-22",
+    "event": {
+      "cash": 0.9,
+      "shares": 0.45
+    },
+    "prev": 64.77,
+    "reference": 44.09,
+    "price_implied_cash_only_diagnostic": 0.8394999999999939,
+    "difference": -0.04172413793104113
+  },
+  {
+    "code": "sh.688651",
+    "date": "2026-07-10",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.36
+    },
+    "prev": 30.74,
+    "reference": 22.62,
+    "price_implied_cash_only_diagnostic": -0.02319999999999922,
+    "difference": -0.01705882352941046
+  },
+  {
+    "code": "sh.688657",
+    "date": "2026-05-14",
+    "event": {
+      "cash": 0.6,
+      "shares": 0.46
+    },
+    "prev": 54.31,
+    "reference": 36.88,
+    "price_implied_cash_only_diagnostic": 0.46520000000000294,
+    "difference": -0.0923287671232913
+  },
+  {
+    "code": "sh.688663",
+    "date": "2026-07-27",
+    "event": {
+      "cash": 0.22,
+      "shares": 0.4
+    },
+    "prev": 68.07,
+    "reference": 48.67,
+    "price_implied_cash_only_diagnostic": -0.06799999999999784,
+    "difference": -0.2057142857142864
+  },
+  {
+    "code": "sh.688678",
+    "date": "2024-06-06",
+    "event": {
+      "cash": 0.3,
+      "shares": 0.4
+    },
+    "prev": 15.42,
+    "reference": 10.84,
+    "price_implied_cash_only_diagnostic": 0.24400000000000155,
+    "difference": -0.03999999999999915
+  },
+  {
+    "code": "sh.688696",
+    "date": "2026-05-19",
+    "event": {
+      "cash": 1.1844,
+      "shares": 0.0
+    },
+    "prev": 86.91,
+    "reference": 85.77,
+    "price_implied_cash_only_diagnostic": 1.1400000000000006,
+    "difference": -0.044399999999996
+  },
+  {
+    "code": "sh.688699",
+    "date": "2026-09-30",
+    "event": {
+      "cash": 0.5,
+      "shares": 0.0
+    },
+    "prev": 66.81,
+    "reference": 66.33,
+    "price_implied_cash_only_diagnostic": 0.480000000000004,
+    "difference": -0.01999999999999602
+  },
+  {
+    "code": "sh.688719",
+    "date": "2024-06-21",
+    "event": {
+      "cash": 0.51134,
+      "shares": 0.4
+    },
+    "prev": 41.3,
+    "reference": 29.16,
+    "price_implied_cash_only_diagnostic": 0.4759999999999991,
+    "difference": -0.02524285714285668
+  },
+  {
+    "code": "sh.688766",
+    "date": "2024-06-06",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.4
+    },
+    "prev": 117.5,
+    "reference": 84.02,
+    "price_implied_cash_only_diagnostic": -0.1279999999999859,
+    "difference": -0.09142857142856542
+  },
+  {
+    "code": "sh.688767",
+    "date": "2024-06-11",
+    "event": {
+      "cash": 0.8,
+      "shares": 0.0
+    },
+    "prev": 26.72,
+    "reference": 25.94,
+    "price_implied_cash_only_diagnostic": 0.7799999999999976,
+    "difference": -0.020000000000003126
+  },
+  {
+    "code": "sh.688778",
+    "date": "2025-07-03",
+    "event": {
+      "cash": 0.4,
+      "shares": 0.2
+    },
+    "prev": 56.41,
+    "reference": 46.7,
+    "price_implied_cash_only_diagnostic": 0.36999999999999744,
+    "difference": -0.025000000000005684
+  },
+  {
+    "code": "sh.688788",
+    "date": "2025-06-24",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.49
+    },
+    "prev": 58.73,
+    "reference": 39.54,
+    "price_implied_cash_only_diagnostic": -0.1846000000000032,
+    "difference": -0.12389261744966262
+  },
+  {
+    "code": "sh.688800",
+    "date": "2025-05-30",
+    "event": {
+      "cash": 0.35,
+      "shares": 0.3
+    },
+    "prev": 51.52,
+    "reference": 39.41,
+    "price_implied_cash_only_diagnostic": 0.28700000000000614,
+    "difference": -0.04846153846153811
+  },
+  {
+    "code": "sz.000333",
+    "date": "2024-05-15",
+    "event": {
+      "cash": 3.0,
+      "shares": 0.0
+    },
+    "prev": 70.84,
+    "reference": 67.86,
+    "price_implied_cash_only_diagnostic": 2.980000000000004,
+    "difference": -0.01999999999999602
+  },
+  {
+    "code": "sz.000430",
+    "date": "2025-12-29",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.0
+    },
+    "prev": 7.9,
+    "reference": 6.87,
+    "price_implied_cash_only_diagnostic": -5.84,
+    "difference": -2.92
+  },
+  {
+    "code": "sz.000513",
+    "date": "2025-06-13",
+    "event": {
+      "cash": 1.1,
+      "shares": 0.0
+    },
+    "prev": 39.11,
+    "reference": 38.03,
+    "price_implied_cash_only_diagnostic": 1.0799999999999983,
+    "difference": -0.020000000000003126
+  },
+  {
+    "code": "sz.000525",
+    "date": "2024-11-18",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.235
+    },
+    "prev": 10.1,
+    "reference": 9.07,
+    "price_implied_cash_only_diagnostic": -10.171450000000005,
+    "difference": -4.550984340044744
+  },
+  {
+    "code": "sz.000581",
+    "date": "2024-06-20",
+    "event": {
+      "cash": 1.0,
+      "shares": 0.0
+    },
+    "prev": 18.13,
+    "reference": 17.16,
+    "price_implied_cash_only_diagnostic": 0.9699999999999989,
+    "difference": -0.030000000000001137
+  },
+  {
+    "code": "sz.000615",
+    "date": "2025-12-29",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.34278
+    },
+    "prev": 4.18,
+    "reference": 3.53,
+    "price_implied_cash_only_diagnostic": -4.0900134,
+    "difference": -1.745794910320218
+  },
+  {
+    "code": "sz.000651",
+    "date": "2024-08-28",
+    "event": {
+      "cash": 2.38,
+      "shares": 0.0
+    },
+    "prev": 41.77,
+    "reference": 39.44,
+    "price_implied_cash_only_diagnostic": 2.3300000000000054,
+    "difference": -0.04999999999999716
+  },
+  {
+    "code": "sz.000661",
+    "date": "2024-04-18",
+    "event": {
+      "cash": 4.5,
+      "shares": 0.0
+    },
+    "prev": 121.18,
+    "reference": 116.71,
+    "price_implied_cash_only_diagnostic": 4.470000000000013,
+    "difference": -0.029999999999986926
+  },
+  {
+    "code": "sz.000691",
+    "date": "2026-01-05",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.5
+    },
+    "prev": 9.1,
+    "reference": 7.05,
+    "price_implied_cash_only_diagnostic": -1.4749999999999996,
+    "difference": -0.9833333333333334
+  },
+  {
+    "code": "sz.000697",
+    "date": "2025-11-28",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.599
+    },
+    "prev": 8.52,
+    "reference": 8.05,
+    "price_implied_cash_only_diagnostic": -4.351950000000002,
+    "difference": -2.7216697936210137
+  },
+  {
+    "code": "sz.000703",
+    "date": "2026-09-18",
+    "event": {
+      "cash": 0.9,
+      "shares": 0.0
+    },
+    "prev": 17.73,
+    "reference": 16.91,
+    "price_implied_cash_only_diagnostic": 0.8200000000000003,
+    "difference": -0.0799999999999983
+  },
+  {
+    "code": "sz.000793",
+    "date": "2026-06-22",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.2
+    },
+    "prev": 2.63,
+    "reference": 2.51,
+    "price_implied_cash_only_diagnostic": -2.8920000000000003,
+    "difference": -1.3145454545454545
+  },
+  {
+    "code": "sz.000796",
+    "date": "2023-12-20",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.0
+    },
+    "prev": 4.08,
+    "reference": 3.93,
+    "price_implied_cash_only_diagnostic": -3.7800000000000002,
+    "difference": -1.8900000000000001
+  },
+  {
+    "code": "sz.000908",
+    "date": "2026-03-11",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.0
+    },
+    "prev": 6.37,
+    "reference": 4.36,
+    "price_implied_cash_only_diagnostic": -2.3500000000000005,
+    "difference": -1.1750000000000003
+  },
+  {
+    "code": "sz.001202",
+    "date": "2025-06-18",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.3
+    },
+    "prev": 16.62,
+    "reference": 12.84,
+    "price_implied_cash_only_diagnostic": -0.07199999999999918,
+    "difference": -0.05538461538461448
+  },
+  {
+    "code": "sz.001212",
+    "date": "2025-05-29",
+    "event": {
+      "cash": 0.1,
+      "shares": 0.4
+    },
+    "prev": 72.05,
+    "reference": 51.56,
+    "price_implied_cash_only_diagnostic": -0.13400000000000034,
+    "difference": -0.16714285714285637
+  },
+  {
+    "code": "sz.001230",
+    "date": "2024-06-06",
+    "event": {
+      "cash": 0.35,
+      "shares": 0.2
+    },
+    "prev": 17.27,
+    "reference": 14.12,
+    "price_implied_cash_only_diagnostic": 0.3260000000000005,
+    "difference": -0.019999999999999574
+  },
+  {
+    "code": "sz.001268",
+    "date": "2026-07-07",
+    "event": {
+      "cash": 0.3,
+      "shares": 0.4
+    },
+    "prev": 40.3,
+    "reference": 28.65,
+    "price_implied_cash_only_diagnostic": 0.19000000000000483,
+    "difference": -0.07857142857142563
+  },
+  {
+    "code": "sz.001299",
+    "date": "2025-04-29",
+    "event": {
+      "cash": 0.8,
+      "shares": 0.3
+    },
+    "prev": 14.8,
+    "reference": 10.84,
+    "price_implied_cash_only_diagnostic": 0.7080000000000002,
+    "difference": -0.07076923076923158
+  },
+  {
+    "code": "sz.001301",
+    "date": "2026-07-03",
+    "event": {
+      "cash": 0.8,
+      "shares": 0.4
+    },
+    "prev": 87.76,
+    "reference": 62.19,
+    "price_implied_cash_only_diagnostic": 0.6940000000000168,
+    "difference": -0.07571428571427674
+  },
+  {
+    "code": "sz.002020",
+    "date": "2025-05-29",
+    "event": {
+      "cash": 0.35,
+      "shares": 0.0
+    },
+    "prev": 13.22,
+    "reference": 12.89,
+    "price_implied_cash_only_diagnostic": 0.33000000000000007,
+    "difference": -0.019999999999999574
+  },
+  {
+    "code": "sz.002021",
+    "date": "2023-12-29",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.7525232
+    },
+    "prev": 3.53,
+    "reference": 2.8,
+    "price_implied_cash_only_diagnostic": -1.3770649599999998,
+    "difference": -0.7857613297216264
+  },
+  {
+    "code": "sz.002032",
+    "date": "2024-05-28",
+    "event": {
+      "cash": 2.73,
+      "shares": 0.0
+    },
+    "prev": 57.29,
+    "reference": 54.58,
+    "price_implied_cash_only_diagnostic": 2.710000000000001,
+    "difference": -0.01999999999999602
+  },
+  {
+    "code": "sz.002200",
+    "date": "2025-12-12",
+    "event": {
+      "cash": 0.0,
+      "shares": 1.45
+    },
+    "prev": 7.82,
+    "reference": 6.94,
+    "price_implied_cash_only_diagnostic": -9.183000000000003,
+    "difference": -3.7481632653061228
+  },
+  {
+    "code": "sz.002271",
+    "date": "2024-05-22",
+    "event": {
+      "cash": 0.6,
+      "shares": 0.0
+    },
+    "prev": 17.26,
+    "reference": 16.68,
+    "price_implied_cash_only_diagnostic": 0.5800000000000018,
+    "difference": -0.019999999999999574
+  },
+  {
+    "code": "sz.002318",
+    "date": "2025-04-24",
+    "event": {
+      "cash": 0.97,
+      "shares": 0.0
+    },
+    "prev": 24.3,
+    "reference": 23.36,
+    "price_implied_cash_only_diagnostic": 0.9400000000000013,
+    "difference": -0.029999999999997584
+  },
+  {
+    "code": "sz.002322",
+    "date": "2024-05-23",
+    "event": {
+      "cash": 0.85,
+      "shares": 0.0
+    },
+    "prev": 13.83,
+    "reference": 13.02,
+    "price_implied_cash_only_diagnostic": 0.8100000000000005,
+    "difference": -0.03999999999999915
+  },
+  {
+    "code": "sz.002346",
+    "date": "2025-06-13",
+    "event": {
+      "cash": 0.5,
+      "shares": 0.0
+    },
+    "prev": 14.23,
+    "reference": 13.76,
+    "price_implied_cash_only_diagnostic": 0.47000000000000064,
+    "difference": -0.02999999999999936
+  },
+  {
+    "code": "sz.002396",
+    "date": "2026-05-25",
+    "event": {
+      "cash": 0.25,
+      "shares": 0.3
+    },
+    "prev": 31.68,
+    "reference": 24.2,
+    "price_implied_cash_only_diagnostic": 0.21999999999999886,
+    "difference": -0.02307692307692477
+  },
+  {
+    "code": "sz.002432",
+    "date": "2024-06-04",
+    "event": {
+      "cash": 0.3,
+      "shares": 0.0
+    },
+    "prev": 41.67,
+    "reference": 41.41,
+    "price_implied_cash_only_diagnostic": 0.2600000000000051,
+    "difference": -0.03999999999999204
+  },
+  {
+    "code": "sz.002458",
+    "date": "2026-05-15",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.3
+    },
+    "prev": 11.72,
+    "reference": 9.06,
+    "price_implied_cash_only_diagnostic": -0.05799999999999983,
+    "difference": -0.04461538461538517
+  }
+]

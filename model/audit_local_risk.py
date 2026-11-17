@@ -7,6 +7,7 @@ import json
 from collections import Counter
 from pathlib import Path
 from total_return import analyze
+from calendar_coverage import calendar_gap_reason
 
 
 def audit(root, calendar, codes=None):
@@ -18,8 +19,8 @@ def audit(root, calendar, codes=None):
             raw=path.read_bytes();entry['sha256']=hashlib.sha256(raw).hexdigest()
             data=json.loads(raw)
             if data.get('code')!=path.stem:raise ValueError('security identity mismatch')
-            dates=sorted(r['date'] for r in data['daily'] if calendar['start']<=r['date']<=calendar['end'])
-            if dates!=calendar['dates']:raise ValueError('incomplete calendar')
+            gap=calendar_gap_reason(data,calendar)
+            if gap:raise ValueError(gap)
             result=analyze(data,calendar['start'],calendar['end'])
             entry.update(status='ok',metrics=result['metrics'],redundant_adjustment_dates=result['redundant_adjustment_dates'])
         except (OSError,ValueError,KeyError,TypeError) as exc:

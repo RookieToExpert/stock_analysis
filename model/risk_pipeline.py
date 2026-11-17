@@ -10,6 +10,7 @@ from decimal import Decimal
 from pathlib import Path
 from total_return import analyze,CoverageError
 from action_verification import apply_verified_actions
+from calendar_coverage import calendar_gap_reason
 
 _CACHE={}
 _LOCK=threading.Lock()
@@ -86,8 +87,8 @@ def reconstruct(code,as_of,dividends,cal,root):
     path=Path(root)/(sec+'.json')
     raw=path.read_bytes();data=json.loads(raw)
     if data.get('code')!=sec:raise CoverageError('wrong local security')
-    dates=[r['date'] for r in data['daily'] if cal['start']<=r['date']<=cal['end']]
-    if sorted(dates)!=cal['dates']:raise CoverageError('daily data does not cover independent calendar')
+    gap=calendar_gap_reason(data,cal)
+    if gap:raise CoverageError('daily data does not cover independent calendar: '+gap)
     overlays=action_rows(dividends,code,as_of,cal['start'],cal['end'])
     data=copy.deepcopy(data);data.setdefault('dividend',[]).extend(overlays)
     verified_actions=apply_verified_actions(data,as_of)

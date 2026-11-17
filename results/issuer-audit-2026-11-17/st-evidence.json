@@ -1,0 +1,152 @@
+{
+  "sz.000670": {
+    "source": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216660066.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.000976": {
+    "source": "https://static.cninfo.com.cn/finalpage/2024-08-27/1220989424.PDF",
+    "finding": "terminal",
+    "note": "2024-08-27摘牌，不是撤销ST恢复正常交易"
+  },
+  "sh.600680": {
+    "source": "https://www.sse.com.cn/services/information/delisting/c/4871404.pdf",
+    "finding": "terminal",
+    "note": "2019-05-23已摘牌，5月24日字段变0不能解释为撤销ST"
+  },
+  "sh.688022": {
+    "source": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225452077.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.002220": {
+    "source": "https://disc.static.szse.cn/download/disc/disk02/finalpage/2019-05-27/8f832714-6129-436b-ba76-664af5d973f6.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.002423": {
+    "source": "https://epaper.cs.com.cn/zgzqb/images/2017-04/20/B052/ZQBXP0520420C.pdf",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.002248": {
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2018-04/13/nw.D110000zgzqb_20180413_2-B056.htm?div=-1",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.002502": {
+    "source": "https://disc.static.szse.cn/download/disc/disk02/finalpage/2021-05-22/2fe3d657-5322-4ea5-9a71-c1b62cb12644.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600896": {
+    "source": "https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20220620_85796493.shtml",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.002308": {
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-07-05/4658dd68-8676-4445-a961-b79d8573c23d.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600651": {
+    "source": "https://static.cninfo.com.cn/finalpage/2021-04-15/1209688323.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.002417": {
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2023-07-06/fd6bf1ae-c362-40c2-a243-d3c3e50adeb8.PDF",
+    "finding": "terminal",
+    "note": "2023-06-15进入退市整理期；不是恢复正常资格"
+  },
+  "sz.002547": {
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-29/526179cb-24aa-4478-91c8-5d731b95bf20.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600735": {
+    "source": "https://static.cninfo.com.cn/finalpage/2025-09-27/1224685305.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.002211": {
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10949925&stockid=002211",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600375": {
+    "source": "https://paper.cnstock.com/html/2025-03/27/content_2041011.htm",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600485": {
+    "source": "https://www.sse.com.cn/disclosure/magin/announcement/ssereport/c/c_20190429_4794492.shtml",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600260": {
+    "source": "https://www.citics.com/newsite/tzgg/ywgg/202302/t20230224_1175640.html",
+    "finding": "terminal",
+    "note": "2023-02-15摘牌，非撤销ST"
+  },
+  "sz.002513": {
+    "source": "https://static.cninfo.com.cn/finalpage/2021-06-18/1210269243.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600291": {
+    "source": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2022/cc_HKSCC_NOM_108_2022.pdf",
+    "finding": "terminal",
+    "note": "2022-05-17进入退市整理期，非恢复正常资格"
+  },
+  "sh.600339": {
+    "source": "https://static.cninfo.com.cn/finalpage/2016-09-26/1202725613.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600423": {
+    "source": "https://static.cninfo.com.cn/finalpage/2018-02-10/1204411845.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600526": {
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2020-02/18/nw.D110000zgzqb_20200218_3-B017.htm",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.002118": {
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2023-07/31/nw.D110000zgzqb_20230731_2-B003.htm",
+    "finding": "terminal",
+    "note": "2023-08-04摘牌，非撤销ST"
+  },
+  "sh.600696": {
+    "source": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/magin/announcement/ssereport/c/c_20170328_4259806.shtml",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sz.002316": {
+    "source": "https://paper.cnstock.com/html/2023-04/14/content_1748014.htm",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.603922": {
+    "source": "https://static.cninfo.com.cn/finalpage/2026-05-30/1225337423.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600515": {
+    "source": "https://static.cninfo.com.cn/finalpage/2021-11-01/1211448996.PDF",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600530": {
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10283811&stockid=600530",
+    "finding": "matches",
+    "note": "公告所述实施/撤销日期与样本一致"
+  },
+  "sh.600425": {
+    "source": "https://www.sse.com.cn/aboutus/publication/factbook/documents/c/10170563/files/9f33f39ecb1c4546a88ec88b81105434.pdf",
+    "finding": "matches",
+    "note": "上交所2018撤销退市风险警示表列600425生效日20180503"
+  }
+}

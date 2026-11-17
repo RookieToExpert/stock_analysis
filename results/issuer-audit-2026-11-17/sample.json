@@ -1,0 +1,615 @@
+{
+  "seed": 20261117,
+  "scope": "downloaded-files sampling frame; not full-universe random certification",
+  "files": 3625,
+  "eligible_financial_counts": {
+    "active": 3395,
+    "delisted": 194
+  },
+  "st_transition_count": 1304,
+  "financial_sample": [
+    {
+      "code": "sh.600355",
+      "name": "*ST精伦",
+      "outDate": "2026-04-27",
+      "annual": {
+        "code": "sh.600355",
+        "pubDate": "2025-04-26",
+        "statDate": "2024-12-31",
+        "roeAvg": "-0.273955",
+        "npMargin": "-0.295167",
+        "gpMargin": "0.207684",
+        "netProfit": "-42060135.610000",
+        "epsTTM": "-0.085473",
+        "MBRevenue": "119789959.030000",
+        "totalShare": "492089200.00",
+        "liqaShare": "492089200.00"
+      }
+    },
+    {
+      "code": "sh.600086",
+      "name": "退市金钰",
+      "outDate": "2021-03-17",
+      "annual": {
+        "code": "sh.600086",
+        "pubDate": "2023-04-27",
+        "statDate": "2022-12-31",
+        "roeAvg": "",
+        "npMargin": "-2778.892468",
+        "gpMargin": "0.988243",
+        "netProfit": "-3616217230.650000",
+        "epsTTM": "-2.678679",
+        "MBRevenue": "1301316.000000",
+        "totalShare": "1350000000.00",
+        "liqaShare": "1056845016.00"
+      }
+    },
+    {
+      "code": "sh.600687",
+      "name": "退市刚泰",
+      "outDate": "2021-03-03",
+      "annual": {
+        "code": "sh.600687",
+        "pubDate": "2021-04-30",
+        "statDate": "2020-12-31",
+        "roeAvg": "-5.970148",
+        "npMargin": "-6.356100",
+        "gpMargin": "0.224974",
+        "netProfit": "-2254155602.760000",
+        "epsTTM": "-1.510073",
+        "MBRevenue": "354644432.380000",
+        "totalShare": "1488715304.00",
+        "liqaShare": "1488715304.00"
+      }
+    },
+    {
+      "code": "sh.600608",
+      "name": "退市沪科",
+      "outDate": "2026-07-03",
+      "annual": {
+        "code": "sh.600608",
+        "pubDate": "2025-04-29",
+        "statDate": "2024-12-31",
+        "roeAvg": "-0.139739",
+        "npMargin": "-0.421795",
+        "gpMargin": "0.415549",
+        "netProfit": "-7266156.550000",
+        "epsTTM": "-0.017280",
+        "MBRevenue": "17226735.080000",
+        "totalShare": "328861441.00",
+        "liqaShare": "318371441.00"
+      }
+    },
+    {
+      "code": "sh.600647",
+      "name": "退市同达",
+      "outDate": "2024-07-03",
+      "annual": {
+        "code": "sh.600647",
+        "pubDate": "2024-04-30",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.019841",
+        "npMargin": "0.212850",
+        "gpMargin": "0.419610",
+        "netProfit": "23411609.380000",
+        "epsTTM": "0.050779",
+        "MBRevenue": "108761468.070000",
+        "totalShare": "139143550.00",
+        "liqaShare": "139143550.00"
+      }
+    },
+    {
+      "code": "sh.603687",
+      "name": "大胜达",
+      "outDate": "",
+      "annual": {
+        "code": "sh.603687",
+        "pubDate": "2025-04-22",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.032716",
+        "npMargin": "0.061413",
+        "gpMargin": "0.180040",
+        "netProfit": "130890606.510000",
+        "epsTTM": "0.193184",
+        "MBRevenue": "2067908500.000000",
+        "totalShare": "550031864.00",
+        "liqaShare": "546502453.00"
+      }
+    },
+    {
+      "code": "sh.603324",
+      "name": "盛剑科技",
+      "outDate": "",
+      "annual": {
+        "code": "sh.603324",
+        "pubDate": "2025-04-24",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.073251",
+        "npMargin": "0.083637",
+        "gpMargin": "0.287721",
+        "netProfit": "121357240.300000",
+        "epsTTM": "0.802176",
+        "MBRevenue": "1449377722.120000",
+        "totalShare": "149462500.00",
+        "liqaShare": "149074060.00"
+      }
+    },
+    {
+      "code": "sh.601666",
+      "name": "平煤股份",
+      "outDate": "",
+      "annual": {
+        "code": "sh.601666",
+        "pubDate": "2025-03-21",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.088940",
+        "npMargin": "0.084379",
+        "gpMargin": "0.260358",
+        "netProfit": "2555118627.480000",
+        "epsTTM": "0.949261",
+        "MBRevenue": "27103709806.360000",
+        "totalShare": "2475146538.00",
+        "liqaShare": "2469348738.00"
+      }
+    },
+    {
+      "code": "sh.603696",
+      "name": "安记食品",
+      "outDate": "",
+      "annual": {
+        "code": "sh.603696",
+        "pubDate": "2025-04-22",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.067479",
+        "npMargin": "0.063204",
+        "gpMargin": "0.161502",
+        "netProfit": "38333532.950000",
+        "epsTTM": "0.162983",
+        "MBRevenue": "227907189.420000",
+        "totalShare": "235200000.00",
+        "liqaShare": "235200000.00"
+      }
+    },
+    {
+      "code": "sh.688249",
+      "name": "晶合集成",
+      "outDate": "",
+      "annual": {
+        "code": "sh.688249",
+        "pubDate": "2025-04-21",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.025205",
+        "npMargin": "0.052134",
+        "gpMargin": "0.255024",
+        "netProfit": "482196348.960000",
+        "epsTTM": "0.265606",
+        "MBRevenue": "9119580080.020000",
+        "totalShare": "2006135157.00",
+        "liqaShare": "1176731020.00"
+      }
+    },
+    {
+      "code": "sh.600335",
+      "name": "国机汽车",
+      "outDate": "",
+      "annual": {
+        "code": "sh.600335",
+        "pubDate": "2025-04-25",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.035169",
+        "npMargin": "0.009520",
+        "gpMargin": "0.072550",
+        "netProfit": "400078563.920000",
+        "epsTTM": "0.262376",
+        "MBRevenue": "41551950691.250000",
+        "totalShare": "1495788692.00",
+        "liqaShare": "1495788692.00"
+      }
+    },
+    {
+      "code": "sh.600061",
+      "name": "国投资本",
+      "outDate": "",
+      "annual": {
+        "code": "sh.600061",
+        "pubDate": "2025-03-29",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.049917",
+        "npMargin": "1.567711",
+        "gpMargin": "0.023621",
+        "netProfit": "3198282451.950000",
+        "epsTTM": "0.421380",
+        "MBRevenue": "13567371643.100000",
+        "totalShare": "6393980683.00",
+        "liqaShare": "6393980683.00"
+      }
+    },
+    {
+      "code": "sz.002258",
+      "name": "利尔化学",
+      "outDate": "",
+      "annual": {
+        "code": "sz.002258",
+        "pubDate": "2025-03-28",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.028298",
+        "npMargin": "0.040820",
+        "gpMargin": "0.160646",
+        "netProfit": "298426903.770000",
+        "epsTTM": "0.269024",
+        "MBRevenue": "7297768882.920000",
+        "totalShare": "800437228.00",
+        "liqaShare": "799150345.00"
+      }
+    },
+    {
+      "code": "sh.603773",
+      "name": "沃格光电",
+      "outDate": "",
+      "annual": {
+        "code": "sh.603773",
+        "pubDate": "2025-04-25",
+        "statDate": "2024-12-31",
+        "roeAvg": "-0.093037",
+        "npMargin": "-0.040779",
+        "gpMargin": "0.171490",
+        "netProfit": "-90563120.810000",
+        "epsTTM": "-0.548402",
+        "MBRevenue": "2217368891.900000",
+        "totalShare": "223125633.00",
+        "liqaShare": "203647282.00"
+      }
+    },
+    {
+      "code": "sh.603286",
+      "name": "日盈电子",
+      "outDate": "",
+      "annual": {
+        "code": "sh.603286",
+        "pubDate": "2025-03-29",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.012985",
+        "npMargin": "0.017644",
+        "gpMargin": "0.185634",
+        "netProfit": "17126347.930000",
+        "epsTTM": "0.096335",
+        "MBRevenue": "956920754.980000",
+        "totalShare": "116624931.00",
+        "liqaShare": "114303931.00"
+      }
+    },
+    {
+      "code": "sh.603230",
+      "name": "内蒙新华",
+      "outDate": "",
+      "annual": {
+        "code": "sh.603230",
+        "pubDate": "2025-04-11",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.127005",
+        "npMargin": "0.187091",
+        "gpMargin": "0.403037",
+        "netProfit": "338794411.340000",
+        "epsTTM": "0.956322",
+        "MBRevenue": "1761885622.460000",
+        "totalShare": "353523000.00",
+        "liqaShare": "353523000.00"
+      }
+    },
+    {
+      "code": "sh.688327",
+      "name": "云从科技",
+      "outDate": "",
+      "annual": {
+        "code": "sh.688327",
+        "pubDate": "2025-04-30",
+        "statDate": "2024-12-31",
+        "roeAvg": "-0.507672",
+        "npMargin": "-1.774440",
+        "gpMargin": "0.358135",
+        "netProfit": "-705667667.510000",
+        "epsTTM": "-0.670905",
+        "MBRevenue": "396788133.310000",
+        "totalShare": "1036938787.00",
+        "liqaShare": "752008860.00"
+      }
+    },
+    {
+      "code": "sz.002093",
+      "name": "国脉科技",
+      "outDate": "",
+      "annual": {
+        "code": "sz.002093",
+        "pubDate": "2025-04-26",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.046172",
+        "npMargin": "0.317572",
+        "gpMargin": "0.394339",
+        "netProfit": "174480174.760000",
+        "epsTTM": "0.167359",
+        "MBRevenue": "540425336.120000",
+        "totalShare": "1007500000.00",
+        "liqaShare": "1006866250.00"
+      }
+    },
+    {
+      "code": "sh.600653",
+      "name": "申华控股",
+      "outDate": "",
+      "annual": {
+        "code": "sh.600653",
+        "pubDate": "2025-03-29",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.048111",
+        "npMargin": "0.007537",
+        "gpMargin": "0.067240",
+        "netProfit": "31607067.830000",
+        "epsTTM": "0.019831",
+        "MBRevenue": "3854992998.160000",
+        "totalShare": "1946380317.00",
+        "liqaShare": "1946380317.00"
+      }
+    },
+    {
+      "code": "sh.688510",
+      "name": "航亚科技",
+      "outDate": "",
+      "annual": {
+        "code": "sh.688510",
+        "pubDate": "2025-03-28",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.115500",
+        "npMargin": "0.178688",
+        "gpMargin": "0.385326",
+        "netProfit": "125659753.070000",
+        "epsTTM": "0.489682",
+        "MBRevenue": "693820152.790000",
+        "totalShare": "258382608.00",
+        "liqaShare": "258382608.00"
+      }
+    }
+  ],
+  "st_sample": [
+    {
+      "code": "sz.000670",
+      "name": "盈方微",
+      "previous_date": "2022-08-19",
+      "effective_date": "2022-08-22",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sz.000976",
+      "name": "*ST华铁",
+      "previous_date": "2024-08-26",
+      "effective_date": "2024-08-27",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sh.600680",
+      "name": "*ST上普",
+      "previous_date": "2019-05-23",
+      "effective_date": "2019-05-24",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sh.600515",
+      "name": "海南机场",
+      "previous_date": "2021-02-18",
+      "effective_date": "2021-02-19",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.688022",
+      "name": "ST瀚川",
+      "previous_date": "2026-04-30",
+      "effective_date": "2026-05-06",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sz.002220",
+      "name": "天宝退",
+      "previous_date": "2019-05-27",
+      "effective_date": "2019-05-28",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sz.002423",
+      "name": "中粮资本",
+      "previous_date": "2017-04-20",
+      "effective_date": "2017-04-21",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sz.002248",
+      "name": "华东数控",
+      "previous_date": "2018-04-13",
+      "effective_date": "2018-04-16",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sh.600530",
+      "name": "ST交昂",
+      "previous_date": "2024-06-20",
+      "effective_date": "2024-06-21",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sz.002502",
+      "name": "ST鼎龙",
+      "previous_date": "2021-05-24",
+      "effective_date": "2021-05-25",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sh.600896",
+      "name": "退市海医",
+      "previous_date": "2021-04-30",
+      "effective_date": "2021-05-06",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sz.002308",
+      "name": "*ST威创",
+      "previous_date": "2024-07-08",
+      "effective_date": "2024-07-09",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.600651",
+      "name": "飞乐音响",
+      "previous_date": "2021-04-15",
+      "effective_date": "2021-04-16",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sz.002417",
+      "name": "深南退",
+      "previous_date": "2023-06-14",
+      "effective_date": "2023-06-15",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sz.002547",
+      "name": "*ST春兴",
+      "previous_date": "2026-04-29",
+      "effective_date": "2026-04-30",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.600735",
+      "name": "ST新华锦",
+      "previous_date": "2025-09-29",
+      "effective_date": "2025-09-30",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sz.002211",
+      "name": "ST宏达",
+      "previous_date": "2025-04-24",
+      "effective_date": "2025-04-25",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.600375",
+      "name": "汉马科技",
+      "previous_date": "2024-03-29",
+      "effective_date": "2024-04-01",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.600485",
+      "name": "*ST信威",
+      "previous_date": "2019-04-29",
+      "effective_date": "2019-04-30",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.600260",
+      "name": "*ST凯乐",
+      "previous_date": "2023-02-14",
+      "effective_date": "2023-02-15",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sz.002513",
+      "name": "蓝丰生化",
+      "previous_date": "2020-04-28",
+      "effective_date": "2020-04-29",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.600291",
+      "name": "退市西水",
+      "previous_date": "2022-05-16",
+      "effective_date": "2022-05-17",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sh.600339",
+      "name": "中油工程",
+      "previous_date": "2016-04-18",
+      "effective_date": "2016-04-19",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.600423",
+      "name": "*ST柳化",
+      "previous_date": "2017-05-02",
+      "effective_date": "2017-05-03",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.600526",
+      "name": "菲达环保",
+      "previous_date": "2019-04-19",
+      "effective_date": "2019-04-22",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sz.002118",
+      "name": "*ST紫鑫",
+      "previous_date": "2023-08-03",
+      "effective_date": "2023-08-04",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sh.600696",
+      "name": "退市岩石",
+      "previous_date": "2017-03-28",
+      "effective_date": "2017-03-29",
+      "old": "0",
+      "new": "1"
+    },
+    {
+      "code": "sh.600425",
+      "name": "青松建化",
+      "previous_date": "2018-05-02",
+      "effective_date": "2018-05-03",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sz.002316",
+      "name": "亚联发展",
+      "previous_date": "2023-04-14",
+      "effective_date": "2023-04-17",
+      "old": "1",
+      "new": "0"
+    },
+    {
+      "code": "sh.603922",
+      "name": "ST金鸿顺",
+      "previous_date": "2026-04-29",
+      "effective_date": "2026-04-30",
+      "old": "0",
+      "new": "1"
+    }
+  ],
+  "status": "pending issuer verification"
+}
