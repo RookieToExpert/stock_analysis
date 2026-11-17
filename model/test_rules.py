@@ -60,7 +60,7 @@ class FiscalDividend(unittest.TestCase):
 class Recent(unittest.TestCase):
     def test_q3_ttm_and_yoy(self):
         rows = [row("2026-09-30", 80, 38), row("2025-12-31", 150, 40), row("2025-09-30", 100, 41)]
-        ttm, yoy, gm = recent_from_rows(rows)
+        ttm, yoy, gm, ev = recent_from_rows(rows)
         self.assertEqual(ttm, 130)
         self.assertAlmostEqual(yoy, -20)
         self.assertAlmostEqual(gm, -3)
@@ -69,13 +69,47 @@ class Recent(unittest.TestCase):
         self.assertEqual(recent_from_rows([row("2025-12-31", 150), row("2024-12-31", 100)])[0], 150)
 
     def test_misaligned_period_returns_none(self):
-        ttm, yoy, gm = recent_from_rows([row("2026-09-30"), row("2025-12-31"), row("2025-06-30")])
+        ttm, yoy, gm, ev = recent_from_rows([row("2026-09-30"), row("2025-12-31"), row("2025-06-30")])
         self.assertIsNone(ttm)
         self.assertIsNone(yoy)
         self.assertIsNone(gm)
 
     def test_loss_base_has_no_yoy(self):
         self.assertIsNone(recent_from_rows([row("2025-12-31", 50), row("2024-12-31", -10)])[1])
+
+    def test_single_quarter_collapse_hidden_by_cumulative(self):
+        # 1-9 月累计同比只 -10%，但 Q3 单季 (90-60)=30 对 (100-50)=50，同比 -40%
+        rows = [row("2026-09-30", 90), row("2026-06-30", 60), row("2025-12-31", 130), row("2025-09-30", 100), row("2025-06-30", 50)]
+        ttm, yoy, gm, ev = recent_from_rows(rows)
+        self.assertAlmostEqual(yoy, -10)
+        self.assertEqual(ev, ["单季扣非同比-40%"])
+
+    def test_single_quarter_turns_to_loss(self):
+        rows = [row("2026-06-30", 90), row("2026-03-31", 100), row("2025-06-30", 80), row("2025-03-31", 50)]
+        self.assertEqual(recent_from_rows(rows)[3], ["单季扣非同比-133%"])
+
+    def test_q4_single_quarter_from_annual(self):
+        rows = [row("2025-12-31", 110), row("2025-09-30", 100), row("2024-12-31", 100), row("2024-09-30", 60)]
+        self.assertEqual(recent_from_rows(rows)[3], ["单季扣非同比-75%"])
+
+    def test_loss_widening_cumulative_and_quarter(self):
+        rows = [row("2026-06-30", -50), row("2026-03-31", -10), row("2025-06-30", -10), row("2025-03-31", -5)]
+        ttm, yoy, gm, ev = recent_from_rows(rows)
+        self.assertIsNone(yoy)
+        self.assertEqual(ev, ["累计扣非亏损扩大", "单季扣非亏损扩大"])
+
+    def test_q1_and_missing_previous_quarter_add_no_quarter_event(self):
+        self.assertEqual(recent_from_rows([row("2026-03-31", 50), row("2025-03-31", 100)])[3], [])
+        self.assertEqual(recent_from_rows([row("2026-09-30", 50), row("2025-09-30", 100)])[3], [])
+
+    def test_improving_quarter_no_event(self):
+        rows = [row("2026-09-30", 200), row("2026-06-30", 100), row("2025-09-30", 150), row("2025-06-30", 100)]
+        self.assertEqual(recent_from_rows(rows)[3], [])
+
+    def test_kf_events_reach_recent_state(self):
+        m = metrics(base(kf_events=["单季扣非同比-55%"]))
+        self.assertEqual(recent_state(m), ["单季扣非同比-55%"])
+        self.assertEqual(action("合格", recent_state(m), [], []), "事件复核")
 
 
 class Missing(unittest.TestCase):
@@ -199,6 +233,44 @@ class Rules(unittest.TestCase):
         self.assertFalse(blue_chip(199e8, m))
         over = metrics(base(years=[yr(2025 - i, np=100, paid=81) for i in range(5)]))
         self.assertFalse(blue_chip(300e8, over))
+
+
+
+
+class PendingDividend(unittest.TestCase):
+    """5 月调仓日：最新年报分红预案已公告、未实施。"""
+    def may(self, latest_status="待实施", n=6):
+        ys = [yr(2025 - i, np=20e8, np_all=21e8, kf=19e8, ocf=25e8, capex=5e8, paid=10e8, rev=100e8, paid_status="实施") for i in range(n)]
+        ys[0].update(paid=None, paid_status=latest_status)
+        return base(years=ys)
+
+    def test_pending_latest_year_is_not_missing_and_uses_previous_five(self):
+        d = self.may()
+        self.assertEqual(missing_fields(d), [])
+        m = metrics(d)
+        self.assertTrue(m["div_pending"])
+        self.assertEqual(m["paid_years"], 5)
+        self.assertAlmostEqual(m["payout"], 50)
+        self.assertEqual(grade(score(m)["总分"], vetoes(d, m), missing_fields(d)), "合格")
+
+    def test_pending_without_sixth_year_is_missing(self):
+        self.assertEqual(missing_fields(self.may(n=5)), ["分红连续财年4年"])
+
+    def test_unknown_latest_year_still_missing(self):
+        d = self.may("未知")
+        self.assertEqual(missing_fields(d), ["paid缺1年"])
+        self.assertFalse(metrics(d)["div_pending"])
+
+    def test_pending_not_in_latest_year_still_missing(self):
+        d = self.may("实施")
+        d["years"][0]["paid"] = 10e8
+        d["years"][2].update(paid=None, paid_status="待实施")
+        self.assertEqual(missing_fields(d), ["paid缺1年"])
+
+    def test_other_fields_still_use_latest_five_years(self):
+        d = self.may()
+        d["years"][0]["roe"] = None
+        self.assertEqual(missing_fields(d), ["roe缺1年"])
 
 
 if __name__ == "__main__":

@@ -28,31 +28,50 @@ def _median(xs):
     return s[m] if len(s) % 2 else (s[m - 1] + s[m]) / 2
 
 
+PREV_TAIL = {"-06-30": "-03-31", "-09-30": "-06-30", "-12-31": "-09-30"}
+
+
 def recent_from_rows(rows):
-    """由主要财务指标行（新→旧）计算 TTM 扣非、同比。上年同期缺失时返回 None，不做近似。"""
+    """由主要财务指标行（新→旧）计算 TTM 扣非、累计同比、毛利率变化和扣非恶化事件。
+
+    上年同期缺失时同比返回 None，不做近似。kf_events 列出累计和单季的恶化：
+    - 单季扣非由相邻报告期累计值差分得到；上年同期单季为正时同比 ≤-20% 记事件；
+    - 基期（累计或单季）非正、本期更低，记“亏损扩大”。
+    """
     if not rows:
-        return None, None, None
+        return None, None, None, []
     latest = rows[0]
     date = latest["REPORT_DATE"][:10]
     year, tail = int(date[:4]), date[4:]
     by = {r["REPORT_DATE"][:10]: r for r in rows}
+    kf_of = lambda d: _n(by[d].get("KCFJCXSYJLR")) if d in by else None
     prev = by.get(f"{year - 1}{tail}")
     kf = _n(latest.get("KCFJCXSYJLR"))
     ttm = kf
     if tail != "-12-31":
-        last_year = by.get(f"{year - 1}-12-31")
-        a = _n(last_year.get("KCFJCXSYJLR")) if last_year else None
-        b = _n(prev.get("KCFJCXSYJLR")) if prev else None
+        a, b = kf_of(f"{year - 1}-12-31"), kf_of(f"{year - 1}{tail}")
         ttm = kf + a - b if None not in (kf, a, b) else None
     kf_yoy = gm_delta = None
+    events = []
     if prev:
         k1 = _n(prev.get("KCFJCXSYJLR"))
-        if kf is not None and k1 is not None and k1 > 0:
-            kf_yoy = (kf / k1 - 1) * 100
+        if kf is not None and k1 is not None:
+            if k1 > 0:
+                kf_yoy = (kf / k1 - 1) * 100
+            elif kf < k1:
+                events.append("累计扣非亏损扩大")
         g0, g1 = _n(latest.get("XSMLL")), _n(prev.get("XSMLL"))
         if g0 is not None and g1 is not None:
             gm_delta = g0 - g1
-    return ttm, kf_yoy, gm_delta
+        if tail in PREV_TAIL:
+            p0, p1 = kf_of(f"{year}{PREV_TAIL[tail]}"), kf_of(f"{year - 1}{PREV_TAIL[tail]}")
+            if None not in (kf, k1, p0, p1):
+                q0, q1 = kf - p0, k1 - p1
+                if q1 > 0 and (q0 / q1 - 1) * 100 <= -20:
+                    events.append(f"单季扣非同比{(q0 / q1 - 1) * 100:.0f}%")
+                elif q1 <= 0 and q0 < q1:
+                    events.append("单季扣非亏损扩大")
+    return ttm, kf_yoy, gm_delta, events
 
 
 def fiscal_dividends(rows):
@@ -101,14 +120,31 @@ def clean_years(years):
     return out
 
 
+def dividend_years(years):
+    """分红计分用的 5 个财年。最新年报分红仍是“待实施”时，整体前移一年。
+
+    5 月调仓时多数公司刚公布年报预案、尚未实施；这一年不算缺数据，也不提前计入，
+    改用前 5 个已有结论的财年。“未知”不前移，仍按缺数据处理。
+    返回 (年度列表, 是否前移)。
+    """
+    y = clean_years(years or [])
+    if y and y[0].get("paid_status") == "待实施":
+        latest = y[0]["year"]
+        return clean_years([r for r in years if r["year"] != latest]), True
+    return y, False
+
+
 def missing_fields(d):
     """核心字段覆盖检查，返回缺失项；非空即数据不足。"""
     y = clean_years(d.get("years") or [])
+    dy, _ = dividend_years(d.get("years") or [])
     out = []
     if len(y) < 5:
         out.append(f"连续年报{len(y)}年")
+    elif len(dy) < 5:
+        out.append(f"分红连续财年{len(dy)}年")
     for k in CORE_YEAR:
-        n = sum(1 for r in y if _n(r.get(k)) is None)
+        n = sum(1 for r in (dy if k == "paid" else y) if _n(r.get(k)) is None)
         if n:
             out.append(f"{k}缺{n}年")
     bs = d.get("bs") or {}
@@ -132,7 +168,10 @@ def metrics(d):
     np_all5 = sum(r["np_all"] for r in y) if complete("np_all") else None
     ocf5 = sum(r["ocf"] for r in y) if complete("ocf") else None
     fcf_avg = (ocf5 - sum(r["capex"] for r in y)) / 5 if complete("ocf", "capex") else None
-    paid5 = sum(r["paid"] for r in y) if complete("paid") else None
+    dy, div_pending = dividend_years(d.get("years") or [])
+    div_full = len(dy) == 5 and all(_n(r.get("paid")) is not None for r in dy)
+    paid5 = sum(r["paid"] for r in dy) if div_full else None
+    div_np5 = sum(r["np"] for r in dy) if div_full and all(_n(r.get("np")) is not None for r in dy) else None
     roes, gms = (vals("roe"), vals("gm"))
     sustainable = None
     if mv and fcf_avg is not None and paid5 is not None and ttm is not None:
@@ -149,9 +188,10 @@ def metrics(d):
         "ep_norm": sum(r["kf"] for r in y) / 5 / mv * 100 if complete("kf") and mv else None,
         "fcf_yield": fcf_avg / mv * 100 if fcf_avg is not None and mv else None,
         "sust_yield": sustainable,
-        "paid_years": sum(1 for r in y if (_n(r.get("paid")) or 0) > 0) if complete("paid") else None,
-        "payout": paid5 / np5 * 100 if paid5 is not None and np5 and np5 > 0 else None,
-        "invest_vs_paid": sum(r.get("invest") or 0 for r in y) <= paid5 if paid5 is not None else None,
+        "paid_years": sum(1 for r in dy if r["paid"] > 0) if div_full else None,
+        "payout": paid5 / div_np5 * 100 if paid5 is not None and div_np5 and div_np5 > 0 else None,
+        "invest_vs_paid": sum(r.get("invest") or 0 for r in dy) <= paid5 if paid5 is not None else None,
+        "div_pending": div_pending,
         "debt_ratio": liab / assets * 100 if liab is not None and assets else None,
         "net_cash": cash >= debt if cash is not None and debt is not None else None,
         "gw_ratio": gw / eq * 100 if gw is not None and eq and eq > 0 else None,
@@ -161,6 +201,7 @@ def metrics(d):
         "ttm_loss": ttm is not None and ttm < 0,
         "np5_nonpositive": np5 is not None and np5 <= 0,
         "kf_yoy": _n(d.get("kf_yoy")),
+        "kf_events": list(d.get("kf_events") or []),
         "gm_delta": _n(d.get("gm_delta")),
         "drawdown": (1 - d["price"] / d["high36"]) * 100 if _n(d.get("price")) and _n(d.get("high36")) else None,
         "vol": _n(d.get("vol")),
@@ -198,6 +239,7 @@ def recent_state(m):
     out = []
     if m["kf_yoy"] is not None and m["kf_yoy"] <= -20:
         out.append(f"扣非利润同比{m['kf_yoy']:.0f}%")
+    out += m.get("kf_events") or []
     if m["gm_delta"] is not None and m["gm_delta"] <= -3:
         out.append(f"毛利率同比{m['gm_delta']:.1f}pp")
     if m["drawdown"] is not None and m["drawdown"] >= 30:
