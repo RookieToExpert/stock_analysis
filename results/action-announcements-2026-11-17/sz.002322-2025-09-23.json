@@ -1,0 +1,16 @@
+{
+  "code": "sz.002322",
+  "target_date": "2025-09-23",
+  "documents": [
+    {
+      "title": "理工能科:2025年半年度权益分派实施公告",
+      "available_date": "2025-09-16",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202509151744302662_1.pdf",
+      "article": "AN202509151744302662",
+      "pdf_sha256": "cdca3c37d4a970aface65a79ba848e82bcf052edec3d53979ccc0eed6b9e2c41",
+      "text_sha256": "a77d0d818c7b0af3d4ef7fdecdac52a6a78dce45539951fd4cb79741cc275576"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002322&begin_time=2025-08-09&end_time=2025-09-23"
+}

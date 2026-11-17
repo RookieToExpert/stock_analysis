@@ -1,0 +1,48 @@
+{
+  "code": "sz.000793",
+  "target_date": "2026-06-22",
+  "documents": [
+    {
+      "title": "*ST华闻:关于重整计划资本公积金转增股本事项进展暨公司股票复牌的公告",
+      "available_date": "2026-06-22",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606221823718717_1.pdf",
+      "article": "AN202606221823718717",
+      "pdf_sha256": "777b434c6c8c94b0d37805b6f9a21a82109148b318655a77055e94640a3167ba",
+      "text_sha256": "12f014f4b15e7920cdf3c68f1d63dd3848d0cb339145338c4cb8a89d47f041d8"
+    },
+    {
+      "title": "*ST华闻:天风证券股份有限公司关于华闻传媒投资集团股份有限公司调整资本公积金转增股本除权参考价格计算结果的专项意见",
+      "available_date": "2026-06-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606171823639955_1.pdf",
+      "article": "AN202606171823639955",
+      "pdf_sha256": "12ab6f2e70a8aea35b65322b33f15e2bec7da6177d91d35c6d18ebda2a9177c2",
+      "text_sha256": "40048ee84d92308039d4a5dd2aa5359a6d68afd84a33909ff31bd292b9f7aaff"
+    },
+    {
+      "title": "*ST华闻:关于重整计划资本公积金转增股本事项实施的公告",
+      "available_date": "2026-06-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606111823460450_1.pdf",
+      "article": "AN202606111823460450",
+      "pdf_sha256": "d3db31693e2db79910e2f19e82e053e47259ce4722db5567d7e6b4e89ed645f9",
+      "text_sha256": "c880f3232f64cb53983cb5f74bcaf41fca00012e341b83a92431641b9ccd0066"
+    },
+    {
+      "title": "*ST华闻:天风证券股份有限公司关于华闻传媒投资集团股份有限公司调整资本公积金转增股本除权参考价格计算公式的专项意见",
+      "available_date": "2026-06-10",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606091823399024_1.pdf",
+      "article": "AN202606091823399024",
+      "pdf_sha256": "b2da562981254e39377a75a12e3ab859efc49f962251959b269410d6f779e208",
+      "text_sha256": "4c0642c39121fa340b69c5ff58b5f6b0b78fd25733f519cb20d36ce90e341535"
+    },
+    {
+      "title": "*ST华闻:关于重整计划资本公积金转增股本除权事项的公告",
+      "available_date": "2026-06-10",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606091823399026_1.pdf",
+      "article": "AN202606091823399026",
+      "pdf_sha256": "73f42680bd7af6eee788d38761bb7b5e93d9d6f163b745cb6ec49d65d5c9e0bb",
+      "text_sha256": "a15a7574e7a13ed835427c3ccd886de349e6b5619e136665005d49d0881ca26b"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000793&begin_time=2026-05-08&end_time=2026-06-22"
+}

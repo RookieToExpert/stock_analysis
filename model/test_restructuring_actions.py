@@ -19,13 +19,15 @@ class RestructuringActions(unittest.TestCase):
                 self.assertEqual(result['series'][-1]['date'],'2026-10-30')
                 self.assertGreater(result['series'][-1]['index'],0)
 
-    def test_paid_rights_are_explicitly_rejected_only_in_applicable_window(self):
+    def test_unknown_paid_rights_rejected_only_in_applicable_window(self):
+        ledger=[dict(code='sz.000050',ex_date='2023-12-08',available_date='2023-12-08',
+                     kind='paid_rights',reason='unverified',source='issuer')]
         with self.assertRaisesRegex(CoverageError,'unsupported paid_rights'):
-            check_supported_actions('sz.000049','2023-10-31','2026-10-30','2026-11-17')
-        check_supported_actions('sz.000049','2023-12-08','2026-10-30','2026-11-17')
-        check_supported_actions('sz.000049','2023-10-31','2023-12-07','2023-12-07')
-        check_supported_actions('sz.000049','2023-10-31','2026-10-30','2023-12-07')
-        check_supported_actions('sz.000050','2023-10-31','2026-10-30','2026-11-17')
+            check_supported_actions('sz.000050','2023-10-31','2026-10-30','2026-11-17',ledger)
+        check_supported_actions('sz.000050','2023-12-08','2026-10-30','2026-11-17',ledger)
+        check_supported_actions('sz.000050','2023-10-31','2023-12-07','2023-12-07',ledger)
+        check_supported_actions('sz.000050','2023-10-31','2026-10-30','2023-12-07',ledger)
+        check_supported_actions('sz.000051','2023-10-31','2026-10-30','2026-11-17',ledger)
 
     def test_real_restructuring_never_credits_creditor_shares_to_holder(self):
         for code,day in [('600165','2025-12-11'),('600375','2024-12-26'),('600589','2023-12-29'),('600715','2024-12-16')]:

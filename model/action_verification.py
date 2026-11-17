@@ -7,6 +7,39 @@ from pathlib import Path
 from total_return import CoverageError
 
 
+def exclude_verified_adjustments(snapshot, as_of, ledger=None):
+    if ledger is None:
+        ledger=json.loads(Path(__file__).with_name('verified_adjustment_exclusions.json').read_text())
+    date.fromisoformat(as_of)
+    changes=[]
+    for fix in ledger:
+        if fix['code']!=snapshot.get('code'):continue
+        available=date.fromisoformat(fix['available_date'])
+        if available>date.fromisoformat(as_of):continue
+        if date.fromisoformat(fix['date'])>available:
+            raise CoverageError('invalid adjustment evidence date')
+        if not fix.get('source'):raise CoverageError('adjustment exclusion lacks source')
+        rows=[r for r in snapshot.get('adjust',[]) if r.get('dividOperateDate')==fix['date']]
+        if not rows:continue
+        if len(rows)!=1 or any(rows[0].get(k)!=v for k,v in fix['expected'].items()):
+            raise CoverageError('excluded adjustment source changed')
+        if any(r.get('dividOperateDate')==fix['date'] for r in snapshot.get('dividend',[])):
+            raise CoverageError('excluded adjustment now has corporate action')
+        daily=sorted((r for r in snapshot['daily'] if r['date']<=fix['date']),key=lambda r:r['date'])
+        try:
+            continuous=(len(daily)>=2 and daily[-1]['date']==fix['date']
+                        and Decimal(daily[-1]['preclose']).is_finite()
+                        and Decimal(daily[-1]['preclose'])>0
+                        and Decimal(daily[-1]['preclose'])==Decimal(daily[-2]['close']))
+        except (InvalidOperation,TypeError,KeyError) as exc:
+            raise CoverageError('invalid adjustment continuity input') from exc
+        if not continuous:
+            raise CoverageError('excluded adjustment price continuity changed')
+        changes.append({'evidence':copy.deepcopy(fix),'original':copy.deepcopy(rows[0])})
+        snapshot['adjust'].remove(rows[0])
+    return changes
+
+
 def check_supported_actions(code, start, end, as_of, ledger=None):
     """Known paid rights need a funding model, not a fabricated free-share event."""
     if ledger is None:

@@ -1,0 +1,16 @@
+{
+  "code": "sh.688019",
+  "target_date": "2025-06-16",
+  "documents": [
+    {
+      "title": "安集科技:2024年年度权益分派实施公告",
+      "available_date": "2025-06-06",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506051685358094_1.pdf",
+      "article": "AN202506051685358094",
+      "pdf_sha256": "5d7c19f406d7b57858d0ce0d693ff073f0a8200f752425bffe56a52ab03f6299",
+      "text_sha256": "3eed459e28259b9c77f681323b162b107ad5224f38687d3d51eafb96f1ffe8aa"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688019&begin_time=2025-05-02&end_time=2025-06-16"
+}

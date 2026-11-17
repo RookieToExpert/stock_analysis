@@ -1,0 +1,16 @@
+{
+  "code": "sh.688510",
+  "target_date": "2024-05-06",
+  "documents": [
+    {
+      "title": "航亚科技:无锡航亚科技股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-04-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404241631128575_1.pdf",
+      "article": "AN202404241631128575",
+      "pdf_sha256": "a4882ba48671c9d576e91e3694a6e78545106ca970d122ceb17a4bc5ffc8de6a",
+      "text_sha256": "7b57c2ffb291e056108a8b94df15d7aad3809a912b0dcedebd6f10985d1e0cf2"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688510&begin_time=2024-03-22&end_time=2024-05-06"
+}

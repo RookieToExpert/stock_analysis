@@ -1,0 +1,16 @@
+{
+  "code": "sh.688623",
+  "target_date": "2026-07-01",
+  "documents": [
+    {
+      "title": "双元科技:2025年年度权益分派实施公告",
+      "available_date": "2026-06-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606241823811720_1.pdf",
+      "article": "AN202606241823811720",
+      "pdf_sha256": "28ca4081c44eb290ca6e8e496d468efb9519c938478d1391b3fd490d1e38496d",
+      "text_sha256": "0c79d7b9ad6cfc80547449878a638dfb531bbcc430668fe9165a22a1c1373337"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688623&begin_time=2026-05-17&end_time=2026-07-01"
+}

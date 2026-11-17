@@ -1,0 +1,16 @@
+{
+  "code": "sh.688388",
+  "target_date": "2026-06-17",
+  "documents": [
+    {
+      "title": "嘉元科技:广东嘉元科技股份有限公司2025年年度权益分派实施公告",
+      "available_date": "2026-06-10",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606091823392363_1.pdf",
+      "article": "AN202606091823392363",
+      "pdf_sha256": "df7b839a040a804689536afd37945b363ea86afd2db7bf0c56735571503a1a9c",
+      "text_sha256": "227e2738d6ac4583b9bb44e0b6c5cab3a4caf9b38fc78f7961f61e25d3574fa5"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688388&begin_time=2026-05-03&end_time=2026-06-17"
+}

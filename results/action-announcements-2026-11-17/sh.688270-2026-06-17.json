@@ -1,0 +1,16 @@
+{
+  "code": "sh.688270",
+  "target_date": "2026-06-17",
+  "documents": [
+    {
+      "title": "ST臻镭:浙江臻镭科技股份有限公司2025年年度权益分派实施公告",
+      "available_date": "2026-06-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606101823423452_1.pdf",
+      "article": "AN202606101823423452",
+      "pdf_sha256": "bedb02fd55cfdb42727966bfab204a2f55b6e56f84621ecd12f17b6721583db7",
+      "text_sha256": "df2c32821bcd71c29df69bef9239c8955d8f423a08e5db5b834a2e97cda10897"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688270&begin_time=2026-05-03&end_time=2026-06-17"
+}

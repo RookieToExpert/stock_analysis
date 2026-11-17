@@ -1,0 +1,16 @@
+{
+  "code": "sh.688479",
+  "target_date": "2026-06-03",
+  "documents": [
+    {
+      "title": "友车科技:2025年年度权益分派实施公告",
+      "available_date": "2026-05-28",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605271822913965_1.pdf",
+      "article": "AN202605271822913965",
+      "pdf_sha256": "3fd4d05178e3a60b43a6116bef314744c58af878af3302de36c250bd0400ac28",
+      "text_sha256": "fe2c7afde939d7c908c8e3d64e2031084ca7bb9b5df938c58657fc5fda008925"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688479&begin_time=2026-04-19&end_time=2026-06-03"
+}

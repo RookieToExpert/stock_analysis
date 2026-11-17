@@ -1,0 +1,16 @@
+{
+  "code": "sh.688522",
+  "target_date": "2025-06-06",
+  "documents": [
+    {
+      "title": "纳睿雷达:广东纳睿雷达科技股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-05-28",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505271680079945_1.pdf",
+      "article": "AN202505271680079945",
+      "pdf_sha256": "98146baaffdd85f842e5c4349c4f0ac9450042112cdbfce1c2b0cb48ea3d6288",
+      "text_sha256": "ee7a8c75403ad1e9f2003e1604185abbbc10b5fe1488e8e858e0f8949c282c76"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688522&begin_time=2025-04-22&end_time=2025-06-06"
+}

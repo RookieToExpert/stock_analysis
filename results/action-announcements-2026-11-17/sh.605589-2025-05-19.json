@@ -1,0 +1,16 @@
+{
+  "code": "sh.605589",
+  "target_date": "2025-05-19",
+  "documents": [
+    {
+      "title": "圣泉集团:圣泉集团2024年年度权益分派实施公告",
+      "available_date": "2025-05-13",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505121671702314_1.pdf",
+      "article": "AN202505121671702314",
+      "pdf_sha256": "d385f2649dd204c9ac9fffc3b13bc28c984ad00a6ab4fd9395f02f1370e7c77f",
+      "text_sha256": "0d82796ab9093cf474be033b104139c4611dde45e275de7ec5451abb942ce8b4"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605589&begin_time=2025-04-04&end_time=2025-05-19"
+}

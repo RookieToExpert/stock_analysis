@@ -1,0 +1,24 @@
+{
+  "code": "sh.603296",
+  "target_date": "2024-06-11",
+  "documents": [
+    {
+      "title": "华勤技术:华勤技术2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406101635916951_1.pdf",
+      "article": "AN202406101635916951",
+      "pdf_sha256": "8778b6dda315f2435cb7174dbaf1a38c455c23bfb89680f7d7759ecaaf6cd935",
+      "text_sha256": "96a80150269dabdc71f0d0f55c8396a7cac85686a632965e731951ddea9b50fc"
+    },
+    {
+      "title": "华勤技术:华勤技术2023年年度权益分派实施公告",
+      "available_date": "2024-06-04",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406031635278219_1.pdf",
+      "article": "AN202406031635278219",
+      "pdf_sha256": "b72e967539b936017c9ea7e41b3b2da1d6c8a6752137418b986e36dcc0ee077b",
+      "text_sha256": "060eafe382440f457f78117b3a4fe7d7efe6a6d1189a3c2bb1f4812223a844ee"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603296&begin_time=2024-04-27&end_time=2024-06-11"
+}

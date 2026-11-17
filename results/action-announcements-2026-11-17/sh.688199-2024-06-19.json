@@ -1,0 +1,16 @@
+{
+  "code": "sh.688199",
+  "target_date": "2024-06-19",
+  "documents": [
+    {
+      "title": "久日新材:天津久日新材料股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-13",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406121636012249_1.pdf",
+      "article": "AN202406121636012249",
+      "pdf_sha256": "f436158ac535e5a227ce5524d6b10c424b646c9ae0ae20f962fbf18dade26560",
+      "text_sha256": "504caf81d485470551dad0c09841b6220281fc8ed6d2ae2006054f355818a1fb"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688199&begin_time=2024-05-05&end_time=2024-06-19"
+}

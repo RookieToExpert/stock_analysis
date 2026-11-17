@@ -1,0 +1,40 @@
+{
+  "code": "sz.000525",
+  "target_date": "2024-11-18",
+  "documents": [
+    {
+      "title": "*ST红阳:南京证券股份有限公司关于南京红太阳股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+      "available_date": "2024-11-16",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202411151640921794_1.pdf",
+      "article": "AN202411151640921794",
+      "pdf_sha256": "d34996d547013ad89e5897d165e29c06c6174476a7826ab1392cf4d330365e6c",
+      "text_sha256": "f810f485d401909e4e9a948307d2cf490b6897c0d5f9a6e27cecdb91e71cccc2"
+    },
+    {
+      "title": "*ST红阳:南京证券股份有限公司关于南京红太阳股份有限公司调整资本公积转增股本除权参考价格的计算公式的专项意见",
+      "available_date": "2024-11-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202411111640821211_1.pdf",
+      "article": "AN202411111640821211",
+      "pdf_sha256": "a1bee45edc363068b7d5e508879070a4fe33d64dc6e383d6e6872c1a1d67e55d",
+      "text_sha256": "5116d00dc225233515ffc789af787aa114be3665ce007fb2db4d52c234f1469d"
+    },
+    {
+      "title": "*ST红阳:关于重整计划资本公积金转增股本事项实施的公告",
+      "available_date": "2024-11-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202411111640821214_1.pdf",
+      "article": "AN202411111640821214",
+      "pdf_sha256": "7ffb82f2b165d0b2b26a5fd1ca5dadb7252b0c005928356d6b12b2c7c2284ef5",
+      "text_sha256": "4ba0df18830710b9bf067d44a73000ac0e1fbf16b36d530f03927cb5bf113348"
+    },
+    {
+      "title": "*ST红阳:南京证券股份有限公司关于重整投资人受让南京红太阳股份有限公司资本公积转增股份价格的专项意见",
+      "available_date": "2024-10-17",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202410161640329012_1.pdf",
+      "article": "AN202410161640329012",
+      "pdf_sha256": "e31f0e5c070dd242f9e17e2733f6a9dc01b401de32c3f67225d2fce2868ec45c",
+      "text_sha256": "74d0f33b0858fc9217631fa02f56a6a10bd9d4197992b09c6a2176403919aa62"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000525&begin_time=2024-10-04&end_time=2024-11-18"
+}

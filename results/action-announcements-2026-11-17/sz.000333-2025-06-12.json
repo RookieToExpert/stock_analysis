@@ -1,0 +1,16 @@
+{
+  "code": "sz.000333",
+  "target_date": "2025-06-12",
+  "documents": [
+    {
+      "title": "美的集团:2024年度利润分配实施公告",
+      "available_date": "2025-06-06",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506051685353982_1.pdf",
+      "article": "AN202506051685353982",
+      "pdf_sha256": "d9bb47f27deb4b2eb3fce504509d826c2fa6df3f17664feab24b5e0e2ddfbe3c",
+      "text_sha256": "4c37d969db4a4d5786d456c345df8492fa4b52a0660f58e84302b95de6283f0c"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000333&begin_time=2025-04-28&end_time=2025-06-12"
+}

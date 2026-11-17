@@ -1,0 +1,16 @@
+{
+  "code": "sh.688766",
+  "target_date": "2025-05-30",
+  "documents": [
+    {
+      "title": "普冉股份:普冉半导体(上海)股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-05-26",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505251678899477_1.pdf",
+      "article": "AN202505251678899477",
+      "pdf_sha256": "234e7133eadd28b571d7263fe648a5b7080f4728f88cfb61cbc99b5c711eeead",
+      "text_sha256": "b8851dd77c36999e9d0fdcf30abf47563b4fddd6fd41300007c38b94cb14b568"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688766&begin_time=2025-04-15&end_time=2025-05-30"
+}

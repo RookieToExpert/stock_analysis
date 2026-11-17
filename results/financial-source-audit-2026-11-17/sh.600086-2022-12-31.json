@@ -1,0 +1,15 @@
+{
+  "code": "sh.600086",
+  "name": "退市金钰",
+  "statDate": "2022-12-31",
+  "supplier_pubDate": "2023-04-27",
+  "consolidated_netProfit": "-3616217230.650000",
+  "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9141443&stockid=600086",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "fd8ee4b9ab0846b82d624ecb0872d0cd6b853293d55432ffe3eb664fb9f41e20",
+  "text_sha256": "9857918ae1a9b529715bb111671a27f2132f4212be5f8bef12abe12207a96256",
+  "text_length": 97680
+}

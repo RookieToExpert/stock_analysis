@@ -1,0 +1,24 @@
+{
+  "code": "sh.603276",
+  "target_date": "2024-06-25",
+  "documents": [
+    {
+      "title": "恒兴新材:2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406241636838417_1.pdf",
+      "article": "AN202406241636838417",
+      "pdf_sha256": "7c666f75eaa9f246e8b1646fbb93d5312450691f38300917f712c99c85d620d0",
+      "text_sha256": "53cce8853313c6a7d9bf05dc9652196dcfdc840587789d3dc4a4ddeab0a33130"
+    },
+    {
+      "title": "恒兴新材:2023年年度权益分派实施公告",
+      "available_date": "2024-06-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406171636487524_1.pdf",
+      "article": "AN202406171636487524",
+      "pdf_sha256": "49f354a82063377335c57304f7f4dce372846c44ba74b8f31900145eeae50a89",
+      "text_sha256": "687048e164b463fdcc4bb7725eb5be3d7b17f53c897ca72ffa8256e533ad9ac6"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603276&begin_time=2024-05-11&end_time=2024-06-25"
+}

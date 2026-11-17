@@ -1,0 +1,24 @@
+{
+  "code": "sh.688391",
+  "target_date": "2024-05-14",
+  "documents": [
+    {
+      "title": "钜泉科技:钜泉光电科技(上海)股份有限公司2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-05-14",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405131632965323_1.pdf",
+      "article": "AN202405131632965323",
+      "pdf_sha256": "2781e587618ae80f88ea88819e1111ecdcac213a82f2850aae4d13ca479a114b",
+      "text_sha256": "907714bfaecd0538f32daa2919f4f45da37ac43b6e20695b0c6404d21c7aefe7"
+    },
+    {
+      "title": "钜泉科技:钜泉光电科技(上海)股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-05-08",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405071632574720_1.pdf",
+      "article": "AN202405071632574720",
+      "pdf_sha256": "a53a8f40e9ea6073297a18fa4f7397433d1c9c0e7ec96c35ee8495e8cb99cb88",
+      "text_sha256": "14a55bcb9c0bc32faadc68d312ada6d3a62d49bcf8a559171528fa1b5476d48c"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688391&begin_time=2024-03-30&end_time=2024-05-14"
+}

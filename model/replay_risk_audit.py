@@ -40,6 +40,8 @@ def replay(root, baseline, supplements, output):
     result={'revision':score.CALCULATION_REVISION,'as_of':as_of,
             'ledger_sha256':hashlib.sha256(Path(__file__).with_name('verified_actions.json').read_bytes()).hexdigest(),
             'unsupported_ledger_sha256':hashlib.sha256(Path(__file__).with_name('unsupported_actions.json').read_bytes()).hexdigest(),
+            'rights_ledger_sha256':hashlib.sha256(Path(__file__).with_name('verified_rights.json').read_bytes()).hexdigest(),
+            'adjustment_exclusions_sha256':hashlib.sha256(Path(__file__).with_name('verified_adjustment_exclusions.json').read_bytes()).hexdigest(),
             'baseline_sha256':hashlib.sha256(baseline.read_bytes()).hexdigest(),
             'counts':dict(Counter(r['status'] for r in rows)),
             'failure_categories':dict(Counter(r['category'] for r in rows if r['status']=='failed')),

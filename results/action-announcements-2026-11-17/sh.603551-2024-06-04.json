@@ -1,0 +1,16 @@
+{
+  "code": "sh.603551",
+  "target_date": "2024-06-04",
+  "documents": [
+    {
+      "title": "奥普家居:2023年年度权益分派实施公告",
+      "available_date": "2024-05-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405281634757009_1.pdf",
+      "article": "AN202405281634757009",
+      "pdf_sha256": "258d20b3305f35281f6526949e2f2f8d415477a334d911aacfb80321c93109bb",
+      "text_sha256": "8acabfbaacd7e81864d51a1e4f9c303efc608197397f60731617ea1b863ccf91"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603551&begin_time=2024-04-20&end_time=2024-06-04"
+}

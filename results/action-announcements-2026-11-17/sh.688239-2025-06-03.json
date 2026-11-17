@@ -1,0 +1,16 @@
+{
+  "code": "sh.688239",
+  "target_date": "2025-06-03",
+  "documents": [
+    {
+      "title": "航宇科技:航宇科技2024年度权益分派实施公告",
+      "available_date": "2025-05-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505261679521781_1.pdf",
+      "article": "AN202505261679521781",
+      "pdf_sha256": "86f7085e4778e4c07d0a378dd6d966c5829abeb4ecb495e6f7c2029eaf09ee93",
+      "text_sha256": "3814ddcefd8e3eb8714630d297cbc3dd78769a5b1a42cbff4a8560d6989218ab"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688239&begin_time=2025-04-19&end_time=2025-06-03"
+}

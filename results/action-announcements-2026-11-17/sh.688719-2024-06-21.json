@@ -1,0 +1,24 @@
+{
+  "code": "sh.688719",
+  "target_date": "2024-06-21",
+  "documents": [
+    {
+      "title": "爱科赛博:西安爱科赛博电气股份有限公司2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406201636729382_1.pdf",
+      "article": "AN202406201636729382",
+      "pdf_sha256": "83ee7afac5bb0640fd719689818f20f4079b194b428d7980eedbd559e007c547",
+      "text_sha256": "9fea0d9b183857cadc9a50fc08ac394ab52eedfdd605b1f44b8be6beb76fcfff"
+    },
+    {
+      "title": "爱科赛博:西安爱科赛博电气股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-17",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406161636457215_1.pdf",
+      "article": "AN202406161636457215",
+      "pdf_sha256": "0a73ba6e85d6d3b0089c1d5f5415504fb89a04871355f84fa6d0e90adefe524f",
+      "text_sha256": "0e840f6243070c614fded97c028b4860970e20a60b023f0cbaa23aacf1855e75"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688719&begin_time=2024-05-07&end_time=2024-06-21"
+}

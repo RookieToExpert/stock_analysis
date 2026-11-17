@@ -1,0 +1,16 @@
+{
+  "code": "sh.603833",
+  "target_date": "2024-07-09",
+  "documents": [
+    {
+      "title": "欧派家居:欧派家居2023年年度权益分派实施公告",
+      "available_date": "2024-07-02",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202407011637325915_1.pdf",
+      "article": "AN202407011637325915",
+      "pdf_sha256": "ee1f7db021674d7ad2796e535c2fe365bfc609deb836100371e95490f04f50bc",
+      "text_sha256": "264071058d9725de1089f8a3da3b255f68b47950ae5ce929ecc111dc08c277ed"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603833&begin_time=2024-05-25&end_time=2024-07-09"
+}

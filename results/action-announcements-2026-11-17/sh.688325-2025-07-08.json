@@ -1,0 +1,16 @@
+{
+  "code": "sh.688325",
+  "target_date": "2025-07-08",
+  "documents": [
+    {
+      "title": "赛微微电:2024年年度权益分派实施公告",
+      "available_date": "2025-07-02",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507011701071345_1.pdf",
+      "article": "AN202507011701071345",
+      "pdf_sha256": "be6d7021096aea0aa8079444699475a0371b1a03ae070d3a55e053ee232308d0",
+      "text_sha256": "30048133ac781fdc950a3d88f4b04e2efc5fe60b805c76accb9253314db8b33a"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688325&begin_time=2025-05-24&end_time=2025-07-08"
+}

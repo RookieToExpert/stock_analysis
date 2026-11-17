@@ -1,0 +1,16 @@
+{
+  "code": "sh.603337",
+  "target_date": "2024-07-09",
+  "documents": [
+    {
+      "title": "杰克股份:2023年年度权益分派实施公告",
+      "available_date": "2024-07-03",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202407021637473413_1.pdf",
+      "article": "AN202407021637473413",
+      "pdf_sha256": "8a8b5b3cbb4274a42d44cd89cdbfc353fd68bea669c0d619a763e477c0b4261f",
+      "text_sha256": "43059f9541cded0e646b225aa3a2c5f0f3f18dc12ef95a5bab7d518a6dd864bc"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603337&begin_time=2024-05-25&end_time=2024-07-09"
+}

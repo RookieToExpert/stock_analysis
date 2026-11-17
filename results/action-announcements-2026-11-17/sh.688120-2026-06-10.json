@@ -1,0 +1,16 @@
+{
+  "code": "sh.688120",
+  "target_date": "2026-06-10",
+  "documents": [
+    {
+      "title": "华海清科:2025年年度权益分派实施公告",
+      "available_date": "2026-06-04",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606031823212343_1.pdf",
+      "article": "AN202606031823212343",
+      "pdf_sha256": "31da27f53ebbc55338ef2f620be916fc49a2071417aebbfeed9498ed002329e8",
+      "text_sha256": "989c46a5602ee6ce52f247c1905e0987414d3714893c0b3034ec71326a4208ea"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688120&begin_time=2026-04-26&end_time=2026-06-10"
+}

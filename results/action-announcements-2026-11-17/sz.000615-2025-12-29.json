@@ -1,0 +1,48 @@
+{
+  "code": "sz.000615",
+  "target_date": "2025-12-29",
+  "documents": [
+    {
+      "title": "*ST美谷:关于重整计划资本公积金转增股本事项进展暨公司股票复牌的提示性公告",
+      "available_date": "2025-12-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512261808665279_1.pdf",
+      "article": "AN202512261808665279",
+      "pdf_sha256": "a4ce1b7bca71942b85659b3fe337e189a11cbd40df9fee18d785fa4df75a6486",
+      "text_sha256": "12b9b6a84839f583c846ba77b7f7e148fcd5170e6dec27d4a288c52f82d371f3"
+    },
+    {
+      "title": "*ST美谷:关于重整计划资本公积金转增股本除权事项的公告",
+      "available_date": "2025-12-23",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512221805948984_1.pdf",
+      "article": "AN202512221805948984",
+      "pdf_sha256": "d6d2e4e0c2ab09a3a959998351b2ad82ed13e5c72d72295fe37d2ae9587020b6",
+      "text_sha256": "ccdad0875fb7957607dc51633a63de922d2f35552c2bc72734ebe8da4e5d6152"
+    },
+    {
+      "title": "*ST美谷:华泰联合证券关于奥园美谷调整资本公积转增股本除权参考价格的计算公式的专项意见",
+      "available_date": "2025-12-23",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512221805948980_1.pdf",
+      "article": "AN202512221805948980",
+      "pdf_sha256": "3dcc1cfa01a0fce3a5aac54f0248701f395870a8830ee6057cc6a2c8e6dc9fc7",
+      "text_sha256": "efe99900aa673c874b49a32efc3225579cb54485dab7789791689e1e435ca552"
+    },
+    {
+      "title": "*ST美谷:关于重整计划权益分派实施的公告",
+      "available_date": "2025-12-23",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512221805948979_1.pdf",
+      "article": "AN202512221805948979",
+      "pdf_sha256": "08600fa39c3f2cea495c8420df36cf1499d0fa667647279fb25e861fd2f305e9",
+      "text_sha256": "240ca5c116cdbab88569877bc3651307477d3179a00256f9690c9007ac26a33d"
+    },
+    {
+      "title": "*ST美谷:关于重整计划资本公积金转增股本事项实施的公告",
+      "available_date": "2025-12-23",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512221805948985_1.pdf",
+      "article": "AN202512221805948985",
+      "pdf_sha256": "d37f7822de9817e5775e5d1500e1381a91ba8b50bfa348c8424f9e559dc47163",
+      "text_sha256": "9f26e26d08745e81b1d40d552e443f3167a8ff661778375822c460ba9bc6527a"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000615&begin_time=2025-11-14&end_time=2025-12-29"
+}

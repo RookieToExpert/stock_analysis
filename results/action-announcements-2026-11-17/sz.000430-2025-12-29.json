@@ -1,0 +1,48 @@
+{
+  "code": "sz.000430",
+  "target_date": "2025-12-29",
+  "documents": [
+    {
+      "title": "*ST张股:财信证券股份有限公司关于张家界旅游集团股份有限公司调整资本公积转增股本除权参考价格计算结果的专项意见",
+      "available_date": "2025-12-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512261808695344_1.pdf",
+      "article": "AN202512261808695344",
+      "pdf_sha256": "b6ce2969fc36b9bd7b4d263f28ec11cdf1711bb14cf8e959751d7d506fb2c2c7",
+      "text_sha256": "59e60b49cdc2a37c4d8405315edc6921fd67db624bbc812c611ee75435d6760d"
+    },
+    {
+      "title": "*ST张股:张家界旅游集团股份有限公司关于重整计划资本公积转增股本事项进展暨公司股票复牌的提示性公告",
+      "available_date": "2025-12-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512261808695342_1.pdf",
+      "article": "AN202512261808695342",
+      "pdf_sha256": "2ec746d5aac8bcb3db7a04e7f9f646ebb3ea5cc9bb1414f1ca134475d72aed7e",
+      "text_sha256": "ac5c834a9700c55979a29a6a3733261466f31a3928f00492caa72259cbe31f31"
+    },
+    {
+      "title": "*ST张股:张家界旅游集团股份有限公司关于重整计划资本公积转增股本事项实施的公告",
+      "available_date": "2025-12-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512241807295660_1.pdf",
+      "article": "AN202512241807295660",
+      "pdf_sha256": "55be2687192b2c9c40150f3103e827828d8c51d825f58c3d6919a075e9cb83bb",
+      "text_sha256": "18c7a387c3f431fac2a9a3cf4827293ac1ac4b2dfe207c043f70e3f5e10618f8"
+    },
+    {
+      "title": "*ST张股:张家界旅游集团股份有限公司关于重整计划资本公积转增股本除权事项的公告",
+      "available_date": "2025-12-24",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512231806582263_1.pdf",
+      "article": "AN202512231806582263",
+      "pdf_sha256": "44d32ebf5104d6512a44b07491171f3ad3b5b14e5207ade52d10e2f0f95d3fdc",
+      "text_sha256": "3bf6ff9ee3d9e22f8e8fec99e1ed3fb124c9900f35690cb53669dc9855d93aa4"
+    },
+    {
+      "title": "*ST张股:财信证券股份有限公司关于张家界旅游集团股份有限公司调整资本公积转增股本除权参考价格计算公式的专项意见",
+      "available_date": "2025-12-24",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512231806582275_1.pdf",
+      "article": "AN202512231806582275",
+      "pdf_sha256": "8b3302428cf14c503872ddb87b08c16120b6379a52a8e6f24e765863032280e0",
+      "text_sha256": "8556334a24a1552cba8f6c3417837bd0b697b9c7e2c3a7ac0d6fb01ded5726c1"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000430&begin_time=2025-11-14&end_time=2025-12-29"
+}

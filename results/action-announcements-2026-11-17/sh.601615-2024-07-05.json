@@ -1,0 +1,16 @@
+{
+  "code": "sh.601615",
+  "target_date": "2024-07-05",
+  "documents": [
+    {
+      "title": "明阳智能:2023年年度权益分派实施公告",
+      "available_date": "2024-06-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636918563_1.pdf",
+      "article": "AN202406261636918563",
+      "pdf_sha256": "58801f86c1baccce9c26fe700f2f8450fcfcce62c9a13990ce85078b59426f4b",
+      "text_sha256": "ca4281b15dab70713a11792ffcf69485ac3cdbcf2e63568516edf896035aa6b7"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=601615&begin_time=2024-05-21&end_time=2024-07-05"
+}

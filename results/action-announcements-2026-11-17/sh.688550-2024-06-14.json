@@ -1,0 +1,16 @@
+{
+  "code": "sh.688550",
+  "target_date": "2024-06-14",
+  "documents": [
+    {
+      "title": "瑞联新材:2023年年度权益分派实施公告",
+      "available_date": "2024-06-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406061635725551_1.pdf",
+      "article": "AN202406061635725551",
+      "pdf_sha256": "360c35cbb25c0766d80e85a113e2eed920a090680db00b66715fb54828259016",
+      "text_sha256": "f1f9721c6c9a9c6aa7cdee70d5b5c9bb9920ae12e14d23e7c867f4c08b62ae5f"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688550&begin_time=2024-04-30&end_time=2024-06-14"
+}

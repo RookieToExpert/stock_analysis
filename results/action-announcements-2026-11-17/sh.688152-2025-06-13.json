@@ -1,0 +1,16 @@
+{
+  "code": "sh.688152",
+  "target_date": "2025-06-13",
+  "documents": [
+    {
+      "title": "麒麟信安:2024年年度权益分派实施公告",
+      "available_date": "2025-06-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506041684731395_1.pdf",
+      "article": "AN202506041684731395",
+      "pdf_sha256": "b9dc77b827ca92e8210020490fe38668300685582d0e461bd8187f47f74c9386",
+      "text_sha256": "94311fe50e57cc4efb9da7d6cd89f2963f7ab0708ae5cc76f0d381faaa8c81dc"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688152&begin_time=2025-04-29&end_time=2025-06-13"
+}

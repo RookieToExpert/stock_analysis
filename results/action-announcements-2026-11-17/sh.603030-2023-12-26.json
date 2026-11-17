@@ -1,0 +1,40 @@
+{
+  "code": "sh.603030",
+  "target_date": "2023-12-26",
+  "documents": [
+    {
+      "title": "*ST全筑:关于重整计划资本公积金转增股本除权事项的提示性公告",
+      "available_date": "2023-12-23",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312221614825873_1.pdf",
+      "article": "AN202312221614825873",
+      "pdf_sha256": "e7ef3f90e2ad7a351740cb45d5e81166693e4b26feded38b16c5b50703918970",
+      "text_sha256": "a9c3f33a565836ec678dd09db1d9696745b8857666e11d242c8a5d9b7dd19865"
+    },
+    {
+      "title": "*ST全筑:关于重整计划资本公积金转增股本实施的公告",
+      "available_date": "2023-12-20",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312191614539261_1.pdf",
+      "article": "AN202312191614539261",
+      "pdf_sha256": "cc5e514813f749403f13087027873747da6662ec5b1c0b9b1fb27ccda5b7010c",
+      "text_sha256": "88772f6a0b7b6502cf9941861c21acb488a85add7827ff12f3a46ceaeb8a6fbb"
+    },
+    {
+      "title": "*ST全筑:华泰联合证券关于全筑股份调整资本公积转增股本除权参考价格的计算公式的专项意见",
+      "available_date": "2023-12-20",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312191614539264_1.pdf",
+      "article": "AN202312191614539264",
+      "pdf_sha256": "81fb03383afe9c1f71f5d2a2c730895504a43191d910da9c30eb0c5ae301e89c",
+      "text_sha256": "089fadc5f8d26c5ea9f5ff21273c421e5712a0710b3dab518820e77a3ad541f9"
+    },
+    {
+      "title": "*ST全筑:华泰联合证券关于全筑股份重整投资人受让公司资本公积转增股份价格的专项意见",
+      "available_date": "2023-11-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202311281612494566_1.pdf",
+      "article": "AN202311281612494566",
+      "pdf_sha256": "1af36ac4fd71005821cbe429a7f76308034711d39c7948a300bd1a11ab78ca9f",
+      "text_sha256": "36ff914b5bc3b98f7af90bca1159a0a322203f5047e5e3b42d3ac36b69e24d34"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603030&begin_time=2023-11-11&end_time=2023-12-26"
+}

@@ -1,0 +1,24 @@
+{
+  "code": "sh.688409",
+  "target_date": "2024-06-24",
+  "documents": [
+    {
+      "title": "富创精密:2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-24",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406231636800235_1.pdf",
+      "article": "AN202406231636800235",
+      "pdf_sha256": "959e3c7a46e39369e7ae425d16fd7b0d24f58899dcfe9bfcef8548693e6c5aff",
+      "text_sha256": "5a2ce44adfdc243383f4de6aaa053d8736a3eda52b29ec045dc229288ba219c1"
+    },
+    {
+      "title": "富创精密:2023年年度权益分派实施公告",
+      "available_date": "2024-06-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406171636509650_1.pdf",
+      "article": "AN202406171636509650",
+      "pdf_sha256": "1d5229424e59706517cc087b7110ba0018ca102a796fa940932572c120714e52",
+      "text_sha256": "082eb3b1d1c6983202b55990cce95fdbb9405c9f371f937fdc4996c6949dae9a"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688409&begin_time=2024-05-10&end_time=2024-06-24"
+}

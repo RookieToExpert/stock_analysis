@@ -1,0 +1,16 @@
+{
+  "code": "sz.000703",
+  "target_date": "2026-09-18",
+  "documents": [
+    {
+      "title": "恒逸石化:2026年中期权益分派实施公告",
+      "available_date": "2026-09-10",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202609111829253206_1.pdf",
+      "article": "AN202609111829253206",
+      "pdf_sha256": "715eaa06cacce6eeaa492cbcbecc6697bc6e6f1bc8c6bdf0d3e326cff50a887c",
+      "text_sha256": "ac71b5003f23788be97da63ed0d841aab86184168612f6b84e856fde44c30708"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000703&begin_time=2026-08-04&end_time=2026-09-18"
+}

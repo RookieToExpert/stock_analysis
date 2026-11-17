@@ -1,0 +1,15 @@
+{
+  "code": "sh.600335",
+  "name": "国机汽车",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-04-25",
+  "consolidated_netProfit": "400078563.920000",
+  "source": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223275379.PDF",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "02a6038b75f7f569c5f2dedeb0906e831215fa91694a0a158d751bb318fb1fb1",
+  "text_sha256": "9f71b805484d190e2ce682adea52bf092cd844f968061a31521b6dcfdc3e8ef4",
+  "text_length": 388414
+}

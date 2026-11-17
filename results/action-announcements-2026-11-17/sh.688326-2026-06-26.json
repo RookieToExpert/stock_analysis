@@ -1,0 +1,16 @@
+{
+  "code": "sh.688326",
+  "target_date": "2026-06-26",
+  "documents": [
+    {
+      "title": "经纬恒润:2025年年度权益分派实施公告",
+      "available_date": "2026-06-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606171823637841_1.pdf",
+      "article": "AN202606171823637841",
+      "pdf_sha256": "43632da966ae64bc52b00a4a84a82a777f90bec361fa9adcb68a942653387d3c",
+      "text_sha256": "adae4d551209a90eee514a6f87a41214d9cbb5ebb03bcedbe2f98a0ef63d32ce"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688326&begin_time=2026-05-12&end_time=2026-06-26"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.603444",
+  "target_date": "2024-09-13",
+  "documents": [
+    {
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2024年半年度权益分派实施公告",
+      "available_date": "2024-09-06",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202409051639757199_1.pdf",
+      "article": "AN202409051639757199",
+      "pdf_sha256": "f78b934802d1410335dbe3bb8329c3f0648cd4902aa22d5688e8310dc45343f5",
+      "text_sha256": "02e600fd7beafe37638af6082e9ab0ad431fd0d04aeb1a40e7a7cf6ea2e721b6"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603444&begin_time=2024-07-30&end_time=2024-09-13"
+}

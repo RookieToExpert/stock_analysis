@@ -1,0 +1,16 @@
+{
+  "code": "sh.688200",
+  "target_date": "2026-06-11",
+  "documents": [
+    {
+      "title": "华峰测控:华峰测控2025年度权益分派实施公告",
+      "available_date": "2026-06-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606041823251036_1.pdf",
+      "article": "AN202606041823251036",
+      "pdf_sha256": "7fa2c197beefdfb7805c1d740f605640a5f546e652341efaac44ef92e025e4c4",
+      "text_sha256": "4149a3bc873c4785fa9a0479147547a08c9d8b6c91b7ee8c2f6cbf1364fc3741"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688200&begin_time=2026-04-27&end_time=2026-06-11"
+}

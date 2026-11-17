@@ -1,0 +1,16 @@
+{
+  "code": "sh.688301",
+  "target_date": "2024-06-17",
+  "documents": [
+    {
+      "title": "奕瑞科技:奕瑞科技2023年年度权益分派实施公告",
+      "available_date": "2024-06-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406101635917020_1.pdf",
+      "article": "AN202406101635917020",
+      "pdf_sha256": "e0005f3755835d66410141b8ac24519d3ee4b9b57f821797df73a01e72adfdbb",
+      "text_sha256": "3fa7de97a6f9d994d2cf5bed4ef2693c1b709829224e2a07e0e202070627e28a"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688301&begin_time=2024-05-03&end_time=2024-06-17"
+}

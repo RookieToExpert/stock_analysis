@@ -1,0 +1,16 @@
+{
+  "code": "sh.603444",
+  "target_date": "2025-11-28",
+  "documents": [
+    {
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年第三季度权益分派实施公告",
+      "available_date": "2025-11-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202511201784987534_1.pdf",
+      "article": "AN202511201784987534",
+      "pdf_sha256": "27534353ba4a5ffe254528f0f83c14c538bb129fd6fde28af720abbc812cbf90",
+      "text_sha256": "dc1dcc3d2782f2f6d91f6c9b693443fc4ba23eb7f7b3144699cf20ac11f162d0"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603444&begin_time=2025-10-14&end_time=2025-11-28"
+}

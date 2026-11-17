@@ -1,0 +1,16 @@
+{
+  "code": "sh.688678",
+  "target_date": "2024-06-06",
+  "documents": [
+    {
+      "title": "福立旺:2023年年度权益分派实施公告",
+      "available_date": "2024-05-30",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405291634819221_1.pdf",
+      "article": "AN202405291634819221",
+      "pdf_sha256": "2d3ca8ce60343b5e4b5df1ff56133d9bd3da79b37ba9914496d7bf96dc60c71d",
+      "text_sha256": "91647656b7615cfcae1c2ed995824aa858dff8ee2d899c82eb755dca6603ca59"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688678&begin_time=2024-04-22&end_time=2024-06-06"
+}

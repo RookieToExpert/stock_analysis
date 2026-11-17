@@ -1,0 +1,16 @@
+{
+  "code": "sh.688606",
+  "target_date": "2024-06-20",
+  "documents": [
+    {
+      "title": "奥泰生物:2023年年度权益分派实施公告",
+      "available_date": "2024-06-14",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406131636093112_1.pdf",
+      "article": "AN202406131636093112",
+      "pdf_sha256": "4283ea5ca98f452ce572c042eb26c63b6aac66196f66b9703cce8229d701187a",
+      "text_sha256": "b9554ad8f06a105d4013cac137a6a164ebf3e827179396f0e2db359484db4b45"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688606&begin_time=2024-05-06&end_time=2024-06-20"
+}

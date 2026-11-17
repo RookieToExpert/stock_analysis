@@ -1,0 +1,16 @@
+{
+  "code": "sh.688171",
+  "target_date": "2026-07-10",
+  "documents": [
+    {
+      "title": "纬德信息:2025年年度权益分派实施公告",
+      "available_date": "2026-07-03",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202607021826663459_1.pdf",
+      "article": "AN202607021826663459",
+      "pdf_sha256": "c560fd8f5f394a9887fedd61da3ca1bb60ba66a6ab7411ea608a155088c3e139",
+      "text_sha256": "ad2724beaacce38605ec7a5ff0fbf4033885f13843e6fe1984bd605890ce3fc7"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688171&begin_time=2026-05-26&end_time=2026-07-10"
+}

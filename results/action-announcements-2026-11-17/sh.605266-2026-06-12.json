@@ -1,0 +1,16 @@
+{
+  "code": "sh.605266",
+  "target_date": "2026-06-12",
+  "documents": [
+    {
+      "title": "健之佳:2025年年度权益分派实施公告",
+      "available_date": "2026-06-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606041823251075_1.pdf",
+      "article": "AN202606041823251075",
+      "pdf_sha256": "f634184cbd08824adc06d4b9702b0676da6bb12aed33921284c413877b58a94f",
+      "text_sha256": "0bc8462fb6463b51f5b79b5e37fa6056a953fc7707647ba7902899d3b2f50880"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605266&begin_time=2026-04-28&end_time=2026-06-12"
+}

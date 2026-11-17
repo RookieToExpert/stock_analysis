@@ -1,0 +1,16 @@
+{
+  "code": "sh.603529",
+  "target_date": "2026-09-24",
+  "documents": [
+    {
+      "title": "爱玛科技:爱玛科技2026年半年度权益分派实施公告",
+      "available_date": "2026-09-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202609171829522385_1.pdf",
+      "article": "AN202609171829522385",
+      "pdf_sha256": "ada0034fd0fa19eac191ab7d83e61a1054a037bb4b1a4d8ccdb59a018d7420f5",
+      "text_sha256": "1ea30410b4d0f6682dde8610391363cd5bb74d8771a148bbce2963807d140085"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603529&begin_time=2026-08-10&end_time=2026-09-24"
+}

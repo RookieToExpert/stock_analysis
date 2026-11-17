@@ -1,0 +1,40 @@
+{
+  "code": "sz.002021",
+  "target_date": "2023-12-29",
+  "documents": [
+    {
+      "title": "*ST中捷:关于重整计划资本公积金转增股本除权事项进展暨公司股票复牌的公告",
+      "available_date": "2023-12-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312281615161899_1.pdf",
+      "article": "AN202312281615161899",
+      "pdf_sha256": "55e77d93a0ff3e7c8715ad641bec5b09bd8e31045e33289448c7d873a4e110ae",
+      "text_sha256": "47958777c5e72151c4268c38107c6415bdd61055bc7bbf704374a88b11bdb90e"
+    },
+    {
+      "title": "*ST中捷:中泰证券股份有限公司关于中捷资源投资股份有限公司调整资本公积金转增股本除权参考价格的计算结果的专项意见",
+      "available_date": "2023-12-28",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312271615039943_1.pdf",
+      "article": "AN202312271615039943",
+      "pdf_sha256": "49e6b57ad698e3afeaf9ab1a98d4999eaf90fdc6be8c1e0f6b0eec58efb27236",
+      "text_sha256": "27a9e40546515c5b179bf31d16c7c2f97e249cefb39bdd8d33ba9f38c6548c5a"
+    },
+    {
+      "title": "*ST中捷:中泰证券股份有限公司关于中捷资源投资股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+      "available_date": "2023-12-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312241614881377_1.pdf",
+      "article": "AN202312241614881377",
+      "pdf_sha256": "9e1062edde667169ebf59e13dc285892d39ee930ecf320dce6354e41e2be8043",
+      "text_sha256": "16944c8d9deab998b540f4c61e372689f79fca04bd4c74db1ccf43b6b1a4f320"
+    },
+    {
+      "title": "*ST中捷:关于重整计划资本公积金转增股本事项实施的公告",
+      "available_date": "2023-12-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312241614881371_1.pdf",
+      "article": "AN202312241614881371",
+      "pdf_sha256": "47702a9662920050b0092a9d3b554536ae8a14683bea649349f73da981495283",
+      "text_sha256": "7e6f4b4d52f702eb467fdfaf11cf8497b88ee9992210d9d2bc7f76ed7c8fb9ae"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002021&begin_time=2023-11-14&end_time=2023-12-29"
+}

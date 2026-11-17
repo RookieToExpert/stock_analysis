@@ -1,0 +1,16 @@
+{
+  "code": "sh.688016",
+  "target_date": "2026-10-20",
+  "documents": [
+    {
+      "title": "心脉医疗:2026年半年度权益分派实施公告",
+      "available_date": "2026-10-14",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202610131830414362_1.pdf",
+      "article": "AN202610131830414362",
+      "pdf_sha256": "9d219880f6b3b14d214f863dce52d5a9542a0e2ac6c05c8732d7fdafbe38e8be",
+      "text_sha256": "a396c694e8da60f455259f44690debefdc863bb9e8e2a05a5a24115b231c8427"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688016&begin_time=2026-09-05&end_time=2026-10-20"
+}

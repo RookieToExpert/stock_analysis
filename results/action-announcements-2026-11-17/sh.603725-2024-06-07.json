@@ -1,0 +1,16 @@
+{
+  "code": "sh.603725",
+  "target_date": "2024-06-07",
+  "documents": [
+    {
+      "title": "天安新材:天安新材2023年年度权益分派实施公告",
+      "available_date": "2024-06-01",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405311635064503_1.pdf",
+      "article": "AN202405311635064503",
+      "pdf_sha256": "aa6489db92f73d807451656d28cb3ecaafd700ea1b0c91b3a1224a60cc176cf6",
+      "text_sha256": "1fa7466f9e89040352d3f5043a4fff9f80b0e655981e85cd375429299b45049d"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603725&begin_time=2024-04-23&end_time=2024-06-07"
+}

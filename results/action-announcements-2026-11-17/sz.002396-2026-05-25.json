@@ -1,0 +1,16 @@
+{
+  "code": "sz.002396",
+  "target_date": "2026-05-25",
+  "documents": [
+    {
+      "title": "星网锐捷:2025年度利润分配及资本公积转增股本方案的实施公告",
+      "available_date": "2026-05-15",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605141822321071_1.pdf",
+      "article": "AN202605141822321071",
+      "pdf_sha256": "6c197a1772bb72dced6180a8c5c2168ad297e9068beb4a26d0376022bb3e9c5e",
+      "text_sha256": "4c26280a4e7ebc3eea5b4fa8f7f371e03b741d65453ea8f508bc41d849a19f0e"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002396&begin_time=2026-04-10&end_time=2026-05-25"
+}

@@ -1,0 +1,15 @@
+{
+  "code": "sh.688327",
+  "name": "云从科技",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-04-30",
+  "consolidated_netProfit": "-705667667.510000",
+  "source": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223424524.PDF",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "c788a7628f2e35cf57c8e91ce8a6c299e4dc52221d9a9cc04a1e653ab3e7faa6",
+  "text_sha256": "5c8c9b292f8080ae89406eeabf715cdd894524b7b0dc6e9f55d4cf93cc53210b",
+  "text_length": 545184
+}

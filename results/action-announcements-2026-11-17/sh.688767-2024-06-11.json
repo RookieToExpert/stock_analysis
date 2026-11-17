@@ -1,0 +1,16 @@
+{
+  "code": "sh.688767",
+  "target_date": "2024-06-11",
+  "documents": [
+    {
+      "title": "博拓生物:博拓生物2023年年度权益分派实施公告",
+      "available_date": "2024-06-03",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406021635199235_1.pdf",
+      "article": "AN202406021635199235",
+      "pdf_sha256": "7681c5e1de63216e31fe8677ddeedeb56329a13bf31d80974d80a7b61aa775e3",
+      "text_sha256": "51eaba5bad22ca00975df11d8967dec5392cdbdc64164a74634f6184f55791e5"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688767&begin_time=2024-04-27&end_time=2024-06-11"
+}

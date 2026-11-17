@@ -1,0 +1,16 @@
+{
+  "code": "sh.688657",
+  "target_date": "2026-05-14",
+  "documents": [
+    {
+      "title": "浩辰软件:2025年年度权益分派实施公告",
+      "available_date": "2026-05-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605061821992790_1.pdf",
+      "article": "AN202605061821992790",
+      "pdf_sha256": "2c80ec55402fe119026ee66c012e75c4c7a09082f9496269905026960eed405d",
+      "text_sha256": "dea7e724380fbfc0e3e40f8a41cbb9af0095aae1756b19daed25f9d17f43d0de"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688657&begin_time=2026-03-30&end_time=2026-05-14"
+}

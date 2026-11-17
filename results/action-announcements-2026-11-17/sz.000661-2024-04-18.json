@@ -1,0 +1,16 @@
+{
+  "code": "sz.000661",
+  "target_date": "2024-04-18",
+  "documents": [
+    {
+      "title": "长春高新:2023年年度权益分派实施公告",
+      "available_date": "2024-04-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404111630161829_1.pdf",
+      "article": "AN202404111630161829",
+      "pdf_sha256": "aedd8105c0824681744ef7a06cf6fa78b8f3351cec99bc983a67fbaf9b28d00f",
+      "text_sha256": "fd3e8f88f05d6f4cc3258068a122d7f1d0e7eb75cb54bfce12183ae7f62313c5"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000661&begin_time=2024-03-04&end_time=2024-04-18"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.688553",
+  "target_date": "2026-06-17",
+  "documents": [
+    {
+      "title": "汇宇制药:2025年年度权益分派实施公告",
+      "available_date": "2026-06-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606101823427433_1.pdf",
+      "article": "AN202606101823427433",
+      "pdf_sha256": "f1bb2eb48acc873db0247c1a53890e055c4a9a1f8eb4fb4f333af7715cd42e34",
+      "text_sha256": "a6d6ea6052f87a9876c489d3852a44976062d7d7f2beb6dbc8c2580eb032cdb4"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688553&begin_time=2026-05-03&end_time=2026-06-17"
+}

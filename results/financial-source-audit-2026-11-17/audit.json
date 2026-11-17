@@ -1,0 +1,534 @@
+{
+  "rows": [
+    {
+      "code": "sh.600355",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223324805.PDF",
+      "source_text_sha256": "348f7eea34bb031d34315eed82c3d1097d593853d0a78a24dd38972af40c1481",
+      "supplier_pubDate": "2025-04-26",
+      "publication_date": "2025-04-26",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "决议通过的本报告期利润分配预案或公积金转增股本预案 中审众环会计师事务所（特殊普通合伙）为本公司2024年度财务报告出具了标准无保留意见 的审计报告。经审计，公司2024年实现归属于母公司股东的净利润-42,060,135.61元，因本年度 亏损，未提取法定盈余公积金，加期初未分配利润-510,189,268.26元，本年度可供分配的利润为 -552,249,403.87元。 根据公司实际情况，董事会建议2024年度不进行利",
+      "dividend_events": [],
+      "dividend_review": "no_supplier_event_consistent_with_appropriation_note_not_zero_certified",
+      "appropriation_excerpt": "68.26 -466,828,848.45 加：本期归属于母公司所有者的净利 -42,060,135.61 -43,360,419.81 润 减：提取法定盈余公积 提取任意盈余公积 提取一般风险准备 应付普通股股利 转作股本的普通股股利 期末未分配利润 -552,249,403.87 -510,189,268.26 134 / 174 精伦电子股份有限公司2024 年年度报告 61、 营业收入和营业成本 (1).营业收入和营业成本情况 √适用 □不适用 单位：元 币种：人民币 本期发生额 上期发生额 项目 收入 成本 收入 成本 主营业务 119,789,959.03 103,503,010.84 121,423,533.45 100,309,186.38 其他业务 22",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.600086",
+      "statDate": "2022-12-31",
+      "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9141443&stockid=600086",
+      "source_text_sha256": "9857918ae1a9b529715bb111671a27f2132f4212be5f8bef12abe12207a96256",
+      "supplier_pubDate": "2023-04-27",
+      "publication_date": "2023-04-27",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "单位：元 本期 上年同期 增减比例% 营业收入 1,301,316.00 2,158,582.37 -39.71% 毛利率% 98.82% -705.73% - 归属于两网公司或退市公司股东的净利润 -3,616,217,230.65 -2,098,498,426.57 不适用 归属于两网公司或退市公司股东的扣除非经常性损益后的净利润 -3,616,217,230.65 -2,098,498,426.57 不适用 加权平均净资产收",
+      "dividend_events": [],
+      "dividend_review": "no_supplier_event_consistent_with_appropriation_note_not_zero_certified",
+      "appropriation_excerpt": "4,585,182,137.01 加：本期归属于母公司所有者的净利润 -3,616,217,230.65 -2,098,681,861.05 减：提取法定盈余公积 提取任意盈余公积 提取一般风险准备 应付普通股股利 转作股本的普通股股利 期末未分配利润 -10,300,081,228.71 -6,683,863,998.06 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0元。 2、由于会计政策变更，影响期初未分配利润0元。 3、由于重大会计差错更正，影响期初未分配利润0元。 4、由于同一控制下企业合并导致的合并范围变更，影响期初未分配利润0元。 5、其他调整合计影响期初未分配利润0元。 其他说明： □适用 √不适用 61",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.600687",
+      "statDate": "2020-12-31",
+      "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7218769&stockid=600687",
+      "source_text_sha256": "020c8da5b946260bc30cec2180a0467fc5b80419ae262ec3308d3478ad0a50cf",
+      "supplier_pubDate": "2021-04-30",
+      "publication_date": "2021-04-30",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "额以“－”号填列） -2,236,446,443.80 -3,337,586,643.28 减：所得税费用 17,709,158.96 80,366,480.78 五、净利润（净亏损以“－”号填列） -2,254,155,602.76 -3,417,953,124.06 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） -2,254,155,602.76 -3,417,953,124.06 2.终止经营净利润（净",
+      "dividend_events": [],
+      "dividend_review": "no_supplier_event_consistent_with_appropriation_note_not_zero_certified",
+      "appropriation_excerpt": "6 400,713,469.44 加：本期归属于母公司所有者的净利润 -2,248,069,361.08 -3,374,538,836.00 减：提取法定盈余公积 提取任意盈余公积 提取一般风险准备 应付普通股股利 转作股本的普通股股利 期末未分配利润 -5,221,894,727.64 -2,973,825,366.56 项目 本期发生额 上期发生额 收入 成本 收入 成本 主营业务 348,774,361.80 272,271,217.71 1,142,103,610.12 1,016,117,074.70 其他业务 5,870,070.58 2,587,293.02 24,000,476.43 7,764,910.83 合计 354,644,432.38 274,8",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.600608",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223383763.PDF",
+      "source_text_sha256": "a7bebe8755cc0d2e89af9a449c5eae8c3087118447ac878712594ea24ef2da6f",
+      "supplier_pubDate": "2025-04-29",
+      "publication_date": "2025-04-29",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "、利润总额（亏损总额以“－”号填列） -7,235,337.09 -22,952,592.50 减：所得税费用 七、76 30,819.46 233,203.49 五、净利润（净亏损以“－”号填列） -7,266,156.55 -23,185,795.99 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） -7,266,156.55 -23,185,795.99 2.终止经营净利润（净亏损以“－”号填列）",
+      "dividend_events": [],
+      "dividend_review": "no_supplier_event_consistent_with_appropriation_note_not_zero_certified",
+      "appropriation_excerpt": ",272.34 -758,803,241.40 加：本期归属于母公司所有者的净利润 -5,682,784.47 -22,015,030.94 减：提取法定盈余公积 提取任意盈余公积 提取一般风险准备 应付普通股股利 转作股本的普通股股利 期末未分配利润 -786,501,056.81 -780,818,272.34 61、 营业收入和营业成本 (1) 营业收入和营业成本情况 √适用 □不适用 单位：元 币种：人民币 本期发生额 上期发生额 项目 收入 成本 收入 成本 主营业务 17,226,735.08 10,068,179.07 148,740,823.87 139,527,103.59 其他业务 合计 17,226,735.08 10,068,179.07 148,",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.600647",
+      "statDate": "2023-12-31",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404291631625928_1.pdf",
+      "source_text_sha256": "c434eca318807fffea1eb86ff6c4594e7603a7ec21f670d9789c5ec35661af7d",
+      "supplier_pubDate": "2024-04-30",
+      "publication_date": "2024-04-30",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "四、利润总额（亏损总额以“－”号填 27,166,119.91 6,026,905.95 列） 减：所得税费用 3,754,510.53 5,423,001.51 五、净利润（净亏损以“－”号填列） 23,411,609.38 603,904.44 （一）按经营持续性分类 1.持续经营净利润（净亏损以 23,411,609.38 603,904.44 “－”号填列） 51 / 160 2023 年年度报告 2.终止经营净利",
+      "dividend_events": [],
+      "dividend_review": "no_supplier_event_consistent_with_appropriation_note_not_zero_certified",
+      "appropriation_excerpt": "00 加：本期归属于母公司所有者的净 7,065,603.68 -10,117,067.17 利润 减：提取法定盈余公积 提取任意盈余公积 提取一般风险准备 115 / 160 2023 年年度报告 应付普通股股利 转作股本的普通股股利 期末未分配利润 127,550,419.51 120,484,815.83 61、 营业收入和营业成本 (1).营业收入和营业成本情况 √适用 □不适用 单位：元 币种：人民币 本期发生额 上期发生额 项目 收入 成本 收入 成本 主营业务 108,761,468.07 63,125,002.56 17,673,813.33 2,346,688.02 其他业务 1,229,657.17 712,717.46 1,014,565.73 71",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.603687",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223197178.PDF",
+      "source_text_sha256": "eadd6c4a1fb53ddb9e4d27fa5f56abfaff18d98cf5f2d77ced4ca8083f51daac",
+      "supplier_pubDate": "2025-04-22",
+      "publication_date": "2025-04-22",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "总额（亏损总额以“－”号填列） 157,425,944.59 145,500,439.54 减：所得税费用 26,535,338.08 17,357,123.92 五、净利润（净亏损以“－”号填列） 130,890,606.51 128,143,315.62 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填 130,890,606.51 128,143,315.62 列） 2.终止经营净利润（净亏损以“－”号填",
+      "dividend_events": [
+        {
+          "ex_date": "2024-06-28",
+          "cash": "0.04873",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "大胜达:浙江大胜达包装股份有限公司2023年年度权益分派实施公告",
+              "available_date": "2024-06-24",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202406231636800319_1.pdf",
+              "article": "AN202406231636800319",
+              "pdf_sha256": "05c3f54f07d1ba23c3ea281ece5531a04fafee456fdfc5ec1c3adc1800dbe0fb",
+              "text_sha256": "16687dffceec682839c3f8e53f24d04020082d5276abead388a680bbdabd4722"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "期归属于母公司所有者的净利润 106,257,291.90 88,549,878.33 减：提取法定盈余公积 13,949,968.61 8,328,508.34 提取任意盈余公积 提取一般风险准备 应付普通股股利 26,566,912.03 10,537,061.45 转作股本的普通股股利 期末未分配利润 864,637,918.28 798,897,507.02 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0.00 元。 2、由于会计政策变更，影响期初未分配利润0.00 元。 3、由于重大会计差错更正，影响期初未分配利润0.00 元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润0.00 元。 5、其他调整",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.603324",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223241090.PDF",
+      "source_text_sha256": "2a06b1b8f34bf1c0790a5a72d89649286cd0dab6e30ea212fc37fa12142f6629",
+      "supplier_pubDate": "2025-04-24",
+      "publication_date": "2025-04-24",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "额以“－”号 135,611,691.61 179,601,890.26 填列） 减：所得税费用 七、76 14,254,451.31 14,180,625.84 五、净利润（净亏损以“－”号填列） 121,357,240.30 165,421,264.42 （一）按经营持续性分类 1.持续经营净利润（净亏损以 121,357,240.30 165,421,264.42 “－”号填列） 2.终止经营净利润（净亏损以 “－”号",
+      "dividend_events": [
+        {
+          "ex_date": "2024-07-04",
+          "cash": "0.27",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "盛剑环境:盛剑环境2023年年度权益分派实施公告",
+              "available_date": "2024-06-28",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202406271636958515_1.pdf",
+              "article": "AN202406271636958515",
+              "pdf_sha256": "2425ed79b85f2eab362c9dc63585ffedad8bf721d21cc3c0c08ef748a4d75b73",
+              "text_sha256": "e4e9085df33498d78df7c216ec0144a4a979a27304e613d9b2617d8d5d60d8f3"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "的净利 119,895,227.77 165,442,303.26 润 减：提取法定盈余公积 8,085,963.20 11,820,217.64 提取任意盈余公积 - - 提取一般风险准备 - - 应付普通股股利 33,424,650.00 19,652,112.00 转作股本的普通股股利 - - 期末未分配利润 752,203,437.50 673,818,822.93 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0 元。 2、由于会计政策变更，影响期初未分配利润0 元。 187 / 236 上海盛剑科技股份有限公司2024 年年度报告 3、由于重大会计差错更正，影响期初未分配利润0 元。 4、由于同一控制导致的合并",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.601666",
+      "statDate": "2024-12-31",
+      "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10796916",
+      "source_text_sha256": "dfbc1eb1964711ba975d45084c703c6418ddb838e6a55f08de4f8e536fc3b28c",
+      "supplier_pubDate": "2025-03-21",
+      "publication_date": "2025-03-21",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "“－”号填列） 3,458,440,401.11 5,693,913,309.46 减：所得税费用 903,321,773.63 1,426,926,061.42 五、净利润（净亏损以“－”号填列） 2,555,118,627.48 4,266,987,248.04 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 2,555,118,627.48 4,266,987,248.04 2.终止经营净利润（净亏损以",
+      "dividend_events": [
+        {
+          "ex_date": "2024-05-24",
+          "cash": "0.99",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "平煤股份:平煤股份2023年度权益分派实施公告",
+              "available_date": "2024-05-18",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202405171633721012_1.pdf",
+              "article": "AN202405171633721012",
+              "pdf_sha256": "610bc998d31fb18dc60874658731c33fa9c2da71cdbe9a88667693b5f18c93cb",
+              "text_sha256": "c6cb41295da600e928faefabfdbd5c13862b09d080360113c801a901b1977a38"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "559,452.79 4,010,236,560.50 减：提取法定盈余公积 237,625,202.45 396,712,335.10 提取任意盈余公积 提取一般风险准备 9,424,163.69 应付普通股股利 2,425,570,625.61 2,014,237,880.85 转作股本的普通股股利 期末未分配利润 13,899,637,626.34 14,222,698,165.30 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0 元。 2、由于会计政策变更，影响期初未分配利润0 元。 3、由于重大会计差错更正，影响期初未分配利润0 元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润-481,027.96",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.603696",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223193223.PDF",
+      "source_text_sha256": "807a02219ce5ee8960e79a544c968f29497f8dd3b9b3a8a0133d3497614be9b0",
+      "supplier_pubDate": "2025-04-22",
+      "publication_date": "2025-04-22",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "增 6 / 250 安记食品股份有限公司2024 年年度报告 减(%) 营业收入 606,500,536.84 632,149,791.63 -4.06 557,187,219.14 归属于上市公司 38,333,532.95 31,092,258.41 23.29 13,835,594.03 股东的净利润 归属于上市公司 股东的扣除非经 31,469,213.53 38,558,679.06 -18.39 22,716,",
+      "dividend_events": [
+        {
+          "ex_date": "2024-06-24",
+          "cash": "0.075",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "安记食品:安记食品股份有限公司2023年年度权益分派实施公告",
+              "available_date": "2024-06-18",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202406171636488069_1.pdf",
+              "article": "AN202406171636488069",
+              "pdf_sha256": "7796b9c9ecf23b8de9e274102611b70ae7adca2853d3c635495f4918d7e2c851",
+              "text_sha256": "95dc49f03b0381cbfce13d3833c290964a0d0412b311d5b84ff290cc1c7e8b8f"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "本期归属于母公司所有者的 38,333,532.95 31,092,258.41 净利润 减：提取法定盈余公积 4,093,959.77 4,179,992.09 提取任意盈余公积 提取一般风险准备 应付普通股股利 17,640,000.00 11,760,000.00 转作股本的普通股股利 期末未分配利润 78,991,500.47 62,391,927.29 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0 元。 2、由于会计政策变更，影响期初未分配利润0 元。 3、由于重大会计差错更正，影响期初未分配利润0 元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润0 元。 5、其他调整合计影响期初未分配利润0 元",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.688249",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-21/1223174863.PDF",
+      "source_text_sha256": "f78bc5d986fa08c3b22c2af0b9fb37bf54814c73f682e84d7e89277760ecfeae",
+      "supplier_pubDate": "2025-04-21",
+      "publication_date": "2025-04-21",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "总额（亏损总额以“－”号 482,459,402.07 119,340,389.16 填列） 减：所得税费用 七、76 263,053.11 175,608.28 五、净利润（净亏损以“－”号填列） 482,196,348.96 119,164,780.88 （一）按经营持续性分类 1.持续经营净利润（净亏损以 482,222,212.46 119,164,780.88 “－”号填列） 2.终止经营净利润（净亏损以 -25,",
+      "dividend_events": [],
+      "dividend_review": "no_supplier_event_consistent_with_appropriation_note_not_zero_certified",
+      "appropriation_excerpt": "的净利润 532,840,611.25 211,629,145.60 减：提取法定盈余公积 41,856,215.27 67,510,029.02 提取任意盈余公积 - - 提取一般风险准备 - - 应付普通股股利 - - 转作股本的普通股股利 - - 期末未分配利润 1,014,205,781.17 523,221,385.19 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0 元。 2、由于会计政策变更，影响期初未分配利润0 元。 3、由于重大会计差错更正，影响期初未分配利润0 元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润0 元。 5、其他调整合计影响期初未分配利润0 元。 61、 营业收入和营业成本 ",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.600335",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223275379.PDF",
+      "source_text_sha256": "9f71b805484d190e2ce682adea52bf092cd844f968061a31521b6dcfdc3e8ef4",
+      "supplier_pubDate": "2025-04-25",
+      "publication_date": "2025-04-25",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "以“－”号填列） 529,345,028.02 152,545,755.16 减：所得税费用 七、61 129,266,464.10 133,060,356.32 五、净利润（净亏损以“－”号填列） 400,078,563.92 19,485,398.84 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 400,078,563.92 19,485,398.84 2.终止经营净利润（净亏损以“－”号填列） ",
+      "dividend_events": [
+        {
+          "ex_date": "2024-06-28",
+          "cash": "0.005",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "国机汽车:国机汽车2023年年度权益分派实施公告",
+              "available_date": "2024-06-21",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202406201636728477_1.pdf",
+              "article": "AN202406201636728477",
+              "pdf_sha256": "ec2ee6e1ab6454060d904aead28b645405954a42307ae9b97ea1782b8cdbe102",
+              "text_sha256": "e67a75de87487578b4a2f6f2c576b991265d9fd9a530f1dc01bfea5fb7adc5ea"
+            }
+          ]
+        },
+        {
+          "ex_date": "2024-11-13",
+          "cash": "0.025",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "国机汽车:国机汽车2024年半年度权益分派实施公告",
+              "available_date": "2024-11-06",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202411051640724520_1.pdf",
+              "article": "AN202411051640724520",
+              "pdf_sha256": "570a480c0df342a626deee25a20d670930b88fc8bf6d7ff1168e09f745cbad99",
+              "text_sha256": "ea1ee1bb1fbfe884e9335464fc6cf7beab27d6df6f654287c12e8f5631965d6c"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "本期归属于母公司所有者的净利润 392,459,702.06 20,791,674.18 其他调整因素 232,086.00 减：提取法定盈余公积 8,781,224.75 8,527,380.71 应付普通股股利 44,873,666.83 119,663,095.36 其他调整因素 2,238,068.78 期末未分配利润 6,191,553,884.18 5,854,987,142.48 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0元。 2、由于会计政策变更，影响期初未分配利润0元。 3、由于重大会计差错更正，影响期初未分配利润0元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润0元。 5、其他调整合计",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.600061",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222950250.PDF",
+      "source_text_sha256": "3b30a9ca021873d15f26890fe630f2e205eef40a110987ea6e50991118fa4eb5",
+      "supplier_pubDate": "2025-03-29",
+      "publication_date": "2025-03-29",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "” 4,037,010,455.82 3,538,790,315.53 号填列） 减：所得税费用 七、92 838,728,003.87 591,310,502.83 五、净利润（净亏损以“－”号填 3,198,282,451.95 2,947,479,812.70 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 3,198,282,451.95 2,947,479,812.70 “－”号填列） 2.终止经营净利润（",
+      "dividend_events": [
+        {
+          "ex_date": "2024-07-03",
+          "cash": "0.11031",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "国投资本:国投资本股份有限公司2023年年度权益分派实施公告",
+              "available_date": "2024-06-27",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636923485_1.pdf",
+              "article": "AN202406261636923485",
+              "pdf_sha256": "416f90aa5b999af4cc8f2909b7dbd2d473732a1cb2b39424a737f5a6ece6e273",
+              "text_sha256": "fb40d96c067b4076dd4ceafc4aaabf4836921c565207c4aa468a16eccc67145f"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "7 2,356,831,429.43 利润 减：提取法定盈余公积 83,494,875.11 47,288,923.48 提取一般风险准备 552,799,127.16 382,958,255.84 应付普通股股利 706,228,775.02 591,128,204.16 应付可续期债利息 70,000,000.00 68,600,000.00 其他综合收益结转留存收益 75,536,924.44 23,363,966.94 期末未分配利润 19,882,036,043.49 18,675,800,895.25 72、 营业收入和营业成本 (1).营业收入和营业成本情况 √适用 □不适用 单位：元 币种：人民币 本期发生额 上期发生额 项目 收入 成本 收入 成本 其他",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sz.002258",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222921204.PDF",
+      "source_text_sha256": "066ada160cca402cd04f843419316ed90a4b95cee5a3ae02d7219a74a2185fda",
+      "supplier_pubDate": "2025-03-28",
+      "publication_date": "2025-03-28",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "额（亏损总额以“－”号填列） 342,516,769.28 877,174,787.08 减：所得税费用 44,089,865.51 109,916,635.05 五、净利润（净亏损以“－”号填列） 298,426,903.77 767,258,152.03 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 298,426,903.77 767,258,152.03 2.终止经营净利润（净亏损以“－”号填列",
+      "dividend_events": [],
+      "dividend_review": "no_supplier_event_consistent_with_appropriation_note_not_zero_certified",
+      "appropriation_excerpt": ",794,107.71 加：本期归属于母公司所有者的净利 215,336,804.61 603,888,241.89 润 减：提取法定盈余公积 10,461,420.25 29,800,344.12 应付普通股股利 400,218,614.00 期末未分配利润 4,981,538,775.84 4,776,663,391.48 调整期初未分配利润明细： 1） 、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润 0.00 元。 2） 、由于会计政策变更，影响期初未分配利润 0.00 元。 3） 、由于重大会计差错更正，影响期初未分配利润 0.00 元。 4） 、由于同一控制导致的合并范围变更，影响期初未分配利润 0.00 元。 5） 、其他调整合计影响期初",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.603773",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223285596.PDF",
+      "source_text_sha256": "23749d1316f67739b88eb7a9b2d83e4da20fa6f39537ceec09c6239a938938ba",
+      "supplier_pubDate": "2025-04-25",
+      "publication_date": "2025-04-25",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "8.96 472.68 营业利润 -53,813,183.40 36,074,987.86 -249.17 利润总额 -60,555,009.74 36,584,376.18 -265.52 净利润 -90,563,120.81 31,344,457.22 -388.93 营业收入变动原因说明：主要是本期光电显示器件产品销售增加所致。 营业成本变动原因说明：主要是本期营业收入增加，营业成本相应增加所致。 销售费用变动原因说明",
+      "dividend_events": [
+        {
+          "ex_date": "2024-05-24",
+          "cash": "0.06",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "沃格光电:江西沃格光电股份有限公司2023年年度权益分派实施公告",
+              "available_date": "2024-05-18",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202405171633710735_1.pdf",
+              "article": "AN202405171633710735",
+              "pdf_sha256": "d46edd76fc31e95db73ea3c5bc418b21258b3a14bedddf05d76143ff99fc1eed",
+              "text_sha256": "26cf348352078b26b1f8cf13d069029f1ae823079a117a828adbb79260c31a1c"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "归属于母公司所有者的净利 -122,362,432.01 -4,540,602.24 润 减：提取法定盈余公积 1,483,665.62 1,534,932.52 提取任意盈余公积 提取一般风险准备 应付普通股股利 10,282,953.84 200 / 270 江西沃格光电集团股份有限公司2024 年年度报告 转作股本的普通股股利 期末未分配利润 -11,105,602.61 123,023,448.86 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0元。 2、由于会计政策变更，影响期初未分配利润0元。 3、由于重大会计差错更正，影响期初未分配利润0元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润0元。 5",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.603286",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222940540.PDF",
+      "source_text_sha256": "9956bc7ce770dace8e8f0d55c587d88646b6e7cd66de9c894f481e1fc1705af0",
+      "supplier_pubDate": "2025-03-29",
+      "publication_date": "2025-03-29",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "利润总额（亏损总额以“－” 17,590,523.03 9,058,669.73 号填列） 减：所得税费用 七-76 464,175.10 -2,518,978.53 五、净利润（净亏损以“－”号填 17,126,347.93 11,577,648.26 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 17,126,347.93 11,577,648.26 “－”号填列） 2.终止经营净利润（净亏损以 “－”号",
+      "dividend_events": [
+        {
+          "ex_date": "2024-06-07",
+          "cash": "0.03",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "日盈电子:2023年年度权益分派实施公告",
+              "available_date": "2024-06-01",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202405311635072631_1.pdf",
+              "article": "AN202405311635072631",
+              "pdf_sha256": "17595129ca28c9c091668beac4e8e2d6d7b0c6026f8b433af2491306c61049da",
+              "text_sha256": "d5155ebdd3b41124d9be7c8b047fa5f77244a644bf4427512bd14387feb16e4e"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "：本期归属于母公司所有者的净 11,235,035.32 7,943,370.19 利润 减：提取法定盈余公积 2,205,900.97 2,001,334.63 提取任意盈余公积 提取一般风险准备 应付普通股股利 3,429,117.93 转作股本的普通股股利 期末未分配利润 156,804,451.45 151,204,435.03 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润 0 元。 2、由于会计政策变更，影响期初未分配利润 0 元。 3、由于重大会计差错更正，影响期初未分配利润 0 元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润 0 元。 5、其他调整合计影响期初未分配利润 0 元。 61、 营业",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.603230",
+      "statDate": "2024-12-31",
+      "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10863187&stockid=603230",
+      "source_text_sha256": "b07a0887078aa519b55f2f9a77b1aaecfc24f7321298f67846b283aec9ceb551",
+      "supplier_pubDate": "2025-04-11",
+      "publication_date": "2025-04-11",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "9 四、利润总额（亏损总额以“－”号填列） 339,643,673.96 315,682,553.95 减：所得税费用 849,262.62 345,125.67 五、净利润（净亏损以“－”号填列） 338,794,411.34 315,337,428.28 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 338,794,411.34 315,337,428.28 2.终止经营净利润（净亏损以“－”号填列",
+      "dividend_events": [
+        {
+          "ex_date": "2024-06-26",
+          "cash": "0.45",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "内蒙新华:内蒙古新华发行集团股份有限公司2023年年度权益分派实施公告",
+              "available_date": "2024-06-19",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202406181636616202_1.pdf",
+              "article": "AN202406181636616202",
+              "pdf_sha256": "d0d5829641433e5121f9863de3d1f507ecb25e2634db8857ae6bbbbab498f6d3",
+              "text_sha256": "f7ef3bad840aced36e54762ca3fac9157182774fc6d38001013983a850d8db4d"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": ",409,484.80 932,123,055.99 加：本期归属于母公司所有者的净利润 338,081,665.38 314,820,341.88 减：提取法定盈余公积 30,505,463.07 应付普通股股利 159,085,376.52 53,028,450.00 期末未分配利润 1,342,405,773.66 1,163,409,484.80 61、营业收入和营业成本 (1).营业收入和营业成本情况 √适用□不适用 单位：元币种：人民币 项目 本期发生额 上期发生额 收入 成本 收入 成本 主营业务 1,761,885,622.46 1,069,180,949.20 1,792,638,694.50 1,088,444,305.91 其他业务 48,971,3",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.688327",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223424524.PDF",
+      "source_text_sha256": "5c8c9b292f8080ae89406eeabf715cdd894524b7b0dc6e9f55d4cf93cc53210b",
+      "supplier_pubDate": "2025-04-30",
+      "publication_date": "2025-04-30",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "以“－”号 -708,525,376.44 -654,690,410.25 填列） 减：所得税费用 七、76 -2,857,708.93 2,687,913.08 五、净利润（净亏损以“－”号填列） -705,667,667.51 -657,378,323.33 （一）按经营持续性分类 1.持续经营净利润（净亏损以 -705,667,667.51 -657,378,323.33 “－”号填列） 2.终止经营净利润（净亏损以 “",
+      "dividend_events": [],
+      "dividend_review": "no_supplier_event_consistent_with_appropriation_note_not_zero_certified",
+      "appropriation_excerpt": "87,560.64 -643,457,156.38 减：提取法定盈余公积 - - 提取任意盈余公积 - - 提取一般风险准备 - - 305 / 350 云从科技集团股份有限公司2024 年年度报告 应付普通股股利 - - 转作股本的普通股股利 - - 期末未分配利润 -4,423,372,809.00 -3,727,685,248.36 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0 元。 2、由于会计政策变更，影响期初未分配利润0 元。 3、由于重大会计差错更正，影响期初未分配利润0 元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润0 元。 5、其他调整合计影响期初未分配利润0 元。 61、营业收入和营业",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sz.002093",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223315428.PDF",
+      "source_text_sha256": "8947f7be934555acfd800e5336d417a70e2010c8742f5ee13e88f0113dbf478a",
+      "supplier_pubDate": "2025-04-26",
+      "publication_date": "2025-04-26",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "额（亏损总额以“－”号填 218,129,144.80 129,193,356.66 列） 减：所得税费用 43,648,970.04 22,727,564.36 五、净利润（净亏损以“－”号填列） 174,480,174.76 106,465,792.30 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－” 174,480,174.76 106,465,792.30 号填列） 2.终止经营净利润（净亏损以“－” 号",
+      "dividend_events": [
+        {
+          "ex_date": "2024-05-23",
+          "cash": "0.05",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "国脉科技:2023年度分红派息实施公告",
+              "available_date": "2024-05-16",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202405151633183773_1.pdf",
+              "article": "AN202405151633183773",
+              "pdf_sha256": "c861810993c35751cd7e65eb4f30088b8170eaecfa9eeacddd01f6d62b857fe1",
+              "text_sha256": "df55d99461037d4cf6840981e7626371bfe94d1f97dfd6f3e97d1f4f471cccb9"
+            }
+          ]
+        },
+        {
+          "ex_date": "2024-08-29",
+          "cash": "0.02",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "国脉科技:2024年半年度分红派息实施公告",
+              "available_date": "2024-08-22",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202408211639383171_1.pdf",
+              "article": "AN202408211639383171",
+              "pdf_sha256": "117ae233512b7cf085ab34cbcccd42df66fa91821e34b57538cdfd594f99d432",
+              "text_sha256": "d07dc080a827e82586585e82e64eaf2852f1355c3e6de772dbfd5a18613462e9"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "5,536,515.23 加：本期归属于母公司所有者的净利 168,614,116.09 104,460,615.56 润 减：提取法定盈余公积 10,670,762.65 7,962,868.51 应付普通股股利 69,463,367.64 10,062,884.20 期末未分配利润 1,150,451,363.88 1,061,971,378.08 37、营业收入和营业成本 单位：元 本期发生额 上期发生额 项目 收入 成本 收入 成本 主营业务 540,425,336.12 328,596,270.88 516,423,119.59 280,769,654.04 其他业务 8,994,523.47 4,165,965.67 16,233,921.34 380,478",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.600653",
+      "statDate": "2024-12-31",
+      "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10829750&stockid=600653",
+      "source_text_sha256": "f986d22a89e5eb7d7776bdc235fe53703510c9bf0dd465973af2858a5f8bc651",
+      "supplier_pubDate": "2025-03-29",
+      "publication_date": "2025-03-29",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "损总额以“－”号填列） 29,690,596.03 -181,671,209.55 减：所得税费用 7.53 -1,916,471.80 3,577,470.35 五、净利润（净亏损以“－”号填列） 31,607,067.83 -185,248,679.90 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） -83,723,096.29 -179,568,933.64 2.终止经营净利润（净亏损以“－”号",
+      "dividend_events": [],
+      "dividend_review": "no_supplier_event_consistent_with_appropriation_note_not_zero_certified",
+      "appropriation_excerpt": "司所有者的净利润 38,598,756.24 -198,775,447.12 加：前期计入其他综合收益当期转入留存收益 -88,296.00 减：提取法定盈余公积 提取任意盈余公积 提取一般风险准备 应付普通股股利 转作股本的普通股股利 期末未分配利润 -1,460,241,146.39 -1,498,751,606.63 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润0.00 元。 2、由于会计政策变更，影响期初未分配利润0.00 元。 3、由于重大会计差错更正，影响期初未分配利润0.00 元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润0.00 元。 5、其他调整合计影响期初未分配利润0.00 元。 40、",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    },
+    {
+      "code": "sh.688510",
+      "statDate": "2024-12-31",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222924759.PDF",
+      "source_text_sha256": "bb434e64c70a41383b95bae1faccdd1b0d44d68db6541fff87dce98edadcff99",
+      "supplier_pubDate": "2025-03-28",
+      "publication_date": "2025-03-28",
+      "publication_check": "matches",
+      "net_profit": "matches_reviewed_original_report",
+      "net_profit_excerpt": "利润总额（亏损总额以“－”号填列） 136,508,954.88 95,940,053.79 减：所得税费用 10,849,201.81 8,458,476.66 五、净利润（净亏损以“－”号填列） 125,659,753.07 87,481,577.13 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 125,659,753.07 87,481,577.13 2.终止经营净利润（净亏损以“－”号填列） ",
+      "dividend_events": [
+        {
+          "ex_date": "2024-05-06",
+          "cash": "0.2",
+          "status": "matches",
+          "evidence": [
+            {
+              "title": "航亚科技:无锡航亚科技股份有限公司2023年年度权益分派实施公告",
+              "available_date": "2024-04-25",
+              "source": "https://pdf.dfcfw.com/pdf/H2_AN202404241631128575_1.pdf",
+              "article": "AN202404241631128575",
+              "pdf_sha256": "a4882ba48671c9d576e91e3694a6e78545106ca970d122ceb17a4bc5ffc8de6a",
+              "text_sha256": "7b57c2ffb291e056108a8b94df15d7aad3809a912b0dcedebd6f10985d1e0cf2"
+            }
+          ]
+        }
+      ],
+      "dividend_review": "implemented_events_match",
+      "appropriation_excerpt": "01,290.73 减：提取法定盈余公积 11,280,273.11 9,652,062.23 提取任意盈余公积 191 / 234 无锡航亚科技股份有限公司 2024 年年度报告 提取一般风险准备 应付普通股股利 51,676,521.60 转作股本的普通股股利 期末未分配利润 237,226,243.35 173,657,731.95 调整期初未分配利润明细： 1、由于《企业会计准则》及其相关新规定进行追溯调整，影响期初未分配利润 0 元。 2、由于会计政策变更，影响期初未分配利润 0 元。 3、由于重大会计差错更正，影响期初未分配利润 0 元。 4、由于同一控制导致的合并范围变更，影响期初未分配利润 0 元。 5、其他调整合计影响期初未分配利润 0 元。 61、 营",
+      "complete_financing_and_debt_certified": false,
+      "financing_reason": "Single annual report cannot establish complete five-year parent issuance including noncash dilution; blank perpetual/restricted-cash cells are not proof of zero."
+    }
+  ],
+  "net_profit_matches": 20,
+  "implemented_cash_events": 13,
+  "formal_gate_passed": false,
+  "sample_basis": "fixed partial-download sample; not complete-universe random sample"
+}

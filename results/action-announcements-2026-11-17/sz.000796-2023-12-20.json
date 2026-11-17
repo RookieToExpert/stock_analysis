@@ -1,0 +1,48 @@
+{
+  "code": "sz.000796",
+  "target_date": "2023-12-20",
+  "documents": [
+    {
+      "title": "*ST凯撒:关于重整计划资本公积金转增股本除权事项进展暨公司股票复牌的公告",
+      "available_date": "2023-12-20",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312191614537056_1.pdf",
+      "article": "AN202312191614537056",
+      "pdf_sha256": "ad8c39a6916a866ec07ef42836d7febc33f2b2ea59f407b7143ed2c32353539a",
+      "text_sha256": "f858222b09e49f318903f3fe5fa2768fdcc4dab98f872d32f70ecff48d1194d7"
+    },
+    {
+      "title": "*ST凯撒:中国国际金融股份有限公司关于凯撒同盛发展股份有限公司调整资本公积金转增股本除权参考价格的计算结果的专项意见",
+      "available_date": "2023-12-19",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312181614464974_1.pdf",
+      "article": "AN202312181614464974",
+      "pdf_sha256": "894b63f6d87dd122bc0cb4724d494e0b580df0155ea45be42218aa0e29d32212",
+      "text_sha256": "b01aeb7bc99dafbf990de9410e2f64a223c4bc3010af7a434648844357abc5f5"
+    },
+    {
+      "title": "*ST凯撒:关于重整计划资本公积金转增股本实施的公告",
+      "available_date": "2023-12-14",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312131614094482_1.pdf",
+      "article": "AN202312131614094482",
+      "pdf_sha256": "4bf9e087eb3f6e164a82d8aa97c8b5219e493b049cf3f21fe7fde73eabe7bd6e",
+      "text_sha256": "ce92392878c8b4261886c2a97c971f21840058206641972758e1f1e3b05f057c"
+    },
+    {
+      "title": "*ST凯撒:中国国际金融股份有限公司关于重整投资人受让凯撒同盛发展股份有限公司资本公积转增股份价格的专项意见",
+      "available_date": "2023-11-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202311171611369146_1.pdf",
+      "article": "AN202311171611369146",
+      "pdf_sha256": "2cbe06f2d2307bc5fb77a7e4500dd2dd31d830ea9692c27deaa6b3fea22553dc",
+      "text_sha256": "229605495fad78ca4e703e0e415ce24bc2a155103294c47ae12c0b4c45dd3971"
+    },
+    {
+      "title": "*ST凯撒:中国国际金融股份有限公司关于凯撒旅业调整资本公积金转增股本除权参考价格计算公式的专项意见",
+      "available_date": "2023-11-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202311171611369095_1.pdf",
+      "article": "AN202311171611369095",
+      "pdf_sha256": "86d43f46101a3ea800693fabc2afce3b508e3c5caffaa31536c99ba2f17a937d",
+      "text_sha256": "0089e09ad7e506c50bd53823c2237b70ace21b4c9f23903d75621c8aa990431f"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000796&begin_time=2023-11-05&end_time=2023-12-20"
+}

@@ -1,0 +1,15 @@
+{
+  "code": "sh.600687",
+  "name": "退市刚泰",
+  "statDate": "2020-12-31",
+  "supplier_pubDate": "2021-04-30",
+  "consolidated_netProfit": "-2254155602.760000",
+  "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7277161&stockid=600687",
+  "numeric_check": "matches",
+  "vintage_check": "corrected_report_only",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "5176e4dc13da6f6f9ea0dc346cab2dbe2668ba06586783d7a2665bd8f49ed935",
+  "text_sha256": "3cf7692db4b1b26290709ab06f38437fe32d4466bcfb4eb961eb22ec51d28f81",
+  "text_length": 149267
+}

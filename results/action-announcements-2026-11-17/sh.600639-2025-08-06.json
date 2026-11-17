@@ -1,0 +1,16 @@
+{
+  "code": "sh.600639",
+  "target_date": "2025-08-06",
+  "documents": [
+    {
+      "title": "浦东金桥:浦东金桥2024年年度权益分派实施公告",
+      "available_date": "2025-07-31",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507301718441439_1.pdf",
+      "article": "AN202507301718441439",
+      "pdf_sha256": "5752aca3578c49b248b18bee141baf5038155bfbc348a641484e10df56243a45",
+      "text_sha256": "9eff4692da8d4ec33c1f4f545cbecfa0aec62a66289d025036c88f1cd8c5d5b8"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600639&begin_time=2025-06-22&end_time=2025-08-06"
+}

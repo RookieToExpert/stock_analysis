@@ -1,0 +1,16 @@
+{
+  "code": "sh.688368",
+  "target_date": "2026-06-09",
+  "documents": [
+    {
+      "title": "晶丰明源:上海晶丰明源半导体股份有限公司2025年年度权益分派实施公告",
+      "available_date": "2026-06-03",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606021823166284_1.pdf",
+      "article": "AN202606021823166284",
+      "pdf_sha256": "e4c6e499a700554725cd8f7a0fdb2df812bef71b71b0b59b0315bb990a941daa",
+      "text_sha256": "7f3f86400a23623ad943fc9a2e289fc2ad06c45ef7c8106d2b2cb477bde40e99"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688368&begin_time=2026-04-25&end_time=2026-06-09"
+}

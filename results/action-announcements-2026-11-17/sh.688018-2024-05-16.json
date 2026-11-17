@@ -1,0 +1,16 @@
+{
+  "code": "sh.688018",
+  "target_date": "2024-05-16",
+  "documents": [
+    {
+      "title": "乐鑫科技:乐鑫科技2023年年度权益分派实施公告",
+      "available_date": "2024-05-10",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405091632771405_1.pdf",
+      "article": "AN202405091632771405",
+      "pdf_sha256": "0214f5384dcd34ef2cbede5c2e3832537408e8d8b637df64aa8d64238323e107",
+      "text_sha256": "c8c15cdfa07d7e52e6aba416e28abfef369d5ff272b7fc315079f9cc6081f132"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688018&begin_time=2024-04-01&end_time=2024-05-16"
+}

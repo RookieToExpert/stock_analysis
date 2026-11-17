@@ -1,0 +1,16 @@
+{
+  "code": "sh.688625",
+  "target_date": "2026-06-04",
+  "documents": [
+    {
+      "title": "呈和科技:2025年年度权益分派实施公告",
+      "available_date": "2026-05-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605281822948587_1.pdf",
+      "article": "AN202605281822948587",
+      "pdf_sha256": "501ad5d617c57fe6ad7cb2cc5814ac29b134fb928196679dd2ee0b3565e20d4e",
+      "text_sha256": "8eed75e268d7cc6b7d6cfef5ccf61def93047837e0a45f7ece34e7f1609b5e2d"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688625&begin_time=2026-04-20&end_time=2026-06-04"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.688503",
+  "target_date": "2026-06-18",
+  "documents": [
+    {
+      "title": "聚和材料:2025年年度权益分派实施公告",
+      "available_date": "2026-06-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606111823457819_1.pdf",
+      "article": "AN202606111823457819",
+      "pdf_sha256": "889777c27aac4dc608559254b1f7d8e7d55506acaf63bac944574a85b8501715",
+      "text_sha256": "16a780a663451738cfe1ef438f07954b22f08435a7ae5451249a98f95f455595"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688503&begin_time=2026-05-04&end_time=2026-06-18"
+}

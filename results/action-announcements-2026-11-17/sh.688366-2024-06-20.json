@@ -1,0 +1,16 @@
+{
+  "code": "sh.688366",
+  "target_date": "2024-06-20",
+  "documents": [
+    {
+      "title": "昊海生科:上海昊海生物科技股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-14",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406131636093734_1.pdf",
+      "article": "AN202406131636093734",
+      "pdf_sha256": "655a7ee3a5687e97027989ad1ca7e60ad576be160b942442729247e3db001478",
+      "text_sha256": "194e6f5c393919073d90dd70c8eb07eb6ad50df9531cac23954781d82f7d3f32"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688366&begin_time=2024-05-06&end_time=2024-06-20"
+}

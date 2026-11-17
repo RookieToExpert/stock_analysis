@@ -1,0 +1,16 @@
+{
+  "code": "sz.002322",
+  "target_date": "2024-05-23",
+  "documents": [
+    {
+      "title": "理工能科:2023年度权益分派实施公告",
+      "available_date": "2024-05-16",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405151633184321_1.pdf",
+      "article": "AN202405151633184321",
+      "pdf_sha256": "737d923e2e060d8a91014f808a300af215d055529ad3896370141e7bc14c824a",
+      "text_sha256": "71191ea01f4a14e268884670b69e04db70bb1315d17a7133c06aff74a93db73b"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002322&begin_time=2024-04-08&end_time=2024-05-23"
+}

@@ -428,5 +428,4867 @@
     "reference_shares": "0.2975399",
     "source": "https://static.cninfo.com.cn/finalpage/2026-05-19/1225312469.PDF",
     "reason": "回购账户不参与分派；实际持有人现金及股份与公告除权参考口径分开"
+  },
+  {
+    "code": "sh.600639",
+    "ex_date": "2025-08-06",
+    "available_date": "2025-07-31",
+    "expected_cash": [
+      "0.3227"
+    ],
+    "cash": "0.3227",
+    "shares": "0.000000",
+    "reference_cash": "0.31411",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202507301718441439_1.pdf",
+    "source_pdf_sha256": "5752aca3578c49b248b18bee141baf5038155bfbc348a641484e10df56243a45",
+    "source_text_sha256": "9eff4692da8d4ec33c1f4f545cbecfa0aec62a66289d025036c88f1cd8c5d5b8",
+    "reference_expression": "前收盘价格-0.31411)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.600690",
+    "ex_date": "2024-08-16",
+    "available_date": "2024-08-10",
+    "expected_cash": [
+      "0.80131"
+    ],
+    "cash": "0.80131",
+    "shares": "0.000000",
+    "reference_cash": "0.78683",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202408091639218116_1.pdf",
+    "source_pdf_sha256": "3cb5a5e053e8e78e1cdd649e61d679bd4d52a2de2fec99facd2b48a2d030e545",
+    "source_text_sha256": "da7dd735d635dae5ae8bcba67b51aa3cd727cf5c51230673088e2eecbf323822",
+    "reference_expression": "前收盘价格-0.78683)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.600694",
+    "ex_date": "2024-06-11",
+    "available_date": "2024-06-04",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.100000",
+    "reference_cash": "0.9689",
+    "reference_shares": "0.0969",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406031635274016_1.pdf",
+    "source_pdf_sha256": "968699eef9491e485926095f78bf1c605ca50f0919380374199847bcbb2f7524",
+    "source_text_sha256": "b02fa5958e62fa5135d396b23265b9fa238746e4231f2ea9e1a0b59682991dcc",
+    "reference_expression": "前收盘价格一0.9689)÷1.0969",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.600729",
+    "ex_date": "2024-06-27",
+    "available_date": "2024-06-21",
+    "expected_cash": [
+      "1.3561"
+    ],
+    "cash": "1.3561",
+    "shares": "0.000000",
+    "reference_cash": "1.3387",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406201636714979_1.pdf",
+    "source_pdf_sha256": "db1901dcce7e364f723e68bb660e949ef643960fbcb0a5baef0b8fa86108eb1a",
+    "source_text_sha256": "d2b96e24d8f8fe24f13fc13c64d3e445cfb1b7a5736adda5a233e8e952844439",
+    "reference_expression": "前收盘价格-1.3387)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.600826",
+    "ex_date": "2024-06-28",
+    "available_date": "2024-06-22",
+    "expected_cash": [
+      "0.28"
+    ],
+    "cash": "0.28",
+    "shares": "0.400000",
+    "reference_cash": "0.2740",
+    "reference_shares": "0.3914",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406211636765906_1.pdf",
+    "source_pdf_sha256": "a56747a3aa3bd69141cf9de63d1539d80bfe64282bb6125d3a680c6d181418df",
+    "source_text_sha256": "e2f406cdf0675d951caeffa0aa771356a091e34acea020526a8f68df03dcca0f",
+    "reference_expression": "前一交易日收盘价格-0.2740)÷(1+0.3914)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.601021",
+    "ex_date": "2026-08-03",
+    "available_date": "2026-07-28",
+    "expected_cash": [
+      "0.53"
+    ],
+    "cash": "0.53",
+    "shares": "0.000000",
+    "reference_cash": "0.51",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202607271827387051_1.pdf",
+    "source_pdf_sha256": "e37e8a599aea91f3b3ec65f044861a369ed05996fb50d23be4d9a2b7f4997060",
+    "source_text_sha256": "c912ef43dbbbba99be1f0701d1e6af7da8c1bac6e9e3a487cff85973afc2a0f6",
+    "reference_expression": "前收盘价格-0.51)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.601318",
+    "ex_date": "2025-06-30",
+    "available_date": "2025-06-20",
+    "expected_cash": [
+      "1.62"
+    ],
+    "cash": "1.62",
+    "shares": "0.000000",
+    "reference_cash": "1.6046",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506191693857121_1.pdf",
+    "source_pdf_sha256": "48a1053e6c280b2728ac68383bd7efb202d2a561af4e9a55fe6671db8e034120",
+    "source_text_sha256": "31ac48dd14f88e2534724a83f101b7c0763fd3bd725238d1a1ae3258cf45c389",
+    "reference_expression": "前收盘价格-1.6046",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.601615",
+    "ex_date": "2024-07-05",
+    "available_date": "2024-06-27",
+    "expected_cash": [
+      "0.3041"
+    ],
+    "cash": "0.3041",
+    "shares": "0.000000",
+    "reference_cash": "0.2879",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636918563_1.pdf",
+    "source_pdf_sha256": "58801f86c1baccce9c26fe700f2f8450fcfcce62c9a13990ce85078b59426f4b",
+    "source_text_sha256": "ca4281b15dab70713a11792ffcf69485ac3cdbcf2e63568516edf896035aa6b7",
+    "reference_expression": "前收盘价格-0.2879",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.601666",
+    "ex_date": "2025-06-09",
+    "available_date": "2025-05-29",
+    "expected_cash": [
+      "0.6"
+    ],
+    "cash": "0.6",
+    "shares": "0.000000",
+    "reference_cash": "0.57",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505281680689733_1.pdf",
+    "source_pdf_sha256": "acf74e7c16000150e475cfe18451f9165c0c0098818e78be9f92d951f09aa313",
+    "source_text_sha256": "9318348bfc62711787ac717fe1903c43940ace66c9f905c659a255b9f0ab020c",
+    "reference_expression": "前收盘价格-0.57)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.601799",
+    "ex_date": "2026-05-18",
+    "available_date": "2026-05-08",
+    "expected_cash": [
+      "1.8"
+    ],
+    "cash": "1.8",
+    "shares": "0.000000",
+    "reference_cash": "1.7811",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605071822030863_1.pdf",
+    "source_pdf_sha256": "aa022951e1bed6d2bad18c39b3b08e2e9fbb3eb33d0a208bc7bc13cd7a3b3c93",
+    "source_text_sha256": "9212032b2ef54cd5e01cc67a396c009f788ed6c1a0ad5dfef91b93a0835c5fd8",
+    "reference_expression": "前收盘价格-1.7811元/股)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603018",
+    "ex_date": "2026-06-29",
+    "available_date": "2026-06-23",
+    "expected_cash": [
+      "0.125"
+    ],
+    "cash": "0.125",
+    "shares": "0.200000",
+    "reference_cash": "0.124",
+    "reference_shares": "0.198",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606221823745670_1.pdf",
+    "source_pdf_sha256": "da727c83c34c1fe2ebd576e83624dc1423fa159bcd31301cd1f3006f940256bd",
+    "source_text_sha256": "391f2b044d0910db7cddcf68f6c6e33dbf6979283d3d9ebdfb8e3b9ff65f2a65",
+    "reference_expression": "前收盘价格-0.124)÷(1+0.198)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603052",
+    "ex_date": "2025-06-23",
+    "available_date": "2025-06-17",
+    "expected_cash": [
+      "0.25"
+    ],
+    "cash": "0.25",
+    "shares": "0.400000",
+    "reference_cash": "0.2459",
+    "reference_shares": "0.3934",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506161692041212_1.pdf",
+    "source_pdf_sha256": "0a4f36ba34bb624c69bc656d0f65b744dd6af4dbc81042659a088a3c08bed8eb",
+    "source_text_sha256": "1044a8469f42b74953e20cedf90abf1615980f7fedbd09f12a488bf13255afcb",
+    "reference_expression": "前收盘价格-0.2459)÷(1+0.3934)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603067",
+    "ex_date": "2025-06-24",
+    "available_date": "2025-06-18",
+    "expected_cash": [
+      "0.19"
+    ],
+    "cash": "0.19",
+    "shares": "0.400000",
+    "reference_cash": "0.19",
+    "reference_shares": "0.3963",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506171692703693_1.pdf",
+    "source_pdf_sha256": "b666cfa20ee14fe4779991fb3e99549bc1d154e3b8aec318c47bcb63dd5d5807",
+    "source_text_sha256": "cd74d867292390091d49eca461ba93f07867cdf30098e329d1e7f0ce7d625a64",
+    "reference_expression": "前收盘价格-0.19)÷(1+0.3963)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603093",
+    "ex_date": "2026-08-10",
+    "available_date": "2026-07-31",
+    "expected_cash": [
+      "0.069"
+    ],
+    "cash": "0.069",
+    "shares": "0.450000",
+    "reference_cash": "0.0684",
+    "reference_shares": "0.4458",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202607301827491878_1.pdf",
+    "source_pdf_sha256": "9682bfd31c2fdd66c9a4b1889ed1d47c503b73b7e81b099876fd408a40048d9c",
+    "source_text_sha256": "fc574b98e06dd0ccf5e389e1e76f75df0c785eb67fb44efc1d3db32dcdf29b28",
+    "reference_expression": "前收盘价格-0.0684)÷(1+0.4458)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603095",
+    "ex_date": "2025-06-06",
+    "available_date": "2025-05-30",
+    "expected_cash": [
+      "0.8"
+    ],
+    "cash": "0.8",
+    "shares": "0.400000",
+    "reference_cash": "0.7951",
+    "reference_shares": "0.3976",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505291681297498_1.pdf",
+    "source_pdf_sha256": "ae6f2070bcb20b836611087fcd7538347c0c2c01cfcd55583f0dc4223bb4023a",
+    "source_text_sha256": "9f44d2e44c28c2a19cc8f33873c27f85696bf006a87bb7263e24961835125955",
+    "reference_expression": "前收盘价格-0.7951)÷(1+0.3976)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603096",
+    "ex_date": "2024-06-07",
+    "available_date": "2024-06-03",
+    "expected_cash": [
+      "0.9"
+    ],
+    "cash": "0.9",
+    "shares": "0.000000",
+    "reference_cash": "0.85420",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406021635199222_1.pdf",
+    "source_pdf_sha256": "67272a412a71b6c800d368d74d879b650d632c40d9a9335f103e80caef17af2d",
+    "source_text_sha256": "571ee26d0bdc2a6c0189d002b3039fe4188e69524e7cffe663763a12e120b88f",
+    "reference_expression": "前收盘价格-0.85420)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603102",
+    "ex_date": "2025-08-05",
+    "available_date": "2025-07-30",
+    "expected_cash": [
+      "0.75"
+    ],
+    "cash": "0.75",
+    "shares": "0.000000",
+    "reference_cash": "0.73",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202507291717841479_1.pdf",
+    "source_pdf_sha256": "5a63f8e905ab8d187fb4a5013d2e6a4f5d5da19b6be27a80da41e509d26d1a24",
+    "source_text_sha256": "90256a04f3689156bf5391146b4d9d63748622cc8b95b6622dfc459e47422e3c",
+    "reference_expression": "前收盘价格-0.73)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603119",
+    "ex_date": "2024-06-18",
+    "available_date": "2024-06-12",
+    "expected_cash": [
+      "0.14"
+    ],
+    "cash": "0.14",
+    "shares": "0.300000",
+    "reference_cash": "0.140",
+    "reference_shares": "0.299",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406111635974675_1.pdf",
+    "source_pdf_sha256": "55fd1c63fd246b84f6c1528871c8e53caba0d49511f82af09c687dd49a950b16",
+    "source_text_sha256": "2930df149a68f775c65d3ebbbcd5b7b5973eeadee2d10ce39c33831447469152",
+    "reference_expression": "前收盘价格-0.140)÷(1+0.299)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603161",
+    "ex_date": "2024-07-10",
+    "available_date": "2024-07-03",
+    "expected_cash": [
+      "0.285"
+    ],
+    "cash": "0.285",
+    "shares": "0.420000",
+    "reference_cash": "0.2822",
+    "reference_shares": "0.4159",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407021637472388_1.pdf",
+    "source_pdf_sha256": "fb80dbca76efa802cff316ac0f9098e8539bee28ef1bf772bc61709e23bd327a",
+    "source_text_sha256": "178ece368b8b696467fa66992d6e5a9c167158e01da0885b53affb9437c5f3e8",
+    "reference_expression": "前收盘价格-0.2822)÷(1+0.4159)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603165",
+    "ex_date": "2025-05-15",
+    "available_date": "2025-05-09",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.000000",
+    "reference_cash": "0.4811",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505081669523128_1.pdf",
+    "source_pdf_sha256": "2f7957b7df1342bf680f4555abd6b6a9d88548e2225dd1afc457bc0868106b83",
+    "source_text_sha256": "a9b58f123ac72c4f78762262238c8396ebd0de1f35e7b8b87a8cd82658af4371",
+    "reference_expression": "前收盘价格-0.4811)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603237",
+    "ex_date": "2024-07-08",
+    "available_date": "2024-07-02",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.400000",
+    "reference_cash": "0.97",
+    "reference_shares": "0.39",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407011637331960_1.pdf",
+    "source_pdf_sha256": "c49c7152b46dfc8e7a5bd99b4e9f910e4e7712badf17fd48bd938acb0531e2b4",
+    "source_text_sha256": "2992639ae95206eea22042a523afb52a434000f49f696b9ebf19bda197feea72",
+    "reference_expression": "前一交易日收盘价格-0.97)÷(1+0.39)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603276",
+    "ex_date": "2024-06-25",
+    "available_date": "2024-06-18",
+    "expected_cash": [
+      "0.2"
+    ],
+    "cash": "0.2",
+    "shares": "0.300000",
+    "reference_cash": "0.19854",
+    "reference_shares": "0.29781",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406171636487524_1.pdf",
+    "source_pdf_sha256": "49f354a82063377335c57304f7f4dce372846c44ba74b8f31900145eeae50a89",
+    "source_text_sha256": "687048e164b463fdcc4bb7725eb5be3d7b17f53c897ca72ffa8256e533ad9ac6",
+    "reference_expression": "前收盘价格-0.19854)÷(1+0.29781)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603281",
+    "ex_date": "2026-07-03",
+    "available_date": "2026-06-27",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.400000",
+    "reference_cash": "0.97",
+    "reference_shares": "0.39",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606261824818430_1.pdf",
+    "source_pdf_sha256": "ca9453c0689d5999106c8f9577e03afd713474d6c841db4240bcca497fdb7bf1",
+    "source_text_sha256": "0fda9fb3c25849d3582cca70a5f17240cfbe12db49975c4cf09518e70419e910",
+    "reference_expression": "前收盘价格-0.97元/股)÷1.39",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603283",
+    "ex_date": "2025-06-12",
+    "available_date": "2025-06-06",
+    "expected_cash": [
+      "0.56"
+    ],
+    "cash": "0.56",
+    "shares": "0.400000",
+    "reference_cash": "0.5510",
+    "reference_shares": "0.3936",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506051685319743_1.pdf",
+    "source_pdf_sha256": "85648c5ba91bab15d9b50a66be9f4b64eaee2d4b770fc3c7f9cedc0d08aad7db",
+    "source_text_sha256": "1740d2b355246fc92d6e0a5c66d831e8b934b6d7eada167191e629f7e468a7d7",
+    "reference_expression": "前收盘价格-0.5510)÷(1+0.3936)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603296",
+    "ex_date": "2024-06-11",
+    "available_date": "2024-06-04",
+    "expected_cash": [
+      "1.2"
+    ],
+    "cash": "1.2",
+    "shares": "0.400000",
+    "reference_cash": "1.1973",
+    "reference_shares": "0.3991",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406031635278219_1.pdf",
+    "source_pdf_sha256": "b72e967539b936017c9ea7e41b3b2da1d6c8a6752137418b986e36dcc0ee077b",
+    "source_text_sha256": "060eafe382440f457f78117b3a4fe7d7efe6a6d1189a3c2bb1f4812223a844ee",
+    "reference_expression": "前收盘价格-1.1973)÷(1+0.3991)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603303",
+    "ex_date": "2025-09-23",
+    "available_date": "2025-09-17",
+    "expected_cash": [
+      "0.641"
+    ],
+    "cash": "0.641",
+    "shares": "0.000000",
+    "reference_cash": "0.6285",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509161744831986_1.pdf",
+    "source_pdf_sha256": "859204ecf4cf436996ebad3f8a1c3235fafc9b5f21a7c8632e006925f721e4db",
+    "source_text_sha256": "5bb89e423cdb18b2d41c666b0b4e17754761e14f1ee441f9411fc2ea9c9ea9cf",
+    "reference_expression": "前收盘价格-0.6285)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603324",
+    "ex_date": "2024-07-04",
+    "available_date": "2024-06-28",
+    "expected_cash": [
+      "0.27"
+    ],
+    "cash": "0.27",
+    "shares": "0.200000",
+    "reference_cash": "0.2680",
+    "reference_shares": "0.1985",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406271636958515_1.pdf",
+    "source_pdf_sha256": "2425ed79b85f2eab362c9dc63585ffedad8bf721d21cc3c0c08ef748a4d75b73",
+    "source_text_sha256": "e4e9085df33498d78df7c216ec0144a4a979a27304e613d9b2617d8d5d60d8f3",
+    "reference_expression": "前收盘价格-0.2680)÷(1+0.1985)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603337",
+    "ex_date": "2024-07-09",
+    "available_date": "2024-07-03",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.000000",
+    "reference_cash": "0.4793",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407021637473413_1.pdf",
+    "source_pdf_sha256": "8a8b5b3cbb4274a42d44cd89cdbfc353fd68bea669c0d619a763e477c0b4261f",
+    "source_text_sha256": "43059f9541cded0e646b225aa3a2c5f0f3f18dc12ef95a5bab7d518a6dd864bc",
+    "reference_expression": "前收盘价格-0.4793)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603368",
+    "ex_date": "2026-06-16",
+    "available_date": "2026-06-10",
+    "expected_cash": [
+      "0.68"
+    ],
+    "cash": "0.68",
+    "shares": "0.000000",
+    "reference_cash": "0.66",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606091823394508_1.pdf",
+    "source_pdf_sha256": "b4256a8c34f4154ffcc9e8df843da04b6d3b6a1f9086a5076a42e77b288f3b73",
+    "source_text_sha256": "e0cbbc9684be6a8eb381e335b2bac4f79ebb4ac37deb7bef5a613e27408be943",
+    "reference_expression": "前收盘价格-0.66)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603444",
+    "ex_date": "2024-09-13",
+    "available_date": "2024-09-06",
+    "expected_cash": [
+      "4.5"
+    ],
+    "cash": "4.5",
+    "shares": "0.000000",
+    "reference_cash": "4.4822",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202409051639757199_1.pdf",
+    "source_pdf_sha256": "f78b934802d1410335dbe3bb8329c3f0648cd4902aa22d5688e8310dc45343f5",
+    "source_text_sha256": "02e600fd7beafe37638af6082e9ab0ad431fd0d04aeb1a40e7a7cf6ea2e721b6",
+    "reference_expression": "前收盘价格-4.4822",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603489",
+    "ex_date": "2024-07-08",
+    "available_date": "2024-07-02",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.400000",
+    "reference_cash": "0.9976",
+    "reference_shares": "0.3991",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407011637233825_1.pdf",
+    "source_pdf_sha256": "832b5f8298db57d5f1269eaa5d3cc4e236d676fc9a085a7b8a1cdd2412997ddb",
+    "source_text_sha256": "901a44b572ff75e235670dceba4797e00233e6cab7a0b99c4cef2b6d5f0590c0",
+    "reference_expression": "前收盘价格-0.9976)÷1.3991",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603507",
+    "ex_date": "2024-07-08",
+    "available_date": "2024-07-02",
+    "expected_cash": [
+      "0.39"
+    ],
+    "cash": "0.39",
+    "shares": "0.300000",
+    "reference_cash": "0.3869",
+    "reference_shares": "0.2976",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407011637237402_1.pdf",
+    "source_pdf_sha256": "0f02bdb6d2e8704068ce9ba8280536bbe7578da472a242db31d79fa13356f84d",
+    "source_text_sha256": "4737919091f8f247d045576e847c2b0b37bddf94e3c6e72a59487b732da1d9f0",
+    "reference_expression": "前收盘价格-0.3869)÷(1+0.2976)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603529",
+    "ex_date": "2026-09-24",
+    "available_date": "2026-09-18",
+    "expected_cash": [
+      "0.392"
+    ],
+    "cash": "0.392",
+    "shares": "0.000000",
+    "reference_cash": "0.385",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202609171829522385_1.pdf",
+    "source_pdf_sha256": "ada0034fd0fa19eac191ab7d83e61a1054a037bb4b1a4d8ccdb59a018d7420f5",
+    "source_text_sha256": "1ea30410b4d0f6682dde8610391363cd5bb74d8771a148bbce2963807d140085",
+    "reference_expression": "前收盘价格-0.385元/股)/(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603551",
+    "ex_date": "2024-06-04",
+    "available_date": "2024-05-29",
+    "expected_cash": [
+      "0.8"
+    ],
+    "cash": "0.8",
+    "shares": "0.000000",
+    "reference_cash": "0.771",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405281634757009_1.pdf",
+    "source_pdf_sha256": "258d20b3305f35281f6526949e2f2f8d415477a334d911aacfb80321c93109bb",
+    "source_text_sha256": "8acabfbaacd7e81864d51a1e4f9c303efc608197397f60731617ea1b863ccf91",
+    "reference_expression": "前收盘价格-0.771",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603558",
+    "ex_date": "2026-08-25",
+    "available_date": "2026-08-19",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.000000",
+    "reference_cash": "0.28",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608181828112589_1.pdf",
+    "source_pdf_sha256": "fd742d58c26da34f13c4916285e83647aa20cae9c3c0e562dedcd5ea3fe56d5c",
+    "source_text_sha256": "df1d35396f3a334e19c7e25e59ed661cc45aa031362e28971a3c950f9a4872c7",
+    "reference_expression": "前收盘价格-0.28)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603579",
+    "ex_date": "2024-06-05",
+    "available_date": "2024-05-29",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.300000",
+    "reference_cash": "0.9691",
+    "reference_shares": "0.2907",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405281634756962_1.pdf",
+    "source_pdf_sha256": "060996804864b67fd5ecbfdc692e5bfc6d5688d8f3de154d26696d172ce744f2",
+    "source_text_sha256": "15e1e116ec4191a43262439823c79604d2cc0bda1e2cf7300b9e042c15fc8d3f",
+    "reference_expression": "前收盘价格-0.9691)÷(1+0.2907)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603606",
+    "ex_date": "2026-05-26",
+    "available_date": "2026-05-19",
+    "expected_cash": [
+      "0.56"
+    ],
+    "cash": "0.56",
+    "shares": "0.200000",
+    "reference_cash": "0.5582",
+    "reference_shares": "0.1993",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605181822403703_1.pdf",
+    "source_pdf_sha256": "7e3c49e71dd16ddac919e881a0a128c404778fba443d271a257ddc94c364b335",
+    "source_text_sha256": "13e8b25e686f688cdcdec9448371d116e4fff3ac9f0f8f336ed81e631a2c5955",
+    "reference_expression": "前收盘价格-0.5582)÷(1+0.1993)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603610",
+    "ex_date": "2024-06-13",
+    "available_date": "2024-06-06",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.000000",
+    "reference_cash": "0.9847",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406051635588007_1.pdf",
+    "source_pdf_sha256": "80750c83f07f09c03210eee876f25d9a90c2e09022d2418fc3e97fd21c05431b",
+    "source_text_sha256": "4d3c6824d1fb5275d343715a28932392d79065cab587aa21e1e9a454597f0277",
+    "reference_expression": "前收盘价格-0.9847",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603629",
+    "ex_date": "2026-07-07",
+    "available_date": "2026-07-01",
+    "expected_cash": [
+      "0.37"
+    ],
+    "cash": "0.37",
+    "shares": "0.400000",
+    "reference_cash": "0.3682",
+    "reference_shares": "0.3980",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826601604_1.pdf",
+    "source_pdf_sha256": "5836c9afe8c556e6984804d2163f1609fe5d157bd2c70255173e267384e54ecf",
+    "source_text_sha256": "64e92e7f6643a4e26c32ffef4b94680211c14fbb7640f503e6141a8f71e90ef0",
+    "reference_expression": "前收盘价格-0.3682)/1.3980",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603658",
+    "ex_date": "2024-06-05",
+    "available_date": "2024-05-29",
+    "expected_cash": [
+      "1.05208"
+    ],
+    "cash": "1.05208",
+    "shares": "0.000000",
+    "reference_cash": "1.03843",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405281634750051_1.pdf",
+    "source_pdf_sha256": "fd748c4e8e29336bcb7c8ce55de4b32ed1463e107ba7d6d989c8656c5b0d9d75",
+    "source_text_sha256": "388a7460cc28af9f6088f10822ce1e30317c10e1979dd04d74716d962594dda9",
+    "reference_expression": "前收盘价格-1.03843)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603688",
+    "ex_date": "2024-05-22",
+    "available_date": "2024-05-16",
+    "expected_cash": [
+      "5.7"
+    ],
+    "cash": "5.7",
+    "shares": "0.500000",
+    "reference_cash": "5.6925",
+    "reference_shares": "0.4993",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405151633171507_1.pdf",
+    "source_pdf_sha256": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+    "source_text_sha256": "86efd774a850088ea7a61609a6b093edcecde3caa9628c3f15aef47fdbc32922",
+    "reference_expression": "前收盘价格-5.6925)÷(1+0.4993)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603725",
+    "ex_date": "2024-06-07",
+    "available_date": "2024-06-01",
+    "expected_cash": [
+      "0.17"
+    ],
+    "cash": "0.17",
+    "shares": "0.400000",
+    "reference_cash": "0.1684",
+    "reference_shares": "0.3962",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405311635064503_1.pdf",
+    "source_pdf_sha256": "aa6489db92f73d807451656d28cb3ecaafd700ea1b0c91b3a1224a60cc176cf6",
+    "source_text_sha256": "1fa7466f9e89040352d3f5043a4fff9f80b0e655981e85cd375429299b45049d",
+    "reference_expression": "前收盘价格-0.1684)÷(1+0.3962)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603816",
+    "ex_date": "2024-06-07",
+    "available_date": "2024-06-03",
+    "expected_cash": [
+      "1.39"
+    ],
+    "cash": "1.39",
+    "shares": "0.000000",
+    "reference_cash": "1.37",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406021635199190_1.pdf",
+    "source_pdf_sha256": "7a25953639d87a2f48832ec82c19dea7c6f6e70300f6e87a8a447d85d2e7a600",
+    "source_text_sha256": "d2d3499679520e2c6b47cc2cbcbf1d5ee9e155c2abb34ba5037159a250f07eb1",
+    "reference_expression": "前收盘价格-1.37)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603833",
+    "ex_date": "2024-07-09",
+    "available_date": "2024-07-02",
+    "expected_cash": [
+      "2.76"
+    ],
+    "cash": "2.76",
+    "shares": "0.000000",
+    "reference_cash": "2.74",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407011637325915_1.pdf",
+    "source_pdf_sha256": "ee1f7db021674d7ad2796e535c2fe365bfc609deb836100371e95490f04f50bc",
+    "source_text_sha256": "264071058d9725de1089f8a3da3b255f68b47950ae5ce929ecc111dc08c277ed",
+    "reference_expression": "前收盘价格-2.74)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603836",
+    "ex_date": "2026-06-22",
+    "available_date": "2026-06-13",
+    "expected_cash": [
+      "0.2"
+    ],
+    "cash": "0.2",
+    "shares": "0.400000",
+    "reference_cash": "0.197",
+    "reference_shares": "0.395",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606121823514773_1.pdf",
+    "source_pdf_sha256": "0cc5d72d5e6246313238ae8cf650f040f546471f87c8e682557c87ad5a504de8",
+    "source_text_sha256": "f200ac47b22f277ae1ce3be061a8bb3b205d64f68cfc4d5657ac676e791cd244",
+    "reference_expression": "前收盘价格-0.197)÷(1+0.395)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603871",
+    "ex_date": "2024-06-18",
+    "available_date": "2024-06-12",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.400000",
+    "reference_cash": "0.4978",
+    "reference_shares": "0.3982",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406111635973071_1.pdf",
+    "source_pdf_sha256": "3dea240bbe6b58949846b1a80d28d2593bb5001b1671ec9a02d40a890e7de848",
+    "source_text_sha256": "6cf9f94fda435380d597d2973914713fa539875d1b12d7a6da7a7d0e83d455aa",
+    "reference_expression": "前收盘价格-0.4978)÷1.3982",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605009",
+    "ex_date": "2025-06-12",
+    "available_date": "2025-06-06",
+    "expected_cash": [
+      "0.85"
+    ],
+    "cash": "0.85",
+    "shares": "0.400000",
+    "reference_cash": "0.8423",
+    "reference_shares": "0.3964",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506051685348002_1.pdf",
+    "source_pdf_sha256": "9c78835bf84b4bf921ca1ae1befd341a6e542cfc8f67da53d7728b98899cdecf",
+    "source_text_sha256": "0a6bc279c2e9e148fdab8e703c041a9025235126b911fb2c212d08f6ea69ea02",
+    "reference_expression": "前收盘价格-0.8423)÷(1+0.3964)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605090",
+    "ex_date": "2025-06-03",
+    "available_date": "2025-05-23",
+    "expected_cash": [
+      "0.82868"
+    ],
+    "cash": "0.82868",
+    "shares": "0.000000",
+    "reference_cash": "0.81371",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505221677229861_1.pdf",
+    "source_pdf_sha256": "40decd409807144862b2b5f97f4605c43dfe4e871bd8d895c4c9de311f993f94",
+    "source_text_sha256": "84048f0bfeb0cbaa2b8febb407f024b580b4ccc4da1d31a44c1ee3fd00a98f07",
+    "reference_expression": "前收盘价格-0.81371)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605189",
+    "ex_date": "2025-06-26",
+    "available_date": "2025-06-19",
+    "expected_cash": [
+      "0.18"
+    ],
+    "cash": "0.18",
+    "shares": "0.300000",
+    "reference_cash": "0.1775",
+    "reference_shares": "0.2959",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506181693267542_1.pdf",
+    "source_pdf_sha256": "d0454c9ce47141f9a3d11fb4525ee166511d9d869cbb15500413489149456058",
+    "source_text_sha256": "34e4206045831120ad1a3db9906de9c806b0e51450d20a5d5bbdda5bf0ca1055",
+    "reference_expression": "前收盘价格-0.1775)÷(1+0.2959)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605266",
+    "ex_date": "2025-06-18",
+    "available_date": "2025-06-12",
+    "expected_cash": [
+      "1.1"
+    ],
+    "cash": "1.1",
+    "shares": "0.000000",
+    "reference_cash": "1.0546",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506111688924175_1.pdf",
+    "source_pdf_sha256": "15c7ad4666db3a1f86da83289bc038bd0ab226c628b4e639a5887c6342f279f5",
+    "source_text_sha256": "643217221907b57e9f3018f9227e287b7459e5b1f57b398035c68b56a7574f2d",
+    "reference_expression": "前收盘价格-1.0546",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605369",
+    "ex_date": "2025-06-26",
+    "available_date": "2025-06-20",
+    "expected_cash": [
+      "0.4"
+    ],
+    "cash": "0.4",
+    "shares": "0.400000",
+    "reference_cash": "0.3993",
+    "reference_shares": "0.399259",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506191693848887_1.pdf",
+    "source_pdf_sha256": "f36fc45ab32adf8bee06c972d094d368b2d90d426c3657d98289aeef62520339",
+    "source_text_sha256": "c19e4213b50a882bab9a7bc64ba5bc717b8d6fe60f2df50806cbf95977398e9e",
+    "reference_expression": "前收盘价格-0.3993)÷(1+0.399259)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605377",
+    "ex_date": "2024-06-14",
+    "available_date": "2024-06-06",
+    "expected_cash": [
+      "1.1"
+    ],
+    "cash": "1.1",
+    "shares": "0.400000",
+    "reference_cash": "1.0973",
+    "reference_shares": "0.3990",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406051635589265_1.pdf",
+    "source_pdf_sha256": "00ae69d1420adac47e90f6ff9defae5dae5dbb767215c9ab8ade2f950483556f",
+    "source_text_sha256": "baed4617b08c5fe79fe055312e8368ffbeb2b530c2c212856ff78f8295242809",
+    "reference_expression": "前收盘价格-1.0973)÷(1+0.3990)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605388",
+    "ex_date": "2024-06-05",
+    "available_date": "2024-05-29",
+    "expected_cash": [
+      "0.1"
+    ],
+    "cash": "0.1",
+    "shares": "0.400000",
+    "reference_cash": "0.0991",
+    "reference_shares": "0.3965",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405281634756398_1.pdf",
+    "source_pdf_sha256": "6d33565c3afeb9855f3bf73221f0bec20c346a6a8e844bd5b62fecfb635455e1",
+    "source_text_sha256": "fd7b329d3191d0f847fa4fb02cc26d82ba3737dff93a2cc633795dda72de6999",
+    "reference_expression": "前收盘价格-0.0991)÷(1+0.3965)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605398",
+    "ex_date": "2024-08-16",
+    "available_date": "2024-08-12",
+    "expected_cash": [
+      "0.12"
+    ],
+    "cash": "0.12",
+    "shares": "0.400000",
+    "reference_cash": "0.1186",
+    "reference_shares": "0.3953",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202408111639231658_1.pdf",
+    "source_pdf_sha256": "02201b3d0ce173be61ca60cac6e348be434f08ccfe7755e9cecedd64dfd1d0df",
+    "source_text_sha256": "d875052e5c8646e81c4e2a0e5976e95c529ea6152f908ff3b8799b31c586c7f1",
+    "reference_expression": "前收盘价格-0.1186)÷(1+0.3953)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605488",
+    "ex_date": "2025-05-30",
+    "available_date": "2025-05-26",
+    "expected_cash": [
+      "0.15"
+    ],
+    "cash": "0.15",
+    "shares": "0.400000",
+    "reference_cash": "0.1482",
+    "reference_shares": "0.3952",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505251678899471_1.pdf",
+    "source_pdf_sha256": "39fc967267ea6f0b7a0271d6ed881158ea8dd19a888bcc065314a52d1f8daf70",
+    "source_text_sha256": "a6b27503c322226ebf7cd25451776b0f4aaf5ff93ab0913f0107ab75bb47809f",
+    "reference_expression": "前收盘价格-0.1482)÷(1+0.3952)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605499",
+    "ex_date": "2026-09-24",
+    "available_date": "2026-09-18",
+    "expected_cash": [
+      "3"
+    ],
+    "cash": "3",
+    "shares": "0.000000",
+    "reference_cash": "2.97",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202609171829527666_1.pdf",
+    "source_pdf_sha256": "61655fb526b0beb6778342302fcaa033cd62736d771fc0aadd6d18685d1f0450",
+    "source_text_sha256": "c0b5d8ca5e8f230860a811e91011eb7ade358f984e49d62eb43ce0767c2054e3",
+    "reference_expression": "前收盘价格-2.97)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605589",
+    "ex_date": "2025-05-19",
+    "available_date": "2025-05-13",
+    "expected_cash": [
+      "0.55"
+    ],
+    "cash": "0.55",
+    "shares": "0.000000",
+    "reference_cash": "0.5284",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505121671702314_1.pdf",
+    "source_pdf_sha256": "d385f2649dd204c9ac9fffc3b13bc28c984ad00a6ab4fd9395f02f1370e7c77f",
+    "source_text_sha256": "0d82796ab9093cf474be033b104139c4611dde45e275de7ec5451abb942ce8b4",
+    "reference_expression": "前收盘价格-0.5284)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688016",
+    "ex_date": "2024-11-08",
+    "available_date": "2024-11-02",
+    "expected_cash": [
+      "1.66205"
+    ],
+    "cash": "1.66205",
+    "shares": "0.000000",
+    "reference_cash": "1.65000",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202411011640674337_1.pdf",
+    "source_pdf_sha256": "031a99ab04ccb2daa2e22d02392c3579bdd7238c8eaee65f03ca6683fdbb655e",
+    "source_text_sha256": "21cdcde5bd7a3cc2a6174419d759b33a09694fc441be2e754babda8f86859aed",
+    "reference_expression": "前收盘价格-1.65000)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688019",
+    "ex_date": "2024-06-11",
+    "available_date": "2024-06-03",
+    "expected_cash": [
+      "0.35"
+    ],
+    "cash": "0.35",
+    "shares": "0.300000",
+    "reference_cash": "0.34957",
+    "reference_shares": "0.29963",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406021635199244_1.pdf",
+    "source_pdf_sha256": "95be010a5065b5348d6eed90f201db2550ba40afe12ee6077357d68ac690ef7a",
+    "source_text_sha256": "65ea2125e42820a5681f23cdb5e06b9fa590c12b053415188d0b38eb6ccdea79",
+    "reference_expression": "前收盘价格-0.34957)÷(1+0.29963)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688037",
+    "ex_date": "2024-07-17",
+    "available_date": "2024-07-11",
+    "expected_cash": [
+      "0.2"
+    ],
+    "cash": "0.2",
+    "shares": "0.450000",
+    "reference_cash": "0.1999",
+    "reference_shares": "0.4497",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407101637759858_1.pdf",
+    "source_pdf_sha256": "56dbd1b5be61a33bc56a377bc5d343c9223e07a7c9568eb3f9dd80ce5cd8375a",
+    "source_text_sha256": "20425558a589ac091b59d90f968648b533393adb6352ab34861732ecacf374d5",
+    "reference_expression": "前收盘价格-0.1999)÷(1+0.4497)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688049",
+    "ex_date": "2025-08-07",
+    "available_date": "2025-08-01",
+    "expected_cash": [
+      "0.23"
+    ],
+    "cash": "0.23",
+    "shares": "0.200000",
+    "reference_cash": "0.2285",
+    "reference_shares": "0.1987",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202507311719028553_1.pdf",
+    "source_pdf_sha256": "d2ccc6feac9aa0e8a2eedeb7b46f80e1868b116e5fe658482c0c42823861fe6e",
+    "source_text_sha256": "bc3c8736f48a0a9c6e05522503f97de79f8b2e07edde957e6d8d3886b9907eb6",
+    "reference_expression": "前收盘价格-0.2285)÷(1+0.1987)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688050",
+    "ex_date": "2024-06-05",
+    "available_date": "2024-05-30",
+    "expected_cash": [
+      "0.49"
+    ],
+    "cash": "0.49",
+    "shares": "0.800000",
+    "reference_cash": "0.4893",
+    "reference_shares": "0.7989",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405291634812711_1.pdf",
+    "source_pdf_sha256": "b306db16acae9d9ca3ac59bb9311986f6ca689a304ff1c9e439c9090390647d0",
+    "source_text_sha256": "5073629ea35a66cf4a5f77adddc8d5591361d9863f686ed67f0229123016b12f",
+    "reference_expression": "前收盘价格-0.4893)÷(1+0.7989)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688058",
+    "ex_date": "2024-06-21",
+    "available_date": "2024-06-17",
+    "expected_cash": [
+      "0.26"
+    ],
+    "cash": "0.26",
+    "shares": "0.400000",
+    "reference_cash": "0.2517",
+    "reference_shares": "0.3872",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406161636457219_1.pdf",
+    "source_pdf_sha256": "ab6c09104877195b9be6301ccb42806e16d68c7e9dd90e6d49a1e0aa7b058447",
+    "source_text_sha256": "21adac32d42f18fb4b005ae3bc84d10673dcd5bbd1c15c5ab21f66b06d102e3e",
+    "reference_expression": "前收盘价格-0.2517)÷(1+0.3872)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688069",
+    "ex_date": "2026-06-16",
+    "available_date": "2026-06-09",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.400000",
+    "reference_cash": "0.4827",
+    "reference_shares": "0.3861",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606081823359097_1.pdf",
+    "source_pdf_sha256": "f8ce451804f983e676196dd05a193d599e962a06297d5052467950a4b8dd8e57",
+    "source_text_sha256": "91dafc06b3307f4e2cb43a94044e63c1a7a34a639b2f49fb09108f1564f314b8",
+    "reference_expression": "前收盘价格-0.4827)÷(1+0.3861)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688073",
+    "ex_date": "2024-06-26",
+    "available_date": "2024-06-19",
+    "expected_cash": [
+      "0.9"
+    ],
+    "cash": "0.9",
+    "shares": "0.000000",
+    "reference_cash": "0.8789",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406181636641258_1.pdf",
+    "source_pdf_sha256": "af3bad3681be8aaa37dd3ab9641457bbfd6c3a1bf5ef3e0992f8212e07c94ddd",
+    "source_text_sha256": "e9c6a001c936c63f91557ab6c978021d15dc3941083d75a75c5637550cb15d74",
+    "reference_expression": "前收盘价格-0.8789元/股)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688083",
+    "ex_date": "2025-06-06",
+    "available_date": "2025-05-30",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.400000",
+    "reference_cash": "0.4975",
+    "reference_shares": "0.3980",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505291681260288_1.pdf",
+    "source_pdf_sha256": "f490b0dbbf03a717674f511300ebeca1c204dc29be6810e777965b3a5837c61c",
+    "source_text_sha256": "ffa524ba2b442dbd0f39f9c18f47799ce5be034ef536ed1ce72d3dbe2cc56157",
+    "reference_expression": "前收盘价格-0.4975)÷1.3980",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688090",
+    "ex_date": "2024-06-24",
+    "available_date": "2024-06-18",
+    "expected_cash": [
+      "0.22"
+    ],
+    "cash": "0.22",
+    "shares": "0.400000",
+    "reference_cash": "0.2191",
+    "reference_shares": "0.3984",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406171636504328_1.pdf",
+    "source_pdf_sha256": "5ffe6e1c5a1db9d7b06b5ebf1335c598a7d8214b631a6de1dff96f633546c3c7",
+    "source_text_sha256": "9e200241712951883e89431d910a7da2fb21f8e800a7346cb8461cd70e278c33",
+    "reference_expression": "前收盘价格-0.2191)÷(1+0.3984)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688092",
+    "ex_date": "2024-06-14",
+    "available_date": "2024-06-07",
+    "expected_cash": [
+      "0.51"
+    ],
+    "cash": "0.51",
+    "shares": "0.400000",
+    "reference_cash": "0.5030",
+    "reference_shares": "0.3945",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406061635721813_1.pdf",
+    "source_pdf_sha256": "a38bcf6a4a9a23df1b1d8af96d9df00e994c960429631e354b3cff6c85e039b6",
+    "source_text_sha256": "9de0a0dc046cb844b55b0161cf1020d5355e824a53b9f62b8fce485d4a5e40dd",
+    "reference_expression": "前收盘价格-0.5030元/股)÷1.3945",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688096",
+    "ex_date": "2025-07-15",
+    "available_date": "2025-07-09",
+    "expected_cash": [
+      "0.15"
+    ],
+    "cash": "0.15",
+    "shares": "0.400000",
+    "reference_cash": "0.1479",
+    "reference_shares": "0.3945",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202507081705249048_1.pdf",
+    "source_pdf_sha256": "686bd14aa6e6c90549e2f3e128367bf751d29de5f579728905be855e89599303",
+    "source_text_sha256": "f97db7c0500a9df89220c91821f5dd259a23a3123d6c0940aff2d606f5a3cb57",
+    "reference_expression": "前收盘价格-0.1479)÷(1+0.3945)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688120",
+    "ex_date": "2024-07-02",
+    "available_date": "2024-06-26",
+    "expected_cash": [
+      "0.55"
+    ],
+    "cash": "0.55",
+    "shares": "0.490000",
+    "reference_cash": "0.54939",
+    "reference_shares": "0.48946",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406251636878175_1.pdf",
+    "source_pdf_sha256": "1cfd1645c78c9429f47535a1672120db324d4f2f669b98e075b233796753fdeb",
+    "source_text_sha256": "95e9847eccd820d2e44820a76e0f86683f91496c528064d24a35c765ad055dbb",
+    "reference_expression": "前收盘价格-0.54939)÷(1+0.48946)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688169",
+    "ex_date": "2025-06-24",
+    "available_date": "2025-06-17",
+    "expected_cash": [
+      "1.06964"
+    ],
+    "cash": "1.06964",
+    "shares": "0.400000",
+    "reference_cash": "1.06915",
+    "reference_shares": "0.39982",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506161692045690_1.pdf",
+    "source_pdf_sha256": "e2ee06bd2c70d308e61f670e046b40c73fc71f494f8f6debf1655defa7a32799",
+    "source_text_sha256": "a3c2163e90c6a251ae40ad88385aa5250752298353b7d1ba3497bd68bfcaf78d",
+    "reference_expression": "前收盘价格-1.06915元/股)/(1+0.39982)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688171",
+    "ex_date": "2026-07-10",
+    "available_date": "2026-07-03",
+    "expected_cash": [
+      "0.045"
+    ],
+    "cash": "0.045",
+    "shares": "0.400000",
+    "reference_cash": "0.0444",
+    "reference_shares": "0.3948",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202607021826663459_1.pdf",
+    "source_pdf_sha256": "c560fd8f5f394a9887fedd61da3ca1bb60ba66a6ab7411ea608a155088c3e139",
+    "source_text_sha256": "ad2724beaacce38605ec7a5ff0fbf4033885f13843e6fe1984bd605890ce3fc7",
+    "reference_expression": "前收盘价格-0.0444)÷(1+0.3948)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688186",
+    "ex_date": "2025-06-12",
+    "available_date": "2025-06-05",
+    "expected_cash": [
+      "0.3825"
+    ],
+    "cash": "0.3825",
+    "shares": "0.000000",
+    "reference_cash": "0.3555",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506041684736644_1.pdf",
+    "source_pdf_sha256": "6b11b683f5197d9f585c6b474f6bccac47ab275a05265fe46e8b5766d24d47a5",
+    "source_text_sha256": "305487835f49690ac818ecddf947b23aa97af911b49895daec61039bf8be5504",
+    "reference_expression": "前收盘价格-0.3555)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688193",
+    "ex_date": "2026-06-10",
+    "available_date": "2026-06-04",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.000000",
+    "reference_cash": "0.97",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606031823209282_1.pdf",
+    "source_pdf_sha256": "4c2506777b4f09c62634001d76a0a4fadd44d0a39e982c28b35d693a107ee846",
+    "source_text_sha256": "652bb7b39e62c234a32cf2636816beb6da526cb9ebec16c0e4457f14c5847dbb",
+    "reference_expression": "前收盘价格-0.97元/股)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688200",
+    "ex_date": "2026-06-11",
+    "available_date": "2026-06-05",
+    "expected_cash": [
+      "1.19"
+    ],
+    "cash": "1.19",
+    "shares": "0.480000",
+    "reference_cash": "1.1890",
+    "reference_shares": "0.4796",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606041823251036_1.pdf",
+    "source_pdf_sha256": "7fa2c197beefdfb7805c1d740f605640a5f546e652341efaac44ef92e025e4c4",
+    "source_text_sha256": "4149a3bc873c4785fa9a0479147547a08c9d8b6c91b7ee8c2f6cbf1364fc3741",
+    "reference_expression": "前收盘价格-1.1890)÷(1+0.4796)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688201",
+    "ex_date": "2024-07-09",
+    "available_date": "2024-07-02",
+    "expected_cash": [
+      "0.03"
+    ],
+    "cash": "0.03",
+    "shares": "0.480000",
+    "reference_cash": "0.02969",
+    "reference_shares": "0.4751",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407011637352995_1.pdf",
+    "source_pdf_sha256": "3e83717a0ddb2151306c5aa2fa35e822333d5aa1ff4c08f9f385dc804d1a2b8b",
+    "source_text_sha256": "7f8aee75de53ba87999d485d054099056b02cc2336a185041283cfe5fb2d796b",
+    "reference_expression": "前收盘价格-0.02969)÷(1+0.4751)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688208",
+    "ex_date": "2025-05-14",
+    "available_date": "2025-05-07",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.490000",
+    "reference_cash": "0.4930",
+    "reference_shares": "0.4831",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505061668408195_1.pdf",
+    "source_pdf_sha256": "8c12443c7e63009fba016e4b2ab46a129c830b7fc64eb7efc089e7dbe284819e",
+    "source_text_sha256": "30f1c0509dce78cbf5fc7d22a7c3f5217b319542338ef1b6af11744b7083a6b9",
+    "reference_expression": "前收盘价格-0.4930)÷1.4831",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688215",
+    "ex_date": "2025-07-11",
+    "available_date": "2025-07-05",
+    "expected_cash": [
+      "0.10032"
+    ],
+    "cash": "0.10032",
+    "shares": "0.200640",
+    "reference_cash": "0.09962",
+    "reference_shares": "0.19925",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202507041702863970_1.pdf",
+    "source_pdf_sha256": "b07030eabc876ca79d79468f83a478ae7c7b8affe048f8544a2d4c24791a2ef7",
+    "source_text_sha256": "61bc8d2f7bb69b4231b902eae8d14ee801d425194ddb1a3f253c37c07c406197",
+    "reference_expression": "前收盘价格-0.09962)÷(1+0.19925)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688231",
+    "ex_date": "2026-06-23",
+    "available_date": "2026-06-16",
+    "expected_cash": [
+      "0.07"
+    ],
+    "cash": "0.07",
+    "shares": "0.300000",
+    "reference_cash": "0.0687",
+    "reference_shares": "0.2946",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606151823569837_1.pdf",
+    "source_pdf_sha256": "84c8fa96f33bacbfd6b086e65605e74e0e4162fb5c8fbf884a866692c719f572",
+    "source_text_sha256": "f482f2694427ba371238c98e833320fed8ccba19f6f8a88cfc23ca871a0e9c51",
+    "reference_expression": "前收盘价格-0.0687)÷(1+0.2946)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688239",
+    "ex_date": "2025-06-03",
+    "available_date": "2025-05-27",
+    "expected_cash": [
+      "0.22"
+    ],
+    "cash": "0.22",
+    "shares": "0.300000",
+    "reference_cash": "0.2189",
+    "reference_shares": "0.2985",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505261679521781_1.pdf",
+    "source_pdf_sha256": "86f7085e4778e4c07d0a378dd6d966c5829abeb4ecb495e6f7c2029eaf09ee93",
+    "source_text_sha256": "3814ddcefd8e3eb8714630d297cbc3dd78769a5b1a42cbff4a8560d6989218ab",
+    "reference_expression": "前收盘价格-0.2189)÷(1+0.2985)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688244",
+    "ex_date": "2024-06-17",
+    "available_date": "2024-06-11",
+    "expected_cash": [
+      "0.226"
+    ],
+    "cash": "0.226",
+    "shares": "0.480000",
+    "reference_cash": "0.22366",
+    "reference_shares": "0.47502",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406101635917014_1.pdf",
+    "source_pdf_sha256": "c63fda64d998eeb568b8a0082536efd7da1194acd925f9e013c2ce777d9bbe51",
+    "source_text_sha256": "db5ebc7068b1cd93484dc3cd8a4493145604d2e8ba312fedd2d4c04727682dc1",
+    "reference_expression": "前收盘价-0.22366)÷(1+0.47502)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688251",
+    "ex_date": "2024-07-01",
+    "available_date": "2024-06-25",
+    "expected_cash": [
+      "0.22"
+    ],
+    "cash": "0.22",
+    "shares": "0.450000",
+    "reference_cash": "0.21865",
+    "reference_shares": "0.44723",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406241636827337_1.pdf",
+    "source_pdf_sha256": "56eae660c311f22fe8c16c9425711db6d4922f09b9351e7b688d9417b37b5aac",
+    "source_text_sha256": "e7e5100a1050f39c2a8dbb22250f0d54ba29232ec415d1be322284865bada60c",
+    "reference_expression": "前收盘价格-0.21865)÷(1+0.44723)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688259",
+    "ex_date": "2024-08-13",
+    "available_date": "2024-08-07",
+    "expected_cash": [
+      "0.26"
+    ],
+    "cash": "0.26",
+    "shares": "0.400000",
+    "reference_cash": "0.2576",
+    "reference_shares": "0.3963",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202408061639165077_1.pdf",
+    "source_pdf_sha256": "3bc49e477e48c28a0492ba5e6a0f89424a5024f3726f37b9be2c2c2f999c0204",
+    "source_text_sha256": "6523f5b19194649b0dc573c7c156ff4ea54782ffea95a8fca576520f2d53732b",
+    "reference_expression": "前收盘价格-0.2576)÷(1+0.3963)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688261",
+    "ex_date": "2024-07-04",
+    "available_date": "2024-06-28",
+    "expected_cash": [
+      "0.17875"
+    ],
+    "cash": "0.17875",
+    "shares": "0.300000",
+    "reference_cash": "0.17816",
+    "reference_shares": "0.29901",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406271636968103_1.pdf",
+    "source_pdf_sha256": "4f10a2dddca7c1e3d560783cdd633a3af6700664170ca84a730c38c4a6467f76",
+    "source_text_sha256": "b55c896c7b869aff04e04f76b610cc3242b7e11dc9f9a1ada1460e6870f452f8",
+    "reference_expression": "前收盘价格-0.17816)÷(1+0.29901)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688267",
+    "ex_date": "2026-06-18",
+    "available_date": "2026-06-12",
+    "expected_cash": [
+      "0.2"
+    ],
+    "cash": "0.2",
+    "shares": "0.300000",
+    "reference_cash": "0.1965",
+    "reference_shares": "0.2948",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606111823455762_1.pdf",
+    "source_pdf_sha256": "bc15365b050a44a688e8e3a6ec7292c918f125b012df0bcbf2d5b9199ce40485",
+    "source_text_sha256": "765bd3b26a66db2d0378e8eef8449ef0e852978154dba7dde1520e9e2d11f16a",
+    "reference_expression": "前收盘价格-0.1965)÷(1+0.2948)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688286",
+    "ex_date": "2026-07-02",
+    "available_date": "2026-06-26",
+    "expected_cash": [
+      "0.27"
+    ],
+    "cash": "0.27",
+    "shares": "0.400000",
+    "reference_cash": "0.2680",
+    "reference_shares": "0.3970",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606251823856916_1.pdf",
+    "source_pdf_sha256": "1d35b0e0c7cf165cf337c4aed963adddd28fecf4077b4a20fffcf5f788d06cce",
+    "source_text_sha256": "508aa4fa7c49d0d914e4a30a61e473a31ad77ed84c7f40ad3273cd0488033db8",
+    "reference_expression": "前收盘价格-0.2680)÷(1+0.3970)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688289",
+    "ex_date": "2023-12-11",
+    "available_date": "2023-12-05",
+    "expected_cash": [
+      "0.2622"
+    ],
+    "cash": "0.2622",
+    "shares": "0.000000",
+    "reference_cash": "0.25495",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202312041613232394_1.pdf",
+    "source_pdf_sha256": "99bb9d26e9afaf7c0d111cfccc639fae67e66d026fb0903e6576ec8cac5caa78",
+    "source_text_sha256": "de0f5d6d0175d0552804ad6327908dd8cff6fc4c5824c2752a0e139a87453e64",
+    "reference_expression": "前收盘价格-0.25495)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688301",
+    "ex_date": "2024-06-17",
+    "available_date": "2024-06-11",
+    "expected_cash": [
+      "2"
+    ],
+    "cash": "2",
+    "shares": "0.400000",
+    "reference_cash": "1.9966",
+    "reference_shares": "0.3993",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406101635917020_1.pdf",
+    "source_pdf_sha256": "e0005f3755835d66410141b8ac24519d3ee4b9b57f821797df73a01e72adfdbb",
+    "source_text_sha256": "3fa7de97a6f9d994d2cf5bed4ef2693c1b709829224e2a07e0e202070627e28a",
+    "reference_expression": "前收盘价格-1.9966)÷(1+0.3993)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688325",
+    "ex_date": "2025-07-08",
+    "available_date": "2025-07-02",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.000000",
+    "reference_cash": "0.9769",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202507011701071345_1.pdf",
+    "source_pdf_sha256": "be6d7021096aea0aa8079444699475a0371b1a03ae070d3a55e053ee232308d0",
+    "source_text_sha256": "30048133ac781fdc950a3d88f4b04e2efc5fe60b805c76accb9253314db8b33a",
+    "reference_expression": "前收盘价格-0.9769元/股)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688326",
+    "ex_date": "2026-06-26",
+    "available_date": "2026-06-18",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.000000",
+    "reference_cash": "0.28",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606171823637841_1.pdf",
+    "source_pdf_sha256": "43632da966ae64bc52b00a4a84a82a777f90bec361fa9adcb68a942653387d3c",
+    "source_text_sha256": "adae4d551209a90eee514a6f87a41214d9cbb5ebb03bcedbe2f98a0ef63d32ce",
+    "reference_expression": "前收盘价格-0.28元/股)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688366",
+    "ex_date": "2024-06-20",
+    "available_date": "2024-06-14",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.400000",
+    "reference_cash": "0.98742",
+    "reference_shares": "0.39497",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406131636093734_1.pdf",
+    "source_pdf_sha256": "655a7ee3a5687e97027989ad1ca7e60ad576be160b942442729247e3db001478",
+    "source_text_sha256": "194e6f5c393919073d90dd70c8eb07eb6ad50df9531cac23954781d82f7d3f32",
+    "reference_expression": "前收盘价格-0.98742)÷(1+0.39497)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688378",
+    "ex_date": "2025-06-18",
+    "available_date": "2025-06-12",
+    "expected_cash": [
+      "0.25"
+    ],
+    "cash": "0.25",
+    "shares": "0.200000",
+    "reference_cash": "0.2470",
+    "reference_shares": "0.1976",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506111688908259_1.pdf",
+    "source_pdf_sha256": "ee027baad3ab5bc33d22a27445f625b8a14b0e203398338c182dfb79c29f0aa1",
+    "source_text_sha256": "ed9cc5949528c37c3e919f5f2d2a5903e87012a8d43a857fd2e2ff5c8df63eb7",
+    "reference_expression": "前收盘价格-0.2470)÷1.1976",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688388",
+    "ex_date": "2026-06-17",
+    "available_date": "2026-06-10",
+    "expected_cash": [
+      "0.045"
+    ],
+    "cash": "0.045",
+    "shares": "0.450000",
+    "reference_cash": "0.0448",
+    "reference_shares": "0.4482",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606091823392363_1.pdf",
+    "source_pdf_sha256": "df7b839a040a804689536afd37945b363ea86afd2db7bf0c56735571503a1a9c",
+    "source_text_sha256": "227e2738d6ac4583b9bb44e0b6c5cab3a4caf9b38fc78f7961f61e25d3574fa5",
+    "reference_expression": "前收盘价格-0.0448)÷(1+0.4482)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688391",
+    "ex_date": "2024-05-14",
+    "available_date": "2024-05-08",
+    "expected_cash": [
+      "0.8"
+    ],
+    "cash": "0.8",
+    "shares": "0.450000",
+    "reference_cash": "0.78632",
+    "reference_shares": "0.44230",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405071632574720_1.pdf",
+    "source_pdf_sha256": "a53a8f40e9ea6073297a18fa4f7397433d1c9c0e7ec96c35ee8495e8cb99cb88",
+    "source_text_sha256": "14a55bcb9c0bc32faadc68d312ada6d3a62d49bcf8a559171528fa1b5476d48c",
+    "reference_expression": "前收盘价格-0.78632)÷(1+0.44230)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688398",
+    "ex_date": "2024-06-20",
+    "available_date": "2024-06-12",
+    "expected_cash": [
+      "0.4"
+    ],
+    "cash": "0.4",
+    "shares": "0.450000",
+    "reference_cash": "0.3970",
+    "reference_shares": "0.4467",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406111635974257_1.pdf",
+    "source_pdf_sha256": "fd1ff51a31fd20fb9cef01cdf6730208edb01f963eb736af36c3f2ddf2c606d3",
+    "source_text_sha256": "102ede4ea44cf0a4e8d5363bb2f80de4b753a550cb919ff89c76833da94aa619",
+    "reference_expression": "前收盘价格-0.3970)÷(1+0.4467)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688408",
+    "ex_date": "2024-07-11",
+    "available_date": "2024-07-05",
+    "expected_cash": [
+      "0.88"
+    ],
+    "cash": "0.88",
+    "shares": "0.490000",
+    "reference_cash": "0.8719",
+    "reference_shares": "0.4855",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407041637558425_1.pdf",
+    "source_pdf_sha256": "35f56e216dbe21ce1bef077077ac40970d430572fded856a23199c4d8d45ae60",
+    "source_text_sha256": "97df66ecb5d59b00ff7f28f20dcf49a6119d52fc24c43dd028cd895e9720739d",
+    "reference_expression": "前收盘价格-0.8719)÷(1+0.4855)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688419",
+    "ex_date": "2025-07-11",
+    "available_date": "2025-07-05",
+    "expected_cash": [
+      "0.4"
+    ],
+    "cash": "0.4",
+    "shares": "0.400000",
+    "reference_cash": "0.39697",
+    "reference_shares": "0.39697",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202507041702864007_1.pdf",
+    "source_pdf_sha256": "b0eb9b590ecfd2cae67812466ab486900328b57bb92516f5f86809465cc67073",
+    "source_text_sha256": "5d40e98b8ed015eee26516e44c3783f634299fa56feeba19ae969abad6ed39d1",
+    "reference_expression": "前收盘价格-0.39697)÷(1+0.39697)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688458",
+    "ex_date": "2024-06-27",
+    "available_date": "2024-06-21",
+    "expected_cash": [
+      "0.1"
+    ],
+    "cash": "0.1",
+    "shares": "0.400000",
+    "reference_cash": "0.0985",
+    "reference_shares": "0.3940",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406201636716167_1.pdf",
+    "source_pdf_sha256": "9ae6148d1d9a7acf039e975c7a1a7090bacd57e00adfcf6ce371d58331028d70",
+    "source_text_sha256": "4d84c938d6da63c319a9ecb2b26739c3fd6397c67cd8b0e7cccd9ec50580f791",
+    "reference_expression": "前收盘价格-0.0985)÷(1+0.3940)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688479",
+    "ex_date": "2026-06-03",
+    "available_date": "2026-05-28",
+    "expected_cash": [
+      "0.26"
+    ],
+    "cash": "0.26",
+    "shares": "0.400000",
+    "reference_cash": "0.257",
+    "reference_shares": "0.395",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605271822913965_1.pdf",
+    "source_pdf_sha256": "3fd4d05178e3a60b43a6116bef314744c58af878af3302de36c250bd0400ac28",
+    "source_text_sha256": "fe2c7afde939d7c908c8e3d64e2031084ca7bb9b5df938c58657fc5fda008925",
+    "reference_expression": "前收盘价格-0.257)÷(1+0.395)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688486",
+    "ex_date": "2024-06-03",
+    "available_date": "2024-05-25",
+    "expected_cash": [
+      "1.40255"
+    ],
+    "cash": "1.40255",
+    "shares": "0.480000",
+    "reference_cash": "1.39279",
+    "reference_shares": "0.47666",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405241634556295_1.pdf",
+    "source_pdf_sha256": "94a3b43545dc70e0ef4fb8e18332b73f434361faae4f575743f420e7b540fc9e",
+    "source_text_sha256": "f1ebb8948ddbf7071ed6a4ed4fd677a0e7e584fd66296a34a43ecfc1a7c59726",
+    "reference_expression": "前收盘价格-1.39279元/股)÷(1+0.47666)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688498",
+    "ex_date": "2026-05-18",
+    "available_date": "2026-05-12",
+    "expected_cash": [
+      "0.7"
+    ],
+    "cash": "0.7",
+    "shares": "0.450000",
+    "reference_cash": "0.6978",
+    "reference_shares": "0.4486",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605111822166515_1.pdf",
+    "source_pdf_sha256": "00bd0d69d7484835b053e10fa9eec0b4cf44d0b6e49ddddca138f3fbae2eb7e2",
+    "source_text_sha256": "f8fcf3a0298af911612d6b00cdb0ec7c555f2c588e427d1bf561aa39010ce65d",
+    "reference_expression": "前收盘价格-0.6978)÷(1+0.4486)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688503",
+    "ex_date": "2024-06-11",
+    "available_date": "2024-06-03",
+    "expected_cash": [
+      "1.13104"
+    ],
+    "cash": "1.13104",
+    "shares": "0.480000",
+    "reference_cash": "1.08700",
+    "reference_shares": "0.46131",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406021635199233_1.pdf",
+    "source_pdf_sha256": "50ec69c367394ee4d2059e1269ef23134dbbc9ea35beeeb018fcc139a5e7a0bf",
+    "source_text_sha256": "6637a5984b560e08dc06bd6dc7407c897c5ce00af492c0a7e29135aa1dbfa7bb",
+    "reference_expression": "前收盘价格-1.08700元/股)÷(1+0.46131)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688507",
+    "ex_date": "2024-06-19",
+    "available_date": "2024-06-12",
+    "expected_cash": [
+      "0.38"
+    ],
+    "cash": "0.38",
+    "shares": "0.460000",
+    "reference_cash": "0.3772",
+    "reference_shares": "0.4567",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406111635973631_1.pdf",
+    "source_pdf_sha256": "f235983a8975292be2cf1fc43b29da6b6945fb58e7515a310848011129c7c9b6",
+    "source_text_sha256": "52cdb738a3da33c12fe6e0aeed7bebb6f6ee87c011301353e6ab014c3323077f",
+    "reference_expression": "前收盘价格-0.3772)÷(1+0.4567)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688522",
+    "ex_date": "2025-06-06",
+    "available_date": "2025-05-28",
+    "expected_cash": [
+      "0.1"
+    ],
+    "cash": "0.1",
+    "shares": "0.400000",
+    "reference_cash": "0.0998",
+    "reference_shares": "0.3993",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505271680079945_1.pdf",
+    "source_pdf_sha256": "98146baaffdd85f842e5c4349c4f0ac9450042112cdbfce1c2b0cb48ea3d6288",
+    "source_text_sha256": "ee7a8c75403ad1e9f2003e1604185abbbc10b5fe1488e8e858e0f8949c282c76",
+    "reference_expression": "前收盘价格-0.0998)÷(1+0.3993)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688531",
+    "ex_date": "2024-06-07",
+    "available_date": "2024-05-31",
+    "expected_cash": [
+      "0.8"
+    ],
+    "cash": "0.8",
+    "shares": "0.450000",
+    "reference_cash": "0.7858",
+    "reference_shares": "0.4420",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405301634953601_1.pdf",
+    "source_pdf_sha256": "a10b2e76340edb013a75d7ae0585e70a259e0bbe58d2a35274b89c723fca35e1",
+    "source_text_sha256": "2fe982f66a3e8009df51ab1c14d0fa4bf546b7b589be9a681b007ee00136b589",
+    "reference_expression": "前收盘价格-0.7858)÷(1+0.4420)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688535",
+    "ex_date": "2026-04-30",
+    "available_date": "2026-04-24",
+    "expected_cash": [
+      "0.1"
+    ],
+    "cash": "0.1",
+    "shares": "0.480000",
+    "reference_cash": "0.0997",
+    "reference_shares": "0.4786",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604231821513693_1.pdf",
+    "source_pdf_sha256": "b640aa68c0c406bdc0ca8af012cf054a06472c4e3b3f360569ae2b6861b2d901",
+    "source_text_sha256": "58bd1ed9675980e77039d5badc2bd4ca762d2b2b402d2b5e76e034b81c0b3cb9",
+    "reference_expression": "前收盘价格-0.0997)÷1.4786",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688550",
+    "ex_date": "2024-06-14",
+    "available_date": "2024-06-07",
+    "expected_cash": [
+      "0.45"
+    ],
+    "cash": "0.45",
+    "shares": "0.300000",
+    "reference_cash": "0.4443",
+    "reference_shares": "0.2962",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406061635725551_1.pdf",
+    "source_pdf_sha256": "360c35cbb25c0766d80e85a113e2eed920a090680db00b66715fb54828259016",
+    "source_text_sha256": "f1f9721c6c9a9c6aa7cdee70d5b5c9bb9920ae12e14d23e7c867f4c08b62ae5f",
+    "reference_expression": "前收盘价格-0.4443)÷(1+0.2962)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688551",
+    "ex_date": "2026-06-05",
+    "available_date": "2026-05-29",
+    "expected_cash": [
+      "0.2"
+    ],
+    "cash": "0.2",
+    "shares": "0.300000",
+    "reference_cash": "0.1976",
+    "reference_shares": "0.2965",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605281822946253_1.pdf",
+    "source_pdf_sha256": "d719111ea3c2b7d45a4011848ad468f6df6c39b56acf17b6da6e49c0c8c5fce7",
+    "source_text_sha256": "4ef5e20a6045a47ca15d6ad2186f88635086572a32d3c4d610a0a17aad7ae74d",
+    "reference_expression": "前收盘价格-0.1976)÷(1+0.2965)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688553",
+    "ex_date": "2026-06-17",
+    "available_date": "2026-06-11",
+    "expected_cash": [
+      "0.2"
+    ],
+    "cash": "0.2",
+    "shares": "0.480000",
+    "reference_cash": "0.199",
+    "reference_shares": "0.4776",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606101823427433_1.pdf",
+    "source_pdf_sha256": "f1bb2eb48acc873db0247c1a53890e055c4a9a1f8eb4fb4f333af7715cd42e34",
+    "source_text_sha256": "a6d6ea6052f87a9876c489d3852a44976062d7d7f2beb6dbc8c2580eb032cdb4",
+    "reference_expression": "前收盘价格-0.199)÷(1+0.4776)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688557",
+    "ex_date": "2026-07-09",
+    "available_date": "2026-07-03",
+    "expected_cash": [
+      "0.33"
+    ],
+    "cash": "0.33",
+    "shares": "0.450000",
+    "reference_cash": "0.326",
+    "reference_shares": "0.445",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202607021826664737_1.pdf",
+    "source_pdf_sha256": "53a3fb698a7a3a0d93e7558bdc7f5004b14f4aaf5d65f504803319542543c276",
+    "source_text_sha256": "04389d22f4c63ef164277b0c6fc52fbc5445326450f6e0348b7eeb4768dc6a62",
+    "reference_expression": "前收盘价格-0.326)÷(1+0.445)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688576",
+    "ex_date": "2024-08-22",
+    "available_date": "2024-08-16",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.000000",
+    "reference_cash": "0.9223",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202408151639293168_1.pdf",
+    "source_pdf_sha256": "8b1d6831d828a8abbd3097a501cc0725328f861216c983d540bcbe729e6225d2",
+    "source_text_sha256": "7c9824e967d1258a441aff6bce2410b68873ea307e005a7bdda8f303df5089a6",
+    "reference_expression": "前收盘价格-0.9223",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688580",
+    "ex_date": "2024-06-05",
+    "available_date": "2024-05-30",
+    "expected_cash": [
+      "1.5058"
+    ],
+    "cash": "1.5058",
+    "shares": "0.400000",
+    "reference_cash": "1.4892",
+    "reference_shares": "0.3956",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405291634811246_1.pdf",
+    "source_pdf_sha256": "840ed64f4372c5defad983fafd6cd4d2caba1cc5cb37bbb8427acce22703d9e8",
+    "source_text_sha256": "205e40f6d1f458d766eb520fb7018216af18a4e83cebb0a92d6e675e121e503e",
+    "reference_expression": "前收盘价格-1.4892)÷(1+0.3956)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688581",
+    "ex_date": "2024-06-21",
+    "available_date": "2024-06-14",
+    "expected_cash": [
+      "1.45"
+    ],
+    "cash": "1.45",
+    "shares": "0.400000",
+    "reference_cash": "1.4399",
+    "reference_shares": "0.3972",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406131636094349_1.pdf",
+    "source_pdf_sha256": "424e510479bcbf80a49104edeb6fc5e53d2368ef45d590b3057525bc959199bd",
+    "source_text_sha256": "80190e93f75e5353f4a1da662ae237c7fece07daff707ec0b409c388af8b172e",
+    "reference_expression": "前收盘价格-1.4399)÷(1+0.3972)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688589",
+    "ex_date": "2025-06-06",
+    "available_date": "2025-05-29",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.200000",
+    "reference_cash": "0.29895",
+    "reference_shares": "0.19930",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505281680717963_1.pdf",
+    "source_pdf_sha256": "9e5251d32ab45643d6225070fc16001063230f27baec114df964f08f979eff84",
+    "source_text_sha256": "f8c94f75cc1e07551cf25e9cddc5207d886471288dc4a244e3e22ebf0a81eb8e",
+    "reference_expression": "前收盘价格-0.29895)÷(1+0.19930)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688592",
+    "ex_date": "2025-07-09",
+    "available_date": "2025-07-03",
+    "expected_cash": [
+      "0.12"
+    ],
+    "cash": "0.12",
+    "shares": "0.300000",
+    "reference_cash": "0.1178",
+    "reference_shares": "0.2944",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202507021701706785_1.pdf",
+    "source_pdf_sha256": "8b3b5d54a5d8297e9a1e96092ba7ab01c81697f699cf051f0d2a06d35b60d4dd",
+    "source_text_sha256": "51779d6fef6fc9d4afb1d507f7d811224b9c59e5b861c2013fa55beaa6bb79d7",
+    "reference_expression": "前收盘价格-0.1178)÷(1+0.2944)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688597",
+    "ex_date": "2025-06-23",
+    "available_date": "2025-06-17",
+    "expected_cash": [
+      "0.153"
+    ],
+    "cash": "0.153",
+    "shares": "0.400000",
+    "reference_cash": "0.14",
+    "reference_shares": "0.36",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506161692041241_1.pdf",
+    "source_pdf_sha256": "c6efef61102eef3d49baf8ef6887499435f9d299f121f24e63bccae037b1637a",
+    "source_text_sha256": "7e36b976444730dbe97acc9a8033db8f1b35e978332eb2f8e13840abb7682617",
+    "reference_expression": "前收盘价格-0.14)÷(1+0.36)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688606",
+    "ex_date": "2024-06-20",
+    "available_date": "2024-06-14",
+    "expected_cash": [
+      "1.5"
+    ],
+    "cash": "1.5",
+    "shares": "0.000000",
+    "reference_cash": "1.4688",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406131636093112_1.pdf",
+    "source_pdf_sha256": "4283ea5ca98f452ce572c042eb26c63b6aac66196f66b9703cce8229d701187a",
+    "source_text_sha256": "b9554ad8f06a105d4013cac137a6a164ebf3e827179396f0e2db359484db4b45",
+    "reference_expression": "前收盘价格-1.4688)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688608",
+    "ex_date": "2025-07-02",
+    "available_date": "2025-06-26",
+    "expected_cash": [
+      "1.2"
+    ],
+    "cash": "1.2",
+    "shares": "0.400000",
+    "reference_cash": "1.1968",
+    "reference_shares": "0.3989",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506251697412546_1.pdf",
+    "source_pdf_sha256": "c62a7111e3665ed59da382b81cf372aa7c2d9b75e5334645a70fc35d1262a25d",
+    "source_text_sha256": "0ae8857c4b376813339738c008b7638b1e76384b8d3d0292653ed064d911219f",
+    "reference_expression": "前收盘价格-1.1968)÷(1+0.3989)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688618",
+    "ex_date": "2024-06-11",
+    "available_date": "2024-06-04",
+    "expected_cash": [
+      "0.52"
+    ],
+    "cash": "0.52",
+    "shares": "0.480000",
+    "reference_cash": "0.5153",
+    "reference_shares": "0.4756",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406031635272816_1.pdf",
+    "source_pdf_sha256": "8e870071a5b52f2ec1f550cf7a72611b1c7c1b762f8daeaed4a8225c49b46f7c",
+    "source_text_sha256": "a8c987b3cf7abce69865731713a8625b1fb97a425e69139a881b09d39ba850c3",
+    "reference_expression": "前收盘价格-0.5153)÷(1+0.4756)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688616",
+    "ex_date": "2024-07-03",
+    "available_date": "2024-06-27",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.200000",
+    "reference_cash": "0.2938",
+    "reference_shares": "0.1959",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636920624_1.pdf",
+    "source_pdf_sha256": "0f40e5eb5111bd961e145648919b49186b1b794786754f8b5f97d2b3583d0ceb",
+    "source_text_sha256": "1a868b1eba70c589751685684ba8231bff9a5bd627970a854da6ca3cfdf5e9b1",
+    "reference_expression": "前收盘价格-0.2938)÷1.1959",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688617",
+    "ex_date": "2024-07-26",
+    "available_date": "2024-07-22",
+    "expected_cash": [
+      "2"
+    ],
+    "cash": "2",
+    "shares": "0.450000",
+    "reference_cash": "1.9907",
+    "reference_shares": "0.4479",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407211638150999_1.pdf",
+    "source_pdf_sha256": "c2ba95da679df96680b0f80c7a84b22eaa900a08ab25d217ed4d2dab02e7be2e",
+    "source_text_sha256": "de5ca7f52bf62f27a43dc7dd88907358331d2d0939564da876ea97b5ccbca9f0",
+    "reference_expression": "前收盘价格-1.9907)÷(1+0.4479)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688623",
+    "ex_date": "2025-06-24",
+    "available_date": "2025-06-18",
+    "expected_cash": [
+      "1.072"
+    ],
+    "cash": "1.072",
+    "shares": "0.000000",
+    "reference_cash": "1.0621",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506171692616642_1.pdf",
+    "source_pdf_sha256": "b9de83cf2644d9fd1743440b99e12d6b02ccd5c66f8827bb74181658b0df8ade",
+    "source_text_sha256": "2c47b9531b193e8cf7b17349a1d9da6d51cb040e02fa9c25f29777692dd6762c",
+    "reference_expression": "前收盘价格-1.0621)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688625",
+    "ex_date": "2024-07-01",
+    "available_date": "2024-06-25",
+    "expected_cash": [
+      "0.75"
+    ],
+    "cash": "0.75",
+    "shares": "0.000000",
+    "reference_cash": "0.7342",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406241636832939_1.pdf",
+    "source_pdf_sha256": "0ae1c26292d38d4cd23eca2091bdadc1a7d73d721aab9c0d4aef8072dbcf29cf",
+    "source_text_sha256": "b8577d818baf2a444a9d236de16ab1831b335f3c534fe9ffb5a8f028628743ef",
+    "reference_expression": "前收盘价格-0.7342)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688633",
+    "ex_date": "2024-06-07",
+    "available_date": "2024-06-03",
+    "expected_cash": [
+      "0.45"
+    ],
+    "cash": "0.45",
+    "shares": "0.400000",
+    "reference_cash": "0.4478",
+    "reference_shares": "0.3981",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406021635199236_1.pdf",
+    "source_pdf_sha256": "d3abbb338ed307914c9491376148f7831e85d751a374d644f1faff360d30f91a",
+    "source_text_sha256": "63c5c3a1a5cb6201149fded9968550f5b8f923b2e1a946e46cbfb3ba2555336b",
+    "reference_expression": "前收盘价格-0.4478)/(1+0.3981)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688639",
+    "ex_date": "2024-07-22",
+    "available_date": "2024-07-16",
+    "expected_cash": [
+      "0.9"
+    ],
+    "cash": "0.9",
+    "shares": "0.450000",
+    "reference_cash": "0.8972",
+    "reference_shares": "0.4486",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407151637930248_1.pdf",
+    "source_pdf_sha256": "dc39e8e83155aff3ee7bb4d176dfecb8e11b87e641a6705fb733ffb99a7f2704",
+    "source_text_sha256": "41d336f01c3b50db95b4fa882336e12a7cfc769cade36dc2f2926c31d7e38889",
+    "reference_expression": "前收盘价格-0.8972)÷(1+0.4486)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688657",
+    "ex_date": "2026-05-14",
+    "available_date": "2026-05-07",
+    "expected_cash": [
+      "0.6"
+    ],
+    "cash": "0.6",
+    "shares": "0.460000",
+    "reference_cash": "0.5954",
+    "reference_shares": "0.4565",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605061821992790_1.pdf",
+    "source_pdf_sha256": "2c80ec55402fe119026ee66c012e75c4c7a09082f9496269905026960eed405d",
+    "source_text_sha256": "dea7e724380fbfc0e3e40f8a41cbb9af0095aae1756b19daed25f9d17f43d0de",
+    "reference_expression": "前收盘价格-0.5954)÷(1+0.4565)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688663",
+    "ex_date": "2026-07-27",
+    "available_date": "2026-07-21",
+    "expected_cash": [
+      "0.22"
+    ],
+    "cash": "0.22",
+    "shares": "0.400000",
+    "reference_cash": "0.2168",
+    "reference_shares": "0.3942",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202607201827145391_1.pdf",
+    "source_pdf_sha256": "bc1dfd529525003976e14462bed694243a4176f11926d6af3c2cf7857ed253c4",
+    "source_text_sha256": "8c4f3a33d2fcf7060ca9adf50099de4977f91e7f080752bee415669046f81b1e",
+    "reference_expression": "前收盘价格-0.2168)÷(1+0.3942)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688678",
+    "ex_date": "2024-06-06",
+    "available_date": "2024-05-30",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.400000",
+    "reference_cash": "0.2966",
+    "reference_shares": "0.3954",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405291634819221_1.pdf",
+    "source_pdf_sha256": "2d3ca8ce60343b5e4b5df1ff56133d9bd3da79b37ba9914496d7bf96dc60c71d",
+    "source_text_sha256": "91647656b7615cfcae1c2ed995824aa858dff8ee2d899c82eb755dca6603ca59",
+    "reference_expression": "前收盘价格-0.2966)÷(1+0.3954)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688696",
+    "ex_date": "2026-05-19",
+    "available_date": "2026-05-13",
+    "expected_cash": [
+      "1.1844"
+    ],
+    "cash": "1.1844",
+    "shares": "0.000000",
+    "reference_cash": "1.14",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822215858_1.pdf",
+    "source_pdf_sha256": "9fb8448a984888e9f512b47969bc74e3076845ccd4a9e4f86f320cab5afa0ee3",
+    "source_text_sha256": "14251383b0b63bd6e11cc481b56c7ff7cbcc279cdc1c5f9773bde8410ba027bd",
+    "reference_expression": "前收盘价格-1.14",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688699",
+    "ex_date": "2026-09-30",
+    "available_date": "2026-09-23",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.000000",
+    "reference_cash": "0.4839",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202609221829762522_1.pdf",
+    "source_pdf_sha256": "d497b062b83dcf846e94cbd0e882eb6159cf561684e1beaf80b969647fd5814c",
+    "source_text_sha256": "13d04d2885f8f3b2c454cc78727bd70ae3517fd5198900dad1f8bbd0fbc76d2d",
+    "reference_expression": "前收盘价格-0.4839)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688767",
+    "ex_date": "2024-06-11",
+    "available_date": "2024-06-03",
+    "expected_cash": [
+      "0.8"
+    ],
+    "cash": "0.8",
+    "shares": "0.000000",
+    "reference_cash": "0.7842",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406021635199235_1.pdf",
+    "source_pdf_sha256": "7681c5e1de63216e31fe8677ddeedeb56329a13bf31d80974d80a7b61aa775e3",
+    "source_text_sha256": "51eaba5bad22ca00975df11d8967dec5392cdbdc64164a74634f6184f55791e5",
+    "reference_expression": "前收盘价格-0.7842",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688778",
+    "ex_date": "2025-07-03",
+    "available_date": "2025-06-27",
+    "expected_cash": [
+      "0.4"
+    ],
+    "cash": "0.4",
+    "shares": "0.200000",
+    "reference_cash": "0.3989",
+    "reference_shares": "0.1994",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506261698025243_1.pdf",
+    "source_pdf_sha256": "6fd294db1e55400fac32d8cd5bed42d4e47b7f8ac016d85e2357b809475913ce",
+    "source_text_sha256": "1ce3de19cf33dcd11ac38d2527d7eb2c2fd5768e05453f54a9c90dcaa7e7c7aa",
+    "reference_expression": "前收盘价格-0.3989元/股)÷(1+0.1994)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688800",
+    "ex_date": "2025-05-30",
+    "available_date": "2025-05-24",
+    "expected_cash": [
+      "0.35"
+    ],
+    "cash": "0.35",
+    "shares": "0.300000",
+    "reference_cash": "0.3480",
+    "reference_shares": "0.2983",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505231677777852_1.pdf",
+    "source_pdf_sha256": "35ea3986565b904f2e8408919dc9f89c5e532b58ad609951a9d35c2c3b1f7d46",
+    "source_text_sha256": "17a3ab5a2fd26177904ce34cedaef4fa75660e9f08bc9d59e18c1eb9a8dfb590",
+    "reference_expression": "前收盘价格-0.3480)÷1.2983",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.600690",
+    "ex_date": "2026-08-21",
+    "available_date": "2026-08-15",
+    "expected_cash": [
+      "0.89151"
+    ],
+    "cash": "0.89151",
+    "shares": "0.000000",
+    "reference_cash": "0.87373",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608141827989344_1.pdf",
+    "source_pdf_sha256": "188668660eb58dde985f8d99401f721b41c372ccaebf0137cdb5d20d249f8d06",
+    "source_text_sha256": "8a822614f711b4372a8b4ceb3b6dacd9221fafba1d420de80154805b835d9046",
+    "reference_expression": "前收盘价格-0.87373)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.601615",
+    "ex_date": "2025-07-04",
+    "available_date": "2025-06-26",
+    "expected_cash": [
+      "0.3041"
+    ],
+    "cash": "0.3041",
+    "shares": "0.000000",
+    "reference_cash": "0.2879",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506251697420439_1.pdf",
+    "source_pdf_sha256": "74eb002e2cd8ae9b8f1e804250b3703f57474e7e0a37fdf5b9ac338d6954f926",
+    "source_text_sha256": "e3f5265d7920965c2df8113957573e1a02bfc5fde41731ac784a6bfa4c83f9c1",
+    "reference_expression": "前收盘价格-0.2879",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603102",
+    "ex_date": "2026-08-27",
+    "available_date": "2026-08-21",
+    "expected_cash": [
+      "0.75"
+    ],
+    "cash": "0.75",
+    "shares": "0.000000",
+    "reference_cash": "0.73",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608201828205066_1.pdf",
+    "source_pdf_sha256": "596121bd80c6ed404ec07b22d517c9c67bb57104c4fc6403c7b0d744386c2e8e",
+    "source_text_sha256": "06a82648a652593802bbd1b93163d1b5ee527353390206564bbb5274e3e90e8f",
+    "reference_expression": "前收盘价格-0.73)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603165",
+    "ex_date": "2025-10-16",
+    "available_date": "2025-10-10",
+    "expected_cash": [
+      "0.6"
+    ],
+    "cash": "0.6",
+    "shares": "0.000000",
+    "reference_cash": "0.57",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202510091758981673_1.pdf",
+    "source_pdf_sha256": "d4fa97b7b08b8954c805470e109641f0bbf920c9139735f96f02d7482b843a05",
+    "source_text_sha256": "2d51ca8d8ba0896b4a17cc3c7e11fe8749249f2a3ccb1d6e0817504cf2bbaee6",
+    "reference_expression": "前收盘价格-0.57)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603337",
+    "ex_date": "2025-06-06",
+    "available_date": "2025-05-30",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.000000",
+    "reference_cash": "0.4746",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505291681297505_1.pdf",
+    "source_pdf_sha256": "b8bfc9a774ed26b8bd0099144a813fbb21f1d369c896aa9bd9ac3b384be9551a",
+    "source_text_sha256": "64eda4827b06ddb859745276fd17ad3ffb9e774092691120dca11deeef832b32",
+    "reference_expression": "前收盘价格-0.4746)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603444",
+    "ex_date": "2025-09-19",
+    "available_date": "2025-09-12",
+    "expected_cash": [
+      "6.6"
+    ],
+    "cash": "6.6",
+    "shares": "0.000000",
+    "reference_cash": "6.5739",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509111741779771_1.pdf",
+    "source_pdf_sha256": "05618bcad71170382d7a8d95797d22ebbed02a8a29bc3cf62f9c2f01722ef9e6",
+    "source_text_sha256": "d14a5c4a5c3c1cfb76cbefdfa56c9046fe03302273f7e80b49ac7149cf082d1a",
+    "reference_expression": "前收盘价格-6.5739)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603551",
+    "ex_date": "2025-06-09",
+    "available_date": "2025-05-31",
+    "expected_cash": [
+      "0.55"
+    ],
+    "cash": "0.55",
+    "shares": "0.000000",
+    "reference_cash": "0.53",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505301681905492_1.pdf",
+    "source_pdf_sha256": "77e52b38ce3894a73c4f0ddb77acde5dae150d09bf4aff4ed825285b5b689245",
+    "source_text_sha256": "bdab098b0b26ab21db62d61fb4928abcb40f5534f003e30a9857d03b83b1bda9",
+    "reference_expression": "前收盘价格-0.53",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605128",
+    "ex_date": "2025-05-22",
+    "available_date": "2025-05-16",
+    "expected_cash": [
+      "0.388"
+    ],
+    "cash": "0.388",
+    "shares": "0.490000",
+    "reference_cash": "0.38460",
+    "reference_shares": "0.48571",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505151673357775_1.pdf",
+    "source_pdf_sha256": "b694254396c69c1c1094328cd1d68b5d301c718f5f7eee7b2340eb597d7794fa",
+    "source_text_sha256": "11ccd3dc7b955b98c1f991bdb6131e692e7a7e26551078ba832e23ea8d5521e3",
+    "reference_expression": "前收盘价格-0.38460)÷(1+0.48571)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605266",
+    "ex_date": "2026-06-12",
+    "available_date": "2026-06-05",
+    "expected_cash": [
+      "1.27"
+    ],
+    "cash": "1.27",
+    "shares": "0.000000",
+    "reference_cash": "1.2175",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606041823251075_1.pdf",
+    "source_pdf_sha256": "f634184cbd08824adc06d4b9702b0676da6bb12aed33921284c413877b58a94f",
+    "source_text_sha256": "0bc8462fb6463b51f5b79b5e37fa6056a953fc7707647ba7902899d3b2f50880",
+    "reference_expression": "前收盘价格-1.2175)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688005",
+    "ex_date": "2025-03-06",
+    "available_date": "2025-02-28",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.490000",
+    "reference_cash": "0",
+    "reference_shares": "0.4798",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202502271643570316_1.pdf",
+    "source_pdf_sha256": "62c167f736bbf62d5749fa14dc091addaef5cbf59e91cd2c2dfadc91ef837d32",
+    "source_text_sha256": "bec2d1a980bf9e1324938d2a3a662a6dbd799cedac8a2dc0db5fb12ae2aa4dd5",
+    "reference_expression": "前收盘价格÷(1+0.4798)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688016",
+    "ex_date": "2025-10-17",
+    "available_date": "2025-10-11",
+    "expected_cash": [
+      "1.3"
+    ],
+    "cash": "1.3",
+    "shares": "0.000000",
+    "reference_cash": "1.27521",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202510101759580674_1.pdf",
+    "source_pdf_sha256": "ed25130c0aa7aa8efae37c4a6bc3c774fa799cac32d83726b0b9e3dab1f2cfe4",
+    "source_text_sha256": "f85152df51b25c74d42d365176da8ca909a82992b58ec0b0e95611133b9aa26b",
+    "reference_expression": "前收盘价格-1.27521",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688019",
+    "ex_date": "2025-06-16",
+    "available_date": "2025-06-06",
+    "expected_cash": [
+      "0.45"
+    ],
+    "cash": "0.45",
+    "shares": "0.300000",
+    "reference_cash": "0.44957",
+    "reference_shares": "0.29971",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506051685358094_1.pdf",
+    "source_pdf_sha256": "5d7c19f406d7b57858d0ce0d693ff073f0a8200f752425bffe56a52ab03f6299",
+    "source_text_sha256": "3eed459e28259b9c77f681323b162b107ad5224f38687d3d51eafb96f1ffe8aa",
+    "reference_expression": "前收盘价格-0.44957)÷(1+0.29971)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688023",
+    "ex_date": "2024-07-05",
+    "available_date": "2024-07-01",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.300000",
+    "reference_cash": "0",
+    "reference_shares": "0.2981",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406301637107855_1.pdf",
+    "source_pdf_sha256": "2f1b60420bf5f73fb3e6b7e43e799eda0ac5b7938bb315045a58639f711e4f5d",
+    "source_text_sha256": "f2c71a5b22edefb307e7b54771653ae7ba21ee5a99eb54b4f79a02c864ab17db",
+    "reference_expression": "前收盘价格-0)÷(1+0.2981)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688072",
+    "ex_date": "2024-06-11",
+    "available_date": "2024-06-04",
+    "expected_cash": [
+      "0.35"
+    ],
+    "cash": "0.35",
+    "shares": "0.480000",
+    "reference_cash": "0.3492",
+    "reference_shares": "0.4789",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406031635275309_1.pdf",
+    "source_pdf_sha256": "772f7b2f1800e0e9aa84f80dcd2b3ca870a6e814c5fec7091b4906e65b96e0bd",
+    "source_text_sha256": "eb954e25d0e4da5c0314143a4dc701c11f2a9a329fbde47448af0f96a6071cf4",
+    "reference_expression": "股权登记日收盘价格-0.3492)÷(1+0.4789)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688073",
+    "ex_date": "2025-06-09",
+    "available_date": "2025-06-03",
+    "expected_cash": [
+      "0.9"
+    ],
+    "cash": "0.9",
+    "shares": "0.000000",
+    "reference_cash": "0.86",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506021683528393_1.pdf",
+    "source_pdf_sha256": "89e1185d3ed3fe0f70cdcf5db767520d76cbdc105f35138f41c485cd6ec04c12",
+    "source_text_sha256": "27337585b6949f6844d8dc161fb726c7080dc38464f9e5c3f287b87abab365ad",
+    "reference_expression": "前收盘价格-0.86元/股)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688090",
+    "ex_date": "2025-06-26",
+    "available_date": "2025-06-20",
+    "expected_cash": [
+      "0.1"
+    ],
+    "cash": "0.1",
+    "shares": "0.300000",
+    "reference_cash": "0.0997",
+    "reference_shares": "0.2991",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506191693831914_1.pdf",
+    "source_pdf_sha256": "79923e05ed80b462f6d13f1539c1e2e58f1b82ac8b01c19d50526d5a467edcda",
+    "source_text_sha256": "b107e2755cec32678d4151bb51afad0d5f9730a6a6d4ff05fa9b8d1ee1cf6cae",
+    "reference_expression": "前收盘价格-0.0997)÷(1+0.2991)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688120",
+    "ex_date": "2025-07-03",
+    "available_date": "2025-06-26",
+    "expected_cash": [
+      "0.55"
+    ],
+    "cash": "0.55",
+    "shares": "0.490000",
+    "reference_cash": "0.54881",
+    "reference_shares": "0.48894",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506251697432368_1.pdf",
+    "source_pdf_sha256": "1f9ed902c4be0dea5071997bc1e427eed38d8026000d235be375e062ab915bf5",
+    "source_text_sha256": "b270cdc9423b99456c502fff6925678dd1b6fe5d1828d78d465b7ca60ae65277",
+    "reference_expression": "前收盘价格-0.54881)÷(1+0.48894)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688130",
+    "ex_date": "2024-07-12",
+    "available_date": "2024-07-12",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.400000",
+    "reference_cash": "0",
+    "reference_shares": "0.39685",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407111637801933_1.pdf",
+    "source_pdf_sha256": "f1527a063fedf6611ee728014cc1e5bb9fc3fe425030405aed646dd1e3013665",
+    "source_text_sha256": "0ec056353d4fd3fc07a494abeebff4d0bfc42c630e0965b3ddbe8db6b0e5d35f",
+    "reference_expression": "前收盘价格÷(1+0.39685)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688152",
+    "ex_date": "2025-06-13",
+    "available_date": "2025-06-05",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.300000",
+    "reference_cash": "0",
+    "reference_shares": "0.2964",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506041684731395_1.pdf",
+    "source_pdf_sha256": "b9dc77b827ca92e8210020490fe38668300685582d0e461bd8187f47f74c9386",
+    "source_text_sha256": "94311fe50e57cc4efb9da7d6cd89f2963f7ab0708ae5cc76f0d381faaa8c81dc",
+    "reference_expression": "前收盘价格-0)÷(1+0.2964)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688167",
+    "ex_date": "2026-06-10",
+    "available_date": "2026-06-04",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.450000",
+    "reference_cash": "0",
+    "reference_shares": "0.448",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606031823211444_1.pdf",
+    "source_pdf_sha256": "97d209e879a347f1b73e07f5efb93f94e316df21f393ac2a396d221bf87ed883",
+    "source_text_sha256": "e22ec5ef69c3f02bab438c6f25c6883594faefeccea4e36ae092f532193637f6",
+    "reference_expression": "前收盘价格÷(1+0.448)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688199",
+    "ex_date": "2024-06-19",
+    "available_date": "2024-06-13",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.490000",
+    "reference_cash": "0",
+    "reference_shares": "0.4873",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406121636012249_1.pdf",
+    "source_pdf_sha256": "f436158ac535e5a227ce5524d6b10c424b646c9ae0ae20f962fbf18dade26560",
+    "source_text_sha256": "504caf81d485470551dad0c09841b6220281fc8ed6d2ae2006054f355818a1fb",
+    "reference_expression": "前收盘价格÷(1+0.4873)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688215",
+    "ex_date": "2026-06-10",
+    "available_date": "2026-06-03",
+    "expected_cash": [
+      "0.18"
+    ],
+    "cash": "0.18",
+    "shares": "0.450000",
+    "reference_cash": "0.179",
+    "reference_shares": "0.447",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606021823163939_1.pdf",
+    "source_pdf_sha256": "1c8084141d51cbf4cbae03507428a9c9e4d47ae85335a088de430fc62e27c9db",
+    "source_text_sha256": "84f1116d90bc9da9f95fb26ffb2bd129f39fcf13a651b6c8abb7e824f3687f7e",
+    "reference_expression": "前收盘价格-0.179)÷(1+0.447)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688244",
+    "ex_date": "2025-06-11",
+    "available_date": "2025-06-05",
+    "expected_cash": [
+      "0.05"
+    ],
+    "cash": "0.05",
+    "shares": "0.480000",
+    "reference_cash": "0.04965",
+    "reference_shares": "0.47662",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506041684746274_1.pdf",
+    "source_pdf_sha256": "f36c5ca74f404d7dd5a6b453ac0d5c64a04d9751f1ee21b58c3a484b52df2010",
+    "source_text_sha256": "a07a663113e375f56142d9d3de05940905fedfafd6bc5f0571f9e6d848434bb9",
+    "reference_expression": "前收盘价-0.04965)÷(1+0.47662)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688257",
+    "ex_date": "2024-06-19",
+    "available_date": "2024-06-13",
+    "expected_cash": [
+      "0.4"
+    ],
+    "cash": "0.4",
+    "shares": "0.400000",
+    "reference_cash": "0.39281",
+    "reference_shares": "0.392808",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406121636006228_1.pdf",
+    "source_pdf_sha256": "0834c6d6516cc1bec87b192914277d5228ffc71c7432d72134bf71f0edc8ca31",
+    "source_text_sha256": "f4ad93b7a9d24b643f991053036b7b1a850c72b08d89dc92954cd02d6eccba7d",
+    "reference_expression": "股权登记日收盘价格-0.39281)÷(1+0.392808)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688258",
+    "ex_date": "2024-07-11",
+    "available_date": "2024-07-05",
+    "expected_cash": [
+      "0.19869"
+    ],
+    "cash": "0.19869",
+    "shares": "0.400000",
+    "reference_cash": "0.19528",
+    "reference_shares": "0.39313",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407041637562199_1.pdf",
+    "source_pdf_sha256": "cd5f595417e9b94a09889321b119104306d0530a85e4ce98732cb3146b7ac48c",
+    "source_text_sha256": "37238712049e8c4906d92fe2752655b582174bfa0ea31ca5b6e5d5e44ab72faa",
+    "reference_expression": "股权登记日收盘价格-0.19528)÷(1+0.39313)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688270",
+    "ex_date": "2026-06-17",
+    "available_date": "2026-06-11",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.400000",
+    "reference_cash": "0",
+    "reference_shares": "0.3993",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606101823423452_1.pdf",
+    "source_pdf_sha256": "bedb02fd55cfdb42727966bfab204a2f55b6e56f84621ecd12f17b6721583db7",
+    "source_text_sha256": "df2c32821bcd71c29df69bef9239c8955d8f423a08e5db5b834a2e97cda10897",
+    "reference_expression": "前收盘价格-0)÷(1+0.3993)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688301",
+    "ex_date": "2025-06-19",
+    "available_date": "2025-06-13",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.400000",
+    "reference_cash": "0.9988",
+    "reference_shares": "0.3995",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506121689693179_1.pdf",
+    "source_pdf_sha256": "ab7d8ef90edf3d4746c8000bc9e2a2dfd2ec833957df2e5e0d50f4fef2eedcb5",
+    "source_text_sha256": "0c66f6cc143128300135eb098bee6cfc524b3e7bf88005d1ecda97d7d515d1ad",
+    "reference_expression": "前收盘价格-0.9988)÷(1+0.3995)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688325",
+    "ex_date": "2026-06-05",
+    "available_date": "2026-05-29",
+    "expected_cash": [
+      "1.3"
+    ],
+    "cash": "1.3",
+    "shares": "0.000000",
+    "reference_cash": "1.2699",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605281822950477_1.pdf",
+    "source_pdf_sha256": "824b1ab8b23a23584a236fdaf53ea87c9a73daaeb60760598b9386a00f29c49b",
+    "source_text_sha256": "4ed6c53dbc1d1259331fba95c9031d8a7e7aaf780820e5d1c9778a4df2d9ac7b",
+    "reference_expression": "前收盘价格-1.2699元/股)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688348",
+    "ex_date": "2024-07-03",
+    "available_date": "2024-06-27",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.400000",
+    "reference_cash": "0.9883",
+    "reference_shares": "0.3953",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636918712_1.pdf",
+    "source_pdf_sha256": "0b68b8304be5a3e2b50cd81281b5c6aeb19980da26984e8fc2a33feaa045e5fc",
+    "source_text_sha256": "cca7ae469f0098e348cb48602c5ce3608ec0b91fa71a64e302dcbb881a491207",
+    "reference_expression": "股权登记日收盘价格-0.9883)÷(1+0.3953)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688368",
+    "ex_date": "2024-06-14",
+    "available_date": "2024-06-06",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.400000",
+    "reference_cash": "0",
+    "reference_shares": "0.3954",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406051635591841_1.pdf",
+    "source_pdf_sha256": "93f0ea0b97bae2c24f53c3756f34ab1e28a850c8fe37dba9041943b026d84606",
+    "source_text_sha256": "2a065b27beea2cf269cc2b41e38ec0b50c0fca1653f2520ad626be8fb186365a",
+    "reference_expression": "前收盘价格÷(1+0.3954)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688409",
+    "ex_date": "2024-06-24",
+    "available_date": "2024-06-24",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.480000",
+    "reference_cash": "0.4932",
+    "reference_shares": "0.4734",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406231636800235_1.pdf",
+    "source_pdf_sha256": "959e3c7a46e39369e7ae425d16fd7b0d24f58899dcfe9bfcef8548693e6c5aff",
+    "source_text_sha256": "5a2ce44adfdc243383f4de6aaa053d8736a3eda52b29ec045dc229288ba219c1",
+    "reference_expression": "前收盘价格-0.4932)÷(1+0.4734)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688416",
+    "ex_date": "2026-06-24",
+    "available_date": "2026-06-15",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.300000",
+    "reference_cash": "0",
+    "reference_shares": "0.297",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606141823550626_1.pdf",
+    "source_pdf_sha256": "395cfd74beafcf84691ab58e1ba97e9b47aecf393b54be9bca3a44de388880e4",
+    "source_text_sha256": "d59a84ac0a49cc36f3bc4e7bd4a6ef45bf45061136928757c414b8c7d4590d79",
+    "reference_expression": "前收盘价格÷(1+0.297)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688448",
+    "ex_date": "2026-06-02",
+    "available_date": "2026-05-26",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.350000",
+    "reference_cash": "0",
+    "reference_shares": "0.3493",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605251822854642_1.pdf",
+    "source_pdf_sha256": "26433afbf194ea845edc5743316dd74a5df3a0b2b993093ca167f01d34f8f83b",
+    "source_text_sha256": "758deaf230ff5672bfcfb411fc3efdc288bad0eaa557dc160963da2668650780",
+    "reference_expression": "前收盘价格÷(1+0.3493)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688486",
+    "ex_date": "2025-04-25",
+    "available_date": "2025-04-19",
+    "expected_cash": [
+      "0.7"
+    ],
+    "cash": "0.7",
+    "shares": "0.300000",
+    "reference_cash": "0.69406",
+    "reference_shares": "0.29746",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504181658503498_1.pdf",
+    "source_pdf_sha256": "cf5894ae0ba43cdd421ec8edbd3ec2c613225555e1b104b7a752ff15bda73418",
+    "source_text_sha256": "d3b67abd6218282c9dea131933ea17d8cff595cf8e1bd9eba34e975bd7e7303a",
+    "reference_expression": "前收盘价格-0.69406元/股)÷(1+0.29746)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688489",
+    "ex_date": "2026-05-27",
+    "available_date": "2026-05-21",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.480000",
+    "reference_cash": "0",
+    "reference_shares": "0.47",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605201822493795_1.pdf",
+    "source_pdf_sha256": "2d71786a8e868951694c1e9a524c1ce18e4b6a703fd29d1db86b28c1f7f645db",
+    "source_text_sha256": "568bf4ff2f2195a223dc110232445902fbaedf1227df795013e9684a5e8f1cfb",
+    "reference_expression": "前收盘价格-0)÷(1+0.47)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688503",
+    "ex_date": "2025-06-12",
+    "available_date": "2025-06-06",
+    "expected_cash": [
+      "0.43447"
+    ],
+    "cash": "0.43447",
+    "shares": "0.000000",
+    "reference_cash": "0.41317",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506051685367318_1.pdf",
+    "source_pdf_sha256": "e4174ddc9ad9911f5fc65ea6787164e13d2239418e574e1118deb5a06aadc92d",
+    "source_text_sha256": "e0a283f803c08310781fcd43da9d503b5c9f15871d2de794da2b6329180d36ba",
+    "reference_expression": "前收盘价格-0.41317",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688522",
+    "ex_date": "2026-06-01",
+    "available_date": "2026-05-26",
+    "expected_cash": [
+      "0.06"
+    ],
+    "cash": "0.06",
+    "shares": "0.400000",
+    "reference_cash": "0.0599",
+    "reference_shares": "0.3995",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605251822858347_1.pdf",
+    "source_pdf_sha256": "13eba3f68df4a60cad130e838e390c1ff9eb3c8fbd6a06abc34dda61e2822f22",
+    "source_text_sha256": "aa4a2c3166280ae4252f0c18e7f3bda4ca64095bdfa152e49df1567ae49ca472",
+    "reference_expression": "前收盘价格-0.0599)÷(1+0.3995)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688531",
+    "ex_date": "2025-07-10",
+    "available_date": "2025-07-04",
+    "expected_cash": [
+      "0.6"
+    ],
+    "cash": "0.6",
+    "shares": "0.450000",
+    "reference_cash": "0.5949",
+    "reference_shares": "0.4462",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202507031702263181_1.pdf",
+    "source_pdf_sha256": "d8ce02dd06f261706d6be6afdea460f718fe52aeaf216d9ac926614cc27e0df0",
+    "source_text_sha256": "7cb82efbfe2e0f73ab0e50a4347a3474f2f3b5b1606670328815f03b9bfecbdd",
+    "reference_expression": "前收盘价格-0.5949)÷(1+0.4462)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688543",
+    "ex_date": "2024-06-07",
+    "available_date": "2024-06-07",
+    "expected_cash": [
+      "0.8"
+    ],
+    "cash": "0.8",
+    "shares": "0.200000",
+    "reference_cash": "0.79175",
+    "reference_shares": "0.19794",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406061635729042_1.pdf",
+    "source_pdf_sha256": "a9b55a22052215917300f1b82d1c819b66d7f13107e6f7d8f4ce3a22022fa27e",
+    "source_text_sha256": "f74f90ed084e7e7d57de518f86236ed7362fcb6de53e7d12b74b67445824b28c",
+    "reference_expression": "前收盘价格-0.79175)÷(1+0.19794)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688576",
+    "ex_date": "2026-06-23",
+    "available_date": "2026-06-16",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.490000",
+    "reference_cash": "0.4966",
+    "reference_shares": "0.4867",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606151823577284_1.pdf",
+    "source_pdf_sha256": "5ec52566b19ad5df0c836f2ac3e22feb7cf22c4c2950a876986dd7b60af714f5",
+    "source_text_sha256": "4c899fdc0d874f9d0a9b8ba6f9f199de5ce7dc695e51335577d89b7038b23d05",
+    "reference_expression": "前收盘价格-0.4966)÷(1+0.4867)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688592",
+    "ex_date": "2026-07-02",
+    "available_date": "2026-06-26",
+    "expected_cash": [
+      "0.08"
+    ],
+    "cash": "0.08",
+    "shares": "0.450000",
+    "reference_cash": "0.0788",
+    "reference_shares": "0.4435",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606251823855384_1.pdf",
+    "source_pdf_sha256": "4729e6323370cb64d0fc2d3fb52f9e1c440678ecc64aa0d9207e6becb7f0decb",
+    "source_text_sha256": "304e029267841c43bab1b06982983d1257d7e338c6a8879f87a47204ee67980a",
+    "reference_expression": "前收盘价格-0.0788)÷(1+0.4435)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688598",
+    "ex_date": "2024-07-03",
+    "available_date": "2024-06-27",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.490000",
+    "reference_cash": "0",
+    "reference_shares": "0.4879",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636922830_1.pdf",
+    "source_pdf_sha256": "3c773273fd28125dc62e5d29238d1594633366c3afceab1130e18e888c46ae72",
+    "source_text_sha256": "560246145044674e06b64baa1db40ac20d474717c70a6566b164fb4f147bbc97",
+    "reference_expression": "前收盘价格-0)÷(1+0.4879)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688603",
+    "ex_date": "2025-01-06",
+    "available_date": "2025-01-06",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.450000",
+    "reference_cash": "0",
+    "reference_shares": "0.4441",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202501051641811970_1.pdf",
+    "source_pdf_sha256": "dd33b642140ac8367c67de9819aa6b6f7cd6519edddcf791a01c3edcaef328a6",
+    "source_text_sha256": "1ed44d85d784c30cea25923a58bd5ae4bc93e245c8a17e90e149051ae5b66bfd",
+    "reference_expression": "前收盘价÷(1+0.4441)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688606",
+    "ex_date": "2024-10-25",
+    "available_date": "2024-10-19",
+    "expected_cash": [
+      "1.5"
+    ],
+    "cash": "1.5",
+    "shares": "0.000000",
+    "reference_cash": "1.4674",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202410181640360611_1.pdf",
+    "source_pdf_sha256": "3550a71236d971d3bafc8bb057b9bce6d7f74d5c37c125a29ac9ceb9328a6554",
+    "source_text_sha256": "fbdf6eb7a1032b7ee62df22d2594eedd8f5d88213c95164816445c2ab3e224da",
+    "reference_expression": "前收盘价格-1.4674)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688651",
+    "ex_date": "2026-07-10",
+    "available_date": "2026-07-04",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.360000",
+    "reference_cash": "0",
+    "reference_shares": "0.359",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202607031826699538_1.pdf",
+    "source_pdf_sha256": "862d52e4efe702abbdcd9173d13f0c7903a0bae8a550a8b74b4e633eea0cfd7a",
+    "source_text_sha256": "cbc728ddc875561c37f7bc49a27437e3e543c9a1e7043d3ba2510070c876e776",
+    "reference_expression": "前收盘价格-0)÷(1+0.359)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688719",
+    "ex_date": "2024-06-21",
+    "available_date": "2024-06-21",
+    "expected_cash": [
+      "0.51134"
+    ],
+    "cash": "0.51134",
+    "shares": "0.400000",
+    "reference_cash": "0.51000",
+    "reference_shares": "0.39895",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406201636729382_1.pdf",
+    "source_pdf_sha256": "83ee7afac5bb0640fd719689818f20f4079b194b428d7980eedbd559e007c547",
+    "source_text_sha256": "9fea0d9b183857cadc9a50fc08ac394ab52eedfdd605b1f44b8be6beb76fcfff",
+    "reference_expression": "前收盘价格-0.51000)÷(1+0.39895)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688766",
+    "ex_date": "2024-06-06",
+    "available_date": "2024-05-31",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.400000",
+    "reference_cash": "0",
+    "reference_shares": "0.3985",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405301634957714_1.pdf",
+    "source_pdf_sha256": "90b67ec20d4f05afaea421876cfe480086afaba0a61c8aa17cf03bb3a2feaa21",
+    "source_text_sha256": "c9893b68729e5aeadf6b161e464cdbf6f30a9705beb73089afc39431f73268be",
+    "reference_expression": "前收盘价格÷(1+0.3985)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688788",
+    "ex_date": "2025-06-24",
+    "available_date": "2025-06-18",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.490000",
+    "reference_cash": "0",
+    "reference_shares": "0.4854",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506171692635037_1.pdf",
+    "source_pdf_sha256": "59266b41218f07736dbbd5112a46a04f0f590112309e7c5637b7b6994ce3e64e",
+    "source_text_sha256": "fc9d026f528f7c5a6d63a33960f7db1fe6deadb2a51364dd6a1fd40a638664a7",
+    "reference_expression": "前收盘价-0)÷(1+0.4854)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000333",
+    "ex_date": "2024-05-15",
+    "available_date": "2024-05-09",
+    "expected_cash": [
+      "3"
+    ],
+    "cash": "3",
+    "shares": "0.000000",
+    "reference_cash": "2.9791154",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405081632672875_1.pdf",
+    "source_pdf_sha256": "c0cab0c355c20c4dbb3510dba55b0645185866696d99a16a87ff3c887a540f34",
+    "source_text_sha256": "dd215974d20749bb9cfbaabe827611d1a135cdc01a527aafead658e69da53d50",
+    "reference_expression": "股权登记日收盘价-2.9791154",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000513",
+    "ex_date": "2025-06-13",
+    "available_date": "2025-06-07",
+    "expected_cash": [
+      "1.1"
+    ],
+    "cash": "1.1",
+    "shares": "0.000000",
+    "reference_cash": "1.0793961",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506061685910705_1.pdf",
+    "source_pdf_sha256": "b92cc15bcab22da5bf211b8dcc60f62168466deba2a22c98b1312c836c9c8e79",
+    "source_text_sha256": "00a855cd03075aad16294af58479627420315595e21b408a1ebfaa4dfe358b81",
+    "reference_expression": "股权登记日收盘价-1.0793961",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000581",
+    "ex_date": "2024-06-20",
+    "available_date": "2024-06-14",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.000000",
+    "reference_cash": "0.9696825",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406131636102322_1.pdf",
+    "source_pdf_sha256": "303448960149e2553ee467ec0056ba4ec9163636f3ba8062bdceb7622303fd73",
+    "source_text_sha256": "7fba91f3e0cce813e67b83a563f1d9104433450fcd040704bce4e452e63ee68d",
+    "reference_expression": "股权登记日收盘价-0.9696825",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000651",
+    "ex_date": "2024-08-28",
+    "available_date": "2024-08-22",
+    "expected_cash": [
+      "2.38"
+    ],
+    "cash": "2.38",
+    "shares": "0.000000",
+    "reference_cash": "2.3337380",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202408211639385096_1.pdf",
+    "source_pdf_sha256": "d452ed97074bd22b4ba02d639ef46e8b4bee1d1cf53cc8f931d1c72bd16d9d1c",
+    "source_text_sha256": "bdc49cf83f7819baaad59f8fe2eb22873a50a2ab55d152e798d8ae72421f53ab",
+    "reference_expression": "股权登记日收盘价-2.3337380",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000661",
+    "ex_date": "2024-04-18",
+    "available_date": "2024-04-12",
+    "expected_cash": [
+      "4.5"
+    ],
+    "cash": "4.5",
+    "shares": "0.000000",
+    "reference_cash": "4.4736091",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404111630161829_1.pdf",
+    "source_pdf_sha256": "aedd8105c0824681744ef7a06cf6fa78b8f3351cec99bc983a67fbaf9b28d00f",
+    "source_text_sha256": "fd3e8f88f05d6f4cc3258068a122d7f1d0e7eb75cb54bfce12183ae7f62313c5",
+    "reference_expression": "股权登记日收盘价-4.4736091",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.001202",
+    "ex_date": "2025-06-18",
+    "available_date": "2025-06-11",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.300000",
+    "reference_cash": "0",
+    "reference_shares": "0.2941856",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506101688322473_1.pdf",
+    "source_pdf_sha256": "cde9bce114376e1d12be769c2bb53c1756fd0d93ec58c36a10ca8f6906cfbae8",
+    "source_text_sha256": "912dd2c3cc6e694eb724ea95dc64cf162928fe7703a25421c6a4843f90d31641",
+    "reference_expression": "股权登记日股票收盘价÷(1+0.2941856)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.001212",
+    "ex_date": "2025-05-29",
+    "available_date": "2025-05-23",
+    "expected_cash": [
+      "0.1"
+    ],
+    "cash": "0.1",
+    "shares": "0.400000",
+    "reference_cash": "0.0988848",
+    "reference_shares": "0.3955395",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505221677259951_1.pdf",
+    "source_pdf_sha256": "b9edd703600ce25ed1f79b83fb240b1612d6ea7bf535878c487e8cbefe5ebf2b",
+    "source_text_sha256": "333bab88efd6084ce2c16d989e124268f066e74d0978bd04c24e4c1ac4be3a64",
+    "reference_expression": "前一交易日收盘价-0.0988848)/(1+0.3955395)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.001299",
+    "ex_date": "2025-04-29",
+    "available_date": "2025-04-22",
+    "expected_cash": [
+      "0.8"
+    ],
+    "cash": "0.8",
+    "shares": "0.300000",
+    "reference_cash": "0.7827273",
+    "reference_shares": "0.2935227",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504211660021232_1.pdf",
+    "source_pdf_sha256": "f950c455de9176869c60dfd2c093a7aa92fd4690868d0a3cc36781cd1c7cc21f",
+    "source_text_sha256": "2a370d609724ffce9c31adb7f27b6b402a11629c7333f37f841f3d4574c169f8",
+    "reference_expression": "股权登记日收盘价-0.7827273元/股)/(1+0.2935227)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.001301",
+    "ex_date": "2026-07-03",
+    "available_date": "2026-06-27",
+    "expected_cash": [
+      "0.8"
+    ],
+    "cash": "0.8",
+    "shares": "0.400000",
+    "reference_cash": "0.7966064",
+    "reference_shares": "0.3983032",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606261824813634_1.pdf",
+    "source_pdf_sha256": "624ab779527dac3b84d8f9a70bbacbf5b07de58389dcacf5ea738cb9103c33bc",
+    "source_text_sha256": "74d9f580ae70e611296a3ee84146767206aea19789271f929c1a80ecc5405557",
+    "reference_expression": "股权登记日收盘价格-0.7966064)÷(1+0.3983032)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002020",
+    "ex_date": "2025-05-29",
+    "available_date": "2025-05-22",
+    "expected_cash": [
+      "0.35"
+    ],
+    "cash": "0.35",
+    "shares": "0.000000",
+    "reference_cash": "0.3308293",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505211676738071_1.pdf",
+    "source_pdf_sha256": "9ac7065bb70f8ec3a336f0b29d5bccf154488de7b4152a1b7e4f38ef88834ea9",
+    "source_text_sha256": "8ee25e5a2776d85ddf17a92fbb146685d287ccfc126467caeba413582ee7b6a0",
+    "reference_expression": "股权登记日收盘价-0.3308293",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002032",
+    "ex_date": "2024-05-28",
+    "available_date": "2024-05-21",
+    "expected_cash": [
+      "2.73"
+    ],
+    "cash": "2.73",
+    "shares": "0.000000",
+    "reference_cash": "2.7141031",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405201633878086_1.pdf",
+    "source_pdf_sha256": "b16fecf3741256e762c0ccc494f19dd2475cf1e2156e0ce1112d78ca92dd59e9",
+    "source_text_sha256": "2e748f1cf9cdcca440ce9181c1cff324dadd654bc1cd58a9cf2c8e86c06e559b",
+    "reference_expression": "股权登记日收盘价-2.7141031",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002271",
+    "ex_date": "2024-05-22",
+    "available_date": "2024-05-15",
+    "expected_cash": [
+      "0.6"
+    ],
+    "cash": "0.6",
+    "shares": "0.000000",
+    "reference_cash": "0.584913",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405141633063085_1.pdf",
+    "source_pdf_sha256": "1b46e044a8daf6521fe4d74d71bd62258767bbffd03a02bb281b0e2cc96d524b",
+    "source_text_sha256": "69a3e49b7c83781f10645cfa85a1f5c83c7962e39aa12fc6d558cf9e86451690",
+    "reference_expression": "股权登记日收盘价-0.584913",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002318",
+    "ex_date": "2025-04-24",
+    "available_date": "2025-04-18",
+    "expected_cash": [
+      "0.97"
+    ],
+    "cash": "0.97",
+    "shares": "0.000000",
+    "reference_cash": "0.9416660",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504171657998192_1.pdf",
+    "source_pdf_sha256": "45d03f11ddc8317183edd5700c62d7878e5f3eb59ec39946ed92fc0158f0689a",
+    "source_text_sha256": "0424f774f4590e53c5248f18b604b14078458ccae34d7c23438916f43a7ca213",
+    "reference_expression": "股权登记日收盘价-0.9416660",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002322",
+    "ex_date": "2024-05-23",
+    "available_date": "2024-05-16",
+    "expected_cash": [
+      "0.85"
+    ],
+    "cash": "0.85",
+    "shares": "0.000000",
+    "reference_cash": "0.8141023",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405151633184321_1.pdf",
+    "source_pdf_sha256": "737d923e2e060d8a91014f808a300af215d055529ad3896370141e7bc14c824a",
+    "source_text_sha256": "71191ea01f4a14e268884670b69e04db70bb1315d17a7133c06aff74a93db73b",
+    "reference_expression": "股权登记日收盘价-0.8141023",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002346",
+    "ex_date": "2025-06-13",
+    "available_date": "2025-06-05",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.000000",
+    "reference_cash": "0.4684649",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506041684777087_1.pdf",
+    "source_pdf_sha256": "e2856076742237fda78cf3497580d6b822de83245785905f93250a6c8d217714",
+    "source_text_sha256": "9dd0e99a0a039e1897160b4e50c037031eda58753b3f4f23ab14ab7c69eeb8fa",
+    "reference_expression": "股权登记日收盘价-0.4684649",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002432",
+    "ex_date": "2024-06-04",
+    "available_date": "2024-05-29",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.000000",
+    "reference_cash": "0.2583449",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405281634752541_1.pdf",
+    "source_pdf_sha256": "331ef61c31b383ea980ddb62bfc053b5bd2d235b3d6f2b276b0f278df91dc365",
+    "source_text_sha256": "5655f83ee2d1d6cfae3e7df636d01376fdab6581867d3a209ae5d27412e9d915",
+    "reference_expression": "股权登记日收盘价-0.2583449",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002458",
+    "ex_date": "2026-05-15",
+    "available_date": "2026-05-08",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.300000",
+    "reference_cash": "0",
+    "reference_shares": "0.2935433",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605071822038914_1.pdf",
+    "source_pdf_sha256": "150f5eae634c8b4b9b0e7d82be99027fea7e89aafc6518520fa8940fc6b55040",
+    "source_text_sha256": "04b674a7c214f92e2c96afe948d277afc02e5e5fc9c03f4b3432e9011dddc366",
+    "reference_expression": "股权登记日收盘价/(1+0.2935433)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603337",
+    "ex_date": "2026-06-11",
+    "available_date": "2026-06-05",
+    "expected_cash": [
+      "0.45"
+    ],
+    "cash": "0.45",
+    "shares": "0.000000",
+    "reference_cash": "0.4288",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606041823252531_1.pdf",
+    "source_pdf_sha256": "9a995ec3690b7a8f39045640189d68052102153e33e4e6caa864d30c4e2c0a98",
+    "source_text_sha256": "1be1cc23fd66ba75739a25c3caa94aa5bcb49d2e00adeb4971a9a13facf2e348",
+    "reference_expression": "前收盘价格-0.4288)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603444",
+    "ex_date": "2025-11-28",
+    "available_date": "2025-11-21",
+    "expected_cash": [
+      "6"
+    ],
+    "cash": "6",
+    "shares": "0.000000",
+    "reference_cash": "5.9763",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202511201784987534_1.pdf",
+    "source_pdf_sha256": "27534353ba4a5ffe254528f0f83c14c538bb129fd6fde28af720abbc812cbf90",
+    "source_text_sha256": "dc1dcc3d2782f2f6d91f6c9b693443fc4ba23eb7f7b3144699cf20ac11f162d0",
+    "reference_expression": "前收盘价格-5.9763)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.605128",
+    "ex_date": "2026-06-02",
+    "available_date": "2026-05-27",
+    "expected_cash": [
+      "0.28"
+    ],
+    "cash": "0.28",
+    "shares": "0.490000",
+    "reference_cash": "0.27835",
+    "reference_shares": "0.48711",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605261822884652_1.pdf",
+    "source_pdf_sha256": "ca1945877aac5b1c860c7bb6d89070d68d83e846c6e8bfc19fa9dd0b969e198e",
+    "source_text_sha256": "55def36de9a04bec0cc20872a9ea24fd7a02ecf3a36a2b3896219c254f6d38b8",
+    "reference_expression": "前收盘价格-0.27835)÷(1+0.48711)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688016",
+    "ex_date": "2026-06-05",
+    "available_date": "2026-05-30",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.000000",
+    "reference_cash": "0.980",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605291823023553_1.pdf",
+    "source_pdf_sha256": "ffce9a13acfaa01784e20969d8a3bf12cf724623305f5c5123f867a023bc6d8e",
+    "source_text_sha256": "9ab543ebc2fb2c74ef42dab940811881f3c3c39b583394a8ca1ecce1fed98cf6",
+    "reference_expression": "前收盘价格-0.980",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688073",
+    "ex_date": "2026-06-10",
+    "available_date": "2026-06-04",
+    "expected_cash": [
+      "1.16"
+    ],
+    "cash": "1.16",
+    "shares": "0.000000",
+    "reference_cash": "1.10",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606031823211773_1.pdf",
+    "source_pdf_sha256": "d9df5f4f53719ad76aa9bab8c7a4f36d96e4ad8bbfaf37934dc1ce8610bad89d",
+    "source_text_sha256": "b6cef48b6014631bc7a90d3cc3dff245fe1ac8688e5c9fa4658f456925728a67",
+    "reference_expression": "前收盘价格-1.10元/股)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688090",
+    "ex_date": "2026-06-25",
+    "available_date": "2026-06-18",
+    "expected_cash": [
+      "0.1"
+    ],
+    "cash": "0.1",
+    "shares": "0.300000",
+    "reference_cash": "0.0998",
+    "reference_shares": "0.2993",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606171823638868_1.pdf",
+    "source_pdf_sha256": "668956ff0b8f1303f18927fa775681389416019bba031a8de7fa8478897ed584",
+    "source_text_sha256": "54379e84b46019e2366edb692383a55917ccf0365ef50a367f29bfe7434eaf62",
+    "reference_expression": "前收盘价格-0.0998)÷(1+0.2993)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688120",
+    "ex_date": "2026-06-10",
+    "available_date": "2026-06-04",
+    "expected_cash": [
+      "0.4"
+    ],
+    "cash": "0.4",
+    "shares": "0.400000",
+    "reference_cash": "0.39892",
+    "reference_shares": "0.39892",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606031823212343_1.pdf",
+    "source_pdf_sha256": "31da27f53ebbc55338ef2f620be916fc49a2071417aebbfeed9498ed002329e8",
+    "source_text_sha256": "989c46a5602ee6ce52f247c1905e0987414d3714893c0b3034ec71326a4208ea",
+    "reference_expression": "前收盘价格-0.39892)÷(1+0.39892)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688130",
+    "ex_date": "2025-06-13",
+    "available_date": "2025-06-07",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.300000",
+    "reference_cash": "0",
+    "reference_shares": "0.29814",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506061685977774_1.pdf",
+    "source_pdf_sha256": "6fd47c56220c8331494216947e09fffb6ec71fc378dd1583a6341f4d13e7810d",
+    "source_text_sha256": "e2c48a56171ad9ef93266daf4bb467491d453d69ff3680f0e23d35762b0ba480",
+    "reference_expression": "前收盘价格÷(1+0.29814)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688257",
+    "ex_date": "2025-05-30",
+    "available_date": "2025-05-24",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.400000",
+    "reference_cash": "0.29616",
+    "reference_shares": "0.39488",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505231677779455_1.pdf",
+    "source_pdf_sha256": "fa58eafa9f3d85128597557264b45319ac11b331813a2b7af35355b7530a8db3",
+    "source_text_sha256": "166b7f7d654814148ca626d7bcd64bda0b8133b58b6c4b08c0ffbe181bdd969f",
+    "reference_expression": "股权登记日收盘价格-0.29616)÷(1+0.39488)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688301",
+    "ex_date": "2026-06-12",
+    "available_date": "2026-06-05",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.400000",
+    "reference_cash": "0.9993",
+    "reference_shares": "0.3997",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606041823256471_1.pdf",
+    "source_pdf_sha256": "fa37b04fefda2ba453b1f4360bd3082eaed2c1fc9722a16560ddc27b0cff03ed",
+    "source_text_sha256": "97d28d6bf8e0964fd1a00f3786330410b6061326cc80cfb7881a181e97a8080f",
+    "reference_expression": "前收盘价格-0.9993)÷(1+0.3997)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688368",
+    "ex_date": "2026-06-09",
+    "available_date": "2026-06-03",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.400000",
+    "reference_cash": "0.9937",
+    "reference_shares": "0.3975",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606021823166284_1.pdf",
+    "source_pdf_sha256": "e4c6e499a700554725cd8f7a0fdb2df812bef71b71b0b59b0315bb990a941daa",
+    "source_text_sha256": "7f3f86400a23623ad943fc9a2e289fc2ad06c45ef7c8106d2b2cb477bde40e99",
+    "reference_expression": "前收盘价格-0.9937)÷1.3975",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688503",
+    "ex_date": "2026-06-18",
+    "available_date": "2026-06-12",
+    "expected_cash": [
+      "0.432"
+    ],
+    "cash": "0.432",
+    "shares": "0.000000",
+    "reference_cash": "0.413",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606111823457819_1.pdf",
+    "source_pdf_sha256": "889777c27aac4dc608559254b1f7d8e7d55506acaf63bac944574a85b8501715",
+    "source_text_sha256": "16a780a663451738cfe1ef438f07954b22f08435a7ae5451249a98f95f455595",
+    "reference_expression": "前收盘价格-0.413",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688543",
+    "ex_date": "2025-05-29",
+    "available_date": "2025-05-29",
+    "expected_cash": [
+      "0.9"
+    ],
+    "cash": "0.9",
+    "shares": "0.200000",
+    "reference_cash": "0.89146",
+    "reference_shares": "0.19810",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505281680734549_1.pdf",
+    "source_pdf_sha256": "3dd3761f2fbc928c42ad7eabdfa5e4b025e3b5208ca0c8d5a2f27d34e5ac4634",
+    "source_text_sha256": "c50e4fbc156e2127d25f741a8435afa17c7eaa54dd5ad5f2010e4822b3c1b017",
+    "reference_expression": "前收盘价格-0.89146)÷(1+0.19810)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688603",
+    "ex_date": "2025-06-13",
+    "available_date": "2025-06-13",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.490000",
+    "reference_cash": "0.2973",
+    "reference_shares": "0.4856",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506121689683180_1.pdf",
+    "source_pdf_sha256": "54d5bc7870f99fc35055798288e519f64fe2f3e27762254bf768ad7b93bffb06",
+    "source_text_sha256": "d87052f0eb58519d65722c919b94c85f2dfc26e718f0fa4941c03d1488d360a7",
+    "reference_expression": "前收盘价-0.2973)÷1.4856",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688606",
+    "ex_date": "2025-06-11",
+    "available_date": "2025-06-05",
+    "expected_cash": [
+      "1.5"
+    ],
+    "cash": "1.5",
+    "shares": "0.000000",
+    "reference_cash": "1.4733",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506041684787372_1.pdf",
+    "source_pdf_sha256": "aef112278afb6c7ed7a68471a97660c0c1b19d8fd8dca0c1d616c7bf0782f86b",
+    "source_text_sha256": "0b60e880651b5612898e26f6aea6d56c09a66fcfa6b395b166a5029dbff2dee0",
+    "reference_expression": "前收盘价格-1.4733)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688623",
+    "ex_date": "2026-07-01",
+    "available_date": "2026-06-25",
+    "expected_cash": [
+      "0.835"
+    ],
+    "cash": "0.835",
+    "shares": "0.450000",
+    "reference_cash": "0.8273",
+    "reference_shares": "0.4459",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606241823811720_1.pdf",
+    "source_pdf_sha256": "28ca4081c44eb290ca6e8e496d468efb9519c938478d1391b3fd490d1e38496d",
+    "source_text_sha256": "0c79d7b9ad6cfc80547449878a638dfb531bbcc430668fe9165a22a1c1373337",
+    "reference_expression": "前收盘价格-0.8273)÷(1+0.4459)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688625",
+    "ex_date": "2025-06-09",
+    "available_date": "2025-06-03",
+    "expected_cash": [
+      "0.25"
+    ],
+    "cash": "0.25",
+    "shares": "0.400000",
+    "reference_cash": "0.2447",
+    "reference_shares": "0.3916",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506021683528403_1.pdf",
+    "source_pdf_sha256": "5acd1b4e6eaed163c9f999d7598267ed211fec24361e19d9184754c20bb70362",
+    "source_text_sha256": "0083dcb52d3bd3eb2eece9f4700e0851bed366f50703de71a7311c07b5d38315",
+    "reference_expression": "前收盘价格-0.2447)÷(1+0.3916)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688766",
+    "ex_date": "2025-05-30",
+    "available_date": "2025-05-26",
+    "expected_cash": [
+      "0.43"
+    ],
+    "cash": "0.43",
+    "shares": "0.400000",
+    "reference_cash": "0.4289",
+    "reference_shares": "0.3989",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505251678899477_1.pdf",
+    "source_pdf_sha256": "234e7133eadd28b571d7263fe648a5b7080f4728f88cfb61cbc99b5c711eeead",
+    "source_text_sha256": "b8851dd77c36999e9d0fdcf30abf47563b4fddd6fd41300007c38b94cb14b568",
+    "reference_expression": "前收盘价格-0.4289)÷(1+0.3989)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688788",
+    "ex_date": "2026-06-10",
+    "available_date": "2026-06-04",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.400000",
+    "reference_cash": "0",
+    "reference_shares": "0.3954",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606031823211352_1.pdf",
+    "source_pdf_sha256": "96e4ddf93962e70d07bd33f12fa31d56de9de87c6cfdc736620949ed67dafd56",
+    "source_text_sha256": "4b81120d5e7e613ff570b7e4d673ee98370c2c6dd6dcd73b06d2351fac5b9198",
+    "reference_expression": "前收盘价-0)÷(1+0.3954)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688800",
+    "ex_date": "2026-06-17",
+    "available_date": "2026-06-11",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.400000",
+    "reference_cash": "0.2987",
+    "reference_shares": "0.3982",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606101823426962_1.pdf",
+    "source_pdf_sha256": "db9f57f91225e95bdf5c5aac560baa1dbae9cf0766a816fc8a08a2623609d224",
+    "source_text_sha256": "ae60ef9a8b3f1ad05ea4658bb324b5e55b0dc2e1a2aef8294a338a5058bac010",
+    "reference_expression": "前收盘价格-0.2987)÷1.3982",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000333",
+    "ex_date": "2025-06-12",
+    "available_date": "2025-06-06",
+    "expected_cash": [
+      "3.5"
+    ],
+    "cash": "3.5",
+    "shares": "0.000000",
+    "reference_cash": "3.4788428",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506051685353982_1.pdf",
+    "source_pdf_sha256": "d9bb47f27deb4b2eb3fce504509d826c2fa6df3f17664feab24b5e0e2ddfbe3c",
+    "source_text_sha256": "4c37d969db4a4d5786d456c345df8492fa4b52a0660f58e84302b95de6283f0c",
+    "reference_expression": "股权登记日收盘价-3.4788428",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000581",
+    "ex_date": "2025-06-18",
+    "available_date": "2025-06-12",
+    "expected_cash": [
+      "0.9"
+    ],
+    "cash": "0.9",
+    "shares": "0.000000",
+    "reference_cash": "0.8699078",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506111688942002_1.pdf",
+    "source_pdf_sha256": "f1f7843853de3b18bc7173455f9e5d026e66fc2d6fc8ff5071375fd322705fe1",
+    "source_text_sha256": "cdc99ff52715c8ccefe3b76ce9ee69729f26dab08e0c8425c1562a4f3bbea754",
+    "reference_expression": "股权登记日收盘价-0.8699078",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000661",
+    "ex_date": "2025-07-04",
+    "available_date": "2025-06-27",
+    "expected_cash": [
+      "2.6"
+    ],
+    "cash": "2.6",
+    "shares": "0.000000",
+    "reference_cash": "2.5603368",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506261698042907_1.pdf",
+    "source_pdf_sha256": "7d5f72c028f6f561365370fbc0224e2a7063be60aea0367ea74563f3e6644848",
+    "source_text_sha256": "41e441cf86ece2fff1d394bf0f1e4a34bc556c52fb1b0ab47e691a1a19c3a5ec",
+    "reference_expression": "股权登记日收盘价-2.5603368",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000703",
+    "ex_date": "2026-09-18",
+    "available_date": "2026-09-10",
+    "expected_cash": [
+      "0.9"
+    ],
+    "cash": "0.9",
+    "shares": "0.000000",
+    "reference_cash": "0.8164176",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202609111829253206_1.pdf",
+    "source_pdf_sha256": "715eaa06cacce6eeaa492cbcbecc6697bc6e6f1bc8c6bdf0d3e326cff50a887c",
+    "source_text_sha256": "ac71b5003f23788be97da63ed0d841aab86184168612f6b84e856fde44c30708",
+    "reference_expression": "股权登记日收盘价-0.8164176",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.001268",
+    "ex_date": "2026-07-07",
+    "available_date": "2026-06-30",
+    "expected_cash": [
+      "0.3"
+    ],
+    "cash": "0.3",
+    "shares": "0.400000",
+    "reference_cash": "0.2971927",
+    "reference_shares": "0.3962569",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606291826548297_1.pdf",
+    "source_pdf_sha256": "866d7b71b8c75cf79ddf7adc0ce102f908ff13e4848491557bf568ed63422c48",
+    "source_text_sha256": "f75dbdd45568ca67d0357524bb9bb98e598755064cea30185a59b122fd856859",
+    "reference_expression": "前一交易日收盘价-0.2971927元/股)/(1+0.3962569股)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.001299",
+    "ex_date": "2026-04-29",
+    "available_date": "2026-04-23",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.300000",
+    "reference_cash": "0.4916542",
+    "reference_shares": "0.2949925",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604221821456149_1.pdf",
+    "source_pdf_sha256": "774a12bee55d9face98c9051439dd62418a486f0f65195945dda54802dd33356",
+    "source_text_sha256": "4ebce1fd42e881e66cf99b3ae914ea4feeb4956b0a4c5fab63fa5b92be2df560",
+    "reference_expression": "股权登记日收盘价-0.4916542元/股)/(1+0.2949925)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002020",
+    "ex_date": "2026-06-11",
+    "available_date": "2026-06-04",
+    "expected_cash": [
+      "0.35"
+    ],
+    "cash": "0.35",
+    "shares": "0.000000",
+    "reference_cash": "0.3336802",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606031823211446_1.pdf",
+    "source_pdf_sha256": "d9439de8142cfd7d4fcae6a115485d2fc7368740d2804ccf438c2a0d55258116",
+    "source_text_sha256": "3987bfdad94c305d8e41dff415ab58551fccf93e416b95f8243c4582e190ae8d",
+    "reference_expression": "股权登记日收盘价-0.3336802",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002032",
+    "ex_date": "2025-05-27",
+    "available_date": "2025-05-19",
+    "expected_cash": [
+      "2.81"
+    ],
+    "cash": "2.81",
+    "shares": "0.000000",
+    "reference_cash": "2.7936332",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505181674886216_1.pdf",
+    "source_pdf_sha256": "49ece91360295010aff9433ef01d62a033aa1636dba1117e7b1bdaa9c63aad42",
+    "source_text_sha256": "d621a130abc3cd987558271b65f7dd0946eb26241136c119222735aee93ede8b",
+    "reference_expression": "股权登记日收盘价-2.7936332",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002322",
+    "ex_date": "2024-09-20",
+    "available_date": "2024-09-12",
+    "expected_cash": [
+      "0.39"
+    ],
+    "cash": "0.39",
+    "shares": "0.000000",
+    "reference_cash": "0.3735292",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202409111639836766_1.pdf",
+    "source_pdf_sha256": "5ebdb1306dadf34f3278818e3549f414dc3d13dfab39e3921fe299a095112873",
+    "source_text_sha256": "af60ca657213cabaec5eb17c2ff540f59570045db9dee710bbee9866894116f0",
+    "reference_expression": "股权登记日收盘价-0.3735292",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002346",
+    "ex_date": "2026-07-07",
+    "available_date": "2026-06-30",
+    "expected_cash": [
+      "0.5"
+    ],
+    "cash": "0.5",
+    "shares": "0.000000",
+    "reference_cash": "0.4750891",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606291826550990_1.pdf",
+    "source_pdf_sha256": "bb0a0c042d1b6fdf6b591b1b22f44874188c94ef211316b7f3de5e09dcfdad1e",
+    "source_text_sha256": "54e65cc0a1d61b969c51503b036ee79f0674c2b066648b3ed1aa88bf4f5750c0",
+    "reference_expression": "股权登记日收盘价-0.4750891",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002396",
+    "ex_date": "2026-05-25",
+    "available_date": "2026-05-15",
+    "expected_cash": [
+      "0.25"
+    ],
+    "cash": "0.25",
+    "shares": "0.300000",
+    "reference_cash": "0.2487916",
+    "reference_shares": "0.2985500",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605141822321071_1.pdf",
+    "source_pdf_sha256": "6c197a1772bb72dced6180a8c5c2168ad297e9068beb4a26d0376022bb3e9c5e",
+    "source_text_sha256": "4c26280a4e7ebc3eea5b4fa8f7f371e03b741d65453ea8f508bc41d849a19f0e",
+    "reference_expression": "股权登记日收盘价-0.2487916元/股)÷(1+0.2985500股)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002432",
+    "ex_date": "2025-06-11",
+    "available_date": "2025-06-04",
+    "expected_cash": [
+      "0.2"
+    ],
+    "cash": "0.2",
+    "shares": "0.000000",
+    "reference_cash": "0.1810131",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506031684227218_1.pdf",
+    "source_pdf_sha256": "df48fa7045ba7314b31663a82b4eadbd053ffd3660daa8c898a0aa09f63e7ef9",
+    "source_text_sha256": "b1dd78aa7a599ee09a71545907d42ddb28dad375633c69fd112fa0ac029df6cb",
+    "reference_expression": "股权登记日收盘价-0.1810131",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.603007",
+    "ex_date": "2024-12-26",
+    "available_date": "2024-12-25",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.155346"
+      }
+    ],
+    "cash": "0",
+    "shares": "0.155346",
+    "stocks": "0",
+    "reserve": "0.155346",
+    "announced_previous_close": "15.39",
+    "announced_reference_price": "8.28",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202412241641418251_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST花王:申万宏源证券承销保荐有限责任公司关于花王生态工程股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+        "available_date": "2024-12-25",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202412241641418251_1.pdf",
+        "article": "AN202412241641418251",
+        "pdf_sha256": "634f9a34a3c8293560c05deb95c866005b5541f9ded07d34637499d879580dd9",
+        "text_sha256": "da53a9cd72249d678faf681019cab20ed8dc619161002beb319506bff3b883a1"
+      },
+      {
+        "title": "*ST花王:关于重整计划资本公积金转增股本实施的公告",
+        "available_date": "2024-12-20",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202412191641363956_1.pdf",
+        "article": "AN202412191641363956",
+        "pdf_sha256": "d71db0b45ec7b944e9987f23a24da40b56145133323eb3c1a744ae9d5bba9e8a",
+        "text_sha256": "c10ff7794386698a15577dc0295f7d9e2f24453596acdb5cf834b6ee8534697a"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sh.603030",
+    "ex_date": "2023-12-26",
+    "available_date": "2023-12-23",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "0.971919"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "stocks": "0",
+    "reserve": "0",
+    "announced_previous_close": "2.70",
+    "announced_reference_price": "2.31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202312221614825873_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST全筑:关于重整计划资本公积金转增股本除权事项的提示性公告",
+        "available_date": "2023-12-23",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202312221614825873_1.pdf",
+        "article": "AN202312221614825873",
+        "pdf_sha256": "e7ef3f90e2ad7a351740cb45d5e81166693e4b26feded38b16c5b50703918970",
+        "text_sha256": "a9c3f33a565836ec678dd09db1d9696745b8857666e11d242c8a5d9b7dd19865"
+      },
+      {
+        "title": "*ST全筑:关于重整计划资本公积金转增股本实施的公告",
+        "available_date": "2023-12-20",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202312191614539261_1.pdf",
+        "article": "AN202312191614539261",
+        "pdf_sha256": "cc5e514813f749403f13087027873747da6662ec5b1c0b9b1fb27ccda5b7010c",
+        "text_sha256": "88772f6a0b7b6502cf9941861c21acb488a85add7827ff12f3a46ceaeb8a6fbb"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sh.603559",
+    "ex_date": "2024-12-26",
+    "available_date": "2024-12-25",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.8"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "stocks": "0",
+    "reserve": "0",
+    "announced_previous_close": "10.83",
+    "announced_reference_price": "7.48",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202412241641417486_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST通脉:广发证券股份有限公司关于中通国脉通信股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+        "available_date": "2024-12-25",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202412241641417486_1.pdf",
+        "article": "AN202412241641417486",
+        "pdf_sha256": "b08cf36b8efc4ffeb469ee9364e7bb68affb48f61456e249c150041713aff7ee",
+        "text_sha256": "04f0ccc24597ec5fcba9ec938d924e165511f10810358c83df43afcb4c9ec0b8"
+      },
+      {
+        "title": "*ST通脉:中通国脉通信股份有限公司关于重整计划资本公积金转增股本事项实施的公告",
+        "available_date": "2024-12-20",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202412191641364065_1.pdf",
+        "article": "AN202412191641364065",
+        "pdf_sha256": "6e1653a57ece1523b7f4ab7fecfb01e457972172b0a0b26c810fb4eb7e559383",
+        "text_sha256": "af06b7f154a9662642e1c84f3401040d12729f47ff928f797bc2f8fcb9acde1e"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.000430",
+    "ex_date": "2025-12-29",
+    "available_date": "2025-12-27",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "stocks": "0",
+    "reserve": "0",
+    "announced_previous_close": "7.90",
+    "announced_reference_price": "6.87",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512261808695344_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST张股:财信证券股份有限公司关于张家界旅游集团股份有限公司调整资本公积转增股本除权参考价格计算结果的专项意见",
+        "available_date": "2025-12-27",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512261808695344_1.pdf",
+        "article": "AN202512261808695344",
+        "pdf_sha256": "b6ce2969fc36b9bd7b4d263f28ec11cdf1711bb14cf8e959751d7d506fb2c2c7",
+        "text_sha256": "59e60b49cdc2a37c4d8405315edc6921fd67db624bbc812c611ee75435d6760d"
+      },
+      {
+        "title": "*ST张股:张家界旅游集团股份有限公司关于重整计划资本公积转增股本事项实施的公告",
+        "available_date": "2025-12-25",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512241807295660_1.pdf",
+        "article": "AN202512241807295660",
+        "pdf_sha256": "55be2687192b2c9c40150f3103e827828d8c51d825f58c3d6919a075e9cb83bb",
+        "text_sha256": "18c7a387c3f431fac2a9a3cf4827293ac1ac4b2dfe207c043f70e3f5e10618f8"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.000525",
+    "ex_date": "2024-11-18",
+    "available_date": "2024-11-16",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.235"
+      }
+    ],
+    "cash": "0",
+    "shares": "0.4941432770302252725295507049",
+    "stocks": "0",
+    "reserve": "0.4941432770302252725295507049",
+    "announced_previous_close": "10.10",
+    "announced_reference_price": "9.07",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202411151640921794_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST红阳:南京证券股份有限公司关于南京红太阳股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+        "available_date": "2024-11-16",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202411151640921794_1.pdf",
+        "article": "AN202411151640921794",
+        "pdf_sha256": "d34996d547013ad89e5897d165e29c06c6174476a7826ab1392cf4d330365e6c",
+        "text_sha256": "f810f485d401909e4e9a948307d2cf490b6897c0d5f9a6e27cecdb91e71cccc2"
+      },
+      {
+        "title": "*ST红阳:关于重整计划资本公积金转增股本事项实施的公告",
+        "available_date": "2024-11-12",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202411111640821214_1.pdf",
+        "article": "AN202411111640821214",
+        "pdf_sha256": "7ffb82f2b165d0b2b26a5fd1ca5dadb7252b0c005928356d6b12b2c7c2284ef5",
+        "text_sha256": "4ba0df18830710b9bf067d44a73000ac0e1fbf16b36d530f03927cb5bf113348"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.000615",
+    "ex_date": "2025-12-29",
+    "available_date": "2025-12-27",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.34278"
+      }
+    ],
+    "cash": "0",
+    "shares": "0.1",
+    "stocks": "0",
+    "reserve": "0.1",
+    "announced_previous_close": "4.18",
+    "announced_reference_price": "3.53",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512261808665279_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST美谷:关于重整计划资本公积金转增股本事项进展暨公司股票复牌的提示性公告",
+        "available_date": "2025-12-27",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512261808665279_1.pdf",
+        "article": "AN202512261808665279",
+        "pdf_sha256": "a4ce1b7bca71942b85659b3fe337e189a11cbd40df9fee18d785fa4df75a6486",
+        "text_sha256": "12b9b6a84839f583c846ba77b7f7e148fcd5170e6dec27d4a288c52f82d371f3"
+      },
+      {
+        "title": "*ST美谷:关于重整计划权益分派实施的公告",
+        "available_date": "2025-12-23",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512221805948979_1.pdf",
+        "article": "AN202512221805948979",
+        "pdf_sha256": "08600fa39c3f2cea495c8420df36cf1499d0fa667647279fb25e861fd2f305e9",
+        "text_sha256": "240ca5c116cdbab88569877bc3651307477d3179a00256f9690c9007ac26a33d"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.000691",
+    "ex_date": "2026-01-05",
+    "available_date": "2025-12-31",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "0.5"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "stocks": "0",
+    "reserve": "0",
+    "announced_previous_close": "9.10",
+    "announced_reference_price": "7.05",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512311812183051_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST亚太:关于重整计划资本公积金转增股本事项进展暨公司股票复牌的公告",
+        "available_date": "2025-12-31",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512311812183051_1.pdf",
+        "article": "AN202512311812183051",
+        "pdf_sha256": "b0a44599a519c7ebf209e8ecfda60ab7fa1d01bc9b9fb41a3539d7fd4228b62b",
+        "text_sha256": "274244681d85bd2b056b71b44c3a4fdaeb230d0e2b5fdd20b96de345b2469384"
+      },
+      {
+        "title": "*ST亚太:关于重整计划资本公积金转增股本事项实施的公告",
+        "available_date": "2025-12-27",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512261808680248_1.pdf",
+        "article": "AN202512261808680248",
+        "pdf_sha256": "8c757514bb44252ff0d14a3dc75180cda9ad02c97ae382b4fc88cb1bc614d222",
+        "text_sha256": "454f9e191b22f1b871cd11777d2c647d35a3eb9c22ebc6983fe5ff406961a5ee"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.000697",
+    "ex_date": "2025-11-28",
+    "available_date": "2025-11-28",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "0.599"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "stocks": "0",
+    "reserve": "0",
+    "announced_previous_close": "8.52",
+    "announced_reference_price": "8.05",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202511271789427828_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST炼石:中信证券股份有限公司关于对炼石航空科技股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+        "available_date": "2025-11-28",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202511271789427828_1.pdf",
+        "article": "AN202511271789427828",
+        "pdf_sha256": "508ddc5bba966b0deb5c6e7ddfc5ab142fb5ee903eb8660a937619eaf96bc59c",
+        "text_sha256": "1db4ef60b6a9bb302c8f628ec3c801d718ca208c2100949e0e5befb5885233bd"
+      },
+      {
+        "title": "*ST炼石:关于重整计划资本公积金转增股本事项实施的公告",
+        "available_date": "2025-11-25",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202511241787603738_1.pdf",
+        "article": "AN202511241787603738",
+        "pdf_sha256": "628f83af18f42b0d51b00d8f802528db171e6d7636481d9b78a6d13e3ca5487b",
+        "text_sha256": "3650b61bf93dab0962c51b6614b7ea61d789e87e482af5863ca47a88f5314e2b"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.000793",
+    "ex_date": "2026-06-22",
+    "available_date": "2026-06-18",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.2"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "stocks": "0",
+    "reserve": "0",
+    "announced_previous_close": "2.63",
+    "announced_reference_price": "2.51",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606171823639955_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST华闻:天风证券股份有限公司关于华闻传媒投资集团股份有限公司调整资本公积金转增股本除权参考价格计算结果的专项意见",
+        "available_date": "2026-06-18",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202606171823639955_1.pdf",
+        "article": "AN202606171823639955",
+        "pdf_sha256": "12ab6f2e70a8aea35b65322b33f15e2bec7da6177d91d35c6d18ebda2a9177c2",
+        "text_sha256": "40048ee84d92308039d4a5dd2aa5359a6d68afd84a33909ff31bd292b9f7aaff"
+      },
+      {
+        "title": "*ST华闻:关于重整计划资本公积金转增股本事项实施的公告",
+        "available_date": "2026-06-12",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202606111823460450_1.pdf",
+        "article": "AN202606111823460450",
+        "pdf_sha256": "d3db31693e2db79910e2f19e82e053e47259ce4722db5567d7e6b4e89ed645f9",
+        "text_sha256": "c880f3232f64cb53983cb5f74bcaf41fca00012e341b83a92431641b9ccd0066"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.000796",
+    "ex_date": "2023-12-20",
+    "available_date": "2023-12-19",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "stocks": "0",
+    "reserve": "0",
+    "announced_previous_close": "4.08",
+    "announced_reference_price": "3.93",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202312181614464974_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST凯撒:中国国际金融股份有限公司关于凯撒同盛发展股份有限公司调整资本公积金转增股本除权参考价格的计算结果的专项意见",
+        "available_date": "2023-12-19",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202312181614464974_1.pdf",
+        "article": "AN202312181614464974",
+        "pdf_sha256": "894b63f6d87dd122bc0cb4724d494e0b580df0155ea45be42218aa0e29d32212",
+        "text_sha256": "b01aeb7bc99dafbf990de9410e2f64a223c4bc3010af7a434648844357abc5f5"
+      },
+      {
+        "title": "*ST凯撒:关于重整计划资本公积金转增股本实施的公告",
+        "available_date": "2023-12-14",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202312131614094482_1.pdf",
+        "article": "AN202312131614094482",
+        "pdf_sha256": "4bf9e087eb3f6e164a82d8aa97c8b5219e493b049cf3f21fe7fde73eabe7bd6e",
+        "text_sha256": "ce92392878c8b4261886c2a97c971f21840058206641972758e1f1e3b05f057c"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.000908",
+    "ex_date": "2026-03-11",
+    "available_date": "2026-03-11",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "stocks": "0",
+    "reserve": "0",
+    "announced_previous_close": "6.37",
+    "announced_reference_price": "4.36",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202603101820461538_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST景峰:关于重整计划资本公积金转增股本事项进展暨公司股票复牌的公告",
+        "available_date": "2026-03-11",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202603101820461538_1.pdf",
+        "article": "AN202603101820461538",
+        "pdf_sha256": "b5be65c363359e339b7cc2c3976bdc0edca88d85800f0a734f1a583951008051",
+        "text_sha256": "219b01da735cbccb1f4108ab9885ccb0d30314c215292b64155cde89e6b397ef"
+      },
+      {
+        "title": "*ST景峰:关于重整计划资本公积金转增股本事项实施的公告",
+        "available_date": "2026-03-04",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202603031820229997_1.pdf",
+        "article": "AN202603031820229997",
+        "pdf_sha256": "3eb3bc0572ad90ea2253373189ddd0714a4fd481759daf9b777b3ba92107edf6",
+        "text_sha256": "8c977cacd549a2e98c3a42824525321c2698adae0307ebd3f6f273d552bf1c02"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.002021",
+    "ex_date": "2023-12-29",
+    "available_date": "2023-12-28",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "0.7525232"
+      }
+    ],
+    "cash": "0",
+    "shares": "0.7525232",
+    "stocks": "0",
+    "reserve": "0.7525232",
+    "announced_previous_close": "3.53",
+    "announced_reference_price": "2.80",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202312271615039943_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST中捷:中泰证券股份有限公司关于中捷资源投资股份有限公司调整资本公积金转增股本除权参考价格的计算结果的专项意见",
+        "available_date": "2023-12-28",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202312271615039943_1.pdf",
+        "article": "AN202312271615039943",
+        "pdf_sha256": "49e6b57ad698e3afeaf9ab1a98d4999eaf90fdc6be8c1e0f6b0eec58efb27236",
+        "text_sha256": "27a9e40546515c5b179bf31d16c7c2f97e249cefb39bdd8d33ba9f38c6548c5a"
+      },
+      {
+        "title": "*ST中捷:关于重整计划资本公积金转增股本事项实施的公告",
+        "available_date": "2023-12-25",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202312241614881371_1.pdf",
+        "article": "AN202312241614881371",
+        "pdf_sha256": "47702a9662920050b0092a9d3b554536ae8a14683bea649349f73da981495283",
+        "text_sha256": "7e6f4b4d52f702eb467fdfaf11cf8497b88ee9992210d9d2bc7f76ed7c8fb9ae"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sz.002200",
+    "ex_date": "2025-12-12",
+    "available_date": "2025-12-12",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.45"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "stocks": "0",
+    "reserve": "0",
+    "announced_previous_close": "7.82",
+    "announced_reference_price": "6.94",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512111798395567_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "*ST交投:关于重整计划资本公积金转增股本实施后首个交易日开盘参考价调整的提示公告",
+        "available_date": "2025-12-12",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512111798395567_1.pdf",
+        "article": "AN202512111798395567",
+        "pdf_sha256": "c8e49596d7b8ae5592b15df9b0b9ad48d769d7f1425fca9051ba6719d968e637",
+        "text_sha256": "5dfd02883e7e22f5ced5863cb7ba1f57c36eacea6fdb51454106f9b88a40ac09"
+      },
+      {
+        "title": "*ST交投:关于重整计划资本公积转增股本事项实施的公告",
+        "available_date": "2025-12-06",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512051794540390_1.pdf",
+        "article": "AN202512051794540390",
+        "pdf_sha256": "f451332e642040d8a9f4dce3dce28a83a77a0bac2d5a67660f2700784183841b",
+        "text_sha256": "349b9abafe1eb72f634583544819f37b20c877513e15c0fa451f6b7adec27cb0"
+      }
+    ],
+    "holder_scope": "ordinary non-controlling unaffiliated shareholder",
+    "reason": "按重整实施公告分配给普通非关联股东的实际股份计算；投资人及债权人取得股份不计入该股东收益，参考价独立校验"
+  },
+  {
+    "code": "sh.603444",
+    "ex_date": "2026-05-21",
+    "available_date": "2026-05-14",
+    "expected_cash": [
+      "7"
+    ],
+    "cash": "7",
+    "shares": "0.000000",
+    "reference_cash": "6.9723",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605131822274496_1.pdf",
+    "source_pdf_sha256": "5a9a034b61a59f913c18cf877ac861824b27814d28ad78d473768b48de4b9c10",
+    "source_text_sha256": "1d90a9f38d53a739d546004b593c07aa51969511bd42c3989962f22678bf4dc1",
+    "reference_expression": "前收盘价格-6.9723)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688606",
+    "ex_date": "2026-06-01",
+    "available_date": "2026-05-26",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.000000",
+    "reference_cash": "0.9714",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605251822859434_1.pdf",
+    "source_pdf_sha256": "a6bdb06d5b563f53b9fd569f4b981b0bbca2b344f781b9b7d24dae494e327dec",
+    "source_text_sha256": "a45869d27a13e92afbea6abfc2f8f747f6ea0ead9c632ebe3be3e8410f4022d1",
+    "reference_expression": "前收盘价格-0.9714)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688625",
+    "ex_date": "2026-06-04",
+    "available_date": "2026-05-29",
+    "expected_cash": [
+      "0"
+    ],
+    "cash": "0",
+    "shares": "0.400000",
+    "reference_cash": "0",
+    "reference_shares": "0.3940",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605281822948587_1.pdf",
+    "source_pdf_sha256": "501ad5d617c57fe6ad7cb2cc5814ac29b134fb928196679dd2ee0b3565e20d4e",
+    "source_text_sha256": "8eed75e268d7cc6b7d6cfef5ccf61def93047837e0a45f7ece34e7f1609b5e2d",
+    "reference_expression": "前收盘价格-0)÷(1+0.3940)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.000333",
+    "ex_date": "2026-06-29",
+    "available_date": "2026-06-23",
+    "expected_cash": [
+      "3.8"
+    ],
+    "cash": "3.8",
+    "shares": "0.000000",
+    "reference_cash": "3.7221885",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606221823745067_1.pdf",
+    "source_pdf_sha256": "afcd0c38996bea94bea13cf2a9cc571bc46017ec3ec04c811c4a54e0c5bc5557",
+    "source_text_sha256": "880c65df3b1050b001fe3d3312cd859fd376b6fde9a82591ac977aa3596ecc3c",
+    "reference_expression": "股权登记日收盘价-3.7221885",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002322",
+    "ex_date": "2025-05-30",
+    "available_date": "2025-05-22",
+    "expected_cash": [
+      "0.38"
+    ],
+    "cash": "0.38",
+    "shares": "0.000000",
+    "reference_cash": "0.3543165",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505211676697674_1.pdf",
+    "source_pdf_sha256": "0a90123ce52a1dd76dd2804d72bb5ae3767219a2cd9c25b9f2ecb3a004321a7a",
+    "source_text_sha256": "07ce5a3311a9f7ef41cd885927b98665d4930be028c430b7b16122e01ac1377e",
+    "reference_expression": "股权登记日收盘价-0.3543165",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002432",
+    "ex_date": "2026-06-03",
+    "available_date": "2026-05-27",
+    "expected_cash": [
+      "1.65"
+    ],
+    "cash": "1.65",
+    "shares": "0.000000",
+    "reference_cash": "1.4853748",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605261822884182_1.pdf",
+    "source_pdf_sha256": "0bc2346075ff42cf99e291519f0b6104718cd8db6df4380bc52f9fe3e5154c39",
+    "source_text_sha256": "c8067c3051ab67e9080b7db2d3a161cc8e300400c819c613124af2fddcc14ab1",
+    "reference_expression": "股权登记日收盘价-1.4853748",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688018",
+    "ex_date": "2024-05-16",
+    "available_date": "2024-05-10",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0.4",
+    "reference_cash": "0.9687029132566414015723088743",
+    "reference_shares": "0.3874811603515318359052693385",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405091632771405_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "乐鑫科技:乐鑫科技2023年年度权益分派实施公告",
+        "available_date": "2024-05-10",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202405091632771405_1.pdf",
+        "article": "AN202405091632771405",
+        "pdf_sha256": "0214f5384dcd34ef2cbede5c2e3832537408e8d8b637df64aa8d64238323e107",
+        "text_sha256": "c8c15cdfa07d7e52e6aba416e28abfef369d5ff272b7fc315079f9cc6081f132"
+      }
+    ],
+    "reason": "实施公告列明现金总额78,261,241元、转增总股数31,304,496、除权前总股本80,789,724；据此按总股本摊薄，未从价格倒推"
+  },
+  {
+    "code": "sz.001230",
+    "ex_date": "2024-06-06",
+    "available_date": "2024-05-30",
+    "expected_cash": [
+      "0.35"
+    ],
+    "cash": "0.35",
+    "shares": "0.2",
+    "reference_cash": "0.3472362",
+    "reference_shares": "0.19842072",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405291634823097_1.pdf",
+    "supporting_evidence": [
+      {
+        "title": "劲旅环境:2023年年度权益分派实施公告",
+        "available_date": "2024-05-30",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202405291634823097_1.pdf",
+        "article": "AN202405291634823097",
+        "pdf_sha256": "36f354b9d2990a6fb6b2c2aac3908234c4a4253689d7dc3614a8d475a8069077",
+        "text_sha256": "7bca6b062c6baf13fe7a4e8c80b080efb4b1a92b5ddb5f7109d6a4be78596315"
+      }
+    ],
+    "reason": "实施公告最终公式转增率19.842072%，转换为每股0.19842072"
+  },
+  {
+    "code": "sh.603444",
+    "ex_date": "2026-09-17",
+    "available_date": "2026-09-10",
+    "expected_cash": [
+      "10"
+    ],
+    "cash": "10",
+    "shares": "0.000000",
+    "reference_cash": "9.96",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202609091829173897_1.pdf",
+    "source_pdf_sha256": "c1838cd9bcc1fe824b44836570573abf6d543058fe8739a60f79aac99bbcb6c4",
+    "source_text_sha256": "420c09a1a5ebb24d2de32d16a32ae2612f8b5a9ea1d6fe0392fd454bdf42aa67",
+    "reference_expression": "前收盘价格-9.96)÷(1+0)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688016",
+    "ex_date": "2026-10-20",
+    "available_date": "2026-10-14",
+    "expected_cash": [
+      "1.3"
+    ],
+    "cash": "1.3",
+    "shares": "0",
+    "reference_cash": "1.27",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202610131830414362_1.pdf",
+    "source_pdf_sha256": "9d219880f6b3b14d214f863dce52d5a9542a0e2ac6c05c8732d7fdafbe38e8be",
+    "source_text_sha256": "a396c694e8da60f455259f44690debefdc863bb9e8e2a05a5a24115b231c8427",
+    "reference_expression": "前收盘价格-1.27",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sh.688018",
+    "ex_date": "2025-06-04",
+    "available_date": "2025-05-28",
+    "expected_cash": [
+      "0.6"
+    ],
+    "cash": "0.6",
+    "shares": "0.400000",
+    "reference_cash": "0.5949",
+    "reference_shares": "0.3966",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505271680141765_1.pdf",
+    "source_pdf_sha256": "eaac2f5b5ce2398f9c1e450abb39fc3d213645283f7fd8402ecce61d44415e66",
+    "source_text_sha256": "e58d109f7cc8481e13d1ffbf2268286cb4ba8068bb96b88d64036014def71ec5",
+    "reference_expression": "前收盘价格-0.5949)÷(1+0.3966)",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
+  },
+  {
+    "code": "sz.002322",
+    "ex_date": "2025-09-23",
+    "available_date": "2025-09-16",
+    "expected_cash": [
+      "0.28"
+    ],
+    "cash": "0.28",
+    "shares": "0.000000",
+    "reference_cash": "0.2610753",
+    "reference_shares": "0",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509151744302662_1.pdf",
+    "source_pdf_sha256": "cdca3c37d4a970aface65a79ba848e82bcf052edec3d53979ccc0eed6b9e2c41",
+    "source_text_sha256": "a77d0d818c7b0af3d4ef7fdecdac52a6a78dce45539951fd4cb79741cc275576",
+    "reference_expression": "股权登记日收盘价-0.2610753",
+    "reason": "发行人实施公告：回购账户不参与分配，实际持有人权益与公告除权参考口径分开",
+    "verification_method": "issuer PDF exact expression; actual entitlement and date matched"
   }
 ]

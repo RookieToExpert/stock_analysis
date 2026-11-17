@@ -1,0 +1,16 @@
+{
+  "code": "sh.603337",
+  "target_date": "2026-06-11",
+  "documents": [
+    {
+      "title": "杰克科技:2025年年度权益分派实施公告",
+      "available_date": "2026-06-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606041823252531_1.pdf",
+      "article": "AN202606041823252531",
+      "pdf_sha256": "9a995ec3690b7a8f39045640189d68052102153e33e4e6caa864d30c4e2c0a98",
+      "text_sha256": "1be1cc23fd66ba75739a25c3caa94aa5bcb49d2e00adeb4971a9a13facf2e348"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603337&begin_time=2026-04-27&end_time=2026-06-11"
+}

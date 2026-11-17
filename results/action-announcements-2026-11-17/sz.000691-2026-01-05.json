@@ -1,0 +1,40 @@
+{
+  "code": "sz.000691",
+  "target_date": "2026-01-05",
+  "documents": [
+    {
+      "title": "*ST亚太:关于重整计划资本公积金转增股本事项进展暨公司股票复牌的公告",
+      "available_date": "2025-12-31",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512311812183051_1.pdf",
+      "article": "AN202512311812183051",
+      "pdf_sha256": "b0a44599a519c7ebf209e8ecfda60ab7fa1d01bc9b9fb41a3539d7fd4228b62b",
+      "text_sha256": "274244681d85bd2b056b71b44c3a4fdaeb230d0e2b5fdd20b96de345b2469384"
+    },
+    {
+      "title": "*ST亚太:关于重整计划资本公积金转增股本事项实施的公告",
+      "available_date": "2025-12-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512261808680248_1.pdf",
+      "article": "AN202512261808680248",
+      "pdf_sha256": "8c757514bb44252ff0d14a3dc75180cda9ad02c97ae382b4fc88cb1bc614d222",
+      "text_sha256": "454f9e191b22f1b871cd11777d2c647d35a3eb9c22ebc6983fe5ff406961a5ee"
+    },
+    {
+      "title": "*ST亚太:关于重整计划资本公积金转增股本除权事项的公告",
+      "available_date": "2025-12-24",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512231806627034_1.pdf",
+      "article": "AN202512231806627034",
+      "pdf_sha256": "2fd1364b38835eab6da57def647c4d79f842b274c46af1dc5e7483892a985944",
+      "text_sha256": "99dc3df1857e2c101e7177e03cc0f513c2e263acff3e6cd36723ff528305975b"
+    },
+    {
+      "title": "*ST亚太:华泰联合证券有限责任公司关于甘肃亚太实业发展股份有限公司调整资本公积转增股本除权参考价格计算公式的专项意见",
+      "available_date": "2025-12-24",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512231806626987_1.pdf",
+      "article": "AN202512231806626987",
+      "pdf_sha256": "e0b43f15c137dc93defb52b32194e299fa4c7a97ae1ccc044502b46687999c0f",
+      "text_sha256": "ac819b27545dd88af13fd167948ab8051ac30abd2082b6f22c7c4b4976927ac9"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000691&begin_time=2025-11-21&end_time=2026-01-05"
+}

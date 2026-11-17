@@ -1,0 +1,16 @@
+{
+  "code": "sh.688617",
+  "target_date": "2024-07-26",
+  "documents": [
+    {
+      "title": "惠泰医疗:2023年年度权益分派实施公告",
+      "available_date": "2024-07-22",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202407211638150999_1.pdf",
+      "article": "AN202407211638150999",
+      "pdf_sha256": "c2ba95da679df96680b0f80c7a84b22eaa900a08ab25d217ed4d2dab02e7be2e",
+      "text_sha256": "de5ca7f52bf62f27a43dc7dd88907358331d2d0939564da876ea97b5ccbca9f0"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688617&begin_time=2024-06-11&end_time=2024-07-26"
+}

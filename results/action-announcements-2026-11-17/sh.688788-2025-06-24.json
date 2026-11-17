@@ -1,0 +1,16 @@
+{
+  "code": "sh.688788",
+  "target_date": "2025-06-24",
+  "documents": [
+    {
+      "title": "科思科技:2024年年度权益分派实施公告",
+      "available_date": "2025-06-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506171692635037_1.pdf",
+      "article": "AN202506171692635037",
+      "pdf_sha256": "59266b41218f07736dbbd5112a46a04f0f590112309e7c5637b7b6994ce3e64e",
+      "text_sha256": "fc9d026f528f7c5a6d63a33960f7db1fe6deadb2a51364dd6a1fd40a638664a7"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688788&begin_time=2025-05-10&end_time=2025-06-24"
+}

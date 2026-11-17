@@ -1,0 +1,16 @@
+{
+  "code": "sz.000049",
+  "target_date": "2023-12-08",
+  "documents": [
+    {
+      "title": "德赛电池:深圳市德赛电池科技股份有限公司向原股东配售股份并在主板上市配股发行结果公告",
+      "available_date": "2023-12-08",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312071613565005_1.pdf",
+      "article": "AN202312071613565005",
+      "pdf_sha256": "f7a08a5bd01ea439211e8ddf98f00d7dc307d5808e07e364aaad9b8bd60fae6b",
+      "text_sha256": "7dccd7886abd2c375128df8b7e23191f01537a37a4af1fd895b1359e67bac273"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000049&begin_time=2023-10-24&end_time=2023-12-08"
+}

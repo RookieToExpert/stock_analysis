@@ -1,0 +1,24 @@
+{
+  "code": "sh.688244",
+  "target_date": "2024-06-17",
+  "documents": [
+    {
+      "title": "永信至诚:2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-17",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406161636457224_1.pdf",
+      "article": "AN202406161636457224",
+      "pdf_sha256": "73226dbb130c7d7573c3e565dd9295144e46a88984b0641992a41e4c8acc57b6",
+      "text_sha256": "42a968a3feeb5c8895545e4a3e9d2d19b357909e707da5cbdaaa7fe8a5e3a582"
+    },
+    {
+      "title": "永信至诚:2023年年度权益分派实施公告",
+      "available_date": "2024-06-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406101635917014_1.pdf",
+      "article": "AN202406101635917014",
+      "pdf_sha256": "c63fda64d998eeb568b8a0082536efd7da1194acd925f9e013c2ce777d9bbe51",
+      "text_sha256": "db5ebc7068b1cd93484dc3cd8a4493145604d2e8ba312fedd2d4c04727682dc1"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688244&begin_time=2024-05-03&end_time=2024-06-17"
+}

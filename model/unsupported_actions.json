@@ -1,13 +1,1 @@
-[
-  {
-    "code": "sz.000049",
-    "ex_date": "2023-12-08",
-    "available_date": "2023-12-08",
-    "kind": "paid_rights",
-    "subscription_price": "21.16",
-    "offered_shares_per_share": "0.3",
-    "issued_shares_per_share": "0.2847542",
-    "source": "https://finance.sina.com.cn/jjxw/2023-12-08/doc-imzxfqyh8810221.shtml",
-    "reason": "配股需另行出资认购，缺少认购资金及到账交易模型，不能按免费送股计算"
-  }
-]
+[]

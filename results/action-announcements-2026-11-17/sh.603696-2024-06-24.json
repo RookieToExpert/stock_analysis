@@ -1,0 +1,16 @@
+{
+  "code": "sh.603696",
+  "target_date": "2024-06-24",
+  "documents": [
+    {
+      "title": "安记食品:安记食品股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406171636488069_1.pdf",
+      "article": "AN202406171636488069",
+      "pdf_sha256": "7796b9c9ecf23b8de9e274102611b70ae7adca2853d3c635495f4918d7e2c851",
+      "text_sha256": "95dc49f03b0381cbfce13d3833c290964a0d0412b311d5b84ff290cc1c7e8b8f"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603696&begin_time=2024-05-10&end_time=2024-06-24"
+}

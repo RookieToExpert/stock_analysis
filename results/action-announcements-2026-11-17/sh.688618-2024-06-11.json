@@ -1,0 +1,16 @@
+{
+  "code": "sh.688618",
+  "target_date": "2024-06-11",
+  "documents": [
+    {
+      "title": "三旺通信:2023年年度权益分派实施公告",
+      "available_date": "2024-06-04",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406031635272816_1.pdf",
+      "article": "AN202406031635272816",
+      "pdf_sha256": "8e870071a5b52f2ec1f550cf7a72611b1c7c1b762f8daeaed4a8225c49b46f7c",
+      "text_sha256": "a8c987b3cf7abce69865731713a8625b1fb97a425e69139a881b09d39ba850c3"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688618&begin_time=2024-04-27&end_time=2024-06-11"
+}

@@ -1,0 +1,24 @@
+{
+  "code": "sh.688592",
+  "target_date": "2025-07-09",
+  "documents": [
+    {
+      "title": "司南导航:2024年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2025-07-09",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507081705262335_1.pdf",
+      "article": "AN202507081705262335",
+      "pdf_sha256": "b340f5d84db7d0cea3e36a4c6dd4310bf6ea760e2a9aa9bf1d3dc42ac45af270",
+      "text_sha256": "baff7a5f6c98de0454e2fd5dcb346c81b78e4d0351a6683503e3c5172c9cff90"
+    },
+    {
+      "title": "司南导航:2024年年度权益分派实施公告",
+      "available_date": "2025-07-03",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507021701706785_1.pdf",
+      "article": "AN202507021701706785",
+      "pdf_sha256": "8b3b5d54a5d8297e9a1e96092ba7ab01c81697f699cf051f0d2a06d35b60d4dd",
+      "text_sha256": "51779d6fef6fc9d4afb1d507f7d811224b9c59e5b861c2013fa55beaa6bb79d7"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688592&begin_time=2025-05-25&end_time=2025-07-09"
+}

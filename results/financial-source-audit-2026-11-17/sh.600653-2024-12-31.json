@@ -1,0 +1,15 @@
+{
+  "code": "sh.600653",
+  "name": "申华控股",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-03-29",
+  "consolidated_netProfit": "31607067.830000",
+  "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10829750&stockid=600653",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "b765f678547c5c34f1993c839464584201c45171793c31bd106de2d9ab77395c",
+  "text_sha256": "f986d22a89e5eb7d7776bdc235fe53703510c9bf0dd465973af2858a5f8bc651",
+  "text_length": 179615
+}

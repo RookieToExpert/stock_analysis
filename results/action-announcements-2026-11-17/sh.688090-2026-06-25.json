@@ -1,0 +1,16 @@
+{
+  "code": "sh.688090",
+  "target_date": "2026-06-25",
+  "documents": [
+    {
+      "title": "瑞松科技:2025年年度权益分派实施公告",
+      "available_date": "2026-06-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606171823638868_1.pdf",
+      "article": "AN202606171823638868",
+      "pdf_sha256": "668956ff0b8f1303f18927fa775681389416019bba031a8de7fa8478897ed584",
+      "text_sha256": "54379e84b46019e2366edb692383a55917ccf0365ef50a367f29bfe7434eaf62"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688090&begin_time=2026-05-11&end_time=2026-06-25"
+}

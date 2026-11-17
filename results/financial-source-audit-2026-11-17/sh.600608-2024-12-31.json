@@ -1,0 +1,15 @@
+{
+  "code": "sh.600608",
+  "name": "退市沪科",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-04-29",
+  "consolidated_netProfit": "-7266156.550000",
+  "source": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223383763.PDF",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "7975ae57930a21deefe56142c75e7012bbe9d63017fdb06070b4286bfc3fbb92",
+  "text_sha256": "a7bebe8755cc0d2e89af9a449c5eae8c3087118447ac878712594ea24ef2da6f",
+  "text_length": 285789
+}

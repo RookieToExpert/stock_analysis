@@ -1,0 +1,16 @@
+{
+  "code": "sh.603102",
+  "target_date": "2025-08-05",
+  "documents": [
+    {
+      "title": "百合股份:威海百合生物技术股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-07-30",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507291717841479_1.pdf",
+      "article": "AN202507291717841479",
+      "pdf_sha256": "5a63f8e905ab8d187fb4a5013d2e6a4f5d5da19b6be27a80da41e509d26d1a24",
+      "text_sha256": "90256a04f3689156bf5391146b4d9d63748622cc8b95b6622dfc459e47422e3c"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603102&begin_time=2025-06-21&end_time=2025-08-05"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.603230",
+  "target_date": "2024-06-26",
+  "documents": [
+    {
+      "title": "内蒙新华:内蒙古新华发行集团股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-19",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406181636616202_1.pdf",
+      "article": "AN202406181636616202",
+      "pdf_sha256": "d0d5829641433e5121f9863de3d1f507ecb25e2634db8857ae6bbbbab498f6d3",
+      "text_sha256": "f7ef3bad840aced36e54762ca3fac9157182774fc6d38001013983a850d8db4d"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603230&begin_time=2024-05-12&end_time=2024-06-26"
+}

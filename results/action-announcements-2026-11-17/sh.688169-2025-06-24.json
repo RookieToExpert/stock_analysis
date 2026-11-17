@@ -1,0 +1,16 @@
+{
+  "code": "sh.688169",
+  "target_date": "2025-06-24",
+  "documents": [
+    {
+      "title": "石头科技:北京石头世纪科技股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-06-17",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506161692045690_1.pdf",
+      "article": "AN202506161692045690",
+      "pdf_sha256": "e2ee06bd2c70d308e61f670e046b40c73fc71f494f8f6debf1655defa7a32799",
+      "text_sha256": "a3c2163e90c6a251ae40ad88385aa5250752298353b7d1ba3497bd68bfcaf78d"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688169&begin_time=2025-05-10&end_time=2025-06-24"
+}

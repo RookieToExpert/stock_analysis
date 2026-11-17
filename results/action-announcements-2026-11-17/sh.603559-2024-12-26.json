@@ -1,0 +1,48 @@
+{
+  "code": "sh.603559",
+  "target_date": "2024-12-26",
+  "documents": [
+    {
+      "title": "*ST通脉:中通国脉通信股份有限公司关于重整计划资本公积金转增股本除权事项的提示性公告",
+      "available_date": "2024-12-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202412241641417484_1.pdf",
+      "article": "AN202412241641417484",
+      "pdf_sha256": "c0c4a726d3fdf65f346ac4e3c292b760d7c54015317a15c3ecc4c5041c958823",
+      "text_sha256": "1de683b0d594012260bdb5668155c99a53bca201fb88265fa9b6e992422d52fe"
+    },
+    {
+      "title": "*ST通脉:广发证券股份有限公司关于中通国脉通信股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+      "available_date": "2024-12-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202412241641417486_1.pdf",
+      "article": "AN202412241641417486",
+      "pdf_sha256": "b08cf36b8efc4ffeb469ee9364e7bb68affb48f61456e249c150041713aff7ee",
+      "text_sha256": "04f0ccc24597ec5fcba9ec938d924e165511f10810358c83df43afcb4c9ec0b8"
+    },
+    {
+      "title": "*ST通脉:广发证券股份有限公司关于中通国脉通信股份有限公司资本公积转增股本除权参考价格计算公式的专项意见",
+      "available_date": "2024-12-20",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202412191641364066_1.pdf",
+      "article": "AN202412191641364066",
+      "pdf_sha256": "065124f87c0af227660228874d8b8f76199981e83109666b699f04a6c359a49f",
+      "text_sha256": "87219781c40811bd1bc665ec896e5158d4b235850c80dbe0df28a08d48f4b38e"
+    },
+    {
+      "title": "*ST通脉:中通国脉通信股份有限公司关于重整计划资本公积金转增股本事项实施的公告",
+      "available_date": "2024-12-20",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202412191641364065_1.pdf",
+      "article": "AN202412191641364065",
+      "pdf_sha256": "6e1653a57ece1523b7f4ab7fecfb01e457972172b0a0b26c810fb4eb7e559383",
+      "text_sha256": "af06b7f154a9662642e1c84f3401040d12729f47ff928f797bc2f8fcb9acde1e"
+    },
+    {
+      "title": "*ST通脉:广发证券股份有限公司关于中通国脉通信股份有限公司重整投资人受让资本公积转增股份价格的专项意见",
+      "available_date": "2024-11-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202411281641109313_1.pdf",
+      "article": "AN202411281641109313",
+      "pdf_sha256": "3dbe1c45b4fa4bbdda157a78d8a218608287c374674a707dc252fe74da914bec",
+      "text_sha256": "147ecf9f7fc7f8989377d7ccba6b7f435c4a87aa884ac2875baabbf610333996"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603559&begin_time=2024-11-11&end_time=2024-12-26"
+}

@@ -14,7 +14,7 @@ from rules import MANUAL, fiscal_dividends, recent_from_rows, action, blue_chip,
 OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 HDR = {"User-Agent": "Mozilla/5.0", "Referer": "https://emweb.securities.eastmoney.com/"}
 F10 = "https://datacenter.eastmoney.com/securities/api/data"
-CALCULATION_REVISION = "2026-11-17-r7"
+CALCULATION_REVISION = "2026-11-17-r8"
 
 
 MAIN_FIELDS = ("REPORT_DATE", "NOTICE_DATE", "UPDATE_DATE", "TOTALOPERATEREVE", "PARENTNETPROFIT",

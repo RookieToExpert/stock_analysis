@@ -1,0 +1,16 @@
+{
+  "code": "sh.688073",
+  "target_date": "2024-06-26",
+  "documents": [
+    {
+      "title": "毕得医药:2023年年度权益分派实施公告",
+      "available_date": "2024-06-19",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406181636641258_1.pdf",
+      "article": "AN202406181636641258",
+      "pdf_sha256": "af3bad3681be8aaa37dd3ab9641457bbfd6c3a1bf5ef3e0992f8212e07c94ddd",
+      "text_sha256": "e9c6a001c936c63f91557ab6c978021d15dc3941083d75a75c5637550cb15d74"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688073&begin_time=2024-05-12&end_time=2024-06-26"
+}

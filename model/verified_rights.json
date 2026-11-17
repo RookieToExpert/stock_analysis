@@ -1,0 +1,21 @@
+[
+  {
+    "id": "sz.000049-2023-12-08",
+    "code": "sz.000049",
+    "offer_available_date": "2023-11-27",
+    "available_date": "2023-12-08",
+    "record_date": "2023-11-29",
+    "payment_start": "2023-11-30",
+    "payment_end": "2023-12-06",
+    "ex_date": "2023-12-08",
+    "listing_date": "2023-12-25",
+    "listing_available_date": "2023-12-22",
+    "subscription_price": "21.16",
+    "offered_shares_per_share": "0.3",
+    "issued_shares_per_share": "0.2847542",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-12-08/1218545401.PDF",
+    "offer_source": "https://pdf.dfcfw.com/pdf/H2_AN202311261612382736_1.pdf",
+    "listing_source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9726624&stockid=000049",
+    "research_assumption": "Full subscription with external cash; capital contribution is removed by unitization. Subscription interval must be continuously suspended at unchanged close. Unlisted shares are marked at the listed share price after ex-date, without assuming tradability."
+  }
+]

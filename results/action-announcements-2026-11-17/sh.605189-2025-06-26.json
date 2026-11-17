@@ -1,0 +1,16 @@
+{
+  "code": "sh.605189",
+  "target_date": "2025-06-26",
+  "documents": [
+    {
+      "title": "富春染织:富春染织2024年年度权益分派实施公告",
+      "available_date": "2025-06-19",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506181693267542_1.pdf",
+      "article": "AN202506181693267542",
+      "pdf_sha256": "d0454c9ce47141f9a3d11fb4525ee166511d9d869cbb15500413489149456058",
+      "text_sha256": "34e4206045831120ad1a3db9906de9c806b0e51450d20a5d5bbdda5bf0ca1055"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605189&begin_time=2025-05-12&end_time=2025-06-26"
+}

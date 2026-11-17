@@ -1,0 +1,16 @@
+{
+  "code": "sh.605090",
+  "target_date": "2025-06-03",
+  "documents": [
+    {
+      "title": "九丰能源:2024年年度权益分派实施公告",
+      "available_date": "2025-05-23",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505221677229861_1.pdf",
+      "article": "AN202505221677229861",
+      "pdf_sha256": "40decd409807144862b2b5f97f4605c43dfe4e871bd8d895c4c9de311f993f94",
+      "text_sha256": "84048f0bfeb0cbaa2b8febb407f024b580b4ccc4da1d31a44c1ee3fd00a98f07"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605090&begin_time=2025-04-19&end_time=2025-06-03"
+}

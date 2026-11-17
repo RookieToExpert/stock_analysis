@@ -1,0 +1,16 @@
+{
+  "code": "sh.688037",
+  "target_date": "2024-07-17",
+  "documents": [
+    {
+      "title": "芯源微:芯源微2023年年度权益分派实施公告",
+      "available_date": "2024-07-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202407101637759858_1.pdf",
+      "article": "AN202407101637759858",
+      "pdf_sha256": "56dbd1b5be61a33bc56a377bc5d343c9223e07a7c9568eb3f9dd80ce5cd8375a",
+      "text_sha256": "20425558a589ac091b59d90f968648b533393adb6352ab34861732ecacf374d5"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688037&begin_time=2024-06-02&end_time=2024-07-17"
+}

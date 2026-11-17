@@ -1,0 +1,16 @@
+{
+  "code": "sz.000333",
+  "target_date": "2026-06-29",
+  "documents": [
+    {
+      "title": "美的集团:2025年度A股利润分配实施公告",
+      "available_date": "2026-06-23",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606221823745067_1.pdf",
+      "article": "AN202606221823745067",
+      "pdf_sha256": "afcd0c38996bea94bea13cf2a9cc571bc46017ec3ec04c811c4a54e0c5bc5557",
+      "text_sha256": "880c65df3b1050b001fe3d3312cd859fd376b6fde9a82591ac977aa3596ecc3c"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000333&begin_time=2026-05-15&end_time=2026-06-29"
+}

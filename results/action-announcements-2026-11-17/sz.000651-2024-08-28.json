@@ -1,0 +1,16 @@
+{
+  "code": "sz.000651",
+  "target_date": "2024-08-28",
+  "documents": [
+    {
+      "title": "格力电器:2023年年度分红派息实施公告",
+      "available_date": "2024-08-22",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202408211639385096_1.pdf",
+      "article": "AN202408211639385096",
+      "pdf_sha256": "d452ed97074bd22b4ba02d639ef46e8b4bee1d1cf53cc8f931d1c72bd16d9d1c",
+      "text_sha256": "bdc49cf83f7819baaad59f8fe2eb22873a50a2ab55d152e798d8ae72421f53ab"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000651&begin_time=2024-07-14&end_time=2024-08-28"
+}

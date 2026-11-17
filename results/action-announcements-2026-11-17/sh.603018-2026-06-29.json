@@ -1,0 +1,16 @@
+{
+  "code": "sh.603018",
+  "target_date": "2026-06-29",
+  "documents": [
+    {
+      "title": "华设集团:华设集团2025年年度权益分派实施公告",
+      "available_date": "2026-06-23",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606221823745670_1.pdf",
+      "article": "AN202606221823745670",
+      "pdf_sha256": "da727c83c34c1fe2ebd576e83624dc1423fa159bcd31301cd1f3006f940256bd",
+      "text_sha256": "391f2b044d0910db7cddcf68f6c6e33dbf6979283d3d9ebdfb8e3b9ff65f2a65"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603018&begin_time=2026-05-15&end_time=2026-06-29"
+}

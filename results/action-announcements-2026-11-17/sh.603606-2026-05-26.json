@@ -1,0 +1,16 @@
+{
+  "code": "sh.603606",
+  "target_date": "2026-05-26",
+  "documents": [
+    {
+      "title": "东方电缆:东方电缆2025年年度权益分派实施公告",
+      "available_date": "2026-05-19",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605181822403703_1.pdf",
+      "article": "AN202605181822403703",
+      "pdf_sha256": "7e3c49e71dd16ddac919e881a0a128c404778fba443d271a257ddc94c364b335",
+      "text_sha256": "13e8b25e686f688cdcdec9448371d116e4fff3ac9f0f8f336ed81e631a2c5955"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603606&begin_time=2026-04-11&end_time=2026-05-26"
+}

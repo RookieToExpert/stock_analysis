@@ -1,0 +1,16 @@
+{
+  "code": "sh.603165",
+  "target_date": "2025-05-15",
+  "documents": [
+    {
+      "title": "荣晟环保:浙江荣晟环保纸业股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-05-09",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505081669523128_1.pdf",
+      "article": "AN202505081669523128",
+      "pdf_sha256": "2f7957b7df1342bf680f4555abd6b6a9d88548e2225dd1afc457bc0868106b83",
+      "text_sha256": "a9b58f123ac72c4f78762262238c8396ebd0de1f35e7b8b87a8cd82658af4371"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603165&begin_time=2025-03-31&end_time=2025-05-15"
+}

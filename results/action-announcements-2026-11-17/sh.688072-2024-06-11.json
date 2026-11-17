@@ -1,0 +1,16 @@
+{
+  "code": "sh.688072",
+  "target_date": "2024-06-11",
+  "documents": [
+    {
+      "title": "拓荆科技:2023年年度权益分派实施公告",
+      "available_date": "2024-06-04",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406031635275309_1.pdf",
+      "article": "AN202406031635275309",
+      "pdf_sha256": "772f7b2f1800e0e9aa84f80dcd2b3ca870a6e814c5fec7091b4906e65b96e0bd",
+      "text_sha256": "eb954e25d0e4da5c0314143a4dc701c11f2a9a329fbde47448af0f96a6071cf4"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688072&begin_time=2024-04-27&end_time=2024-06-11"
+}

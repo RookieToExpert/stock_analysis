@@ -1,0 +1,16 @@
+{
+  "code": "sh.688201",
+  "target_date": "2024-07-09",
+  "documents": [
+    {
+      "title": "信安世纪:2023年年度权益分派实施公告",
+      "available_date": "2024-07-02",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202407011637352995_1.pdf",
+      "article": "AN202407011637352995",
+      "pdf_sha256": "3e83717a0ddb2151306c5aa2fa35e822333d5aa1ff4c08f9f385dc804d1a2b8b",
+      "text_sha256": "7f8aee75de53ba87999d485d054099056b02cc2336a185041283cfe5fb2d796b"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688201&begin_time=2024-05-25&end_time=2024-07-09"
+}

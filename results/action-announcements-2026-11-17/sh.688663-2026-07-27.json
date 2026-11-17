@@ -1,0 +1,16 @@
+{
+  "code": "sh.688663",
+  "target_date": "2026-07-27",
+  "documents": [
+    {
+      "title": "新风光:新风光2025年年度权益分派实施公告",
+      "available_date": "2026-07-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202607201827145391_1.pdf",
+      "article": "AN202607201827145391",
+      "pdf_sha256": "bc1dfd529525003976e14462bed694243a4176f11926d6af3c2cf7857ed253c4",
+      "text_sha256": "8c4f3a33d2fcf7060ca9adf50099de4977f91e7f080752bee415669046f81b1e"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688663&begin_time=2026-06-12&end_time=2026-07-27"
+}

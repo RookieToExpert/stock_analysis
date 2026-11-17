@@ -1,0 +1,16 @@
+{
+  "code": "sh.603579",
+  "target_date": "2024-06-05",
+  "documents": [
+    {
+      "title": "荣泰健康:上海荣泰健康科技股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-05-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405281634756962_1.pdf",
+      "article": "AN202405281634756962",
+      "pdf_sha256": "060996804864b67fd5ecbfdc692e5bfc6d5688d8f3de154d26696d172ce744f2",
+      "text_sha256": "15e1e116ec4191a43262439823c79604d2cc0bda1e2cf7300b9e042c15fc8d3f"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603579&begin_time=2024-04-21&end_time=2024-06-05"
+}

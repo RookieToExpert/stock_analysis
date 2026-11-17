@@ -4,6 +4,9 @@
 """
 from dataclasses import dataclass, field
 from datetime import date
+from decimal import Decimal
+import copy
+from rights import validate as validate_rights
 
 COMMISSION, MIN_COMMISSION = 0.00025, 5.0
 TRANSFER, STAMP, SLIPPAGE = 0.00001, 0.0005, 0.001
@@ -48,6 +51,7 @@ class Portfolio:
     cash: float
     lots: dict = field(default_factory=dict)
     log: list = field(default_factory=list)
+    rights: dict = field(default_factory=dict)
 
     def shares(self, code):
         return sum(x.shares for x in self.lots.get(code, []))
@@ -105,6 +109,44 @@ class Portfolio:
             lot.shares = int(lot.shares * ratio)
         self._record(day, code, "split", "股本调整", self.shares(code), ratio)
 
+    def record_rights(self, day, code, event):
+        """Freeze entitlement on record date; later purchases create no rights."""
+        validate_rights(event)
+        if (day.isoformat()!=event['record_date'] or event['offer_available_date']>day.isoformat()
+                or code.split('.')[-1]!=event['code'].split('.')[-1]):
+            raise ValueError('rights record date/security mismatch')
+        if event['id'] in self.rights:raise ValueError('rights entitlement already recorded')
+        entitlement=Decimal(self.shares(code))*Decimal(event['offered_shares_per_share'])
+        if entitlement!=entitlement.to_integral_value():
+            raise ValueError('fractional rights require verified allocation; cannot assume rounding')
+        n=int(entitlement)
+        self.rights[event['id']]=dict(event=copy.deepcopy(event),code=code,entitlement=n,paid=0,settled=False)
+
+    def subscribe_rights(self, day, event_id, shares=None):
+        """Pay from existing cash, at most remaining entitlement; no borrowing."""
+        claim=self.rights[event_id];event=claim['event']
+        if not event['payment_start']<=day.isoformat()<=event['payment_end'] or claim['settled']:
+            raise ValueError('outside rights payment window')
+        price=Decimal(event['subscription_price']);left=claim['entitlement']-claim['paid']
+        affordable=max(0,int(Decimal(str(self.cash))/price))
+        if shares is None:shares=min(left,affordable)
+        if isinstance(shares,bool) or not isinstance(shares,int) or not 0<=shares<=min(left,affordable):
+            raise ValueError('invalid or unfunded rights subscription')
+        cost=float(price*shares)
+        self.cash-=cost;claim['paid']+=shares
+        self._record(day,claim['code'],'rights_payment','已缴款待上市',shares,float(price),0,-cost)
+        return shares
+
+    def settle_rights(self, day, event_id):
+        claim=self.rights[event_id];event=claim['event']
+        if (day.isoformat()<event['listing_date'] or day.isoformat()<event['listing_available_date']):
+            raise ValueError('rights shares not listed')
+        if claim['settled']:raise ValueError('rights shares already settled')
+        claim['settled']=True
+        if claim['paid']:
+            self.lots.setdefault(claim['code'],[]).append(Lot(claim['paid'],date.fromisoformat(event['listing_date'])))
+        self._record(day,claim['code'],'rights_listing','股份到账',claim['paid'])
+
     def delist(self, day, code, last_price):
         n = self.shares(code)
         if n:
@@ -114,11 +156,16 @@ class Portfolio:
             del self.lots[code]
             self._record(day, code, "delist", "退市按最后价卖出", n, last_price, cost, amount - cost)
 
-    def value(self, closes):
-        missing = [c for c in self.lots if c not in closes]
+    def value(self, closes, day=None):
+        pending=[r for r in self.rights.values() if r['paid'] and not r['settled']]
+        if pending and day is None:raise ValueError('valuation date required for pending rights')
+        required=set(self.lots)|{r['code'] for r in pending if day.isoformat()>=r['event']['ex_date']}
+        missing = [c for c in required if c not in closes]
         if missing:
             raise ValueError(f"缺收盘价: {missing}")
-        return self.cash + sum(self.shares(c) * closes[c] for c in self.lots)
+        claims=sum(r['paid']*(closes[r['code']] if day.isoformat()>=r['event']['ex_date']
+                             else float(r['event']['subscription_price'])) for r in pending)
+        return self.cash + sum(self.shares(c) * closes[c] for c in self.lots)+claims
 
 
 def choose(candidates, held, industries, top=20, single=0.10, group=0.25):

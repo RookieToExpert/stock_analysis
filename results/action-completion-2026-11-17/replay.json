@@ -1,0 +1,3855 @@
+{
+  "revision": "2026-11-17-r8",
+  "as_of": "2026-11-17",
+  "ledger_sha256": "5c2bfcade653526a4629024efd7ad7437ae1910be93b524890244e8fa8612d5a",
+  "unsupported_ledger_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "rights_ledger_sha256": "470189a4b5602ba519b676ce31f2dc6ae46ec13030b3e22710f63ed44dad8a6c",
+  "adjustment_exclusions_sha256": "df50bfae6c6de27118d6a84556e5e051749354ebe3b2d386d1f99d0e747f72cd",
+  "baseline_sha256": "973f46c7a2b6d5b1699be40cbba346e4b03b48a7e841848aed4d58c550e4f6b4",
+  "counts": {
+    "reconstructed": 329
+  },
+  "failure_categories": {},
+  "recovered": [
+    "sh.600165",
+    "sh.600211",
+    "sh.600256",
+    "sh.600375",
+    "sh.600382",
+    "sh.600519",
+    "sh.600580",
+    "sh.600589",
+    "sh.600639",
+    "sh.600690",
+    "sh.600694",
+    "sh.600715",
+    "sh.600720",
+    "sh.600729",
+    "sh.600826",
+    "sh.601021",
+    "sh.601318",
+    "sh.601615",
+    "sh.601666",
+    "sh.601799",
+    "sh.601898",
+    "sh.603007",
+    "sh.603018",
+    "sh.603030",
+    "sh.603052",
+    "sh.603067",
+    "sh.603093",
+    "sh.603095",
+    "sh.603096",
+    "sh.603102",
+    "sh.603119",
+    "sh.603161",
+    "sh.603165",
+    "sh.603237",
+    "sh.603259",
+    "sh.603276",
+    "sh.603281",
+    "sh.603283",
+    "sh.603296",
+    "sh.603301",
+    "sh.603303",
+    "sh.603324",
+    "sh.603337",
+    "sh.603368",
+    "sh.603444",
+    "sh.603489",
+    "sh.603507",
+    "sh.603529",
+    "sh.603551",
+    "sh.603558",
+    "sh.603559",
+    "sh.603579",
+    "sh.603606",
+    "sh.603610",
+    "sh.603629",
+    "sh.603658",
+    "sh.603688",
+    "sh.603725",
+    "sh.603816",
+    "sh.603833",
+    "sh.603836",
+    "sh.603871",
+    "sh.605009",
+    "sh.605090",
+    "sh.605128",
+    "sh.605189",
+    "sh.605266",
+    "sh.605369",
+    "sh.605377",
+    "sh.605388",
+    "sh.605398",
+    "sh.605488",
+    "sh.605499",
+    "sh.605589",
+    "sh.688005",
+    "sh.688016",
+    "sh.688018",
+    "sh.688019",
+    "sh.688023",
+    "sh.688032",
+    "sh.688037",
+    "sh.688049",
+    "sh.688050",
+    "sh.688058",
+    "sh.688069",
+    "sh.688072",
+    "sh.688073",
+    "sh.688083",
+    "sh.688090",
+    "sh.688092",
+    "sh.688096",
+    "sh.688120",
+    "sh.688130",
+    "sh.688152",
+    "sh.688167",
+    "sh.688169",
+    "sh.688171",
+    "sh.688186",
+    "sh.688193",
+    "sh.688199",
+    "sh.688200",
+    "sh.688201",
+    "sh.688208",
+    "sh.688215",
+    "sh.688231",
+    "sh.688239",
+    "sh.688244",
+    "sh.688251",
+    "sh.688257",
+    "sh.688258",
+    "sh.688259",
+    "sh.688261",
+    "sh.688267",
+    "sh.688270",
+    "sh.688286",
+    "sh.688289",
+    "sh.688301",
+    "sh.688325",
+    "sh.688326",
+    "sh.688348",
+    "sh.688366",
+    "sh.688368",
+    "sh.688378",
+    "sh.688388",
+    "sh.688391",
+    "sh.688398",
+    "sh.688408",
+    "sh.688409",
+    "sh.688416",
+    "sh.688419",
+    "sh.688448",
+    "sh.688458",
+    "sh.688479",
+    "sh.688486",
+    "sh.688489",
+    "sh.688498",
+    "sh.688503",
+    "sh.688507",
+    "sh.688522",
+    "sh.688531",
+    "sh.688535",
+    "sh.688543",
+    "sh.688550",
+    "sh.688551",
+    "sh.688553",
+    "sh.688557",
+    "sh.688576",
+    "sh.688580",
+    "sh.688581",
+    "sh.688589",
+    "sh.688592",
+    "sh.688597",
+    "sh.688598",
+    "sh.688603",
+    "sh.688606",
+    "sh.688608",
+    "sh.688616",
+    "sh.688617",
+    "sh.688618",
+    "sh.688623",
+    "sh.688625",
+    "sh.688633",
+    "sh.688639",
+    "sh.688651",
+    "sh.688657",
+    "sh.688663",
+    "sh.688678",
+    "sh.688696",
+    "sh.688699",
+    "sh.688719",
+    "sh.688766",
+    "sh.688767",
+    "sh.688778",
+    "sh.688788",
+    "sh.688800",
+    "sz.000002",
+    "sz.000049",
+    "sz.000333",
+    "sz.000403",
+    "sz.000430",
+    "sz.000498",
+    "sz.000513",
+    "sz.000525",
+    "sz.000528",
+    "sz.000554",
+    "sz.000581",
+    "sz.000615",
+    "sz.000630",
+    "sz.000651",
+    "sz.000661",
+    "sz.000691",
+    "sz.000697",
+    "sz.000703",
+    "sz.000793",
+    "sz.000796",
+    "sz.000908",
+    "sz.001202",
+    "sz.001211",
+    "sz.001212",
+    "sz.001230",
+    "sz.001268",
+    "sz.001283",
+    "sz.001299",
+    "sz.001301",
+    "sz.002020",
+    "sz.002021",
+    "sz.002032",
+    "sz.002200",
+    "sz.002271",
+    "sz.002318",
+    "sz.002322",
+    "sz.002346",
+    "sz.002352",
+    "sz.002396",
+    "sz.002432",
+    "sz.002458",
+    "sz.002475"
+  ],
+  "regressions": [],
+  "rows": [
+    {
+      "code": "sh.600007",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.19783284767263,
+        "drawdown": 10.346495020094338,
+        "total_return": 32.03842330752524
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600017",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 16.831349756880684,
+        "drawdown": 17.125038106002165,
+        "total_return": 3.4728553289144815
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600023",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 27.459033071361226,
+        "drawdown": 22.025592339607048,
+        "total_return": 34.74524832541572
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600026",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 40.2177104170473,
+        "drawdown": 24.08953537668177,
+        "total_return": 46.2177398168756
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600094",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 50.17607586489488,
+        "drawdown": 22.279792746114204,
+        "total_return": 41.98151125401874
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600150",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.56534522903386,
+        "drawdown": 20.365030168423438,
+        "total_return": 33.93812736160513
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600165",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 79.52608220056561,
+        "drawdown": 48.38709677419344,
+        "total_return": -23.380281690140727
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600167",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.529317826330825,
+        "drawdown": 53.473088518114245,
+        "total_return": -8.270140219222377
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600211",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 25.15141462484294,
+        "drawdown": 32.52047913807418,
+        "total_return": 7.097156556105189
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600218",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.86588167748909,
+        "drawdown": 43.43362801868379,
+        "total_return": -16.828215182735672
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600219",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 37.394766827022906,
+        "drawdown": 42.99374386158766,
+        "total_return": 73.27417279237147
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600256",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.14484289241305,
+        "drawdown": 6.762256249051857,
+        "total_return": 16.87085148342158
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600335",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.476575057049153,
+        "drawdown": 46.24009534734855,
+        "total_return": -27.240019456411414
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600360",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 64.38927661256099,
+        "drawdown": 51.94490171395365,
+        "total_return": 18.91895253171858
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600375",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 48.02462824260426,
+        "drawdown": 63.89521640091112,
+        "total_return": -46.989966555183905
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600380",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 26.49937789806654,
+        "drawdown": 19.002604458721606,
+        "total_return": -3.5748555093824574
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600382",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 36.351590234860936,
+        "drawdown": 47.12704742303404,
+        "total_return": 29.59658824439899
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600415",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 39.699968688267404,
+        "drawdown": 47.646072350100575,
+        "total_return": 61.73751759946513
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600426",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.63970477811728,
+        "drawdown": 38.72492226134203,
+        "total_return": -16.34581964046905
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600477",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.95005933190917,
+        "drawdown": 49.16751942058153,
+        "total_return": -30.700963111442046
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600479",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 25.912133214108586,
+        "drawdown": 28.294018691830093,
+        "total_return": 5.546841508944822
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600482",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 38.58427153165292,
+        "drawdown": 28.745053288800072,
+        "total_return": 70.74129643751226
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600519",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 22.250580277082353,
+        "drawdown": 14.475084983944718,
+        "total_return": -8.006063226981086
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600570",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 44.82170641356426,
+        "drawdown": 51.107097423846696,
+        "total_return": -38.0227619205391
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600580",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 62.7723146332823,
+        "drawdown": 58.42329423935517,
+        "total_return": 155.55562186511688
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600589",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 91.65482758792272,
+        "drawdown": 58.008658008657996,
+        "total_return": 32.27272727272701
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600639",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 28.502939036793652,
+        "drawdown": 31.30269076587827,
+        "total_return": -7.4664357825086185
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600667",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 91.0089498449254,
+        "drawdown": 60.052032467742464,
+        "total_return": 105.75373480600932
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600685",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 31.22142376341613,
+        "drawdown": 31.85008724057432,
+        "total_return": 14.24849161651396
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600686",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 77.99796180509115,
+        "drawdown": 60.43422221259449,
+        "total_return": 11.582732718646893
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600690",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.14906027105035,
+        "drawdown": 31.577863029958607,
+        "total_return": 5.357956036680278
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600694",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.1292145314353,
+        "drawdown": 26.626863085286324,
+        "total_return": 37.897352355162475
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600714",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 55.18460394658631,
+        "drawdown": 58.88082812410396,
+        "total_return": 51.15314042783563
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600715",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 61.901176110087604,
+        "drawdown": 48.87218045112799,
+        "total_return": -1.4492753623191579
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600720",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 23.366499405225287,
+        "drawdown": 55.45577499274417,
+        "total_return": -50.282897249966084
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600729",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.83152246065289,
+        "drawdown": 40.85022931059733,
+        "total_return": -20.42780440543591
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600814",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 28.81759676923617,
+        "drawdown": 35.25215171135996,
+        "total_return": 2.8247562461674924
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600826",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 39.77831558163596,
+        "drawdown": 45.06285514923629,
+        "total_return": 36.972253216227344
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600895",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 52.004066899897914,
+        "drawdown": 56.99491935556671,
+        "total_return": 0.3135107810415816
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600903",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 39.266725542403094,
+        "drawdown": 45.3989680960994,
+        "total_return": -29.99293099068847
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600906",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.37155602375669,
+        "drawdown": 35.90672380455414,
+        "total_return": -27.021131317245406
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.600971",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 31.229014847949742,
+        "drawdown": 38.05474728068211,
+        "total_return": -5.493781107707251
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601006",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 17.16309636065875,
+        "drawdown": 27.039176691943258,
+        "total_return": -21.271122699489396
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601021",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 23.245791882947035,
+        "drawdown": 31.957835075016227,
+        "total_return": -21.71853510569022
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601088",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 25.353565719751863,
+        "drawdown": 0.0,
+        "total_return": 104.19843761775826
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601199",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 20.147882110797102,
+        "drawdown": 17.866005553163056,
+        "total_return": 12.221564641430405
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601222",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 24.164175500223898,
+        "drawdown": 28.37855822058495,
+        "total_return": -11.215153980549807
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601225",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 28.80723552652431,
+        "drawdown": 0.4928062213731432,
+        "total_return": 83.41997845854377
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601229",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 17.97364430659944,
+        "drawdown": 11.251441670776686,
+        "total_return": 87.87517703734409
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601288",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 21.37354026117754,
+        "drawdown": 8.201179658380997,
+        "total_return": 141.6084794704427
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601298",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 22.961471833834587,
+        "drawdown": 0.34230552151602867,
+        "total_return": 88.6265648660119
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601318",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 27.285807471277284,
+        "drawdown": 25.324510401508338,
+        "total_return": 34.524861404125005
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601369",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 26.71937688540889,
+        "drawdown": 35.011756666545054,
+        "total_return": 16.822094251724074
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601375",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 27.29907678400953,
+        "drawdown": 30.02254845473774,
+        "total_return": -4.828012153243488
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601398",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 16.06155925713136,
+        "drawdown": 0.3416856492027276,
+        "total_return": 115.24054159671265
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601598",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.77379528066934,
+        "drawdown": 1.5130674002750921,
+        "total_return": 90.98537341843192
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601600",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 40.92149538002207,
+        "drawdown": 42.907571754106435,
+        "total_return": 52.75100182737438
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601601",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.97648223918909,
+        "drawdown": 32.53677482217993,
+        "total_return": 24.229435671125678
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601615",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 58.02118629371426,
+        "drawdown": 67.91273127843169,
+        "total_return": -36.919759725793725
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601628",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.426891651803082,
+        "drawdown": 30.352988743217512,
+        "total_return": 9.572642212899819
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601666",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.2589624426386,
+        "drawdown": 34.58744445189764,
+        "total_return": -3.3856554554528295
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601799",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 36.155442018356496,
+        "drawdown": 56.7323690806776,
+        "total_return": -53.082379597737074
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601866",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 19.534029791742423,
+        "drawdown": 25.01573310100952,
+        "total_return": 9.95467968121233
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601872",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 42.418612115014504,
+        "drawdown": 22.09140081895956,
+        "total_return": 204.31196050822913
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601878",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 24.268614240724887,
+        "drawdown": 44.107472976408665,
+        "total_return": -10.837325881942373
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601898",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 37.706068516008514,
+        "drawdown": 26.026151638396644,
+        "total_return": 82.94740052316227
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601901",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.925273395298056,
+        "drawdown": 34.522706545265955,
+        "total_return": -11.01862087356087
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601918",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.436346634877125,
+        "drawdown": 15.630397236614858,
+        "total_return": 115.33965274131029
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601919",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.304059358545324,
+        "drawdown": 0.0,
+        "total_return": 137.0206134229184
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601928",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 23.545477899170255,
+        "drawdown": 19.110650595313537,
+        "total_return": 7.151673717350526
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601966",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 26.429773523242527,
+        "drawdown": 56.761116175122915,
+        "total_return": -47.486375594686905
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601985",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 17.236591933929084,
+        "drawdown": 16.390210543981432,
+        "total_return": 40.03387878921445
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601990",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 22.75411184948095,
+        "drawdown": 38.9132003750472,
+        "total_return": -18.221962632917844
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.601991",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 66.38345296515611,
+        "drawdown": 48.1759103641456,
+        "total_return": 90.48402524878341
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603007",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 67.25892181843362,
+        "drawdown": 70.9166934331797,
+        "total_return": 23.142976097560954
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603018",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.02163517981109,
+        "drawdown": 40.68383071683116,
+        "total_return": -17.53039127078997
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603030",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 42.30000888110568,
+        "drawdown": 57.68261964735524,
+        "total_return": -50.44247787610632
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603052",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 91.83712515637531,
+        "drawdown": 69.33610677760443,
+        "total_return": 120.9939929694186
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603067",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 58.32966314430046,
+        "drawdown": 51.04743464091342,
+        "total_return": 242.22655966175623
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603093",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 53.23747540173366,
+        "drawdown": 35.054163368118,
+        "total_return": 48.37357515242293
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603095",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 54.556766683785796,
+        "drawdown": 55.37593984962407,
+        "total_return": 5.094485745096433
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603096",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 33.51384582171722,
+        "drawdown": 36.47311827956992,
+        "total_return": -4.431840233189832
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603102",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 27.412159901026296,
+        "drawdown": 31.977175915646725,
+        "total_return": -11.739656382956786
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603119",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 57.848332115175815,
+        "drawdown": 37.42177562026756,
+        "total_return": 302.1817975108857
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603128",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 22.642361955709898,
+        "drawdown": 31.027225013958727,
+        "total_return": -18.2333325886605
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603161",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.55938092072527,
+        "drawdown": 22.284434490481498,
+        "total_return": 21.078874879614418
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603165",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 27.53257939036868,
+        "drawdown": 31.23070289544624,
+        "total_return": 17.446044691536635
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603167",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 23.958035220428847,
+        "drawdown": 20.47019283377427,
+        "total_return": 31.588020195111465
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603233",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.86956294165644,
+        "drawdown": 10.987717638215177,
+        "total_return": -2.7596915375460274
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603237",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 26.962153397697406,
+        "drawdown": 33.92989456739347,
+        "total_return": -20.659136395493782
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603259",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 45.6208444694723,
+        "drawdown": 15.450107168373483,
+        "total_return": 75.64898521516457
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603276",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.18853640229325,
+        "drawdown": 17.924864956074416,
+        "total_return": -1.412501912506181
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603277",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.3682712068149,
+        "drawdown": 48.791725431910635,
+        "total_return": -36.98284218631579
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603281",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.497206941911603,
+        "drawdown": 43.87357903515501,
+        "total_return": -8.907418799747846
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603283",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 73.07421261002142,
+        "drawdown": 59.409730797727825,
+        "total_return": 12.951248672587479
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603288",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.955495309754717,
+        "drawdown": 28.708694828045378,
+        "total_return": -0.0667414407622191
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603296",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 46.4431969023068,
+        "drawdown": 29.117911791179107,
+        "total_return": 56.415355909489385
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603301",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 85.68106891630573,
+        "drawdown": 20.33704501781479,
+        "total_return": 227.47129987968907
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603303",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 53.20250469268779,
+        "drawdown": 18.68994580330631,
+        "total_return": 135.18517841265117
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603323",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 19.404803669852377,
+        "drawdown": 11.838965009098024,
+        "total_return": 43.58075418723655
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603324",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 54.96696745513295,
+        "drawdown": 65.96745027124774,
+        "total_return": -29.089486102757146
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603337",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 39.29273472657842,
+        "drawdown": 15.66785231768728,
+        "total_return": 139.72740100298785
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603368",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 24.964395020680993,
+        "drawdown": 21.37374860111715,
+        "total_return": -9.897951792898684
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603444",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 47.315056925518064,
+        "drawdown": 46.3786905364164,
+        "total_return": 41.76749558201518
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603489",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 40.95374202462217,
+        "drawdown": 38.00606248648215,
+        "total_return": -20.948635840369633
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603507",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 42.901677673669454,
+        "drawdown": 47.68189829696997,
+        "total_return": 33.681686039634414
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603517",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 41.24785587405284,
+        "drawdown": 66.60597614463867,
+        "total_return": -66.46407519341193
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603529",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 38.167421985467136,
+        "drawdown": 54.890554709264116,
+        "total_return": -22.357487813944164
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603551",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 24.05321759126935,
+        "drawdown": 26.832273325942268,
+        "total_return": 8.130567175019078
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603558",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 33.08673522599175,
+        "drawdown": 19.92844897220828,
+        "total_return": 53.72494985917689
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603559",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 62.91188154821879,
+        "drawdown": 50.42016806722695,
+        "total_return": -19.178082191780998
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603579",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 55.14929093929333,
+        "drawdown": 64.97529252621575,
+        "total_return": 4.626941161857512
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603599",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 38.731358970240876,
+        "drawdown": 37.54040853006118,
+        "total_return": -33.608841615426186
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603605",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.21600723282476,
+        "drawdown": 56.54005703842846,
+        "total_return": -48.90938811841217
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603606",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.656163238723686,
+        "drawdown": 38.229129055281966,
+        "total_return": 8.383050234720478
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603610",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 43.98717628302317,
+        "drawdown": 52.54098523340741,
+        "total_return": 0.3527517696257254
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603629",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 103.12779626588654,
+        "drawdown": 62.293843008514884,
+        "total_return": 175.9423285659405
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603630",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 43.03606823329089,
+        "drawdown": 56.203911510099424,
+        "total_return": -6.584429394965707
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603658",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 37.04164988516392,
+        "drawdown": 36.83487486471947,
+        "total_return": -5.699939168116708
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603688",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 60.103445428415384,
+        "drawdown": 63.07159353348732,
+        "total_return": -42.9449428141883
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603689",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 18.799256125262215,
+        "drawdown": 18.470244180936078,
+        "total_return": -0.7969047404500995
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603699",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 50.04506121399044,
+        "drawdown": 48.03408954822426,
+        "total_return": 159.49409045777432
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603725",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.744505422901526,
+        "drawdown": 31.042461736231097,
+        "total_return": 44.269204447454925
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603727",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 31.74343794354715,
+        "drawdown": 3.051539064327735,
+        "total_return": 69.35113324515798
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603816",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 36.20935188336977,
+        "drawdown": 28.064191043597987,
+        "total_return": -21.618339887579786
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603833",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 41.212178209727504,
+        "drawdown": 58.46810790792583,
+        "total_return": -57.62382802963282
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603836",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.19580307520036,
+        "drawdown": 32.55421292220465,
+        "total_return": -19.082723034367334
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603871",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 40.01088261178078,
+        "drawdown": 24.724547247521876,
+        "total_return": 48.85204324065084
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603949",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 72.27623163914721,
+        "drawdown": 54.12448181023024,
+        "total_return": -45.828040868729616
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.603998",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.478921122075224,
+        "drawdown": 19.32842174473315,
+        "total_return": 1.3683474931730721
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605009",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 38.06580365068446,
+        "drawdown": 53.420827505118716,
+        "total_return": -12.235384532647542
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605089",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 37.933525802675646,
+        "drawdown": 51.75378342385881,
+        "total_return": -43.85966563119867
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605090",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 40.60817441394143,
+        "drawdown": 44.99751533740688,
+        "total_return": 26.204196780583967
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605128",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 40.52911235487082,
+        "drawdown": 33.74348265210231,
+        "total_return": 22.683185067665622
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605189",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 39.706984650166305,
+        "drawdown": 27.99476500887026,
+        "total_return": 19.92958877686377
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605266",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 40.53519881033053,
+        "drawdown": 64.94862667647992,
+        "total_return": -57.49600271880422
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605369",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 31.26360731510513,
+        "drawdown": 41.48070707444917,
+        "total_return": -39.39073232710807
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605377",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 23.74186304496827,
+        "drawdown": 36.317373057071336,
+        "total_return": -23.98967440935369
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605388",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 51.20213511172715,
+        "drawdown": 52.64138860977621,
+        "total_return": -37.47844991505149
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605398",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 53.615980090698734,
+        "drawdown": 61.38835757655412,
+        "total_return": -13.99948080292923
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605488",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 65.12140221956777,
+        "drawdown": 3.7235136803126845,
+        "total_return": 360.1044367791306
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605499",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 31.79412273854717,
+        "drawdown": 56.20828529626496,
+        "total_return": 2.7289037242705705
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.605589",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 56.658882249209285,
+        "drawdown": 63.819368879216555,
+        "total_return": 29.11867415728553
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688005",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 52.98125371575571,
+        "drawdown": 52.37851662404089,
+        "total_return": -35.101968709744256
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688008",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 68.77693195456192,
+        "drawdown": 49.737646906810085,
+        "total_return": 192.12322895880726
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688013",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 48.81244226663304,
+        "drawdown": 68.19373227972947,
+        "total_return": 5.092499119799632
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688016",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.01439687226577,
+        "drawdown": 33.4182258535982,
+        "total_return": -29.14603798034835
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688018",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 55.566500689574795,
+        "drawdown": 17.09117312132381,
+        "total_return": 255.6867105717861
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688019",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 58.66047899038836,
+        "drawdown": 54.056411747601054,
+        "total_return": 80.08814992445296
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688023",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 57.696172370868325,
+        "drawdown": 63.048858092342485,
+        "total_return": -55.93591905564921
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688029",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 36.14174303668341,
+        "drawdown": 18.033894306074917,
+        "total_return": -2.7950939009699027
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688032",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 43.6306605475813,
+        "drawdown": 67.56970912738211,
+        "total_return": -56.169685884983856
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688037",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 82.48445382065583,
+        "drawdown": 57.4032812083479,
+        "total_return": 79.78320808482555
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688046",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 57.01260419639866,
+        "drawdown": 28.163566694884214,
+        "total_return": 75.53877241310649
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688049",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 45.421564068618366,
+        "drawdown": 36.985081135810574,
+        "total_return": 66.48626024252032
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688050",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 40.16769077855164,
+        "drawdown": 60.874423052170826,
+        "total_return": -56.958554755297584
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688058",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 54.29337365534332,
+        "drawdown": 53.130090760996055,
+        "total_return": -39.04633041519011
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688069",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 50.38293267607609,
+        "drawdown": 49.37846074138569,
+        "total_return": 79.52301299769047
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688072",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 61.12542180805575,
+        "drawdown": 52.00580662251482,
+        "total_return": 140.47771973570735
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688073",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 50.89056238792242,
+        "drawdown": 21.018507603442238,
+        "total_return": 9.798633117539456
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688083",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 49.913307201619176,
+        "drawdown": 50.963838903593896,
+        "total_return": -41.21698558437137
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688087",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.08437670612168,
+        "drawdown": 37.09465253734774,
+        "total_return": 29.428108874473757
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688090",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 89.111458688808,
+        "drawdown": 58.993144528574014,
+        "total_return": 281.57789315094755
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688092",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 31.27677128937575,
+        "drawdown": 39.71351686631045,
+        "total_return": -3.272520810256241
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688096",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 71.5750372447275,
+        "drawdown": 56.762158560959385,
+        "total_return": -3.074945414902097
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688101",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.83711238958941,
+        "drawdown": 39.93901790048767,
+        "total_return": 0.37997860571621356
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688120",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 67.82619974194003,
+        "drawdown": 52.48546511627905,
+        "total_return": 140.5954940402307
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688122",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 43.67370879355041,
+        "drawdown": 60.48023238954928,
+        "total_return": -5.4641915903572595
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688130",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 55.10064614682669,
+        "drawdown": 37.96931113287629,
+        "total_return": -21.498297389330457
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688152",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 61.428476055011,
+        "drawdown": 55.51760074108374,
+        "total_return": -39.35112093463835
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688167",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 89.76742439140372,
+        "drawdown": 63.389830508474574,
+        "total_return": 155.6623162050374
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688169",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 42.47360421854133,
+        "drawdown": 52.78100408896219,
+        "total_return": -30.28300245395561
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688171",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 52.261935500283265,
+        "drawdown": 57.61899856054655,
+        "total_return": 12.246463210032
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688186",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 50.82973394645528,
+        "drawdown": 60.62210456651225,
+        "total_return": -37.51331534007571
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688193",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 46.104919356799876,
+        "drawdown": 31.74818303488226,
+        "total_return": -10.963099038764678
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688199",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 50.62923028780357,
+        "drawdown": 42.65766587605668,
+        "total_return": 2.598851242053568
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688200",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 85.58128203585271,
+        "drawdown": 62.81952117863722,
+        "total_return": 152.3848714902881
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688201",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 57.92377384741098,
+        "drawdown": 58.444067255417664,
+        "total_return": -52.48194262996606
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688208",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 48.96784466522727,
+        "drawdown": 50.59924120037886,
+        "total_return": 17.63487566554347
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688215",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 64.18090034868003,
+        "drawdown": 47.582054194165266,
+        "total_return": 110.20258551655719
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688231",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 57.00033712354147,
+        "drawdown": 56.08721401962702,
+        "total_return": 11.360694955977579
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688239",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 54.204053045475206,
+        "drawdown": 48.55976123148521,
+        "total_return": 4.848859819299722
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688244",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 84.13254947133373,
+        "drawdown": 66.15788978412576,
+        "total_return": -36.92496612503585
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688247",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.34219483482794,
+        "drawdown": 39.25465811463703,
+        "total_return": -34.22840601350179
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688251",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 47.87289871169729,
+        "drawdown": 57.586670674559116,
+        "total_return": -1.3385896871487168
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688257",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 69.58904820336092,
+        "drawdown": 74.01610017889087,
+        "total_return": 219.44221318246127
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688258",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 72.33484483278693,
+        "drawdown": 55.451154243942554,
+        "total_return": 86.97867930556775
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688259",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 41.6671135272557,
+        "drawdown": 52.20178778927195,
+        "total_return": -47.40447050324818
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688261",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 66.1884944637057,
+        "drawdown": 50.869976775474676,
+        "total_return": -19.62845870766632
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688267",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.71989608407301,
+        "drawdown": 34.44779822189843,
+        "total_return": 21.51864282948166
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688270",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 88.44323160928253,
+        "drawdown": 68.07006222631942,
+        "total_return": 74.16328848098345
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688286",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 76.76022322828345,
+        "drawdown": 38.96153804684578,
+        "total_return": 54.221302486527854
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688289",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 28.642346436119315,
+        "drawdown": 38.18523375838902,
+        "total_return": -0.6275868691038022
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688293",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 59.86095320445269,
+        "drawdown": 27.969892098851357,
+        "total_return": 13.102020861239438
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688301",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 75.2279451944858,
+        "drawdown": 50.83751551475416,
+        "total_return": -9.522883382279712
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688320",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 54.982866525185656,
+        "drawdown": 48.44995571302032,
+        "total_return": -28.38804930815573
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688325",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 69.33963909374043,
+        "drawdown": 33.669341468267156,
+        "total_return": 158.68453558853247
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688326",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 59.055541115339864,
+        "drawdown": 65.63483923040442,
+        "total_return": -54.188915598235795
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688348",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 43.90464293024665,
+        "drawdown": 70.84721866914906,
+        "total_return": -68.58966008542875
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688353",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 97.7329878871574,
+        "drawdown": 53.845379653721956,
+        "total_return": 114.34688022086843
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688358",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 43.14275626833376,
+        "drawdown": 36.76909141305625,
+        "total_return": -22.63652416298896
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688366",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.243505102936208,
+        "drawdown": 64.72148500827348,
+        "total_return": -56.654411939027185
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688368",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 79.66045282995316,
+        "drawdown": 61.52141147264829,
+        "total_return": 52.30161171970656
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688378",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 72.21561189187629,
+        "drawdown": 42.93548387096776,
+        "total_return": 82.59232906652285
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688379",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 71.50836448302924,
+        "drawdown": 52.110333086576645,
+        "total_return": 134.85888038558537
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688388",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 61.24420113348595,
+        "drawdown": 57.822220257088944,
+        "total_return": 47.5280567078667
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688391",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 46.767545662944705,
+        "drawdown": 47.60674197219079,
+        "total_return": -34.96972561972481
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688396",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 58.78244931541779,
+        "drawdown": 53.69790675629951,
+        "total_return": -14.57223158039518
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688398",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 55.46556949835448,
+        "drawdown": 54.80944709713194,
+        "total_return": -23.020704684338998
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688408",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 43.32711567883072,
+        "drawdown": 77.73221198771856,
+        "total_return": -57.27536464067817
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688409",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 95.35521689125044,
+        "drawdown": 67.04979591836734,
+        "total_return": 91.38450529245475
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688416",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 94.84194490414043,
+        "drawdown": 65.6214285714286,
+        "total_return": 1.7216712729634542
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688419",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 76.462136038816,
+        "drawdown": 56.77050222504773,
+        "total_return": 33.54334311699632
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688448",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 82.43351580893273,
+        "drawdown": 43.27501749475155,
+        "total_return": 80.86467140047111
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688458",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 48.73412453808844,
+        "drawdown": 45.768620195520185,
+        "total_return": -43.88641840066826
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688479",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 49.347269285131205,
+        "drawdown": 28.622723775326985,
+        "total_return": 69.11705322371205
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688486",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 58.01817704454402,
+        "drawdown": 44.55153886133244,
+        "total_return": -5.619015266721139
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688489",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 45.82351384982898,
+        "drawdown": 42.830874785591924,
+        "total_return": -32.06622076773263
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688498",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 96.88268675514904,
+        "drawdown": 63.44669771562707,
+        "total_return": 571.2270462452872
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688503",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 87.86969114031118,
+        "drawdown": 68.50791258477771,
+        "total_return": -1.8719287948491314
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688507",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 77.29933354967935,
+        "drawdown": 49.42039740883302,
+        "total_return": 98.22037044720169
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688522",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 60.574044232918965,
+        "drawdown": 55.26058647175209,
+        "total_return": -4.798435717880167
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688531",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 74.49425089456864,
+        "drawdown": 61.42247795513918,
+        "total_return": 50.6221542302987
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688535",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 74.98967768130116,
+        "drawdown": 64.27807486631016,
+        "total_return": 27.470261908287497
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688543",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 39.26238334053625,
+        "drawdown": 38.3819463916293,
+        "total_return": 48.155447987060576
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688550",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 49.52770515997725,
+        "drawdown": 49.781887587498645,
+        "total_return": 23.858224606222713
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688551",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 63.96233449392014,
+        "drawdown": 65.29818463354289,
+        "total_return": -24.135511093943553
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688553",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 45.49689001780895,
+        "drawdown": 43.07315957401951,
+        "total_return": 8.489264753214787
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688557",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 43.090045900752976,
+        "drawdown": 40.47962792175288,
+        "total_return": 2.0657077742657792
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688563",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.53301077736008,
+        "drawdown": 36.98836766180076,
+        "total_return": -22.044665212755522
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688576",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.21186985293909,
+        "drawdown": 42.71055266824153,
+        "total_return": -40.215118945479965
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688580",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 52.26296813664485,
+        "drawdown": 43.93785473759646,
+        "total_return": -5.788767477629708
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688581",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 39.41339174685454,
+        "drawdown": 42.61133047180714,
+        "total_return": -37.66946894120382
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688589",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 41.72936645233934,
+        "drawdown": 44.57092918680101,
+        "total_return": -42.056342071860776
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688592",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 47.99647611002399,
+        "drawdown": 49.650880581833825,
+        "total_return": -40.70613713296619
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688597",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.98015485157815,
+        "drawdown": 50.70688030160224,
+        "total_return": -13.47181433388286
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688598",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 79.77795109454753,
+        "drawdown": 60.81560283687946,
+        "total_return": -53.839811392888905
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688603",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 91.98526198574346,
+        "drawdown": 68.13657129117576,
+        "total_return": 90.82885634297229
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688606",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 36.5629403323288,
+        "drawdown": 44.13081307487931,
+        "total_return": -36.07850423025625
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688608",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 48.54081166127784,
+        "drawdown": 54.77602145218541,
+        "total_return": 62.23070163232498
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688610",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 80.79107808399117,
+        "drawdown": 65.15518919412729,
+        "total_return": 99.39417481228048
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688616",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.20581968452989,
+        "drawdown": 35.309973045822076,
+        "total_return": -4.129208100225412
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688617",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.798641464375386,
+        "drawdown": 17.680234392809446,
+        "total_return": 62.86436805514457
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688618",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 44.02350031095608,
+        "drawdown": 55.102763263744045,
+        "total_return": -51.93472658509868
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688623",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.49744508353174,
+        "drawdown": 27.056954088509897,
+        "total_return": 15.85551645076495
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688625",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 66.8475714812233,
+        "drawdown": 63.2738719832109,
+        "total_return": 80.19719569088836
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688633",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 45.79815954495613,
+        "drawdown": 49.6927303676007,
+        "total_return": -12.770315900244134
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688639",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 48.610177294914,
+        "drawdown": 82.71862533909824,
+        "total_return": -78.47404730662255
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688651",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 41.772509988125236,
+        "drawdown": 54.849636404411896,
+        "total_return": -47.66821247337989
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688657",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 38.36145231634641,
+        "drawdown": 31.24757673720424,
+        "total_return": -22.357251078725316
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688663",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 51.736155454665244,
+        "drawdown": 44.06587572229454,
+        "total_return": 110.96409561653586
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688678",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 72.36654896434759,
+        "drawdown": 44.590867300030666,
+        "total_return": 111.05260097817519
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688696",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 46.19803657721975,
+        "drawdown": 36.342869035417245,
+        "total_return": -24.720772963376227
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688699",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 68.78237891652594,
+        "drawdown": 41.3967341231294,
+        "total_return": 14.606527704274285
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688719",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 66.17324927207626,
+        "drawdown": 57.34978540772527,
+        "total_return": -16.4524729390916
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688766",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 118.25966658228361,
+        "drawdown": 71.14942528735632,
+        "total_return": 356.66292159441804
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688767",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.92889595666542,
+        "drawdown": 20.330879145698866,
+        "total_return": 95.6602158079208
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688778",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 58.017735180760695,
+        "drawdown": 62.70601149211568,
+        "total_return": 7.339556301751937
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688788",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 79.02599408207027,
+        "drawdown": 68.04607508532428,
+        "total_return": 15.022932233959985
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sh.688800",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 76.89268842563239,
+        "drawdown": 67.33560536620227,
+        "total_return": 57.811994466871816
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000002",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 46.96396559339963,
+        "drawdown": 73.78800328677076,
+        "total_return": -71.84466019417475
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000049",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 28.100709627723973,
+        "drawdown": 32.583619514968156,
+        "total_return": -28.35821177538612
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000099",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 57.7642744434138,
+        "drawdown": 64.37388507696295,
+        "total_return": 48.88805892984354
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000333",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 20.794841805046428,
+        "drawdown": 0.0,
+        "total_return": 94.59796334996746
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000338",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 44.15509544813793,
+        "drawdown": 40.767894671460525,
+        "total_return": 65.34667882096757
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000403",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.605019202990206,
+        "drawdown": 57.84478807663955,
+        "total_return": -46.597531116711664
+      },
+      "precision_changes": 1
+    },
+    {
+      "code": "sz.000425",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 33.67810725248347,
+        "drawdown": 45.717185576722244,
+        "total_return": 25.937053219795224
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000430",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.679709513262644,
+        "drawdown": 40.102040816326436,
+        "total_return": -11.8618618618616
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000498",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 22.236906435359387,
+        "drawdown": 7.304147242264925,
+        "total_return": 20.29735625812037
+      },
+      "precision_changes": 4
+    },
+    {
+      "code": "sz.000513",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 27.211362949878943,
+        "drawdown": 29.430869561564243,
+        "total_return": -5.469826491440932
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000525",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 54.17921996146357,
+        "drawdown": 50.4961411245865,
+        "total_return": -20.60706137437014
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000528",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.71463232430116,
+        "drawdown": 37.62879825671713,
+        "total_return": 32.286243122064626
+      },
+      "precision_changes": 2
+    },
+    {
+      "code": "sz.000538",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 17.420495166868406,
+        "drawdown": 4.612676859666609,
+        "total_return": 22.363903388262596
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000554",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 31.416175623965614,
+        "drawdown": 42.67794910235023,
+        "total_return": 17.6797338809785
+      },
+      "precision_changes": 1
+    },
+    {
+      "code": "sz.000563",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 26.09283424089365,
+        "drawdown": 38.62511825423118,
+        "total_return": -2.0681670994045276
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000581",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.70283641223141,
+        "drawdown": 31.994948953770297,
+        "total_return": 25.829839189567206
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000615",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 53.57465940073573,
+        "drawdown": 34.04612159329141,
+        "total_return": -6.0895522388061725
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000623",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.596429162851024,
+        "drawdown": 20.58564868016336,
+        "total_return": 17.096414166742967
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000630",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 45.503169997729714,
+        "drawdown": 46.362448752343596,
+        "total_return": 68.64524756625303
+      },
+      "precision_changes": 1
+    },
+    {
+      "code": "sz.000651",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 22.056352734795507,
+        "drawdown": 13.857693382805337,
+        "total_return": 38.76964672912702
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000661",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 41.14634891758804,
+        "drawdown": 54.597604054273575,
+        "total_return": -52.24608553915628
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000685",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 23.26263612687517,
+        "drawdown": 25.970408986624925,
+        "total_return": 57.84360480901578
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000691",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 75.38758410349223,
+        "drawdown": 44.77390659747955,
+        "total_return": 59.528907922912985
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000697",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 44.967544949701846,
+        "drawdown": 35.45176110260336,
+        "total_return": 68.93787575150331
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000703",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 50.42573946146594,
+        "drawdown": 35.80156569094627,
+        "total_return": 90.62390715153458
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000728",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 28.9594646249032,
+        "drawdown": 28.166473479595744,
+        "total_return": 3.837973663634542
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000783",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 41.447590180089854,
+        "drawdown": 36.77625171932578,
+        "total_return": 27.31103697765096
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000793",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 63.85365396926722,
+        "drawdown": 52.64550264550258,
+        "total_return": -14.76190476190462
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000796",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 46.834744016583166,
+        "drawdown": 61.5667074663403,
+        "total_return": -24.700239808153658
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000807",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 41.521891412685804,
+        "drawdown": 28.053327620303246,
+        "total_return": 102.70258631378897
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000878",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 41.80368206300096,
+        "drawdown": 54.469283133476075,
+        "total_return": 27.050990033353006
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000880",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 60.740755394937494,
+        "drawdown": 49.92074338151819,
+        "total_return": 177.55347443717594
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000908",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 127.60061162930265,
+        "drawdown": 46.045503791982625,
+        "total_return": 52.29357798165126
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000958",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 84.40755652345578,
+        "drawdown": 51.07675736878936,
+        "total_return": 27.01654103055835
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.000987",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 35.88777611295007,
+        "drawdown": 41.77320392219275,
+        "total_return": 11.039888925105345
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.001202",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.69424225995803,
+        "drawdown": 43.732223454607514,
+        "total_return": -1.1181916851351836
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.001211",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 47.84107185667248,
+        "drawdown": 39.00114379463553,
+        "total_return": 58.44177085852611
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.001212",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 77.93287265436759,
+        "drawdown": 56.952349975605834,
+        "total_return": 55.75303113731411
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.001230",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 40.61878322384891,
+        "drawdown": 27.744453143389357,
+        "total_return": 30.099524470867568
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.001268",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 53.839544355707616,
+        "drawdown": 35.92845791082934,
+        "total_return": 11.88695898854213
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.001283",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 44.06155972846905,
+        "drawdown": 28.32384551521454,
+        "total_return": 38.97010511031833
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.001299",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 31.55174472465178,
+        "drawdown": 36.936817909311245,
+        "total_return": 2.013165270049022
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.001301",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 52.43415006093722,
+        "drawdown": 38.83185061654723,
+        "total_return": 51.41618050289443
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.001323",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 27.29806777697733,
+        "drawdown": 50.49552718472583,
+        "total_return": -33.88858409940192
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002001",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 24.882785128583198,
+        "drawdown": 33.12587587269733,
+        "total_return": 72.97299162493233
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002016",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 39.575399399077575,
+        "drawdown": 59.35387820203967,
+        "total_return": -41.133197682288305
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002020",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.47091973282924,
+        "drawdown": 46.50891377152322,
+        "total_return": -7.683110058833664
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002021",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 77.35000618113236,
+        "drawdown": 42.705570291777164,
+        "total_return": 69.75112609865472
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002032",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 22.33446455866727,
+        "drawdown": 19.803438105113578,
+        "total_return": -0.3355889573346649
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002043",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.110786579058495,
+        "drawdown": 25.77965021055274,
+        "total_return": 56.09099724907627
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002200",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 37.76051235174754,
+        "drawdown": 39.6588486140726,
+        "total_return": -23.61673414305009
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002203",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 36.15916164131683,
+        "drawdown": 46.056510770473245,
+        "total_return": 37.76423783787077
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002249",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 38.87466406098462,
+        "drawdown": 42.5188907847158,
+        "total_return": 60.46760825861015
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002250",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 42.994268208817715,
+        "drawdown": 27.75495005218125,
+        "total_return": 75.75675944751737
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002271",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 38.45269261456591,
+        "drawdown": 48.925611872976816,
+        "total_return": -48.925611872976816
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002287",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.17989354792322,
+        "drawdown": 45.43188849894357,
+        "total_return": -11.875425335058342
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002318",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 32.60777613437465,
+        "drawdown": 53.73766117015818,
+        "total_return": -13.97707445461358
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002322",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 28.161331282536462,
+        "drawdown": 12.947967181928233,
+        "total_return": 22.049993138848034
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002340",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 36.314430289042946,
+        "drawdown": 44.44279913129431,
+        "total_return": -3.6263425080812595
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002346",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 39.732404380388026,
+        "drawdown": 48.897338403041836,
+        "total_return": 28.72037405576173
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002352",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 23.797091412536258,
+        "drawdown": 32.0511745658879,
+        "total_return": -8.141662717488007
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002396",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 57.06788507478359,
+        "drawdown": 46.43211100099109,
+        "total_return": 61.85960556169321
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002422",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 27.761827025489875,
+        "drawdown": 21.58246716695187,
+        "total_return": 56.28283757100283
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002432",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 43.290892112358684,
+        "drawdown": 38.06790218286943,
+        "total_return": 62.785680533792984
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002444",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 34.627014917787044,
+        "drawdown": 31.842681033568375,
+        "total_return": 38.28431829513157
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002458",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 30.37461949453043,
+        "drawdown": 32.47648264283246,
+        "total_return": -3.894746974226382
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002475",
+      "before": "failed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 48.94917797090799,
+        "drawdown": 42.83400612165265,
+        "total_return": 42.06404622156108
+      },
+      "precision_changes": 4
+    },
+    {
+      "code": "sz.002500",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 25.87052913923653,
+        "drawdown": 30.1930305470551,
+        "total_return": -7.9689165082631686
+      },
+      "precision_changes": 0
+    },
+    {
+      "code": "sz.002508",
+      "before": "reconstructed",
+      "status": "reconstructed",
+      "metrics": {
+        "vol": 29.66578445071095,
+        "drawdown": 33.33401655989214,
+        "total_return": -20.449464959148823
+      },
+      "precision_changes": 0
+    }
+  ],
+  "issuer_certified": false
+}

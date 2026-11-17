@@ -1,0 +1,16 @@
+{
+  "code": "sh.688408",
+  "target_date": "2024-07-11",
+  "documents": [
+    {
+      "title": "中信博:中信博2023年年度权益分派实施公告",
+      "available_date": "2024-07-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202407041637558425_1.pdf",
+      "article": "AN202407041637558425",
+      "pdf_sha256": "35f56e216dbe21ce1bef077077ac40970d430572fded856a23199c4d8d45ae60",
+      "text_sha256": "97df66ecb5d59b00ff7f28f20dcf49a6119d52fc24c43dd028cd895e9720739d"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688408&begin_time=2024-05-27&end_time=2024-07-11"
+}

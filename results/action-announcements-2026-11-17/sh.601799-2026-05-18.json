@@ -1,0 +1,16 @@
+{
+  "code": "sh.601799",
+  "target_date": "2026-05-18",
+  "documents": [
+    {
+      "title": "星宇股份:星宇股份2025年年度权益分派实施公告",
+      "available_date": "2026-05-08",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605071822030863_1.pdf",
+      "article": "AN202605071822030863",
+      "pdf_sha256": "aa022951e1bed6d2bad18c39b3b08e2e9fbb3eb33d0a208bc7bc13cd7a3b3c93",
+      "text_sha256": "9212032b2ef54cd5e01cc67a396c009f788ed6c1a0ad5dfef91b93a0835c5fd8"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=601799&begin_time=2026-04-03&end_time=2026-05-18"
+}

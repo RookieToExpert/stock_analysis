@@ -1,0 +1,47 @@
+{
+  "code": "sh.600647",
+  "name": "退市同达",
+  "statDate": "2023-12-31",
+  "supplier_pubDate": "2024-04-30",
+  "consolidated_netProfit": "23411609.380000",
+  "source": "https://pdf.dfcfw.com/pdf/H2_AN202404291631625928_1.pdf",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "4a226ad0811eeff921fd1a1c24ca2ca4dd3dcd44760e9b404d24ae22c339d0d4",
+  "text_sha256": "c434eca318807fffea1eb86ff6c4594e7603a7ec21f670d9789c5ec35661af7d",
+  "text_length": 247905,
+  "publication_evidence": {
+    "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600647&begin_time=2024-04-29&end_time=2024-04-30",
+    "row": {
+      "art_code": "AN202404291631625928",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "38980627997147",
+          "market_code": "1",
+          "short_name": "退市同达",
+          "stock_code": "600647"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001001001001001",
+          "column_name": "年度报告全文"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-04-29 19:59:32:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2024-04-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-04-30 12:00:00",
+      "source_type": "31",
+      "title": "*ST同达:*ST同达2023年年度报告全文",
+      "title_ch": "*ST同达:*ST同达2023年年度报告全文",
+      "title_en": ""
+    }
+  }
+}

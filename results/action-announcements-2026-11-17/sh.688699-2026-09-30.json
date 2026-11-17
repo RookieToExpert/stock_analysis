@@ -1,0 +1,16 @@
+{
+  "code": "sh.688699",
+  "target_date": "2026-09-30",
+  "documents": [
+    {
+      "title": "明微电子:2026年半年度权益分派实施公告",
+      "available_date": "2026-09-23",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202609221829762522_1.pdf",
+      "article": "AN202609221829762522",
+      "pdf_sha256": "d497b062b83dcf846e94cbd0e882eb6159cf561684e1beaf80b969647fd5814c",
+      "text_sha256": "13d04d2885f8f3b2c454cc78727bd70ae3517fd5198900dad1f8bbd0fbc76d2d"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688699&begin_time=2026-08-16&end_time=2026-09-30"
+}

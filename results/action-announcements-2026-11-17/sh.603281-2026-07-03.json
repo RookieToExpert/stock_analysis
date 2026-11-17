@@ -1,0 +1,16 @@
+{
+  "code": "sh.603281",
+  "target_date": "2026-07-03",
+  "documents": [
+    {
+      "title": "江瀚新材:2025年年度权益分派实施公告",
+      "available_date": "2026-06-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606261824818430_1.pdf",
+      "article": "AN202606261824818430",
+      "pdf_sha256": "ca9453c0689d5999106c8f9577e03afd713474d6c841db4240bcca497fdb7bf1",
+      "text_sha256": "0fda9fb3c25849d3582cca70a5f17240cfbe12db49975c4cf09518e70419e910"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603281&begin_time=2026-05-19&end_time=2026-07-03"
+}

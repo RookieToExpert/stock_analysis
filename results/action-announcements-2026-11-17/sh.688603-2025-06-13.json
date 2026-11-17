@@ -1,0 +1,24 @@
+{
+  "code": "sh.688603",
+  "target_date": "2025-06-13",
+  "documents": [
+    {
+      "title": "天承科技:2024年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2025-06-13",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506121689683180_1.pdf",
+      "article": "AN202506121689683180",
+      "pdf_sha256": "54d5bc7870f99fc35055798288e519f64fe2f3e27762254bf768ad7b93bffb06",
+      "text_sha256": "d87052f0eb58519d65722c919b94c85f2dfc26e718f0fa4941c03d1488d360a7"
+    },
+    {
+      "title": "天承科技:2024年年度权益分派实施公告",
+      "available_date": "2025-06-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506061685916117_1.pdf",
+      "article": "AN202506061685916117",
+      "pdf_sha256": "90345254c5f3d2aa2e97aeb88f425b5097ea96043c661a89146effd6b312f152",
+      "text_sha256": "bf6f1d7ac209a9f213d6c6cdd9a964cc5dd5c409f27931e37f22d70ce04c1681"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688603&begin_time=2025-04-29&end_time=2025-06-13"
+}

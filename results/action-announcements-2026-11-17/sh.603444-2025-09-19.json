@@ -1,0 +1,16 @@
+{
+  "code": "sh.603444",
+  "target_date": "2025-09-19",
+  "documents": [
+    {
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年半年度权益分派实施公告",
+      "available_date": "2025-09-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202509111741779771_1.pdf",
+      "article": "AN202509111741779771",
+      "pdf_sha256": "05618bcad71170382d7a8d95797d22ebbed02a8a29bc3cf62f9c2f01722ef9e6",
+      "text_sha256": "d14a5c4a5c3c1cfb76cbefdfa56c9046fe03302273f7e80b49ac7149cf082d1a"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603444&begin_time=2025-08-05&end_time=2025-09-19"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.605488",
+  "target_date": "2025-05-30",
+  "documents": [
+    {
+      "title": "福莱新材:福莱新材2024年年度权益分派实施公告",
+      "available_date": "2025-05-26",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505251678899471_1.pdf",
+      "article": "AN202505251678899471",
+      "pdf_sha256": "39fc967267ea6f0b7a0271d6ed881158ea8dd19a888bcc065314a52d1f8daf70",
+      "text_sha256": "a6b27503c322226ebf7cd25451776b0f4aaf5ff93ab0913f0107ab75bb47809f"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605488&begin_time=2025-04-15&end_time=2025-05-30"
+}

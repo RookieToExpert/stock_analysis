@@ -1,0 +1,16 @@
+{
+  "code": "sh.603507",
+  "target_date": "2024-07-08",
+  "documents": [
+    {
+      "title": "振江股份:振江股份2023年年度权益分派实施公告",
+      "available_date": "2024-07-02",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202407011637237402_1.pdf",
+      "article": "AN202407011637237402",
+      "pdf_sha256": "0f02bdb6d2e8704068ce9ba8280536bbe7578da472a242db31d79fa13356f84d",
+      "text_sha256": "4737919091f8f247d045576e847c2b0b37bddf94e3c6e72a59487b732da1d9f0"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603507&begin_time=2024-05-24&end_time=2024-07-08"
+}

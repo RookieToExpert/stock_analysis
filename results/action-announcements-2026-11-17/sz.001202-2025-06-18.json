@@ -1,0 +1,16 @@
+{
+  "code": "sz.001202",
+  "target_date": "2025-06-18",
+  "documents": [
+    {
+      "title": "炬申股份:2024年年度权益分派实施公告",
+      "available_date": "2025-06-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506101688322473_1.pdf",
+      "article": "AN202506101688322473",
+      "pdf_sha256": "cde9bce114376e1d12be769c2bb53c1756fd0d93ec58c36a10ca8f6906cfbae8",
+      "text_sha256": "912dd2c3cc6e694eb724ea95dc64cf162928fe7703a25421c6a4843f90d31641"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=001202&begin_time=2025-05-04&end_time=2025-06-18"
+}

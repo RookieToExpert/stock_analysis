@@ -1,0 +1,16 @@
+{
+  "code": "sh.600729",
+  "target_date": "2024-06-27",
+  "documents": [
+    {
+      "title": "重庆百货:重庆百货大楼股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406201636714979_1.pdf",
+      "article": "AN202406201636714979",
+      "pdf_sha256": "db1901dcce7e364f723e68bb660e949ef643960fbcb0a5baef0b8fa86108eb1a",
+      "text_sha256": "d2b96e24d8f8fe24f13fc13c64d3e445cfb1b7a5736adda5a233e8e952844439"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600729&begin_time=2024-05-13&end_time=2024-06-27"
+}

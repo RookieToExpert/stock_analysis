@@ -1,0 +1,16 @@
+{
+  "code": "sh.603067",
+  "target_date": "2025-06-24",
+  "documents": [
+    {
+      "title": "振华股份:振华股份2024年年度权益分派实施公告",
+      "available_date": "2025-06-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506171692703693_1.pdf",
+      "article": "AN202506171692703693",
+      "pdf_sha256": "b666cfa20ee14fe4779991fb3e99549bc1d154e3b8aec318c47bcb63dd5d5807",
+      "text_sha256": "cd74d867292390091d49eca461ba93f07867cdf30098e329d1e7f0ce7d625a64"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603067&begin_time=2025-05-10&end_time=2025-06-24"
+}

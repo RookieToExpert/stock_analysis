@@ -1,0 +1,16 @@
+{
+  "code": "sh.603687",
+  "target_date": "2024-06-28",
+  "documents": [
+    {
+      "title": "大胜达:浙江大胜达包装股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-24",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406231636800319_1.pdf",
+      "article": "AN202406231636800319",
+      "pdf_sha256": "05c3f54f07d1ba23c3ea281ece5531a04fafee456fdfc5ec1c3adc1800dbe0fb",
+      "text_sha256": "16687dffceec682839c3f8e53f24d04020082d5276abead388a680bbdabd4722"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603687&begin_time=2024-05-14&end_time=2024-06-28"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sz.000661",
+  "target_date": "2025-07-04",
+  "documents": [
+    {
+      "title": "长春高新:2024年年度权益分派实施公告",
+      "available_date": "2025-06-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506261698042907_1.pdf",
+      "article": "AN202506261698042907",
+      "pdf_sha256": "7d5f72c028f6f561365370fbc0224e2a7063be60aea0367ea74563f3e6644848",
+      "text_sha256": "41e441cf86ece2fff1d394bf0f1e4a34bc556c52fb1b0ab47e691a1a19c3a5ec"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000661&begin_time=2025-05-20&end_time=2025-07-04"
+}

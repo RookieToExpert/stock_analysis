@@ -1,0 +1,16 @@
+{
+  "code": "sh.688016",
+  "target_date": "2025-10-17",
+  "documents": [
+    {
+      "title": "心脉医疗:2025年半年度权益分派实施公告",
+      "available_date": "2025-10-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202510101759580674_1.pdf",
+      "article": "AN202510101759580674",
+      "pdf_sha256": "ed25130c0aa7aa8efae37c4a6bc3c774fa799cac32d83726b0b9e3dab1f2cfe4",
+      "text_sha256": "f85152df51b25c74d42d365176da8ca909a82992b58ec0b0e95611133b9aa26b"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688016&begin_time=2025-09-02&end_time=2025-10-17"
+}

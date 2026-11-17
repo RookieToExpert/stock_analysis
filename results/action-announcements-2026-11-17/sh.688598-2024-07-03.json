@@ -1,0 +1,16 @@
+{
+  "code": "sh.688598",
+  "target_date": "2024-07-03",
+  "documents": [
+    {
+      "title": "金博股份:金博股份关于2023年年度权益分派实施公告",
+      "available_date": "2024-06-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636922830_1.pdf",
+      "article": "AN202406261636922830",
+      "pdf_sha256": "3c773273fd28125dc62e5d29238d1594633366c3afceab1130e18e888c46ae72",
+      "text_sha256": "560246145044674e06b64baa1db40ac20d474717c70a6566b164fb4f147bbc97"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688598&begin_time=2024-05-19&end_time=2024-07-03"
+}

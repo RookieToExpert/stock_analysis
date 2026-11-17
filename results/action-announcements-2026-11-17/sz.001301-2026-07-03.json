@@ -1,0 +1,16 @@
+{
+  "code": "sz.001301",
+  "target_date": "2026-07-03",
+  "documents": [
+    {
+      "title": "尚太科技:关于2025年年度权益分派实施的公告",
+      "available_date": "2026-06-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606261824813634_1.pdf",
+      "article": "AN202606261824813634",
+      "pdf_sha256": "624ab779527dac3b84d8f9a70bbacbf5b07de58389dcacf5ea738cb9103c33bc",
+      "text_sha256": "74d9f580ae70e611296a3ee84146767206aea19789271f929c1a80ecc5405557"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=001301&begin_time=2026-05-19&end_time=2026-07-03"
+}

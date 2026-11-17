@@ -1,0 +1,16 @@
+{
+  "code": "sz.002432",
+  "target_date": "2026-06-03",
+  "documents": [
+    {
+      "title": "九安医疗:2025年年度权益分派实施公告",
+      "available_date": "2026-05-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605261822884182_1.pdf",
+      "article": "AN202605261822884182",
+      "pdf_sha256": "0bc2346075ff42cf99e291519f0b6104718cd8db6df4380bc52f9fe3e5154c39",
+      "text_sha256": "c8067c3051ab67e9080b7db2d3a161cc8e300400c819c613124af2fddcc14ab1"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002432&begin_time=2026-04-19&end_time=2026-06-03"
+}

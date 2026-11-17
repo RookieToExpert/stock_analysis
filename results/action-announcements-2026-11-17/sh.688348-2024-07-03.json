@@ -1,0 +1,16 @@
+{
+  "code": "sh.688348",
+  "target_date": "2024-07-03",
+  "documents": [
+    {
+      "title": "昱能科技:2023年年度权益分派实施公告",
+      "available_date": "2024-06-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636918712_1.pdf",
+      "article": "AN202406261636918712",
+      "pdf_sha256": "0b68b8304be5a3e2b50cd81281b5c6aeb19980da26984e8fc2a33feaa045e5fc",
+      "text_sha256": "cca7ae469f0098e348cb48602c5ce3608ec0b91fa71a64e302dcbb881a491207"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688348&begin_time=2024-05-19&end_time=2024-07-03"
+}

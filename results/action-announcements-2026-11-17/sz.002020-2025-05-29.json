@@ -1,0 +1,16 @@
+{
+  "code": "sz.002020",
+  "target_date": "2025-05-29",
+  "documents": [
+    {
+      "title": "京新药业:2024年年度权益分派实施公告",
+      "available_date": "2025-05-22",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505211676738071_1.pdf",
+      "article": "AN202505211676738071",
+      "pdf_sha256": "9ac7065bb70f8ec3a336f0b29d5bccf154488de7b4152a1b7e4f38ef88834ea9",
+      "text_sha256": "8ee25e5a2776d85ddf17a92fbb146685d287ccfc126467caeba413582ee7b6a0"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002020&begin_time=2025-04-14&end_time=2025-05-29"
+}

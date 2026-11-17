@@ -1,0 +1,16 @@
+{
+  "code": "sh.601666",
+  "target_date": "2025-06-09",
+  "documents": [
+    {
+      "title": "平煤股份:平煤股份2024年年度权益分派实施公告",
+      "available_date": "2025-05-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505281680689733_1.pdf",
+      "article": "AN202505281680689733",
+      "pdf_sha256": "acf74e7c16000150e475cfe18451f9165c0c0098818e78be9f92d951f09aa313",
+      "text_sha256": "9318348bfc62711787ac717fe1903c43940ace66c9f905c659a255b9f0ab020c"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=601666&begin_time=2025-04-25&end_time=2025-06-09"
+}

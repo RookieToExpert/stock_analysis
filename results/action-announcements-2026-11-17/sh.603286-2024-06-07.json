@@ -1,0 +1,16 @@
+{
+  "code": "sh.603286",
+  "target_date": "2024-06-07",
+  "documents": [
+    {
+      "title": "日盈电子:2023年年度权益分派实施公告",
+      "available_date": "2024-06-01",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405311635072631_1.pdf",
+      "article": "AN202405311635072631",
+      "pdf_sha256": "17595129ca28c9c091668beac4e8e2d6d7b0c6026f8b433af2491306c61049da",
+      "text_sha256": "d5155ebdd3b41124d9be7c8b047fa5f77244a644bf4427512bd14387feb16e4e"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603286&begin_time=2024-04-23&end_time=2024-06-07"
+}

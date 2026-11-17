@@ -1,0 +1,16 @@
+{
+  "code": "sh.688090",
+  "target_date": "2024-06-24",
+  "documents": [
+    {
+      "title": "瑞松科技:2023年年度权益分派实施公告",
+      "available_date": "2024-06-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406171636504328_1.pdf",
+      "article": "AN202406171636504328",
+      "pdf_sha256": "5ffe6e1c5a1db9d7b06b5ebf1335c598a7d8214b631a6de1dff96f633546c3c7",
+      "text_sha256": "9e200241712951883e89431d910a7da2fb21f8e800a7346cb8461cd70e278c33"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688090&begin_time=2024-05-10&end_time=2024-06-24"
+}

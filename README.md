@@ -35,3 +35,5 @@ cd model && python3 -m unittest
 - [v0.3.3 修复范围与验收](docs/evidence/v0.3.3_repair.md)（codex 分支；未替换运行中的 main 下载任务）
 
 - [总回报重建、历史数据审计与周期实验](results/data-audit-2026-11-16/README.md)（独立研究输出；未完成正式回测验收）
+
+- [r8 最新修复验收](results/action-completion-2026-11-17/README.md)：固定 329 只异常全部重建通过；完整历史数据及正式回测仍有独立验收门槛。

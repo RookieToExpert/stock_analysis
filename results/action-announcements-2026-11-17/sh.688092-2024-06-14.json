@@ -1,0 +1,16 @@
+{
+  "code": "sh.688092",
+  "target_date": "2024-06-14",
+  "documents": [
+    {
+      "title": "爱科科技:杭州爱科科技股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406061635721813_1.pdf",
+      "article": "AN202406061635721813",
+      "pdf_sha256": "a38bcf6a4a9a23df1b1d8af96d9df00e994c960429631e354b3cff6c85e039b6",
+      "text_sha256": "9de0a0dc046cb844b55b0161cf1020d5355e824a53b9f62b8fce485d4a5e40dd"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688092&begin_time=2024-04-30&end_time=2024-06-14"
+}

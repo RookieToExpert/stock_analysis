@@ -1,0 +1,15 @@
+{
+  "code": "sh.603773",
+  "name": "沃格光电",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-04-25",
+  "consolidated_netProfit": "-90563120.810000",
+  "source": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223285596.PDF",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "cb601f0c53c102fa7d5ce12275fae35ac427a285e5cbf5b7a548085872976d70",
+  "text_sha256": "23749d1316f67739b88eb7a9b2d83e4da20fa6f39537ceec09c6239a938938ba",
+  "text_length": 406131
+}

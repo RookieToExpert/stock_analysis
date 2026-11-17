@@ -1,0 +1,16 @@
+{
+  "code": "sz.002458",
+  "target_date": "2026-05-15",
+  "documents": [
+    {
+      "title": "益生股份:2025年度权益分派实施公告",
+      "available_date": "2026-05-08",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605071822038914_1.pdf",
+      "article": "AN202605071822038914",
+      "pdf_sha256": "150f5eae634c8b4b9b0e7d82be99027fea7e89aafc6518520fa8940fc6b55040",
+      "text_sha256": "04b674a7c214f92e2c96afe948d277afc02e5e5fc9c03f4b3432e9011dddc366"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002458&begin_time=2026-03-31&end_time=2026-05-15"
+}

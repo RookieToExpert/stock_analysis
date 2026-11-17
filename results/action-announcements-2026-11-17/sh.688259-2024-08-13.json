@@ -1,0 +1,16 @@
+{
+  "code": "sh.688259",
+  "target_date": "2024-08-13",
+  "documents": [
+    {
+      "title": "创耀科技:2023年年度权益分派实施公告",
+      "available_date": "2024-08-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202408061639165077_1.pdf",
+      "article": "AN202408061639165077",
+      "pdf_sha256": "3bc49e477e48c28a0492ba5e6a0f89424a5024f3726f37b9be2c2c2f999c0204",
+      "text_sha256": "6523f5b19194649b0dc573c7c156ff4ea54782ffea95a8fca576520f2d53732b"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688259&begin_time=2024-06-29&end_time=2024-08-13"
+}

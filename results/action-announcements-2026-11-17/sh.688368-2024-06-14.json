@@ -1,0 +1,16 @@
+{
+  "code": "sh.688368",
+  "target_date": "2024-06-14",
+  "documents": [
+    {
+      "title": "晶丰明源:上海晶丰明源半导体股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-06",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406051635591841_1.pdf",
+      "article": "AN202406051635591841",
+      "pdf_sha256": "93f0ea0b97bae2c24f53c3756f34ab1e28a850c8fe37dba9041943b026d84606",
+      "text_sha256": "2a065b27beea2cf269cc2b41e38ec0b50c0fca1653f2520ad626be8fb186365a"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688368&begin_time=2024-04-30&end_time=2024-06-14"
+}

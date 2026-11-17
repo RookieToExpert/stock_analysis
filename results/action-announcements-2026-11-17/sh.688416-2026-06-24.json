@@ -1,0 +1,16 @@
+{
+  "code": "sh.688416",
+  "target_date": "2026-06-24",
+  "documents": [
+    {
+      "title": "恒烁股份:2025年年度权益分派实施公告",
+      "available_date": "2026-06-15",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606141823550626_1.pdf",
+      "article": "AN202606141823550626",
+      "pdf_sha256": "395cfd74beafcf84691ab58e1ba97e9b47aecf393b54be9bca3a44de388880e4",
+      "text_sha256": "d59a84ac0a49cc36f3bc4e7bd4a6ef45bf45061136928757c414b8c7d4590d79"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688416&begin_time=2026-05-10&end_time=2026-06-24"
+}

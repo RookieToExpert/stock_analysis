@@ -1,0 +1,13 @@
+{
+  "unit_tests": 212,
+  "unit_tests_status": "passed",
+  "legacy_inputs": 2881,
+  "legacy_mismatches": 0,
+  "issuer_net_profit_matches": 20,
+  "issuer_publication_matches": 20,
+  "issuer_cash_events": 13,
+  "mechanical_formulas_reproduced": 240,
+  "risk_cohort": 329,
+  "risk_passed": 329,
+  "formal_backtest_certified": false
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.688257",
+  "target_date": "2024-06-19",
+  "documents": [
+    {
+      "title": "新锐股份:新锐股份2023年度权益分派实施公告",
+      "available_date": "2024-06-13",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406121636006228_1.pdf",
+      "article": "AN202406121636006228",
+      "pdf_sha256": "0834c6d6516cc1bec87b192914277d5228ffc71c7432d72134bf71f0edc8ca31",
+      "text_sha256": "f4ad93b7a9d24b643f991053036b7b1a850c72b08d89dc92954cd02d6eccba7d"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688257&begin_time=2024-05-05&end_time=2024-06-19"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.688800",
+  "target_date": "2025-05-30",
+  "documents": [
+    {
+      "title": "瑞可达:2024年年度权益分派实施公告",
+      "available_date": "2025-05-24",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505231677777852_1.pdf",
+      "article": "AN202505231677777852",
+      "pdf_sha256": "35ea3986565b904f2e8408919dc9f89c5e532b58ad609951a9d35c2c3b1f7d46",
+      "text_sha256": "17a3ab5a2fd26177904ce34cedaef4fa75660e9f08bc9d59e18c1eb9a8dfb590"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688800&begin_time=2025-04-15&end_time=2025-05-30"
+}

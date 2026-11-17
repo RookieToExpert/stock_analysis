@@ -1,0 +1,16 @@
+{
+  "code": "sh.603658",
+  "target_date": "2024-06-05",
+  "documents": [
+    {
+      "title": "安图生物:安图生物2023年年度权益分派实施公告",
+      "available_date": "2024-05-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405281634750051_1.pdf",
+      "article": "AN202405281634750051",
+      "pdf_sha256": "fd748c4e8e29336bcb7c8ce55de4b32ed1463e107ba7d6d989c8656c5b0d9d75",
+      "text_sha256": "388a7460cc28af9f6088f10822ce1e30317c10e1979dd04d74716d962594dda9"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603658&begin_time=2024-04-21&end_time=2024-06-05"
+}

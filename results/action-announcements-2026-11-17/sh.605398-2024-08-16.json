@@ -1,0 +1,16 @@
+{
+  "code": "sh.605398",
+  "target_date": "2024-08-16",
+  "documents": [
+    {
+      "title": "新炬网络:上海新炬网络信息技术股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-08-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202408111639231658_1.pdf",
+      "article": "AN202408111639231658",
+      "pdf_sha256": "02201b3d0ce173be61ca60cac6e348be434f08ccfe7755e9cecedd64dfd1d0df",
+      "text_sha256": "d875052e5c8646e81c4e2a0e5976e95c529ea6152f908ff3b8799b31c586c7f1"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605398&begin_time=2024-07-02&end_time=2024-08-16"
+}

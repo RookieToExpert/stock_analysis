@@ -1,0 +1,16 @@
+{
+  "code": "sh.688073",
+  "target_date": "2025-06-09",
+  "documents": [
+    {
+      "title": "毕得医药:2024年年度权益分派实施公告",
+      "available_date": "2025-06-03",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506021683528393_1.pdf",
+      "article": "AN202506021683528393",
+      "pdf_sha256": "89e1185d3ed3fe0f70cdcf5db767520d76cbdc105f35138f41c485cd6ec04c12",
+      "text_sha256": "27337585b6949f6844d8dc161fb726c7080dc38464f9e5c3f287b87abab365ad"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688073&begin_time=2025-04-25&end_time=2025-06-09"
+}

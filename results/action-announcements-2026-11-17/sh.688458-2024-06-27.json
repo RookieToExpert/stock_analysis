@@ -1,0 +1,24 @@
+{
+  "code": "sh.688458",
+  "target_date": "2024-06-27",
+  "documents": [
+    {
+      "title": "美芯晟:2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636924844_1.pdf",
+      "article": "AN202406261636924844",
+      "pdf_sha256": "c84be10aea8a3b766b227105caf8b6d40ed0b85f5632bd00fb01083f7b609784",
+      "text_sha256": "1aee7164b51805e3cb63b3625129eb5fbf79dc4d044f4130fa4514c20b32f0e0"
+    },
+    {
+      "title": "美芯晟:2023年年度权益分派实施公告",
+      "available_date": "2024-06-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406201636716167_1.pdf",
+      "article": "AN202406201636716167",
+      "pdf_sha256": "9ae6148d1d9a7acf039e975c7a1a7090bacd57e00adfcf6ce371d58331028d70",
+      "text_sha256": "4d84c938d6da63c319a9ecb2b26739c3fd6397c67cd8b0e7cccd9ec50580f791"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688458&begin_time=2024-05-13&end_time=2024-06-27"
+}

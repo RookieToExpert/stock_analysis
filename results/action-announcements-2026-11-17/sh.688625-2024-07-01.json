@@ -1,0 +1,16 @@
+{
+  "code": "sh.688625",
+  "target_date": "2024-07-01",
+  "documents": [
+    {
+      "title": "呈和科技:2023年年度权益分派实施公告",
+      "available_date": "2024-06-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406241636832939_1.pdf",
+      "article": "AN202406241636832939",
+      "pdf_sha256": "0ae1c26292d38d4cd23eca2091bdadc1a7d73d721aab9c0d4aef8072dbcf29cf",
+      "text_sha256": "b8577d818baf2a444a9d236de16ab1831b335f3c534fe9ffb5a8f028628743ef"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688625&begin_time=2024-05-17&end_time=2024-07-01"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.603368",
+  "target_date": "2026-06-16",
+  "documents": [
+    {
+      "title": "柳药集团:广西柳药集团股份有限公司2025年年度权益分派实施公告",
+      "available_date": "2026-06-10",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606091823394508_1.pdf",
+      "article": "AN202606091823394508",
+      "pdf_sha256": "b4256a8c34f4154ffcc9e8df843da04b6d3b6a1f9086a5076a42e77b288f3b73",
+      "text_sha256": "e0cbbc9684be6a8eb381e335b2bac4f79ebb4ac37deb7bef5a613e27408be943"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603368&begin_time=2026-05-02&end_time=2026-06-16"
+}

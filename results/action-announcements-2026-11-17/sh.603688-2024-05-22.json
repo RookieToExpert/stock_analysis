@@ -1,0 +1,16 @@
+{
+  "code": "sh.603688",
+  "target_date": "2024-05-22",
+  "documents": [
+    {
+      "title": "石英股份:江苏太平洋石英股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-05-16",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405151633171507_1.pdf",
+      "article": "AN202405151633171507",
+      "pdf_sha256": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+      "text_sha256": "86efd774a850088ea7a61609a6b093edcecde3caa9628c3f15aef47fdbc32922"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603688&begin_time=2024-04-07&end_time=2024-05-22"
+}

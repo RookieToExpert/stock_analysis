@@ -1,0 +1,15 @@
+{
+  "code": "sh.603230",
+  "name": "内蒙新华",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-04-11",
+  "consolidated_netProfit": "338794411.340000",
+  "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10863187&stockid=603230",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "7ce59105d06d9ef91ba310df484a85628e10e44396c7994e04909112a06ad8d5",
+  "text_sha256": "b07a0887078aa519b55f2f9a77b1aaecfc24f7321298f67846b283aec9ceb551",
+  "text_length": 152521
+}

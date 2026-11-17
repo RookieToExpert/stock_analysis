@@ -1,0 +1,16 @@
+{
+  "code": "sh.603303",
+  "target_date": "2025-09-23",
+  "documents": [
+    {
+      "title": "得邦照明:横店集团得邦照明股份有限公司2025年半年度权益分派实施公告",
+      "available_date": "2025-09-17",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202509161744831986_1.pdf",
+      "article": "AN202509161744831986",
+      "pdf_sha256": "859204ecf4cf436996ebad3f8a1c3235fafc9b5f21a7c8632e006925f721e4db",
+      "text_sha256": "5bb89e423cdb18b2d41c666b0b4e17754761e14f1ee441f9411fc2ea9c9ea9cf"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603303&begin_time=2025-08-09&end_time=2025-09-23"
+}

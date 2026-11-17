@@ -1,0 +1,15 @@
+{
+  "code": "sh.603324",
+  "name": "盛剑科技",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-04-24",
+  "consolidated_netProfit": "121357240.300000",
+  "source": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223241090.PDF",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "33926f2bd89caf7db690fd00a0044256d2adab5edd7c3a74c88d11bc0aeed769",
+  "text_sha256": "2a06b1b8f34bf1c0790a5a72d89649286cd0dab6e30ea212fc37fa12142f6629",
+  "text_length": 407474
+}

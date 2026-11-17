@@ -1,0 +1,16 @@
+{
+  "code": "sh.688215",
+  "target_date": "2025-07-11",
+  "documents": [
+    {
+      "title": "瑞晟智能:浙江瑞晟智能科技股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-07-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507041702863970_1.pdf",
+      "article": "AN202507041702863970",
+      "pdf_sha256": "b07030eabc876ca79d79468f83a478ae7c7b8affe048f8544a2d4c24791a2ef7",
+      "text_sha256": "61bc8d2f7bb69b4231b902eae8d14ee801d425194ddb1a3f253c37c07c406197"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688215&begin_time=2025-05-27&end_time=2025-07-11"
+}

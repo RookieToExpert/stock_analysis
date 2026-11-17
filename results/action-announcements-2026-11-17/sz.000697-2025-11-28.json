@@ -1,0 +1,48 @@
+{
+  "code": "sz.000697",
+  "target_date": "2025-11-28",
+  "documents": [
+    {
+      "title": "*ST炼石:中信证券股份有限公司关于对炼石航空科技股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+      "available_date": "2025-11-28",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202511271789427828_1.pdf",
+      "article": "AN202511271789427828",
+      "pdf_sha256": "508ddc5bba966b0deb5c6e7ddfc5ab142fb5ee903eb8660a937619eaf96bc59c",
+      "text_sha256": "1db4ef60b6a9bb302c8f628ec3c801d718ca208c2100949e0e5befb5885233bd"
+    },
+    {
+      "title": "*ST炼石:关于重整计划资本公积金转增股本事项进展暨公司股票复牌的提示性公告",
+      "available_date": "2025-11-28",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202511271789427833_1.pdf",
+      "article": "AN202511271789427833",
+      "pdf_sha256": "e839c9c6990d12aa9f7f93ea38ef4c67b5aaeca5cce317bcbb7a43c45faff17c",
+      "text_sha256": "2d98efa204df013b36ea673d2a752def52ca964011a3dab9d762710c37544052"
+    },
+    {
+      "title": "*ST炼石:关于重整计划资本公积金转增股本事项实施的公告",
+      "available_date": "2025-11-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202511241787603738_1.pdf",
+      "article": "AN202511241787603738",
+      "pdf_sha256": "628f83af18f42b0d51b00d8f802528db171e6d7636481d9b78a6d13e3ca5487b",
+      "text_sha256": "3650b61bf93dab0962c51b6614b7ea61d789e87e482af5863ca47a88f5314e2b"
+    },
+    {
+      "title": "*ST炼石:关于重整计划资本公积金转增股本除权事项的公告",
+      "available_date": "2025-11-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202511201785070626_1.pdf",
+      "article": "AN202511201785070626",
+      "pdf_sha256": "6f098d85d865ee4199e66eb27094809c9a90a124d91acb3c2dbd174c59b8460e",
+      "text_sha256": "33f3af31322f3ec1e880887cd38f8af812588d7b9fc35f9a02d05b3c1bf5853e"
+    },
+    {
+      "title": "*ST炼石:中信证券股份有限公司关于对炼石航空科技股份有限公司调整资本公积转增股本除权参考价格的计算公式的专项意见",
+      "available_date": "2025-11-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202511201785070623_1.pdf",
+      "article": "AN202511201785070623",
+      "pdf_sha256": "18745da59f283324c50a524bb517185fefb99e739733ffa99352b4ba4f04e31b",
+      "text_sha256": "ad7340ac5b16ff9daa1a06f6de4bdb182c9b7360552c2b57b2b786cbe452a085"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000697&begin_time=2025-10-14&end_time=2025-11-28"
+}

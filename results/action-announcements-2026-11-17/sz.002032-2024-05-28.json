@@ -1,0 +1,16 @@
+{
+  "code": "sz.002032",
+  "target_date": "2024-05-28",
+  "documents": [
+    {
+      "title": "苏泊尔:2023年度权益分派实施公告",
+      "available_date": "2024-05-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405201633878086_1.pdf",
+      "article": "AN202405201633878086",
+      "pdf_sha256": "b16fecf3741256e762c0ccc494f19dd2475cf1e2156e0ce1112d78ca92dd59e9",
+      "text_sha256": "2e748f1cf9cdcca440ce9181c1cff324dadd654bc1cd58a9cf2c8e86c06e559b"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002032&begin_time=2024-04-13&end_time=2024-05-28"
+}

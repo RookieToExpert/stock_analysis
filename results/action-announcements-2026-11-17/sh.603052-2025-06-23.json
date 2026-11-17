@@ -1,0 +1,16 @@
+{
+  "code": "sh.603052",
+  "target_date": "2025-06-23",
+  "documents": [
+    {
+      "title": "可川科技:2024年年度权益分派实施公告",
+      "available_date": "2025-06-17",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506161692041212_1.pdf",
+      "article": "AN202506161692041212",
+      "pdf_sha256": "0a4f36ba34bb624c69bc656d0f65b744dd6af4dbc81042659a088a3c08bed8eb",
+      "text_sha256": "1044a8469f42b74953e20cedf90abf1615980f7fedbd09f12a488bf13255afcb"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603052&begin_time=2025-05-09&end_time=2025-06-23"
+}

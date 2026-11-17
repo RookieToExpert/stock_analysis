@@ -1,0 +1,16 @@
+{
+  "code": "sh.688597",
+  "target_date": "2025-06-23",
+  "documents": [
+    {
+      "title": "煜邦电力:2024年年度权益分派实施公告",
+      "available_date": "2025-06-17",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506161692041241_1.pdf",
+      "article": "AN202506161692041241",
+      "pdf_sha256": "c6efef61102eef3d49baf8ef6887499435f9d299f121f24e63bccae037b1637a",
+      "text_sha256": "7e36b976444730dbe97acc9a8033db8f1b35e978332eb2f8e13840abb7682617"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688597&begin_time=2025-05-09&end_time=2025-06-23"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.688120",
+  "target_date": "2024-07-02",
+  "documents": [
+    {
+      "title": "华海清科:2023年年度权益分派实施公告",
+      "available_date": "2024-06-26",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406251636878175_1.pdf",
+      "article": "AN202406251636878175",
+      "pdf_sha256": "1cfd1645c78c9429f47535a1672120db324d4f2f669b98e075b233796753fdeb",
+      "text_sha256": "95e9847eccd820d2e44820a76e0f86683f91496c528064d24a35c765ad055dbb"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688120&begin_time=2024-05-18&end_time=2024-07-02"
+}

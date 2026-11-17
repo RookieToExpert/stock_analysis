@@ -1,0 +1,16 @@
+{
+  "code": "sh.603558",
+  "target_date": "2026-08-25",
+  "documents": [
+    {
+      "title": "健盛集团:健盛集团2026年半年度权益分派实施公告",
+      "available_date": "2026-08-19",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202608181828112589_1.pdf",
+      "article": "AN202608181828112589",
+      "pdf_sha256": "fd742d58c26da34f13c4916285e83647aa20cae9c3c0e562dedcd5ea3fe56d5c",
+      "text_sha256": "df1d35396f3a334e19c7e25e59ed661cc45aa031362e28971a3c950f9a4872c7"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603558&begin_time=2026-07-11&end_time=2026-08-25"
+}

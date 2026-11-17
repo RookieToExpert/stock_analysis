@@ -1,0 +1,16 @@
+{
+  "code": "sh.688606",
+  "target_date": "2026-06-01",
+  "documents": [
+    {
+      "title": "奥泰生物:2025年年度权益分派实施公告",
+      "available_date": "2026-05-26",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605251822859434_1.pdf",
+      "article": "AN202605251822859434",
+      "pdf_sha256": "a6bdb06d5b563f53b9fd569f4b981b0bbca2b344f781b9b7d24dae494e327dec",
+      "text_sha256": "a45869d27a13e92afbea6abfc2f8f747f6ea0ead9c632ebe3be3e8410f4022d1"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688606&begin_time=2026-04-17&end_time=2026-06-01"
+}

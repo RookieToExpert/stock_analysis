@@ -1,0 +1,16 @@
+{
+  "code": "sh.688589",
+  "target_date": "2025-06-06",
+  "documents": [
+    {
+      "title": "力合微:2024年年度权益分派实施公告",
+      "available_date": "2025-05-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505281680717963_1.pdf",
+      "article": "AN202505281680717963",
+      "pdf_sha256": "9e5251d32ab45643d6225070fc16001063230f27baec114df964f08f979eff84",
+      "text_sha256": "f8c94f75cc1e07551cf25e9cddc5207d886471288dc4a244e3e22ebf0a81eb8e"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688589&begin_time=2025-04-22&end_time=2025-06-06"
+}

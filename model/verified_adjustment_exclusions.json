@@ -1,0 +1,14 @@
+[
+  {
+    "code": "sz.000002",
+    "date": "2025-01-09",
+    "available_date": "2026-04-01",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12053173",
+    "expected": {
+      "foreAdjustFactor": "1.000000",
+      "backAdjustFactor": "134.284605",
+      "adjustFactor": "134.284605"
+    },
+    "reason": "2025年报附注41明确本年度不向普通股股东派发股利，且未列该期送转或证券发行，股份总数无变动；该供应商记录前复权因子为1、后复权因子单独改变，且当日preclose与前日实际close连续。仅排除这个精确匹配的异常因子，不伪造公司行动。此事后证据不可用于2026-04-01以前评价。"
+  }
+]

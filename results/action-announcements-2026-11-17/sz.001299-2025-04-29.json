@@ -1,0 +1,16 @@
+{
+  "code": "sz.001299",
+  "target_date": "2025-04-29",
+  "documents": [
+    {
+      "title": "美能能源:2024年年度权益分派实施公告",
+      "available_date": "2025-04-22",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202504211660021232_1.pdf",
+      "article": "AN202504211660021232",
+      "pdf_sha256": "f950c455de9176869c60dfd2c093a7aa92fd4690868d0a3cc36781cd1c7cc21f",
+      "text_sha256": "2a370d609724ffce9c31adb7f27b6b402a11629c7333f37f841f3d4574c169f8"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=001299&begin_time=2025-03-15&end_time=2025-04-29"
+}

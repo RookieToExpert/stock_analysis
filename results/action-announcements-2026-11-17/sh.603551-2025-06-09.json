@@ -1,0 +1,16 @@
+{
+  "code": "sh.603551",
+  "target_date": "2025-06-09",
+  "documents": [
+    {
+      "title": "奥普科技:2024年年度权益分派实施公告",
+      "available_date": "2025-05-31",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505301681905492_1.pdf",
+      "article": "AN202505301681905492",
+      "pdf_sha256": "77e52b38ce3894a73c4f0ddb77acde5dae150d09bf4aff4ed825285b5b689245",
+      "text_sha256": "bdab098b0b26ab21db62d61fb4928abcb40f5534f003e30a9857d03b83b1bda9"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603551&begin_time=2025-04-25&end_time=2025-06-09"
+}

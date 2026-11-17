@@ -1,0 +1,16 @@
+{
+  "code": "sh.688489",
+  "target_date": "2026-05-27",
+  "documents": [
+    {
+      "title": "三未信安:2025年年度权益分派实施公告",
+      "available_date": "2026-05-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605201822493795_1.pdf",
+      "article": "AN202605201822493795",
+      "pdf_sha256": "2d71786a8e868951694c1e9a524c1ce18e4b6a703fd29d1db86b28c1f7f645db",
+      "text_sha256": "568bf4ff2f2195a223dc110232445902fbaedf1227df795013e9684a5e8f1cfb"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688489&begin_time=2026-04-12&end_time=2026-05-27"
+}

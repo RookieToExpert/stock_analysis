@@ -1,0 +1,16 @@
+{
+  "code": "sh.688800",
+  "target_date": "2026-06-17",
+  "documents": [
+    {
+      "title": "瑞可达:2025年年度权益分派实施公告",
+      "available_date": "2026-06-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606101823426962_1.pdf",
+      "article": "AN202606101823426962",
+      "pdf_sha256": "db9f57f91225e95bdf5c5aac560baa1dbae9cf0766a816fc8a08a2623609d224",
+      "text_sha256": "ae60ef9a8b3f1ad05ea4658bb324b5e55b0dc2e1a2aef8294a338a5058bac010"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688800&begin_time=2026-05-03&end_time=2026-06-17"
+}

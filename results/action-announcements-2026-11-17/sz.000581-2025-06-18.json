@@ -1,0 +1,16 @@
+{
+  "code": "sz.000581",
+  "target_date": "2025-06-18",
+  "documents": [
+    {
+      "title": "威孚高科:2024年年度权益分派实施公告",
+      "available_date": "2025-06-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506111688942002_1.pdf",
+      "article": "AN202506111688942002",
+      "pdf_sha256": "f1f7843853de3b18bc7173455f9e5d026e66fc2d6fc8ff5071375fd322705fe1",
+      "text_sha256": "cdc99ff52715c8ccefe3b76ce9ee69729f26dab08e0c8425c1562a4f3bbea754"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000581&begin_time=2025-05-04&end_time=2025-06-18"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.688050",
+  "target_date": "2024-06-05",
+  "documents": [
+    {
+      "title": "爱博医疗:688050爱博医疗2023年年度权益分派实施公告",
+      "available_date": "2024-05-30",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405291634812711_1.pdf",
+      "article": "AN202405291634812711",
+      "pdf_sha256": "b306db16acae9d9ca3ac59bb9311986f6ca689a304ff1c9e439c9090390647d0",
+      "text_sha256": "5073629ea35a66cf4a5f77adddc8d5591361d9863f686ed67f0229123016b12f"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688050&begin_time=2024-04-21&end_time=2024-06-05"
+}

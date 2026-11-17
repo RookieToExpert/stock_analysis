@@ -1,0 +1,16 @@
+{
+  "code": "sh.688244",
+  "target_date": "2025-06-11",
+  "documents": [
+    {
+      "title": "永信至诚:2024年年度权益分派实施公告",
+      "available_date": "2025-06-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506041684746274_1.pdf",
+      "article": "AN202506041684746274",
+      "pdf_sha256": "f36c5ca74f404d7dd5a6b453ac0d5c64a04d9751f1ee21b58c3a484b52df2010",
+      "text_sha256": "a07a663113e375f56142d9d3de05940905fedfafd6bc5f0571f9e6d848434bb9"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688244&begin_time=2025-04-27&end_time=2025-06-11"
+}

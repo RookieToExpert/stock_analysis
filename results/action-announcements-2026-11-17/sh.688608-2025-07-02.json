@@ -1,0 +1,16 @@
+{
+  "code": "sh.688608",
+  "target_date": "2025-07-02",
+  "documents": [
+    {
+      "title": "恒玄科技:2024年年度权益分派实施公告",
+      "available_date": "2025-06-26",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506251697412546_1.pdf",
+      "article": "AN202506251697412546",
+      "pdf_sha256": "c62a7111e3665ed59da382b81cf372aa7c2d9b75e5334645a70fc35d1262a25d",
+      "text_sha256": "0ae8857c4b376813339738c008b7638b1e76384b8d3d0292653ed064d911219f"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688608&begin_time=2025-05-18&end_time=2025-07-02"
+}

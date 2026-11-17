@@ -1,0 +1,16 @@
+{
+  "code": "sh.688651",
+  "target_date": "2026-07-10",
+  "documents": [
+    {
+      "title": "盛邦安全:2025年年度权益分派实施公告",
+      "available_date": "2026-07-04",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202607031826699538_1.pdf",
+      "article": "AN202607031826699538",
+      "pdf_sha256": "862d52e4efe702abbdcd9173d13f0c7903a0bae8a550a8b74b4e633eea0cfd7a",
+      "text_sha256": "cbc728ddc875561c37f7bc49a27437e3e543c9a1e7043d3ba2510070c876e776"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688651&begin_time=2026-05-26&end_time=2026-07-10"
+}

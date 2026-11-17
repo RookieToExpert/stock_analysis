@@ -1,0 +1,16 @@
+{
+  "code": "sh.688193",
+  "target_date": "2026-06-10",
+  "documents": [
+    {
+      "title": "仁度生物:2025年年度权益分派实施公告",
+      "available_date": "2026-06-04",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606031823209282_1.pdf",
+      "article": "AN202606031823209282",
+      "pdf_sha256": "4c2506777b4f09c62634001d76a0a4fadd44d0a39e982c28b35d693a107ee846",
+      "text_sha256": "652bb7b39e62c234a32cf2636816beb6da526cb9ebec16c0e4457f14c5847dbb"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688193&begin_time=2026-04-26&end_time=2026-06-10"
+}

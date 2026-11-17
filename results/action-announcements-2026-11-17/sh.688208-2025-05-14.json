@@ -1,0 +1,16 @@
+{
+  "code": "sh.688208",
+  "target_date": "2025-05-14",
+  "documents": [
+    {
+      "title": "道通科技:道通科技2024年年度权益分派实施公告",
+      "available_date": "2025-05-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505061668408195_1.pdf",
+      "article": "AN202505061668408195",
+      "pdf_sha256": "8c12443c7e63009fba016e4b2ab46a129c830b7fc64eb7efc089e7dbe284819e",
+      "text_sha256": "30f1c0509dce78cbf5fc7d22a7c3f5217b319542338ef1b6af11744b7083a6b9"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688208&begin_time=2025-03-30&end_time=2025-05-14"
+}

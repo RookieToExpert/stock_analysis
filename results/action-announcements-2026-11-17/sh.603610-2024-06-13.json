@@ -1,0 +1,16 @@
+{
+  "code": "sh.603610",
+  "target_date": "2024-06-13",
+  "documents": [
+    {
+      "title": "麒盛科技:麒盛科技2023年年度权益分派实施公告",
+      "available_date": "2024-06-06",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406051635588007_1.pdf",
+      "article": "AN202406051635588007",
+      "pdf_sha256": "80750c83f07f09c03210eee876f25d9a90c2e09022d2418fc3e97fd21c05431b",
+      "text_sha256": "4d3c6824d1fb5275d343715a28932392d79065cab587aa21e1e9a454597f0277"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603610&begin_time=2024-04-29&end_time=2024-06-13"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.688005",
+  "target_date": "2025-03-06",
+  "documents": [
+    {
+      "title": "容百科技:2024年三季度权益分派实施公告",
+      "available_date": "2025-02-28",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202502271643570316_1.pdf",
+      "article": "AN202502271643570316",
+      "pdf_sha256": "62c167f736bbf62d5749fa14dc091addaef5cbf59e91cd2c2dfadc91ef837d32",
+      "text_sha256": "bec2d1a980bf9e1324938d2a3a662a6dbd799cedac8a2dc0db5fb12ae2aa4dd5"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688005&begin_time=2025-01-20&end_time=2025-03-06"
+}

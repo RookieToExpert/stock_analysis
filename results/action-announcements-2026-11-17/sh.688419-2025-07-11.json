@@ -1,0 +1,16 @@
+{
+  "code": "sh.688419",
+  "target_date": "2025-07-11",
+  "documents": [
+    {
+      "title": "耐科装备:安徽耐科装备科技股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-07-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507041702864007_1.pdf",
+      "article": "AN202507041702864007",
+      "pdf_sha256": "b0eb9b590ecfd2cae67812466ab486900328b57bb92516f5f86809465cc67073",
+      "text_sha256": "5d40e98b8ed015eee26516e44c3783f634299fa56feeba19ae969abad6ed39d1"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688419&begin_time=2025-05-27&end_time=2025-07-11"
+}

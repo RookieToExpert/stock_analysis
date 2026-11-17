@@ -1,0 +1,16 @@
+{
+  "code": "sh.603095",
+  "target_date": "2025-06-06",
+  "documents": [
+    {
+      "title": "越剑智能:2024年年度权益分派实施公告",
+      "available_date": "2025-05-30",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505291681297498_1.pdf",
+      "article": "AN202505291681297498",
+      "pdf_sha256": "ae6f2070bcb20b836611087fcd7538347c0c2c01cfcd55583f0dc4223bb4023a",
+      "text_sha256": "9f44d2e44c28c2a19cc8f33873c27f85696bf006a87bb7263e24961835125955"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603095&begin_time=2025-04-22&end_time=2025-06-06"
+}

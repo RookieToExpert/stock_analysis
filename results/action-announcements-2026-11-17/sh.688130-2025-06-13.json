@@ -1,0 +1,16 @@
+{
+  "code": "sh.688130",
+  "target_date": "2025-06-13",
+  "documents": [
+    {
+      "title": "晶华微:晶华微2024年年度权益分派实施公告",
+      "available_date": "2025-06-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506061685977774_1.pdf",
+      "article": "AN202506061685977774",
+      "pdf_sha256": "6fd47c56220c8331494216947e09fffb6ec71fc378dd1583a6341f4d13e7810d",
+      "text_sha256": "e2c48a56171ad9ef93266daf4bb467491d453d69ff3680f0e23d35762b0ba480"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688130&begin_time=2025-04-29&end_time=2025-06-13"
+}

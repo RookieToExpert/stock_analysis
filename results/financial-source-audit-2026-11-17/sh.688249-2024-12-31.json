@@ -1,0 +1,15 @@
+{
+  "code": "sh.688249",
+  "name": "晶合集成",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-04-21",
+  "consolidated_netProfit": "482196348.960000",
+  "source": "https://static.cninfo.com.cn/finalpage/2025-04-21/1223174863.PDF",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "52b1c4cdbe3e4f593b67b0f084536c61aa81f5358d4fd3c27bae9d0d1930790f",
+  "text_sha256": "f78bc5d986fa08c3b22c2af0b9fb37bf54814c73f682e84d7e89277760ecfeae",
+  "text_length": 478762
+}

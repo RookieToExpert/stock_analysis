@@ -1,0 +1,16 @@
+{
+  "code": "sh.605009",
+  "target_date": "2025-06-12",
+  "documents": [
+    {
+      "title": "豪悦护理:2024年年度权益分配实施公告",
+      "available_date": "2025-06-06",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506051685348002_1.pdf",
+      "article": "AN202506051685348002",
+      "pdf_sha256": "9c78835bf84b4bf921ca1ae1befd341a6e542cfc8f67da53d7728b98899cdecf",
+      "text_sha256": "0a6bc279c2e9e148fdab8e703c041a9025235126b911fb2c212d08f6ea69ea02"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605009&begin_time=2025-04-28&end_time=2025-06-12"
+}

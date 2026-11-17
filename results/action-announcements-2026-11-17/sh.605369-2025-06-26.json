@@ -1,0 +1,16 @@
+{
+  "code": "sh.605369",
+  "target_date": "2025-06-26",
+  "documents": [
+    {
+      "title": "拱东医疗:2024年年度权益分派实施公告",
+      "available_date": "2025-06-20",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506191693848887_1.pdf",
+      "article": "AN202506191693848887",
+      "pdf_sha256": "f36fc45ab32adf8bee06c972d094d368b2d90d426c3657d98289aeef62520339",
+      "text_sha256": "c19e4213b50a882bab9a7bc64ba5bc717b8d6fe60f2df50806cbf95977398e9e"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605369&begin_time=2025-05-12&end_time=2025-06-26"
+}

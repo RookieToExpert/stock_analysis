@@ -1,0 +1,16 @@
+{
+  "code": "sh.688531",
+  "target_date": "2025-07-10",
+  "documents": [
+    {
+      "title": "日联科技:2024年年度权益分派实施公告",
+      "available_date": "2025-07-04",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507031702263181_1.pdf",
+      "article": "AN202507031702263181",
+      "pdf_sha256": "d8ce02dd06f261706d6be6afdea460f718fe52aeaf216d9ac926614cc27e0df0",
+      "text_sha256": "7cb82efbfe2e0f73ab0e50a4347a3474f2f3b5b1606670328815f03b9bfecbdd"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688531&begin_time=2025-05-26&end_time=2025-07-10"
+}

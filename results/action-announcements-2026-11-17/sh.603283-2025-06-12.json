@@ -1,0 +1,16 @@
+{
+  "code": "sh.603283",
+  "target_date": "2025-06-12",
+  "documents": [
+    {
+      "title": "赛腾股份:苏州赛腾精密电子股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-06-06",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506051685319743_1.pdf",
+      "article": "AN202506051685319743",
+      "pdf_sha256": "85648c5ba91bab15d9b50a66be9f4b64eaee2d4b770fc3c7f9cedc0d08aad7db",
+      "text_sha256": "1740d2b355246fc92d6e0a5c66d831e8b934b6d7eada167191e629f7e468a7d7"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603283&begin_time=2025-04-28&end_time=2025-06-12"
+}

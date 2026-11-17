@@ -1,0 +1,24 @@
+{
+  "code": "sh.688581",
+  "target_date": "2024-06-21",
+  "documents": [
+    {
+      "title": "安杰思:安杰思2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-21",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406201636729613_1.pdf",
+      "article": "AN202406201636729613",
+      "pdf_sha256": "df7223476a9f8fc8809b0399ed1d746cf4aaca42d9e78f3fc93d1c97705c4252",
+      "text_sha256": "02fb8511b3cec3ed42336c82cf167a4baad334f60e9f473050ad25fea933c2b0"
+    },
+    {
+      "title": "安杰思:安杰思2023年年度权益分派实施公告",
+      "available_date": "2024-06-14",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406131636094349_1.pdf",
+      "article": "AN202406131636094349",
+      "pdf_sha256": "424e510479bcbf80a49104edeb6fc5e53d2368ef45d590b3057525bc959199bd",
+      "text_sha256": "80190e93f75e5353f4a1da662ae237c7fece07daff707ec0b409c388af8b172e"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688581&begin_time=2024-05-07&end_time=2024-06-21"
+}

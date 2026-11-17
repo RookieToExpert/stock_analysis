@@ -1,0 +1,15 @@
+{
+  "code": "sh.600061",
+  "name": "国投资本",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-03-29",
+  "consolidated_netProfit": "3198282451.950000",
+  "source": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222950250.PDF",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "27aab6d05dc92f4d9f8670f42d56a434498fc0464afdf203d421ae9e9f4f31a8",
+  "text_sha256": "3b30a9ca021873d15f26890fe630f2e205eef40a110987ea6e50991118fa4eb5",
+  "text_length": 488524
+}

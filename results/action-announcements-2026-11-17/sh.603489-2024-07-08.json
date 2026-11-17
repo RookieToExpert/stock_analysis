@@ -1,0 +1,16 @@
+{
+  "code": "sh.603489",
+  "target_date": "2024-07-08",
+  "documents": [
+    {
+      "title": "八方股份:2023年年度权益分派实施公告",
+      "available_date": "2024-07-02",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202407011637233825_1.pdf",
+      "article": "AN202407011637233825",
+      "pdf_sha256": "832b5f8298db57d5f1269eaa5d3cc4e236d676fc9a085a7b8a1cdd2412997ddb",
+      "text_sha256": "901a44b572ff75e235670dceba4797e00233e6cab7a0b99c4cef2b6d5f0590c0"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603489&begin_time=2024-05-24&end_time=2024-07-08"
+}

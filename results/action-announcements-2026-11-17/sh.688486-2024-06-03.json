@@ -1,0 +1,24 @@
+{
+  "code": "sh.688486",
+  "target_date": "2024-06-03",
+  "documents": [
+    {
+      "title": "龙迅股份:龙迅股份2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-03",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406021635199250_1.pdf",
+      "article": "AN202406021635199250",
+      "pdf_sha256": "11432eaee13dc8b4cbda2995d38a4ae573e6dd283dfff86f1df61c209b40911b",
+      "text_sha256": "ae5213dd6808db84f80ac940d891f942e02b9806be950e86bb4bef8c5f84e69e"
+    },
+    {
+      "title": "龙迅股份:龙迅股份2023年年度权益分派实施公告",
+      "available_date": "2024-05-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405241634556295_1.pdf",
+      "article": "AN202405241634556295",
+      "pdf_sha256": "94a3b43545dc70e0ef4fb8e18332b73f434361faae4f575743f420e7b540fc9e",
+      "text_sha256": "f1ebb8948ddbf7071ed6a4ed4fd677a0e7e584fd66296a34a43ecfc1a7c59726"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688486&begin_time=2024-04-19&end_time=2024-06-03"
+}

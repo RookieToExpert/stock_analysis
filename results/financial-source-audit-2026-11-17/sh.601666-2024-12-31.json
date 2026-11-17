@@ -1,0 +1,15 @@
+{
+  "code": "sh.601666",
+  "name": "平煤股份",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-03-21",
+  "consolidated_netProfit": "2555118627.480000",
+  "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10796916",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "89eda780769cb9e325aaaf974a05a22bc2ae84b624027c6f1c8b12f26c1f2fbd",
+  "text_sha256": "dfbc1eb1964711ba975d45084c703c6418ddb838e6a55f08de4f8e536fc3b28c",
+  "text_length": 225469
+}

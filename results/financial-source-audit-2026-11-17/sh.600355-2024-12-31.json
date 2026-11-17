@@ -1,0 +1,15 @@
+{
+  "code": "sh.600355",
+  "name": "*ST精伦",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-04-26",
+  "consolidated_netProfit": "-42060135.610000",
+  "source": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223324805.PDF",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "4c678ca1ddb85d1d7894a661bb2ef053cf0b262a5706a78a7fc6110bdff435f2",
+  "text_sha256": "348f7eea34bb031d34315eed82c3d1097d593853d0a78a24dd38972af40c1481",
+  "text_length": 246376
+}

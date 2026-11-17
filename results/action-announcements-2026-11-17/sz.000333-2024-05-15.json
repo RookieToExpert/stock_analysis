@@ -1,0 +1,16 @@
+{
+  "code": "sz.000333",
+  "target_date": "2024-05-15",
+  "documents": [
+    {
+      "title": "美的集团:2023年年度利润分配实施公告",
+      "available_date": "2024-05-09",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405081632672875_1.pdf",
+      "article": "AN202405081632672875",
+      "pdf_sha256": "c0cab0c355c20c4dbb3510dba55b0645185866696d99a16a87ff3c887a540f34",
+      "text_sha256": "dd215974d20749bb9cfbaabe827611d1a135cdc01a527aafead658e69da53d50"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000333&begin_time=2024-03-31&end_time=2024-05-15"
+}

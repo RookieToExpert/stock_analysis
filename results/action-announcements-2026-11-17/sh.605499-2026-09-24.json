@@ -1,0 +1,16 @@
+{
+  "code": "sh.605499",
+  "target_date": "2026-09-24",
+  "documents": [
+    {
+      "title": "东鹏饮料:东鹏饮料(集团)股份有限公司2026年半年度A股权益分派实施公告",
+      "available_date": "2026-09-18",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202609171829527666_1.pdf",
+      "article": "AN202609171829527666",
+      "pdf_sha256": "61655fb526b0beb6778342302fcaa033cd62736d771fc0aadd6d18685d1f0450",
+      "text_sha256": "c0b5d8ca5e8f230860a811e91011eb7ade358f984e49d62eb43ce0767c2054e3"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605499&begin_time=2026-08-10&end_time=2026-09-24"
+}

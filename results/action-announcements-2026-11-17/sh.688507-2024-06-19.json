@@ -1,0 +1,24 @@
+{
+  "code": "sh.688507",
+  "target_date": "2024-06-19",
+  "documents": [
+    {
+      "title": "索辰科技:2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-19",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406181636644622_1.pdf",
+      "article": "AN202406181636644622",
+      "pdf_sha256": "eca048cfeddc22bedf3242075f6590bb375b27e3b1e728c1320cc07d99c93d5e",
+      "text_sha256": "cc1f8977be5990ecd190e5b857e7ff61ec63e57200f6a9e98364f022e45e8636"
+    },
+    {
+      "title": "索辰科技:2023年年度权益分派实施公告",
+      "available_date": "2024-06-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406111635973631_1.pdf",
+      "article": "AN202406111635973631",
+      "pdf_sha256": "f235983a8975292be2cf1fc43b29da6b6945fb58e7515a310848011129c7c9b6",
+      "text_sha256": "52cdb738a3da33c12fe6e0aeed7bebb6f6ee87c011301353e6ab014c3323077f"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688507&begin_time=2024-05-05&end_time=2024-06-19"
+}

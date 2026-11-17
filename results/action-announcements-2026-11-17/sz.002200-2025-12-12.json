@@ -1,0 +1,56 @@
+{
+  "code": "sz.002200",
+  "target_date": "2025-12-12",
+  "documents": [
+    {
+      "title": "*ST交投:关于重整计划资本公积金转增股本事项进展暨公司股票复牌的提示性公告",
+      "available_date": "2025-12-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512111798395569_1.pdf",
+      "article": "AN202512111798395569",
+      "pdf_sha256": "c804a7fd14e81a6a5bb1b0b5ee9e01c36f115f17b54933d3b2efcf3d68467b94",
+      "text_sha256": "42367eed412c4acfa7675be7a478f6872143f480f2a782360c37b0104abe27a2"
+    },
+    {
+      "title": "*ST交投:太平洋证券股份有限公司关于云南交投生态科技股份有限公司调整资本公积金转增股本除权参考价格的计算结果的专项意见",
+      "available_date": "2025-12-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512111798395564_1.pdf",
+      "article": "AN202512111798395564",
+      "pdf_sha256": "a71334f6ed3f6427abf990ad66fff62f1d322bc08ee3dcb327f34ba87e3da833",
+      "text_sha256": "5540667e7d6dcea95eeb79c02983fb455cc6e6401c6a55c75ea5ecf5a076ef81"
+    },
+    {
+      "title": "*ST交投:关于重整计划资本公积金转增股本实施后首个交易日开盘参考价调整的提示公告",
+      "available_date": "2025-12-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512111798395567_1.pdf",
+      "article": "AN202512111798395567",
+      "pdf_sha256": "c8e49596d7b8ae5592b15df9b0b9ad48d769d7f1425fca9051ba6719d968e637",
+      "text_sha256": "5dfd02883e7e22f5ced5863cb7ba1f57c36eacea6fdb51454106f9b88a40ac09"
+    },
+    {
+      "title": "*ST交投:关于重整计划资本公积转增股本事项实施的公告",
+      "available_date": "2025-12-06",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512051794540390_1.pdf",
+      "article": "AN202512051794540390",
+      "pdf_sha256": "f451332e642040d8a9f4dce3dce28a83a77a0bac2d5a67660f2700784183841b",
+      "text_sha256": "349b9abafe1eb72f634583544819f37b20c877513e15c0fa451f6b7adec27cb0"
+    },
+    {
+      "title": "*ST交投:关于重整计划资本公积金转增股本除权事项的公告",
+      "available_date": "2025-12-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512041793932047_1.pdf",
+      "article": "AN202512041793932047",
+      "pdf_sha256": "77ed2476531e653ef9200865859cd6562b665b7c95e03b29630be4bd58266b4d",
+      "text_sha256": "cf7f3737398e9d6eb599a50b8145568da6d5fd11877c3ba83b3dbf43d24e0804"
+    },
+    {
+      "title": "*ST交投:太平洋证券股份有限公司关于云南交投生态科技股份有限公司调整资本公积转增股本除权参考价格的计算公式的专项意见",
+      "available_date": "2025-12-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202512041793932046_1.pdf",
+      "article": "AN202512041793932046",
+      "pdf_sha256": "b640feb41c52e8e3d8491f08ca36ed25ff16608ee3c406e60630900d24b0e141",
+      "text_sha256": "b2b6778e51024c7697e2be9524919ce83d9b9bf32446f90a71d3a4f8c44915e5"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002200&begin_time=2025-10-28&end_time=2025-12-12"
+}

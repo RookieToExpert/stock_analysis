@@ -1,0 +1,16 @@
+{
+  "code": "sz.001268",
+  "target_date": "2026-07-07",
+  "documents": [
+    {
+      "title": "联合精密:2025年年度分红派息、转增股本实施公告",
+      "available_date": "2026-06-30",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606291826548297_1.pdf",
+      "article": "AN202606291826548297",
+      "pdf_sha256": "866d7b71b8c75cf79ddf7adc0ce102f908ff13e4848491557bf568ed63422c48",
+      "text_sha256": "f75dbdd45568ca67d0357524bb9bb98e598755064cea30185a59b122fd856859"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=001268&begin_time=2026-05-23&end_time=2026-07-07"
+}

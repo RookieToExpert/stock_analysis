@@ -1,0 +1,16 @@
+{
+  "code": "sh.688325",
+  "target_date": "2026-06-05",
+  "documents": [
+    {
+      "title": "赛微微电:2025年年度权益分派实施公告",
+      "available_date": "2026-05-29",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605281822950477_1.pdf",
+      "article": "AN202605281822950477",
+      "pdf_sha256": "824b1ab8b23a23584a236fdaf53ea87c9a73daaeb60760598b9386a00f29c49b",
+      "text_sha256": "4ed6c53dbc1d1259331fba95c9031d8a7e7aaf780820e5d1c9778a4df2d9ac7b"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688325&begin_time=2026-04-21&end_time=2026-06-05"
+}

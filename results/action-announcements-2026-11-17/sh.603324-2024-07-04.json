@@ -1,0 +1,16 @@
+{
+  "code": "sh.603324",
+  "target_date": "2024-07-04",
+  "documents": [
+    {
+      "title": "盛剑环境:盛剑环境2023年年度权益分派实施公告",
+      "available_date": "2024-06-28",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406271636958515_1.pdf",
+      "article": "AN202406271636958515",
+      "pdf_sha256": "2425ed79b85f2eab362c9dc63585ffedad8bf721d21cc3c0c08ef748a4d75b73",
+      "text_sha256": "e4e9085df33498d78df7c216ec0144a4a979a27304e613d9b2617d8d5d60d8f3"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603324&begin_time=2024-05-20&end_time=2024-07-04"
+}

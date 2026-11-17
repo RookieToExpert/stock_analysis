@@ -1,0 +1,16 @@
+{
+  "code": "sh.688083",
+  "target_date": "2025-06-06",
+  "documents": [
+    {
+      "title": "中望软件:2024年年度权益分派实施公告",
+      "available_date": "2025-05-30",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505291681260288_1.pdf",
+      "article": "AN202505291681260288",
+      "pdf_sha256": "f490b0dbbf03a717674f511300ebeca1c204dc29be6810e777965b3a5837c61c",
+      "text_sha256": "ffa524ba2b442dbd0f39f9c18f47799ce5be034ef536ed1ce72d3dbe2cc56157"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688083&begin_time=2025-04-22&end_time=2025-06-06"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.688696",
+  "target_date": "2026-05-19",
+  "documents": [
+    {
+      "title": "极米科技:2025年年度权益分派实施公告",
+      "available_date": "2026-05-13",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822215858_1.pdf",
+      "article": "AN202605121822215858",
+      "pdf_sha256": "9fb8448a984888e9f512b47969bc74e3076845ccd4a9e4f86f320cab5afa0ee3",
+      "text_sha256": "14251383b0b63bd6e11cc481b56c7ff7cbcc279cdc1c5f9773bde8410ba027bd"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688696&begin_time=2026-04-04&end_time=2026-05-19"
+}

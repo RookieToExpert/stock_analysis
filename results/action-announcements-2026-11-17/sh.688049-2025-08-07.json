@@ -1,0 +1,16 @@
+{
+  "code": "sh.688049",
+  "target_date": "2025-08-07",
+  "documents": [
+    {
+      "title": "炬芯科技:2024年年度权益分派实施公告",
+      "available_date": "2025-08-01",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507311719028553_1.pdf",
+      "article": "AN202507311719028553",
+      "pdf_sha256": "d2ccc6feac9aa0e8a2eedeb7b46f80e1868b116e5fe658482c0c42823861fe6e",
+      "text_sha256": "bc3c8736f48a0a9c6e05522503f97de79f8b2e07edde957e6d8d3886b9907eb6"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688049&begin_time=2025-06-23&end_time=2025-08-07"
+}

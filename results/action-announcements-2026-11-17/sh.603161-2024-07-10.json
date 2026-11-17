@@ -1,0 +1,16 @@
+{
+  "code": "sh.603161",
+  "target_date": "2024-07-10",
+  "documents": [
+    {
+      "title": "科华控股:科华控股股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-07-03",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202407021637472388_1.pdf",
+      "article": "AN202407021637472388",
+      "pdf_sha256": "fb80dbca76efa802cff316ac0f9098e8539bee28ef1bf772bc61709e23bd327a",
+      "text_sha256": "178ece368b8b696467fa66992d6e5a9c167158e01da0885b53affb9437c5f3e8"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603161&begin_time=2024-05-26&end_time=2024-07-10"
+}

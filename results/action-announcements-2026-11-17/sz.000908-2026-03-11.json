@@ -1,0 +1,48 @@
+{
+  "code": "sz.000908",
+  "target_date": "2026-03-11",
+  "documents": [
+    {
+      "title": "*ST景峰:关于重整计划资本公积金转增股本事项进展暨公司股票复牌的公告",
+      "available_date": "2026-03-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202603101820461538_1.pdf",
+      "article": "AN202603101820461538",
+      "pdf_sha256": "b5be65c363359e339b7cc2c3976bdc0edca88d85800f0a734f1a583951008051",
+      "text_sha256": "219b01da735cbccb1f4108ab9885ccb0d30314c215292b64155cde89e6b397ef"
+    },
+    {
+      "title": "*ST景峰:中德证券有限责任公司关于湖南景峰医药股份有限公司调整资本公积金转增股本除权参考价格的计算结果的专项意见",
+      "available_date": "2026-03-10",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202603091820420706_1.pdf",
+      "article": "AN202603091820420706",
+      "pdf_sha256": "32767711d0f5ed1107dffc392d710f708073860da5b4affa07b9212d2c3f3d12",
+      "text_sha256": "009391559b2777d7003b4a8f2ac076416b66eee634361c208c85dae6d174cda0"
+    },
+    {
+      "title": "*ST景峰:关于重整计划资本公积金转增股本事项实施的公告",
+      "available_date": "2026-03-04",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202603031820229997_1.pdf",
+      "article": "AN202603031820229997",
+      "pdf_sha256": "3eb3bc0572ad90ea2253373189ddd0714a4fd481759daf9b777b3ba92107edf6",
+      "text_sha256": "8c977cacd549a2e98c3a42824525321c2698adae0307ebd3f6f273d552bf1c02"
+    },
+    {
+      "title": "*ST景峰:中德证券有限责任公司关于对湖南景峰医药股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+      "available_date": "2026-02-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202602061819813347_1.pdf",
+      "article": "AN202602061819813347",
+      "pdf_sha256": "076988b108627aed6ad0379e97149209088f18d336190367261d286651dd6f1d",
+      "text_sha256": "2e9faebbd47a57f8d00d2f73a2e412bbf5353a95a112f2278b24f69ee5d14b62"
+    },
+    {
+      "title": "*ST景峰:关于重整计划资本公积金转增股本除权事项的公告",
+      "available_date": "2026-02-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202602061819813288_1.pdf",
+      "article": "AN202602061819813288",
+      "pdf_sha256": "2b2aea171f368d6a17590e0797b721afdef5b37fe662048acfb7fe1051390d63",
+      "text_sha256": "4faa5054342203227d26d8b4b240068028eb1c3a12cb2d2ee7d3bd8842667c81"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000908&begin_time=2026-01-25&end_time=2026-03-11"
+}

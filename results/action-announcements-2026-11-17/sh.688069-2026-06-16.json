@@ -1,0 +1,16 @@
+{
+  "code": "sh.688069",
+  "target_date": "2026-06-16",
+  "documents": [
+    {
+      "title": "德林海:德林海2025年年度权益分派实施公告",
+      "available_date": "2026-06-09",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606081823359097_1.pdf",
+      "article": "AN202606081823359097",
+      "pdf_sha256": "f8ce451804f983e676196dd05a193d599e962a06297d5052467950a4b8dd8e57",
+      "text_sha256": "91dafc06b3307f4e2cb43a94044e63c1a7a34a639b2f49fb09108f1564f314b8"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688069&begin_time=2026-05-02&end_time=2026-06-16"
+}

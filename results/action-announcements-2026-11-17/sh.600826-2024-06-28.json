@@ -1,0 +1,16 @@
+{
+  "code": "sh.600826",
+  "target_date": "2024-06-28",
+  "documents": [
+    {
+      "title": "兰生股份:东浩兰生会展集团股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-22",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406211636765906_1.pdf",
+      "article": "AN202406211636765906",
+      "pdf_sha256": "a56747a3aa3bd69141cf9de63d1539d80bfe64282bb6125d3a680c6d181418df",
+      "text_sha256": "e2f406cdf0675d951caeffa0aa771356a091e34acea020526a8f68df03dcca0f"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600826&begin_time=2024-05-14&end_time=2024-06-28"
+}

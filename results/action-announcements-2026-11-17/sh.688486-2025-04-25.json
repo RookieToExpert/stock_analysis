@@ -1,0 +1,16 @@
+{
+  "code": "sh.688486",
+  "target_date": "2025-04-25",
+  "documents": [
+    {
+      "title": "龙迅股份:龙迅股份2024年年度权益分派实施公告",
+      "available_date": "2025-04-19",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202504181658503498_1.pdf",
+      "article": "AN202504181658503498",
+      "pdf_sha256": "cf5894ae0ba43cdd421ec8edbd3ec2c613225555e1b104b7a752ff15bda73418",
+      "text_sha256": "d3b67abd6218282c9dea131933ea17d8cff595cf8e1bd9eba34e975bd7e7303a"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688486&begin_time=2025-03-11&end_time=2025-04-25"
+}

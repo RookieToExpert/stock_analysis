@@ -1,0 +1,16 @@
+{
+  "code": "sz.000513",
+  "target_date": "2025-06-13",
+  "documents": [
+    {
+      "title": "丽珠集团:2024年年度权益分派(A股)实施公告",
+      "available_date": "2025-06-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506061685910705_1.pdf",
+      "article": "AN202506061685910705",
+      "pdf_sha256": "b92cc15bcab22da5bf211b8dcc60f62168466deba2a22c98b1312c836c9c8e79",
+      "text_sha256": "00a855cd03075aad16294af58479627420315595e21b408a1ebfaa4dfe358b81"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000513&begin_time=2025-04-29&end_time=2025-06-13"
+}

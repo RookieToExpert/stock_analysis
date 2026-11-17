@@ -1,0 +1,16 @@
+{
+  "code": "sh.688778",
+  "target_date": "2025-07-03",
+  "documents": [
+    {
+      "title": "厦钨新能:厦门厦钨新能源材料股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-06-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202506261698025243_1.pdf",
+      "article": "AN202506261698025243",
+      "pdf_sha256": "6fd294db1e55400fac32d8cd5bed42d4e47b7f8ac016d85e2357b809475913ce",
+      "text_sha256": "1ce3de19cf33dcd11ac38d2527d7eb2c2fd5768e05453f54a9c90dcaa7e7c7aa"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688778&begin_time=2025-05-19&end_time=2025-07-03"
+}

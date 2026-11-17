@@ -9,8 +9,9 @@ from datetime import date,timedelta
 from decimal import Decimal
 from pathlib import Path
 from total_return import analyze,CoverageError
-from action_verification import apply_verified_actions,check_supported_actions
+from action_verification import apply_verified_actions,check_supported_actions,exclude_verified_adjustments
 from action_precision import reconcile_precision
+from rights import apply_verified_rights
 from calendar_coverage import calendar_gap_reason
 
 _CACHE={}
@@ -93,6 +94,8 @@ def reconstruct(code,as_of,dividends,cal,root):
     if gap:raise CoverageError('daily data does not cover independent calendar: '+gap)
     overlays=action_rows(dividends,code,as_of,cal['start'],cal['end'])
     data=copy.deepcopy(data);data.setdefault('dividend',[]).extend(overlays)
+    adjustment_exclusions=exclude_verified_adjustments(data,as_of)
+    verified_rights=apply_verified_rights(data,as_of,cal['start'],cal['end'])
     verified_actions=apply_verified_actions(data,as_of)
     precision_changes=reconcile_precision(data)
     calculation=analyze(data,cal['start'],cal['end'])
@@ -103,12 +106,14 @@ def reconstruct(code,as_of,dividends,cal,root):
             'high36':max(r['index'] for r in series),'closes':list(monthly.values()),
             'drawdown':m['current_drawdown'],'max_drawdown':m['max_drawdown'],'vol':m['vol'],
             'total_return':m['total_return'],'total_return_verified':False,'data_checks_passed':True,
-            'reason':'cash/bonus model and input consistency checked; full issuer audit pending',
+            'reason':'verified-action research model and input consistency checked; full issuer audit pending',
             'source':{'local_sha256':hashlib.sha256(raw).hexdigest(),'fetched':data.get('fetched'),
                       'calendar':cal,'overlays':overlays,'events':calculation['events'],
                       'redundant_adjustment_dates':calculation['redundant_adjustment_dates'],
                       'adjustments':data.get('adjust',[]),
                       'verified_actions':verified_actions,
+                      'adjustment_exclusions':adjustment_exclusions,
+                      'verified_rights':verified_rights,
                       'precision_changes':precision_changes,
                       'daily':[r for r in data['daily'] if cal['start']<=r['date']<=cal['end']]}}
 

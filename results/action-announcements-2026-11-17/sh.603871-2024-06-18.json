@@ -1,0 +1,16 @@
+{
+  "code": "sh.603871",
+  "target_date": "2024-06-18",
+  "documents": [
+    {
+      "title": "嘉友国际:2023年年度权益分派实施公告",
+      "available_date": "2024-06-12",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406111635973071_1.pdf",
+      "article": "AN202406111635973071",
+      "pdf_sha256": "3dea240bbe6b58949846b1a80d28d2593bb5001b1671ec9a02d40a890e7de848",
+      "text_sha256": "6cf9f94fda435380d597d2973914713fa539875d1b12d7a6da7a7d0e83d455aa"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603871&begin_time=2024-05-04&end_time=2024-06-18"
+}

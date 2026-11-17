@@ -1,0 +1,16 @@
+{
+  "code": "sh.603629",
+  "target_date": "2026-07-07",
+  "documents": [
+    {
+      "title": "利通电子:利通电子2025年年度权益分派实施公告",
+      "available_date": "2026-07-01",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826601604_1.pdf",
+      "article": "AN202606301826601604",
+      "pdf_sha256": "5836c9afe8c556e6984804d2163f1609fe5d157bd2c70255173e267384e54ecf",
+      "text_sha256": "64e92e7f6643a4e26c32ffef4b94680211c14fbb7640f503e6141a8f71e90ef0"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603629&begin_time=2026-05-23&end_time=2026-07-07"
+}

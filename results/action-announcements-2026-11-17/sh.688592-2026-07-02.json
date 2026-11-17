@@ -1,0 +1,16 @@
+{
+  "code": "sh.688592",
+  "target_date": "2026-07-02",
+  "documents": [
+    {
+      "title": "司南导航:2025年年度权益分派实施公告",
+      "available_date": "2026-06-26",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606251823855384_1.pdf",
+      "article": "AN202606251823855384",
+      "pdf_sha256": "4729e6323370cb64d0fc2d3fb52f9e1c440678ecc64aa0d9207e6becb7f0decb",
+      "text_sha256": "304e029267841c43bab1b06982983d1257d7e338c6a8879f87a47204ee67980a"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688592&begin_time=2026-05-18&end_time=2026-07-02"
+}

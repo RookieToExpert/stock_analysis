@@ -1,0 +1,16 @@
+{
+  "code": "sh.605128",
+  "target_date": "2025-05-22",
+  "documents": [
+    {
+      "title": "上海沿浦:上海沿浦金属制品股份有限公司2024年年度权益分派实施公告",
+      "available_date": "2025-05-16",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202505151673357775_1.pdf",
+      "article": "AN202505151673357775",
+      "pdf_sha256": "b694254396c69c1c1094328cd1d68b5d301c718f5f7eee7b2340eb597d7794fa",
+      "text_sha256": "11ccd3dc7b955b98c1f991bdb6131e692e7a7e26551078ba832e23ea8d5521e3"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=605128&begin_time=2025-04-07&end_time=2025-05-22"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "sh.603836",
+  "target_date": "2026-06-22",
+  "documents": [
+    {
+      "title": "海程邦达:2025年年度权益分派实施公告",
+      "available_date": "2026-06-13",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606121823514773_1.pdf",
+      "article": "AN202606121823514773",
+      "pdf_sha256": "0cc5d72d5e6246313238ae8cf650f040f546471f87c8e682557c87ad5a504de8",
+      "text_sha256": "f200ac47b22f277ae1ce3be061a8bb3b205d64f68cfc4d5657ac676e791cd244"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603836&begin_time=2026-05-08&end_time=2026-06-22"
+}

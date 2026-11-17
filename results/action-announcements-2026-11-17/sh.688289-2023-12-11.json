@@ -1,0 +1,16 @@
+{
+  "code": "sh.688289",
+  "target_date": "2023-12-11",
+  "documents": [
+    {
+      "title": "圣湘生物:圣湘生物科技股份有限公司2023年季度权益分派实施公告",
+      "available_date": "2023-12-05",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202312041613232394_1.pdf",
+      "article": "AN202312041613232394",
+      "pdf_sha256": "99bb9d26e9afaf7c0d111cfccc639fae67e66d026fb0903e6576ec8cac5caa78",
+      "text_sha256": "de0f5d6d0175d0552804ad6327908dd8cff6fc4c5824c2752a0e139a87453e64"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688289&begin_time=2023-10-27&end_time=2023-12-11"
+}

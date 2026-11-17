@@ -1,0 +1,16 @@
+{
+  "code": "sz.002346",
+  "target_date": "2026-07-07",
+  "documents": [
+    {
+      "title": "柘中股份:2025年度权益分派实施公告",
+      "available_date": "2026-06-30",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606291826550990_1.pdf",
+      "article": "AN202606291826550990",
+      "pdf_sha256": "bb0a0c042d1b6fdf6b591b1b22f44874188c94ef211316b7f3de5e09dcfdad1e",
+      "text_sha256": "54e65cc0a1d61b969c51503b036ee79f0674c2b066648b3ed1aa88bf4f5750c0"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002346&begin_time=2026-05-23&end_time=2026-07-07"
+}

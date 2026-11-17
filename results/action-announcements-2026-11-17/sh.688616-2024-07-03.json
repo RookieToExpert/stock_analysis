@@ -1,0 +1,16 @@
+{
+  "code": "sh.688616",
+  "target_date": "2024-07-03",
+  "documents": [
+    {
+      "title": "西力科技:杭州西力智能科技股份有限公司2023年年度权益分派实施公告",
+      "available_date": "2024-06-27",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406261636920624_1.pdf",
+      "article": "AN202406261636920624",
+      "pdf_sha256": "0f40e5eb5111bd961e145648919b49186b1b794786754f8b5f97d2b3583d0ceb",
+      "text_sha256": "1a868b1eba70c589751685684ba8231bff9a5bd627970a854da6ca3cfdf5e9b1"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688616&begin_time=2024-05-19&end_time=2024-07-03"
+}

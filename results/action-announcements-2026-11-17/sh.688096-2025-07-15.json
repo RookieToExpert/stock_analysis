@@ -1,0 +1,16 @@
+{
+  "code": "sh.688096",
+  "target_date": "2025-07-15",
+  "documents": [
+    {
+      "title": "京源环保:2024年年度权益分派实施公告",
+      "available_date": "2025-07-09",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507081705249048_1.pdf",
+      "article": "AN202507081705249048",
+      "pdf_sha256": "686bd14aa6e6c90549e2f3e128367bf751d29de5f579728905be855e89599303",
+      "text_sha256": "f97db7c0500a9df89220c91821f5dd259a23a3123d6c0940aff2d606f5a3cb57"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688096&begin_time=2025-05-31&end_time=2025-07-15"
+}

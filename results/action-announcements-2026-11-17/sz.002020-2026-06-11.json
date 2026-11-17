@@ -1,0 +1,16 @@
+{
+  "code": "sz.002020",
+  "target_date": "2026-06-11",
+  "documents": [
+    {
+      "title": "京新药业:2025年年度权益分派实施公告",
+      "available_date": "2026-06-04",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202606031823211446_1.pdf",
+      "article": "AN202606031823211446",
+      "pdf_sha256": "d9439de8142cfd7d4fcae6a115485d2fc7368740d2804ccf438c2a0d55258116",
+      "text_sha256": "3987bfdad94c305d8e41dff415ab58551fccf93e416b95f8243c4582e190ae8d"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002020&begin_time=2026-04-27&end_time=2026-06-11"
+}

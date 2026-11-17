@@ -1,0 +1,48 @@
+{
+  "code": "sh.603007",
+  "target_date": "2024-12-26",
+  "documents": [
+    {
+      "title": "*ST花王:申万宏源证券承销保荐有限责任公司关于花王生态工程股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+      "available_date": "2024-12-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202412241641418251_1.pdf",
+      "article": "AN202412241641418251",
+      "pdf_sha256": "634f9a34a3c8293560c05deb95c866005b5541f9ded07d34637499d879580dd9",
+      "text_sha256": "da53a9cd72249d678faf681019cab20ed8dc619161002beb319506bff3b883a1"
+    },
+    {
+      "title": "*ST花王:关于重整计划资本公积金转增股本除权事项的提示性公告",
+      "available_date": "2024-12-25",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202412241641418249_1.pdf",
+      "article": "AN202412241641418249",
+      "pdf_sha256": "2ae37e0984d061eb85b8d61feb655ca9388166ffa6c9ee2f9a9d8d6ad7858d4c",
+      "text_sha256": "fbe97b032e08cbc7152cd1e63aaf852485e90b92e97708519b9f7bc91bee01ad"
+    },
+    {
+      "title": "*ST花王:申万宏源证券承销保荐有限责任公司关于花王生态工程股份有限公司调整资本公积转增股本除权参考价格计算公式的专项意见",
+      "available_date": "2024-12-20",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202412191641363955_1.pdf",
+      "article": "AN202412191641363955",
+      "pdf_sha256": "fc599d025814b5e5fbe24421db8d55b848a8e3f95ae69fbd39a1100a8ab224d6",
+      "text_sha256": "ea3c1d5409dd2d65ecf43837e7c26a4ba18044a256ea28771719979ac8c1d4dc"
+    },
+    {
+      "title": "*ST花王:关于重整计划资本公积金转增股本实施的公告",
+      "available_date": "2024-12-20",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202412191641363956_1.pdf",
+      "article": "AN202412191641363956",
+      "pdf_sha256": "d71db0b45ec7b944e9987f23a24da40b56145133323eb3c1a744ae9d5bba9e8a",
+      "text_sha256": "c10ff7794386698a15577dc0295f7d9e2f24453596acdb5cf834b6ee8534697a"
+    },
+    {
+      "title": "*ST花王:申万宏源证券承销保荐有限责任公司关于重整投资人受让花王生态工程股份有限公司资本公积转增股份价格的专项意见",
+      "available_date": "2024-11-16",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202411151640922510_1.pdf",
+      "article": "AN202411151640922510",
+      "pdf_sha256": "e1f458177374e68e99b8ddeaf33e37f08a4f46d5d56e62c5da9bf46eac352be2",
+      "text_sha256": "ebb2c71ef2d4d1bd5e6523a737db556aad214db8181a5b8c83761f7bdb90a7ae"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603007&begin_time=2024-11-11&end_time=2024-12-26"
+}

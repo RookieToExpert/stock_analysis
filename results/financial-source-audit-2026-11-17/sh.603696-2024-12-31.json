@@ -1,0 +1,15 @@
+{
+  "code": "sh.603696",
+  "name": "安记食品",
+  "statDate": "2024-12-31",
+  "supplier_pubDate": "2025-04-22",
+  "consolidated_netProfit": "38333532.950000",
+  "source": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223193223.PDF",
+  "numeric_check": "matches",
+  "vintage_check": "original_report_numeric_match_not_all_fields_certified",
+  "dividend_audit": "pending",
+  "financing_footnotes": "pending",
+  "source_sha256": "2204c874b2952016c971c360d46ae7ab049031288b714559c1b955ef2c095a4f",
+  "text_sha256": "807a02219ce5ee8960e79a544c968f29497f8dd3b9b3a8a0133d3497614be9b0",
+  "text_length": 300624
+}

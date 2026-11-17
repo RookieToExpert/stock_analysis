@@ -1,0 +1,24 @@
+{
+  "code": "sh.688543",
+  "target_date": "2024-06-07",
+  "documents": [
+    {
+      "title": "国科军工:2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406061635729042_1.pdf",
+      "article": "AN202406061635729042",
+      "pdf_sha256": "a9b55a22052215917300f1b82d1c819b66d7f13107e6f7d8f4ce3a22022fa27e",
+      "text_sha256": "f74f90ed084e7e7d57de518f86236ed7362fcb6de53e7d12b74b67445824b28c"
+    },
+    {
+      "title": "国科军工:2023年年度权益分派实施公告",
+      "available_date": "2024-05-31",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405301634954961_1.pdf",
+      "article": "AN202405301634954961",
+      "pdf_sha256": "7a588a9c032d8a068036655dc10fcb5a9d0cdcef02a13244996b1609edb571b7",
+      "text_sha256": "6b89a98de984eddb0b1364dbf4cfa24b216d38b746f2a62da3ca5e2ec15b2db9"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688543&begin_time=2024-04-23&end_time=2024-06-07"
+}

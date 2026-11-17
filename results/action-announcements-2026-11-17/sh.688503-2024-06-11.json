@@ -1,0 +1,24 @@
+{
+  "code": "sh.688503",
+  "target_date": "2024-06-11",
+  "documents": [
+    {
+      "title": "聚和材料:2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-11",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406101635917010_1.pdf",
+      "article": "AN202406101635917010",
+      "pdf_sha256": "7c8512090940260eaa5047bce1eec2c9ec9cb9f6ee37a4fc5239a1c113a605ee",
+      "text_sha256": "3e773063d8969f52d81a72cec5c9403e9b82f7c3dd2d5e6942edfeae7d86572f"
+    },
+    {
+      "title": "聚和材料:2023年年度权益分派实施公告",
+      "available_date": "2024-06-03",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406021635199233_1.pdf",
+      "article": "AN202406021635199233",
+      "pdf_sha256": "50ec69c367394ee4d2059e1269ef23134dbbc9ea35beeeb018fcc139a5e7a0bf",
+      "text_sha256": "6637a5984b560e08dc06bd6dc7407c897c5ce00af492c0a7e29135aa1dbfa7bb"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688503&begin_time=2024-04-27&end_time=2024-06-11"
+}

@@ -1,0 +1,24 @@
+{
+  "code": "sh.688531",
+  "target_date": "2024-06-07",
+  "documents": [
+    {
+      "title": "日联科技:2023年年度权益分派实施结果暨股份上市公告",
+      "available_date": "2024-06-07",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406061635722843_1.pdf",
+      "article": "AN202406061635722843",
+      "pdf_sha256": "276710a4066ca3e22c317164715816a719586f7a793b8877bb5f0c8f823fb469",
+      "text_sha256": "c4baf5530c5343c2ee55581a6dbdd56398bb488e2783aa95bc8a0890f6a20fc3"
+    },
+    {
+      "title": "日联科技:2023年年度权益分派实施公告",
+      "available_date": "2024-05-31",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202405301634953601_1.pdf",
+      "article": "AN202405301634953601",
+      "pdf_sha256": "a10b2e76340edb013a75d7ae0585e70a259e0bbe58d2a35274b89c723fca35e1",
+      "text_sha256": "2fe982f66a3e8009df51ab1c14d0fa4bf546b7b589be9a681b007ee00136b589"
+    }
+  ],
+  "complete": true,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=688531&begin_time=2024-04-23&end_time=2024-06-07"
+}
