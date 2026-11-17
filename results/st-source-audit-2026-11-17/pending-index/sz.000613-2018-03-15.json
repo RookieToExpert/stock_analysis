@@ -1,0 +1,133 @@
+{
+  "code": "sz.000613",
+  "effective_date": "2018-03-15",
+  "evaluation_dates": [
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01"
+  ],
+  "outDate": "2022-06-29",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201803131103172615",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "38240136421974",
+          "market_code": "0",
+          "short_name": "东海A退",
+          "stock_code": "000613"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-03-13 18:02:11:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2018-03-14 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-03-14 12:00:00",
+      "source_type": "331",
+      "title": "*ST东海A:关于撤销公司股票交易退市风险警示的公告",
+      "title_ch": "*ST东海A:关于撤销公司股票交易退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201803071100485922",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "38240136421974",
+          "market_code": "0",
+          "short_name": "东海A退",
+          "stock_code": "000613"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-03-07 19:38:09:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2018-03-08 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-03-08 12:00:00",
+      "source_type": "331",
+      "title": "*ST东海A:关于申请撤销股票交易退市风险警示的进展公告",
+      "title_ch": "*ST东海A:关于申请撤销股票交易退市风险警示的进展公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201802281095319328",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "38240136421974",
+          "market_code": "0",
+          "short_name": "东海A退",
+          "stock_code": "000613"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-02-28 07:59:19:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2018-02-28 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-02-28 12:00:00",
+      "source_type": "331",
+      "title": "*ST东海A:关于申请撤销股票交易退市风险警示的进展公告",
+      "title_ch": "*ST东海A:关于申请撤销股票交易退市风险警示的进展公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201802131091447544",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "38240136421974",
+          "market_code": "0",
+          "short_name": "东海A退",
+          "stock_code": "000613"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-02-13 19:47:11:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2018-02-14 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-02-14 12:00:00",
+      "source_type": "331",
+      "title": "*ST东海A:关于申请撤销股票交易退市风险警示的进展公告",
+      "title_ch": "*ST东海A:关于申请撤销股票交易退市风险警示的进展公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000613&begin_time=2018-02-13&end_time=2018-03-15"
+}

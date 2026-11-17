@@ -1,0 +1,70 @@
+{
+  "code": "sh.600165",
+  "effective_date": "2026-08-26",
+  "evaluation_dates": [
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202608241828367801",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "32542214075157",
+          "market_code": "1",
+          "short_name": "宁科生物",
+          "stock_code": "600165"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        }
+      ],
+      "display_time": "2026-08-24 18:08:18:324",
+      "eiTime": "2026-08-24 18:09:25:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-08-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-08-25 12:00:00",
+      "source_type": "31",
+      "title": "ST宁科:ST宁科关于撤销其他风险警示暨临时停牌的公告",
+      "title_ch": "ST宁科:ST宁科关于撤销其他风险警示暨临时停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202608141827992670",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "32542214075157",
+          "market_code": "1",
+          "short_name": "宁科生物",
+          "stock_code": "600165"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "2026-08-14 19:19:59:287",
+      "eiTime": "2026-08-14 19:21:38:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-08-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-08-15 12:00:00",
+      "source_type": "31",
+      "title": "ST宁科:ST宁科关于申请撤销公司股票其他风险警示的公告",
+      "title_ch": "ST宁科:ST宁科关于申请撤销公司股票其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600165&begin_time=2026-07-27&end_time=2026-08-26"
+}

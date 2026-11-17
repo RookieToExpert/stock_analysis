@@ -1,0 +1,126 @@
+{
+  "code": "sz.002022",
+  "effective_date": "2023-04-04",
+  "evaluation_dates": [
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202303311584764866",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "12319091799978",
+          "market_code": "0",
+          "short_name": "科华生物",
+          "stock_code": "002022"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "003014",
+          "column_name": "其它"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-03-31 18:47:41:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-04-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-04-01 12:00:00",
+      "source_type": "331",
+      "title": "*ST科华:关于公司股票交易撤销退市风险警示及其他风险警示暨公司股票及其衍生品种停牌的公告",
+      "title_ch": "*ST科华:关于公司股票交易撤销退市风险警示及其他风险警示暨公司股票及其衍生品种停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202303221584476801",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "12319091799978",
+          "market_code": "0",
+          "short_name": "科华生物",
+          "stock_code": "002022"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "003014",
+          "column_name": "其它"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-03-22 17:21:32:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-03-23 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-03-23 12:00:00",
+      "source_type": "331",
+      "title": "*ST科华:关于申请撤销公司股票交易退市风险警示及其他风险警示的公告",
+      "title_ch": "*ST科华:关于申请撤销公司股票交易退市风险警示及其他风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202303131584220817",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "12319091799978",
+          "market_code": "0",
+          "short_name": "科华生物",
+          "stock_code": "002022"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        },
+        {
+          "column_code": "003014",
+          "column_name": "其它"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-03-13 16:30:57:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-03-14 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-03-14 12:00:00",
+      "source_type": "331",
+      "title": "*ST科华:关于公司股票可能被终止上市的第四次风险提示性公告",
+      "title_ch": "*ST科华:关于公司股票可能被终止上市的第四次风险提示性公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002022&begin_time=2023-03-05&end_time=2023-04-04"
+}

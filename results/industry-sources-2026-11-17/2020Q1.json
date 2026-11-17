@@ -1,0 +1,17 @@
+{
+  "period": "2020Q1",
+  "available_date": "2020-04-14",
+  "page": "https://www.csrc.gov.cn/csrc/c100103/c1451995/content.shtml",
+  "index_url": "https://www.csrc.gov.cn/csrc/c100103/common_list.shtml",
+  "taxonomy": "CSRC2012",
+  "complete": true,
+  "documents": [
+    {
+      "source": "https://www.csrc.gov.cn/csrc/c100103/c1451995/1451995/files/1616066675411_69786.pdf",
+      "key": "2020Q1-0",
+      "pdf_sha256": "88bc5dc855ec8282a9275ec92a30577d598f35db44fd36e276c7687c7636d119",
+      "text_sha256": "42b2059fe76dff953fbab57385d75e52a0735f0a2ec22de4b118c30da1c26012"
+    }
+  ],
+  "page_sha256": "34b7b1d64a1f3b728a4e1c3c71ec6e03f59306835b3434b02c35ba3df52053db"
+}

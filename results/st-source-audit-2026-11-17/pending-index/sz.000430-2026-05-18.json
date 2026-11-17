@@ -1,0 +1,140 @@
+{
+  "code": "sz.000430",
+  "effective_date": "2026-05-18",
+  "evaluation_dates": [
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202605141822320218",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10167983616486",
+          "market_code": "0",
+          "short_name": "张家界",
+          "stock_code": "000430"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "2026-05-14 19:01:08:386",
+      "eiTime": "2026-05-14 19:02:05:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-05-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-05-15 12:00:00",
+      "source_type": "331",
+      "title": "ST张家界:中审众环关于张家界旅游集团股份有限公司申请撤销公司股票交易其他风险警示的专项核查报告",
+      "title_ch": "ST张家界:中审众环关于张家界旅游集团股份有限公司申请撤销公司股票交易其他风险警示的专项核查报告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202605141822320204",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10167983616486",
+          "market_code": "0",
+          "short_name": "张家界",
+          "stock_code": "000430"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "2026-05-14 19:01:08:454",
+      "eiTime": "2026-05-14 19:02:05:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-05-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-05-15 12:00:00",
+      "source_type": "331",
+      "title": "ST张家界:张家界旅游集团股份有限公司关于撤销其他风险警示暨停复牌公告",
+      "title_ch": "ST张家界:张家界旅游集团股份有限公司关于撤销其他风险警示暨停复牌公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202605141822320217",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10167983616486",
+          "market_code": "0",
+          "short_name": "张家界",
+          "stock_code": "000430"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "2026-05-14 19:01:08:385",
+      "eiTime": "2026-05-14 19:02:05:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-05-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-05-15 12:00:00",
+      "source_type": "331",
+      "title": "ST张家界:湖南人和人(张家界)律师事务所关于张家界旅游集团股份有限公司申请撤销其他风险警示的法律意见书",
+      "title_ch": "ST张家界:湖南人和人(张家界)律师事务所关于张家界旅游集团股份有限公司申请撤销其他风险警示的法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202605061821986470",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10167983616486",
+          "market_code": "0",
+          "short_name": "张家界",
+          "stock_code": "000430"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "2026-05-06 15:51:17:244",
+      "eiTime": "2026-05-06 15:52:18:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-05-07 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-05-07 12:00:00",
+      "source_type": "331",
+      "title": "ST张家界:张家界旅游集团股份有限公司关于申请撤销其他风险警示的进展公告",
+      "title_ch": "ST张家界:张家界旅游集团股份有限公司关于申请撤销其他风险警示的进展公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000430&begin_time=2026-04-18&end_time=2026-05-18"
+}

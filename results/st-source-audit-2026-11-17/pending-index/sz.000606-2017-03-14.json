@@ -1,0 +1,77 @@
+{
+  "code": "sz.000606",
+  "effective_date": "2017-03-14",
+  "evaluation_dates": [
+    "2017-05-02",
+    "2017-09-01",
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01"
+  ],
+  "outDate": "2023-07-06",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201703120403923884",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "12845274037962",
+          "market_code": "0",
+          "short_name": "顺利退",
+          "stock_code": "000606"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-03-12 17:06:58:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2017-03-13 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-03-13 12:00:00",
+      "source_type": "331",
+      "title": "*ST易桥:关于撤销股票交易退市风险警示的公告",
+      "title_ch": "*ST易桥:关于撤销股票交易退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201702270367982880",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "12845274037962",
+          "market_code": "0",
+          "short_name": "顺利退",
+          "stock_code": "000606"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-02-27 20:02:39:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2017-02-28 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-02-28 12:00:00",
+      "source_type": "331",
+      "title": "*ST易桥:关于申请撤销股票交易退市风险警示的提示性公告",
+      "title_ch": "*ST易桥:关于申请撤销股票交易退市风险警示的提示性公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000606&begin_time=2017-02-12&end_time=2017-03-14"
+}

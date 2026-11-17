@@ -1,0 +1,58 @@
+{
+  "code": "sh.603286",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202503281648682369",
+      "available_date": "2025-03-29",
+      "title": "日盈电子:2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202503281648682369_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202404261631388009",
+      "available_date": "2024-04-27",
+      "title": "日盈电子:2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404261631388009_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304271585943067",
+      "available_date": "2023-04-28",
+      "title": "日盈电子:2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304271585943067_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202204271561941608",
+      "available_date": "2022-04-28",
+      "title": "603286:2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202204271561941608_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202105261494072353",
+      "available_date": "2021-05-27",
+      "title": "603286:2020年年度报告(更正)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202105261494072353_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202104281488381013",
+      "available_date": "2021-04-29",
+      "title": "603286:2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104281488381013_1.pdf"
+    }
+  ],
+  "total_hits": 706,
+  "pages": 8,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=8&ann_type=A&client_source=web&stock_list=603286&begin_time=2021-01-01&end_time=2025-12-31"
+}

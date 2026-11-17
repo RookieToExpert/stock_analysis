@@ -1,0 +1,58 @@
+[
+  {
+    "period": "2026H1",
+    "available_date": "2026-09-30",
+    "title": "2026年上半年上市公司行业分类结果",
+    "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/2e1b516684544cc7be7eab6f93f7dddc.js",
+    "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+    "taxonomy": "CAPCO2023"
+  },
+  {
+    "period": "2025H2",
+    "available_date": "2026-04-03",
+    "title": "2025年下半年上市公司行业分类结果",
+    "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/d9221cd5eb1448e5956f0e9d84ecba89.js",
+    "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+    "taxonomy": "CAPCO2023"
+  },
+  {
+    "period": "2025H1",
+    "available_date": "2025-09-30",
+    "title": "2025年上半年上市公司行业分类结果",
+    "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/29adc9e66d844d6fba0001bb2cdc529c.js",
+    "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+    "taxonomy": "CAPCO2023"
+  },
+  {
+    "period": "2024H2",
+    "available_date": "2025-04-18",
+    "title": "2024年下半年上市公司行业分类结果",
+    "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/a34890d258e6473b8b61593ffeb8a9cf.js",
+    "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+    "taxonomy": "CAPCO2023"
+  },
+  {
+    "period": "2024H1",
+    "available_date": "2024-09-30",
+    "title": "2024年上半年上市公司行业分类结果",
+    "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/7ec325221eb64b409772b5527c7f16a5.js",
+    "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+    "taxonomy": "CAPCO2023"
+  },
+  {
+    "period": "2023H2",
+    "available_date": "2024-04-03",
+    "title": "2023年下半年上市公司行业分类结果",
+    "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/0ca8986fa29344898e01e24b27948051.js",
+    "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+    "taxonomy": "CAPCO2023"
+  },
+  {
+    "period": "2023H1",
+    "available_date": "2024-02-08",
+    "title": "2023年上半年上市公司行业分类结果",
+    "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/46318a4cc28644fc9504c761540dc241.js",
+    "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+    "taxonomy": "CAPCO2023"
+  }
+]

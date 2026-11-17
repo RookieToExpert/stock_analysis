@@ -1,0 +1,89 @@
+{
+  "code": "sh.600217",
+  "effective_date": "2016-03-09",
+  "evaluation_dates": [
+    "2017-05-02",
+    "2017-09-01",
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201603070013798181",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "46042950388085",
+          "market_code": "1",
+          "short_name": "中再资环",
+          "stock_code": "600217"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2016-03-07 19:47:56:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2016-03-08 00:00:00",
+      "product_code": "",
+      "sort_date": "2016-03-08 12:00:00",
+      "source_type": "31",
+      "title": "600217:*ST秦岭关于公司股票撤销退市风险警示的公告",
+      "title_ch": "600217:*ST秦岭关于公司股票撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201602290013651793",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "46042950388085",
+          "market_code": "1",
+          "short_name": "中再资环",
+          "stock_code": "600217"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2016-02-29 20:16:58:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2016-03-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2016-03-01 12:00:00",
+      "source_type": "31",
+      "title": "600217:*ST秦岭关于申请撤销公司股票退市风险警示的提示性公告",
+      "title_ch": "600217:*ST秦岭关于申请撤销公司股票退市风险警示的提示性公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600217&begin_time=2016-02-08&end_time=2016-03-09"
+}

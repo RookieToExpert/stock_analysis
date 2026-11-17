@@ -1,0 +1,14 @@
+[
+  {
+    "code": "600608",
+    "statement_date": "2024-12-31",
+    "available_date": "2025-04-29",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223383763.PDF",
+    "source_text_path": "results/financial-source-audit-2026-11-17/sh.600608-2024-12-31.txt.gz",
+    "source_text_sha256": "a7bebe8755cc0d2e89af9a449c5eae8c3087118447ac878712594ea24ef2da6f",
+    "cash_upper_bound": 27191426.46,
+    "debt_lower_bound": 60522500.0,
+    "basis": "negative_net_cash_bound",
+    "note": "合并附注1货币资金总额27191426.46元，附注2无交易性金融资产；附注44其他流动负债中的昆明市交通投资集团借款60522500元已单独超过全部货币资金。无需假定其他债务为零即可否定净现金。未认证完整债务。"
+  }
+]

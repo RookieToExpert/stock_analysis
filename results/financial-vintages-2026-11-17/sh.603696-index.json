@@ -1,0 +1,37 @@
+{
+  "code": "sh.603696",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2022,
+      "article": "AN202304201585635265",
+      "available_date": "2023-04-21",
+      "title": "安记食品:安记食品2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304201585635265_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202204201560500098",
+      "available_date": "2022-04-21",
+      "title": "603696:安记食品2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202204201560500098_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202104201486645375",
+      "available_date": "2021-04-21",
+      "title": "603696:安记食品2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104201486645375_1.pdf"
+    }
+  ],
+  "total_hits": 399,
+  "pages": 4,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=4&ann_type=A&client_source=web&stock_list=603696&begin_time=2021-01-01&end_time=2025-12-31"
+}

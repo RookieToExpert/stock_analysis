@@ -1,0 +1,92 @@
+{
+  "code": "sz.002141",
+  "effective_date": "2025-06-30",
+  "evaluation_dates": [
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202506261698118951",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "11728984736822",
+          "market_code": "0",
+          "short_name": "贤丰控股",
+          "stock_code": "002141"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2025-06-26 21:37:05:553",
+      "eiTime": "2025-06-26 21:38:12:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-06-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-06-27 12:00:00",
+      "source_type": "331",
+      "title": "*ST贤丰:关于撤销退市风险警示及其他风险警示暨停复牌的公告",
+      "title_ch": "*ST贤丰:关于撤销退市风险警示及其他风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202506061685914247",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "11728984736822",
+          "market_code": "0",
+          "short_name": "贤丰控股",
+          "stock_code": "002141"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2025-06-06 17:04:08:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-06-07 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-06-07 12:00:00",
+      "source_type": "331",
+      "title": "*ST贤丰:关于申请撤销公司股票退市风险警示和其他风险警示的进展公告",
+      "title_ch": "*ST贤丰:关于申请撤销公司股票退市风险警示和其他风险警示的进展公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002141&begin_time=2025-05-31&end_time=2025-06-30"
+}

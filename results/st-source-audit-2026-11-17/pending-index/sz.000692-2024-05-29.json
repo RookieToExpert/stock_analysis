@@ -1,0 +1,82 @@
+{
+  "code": "sz.000692",
+  "effective_date": "2024-05-29",
+  "evaluation_dates": [
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202405271634726401",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "46686238198394",
+          "market_code": "0",
+          "short_name": "惠天热电",
+          "stock_code": "000692"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-05-27 21:49:02:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-05-28 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-05-28 12:00:00",
+      "source_type": "331",
+      "title": "*ST惠天:关于公司股票交易撤销退市风险警示暨停复牌的公告",
+      "title_ch": "*ST惠天:关于公司股票交易撤销退市风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202404291631682561",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "46686238198394",
+          "market_code": "0",
+          "short_name": "惠天热电",
+          "stock_code": "000692"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-04-29 23:52:56:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-04-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-04-30 12:00:00",
+      "source_type": "331",
+      "title": "*ST惠天:关于申请撤销对公司股票交易实施退市风险警示的公告",
+      "title_ch": "*ST惠天:关于申请撤销对公司股票交易实施退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000692&begin_time=2024-04-29&end_time=2024-05-29"
+}

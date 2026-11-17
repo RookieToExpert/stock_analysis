@@ -1,0 +1,115 @@
+{
+  "code": "sz.000504",
+  "effective_date": "2026-06-12",
+  "evaluation_dates": [
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202606101823432577",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "13782281698042",
+          "market_code": "0",
+          "short_name": "南华生物",
+          "stock_code": "000504"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "2026-06-10 20:38:09:504",
+      "eiTime": "2026-06-10 20:42:25:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-06-11 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-06-11 12:00:00",
+      "source_type": "331",
+      "title": "*ST生物:关于南华生物医药股份有限公司申请撤销退市风险警示的法律意见书",
+      "title_ch": "*ST生物:关于南华生物医药股份有限公司申请撤销退市风险警示的法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202606101823432578",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "13782281698042",
+          "market_code": "0",
+          "short_name": "南华生物",
+          "stock_code": "000504"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2026-06-10 20:38:09:507",
+      "eiTime": "2026-06-10 20:39:11:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-06-11 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-06-11 12:00:00",
+      "source_type": "331",
+      "title": "*ST生物:南华生物关于公司股票交易撤销退市风险警示暨停复牌的公告",
+      "title_ch": "*ST生物:南华生物关于公司股票交易撤销退市风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202605211822642376",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "13782281698042",
+          "market_code": "0",
+          "short_name": "南华生物",
+          "stock_code": "000504"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2026-05-21 15:47:14:371",
+      "eiTime": "2026-05-21 15:48:19:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-05-22 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-05-22 12:00:00",
+      "source_type": "331",
+      "title": "*ST生物:南华生物关于申请撤销退市风险警示的进展公告",
+      "title_ch": "*ST生物:南华生物关于申请撤销退市风险警示的进展公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000504&begin_time=2026-05-13&end_time=2026-06-12"
+}

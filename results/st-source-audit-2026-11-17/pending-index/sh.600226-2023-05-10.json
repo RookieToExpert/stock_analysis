@@ -1,0 +1,51 @@
+{
+  "code": "sh.600226",
+  "effective_date": "2023-05-10",
+  "evaluation_dates": [
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202305081586366971",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "13233130955381",
+          "market_code": "1",
+          "short_name": "亨通股份",
+          "stock_code": "600226"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-05-08 18:30:47:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-05-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-05-09 12:00:00",
+      "source_type": "31",
+      "title": "ST瀚叶:浙江瀚叶股份有限公司关于撤销其他风险警示暨停牌的公告",
+      "title_ch": "ST瀚叶:浙江瀚叶股份有限公司关于撤销其他风险警示暨停牌的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600226&begin_time=2023-04-10&end_time=2023-05-10"
+}

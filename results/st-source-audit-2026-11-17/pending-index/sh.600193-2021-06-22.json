@@ -1,0 +1,80 @@
+{
+  "code": "sh.600193",
+  "effective_date": "2021-06-22",
+  "evaluation_dates": [
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02"
+  ],
+  "outDate": "2026-07-06",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202106201498902190",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "38035606941851",
+          "market_code": "1",
+          "short_name": "退市创兴",
+          "stock_code": "600193"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-06-20 15:36:05:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-06-21 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-06-21 12:00:00",
+      "source_type": "31",
+      "title": "600193:创兴资源关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_ch": "600193:创兴资源关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202106081496765733",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "38035606941851",
+          "market_code": "1",
+          "short_name": "退市创兴",
+          "stock_code": "600193"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-06-08 18:33:46:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-06-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-06-09 12:00:00",
+      "source_type": "31",
+      "title": "600193:上海创兴资源开发股份有限公司关于申请撤销公司股票其他风险警示的公告",
+      "title_ch": "600193:上海创兴资源开发股份有限公司关于申请撤销公司股票其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600193&begin_time=2021-05-23&end_time=2021-06-22"
+}

@@ -1,0 +1,104 @@
+{
+  "code": "sz.002192",
+  "effective_date": "2016-02-05",
+  "evaluation_dates": [
+    "2017-05-02",
+    "2017-09-01",
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201602030013383330",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "15393146186538",
+          "market_code": "0",
+          "short_name": "融捷股份",
+          "stock_code": "002192"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2016-02-03 18:58:39:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2016-02-04 00:00:00",
+      "product_code": "",
+      "sort_date": "2016-02-04 12:00:00",
+      "source_type": "332",
+      "title": "*ST融捷:关于公司股票交易撤销退市风险警示的公告",
+      "title_ch": "*ST融捷:关于公司股票交易撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201601210013225207",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "15393146186538",
+          "market_code": "0",
+          "short_name": "融捷股份",
+          "stock_code": "002192"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2016-01-21 19:18:50:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2016-01-22 00:00:00",
+      "product_code": "",
+      "sort_date": "2016-01-22 12:00:00",
+      "source_type": "332",
+      "title": "*ST融捷:新时代证券股份有限公司关于公司申请对公司股票交易撤销退市风险警示的核查意见",
+      "title_ch": "*ST融捷:新时代证券股份有限公司关于公司申请对公司股票交易撤销退市风险警示的核查意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201601210013225203",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "15393146186538",
+          "market_code": "0",
+          "short_name": "融捷股份",
+          "stock_code": "002192"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2016-01-21 19:18:50:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2016-01-22 00:00:00",
+      "product_code": "",
+      "sort_date": "2016-01-22 12:00:00",
+      "source_type": "332",
+      "title": "*ST融捷:关于申请对公司股票交易撤销退市风险警示的公告",
+      "title_ch": "*ST融捷:关于申请对公司股票交易撤销退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002192&begin_time=2016-01-06&end_time=2016-02-05"
+}

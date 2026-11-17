@@ -1,0 +1,109 @@
+{
+  "code": "sz.002259",
+  "effective_date": "2025-05-20",
+  "evaluation_dates": [
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202505181674886254",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "43643790822230",
+          "market_code": "0",
+          "short_name": "升达林业",
+          "stock_code": "002259"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2025-05-18 15:32:16:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-05-19 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-05-19 12:00:00",
+      "source_type": "331",
+      "title": "ST升达:关于撤销其他风险警示暨停复牌的公告",
+      "title_ch": "ST升达:关于撤销其他风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202504261662468132",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "43643790822230",
+          "market_code": "0",
+          "short_name": "升达林业",
+          "stock_code": "002259"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2025-04-26 02:27:00:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-04-26 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-04-26 12:00:00",
+      "source_type": "331",
+      "title": "ST升达:北京市金杜律师事务所关于四川升达林业产业股份有限公司申请撤销公司其他风险警示的法律意见书",
+      "title_ch": "ST升达:北京市金杜律师事务所关于四川升达林业产业股份有限公司申请撤销公司其他风险警示的法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202504261662468587",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "43643790822230",
+          "market_code": "0",
+          "short_name": "升达林业",
+          "stock_code": "002259"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2025-04-26 02:27:00:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-04-26 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-04-26 12:00:00",
+      "source_type": "331",
+      "title": "ST升达:关于申请撤销其他风险警示的公告",
+      "title_ch": "ST升达:关于申请撤销其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002259&begin_time=2025-04-20&end_time=2025-05-20"
+}

@@ -1,0 +1,51 @@
+{
+  "code": "sh.600608",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202504281663997639",
+      "available_date": "2025-04-29",
+      "title": "ST沪科:ST沪科2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202504281663997639_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202404291631616296",
+      "available_date": "2024-04-30",
+      "title": "ST沪科:ST沪科2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404291631616296_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304241585766289",
+      "available_date": "2023-04-25",
+      "title": "ST沪科:ST沪科2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304241585766289_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202204251561489180",
+      "available_date": "2022-04-26",
+      "title": "600608:ST沪科2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202204251561489180_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202104261487898992",
+      "available_date": "2021-04-27",
+      "title": "600608:ST沪科2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104261487898992_1.pdf"
+    }
+  ],
+  "total_hits": 467,
+  "pages": 5,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=5&ann_type=A&client_source=web&stock_list=600608&begin_time=2021-01-01&end_time=2025-12-31"
+}

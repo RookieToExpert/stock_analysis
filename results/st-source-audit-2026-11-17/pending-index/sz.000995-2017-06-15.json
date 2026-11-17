@@ -1,0 +1,42 @@
+{
+  "code": "sz.000995",
+  "effective_date": "2017-06-15",
+  "evaluation_dates": [
+    "2017-09-01",
+    "2018-05-02"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201706130644437113",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-06-13 16:48:57:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-06-14 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-06-14 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:关于撤销公司股票交易退市风险警示的公告",
+      "title_ch": "*ST皇台:关于撤销公司股票交易退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000995&begin_time=2017-05-16&end_time=2017-06-15"
+}

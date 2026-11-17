@@ -1,0 +1,51 @@
+{
+  "code": "sh.603687",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202504211660083262",
+      "available_date": "2025-04-22",
+      "title": "大胜达:浙江大胜达包装股份有限公司2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202504211660083262_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202404281631527565",
+      "available_date": "2024-04-29",
+      "title": "大胜达:浙江大胜达包装股份有限公司2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404281631527565_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304281586089154",
+      "available_date": "2023-04-29",
+      "title": "大胜达:浙江大胜达包装股份有限公司2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304281586089154_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202204281562213613",
+      "available_date": "2022-04-29",
+      "title": "603687:浙江大胜达包装股份有限公司2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202204281562213613_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202104271488176834",
+      "available_date": "2021-04-28",
+      "title": "603687:浙江大胜达包装股份有限公司2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104271488176834_1.pdf"
+    }
+  ],
+  "total_hits": 786,
+  "pages": 8,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=8&ann_type=A&client_source=web&stock_list=603687&begin_time=2021-01-01&end_time=2025-12-31"
+}

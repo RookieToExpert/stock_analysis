@@ -1,0 +1,82 @@
+{
+  "code": "sh.600321",
+  "effective_date": "2020-04-21",
+  "evaluation_dates": [
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06"
+  ],
+  "outDate": "2024-06-27",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202004191378217278",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "14532547162571",
+          "market_code": "1",
+          "short_name": "正源股份",
+          "stock_code": "600321"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-04-19 14:18:11:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2020-04-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-04-20 12:00:00",
+      "source_type": "31",
+      "title": "600321:ST正源关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_ch": "600321:ST正源关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202004101377884774",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "14532547162571",
+          "market_code": "1",
+          "short_name": "正源股份",
+          "stock_code": "600321"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-04-10 20:04:20:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2020-04-11 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-04-11 12:00:00",
+      "source_type": "31",
+      "title": "600321:ST正源关于申请公司股票撤销其他风险警示的公告",
+      "title_ch": "600321:ST正源关于申请公司股票撤销其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600321&begin_time=2020-03-22&end_time=2020-04-21"
+}

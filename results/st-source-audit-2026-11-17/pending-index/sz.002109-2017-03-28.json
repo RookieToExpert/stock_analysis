@@ -1,0 +1,116 @@
+{
+  "code": "sz.002109",
+  "effective_date": "2017-03-28",
+  "evaluation_dates": [
+    "2017-05-02",
+    "2017-09-01",
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201703260440961607",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "30769162033974",
+          "market_code": "0",
+          "short_name": "ST兴化",
+          "stock_code": "002109"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-03-26 17:08:14:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-03-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-03-27 12:00:00",
+      "source_type": "332",
+      "title": "*ST兴化:关于对公司股票交易撤销退市风险警示的公告",
+      "title_ch": "*ST兴化:关于对公司股票交易撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201703120403923977",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "30769162033974",
+          "market_code": "0",
+          "short_name": "ST兴化",
+          "stock_code": "002109"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-03-12 17:07:53:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-03-13 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-03-13 12:00:00",
+      "source_type": "332",
+      "title": "*ST兴化:关于申请对公司股票交易撤销退市风险警示的公告",
+      "title_ch": "*ST兴化:关于申请对公司股票交易撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201703120403923937",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "30769162033974",
+          "market_code": "0",
+          "short_name": "ST兴化",
+          "stock_code": "002109"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-03-12 17:07:53:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-03-13 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-03-13 12:00:00",
+      "source_type": "332",
+      "title": "*ST兴化:国都证券股份有限公司关于公司申请撤销公司股票退市风险警示的核查意见",
+      "title_ch": "*ST兴化:国都证券股份有限公司关于公司申请撤销公司股票退市风险警示的核查意见",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002109&begin_time=2017-02-26&end_time=2017-03-28"
+}

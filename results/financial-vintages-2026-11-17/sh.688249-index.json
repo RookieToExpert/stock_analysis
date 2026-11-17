@@ -1,0 +1,30 @@
+{
+  "code": "sh.688249",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202504201659431434",
+      "available_date": "2025-04-21",
+      "title": "晶合集成:晶合集成2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202504201659431434_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202404141630208898",
+      "available_date": "2024-04-15",
+      "title": "晶合集成:晶合集成2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404141630208898_1.pdf"
+    }
+  ],
+  "total_hits": 481,
+  "pages": 5,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=5&ann_type=A&client_source=web&stock_list=688249&begin_time=2021-01-01&end_time=2025-12-31"
+}

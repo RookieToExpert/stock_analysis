@@ -1,0 +1,150 @@
+{
+  "code": "sh.600182",
+  "effective_date": "2023-05-17",
+  "evaluation_dates": [
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202305151586642707",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "35121693271877",
+          "market_code": "1",
+          "short_name": "S佳通",
+          "stock_code": "600182"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-05-15 17:38:45:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-05-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-05-16 12:00:00",
+      "source_type": "31",
+      "title": "S*ST佳通:佳通轮胎股份有限公司关于公司股票撤销退市风险警示及其他风险警示暨停牌的公告",
+      "title_ch": "S*ST佳通:佳通轮胎股份有限公司关于公司股票撤销退市风险警示及其他风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202304281586088192",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "35121693271877",
+          "market_code": "1",
+          "short_name": "S佳通",
+          "stock_code": "600182"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-04-28 20:46:49:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-04-29 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-04-29 12:00:00",
+      "source_type": "31",
+      "title": "S*ST佳通:佳通轮胎股份有限公司关于申请撤销公司股票退市风险警示及其他风险警示的公告",
+      "title_ch": "S*ST佳通:佳通轮胎股份有限公司关于申请撤销公司股票退市风险警示及其他风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202304281586088178",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "35121693271877",
+          "market_code": "1",
+          "short_name": "S佳通",
+          "stock_code": "600182"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001003001001003",
+          "column_name": "专项说明/独立意见"
+        },
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-04-28 20:46:37:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-04-29 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-04-29 12:00:00",
+      "source_type": "31",
+      "title": "S*ST佳通:佳通轮胎股份有限公司独立董事关于申请撤销公司股票退市风险警示及其他风险警示的专项意见",
+      "title_ch": "S*ST佳通:佳通轮胎股份有限公司独立董事关于申请撤销公司股票退市风险警示及其他风险警示的专项意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202304251585801981",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "35121693271877",
+          "market_code": "1",
+          "short_name": "S佳通",
+          "stock_code": "600182"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-04-25 16:43:14:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-04-26 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-04-26 12:00:00",
+      "source_type": "31",
+      "title": "S*ST佳通:佳通轮胎股份有限公司关于公司股票可能被终止上市的第七次风险提示公告",
+      "title_ch": "S*ST佳通:佳通轮胎股份有限公司关于公司股票可能被终止上市的第七次风险提示公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600182&begin_time=2023-04-17&end_time=2023-05-17"
+}

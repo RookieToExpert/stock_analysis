@@ -1,0 +1,85 @@
+{
+  "code": "sh.600150",
+  "effective_date": "2019-03-29",
+  "evaluation_dates": [
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201903271310327380",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "43302177340683",
+          "market_code": "1",
+          "short_name": "中国船舶",
+          "stock_code": "600150"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-03-27 21:22:05:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2019-03-28 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-03-28 12:00:00",
+      "source_type": "31",
+      "title": "600150:*ST船舶关于公司股票撤销退市风险警示的公告",
+      "title_ch": "600150:*ST船舶关于公司股票撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201903191307310080",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "43302177340683",
+          "market_code": "1",
+          "short_name": "中国船舶",
+          "stock_code": "600150"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-03-19 19:19:43:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2019-03-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-03-20 12:00:00",
+      "source_type": "31",
+      "title": "600150:*ST船舶关于申请撤销公司股票退市风险警示的公告",
+      "title_ch": "600150:*ST船舶关于申请撤销公司股票退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600150&begin_time=2019-02-27&end_time=2019-03-29"
+}

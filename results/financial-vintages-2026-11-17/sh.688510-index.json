@@ -1,0 +1,65 @@
+{
+  "code": "sh.688510",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202503271648248215",
+      "available_date": "2025-03-28",
+      "title": "航亚科技:无锡航亚科技股份有限公司2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202503271648248215_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202406271636961511",
+      "available_date": "2024-06-28",
+      "title": "航亚科技:无锡航亚科技股份有限公司2023年年度报告(修订版)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202406271636961511_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202403271628323224",
+      "available_date": "2024-03-28",
+      "title": "航亚科技:无锡航亚科技股份有限公司2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202403271628323224_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304251585804842",
+      "available_date": "2023-04-26",
+      "title": "航亚科技:无锡航亚科技股份有限公司2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304251585804842_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202205271568242089",
+      "available_date": "2022-05-28",
+      "title": "688510:无锡航亚科技股份有限公司2021年年度报告(修订版)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202205271568242089_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202204261561747886",
+      "available_date": "2022-04-27",
+      "title": "688510:无锡航亚科技股份有限公司2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202204261561747886_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202104221487093166",
+      "available_date": "2021-04-23",
+      "title": "688510:无锡航亚科技股份有限公司2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104221487093166_1.pdf"
+    }
+  ],
+  "total_hits": 529,
+  "pages": 6,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=6&ann_type=A&client_source=web&stock_list=688510&begin_time=2021-01-01&end_time=2025-12-31"
+}

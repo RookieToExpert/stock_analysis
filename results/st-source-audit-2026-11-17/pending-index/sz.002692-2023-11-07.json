@@ -1,0 +1,112 @@
+{
+  "code": "sz.002692",
+  "effective_date": "2023-11-07",
+  "evaluation_dates": [
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202311051609023072",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "11661462172634",
+          "market_code": "0",
+          "short_name": "远程股份",
+          "stock_code": "002692"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-11-05 15:32:40:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-11-06 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-11-06 12:00:00",
+      "source_type": "331",
+      "title": "ST远程:关于撤销其他风险警示暨停复牌的公告",
+      "title_ch": "ST远程:关于撤销其他风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202310311607042838",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "11661462172634",
+          "market_code": "0",
+          "short_name": "远程股份",
+          "stock_code": "002692"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-10-31 16:50:19:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-11-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-11-01 12:00:00",
+      "source_type": "331",
+      "title": "ST远程:国浩律师(上海)事务所关于远程电缆股份有限公司申请撤销公司股票交易其他风险警示的法律意见书",
+      "title_ch": "ST远程:国浩律师(上海)事务所关于远程电缆股份有限公司申请撤销公司股票交易其他风险警示的法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202310311607042837",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "11661462172634",
+          "market_code": "0",
+          "short_name": "远程股份",
+          "stock_code": "002692"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-10-31 16:50:19:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-11-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-11-01 12:00:00",
+      "source_type": "331",
+      "title": "ST远程:关于申请撤销其他风险警示的公告",
+      "title_ch": "ST远程:关于申请撤销其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002692&begin_time=2023-10-08&end_time=2023-11-07"
+}

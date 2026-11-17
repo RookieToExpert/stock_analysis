@@ -1,0 +1,85 @@
+{
+  "code": "sz.000504",
+  "effective_date": "2021-04-28",
+  "evaluation_dates": [
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202104261487958694",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "13782281698042",
+          "market_code": "0",
+          "short_name": "南华生物",
+          "stock_code": "000504"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-04-26 20:22:06:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2021-04-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-04-27 12:00:00",
+      "source_type": "331",
+      "title": "ST生物:关于撤销股票交易其他风险警示暨停复牌的公告",
+      "title_ch": "ST生物:关于撤销股票交易其他风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202103301478601337",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "13782281698042",
+          "market_code": "0",
+          "short_name": "南华生物",
+          "stock_code": "000504"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-03-30 21:02:08:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2021-03-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-03-31 12:00:00",
+      "source_type": "331",
+      "title": "ST生物:关于申请撤销公司股票交易其他风险警示的公告",
+      "title_ch": "ST生物:关于申请撤销公司股票交易其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000504&begin_time=2021-03-29&end_time=2021-04-28"
+}

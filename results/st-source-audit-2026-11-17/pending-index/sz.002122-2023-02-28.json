@@ -1,0 +1,178 @@
+{
+  "code": "sz.002122",
+  "effective_date": "2023-02-28",
+  "evaluation_dates": [
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202302261583809679",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "19572754998874",
+          "market_code": "0",
+          "short_name": "ST汇洲",
+          "stock_code": "002122"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-02-26 15:33:45:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-02-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-02-27 12:00:00",
+      "source_type": "331",
+      "title": "ST天马:关于撤销公司股票交易其他风险警示暨停复牌公告",
+      "title_ch": "ST天马:关于撤销公司股票交易其他风险警示暨停复牌公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202302241583698507",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "19572754998874",
+          "market_code": "0",
+          "short_name": "ST汇洲",
+          "stock_code": "002122"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-02-24 17:35:03:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-02-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-02-25 12:00:00",
+      "source_type": "331",
+      "title": "ST天马:北京植德律师事务所关于天马轴承集团股份有限公司申请撤销其他风险警示的补充法律意见书之一",
+      "title_ch": "ST天马:北京植德律师事务所关于天马轴承集团股份有限公司申请撤销其他风险警示的补充法律意见书之一",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202301311582562081",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "19572754998874",
+          "market_code": "0",
+          "short_name": "ST汇洲",
+          "stock_code": "002122"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-01-31 17:55:15:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-02-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-02-01 12:00:00",
+      "source_type": "331",
+      "title": "ST天马:关于申请撤销公司股票交易其他风险警示的公告",
+      "title_ch": "ST天马:关于申请撤销公司股票交易其他风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202301311582562079",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "19572754998874",
+          "market_code": "0",
+          "short_name": "ST汇洲",
+          "stock_code": "002122"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-01-31 17:55:15:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-02-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-02-01 12:00:00",
+      "source_type": "331",
+      "title": "ST天马:北京植德律师事务所关于天马轴承集团股份有限公司申请撤销其他风险警示的法律意见书",
+      "title_ch": "ST天马:北京植德律师事务所关于天马轴承集团股份有限公司申请撤销其他风险警示的法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202301311582562072",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "19572754998874",
+          "market_code": "0",
+          "short_name": "ST汇洲",
+          "stock_code": "002122"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001003001001003",
+          "column_name": "专项说明/独立意见"
+        },
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-01-31 17:55:15:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-02-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-02-01 12:00:00",
+      "source_type": "331",
+      "title": "ST天马:独立董事关于申请撤销公司股票交易其他风险警示的专项意见",
+      "title_ch": "ST天马:独立董事关于申请撤销公司股票交易其他风险警示的专项意见",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002122&begin_time=2023-01-29&end_time=2023-02-28"
+}

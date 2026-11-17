@@ -1,0 +1,460 @@
+{
+  "code": "sz.000995",
+  "effective_date": "2020-12-16",
+  "evaluation_dates": [
+    "2021-05-06",
+    "2021-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202012151440319282",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-15 19:44:40:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-16 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:关于公司股票恢复上市首日的提示性公告",
+      "title_ch": "*ST皇台:关于公司股票恢复上市首日的提示性公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012141439982045",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-14 22:21:48:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-15 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:关于撤销股票交易其他风险警示的公告",
+      "title_ch": "*ST皇台:关于撤销股票交易其他风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012141439982044",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-14 22:21:48:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-15 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:恢复上市公告书(更新后)",
+      "title_ch": "*ST皇台:恢复上市公告书(更新后)",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130490",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        },
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:48:21:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-09 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:中信建投证券股份有限公司关于公司恢复上市的核查报告",
+      "title_ch": "*ST皇台:中信建投证券股份有限公司关于公司恢复上市的核查报告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130497",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:48:26:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-09 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:甘肃正天合律师事务所关于公司A股股票恢复上市的补充法律意见书",
+      "title_ch": "*ST皇台:甘肃正天合律师事务所关于公司A股股票恢复上市的补充法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130495",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:48:26:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-09 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:甘肃正天合律师事务所关于公司A股股票恢复上市之补充法律意见书(二)",
+      "title_ch": "*ST皇台:甘肃正天合律师事务所关于公司A股股票恢复上市之补充法律意见书(二)",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130492",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002004",
+          "column_name": "上市保荐书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:48:26:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-09 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:中信建投证券股份有限公司关于公司恢复上市保荐书",
+      "title_ch": "*ST皇台:中信建投证券股份有限公司关于公司恢复上市保荐书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130494",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002008",
+          "column_name": "其他"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:48:21:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-09 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:关于提交恢复上市补充材料有关事项的函中有关财务事项的说明",
+      "title_ch": "*ST皇台:关于提交恢复上市补充材料有关事项的函中有关财务事项的说明",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130493",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:48:26:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-09 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:关于公司股票恢复上市暨撤销股票交易退市风险警示的公告",
+      "title_ch": "*ST皇台:关于公司股票恢复上市暨撤销股票交易退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130496",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:48:26:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-09 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:恢复上市公告书",
+      "title_ch": "*ST皇台:恢复上市公告书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130499",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:48:21:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-09 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:甘肃正天合律师事务所关于公司A股股票恢复上市之法律意见书",
+      "title_ch": "*ST皇台:甘肃正天合律师事务所关于公司A股股票恢复上市之法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130498",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:48:21:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-09 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:中信建投证券股份有限公司关于公司提交恢复上市补充材料有关事项的核查意见",
+      "title_ch": "*ST皇台:中信建投证券股份有限公司关于公司提交恢复上市补充材料有关事项的核查意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012081438130979",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        },
+        {
+          "column_code": "010001002",
+          "column_name": "深交所一般公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-08 23:52:42:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-08 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-08 12:00:00",
+      "source_type": "33",
+      "title": "关于甘肃皇台酒业股份有限公司股票恢复上市的公告",
+      "title_ch": "关于甘肃皇台酒业股份有限公司股票恢复上市的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012071437719391",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-07 22:31:18:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-08 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-08 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:关于收到《关于同意甘肃皇台酒业股份有限公司股票恢复上市决定》的公告",
+      "title_ch": "*ST皇台:关于收到《关于同意甘肃皇台酒业股份有限公司股票恢复上市决定》的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012071437719394",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41816431793382",
+          "market_code": "0",
+          "short_name": "皇台酒业",
+          "stock_code": "000995"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-07 22:31:18:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-08 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-08 12:00:00",
+      "source_type": "331",
+      "title": "*ST皇台:关于申请撤销公司股票交易退市风险警示及其他风险警示的公告",
+      "title_ch": "*ST皇台:关于申请撤销公司股票交易退市风险警示及其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000995&begin_time=2020-11-16&end_time=2020-12-16"
+}

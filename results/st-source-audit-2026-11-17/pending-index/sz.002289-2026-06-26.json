@@ -1,0 +1,53 @@
+{
+  "code": "sz.002289",
+  "effective_date": "2026-06-26",
+  "evaluation_dates": [
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202606241823818716",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "39720766015802",
+          "market_code": "0",
+          "short_name": "宇顺电子",
+          "stock_code": "002289"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2026-06-24 21:08:20:634",
+      "eiTime": "2026-06-24 21:09:18:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-06-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-06-25 12:00:00",
+      "source_type": "331",
+      "title": "*ST宇顺:关于公司股票交易撤销退市风险警示暨停复牌的公告",
+      "title_ch": "*ST宇顺:关于公司股票交易撤销退市风险警示暨停复牌的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002289&begin_time=2026-05-27&end_time=2026-06-26"
+}

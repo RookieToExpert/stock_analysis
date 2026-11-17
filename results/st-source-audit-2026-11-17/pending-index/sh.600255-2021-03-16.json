@@ -1,0 +1,85 @@
+{
+  "code": "sh.600255",
+  "effective_date": "2021-03-16",
+  "evaluation_dates": [
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202103141471838075",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "11821535652139",
+          "market_code": "1",
+          "short_name": "鑫科材料",
+          "stock_code": "600255"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-03-14 14:03:03:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2021-03-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-03-15 12:00:00",
+      "source_type": "31",
+      "title": "600255:*ST鑫科股票撤销退市风险警示暨停牌的公告",
+      "title_ch": "600255:*ST鑫科股票撤销退市风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202103011466997837",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "11821535652139",
+          "market_code": "1",
+          "short_name": "鑫科材料",
+          "stock_code": "600255"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-03-01 18:15:54:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2021-03-02 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-03-02 12:00:00",
+      "source_type": "31",
+      "title": "600255:*ST鑫科关于申请撤销公司股票退市风险警示的公告",
+      "title_ch": "600255:*ST鑫科关于申请撤销公司股票退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600255&begin_time=2021-02-14&end_time=2021-03-16"
+}

@@ -1,0 +1,86 @@
+{
+  "code": "sh.600647",
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2023,
+      "article": "AN202404291631625928",
+      "available_date": "2024-04-30",
+      "title": "*ST同达:*ST同达2023年年度报告全文",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404291631625928_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304281586087024",
+      "available_date": "2023-04-29",
+      "title": "同达创业:同达创业2022年年度报告全文",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304281586087024_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202211021579810283",
+      "available_date": "2022-11-03",
+      "title": "600647:同达创业2020年年度报告(二次修订版)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202211021579810283_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202211021579810282",
+      "available_date": "2022-11-03",
+      "title": "600647:同达创业2021年年度报告(二次修订版)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202211021579810282_1.pdf"
+    },
+    {
+      "year": 2019,
+      "article": "AN202211021579810284",
+      "available_date": "2022-11-03",
+      "title": "600647:同达创业2019年年度报告(修订版)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202211021579810284_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202205271568238651",
+      "available_date": "2022-05-28",
+      "title": "600647:同达创业2021年年度报告(修订版)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202205271568238651_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202203251554926549",
+      "available_date": "2022-03-26",
+      "title": "600647:同达创业2020年年度报告修订版",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202203251554926549_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202203251554922693",
+      "available_date": "2022-03-26",
+      "title": "600647:同达创业2021年年度报告全文",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202203251554922693_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202103191473907456",
+      "available_date": "2021-03-20",
+      "title": "600647:同达创业2020年年度报告全文",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202103191473907456_1.pdf"
+    },
+    {
+      "year": 2019,
+      "article": "AN202004171378155268",
+      "available_date": "2020-04-18",
+      "title": "600647:同达创业2019年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202004171378155268_1.pdf"
+    }
+  ],
+  "total_hits": 412,
+  "pages": 5,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=5&ann_type=A&client_source=web&stock_list=600647&begin_time=2020-01-01&end_time=2024-12-31"
+}

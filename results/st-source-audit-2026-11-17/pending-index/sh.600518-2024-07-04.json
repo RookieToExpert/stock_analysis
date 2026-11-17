@@ -1,0 +1,107 @@
+{
+  "code": "sh.600518",
+  "effective_date": "2024-07-04",
+  "evaluation_dates": [
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202407021637471589",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "33327701809269",
+          "market_code": "1",
+          "short_name": "康美药业",
+          "stock_code": "600518"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-07-02 18:07:42:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-07-03 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-07-03 12:00:00",
+      "source_type": "31",
+      "title": "ST康美:康美药业关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_ch": "ST康美:康美药业关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202406261636921284",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "33327701809269",
+          "market_code": "1",
+          "short_name": "康美药业",
+          "stock_code": "600518"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-06-26 18:59:37:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-06-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-06-27 12:00:00",
+      "source_type": "31",
+      "title": "ST康美:康美药业关于公司股票申请撤销其他风险警示的公告",
+      "title_ch": "ST康美:康美药业关于公司股票申请撤销其他风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202406261636921287",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "33327701809269",
+          "market_code": "1",
+          "short_name": "康美药业",
+          "stock_code": "600518"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-06-26 19:00:05:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-06-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-06-27 12:00:00",
+      "source_type": "31",
+      "title": "ST康美:广东信达律师事务所关于康美药业股份有限公司申请撤销其他风险警示之法律意见书",
+      "title_ch": "ST康美:广东信达律师事务所关于康美药业股份有限公司申请撤销其他风险警示之法律意见书",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600518&begin_time=2024-06-04&end_time=2024-07-04"
+}

@@ -1,0 +1,17 @@
+{
+  "period": "2017Q3",
+  "available_date": "2017-11-14",
+  "page": "https://www.csrc.gov.cn/csrc/c100103/c1452005/content.shtml",
+  "index_url": "https://www.csrc.gov.cn/csrc/c100103/common_list.shtml",
+  "taxonomy": "CSRC2012",
+  "complete": true,
+  "documents": [
+    {
+      "source": "https://www.csrc.gov.cn/csrc/c100103/c1452005/1452005/files/1616066688397_26144.pdf",
+      "key": "2017Q3-0",
+      "pdf_sha256": "395a3e3d523e91fe609663c6d715ac04794285b8f77b5c83c66ac416998ba16d",
+      "text_sha256": "89343d96bbb9d0cb6a0fa5c88d406afa3ce8b4ae7db3176774ee82a6f4d88d2c"
+    }
+  ],
+  "page_sha256": "44dcc805fe9ba88ca94b6c3e5cd1e1bf788a8254a5e5a4cfbbdf6090fcd5e253"
+}

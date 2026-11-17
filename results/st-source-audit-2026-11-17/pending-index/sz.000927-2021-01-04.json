@@ -1,0 +1,209 @@
+{
+  "code": "sz.000927",
+  "effective_date": "2021-01-04",
+  "evaluation_dates": [
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202012301445396544",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "32114821680022",
+          "market_code": "0",
+          "short_name": "中国铁物",
+          "stock_code": "000927"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-30 20:39:08:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-31 12:00:00",
+      "source_type": "331",
+      "title": "*ST夏利:关于撤销股票交易退市风险警示的公告",
+      "title_ch": "*ST夏利:关于撤销股票交易退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012301445396569",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "32114821680022",
+          "market_code": "0",
+          "short_name": "中国铁物",
+          "stock_code": "000927"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-30 20:39:08:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-31 12:00:00",
+      "source_type": "331",
+      "title": "*ST夏利:关于公司股票撤销退市风险警示暨停牌的公告",
+      "title_ch": "*ST夏利:关于公司股票撤销退市风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012241443597269",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "32114821680022",
+          "market_code": "0",
+          "short_name": "中国铁物",
+          "stock_code": "000927"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-24 20:10:20:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-25 12:00:00",
+      "source_type": "331",
+      "title": "*ST夏利:关于申请撤销股票退市风险警示的公告",
+      "title_ch": "*ST夏利:关于申请撤销股票退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012241443597270",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "32114821680022",
+          "market_code": "0",
+          "short_name": "中国铁物",
+          "stock_code": "000927"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-24 20:11:21:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-25 12:00:00",
+      "source_type": "331",
+      "title": "*ST夏利:立信会计师事务所(特殊普通合伙)关于公司申请撤销公司股票退市风险警示中有关财务事项的说明",
+      "title_ch": "*ST夏利:立信会计师事务所(特殊普通合伙)关于公司申请撤销公司股票退市风险警示中有关财务事项的说明",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012241443597272",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "32114821680022",
+          "market_code": "0",
+          "short_name": "中国铁物",
+          "stock_code": "000927"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-24 20:10:20:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-25 12:00:00",
+      "source_type": "331",
+      "title": "*ST夏利:中国国际金融股份有限公司关于公司申请撤销公司股票退市风险警示之独立财务顾问核查意见",
+      "title_ch": "*ST夏利:中国国际金融股份有限公司关于公司申请撤销公司股票退市风险警示之独立财务顾问核查意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202012241443597268",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "32114821680022",
+          "market_code": "0",
+          "short_name": "中国铁物",
+          "stock_code": "000927"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2020-12-24 20:10:20:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2020-12-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2020-12-25 12:00:00",
+      "source_type": "331",
+      "title": "*ST夏利:北京市天元律师事务所关于公司申请撤销公司股票交易退市风险警示的法律意见",
+      "title_ch": "*ST夏利:北京市天元律师事务所关于公司申请撤销公司股票交易退市风险警示的法律意见",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000927&begin_time=2020-12-05&end_time=2021-01-04"
+}

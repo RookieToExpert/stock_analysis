@@ -1,0 +1,47 @@
+{
+  "code": "sz.000004",
+  "effective_date": "2023-06-28",
+  "evaluation_dates": [
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02"
+  ],
+  "outDate": "2026-07-14",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202306261591303913",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "17513965711946",
+          "market_code": "0",
+          "short_name": "国华退",
+          "stock_code": "000004"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-06-26 18:19:26:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2023-06-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-06-27 12:00:00",
+      "source_type": "331",
+      "title": "ST国华:关于撤销其他风险警示暨停牌的公告",
+      "title_ch": "ST国华:关于撤销其他风险警示暨停牌的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000004&begin_time=2023-05-29&end_time=2023-06-28"
+}

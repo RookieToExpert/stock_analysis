@@ -1,0 +1,59 @@
+{
+  "code": "sz.000422",
+  "effective_date": "2021-06-11",
+  "evaluation_dates": [
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202106091496974282",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "36358520572938",
+          "market_code": "0",
+          "short_name": "湖北宜化",
+          "stock_code": "000422"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-06-09 19:32:03:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2021-06-10 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-06-10 12:00:00",
+      "source_type": "331",
+      "title": "ST宜化:关于公司股票撤销其他风险警示暨停复牌公告",
+      "title_ch": "ST宜化:关于公司股票撤销其他风险警示暨停复牌公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000422&begin_time=2021-05-12&end_time=2021-06-11"
+}

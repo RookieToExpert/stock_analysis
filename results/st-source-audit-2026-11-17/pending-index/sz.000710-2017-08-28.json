@@ -1,0 +1,175 @@
+{
+  "code": "sz.000710",
+  "effective_date": "2017-08-28",
+  "evaluation_dates": [
+    "2017-09-01",
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201708240825105602",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "44355677237002",
+          "market_code": "0",
+          "short_name": "贝瑞基因",
+          "stock_code": "000710"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-08-24 16:58:21:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-08-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-08-25 12:00:00",
+      "source_type": "331",
+      "title": "*ST天仪:关于撤销退市风险警示暨变更证券简称的公告",
+      "title_ch": "*ST天仪:关于撤销退市风险警示暨变更证券简称的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201708200816988143",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "44355677237002",
+          "market_code": "0",
+          "short_name": "贝瑞基因",
+          "stock_code": "000710"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-08-20 17:11:59:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-08-21 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-08-21 12:00:00",
+      "source_type": "331",
+      "title": "*ST天仪:中信建投证券股份有限公司关于公司申请撤销公司股票退市风险警示之独立财务顾问核查意见",
+      "title_ch": "*ST天仪:中信建投证券股份有限公司关于公司申请撤销公司股票退市风险警示之独立财务顾问核查意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201708200816988144",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "44355677237002",
+          "market_code": "0",
+          "short_name": "贝瑞基因",
+          "stock_code": "000710"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-08-20 17:11:59:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-08-21 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-08-21 12:00:00",
+      "source_type": "331",
+      "title": "*ST天仪:北京市金杜律师事务所关于公司申请撤销公司股票交易退市风险警示的法律意见书",
+      "title_ch": "*ST天仪:北京市金杜律师事务所关于公司申请撤销公司股票交易退市风险警示的法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201708200816988101",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "44355677237002",
+          "market_code": "0",
+          "short_name": "贝瑞基因",
+          "stock_code": "000710"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-08-20 17:10:41:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-08-21 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-08-21 12:00:00",
+      "source_type": "331",
+      "title": "*ST天仪:关于向深圳证券交易所申请撤销退市风险警示的公告",
+      "title_ch": "*ST天仪:关于向深圳证券交易所申请撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201708200816988100",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "44355677237002",
+          "market_code": "0",
+          "short_name": "贝瑞基因",
+          "stock_code": "000710"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-08-20 17:11:24:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-08-21 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-08-21 12:00:00",
+      "source_type": "331",
+      "title": "*ST天仪:关于公司申请撤销公司股票退市风险警示中有关财务事项的说明",
+      "title_ch": "*ST天仪:关于公司申请撤销公司股票退市风险警示中有关财务事项的说明",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000710&begin_time=2017-07-29&end_time=2017-08-28"
+}

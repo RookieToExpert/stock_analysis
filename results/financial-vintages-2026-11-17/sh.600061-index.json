@@ -1,0 +1,51 @@
+{
+  "code": "sh.600061",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202503281648761770",
+      "available_date": "2025-03-29",
+      "title": "国投资本:国投资本2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202503281648761770_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202403291629064085",
+      "available_date": "2024-03-30",
+      "title": "国投资本:国投资本2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202403291629064085_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202303241584539109",
+      "available_date": "2023-03-25",
+      "title": "国投资本:国投资本股份有限公司2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202303241584539109_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202203301556052266",
+      "available_date": "2022-03-31",
+      "title": "600061:国投资本股份有限公司2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202203301556052266_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202104011480556940",
+      "available_date": "2021-04-02",
+      "title": "600061:国投资本2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104011480556940_1.pdf"
+    }
+  ],
+  "total_hits": 551,
+  "pages": 6,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=6&ann_type=A&client_source=web&stock_list=600061&begin_time=2021-01-01&end_time=2025-12-31"
+}

@@ -1,0 +1,2582 @@
+[
+  {
+    "code": "sh.600608",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600608",
+        "pubDate": "2021-04-27",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.037040",
+        "npMargin": "0.002590",
+        "gpMargin": "0.014483",
+        "netProfit": "2306709.970000",
+        "epsTTM": "0.006969",
+        "MBRevenue": "890608206.620000",
+        "totalShare": "328861441.00",
+        "liqaShare": "318371441.00"
+      }
+    ],
+    "raw_sha256": "0fd53647face00c720a89911751fcd0a68ea2b51dedd2b7de01c96e594e7e6b9",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104261487898992_1.pdf",
+    "source_text_sha256": "d5ef9104c2f62697c3db447f44ad675e5c77b6ae50db79134e1205e975b8830e",
+    "available_date": "2021-04-27",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "8,037.37 1,921,131.48 加：营业外收入 七、74 2,471,272.58 减：营业外支出 七、75 1,327.40 22,386.11 四、利润总额（亏损总额以“－”号填列） 2,306,709.97 4,370,017.95 减：所得税费用 五、净利润（净亏损以“－”号填列） 2,306,709.97 4,370,017.95 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－” 2,30"
+  },
+  {
+    "code": "sh.600608",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600608",
+        "pubDate": "2022-04-26",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.024738",
+        "npMargin": "0.008870",
+        "gpMargin": "0.053810",
+        "netProfit": "2860418.660000",
+        "epsTTM": "0.004800",
+        "MBRevenue": "322489392.210000",
+        "totalShare": "328861441.00",
+        "liqaShare": "318371441.00"
+      }
+    ],
+    "raw_sha256": "0fd53647face00c720a89911751fcd0a68ea2b51dedd2b7de01c96e594e7e6b9",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204251561489180_1.pdf",
+    "source_text_sha256": "95c135df82e5ff30d210f6084df670c6cd1209644160fb9b5ef6d5add98be935",
+    "available_date": "2022-04-26",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "75 1,327.40 四、利润总额（亏损总额以“－”号填列） 3,826,004.84 2,306,709.97 减：所得税费用 七、76 965,586.18 五、净利润（净亏损以“－”号填列） 2,860,418.66 2,306,709.97 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号 2,860,418.66 2,306,709.97 填列） 2.终止经营净利润（净亏损以“－”号 填列） （二"
+  },
+  {
+    "code": "sh.600608",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600608",
+        "pubDate": "2023-04-25",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.063290",
+        "npMargin": "0.011292",
+        "gpMargin": "0.047120",
+        "netProfit": "4141644.620000",
+        "epsTTM": "0.012220",
+        "MBRevenue": "366774990.160000",
+        "totalShare": "328861441.00",
+        "liqaShare": "318371441.00"
+      }
+    ],
+    "raw_sha256": "0fd53647face00c720a89911751fcd0a68ea2b51dedd2b7de01c96e594e7e6b9",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304241585766289_1.pdf",
+    "source_text_sha256": "10f84c71a67b61593c46dcf3453f4726ef7916ca970d7c3337661ae2019dfda5",
+    "available_date": "2023-04-25",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "、利润总额（亏损总额以“－”号填列） 5,448,899.14 3,707,380.58 减：所得税费用 七、76 1,307,254.52 965,586.18 五、净利润（净亏损以“－”号填列） 4,141,644.62 2,741,794.40 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填 4,141,644.62 2,741,794.40 列） 2.终止经营净利润（净亏损以“－”号填 列） （二"
+  },
+  {
+    "code": "sh.600608",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600608",
+        "pubDate": "2024-04-30",
+        "statDate": "2023-12-31",
+        "roeAvg": "-0.403884",
+        "npMargin": "-0.135564",
+        "gpMargin": "0.053871",
+        "netProfit": "-23185795.990000",
+        "epsTTM": "-0.066943",
+        "MBRevenue": "171032691.590000",
+        "totalShare": "328861441.00",
+        "liqaShare": "318371441.00"
+      }
+    ],
+    "raw_sha256": "0fd53647face00c720a89911751fcd0a68ea2b51dedd2b7de01c96e594e7e6b9",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404291631616296_1.pdf",
+    "source_text_sha256": "9d73cd94d5890404f18fc081fa35bf9615f26f7c29039a6ea69b451d87498462",
+    "available_date": "2024-04-30",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "总额（亏损总额以“－”号填 -22,952,592.50 5,448,899.14 列） 减：所得税费用 七、76 233,203.49 1,290,275.33 五、净利润（净亏损以“－”号填列） -23,185,795.99 4,158,623.81 （一）按经营持续性分类 1.持续经营净利润（净亏损以 -23,185,795.99 4,158,623.81 “－”号填列） 2.终止经营净利润（净亏损以 “－”号填列） "
+  },
+  {
+    "code": "sh.600608",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600608",
+        "pubDate": "2025-04-29",
+        "statDate": "2024-12-31",
+        "roeAvg": "-0.139739",
+        "npMargin": "-0.421795",
+        "gpMargin": "0.415549",
+        "netProfit": "-7266156.550000",
+        "epsTTM": "-0.017280",
+        "MBRevenue": "17226735.080000",
+        "totalShare": "328861441.00",
+        "liqaShare": "318371441.00"
+      }
+    ],
+    "raw_sha256": "0fd53647face00c720a89911751fcd0a68ea2b51dedd2b7de01c96e594e7e6b9",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504281663997639_1.pdf",
+    "source_text_sha256": "a7bebe8755cc0d2e89af9a449c5eae8c3087118447ac878712594ea24ef2da6f",
+    "available_date": "2025-04-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "、利润总额（亏损总额以“－”号填列） -7,235,337.09 -22,952,592.50 减：所得税费用 七、76 30,819.46 233,203.49 五、净利润（净亏损以“－”号填列） -7,266,156.55 -23,185,795.99 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） -7,266,156.55 -23,185,795.99 2.终止经营净利润（净亏损以“－”号填列）"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688510",
+        "pubDate": "2021-04-23",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.089037",
+        "npMargin": "0.197734",
+        "gpMargin": "0.456458",
+        "netProfit": "59541913.480000",
+        "epsTTM": "0.231813",
+        "MBRevenue": "300359114.960000",
+        "totalShare": "258382608.00",
+        "liqaShare": "50266729.00"
+      }
+    ],
+    "raw_sha256": "f179b33e008b2a1feead1870b5ee3e2db3b5dc71f2b96bf961b7cbac1e7227b6",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104221487093166_1.pdf",
+    "source_text_sha256": "9e8ff47aa571ebdf894697253d192f0d521a1714aee4c1cd14939a227ebaa10e",
+    "available_date": "2021-04-23",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "641.20 45,349,541.80 号填列） 减：所得税费用 七.76 8,213,727.72 5,154,483.90 90 / 201 2020 年年度报告 五、净利润（净亏损以“－”号 59,541,913.48 40,195,057.90 填列） （一）按经营持续性分类 1.持续经营净利润（净亏损 59,541,913.48 40,195,057.90 以“－”号填列） 2.终止经营净利润（净亏损 以“－”"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688510",
+        "pubDate": "2022-04-27",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.025543",
+        "npMargin": "0.077278",
+        "gpMargin": "0.316734",
+        "netProfit": "24159927.970000",
+        "epsTTM": "0.093935",
+        "MBRevenue": "311742820.040000",
+        "totalShare": "258382608.00",
+        "liqaShare": "159608565.00"
+      }
+    ],
+    "raw_sha256": "f179b33e008b2a1feead1870b5ee3e2db3b5dc71f2b96bf961b7cbac1e7227b6",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204261561747886_1.pdf",
+    "source_text_sha256": "e39c94ef38e88c185e9b0ce1e6ed4ac734e18f216d98226515deade70deb4c38",
+    "available_date": "2022-04-27",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "额（亏损总额以“－”号 23,370,064.20 67,755,641.20 填列） 减：所得税费用 七、76 -789,863.77 8,213,727.72 五、净利润（净亏损以“－”号填列） 24,159,927.97 59,541,913.48 （一）按经营持续性分类 1.持续经营净利润（净亏损以 24,159,927.97 59,541,913.48 “－”号填列） 2.终止经营净利润（净亏损以 “－”号填列）"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688510",
+        "pubDate": "2023-04-26",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.020918",
+        "npMargin": "0.051308",
+        "gpMargin": "0.296959",
+        "netProfit": "18599788.680000",
+        "epsTTM": "0.077645",
+        "MBRevenue": "360507873.430000",
+        "totalShare": "258382608.00",
+        "liqaShare": "166068565.00"
+      }
+    ],
+    "raw_sha256": "f179b33e008b2a1feead1870b5ee3e2db3b5dc71f2b96bf961b7cbac1e7227b6",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304251585804842_1.pdf",
+    "source_text_sha256": "f298b39b8b528dbb556a977a5d868347e2c7f1fbc3df0dfad43b67213b602297",
+    "available_date": "2023-04-26",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "额（亏损总额以“－”号填列） 16,249,454.23 23,370,064.20 减：所得税费用 七、76 -2,350,334.45 -789,863.77 五、净利润（净亏损以“－”号填列） 18,599,788.68 24,159,927.97 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 18,599,788.68 24,159,927.97 2.终止经营净利润（净亏损以“－”号填列） （"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688510",
+        "pubDate": "2024-03-28",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.089909",
+        "npMargin": "0.160958",
+        "gpMargin": "0.359854",
+        "netProfit": "87481577.130000",
+        "epsTTM": "0.349100",
+        "MBRevenue": "538493850.460000",
+        "totalShare": "258382608.00",
+        "liqaShare": "258382608.00"
+      }
+    ],
+    "raw_sha256": "f179b33e008b2a1feead1870b5ee3e2db3b5dc71f2b96bf961b7cbac1e7227b6",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202403271628323224_1.pdf",
+    "source_text_sha256": "a80a02896f59f0da46323cfea6164cc00aa83038ca83c56e62ad8c7632ac5558",
+    "available_date": "2024-03-28",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "、利润总额（亏损总额以“－”号填列） 95,940,053.79 16,249,454.23 减：所得税费用 8,458,476.66 -2,350,334.45 五、净利润（净亏损以“－”号填列） 87,481,577.13 18,599,788.68 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 87,481,577.13 18,599,788.68 2.终止经营净利润（净亏损以“－”号填列） （"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688510",
+        "pubDate": "2025-03-28",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.115500",
+        "npMargin": "0.178688",
+        "gpMargin": "0.385326",
+        "netProfit": "125659753.070000",
+        "epsTTM": "0.489682",
+        "MBRevenue": "693820152.790000",
+        "totalShare": "258382608.00",
+        "liqaShare": "258382608.00"
+      }
+    ],
+    "raw_sha256": "f179b33e008b2a1feead1870b5ee3e2db3b5dc71f2b96bf961b7cbac1e7227b6",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503271648248215_1.pdf",
+    "source_text_sha256": "bb434e64c70a41383b95bae1faccdd1b0d44d68db6541fff87dce98edadcff99",
+    "available_date": "2025-03-28",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "利润总额（亏损总额以“－”号填列） 136,508,954.88 95,940,053.79 减：所得税费用 10,849,201.81 8,458,476.66 五、净利润（净亏损以“－”号填列） 125,659,753.07 87,481,577.13 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 125,659,753.07 87,481,577.13 2.终止经营净利润（净亏损以“－”号填列） "
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600061",
+        "pubDate": "2021-04-02",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.097993",
+        "npMargin": "4.904166",
+        "gpMargin": "0.052950",
+        "netProfit": "4706347517.220000",
+        "epsTTM": "0.981356",
+        "MBRevenue": "14383823506.810000",
+        "totalShare": "4227129727.00",
+        "liqaShare": "4227129727.00"
+      }
+    ],
+    "raw_sha256": "8ac2655933c252b595114928d9b48bfb122b59338a52536b46f173b50fe23ec2",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104011480556940_1.pdf",
+    "source_text_sha256": "e6e2b6bacee43b348504c550d333d4d97d9f6010b76594dee56a146c1890b15c",
+    "available_date": "2021-04-02",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "102,810,624.93 4,714,548,465.71 列） 减：所得税费用 七、91 1,396,463,107.71 1,214,462,029.63 五、净利润（净亏损以“－”号填列） 4,706,347,517.22 3,500,086,436.08 （一）按经营持续性分类 1.持续经营净利润（净亏损以 4,706,347,517.22 3,500,086,436.08 “－”号填列） 84 / 229 2020"
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600061",
+        "pubDate": "2022-03-31",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.100888",
+        "npMargin": "4.456413",
+        "gpMargin": "0.003177",
+        "netProfit": "5308187406.330000",
+        "epsTTM": "0.745929",
+        "MBRevenue": "15527995652.280000",
+        "totalShare": "6425301287.00",
+        "liqaShare": "6425301287.00"
+      }
+    ],
+    "raw_sha256": "8ac2655933c252b595114928d9b48bfb122b59338a52536b46f173b50fe23ec2",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203301556052266_1.pdf",
+    "source_text_sha256": "3238ceffe8a0687d41239710cebc9dc7309a3b0923bd98806fda5c415dc8491e",
+    "available_date": "2022-03-31",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "6,517,084.90 6,102,810,624.93 “－”号填列） 减：所得税费用 七、92 1,408,329,678.57 1,396,463,107.71 五、净利润（净亏损以“－”号 5,308,187,406.33 4,706,347,517.22 填列） （一）按经营持续性分类 1.持续经营净利润（净亏损 5,308,187,406.33 4,706,347,517.22 以“－”号填列） 2.终止经营净利润"
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600061",
+        "pubDate": "2023-03-25",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.058459",
+        "npMargin": "1.791211",
+        "gpMargin": "0.005357",
+        "netProfit": "3468864800.210000",
+        "epsTTM": "0.457803",
+        "MBRevenue": "12887387355.940000",
+        "totalShare": "6425306159.00",
+        "liqaShare": "6425306159.00"
+      }
+    ],
+    "raw_sha256": "8ac2655933c252b595114928d9b48bfb122b59338a52536b46f173b50fe23ec2",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202303241584539109_1.pdf",
+    "source_text_sha256": "b47e60c141fc9ed62d81616158f67b12843d00b09e03d2ffa26a3ba26c43843d",
+    "available_date": "2023-03-25",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "4,060,917,013.05 6,716,517,084.90 号填列） 减：所得税费用 七、92 592,052,212.84 1,408,329,678.57 五、净利润（净亏损以“－”号填 3,468,864,800.21 5,308,187,406.33 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 3,468,864,800.21 5,308,187,406.33 “－”号填列） 2.终止经营净利润（"
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600061",
+        "pubDate": "2024-03-30",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.045220",
+        "npMargin": "1.173031",
+        "gpMargin": "0.015525",
+        "netProfit": "2947479812.700000",
+        "epsTTM": "0.366804",
+        "MBRevenue": "13798852124.720000",
+        "totalShare": "6425307597.00",
+        "liqaShare": "6425307597.00"
+      }
+    ],
+    "raw_sha256": "8ac2655933c252b595114928d9b48bfb122b59338a52536b46f173b50fe23ec2",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202403291629064085_1.pdf",
+    "source_text_sha256": "28bd8d50f54eaee0649af74462507acc12bfb1f6c64d3e78b4377d6be8baad64",
+    "available_date": "2024-03-30",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "” 3,538,790,315.53 4,060,917,013.05 号填列） 减：所得税费用 七、92 591,310,502.83 592,052,212.84 五、净利润（净亏损以“－”号填 2,947,479,812.70 3,468,864,800.21 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 2,947,479,812.70 3,468,864,800.21 “－”号填列） 2.终止经营净利润（"
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600061",
+        "pubDate": "2025-03-29",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.049917",
+        "npMargin": "1.567711",
+        "gpMargin": "0.023621",
+        "netProfit": "3198282451.950000",
+        "epsTTM": "0.421380",
+        "MBRevenue": "13567371643.100000",
+        "totalShare": "6393980683.00",
+        "liqaShare": "6393980683.00"
+      }
+    ],
+    "raw_sha256": "8ac2655933c252b595114928d9b48bfb122b59338a52536b46f173b50fe23ec2",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503281648761770_1.pdf",
+    "source_text_sha256": "3b30a9ca021873d15f26890fe630f2e205eef40a110987ea6e50991118fa4eb5",
+    "available_date": "2025-03-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "” 4,037,010,455.82 3,538,790,315.53 号填列） 减：所得税费用 七、92 838,728,003.87 591,310,502.83 五、净利润（净亏损以“－”号填 3,198,282,451.95 2,947,479,812.70 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 3,198,282,451.95 2,947,479,812.70 “－”号填列） 2.终止经营净利润（"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002258",
+        "pubDate": "2021-03-06",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.167027",
+        "npMargin": "0.134952",
+        "gpMargin": "0.289549",
+        "netProfit": "670541677.930000",
+        "epsTTM": "1.167489",
+        "MBRevenue": "4961634949.500000",
+        "totalShare": "524380695.00",
+        "liqaShare": "521941255.00"
+      }
+    ],
+    "raw_sha256": "3b6879e3be6e1bc4c18af70fc75908848cf86924047abdcbae87c30c23857b4c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103051468852485_1.pdf",
+    "source_text_sha256": "389549927036c52382394fa22ccdfb09ac3cbe86bc91218cb8eb785817b0b1d9",
+    "available_date": "2021-03-06",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "7,823.74 2、对营业收入实施分析程序，分析毛利异常变动原因，复核收入的合理 元，较2019年增加19.33%，2020 性，与同行业毛利率进行对比分析，对销售量及产量进行配比分析。 年净利润为670,541,677.93元， 3、抽取足够的样本量对应收账款及预收款项的发生额及余额进行函证， 较2019年净利润上涨73.46%， 对未回函的样本进行替代测试。 本年收入明显增长且利润显著上 4、检查收入确认相关合同、发票"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002258",
+        "pubDate": "2022-03-05",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.239645",
+        "npMargin": "0.179027",
+        "gpMargin": "0.320047",
+        "netProfit": "1162645824.580000",
+        "epsTTM": "2.035765",
+        "MBRevenue": "6476092194.110000",
+        "totalShare": "526773275.00",
+        "liqaShare": "524181885.00"
+      }
+    ],
+    "raw_sha256": "3b6879e3be6e1bc4c18af70fc75908848cf86924047abdcbae87c30c23857b4c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203041550535455_1.pdf",
+    "source_text_sha256": "e709151d465b07d26dcbfda5cb542886cd7b2d7afb9b7f8afc9dd0d87b56ac00",
+    "available_date": "2022-03-05",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "较 2020 年 增 加 2、对营业收入实施分析程序，分析毛利异常变动原因，复核收入的 30.70% ， 2021 年 度 净 利 润 为 合理性，与同行业毛利率进行对比分析，对销售量及产量进行配比 1,162,645,824.58元，较2020年净利润上 分析。 涨73.39%，本年收入明显增长且利润 3、对应收账款及预收款项的余额以及当期交易额进行函证，对未回 显著上升，本年营业收入和净利润是利 函的样本进行替代测试。 尔化"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002258",
+        "pubDate": "2023-03-02",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.295990",
+        "npMargin": "0.199777",
+        "gpMargin": "0.319796",
+        "netProfit": "2024970762.160000",
+        "epsTTM": "2.264366",
+        "MBRevenue": "10136144223.660000",
+        "totalShare": "800437228.00",
+        "liqaShare": "797465374.00"
+      }
+    ],
+    "raw_sha256": "3b6879e3be6e1bc4c18af70fc75908848cf86924047abdcbae87c30c23857b4c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202303011583921583_1.pdf",
+    "source_text_sha256": "1e44095fc8273746f9cdec3fb0bbbc9eae751e71f2f1e3d61e1dc377eaeb0e16",
+    "available_date": "2023-03-02",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": ",136,144,223.66 元 ， 较 2021 年 增 加 因，复核收入的合理性，与同行业毛利率进行对比分 56.08% ， 2022 年 度 净 利 润 为 析，对销售量及产量进行配比分析。 2,024,970,762.16 元，较 2021 年净利润上涨 3、对应收账款及预收款项的余额以及当期交易额进行 74.17%，本年收入明显增长且利润显著上升， 函证，对未回函的样本进行替代测试。 本年营业收入和净利润是利尔化学考"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002258",
+        "pubDate": "2024-03-23",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.081815",
+        "npMargin": "0.097732",
+        "gpMargin": "0.233415",
+        "netProfit": "767258152.030000",
+        "epsTTM": "0.754448",
+        "MBRevenue": "7850607495.620000",
+        "totalShare": "800437228.00",
+        "liqaShare": "799150345.00"
+      }
+    ],
+    "raw_sha256": "3b6879e3be6e1bc4c18af70fc75908848cf86924047abdcbae87c30c23857b4c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202403221627620130_1.pdf",
+    "source_text_sha256": "b4972deebe0be0cdb8aea943816c94722af222e93adb5d2ef8aa6d42d216084c",
+    "available_date": "2024-03-23",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "损总额以“－”号填列） 877,174,787.08 2,366,855,435.26 减：所得税费用 109,916,635.05 341,847,303.73 五、净利润（净亏损以“－”号填列） 767,258,152.03 2,025,008,131.53 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 767,258,152.03 2,025,008,131.53 2.终止经营净利润（净亏损以“－"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002258",
+        "pubDate": "2025-03-28",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.028298",
+        "npMargin": "0.040820",
+        "gpMargin": "0.160646",
+        "netProfit": "298426903.770000",
+        "epsTTM": "0.269024",
+        "MBRevenue": "7297768882.920000",
+        "totalShare": "800437228.00",
+        "liqaShare": "799150345.00"
+      }
+    ],
+    "raw_sha256": "3b6879e3be6e1bc4c18af70fc75908848cf86924047abdcbae87c30c23857b4c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503271648198911_1.pdf",
+    "source_text_sha256": "066ada160cca402cd04f843419316ed90a4b95cee5a3ae02d7219a74a2185fda",
+    "available_date": "2025-03-28",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "额（亏损总额以“－”号填列） 342,516,769.28 877,174,787.08 减：所得税费用 44,089,865.51 109,916,635.05 五、净利润（净亏损以“－”号填列） 298,426,903.77 767,258,152.03 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 298,426,903.77 767,258,152.03 2.终止经营净利润（净亏损以“－”号填列"
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600335",
+        "pubDate": "2021-04-27",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.041362",
+        "npMargin": "0.005671",
+        "gpMargin": "0.085489",
+        "netProfit": "250300373.670000",
+        "epsTTM": "0.293409",
+        "MBRevenue": "43895946051.970000",
+        "totalShare": "1456875351.00",
+        "liqaShare": "1029736837.00"
+      }
+    ],
+    "raw_sha256": "7a994332f093e89df182f31a1b7ab642463a34a02720dbcb36812beb78145a9b",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104261487905056_1.pdf",
+    "source_text_sha256": "a4107c0185ced6de2fe6683a5b9b5c9d80178db08e053ba5e8cb383b1b130cec",
+    "available_date": "2021-04-27",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "以“－”号填列） 498,785,173.13 702,471,462.67 减：所得税费用 七、58 248,484,799.46 157,790,743.07 五、净利润（净亏损以“－”号填列） 250,300,373.67 544,680,719.60 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填 384,596,754.02 565,389,052.90 列） 2.终止经营净利润（净亏损以“－”号填"
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600335",
+        "pubDate": "2022-04-13",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.024251",
+        "npMargin": "0.006316",
+        "gpMargin": "0.074250",
+        "netProfit": "277567370.170000",
+        "epsTTM": "0.175800",
+        "MBRevenue": "43647793469.080000",
+        "totalShare": "1456875351.00",
+        "liqaShare": "1029736837.00"
+      }
+    ],
+    "raw_sha256": "7a994332f093e89df182f31a1b7ab642463a34a02720dbcb36812beb78145a9b",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204121558842669_1.pdf",
+    "source_text_sha256": "072a8aaebe79d3182a1b93bf7f14e18aec78bd2c640e74ee3e7ab5d3ab9c42d1",
+    "available_date": "2022-04-13",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "以“－”号填列） 428,352,230.83 498,785,173.13 减：所得税费用 七、60 150,784,860.66 248,484,799.46 五、净利润（净亏损以“－”号填列） 277,567,370.17 250,300,373.67 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号 302,060,373.75 433,946,977.35 填列） 2.终止经营净利润（净亏损以“－”号 "
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600335",
+        "pubDate": "2023-04-26",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.029196",
+        "npMargin": "0.007779",
+        "gpMargin": "0.081409",
+        "netProfit": "307823829.760000",
+        "epsTTM": "0.218669",
+        "MBRevenue": "39331099542.420000",
+        "totalShare": "1456875351.00",
+        "liqaShare": "1456875351.00"
+      }
+    ],
+    "raw_sha256": "7a994332f093e89df182f31a1b7ab642463a34a02720dbcb36812beb78145a9b",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304251585802738_1.pdf",
+    "source_text_sha256": "a9b8d1e2ccc8716ea4014664c75adb8ab9b3073cbf1e34865f19fb2dd81961ae",
+    "available_date": "2023-04-26",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "以“－”号填列） 485,538,770.18 428,352,230.83 减：所得税费用 七、60 177,714,940.42 150,784,860.66 五、净利润（净亏损以“－”号填列） 307,823,829.76 277,567,370.17 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号 306,769,573.91 301,310,148.22 填列） 2.终止经营净利润（净亏损以“－”号 "
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600335",
+        "pubDate": "2024-04-26",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.001876",
+        "npMargin": "0.000448",
+        "gpMargin": "0.071813",
+        "netProfit": "19485398.840000",
+        "epsTTM": "0.013900",
+        "MBRevenue": "43148330950.850000",
+        "totalShare": "1495788692.00",
+        "liqaShare": "1495788692.00"
+      }
+    ],
+    "raw_sha256": "7a994332f093e89df182f31a1b7ab642463a34a02720dbcb36812beb78145a9b",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404251631310758_1.pdf",
+    "source_text_sha256": "196faf0aac8fd2371bd3454fa5ab519e9c08b1d7daad23ea910ffc4ed168520e",
+    "available_date": "2024-04-26",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "“－”号填 152,545,755.16 485,538,770.18 列） 减：所得税费用 七、61 133,060,356.32 177,714,940.42 五、净利润（净亏损以“－”号填列） 19,485,398.84 307,823,829.76 （一）按经营持续性分类 1.持续经营净利润（净亏损以 19,485,398.84 306,769,573.91 “－”号填列） 2.终止经营净利润（净亏损以 1,054"
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600335",
+        "pubDate": "2025-04-25",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.035169",
+        "npMargin": "0.009520",
+        "gpMargin": "0.072550",
+        "netProfit": "400078563.920000",
+        "epsTTM": "0.262376",
+        "MBRevenue": "41551950691.250000",
+        "totalShare": "1495788692.00",
+        "liqaShare": "1495788692.00"
+      }
+    ],
+    "raw_sha256": "7a994332f093e89df182f31a1b7ab642463a34a02720dbcb36812beb78145a9b",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504241661714411_1.pdf",
+    "source_text_sha256": "9f71b805484d190e2ce682adea52bf092cd844f968061a31521b6dcfdc3e8ef4",
+    "available_date": "2025-04-25",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "以“－”号填列） 529,345,028.02 152,545,755.16 减：所得税费用 七、61 129,266,464.10 133,060,356.32 五、净利润（净亏损以“－”号填列） 400,078,563.92 19,485,398.84 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 400,078,563.92 19,485,398.84 2.终止经营净利润（净亏损以“－”号填列） "
+  },
+  {
+    "code": "sh.688327",
+    "statDate": "2020-12-31",
+    "provider_rows": [],
+    "raw_sha256": "1d6eaee1ad90924ee96291bd393978a8b4af6ccfee8362a9bb20ac05c051e5b1",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.688327",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688327",
+        "pubDate": "2022-04-07",
+        "statDate": "2021-12-31",
+        "roeAvg": "-0.452191",
+        "npMargin": "-0.617492",
+        "gpMargin": "0.370124",
+        "netProfit": "-664112564.820000",
+        "epsTTM": "-1.006188",
+        "MBRevenue": "1070425500.000000",
+        "totalShare": "628240562.00",
+        "liqaShare": ""
+      }
+    ],
+    "raw_sha256": "1d6eaee1ad90924ee96291bd393978a8b4af6ccfee8362a9bb20ac05c051e5b1",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.688327",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688327",
+        "pubDate": "2023-04-18",
+        "statDate": "2022-12-31",
+        "roeAvg": "-0.532393",
+        "npMargin": "-1.740783",
+        "gpMargin": "0.340579",
+        "netProfit": "-916323486.130000",
+        "epsTTM": "-1.173145",
+        "MBRevenue": "525148107.090000",
+        "totalShare": "740670562.00",
+        "liqaShare": "81669500.00"
+      }
+    ],
+    "raw_sha256": "1d6eaee1ad90924ee96291bd393978a8b4af6ccfee8362a9bb20ac05c051e5b1",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304171585506726_1.pdf",
+    "source_text_sha256": "4f92c3e84370bd17739ae273fb4539e035da317ce25b5abf043f17b6ef341164",
+    "available_date": "2023-04-18",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "损总额以“－”号填 -916,372,138.28 -661,276,991.40 列） 减：所得税费用 七、75 -48,652.15 2,835,573.42 五、净利润（净亏损以“－”号填列） -916,323,486.13 -664,112,564.82 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－” -916,323,486.13 -664,112,564.82 号填列） 2.终止经营净利润（净亏损以“－"
+  },
+  {
+    "code": "sh.688327",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688327",
+        "pubDate": "2024-04-18",
+        "statDate": "2023-12-31",
+        "roeAvg": "-0.346320",
+        "npMargin": "-1.046577",
+        "gpMargin": "0.521979",
+        "netProfit": "-657378323.330000",
+        "epsTTM": "-0.620535",
+        "MBRevenue": "626799517.600000",
+        "totalShare": "1036938787.00",
+        "liqaShare": "747734069.00"
+      }
+    ],
+    "raw_sha256": "1d6eaee1ad90924ee96291bd393978a8b4af6ccfee8362a9bb20ac05c051e5b1",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404171630446364_1.pdf",
+    "source_text_sha256": "8d64feaa8ca9cd6be1187db4868225e4648081e8f35bfd9afc38e028d0b5be86",
+    "available_date": "2024-04-18",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": " 列） 减：所得税费用 七、76 2,687,913.08 -24,350.67 246/408 2023 年年度报告 项目 附注 2023 年度 2022 年度 五、净利润（净亏损以“－”号填列） -657,378,323.33 -916,347,787.61 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填 -657,378,323.33 -916,347,787.61 列） 2.终止经营净利润（净亏损以“－"
+  },
+  {
+    "code": "sh.688327",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688327",
+        "pubDate": "2025-04-30",
+        "statDate": "2024-12-31",
+        "roeAvg": "-0.507672",
+        "npMargin": "-1.774440",
+        "gpMargin": "0.358135",
+        "netProfit": "-705667667.510000",
+        "epsTTM": "-0.670905",
+        "MBRevenue": "396788133.310000",
+        "totalShare": "1036938787.00",
+        "liqaShare": "752008860.00"
+      }
+    ],
+    "raw_sha256": "1d6eaee1ad90924ee96291bd393978a8b4af6ccfee8362a9bb20ac05c051e5b1",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504291664565165_1.pdf",
+    "source_text_sha256": "5c8c9b292f8080ae89406eeabf715cdd894524b7b0dc6e9f55d4cf93cc53210b",
+    "available_date": "2025-04-30",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "以“－”号 -708,525,376.44 -654,690,410.25 填列） 减：所得税费用 七、76 -2,857,708.93 2,687,913.08 五、净利润（净亏损以“－”号填列） -705,667,667.51 -657,378,323.33 （一）按经营持续性分类 1.持续经营净利润（净亏损以 -705,667,667.51 -657,378,323.33 “－”号填列） 2.终止经营净利润（净亏损以 “"
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603773",
+        "pubDate": "2021-03-15",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.008733",
+        "npMargin": "0.023356",
+        "gpMargin": "0.286922",
+        "netProfit": "14110621.930000",
+        "epsTTM": "0.149168",
+        "MBRevenue": "592446257.120000",
+        "totalShare": "94595556.00",
+        "liqaShare": "64327305.00"
+      }
+    ],
+    "raw_sha256": "e17b78f6e569eb0969ca4350d976a5357184755d3984a1a120e23d56102d44e3",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103141471838035_1.pdf",
+    "source_text_sha256": "b85628781f4f6a1b9c4ff3ac7f576fdb70b1a0293a63e4dc21bb830daec27efb",
+    "available_date": "2021-03-15",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "主要会计数据 2020年 2019年 年同期增 2018年 减(%) 营业收入 604,157,536.52 524,324,061.46 15.23 699,797,355.42 归属于上市公司股 14,110,621.93 50,904,512.75 -72.28 158,046,909.86 东的净利润 归属于上市公司股 5,339,495.48 38,841,598.98 -86.25 142,082,122.88"
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603773",
+        "pubDate": "2022-03-15",
+        "statDate": "2021-12-31",
+        "roeAvg": "-0.017072",
+        "npMargin": "-0.016421",
+        "gpMargin": "0.221055",
+        "netProfit": "-17241939.040000",
+        "epsTTM": "-0.219548",
+        "MBRevenue": "1035992140.640000",
+        "totalShare": "122355713.00",
+        "liqaShare": "122355713.00"
+      }
+    ],
+    "raw_sha256": "e17b78f6e569eb0969ca4350d976a5357184755d3984a1a120e23d56102d44e3",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203141552602278_1.pdf",
+    "source_text_sha256": "aa6013cd5943792cedc10c56d6e344b76ae46d0e22703e99c41bd412fa96ced1",
+    "available_date": "2022-03-15",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": ",116.24 35.34 营业利润 -9,574,776.26 21,244,728.92 -145.07 利润总额 -9,156,680.90 20,084,738.17 -145.59 净利润 -17,241,939.04 14,110,621.93 -222.19 营业收入变动原因说明：主要是本期合并范围增加和平板显示器件销量增加所致。 营业成本变动原因说明：主要是本期营业收入增加，营业成本相应增加所致。 销售费用变"
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603773",
+        "pubDate": "2023-04-27",
+        "statDate": "2022-12-31",
+        "roeAvg": "-0.225793",
+        "npMargin": "-0.217750",
+        "gpMargin": "0.222352",
+        "netProfit": "-304563225.590000",
+        "epsTTM": "-1.887970",
+        "MBRevenue": "1382048433.320000",
+        "totalShare": "173862774.00",
+        "liqaShare": "156382217.00"
+      }
+    ],
+    "raw_sha256": "e17b78f6e569eb0969ca4350d976a5357184755d3984a1a120e23d56102d44e3",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304261585903659_1.pdf",
+    "source_text_sha256": "ccac0065e577f1e6df9416e088b45af60791f954933b18a16b658413a63804a3",
+    "available_date": "2023-04-27",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "60.04 营业利润 -269,453,024.48 -9,574,776.26 -2,714.20 利润总额 -283,538,475.47 -9,156,680.90 -2,996.52 净利润 -304,563,225.59 -17,241,939.04 -1,666.41 营业收入变动原因说明：主要是本期平板显示器件销量增加所致。 营业成本变动原因说明：主要是本期营业收入增加，营业成本相应增加所致。 销售费用变动原因说"
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603773",
+        "pubDate": "2024-04-20",
+        "statDate": "2023-12-31",
+        "roeAvg": "-0.003300",
+        "npMargin": "0.017283",
+        "gpMargin": "0.202137",
+        "netProfit": "31344457.220000",
+        "epsTTM": "-0.026494",
+        "MBRevenue": "1801470893.280000",
+        "totalShare": "171382564.00",
+        "liqaShare": "156382217.00"
+      }
+    ],
+    "raw_sha256": "e17b78f6e569eb0969ca4350d976a5357184755d3984a1a120e23d56102d44e3",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404191630660252_1.pdf",
+    "source_text_sha256": "61022585d553ef9fe492e607607bfca8004920f939de9c1e2db5ba08abf3a3eb",
+    "available_date": "2024-04-20",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "074,987.86 -269,453,024.48 113.39 24 / 311 2023 年年度报告 利润总额 36,584,376.18 -283,538,475.47 112.90 净利润 31,344,457.22 -304,563,593.30 110.29 营业收入变动原因说明：主要是本期光电显示器件产品增加所致。 营业成本变动原因说明：主要是本期营业收入增加，营业成本相应增加所致。 销售费用变动原因说明："
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603773",
+        "pubDate": "2025-04-25",
+        "statDate": "2024-12-31",
+        "roeAvg": "-0.093037",
+        "npMargin": "-0.040779",
+        "gpMargin": "0.171490",
+        "netProfit": "-90563120.810000",
+        "epsTTM": "-0.548402",
+        "MBRevenue": "2217368891.900000",
+        "totalShare": "223125633.00",
+        "liqaShare": "203647282.00"
+      }
+    ],
+    "raw_sha256": "e17b78f6e569eb0969ca4350d976a5357184755d3984a1a120e23d56102d44e3",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504241661774815_1.pdf",
+    "source_text_sha256": "23749d1316f67739b88eb7a9b2d83e4da20fa6f39537ceec09c6239a938938ba",
+    "available_date": "2025-04-25",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "8.96 472.68 营业利润 -53,813,183.40 36,074,987.86 -249.17 利润总额 -60,555,009.74 36,584,376.18 -265.52 净利润 -90,563,120.81 31,344,457.22 -388.93 营业收入变动原因说明：主要是本期光电显示器件产品销售增加所致。 营业成本变动原因说明：主要是本期营业收入增加，营业成本相应增加所致。 销售费用变动原因说明"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603286",
+        "pubDate": "2021-04-29",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.031966",
+        "npMargin": "0.034568",
+        "gpMargin": "0.230834",
+        "netProfit": "17090708.960000",
+        "epsTTM": "0.167550",
+        "MBRevenue": "486282007.110000",
+        "totalShare": "88076000.00",
+        "liqaShare": "88076000.00"
+      }
+    ],
+    "raw_sha256": "a781e86b3781e45f4aef275a04d315768ba73afa91555ff857f4151bc9015170",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104281488381013_1.pdf",
+    "source_text_sha256": "ccd3f4657057f9f08ec8ba296a5d33d88c14def6860b7e7890bc47cdbbd96bab",
+    "available_date": "2021-04-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "利润总额（亏损总额以“－” 19,277,497.77 30,917,988.00 号填列） 减：所得税费用 76 2,186,788.81 2,831,482.07 五、净利润（净亏损以“－”号填 17,090,708.96 28,086,505.93 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 “－”号填列） 2.终止经营净利润（净亏损以 “－”号填列） （二）按所有权归属分类 1.归属于母公司股东的净"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603286",
+        "pubDate": "2022-04-28",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.022916",
+        "npMargin": "0.024340",
+        "gpMargin": "0.222850",
+        "netProfit": "14157611.760000",
+        "epsTTM": "0.121452",
+        "MBRevenue": "573288692.340000",
+        "totalShare": "89126000.00",
+        "liqaShare": "88076000.00"
+      }
+    ],
+    "raw_sha256": "a781e86b3781e45f4aef275a04d315768ba73afa91555ff857f4151bc9015170",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204271561941608_1.pdf",
+    "source_text_sha256": "7e2ead396e31bb26730f12389d4b460c85a9553c10771af9221252f34996bcb1",
+    "available_date": "2022-04-28",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "利润总额（亏损总额以“－” 15,528,221.79 19,277,497.77 号填列） 减：所得税费用 14 1,370,610.03 2,186,788.81 五、净利润（净亏损以“－”号填 14,157,611.76 17,090,708.96 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 14,157,611.76 17,090,708.96 “－”号填列） 2.终止经营净利润（净亏损以 “－”号"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603286",
+        "pubDate": "2023-04-28",
+        "statDate": "2022-12-31",
+        "roeAvg": "-0.037020",
+        "npMargin": "-0.019315",
+        "gpMargin": "0.147611",
+        "netProfit": "-13741711.420000",
+        "epsTTM": "-0.196511",
+        "MBRevenue": "698125748.510000",
+        "totalShare": "88076000.00",
+        "liqaShare": "88076000.00"
+      }
+    ],
+    "raw_sha256": "a781e86b3781e45f4aef275a04d315768ba73afa91555ff857f4151bc9015170",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304271585943067_1.pdf",
+    "source_text_sha256": "2ac36383f699baf7dde793991944ed8b96435133fd378470d33f6a2d45a9cbe4",
+    "available_date": "2023-04-28",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "、利润总额（亏损总额以“－” -20,030,530.47 15,528,221.79 号填列） 减：所得税费用 -6,288,819.05 1,370,610.03 五、净利润（净亏损以“－”号填 -13,741,711.42 14,157,611.76 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 -13,741,711.42 14,157,611.76 “－”号填列） 2.终止经营净利润（净亏损以 “－”"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603286",
+        "pubDate": "2024-04-27",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.012071",
+        "npMargin": "0.015195",
+        "gpMargin": "0.186828",
+        "netProfit": "11577648.260000",
+        "epsTTM": "0.069493",
+        "MBRevenue": "748465564.630000",
+        "totalShare": "114303931.00",
+        "liqaShare": "88076000.00"
+      }
+    ],
+    "raw_sha256": "a781e86b3781e45f4aef275a04d315768ba73afa91555ff857f4151bc9015170",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404261631388009_1.pdf",
+    "source_text_sha256": "0fd3190e2966519f9d80db91a281a771915eac409112975b4711cca9aefc195c",
+    "available_date": "2024-04-27",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "（亏损总额以“－” 9,058,669.73 -20,030,530.47 号填列） 减：所得税费用 七-76 -2,518,978.53 -6,288,819.05 五、净利润（净亏损以“－”号填 11,577,648.26 -13,741,711.42 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 11,577,648.26 -13,741,711.42 “－”号填列） 2.终止经营净利润（净亏损以 “－"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603286",
+        "pubDate": "2025-03-29",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.012985",
+        "npMargin": "0.017644",
+        "gpMargin": "0.185634",
+        "netProfit": "17126347.930000",
+        "epsTTM": "0.096335",
+        "MBRevenue": "956920754.980000",
+        "totalShare": "116624931.00",
+        "liqaShare": "114303931.00"
+      }
+    ],
+    "raw_sha256": "a781e86b3781e45f4aef275a04d315768ba73afa91555ff857f4151bc9015170",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503281648682369_1.pdf",
+    "source_text_sha256": "9956bc7ce770dace8e8f0d55c587d88646b6e7cd66de9c894f481e1fc1705af0",
+    "available_date": "2025-03-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "利润总额（亏损总额以“－” 17,590,523.03 9,058,669.73 号填列） 减：所得税费用 七-76 464,175.10 -2,518,978.53 五、净利润（净亏损以“－”号填 17,126,347.93 11,577,648.26 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 17,126,347.93 11,577,648.26 “－”号填列） 2.终止经营净利润（净亏损以 “－”号"
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600653",
+        "pubDate": "2021-03-31",
+        "statDate": "2020-12-31",
+        "roeAvg": "-0.507291",
+        "npMargin": "-0.098813",
+        "gpMargin": "0.086101",
+        "netProfit": "-681620010.370000",
+        "epsTTM": "-0.388203",
+        "MBRevenue": "6779273405.990000",
+        "totalShare": "1946380317.00",
+        "liqaShare": "1946380317.00"
+      }
+    ],
+    "raw_sha256": "6271df978245a7de717f33ca3186df365cf9ac0fc07b85b1e56577a8d41bbafd",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103301478575965_1.pdf",
+    "source_text_sha256": "9b9679b34772e40a1969ea96d0fb6218b4887c75a6401cc35db0e9527e51e760",
+    "available_date": "2021-03-31",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "以“－”号填列） -613,273,988.27 -164,931,910.97 减：所得税费用 7.53 68,346,022.10 34,448,359.43 五、净利润（净亏损以“－”号填列） -681,620,010.37 -199,380,270.40 （一）按经营持续性分类 60 / 170 2020 年年度报告 1.持续经营净利润（净亏损以“－”号 -681,620,010.37 -199,380,270.40 "
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600653",
+        "pubDate": "2022-03-31",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.036347",
+        "npMargin": "0.019852",
+        "gpMargin": "0.100893",
+        "netProfit": "140909253.550000",
+        "epsTTM": "0.021239",
+        "MBRevenue": "6953823271.500000",
+        "totalShare": "1946380317.00",
+        "liqaShare": "1946380317.00"
+      }
+    ],
+    "raw_sha256": "6271df978245a7de717f33ca3186df365cf9ac0fc07b85b1e56577a8d41bbafd",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203301556120181_1.pdf",
+    "source_text_sha256": "41d927755e907b1e9493de894fef600ff2a92d892d0667f38061589b1df5d2e3",
+    "available_date": "2022-03-31",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "额以“－”号填列） 208,007,887.38 -613,273,988.27 减：所得税费用 7.55 67,098,633.83 68,346,022.10 五、净利润（净亏损以“－”号填列） 140,909,253.55 -681,620,010.37 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） 140,909,253.55 -681,620,010.37 2.终止经营净利润（净亏损以“－”号"
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600653",
+        "pubDate": "2023-04-28",
+        "statDate": "2022-12-31",
+        "roeAvg": "-0.159044",
+        "npMargin": "-0.024639",
+        "gpMargin": "0.070805",
+        "netProfit": "-146571279.580000",
+        "epsTTM": "-0.088732",
+        "MBRevenue": "5948821734.840000",
+        "totalShare": "1946380317.00",
+        "liqaShare": "1946380317.00"
+      }
+    ],
+    "raw_sha256": "6271df978245a7de717f33ca3186df365cf9ac0fc07b85b1e56577a8d41bbafd",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304271585982782_1.pdf",
+    "source_text_sha256": "82e61cbb8c20cdd081f84d465b98893c7feacca050d1b2cad768314cf40bbb8d",
+    "available_date": "2023-04-28",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "额以“－”号填列） -128,806,967.36 208,007,887.38 减：所得税费用 7.55 17,764,312.22 67,098,633.83 五、净利润（净亏损以“－”号填列） -146,571,279.58 140,909,253.55 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填列） -146,571,279.58 140,909,253.55 2.终止经营净利润（净亏损以“－”号填"
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600653",
+        "pubDate": "2024-04-27",
+        "statDate": "2023-12-31",
+        "roeAvg": "-0.223330",
+        "npMargin": "-0.036035",
+        "gpMargin": "0.069550",
+        "netProfit": "-185248679.900000",
+        "epsTTM": "-0.102126",
+        "MBRevenue": "4861911882.350000",
+        "totalShare": "1946380317.00",
+        "liqaShare": "1946380317.00"
+      }
+    ],
+    "raw_sha256": "6271df978245a7de717f33ca3186df365cf9ac0fc07b85b1e56577a8d41bbafd",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404261631404999_1.pdf",
+    "source_text_sha256": "d56a333df6c63e9773af8caaeccb8437dae5c7fc630bd2412db3c3953a35edc4",
+    "available_date": "2024-04-27",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": ",209.55 -128,806,967.36 列） 减：所得税费用 3,577,470.35 17,764,312.22 61 / 182 2023 年年度报告 五、净利润（净亏损以“－”号填列） -185,248,679.90 -146,571,279.58 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－” -185,248,679.90 -146,571,279.58 号填列） 2.终止经营净利润（净亏损以“－"
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600653",
+        "pubDate": "2025-03-29",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.048111",
+        "npMargin": "0.007537",
+        "gpMargin": "0.067240",
+        "netProfit": "31607067.830000",
+        "epsTTM": "0.019831",
+        "MBRevenue": "3854992998.160000",
+        "totalShare": "1946380317.00",
+        "liqaShare": "1946380317.00"
+      }
+    ],
+    "raw_sha256": "6271df978245a7de717f33ca3186df365cf9ac0fc07b85b1e56577a8d41bbafd",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503281648775154_1.pdf",
+    "source_text_sha256": "8c97521fe4562e8c4eda4d780e4eaed86d226145208e3fa4b72c2764589d61ba",
+    "available_date": "2025-03-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "总额以“－”号填 29,690,596.03 -181,671,209.55 列） 减：所得税费用 7.53 -1,916,471.80 3,577,470.35 五、净利润（净亏损以“－”号填列） 31,607,067.83 -185,248,679.90 65 / 181 辽宁申华控股股份有限公司 2024 年年度报告 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－” -83,723,096.29 -179,"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.601666",
+        "pubDate": "2021-04-27",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.092674",
+        "npMargin": "0.072665",
+        "gpMargin": "0.279853",
+        "netProfit": "1627520039.870000",
+        "epsTTM": "0.596092",
+        "MBRevenue": "21536374048.590000",
+        "totalShare": "2327704469.00",
+        "liqaShare": "2327704469.00"
+      }
+    ],
+    "raw_sha256": "79297a5401b7931c69a8a82e8a295a1def516b833b180ec6554a094e2b0c2010",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104261487952319_1.pdf",
+    "source_text_sha256": "8a640d32c470f098df71d38a036481386fbfbbdfdad239f3f3817230e5507d82",
+    "available_date": "2021-04-27",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "以“－”号 2,212,370,873.30 1,715,632,554.48 填列） 减：所得税费用 584,850,833.43 388,509,205.37 五、净利润（净亏损以“－”号填列） 1,627,520,039.87 1,327,123,349.11 （一）按经营持续性分类 1.持续经营净利润（净亏损以 1,627,520,039.87 1,327,123,349.11 “－”号填列） 2.终止经营净利润（净亏损"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.601666",
+        "pubDate": "2022-03-29",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.180347",
+        "npMargin": "0.110148",
+        "gpMargin": "0.275834",
+        "netProfit": "3271275980.570000",
+        "epsTTM": "1.244221",
+        "MBRevenue": "28559834220.970000",
+        "totalShare": "2348676469.00",
+        "liqaShare": "2327704469.00"
+      }
+    ],
+    "raw_sha256": "79297a5401b7931c69a8a82e8a295a1def516b833b180ec6554a094e2b0c2010",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203281555602174_1.pdf",
+    "source_text_sha256": "8c4b23731acebb838465e764055949570c836b7a44fcbfa9a701ac808d874dd6",
+    "available_date": "2022-03-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "－”号 4,282,381,385.81 2,212,370,873.30 填列） 减：所得税费用 1,011,105,405.24 584,850,833.43 五、净利润（净亏损以“－”号填列） 3,271,275,980.57 1,627,520,039.87 （一）按经营持续性分类 1.持续经营净利润（净亏损以 3,271,275,980.57 1,627,520,039.87 “－”号填列） 2.终止经营净利润（净亏损"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.601666",
+        "pubDate": "2023-04-07",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.297034",
+        "npMargin": "0.171493",
+        "gpMargin": "0.343787",
+        "netProfit": "6181353706.640000",
+        "epsTTM": "2.472702",
+        "MBRevenue": "35052208015.680000",
+        "totalShare": "2315215955.00",
+        "liqaShare": "2294243955.00"
+      }
+    ],
+    "raw_sha256": "79297a5401b7931c69a8a82e8a295a1def516b833b180ec6554a094e2b0c2010",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304061585193167_1.pdf",
+    "source_text_sha256": "5f22006fd79c0ea2355fefabf7c9c2a414d20f4dd23f78ffeedb72cae5580b64",
+    "available_date": "2023-04-07",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "号 8,301,821,402.47 4,282,381,385.81 填列） 减：所得税费用 2,120,467,695.83 1,011,105,405.24 五、净利润（净亏损以“－”号填列） 6,181,353,706.64 3,271,275,980.57 （一）按经营持续性分类 1.持续经营净利润（净亏损以 6,181,353,706.64 3,271,275,980.57 “－”号填列） 2.终止经营净利润（净亏损"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.601666",
+        "pubDate": "2024-03-19",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.165305",
+        "npMargin": "0.134660",
+        "gpMargin": "0.314517",
+        "netProfit": "4250053163.080000",
+        "epsTTM": "1.706400",
+        "MBRevenue": "30814727652.480000",
+        "totalShare": "2345679317.00",
+        "liqaShare": "2333393717.00"
+      }
+    ],
+    "raw_sha256": "79297a5401b7931c69a8a82e8a295a1def516b833b180ec6554a094e2b0c2010",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202403181626984965_1.pdf",
+    "source_text_sha256": "e75b5d8bcdc866a13309ba8fe6158bbc8db3629e8356882886d5e3f4aba33195",
+    "available_date": "2024-03-19",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "－” 5,672,705,061.98 8,301,821,402.47 号填列） 减：所得税费用 1,422,651,898.90 2,104,482,583.67 五、净利润（净亏损以“－”号填 4,250,053,163.08 6,197,338,818.80 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 4,250,053,163.08 6,197,338,818.80 “－”号填列） 2.终止经营净利润（"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.601666",
+        "pubDate": "2025-03-21",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.088940",
+        "npMargin": "0.084379",
+        "gpMargin": "0.260358",
+        "netProfit": "2555118627.480000",
+        "epsTTM": "0.949261",
+        "MBRevenue": "27103709806.360000",
+        "totalShare": "2475146538.00",
+        "liqaShare": "2469348738.00"
+      }
+    ],
+    "raw_sha256": "79297a5401b7931c69a8a82e8a295a1def516b833b180ec6554a094e2b0c2010",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503201645227940_1.pdf",
+    "source_text_sha256": "bac78807b2ab2048c2c73d3222330edece4745fa4a1b0ca124548234c1b2e7a7",
+    "available_date": "2025-03-21",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "额以“－” 3,458,440,401.11 5,693,913,309.46 号填列） 减：所得税费用 903,321,773.63 1,426,926,061.42 五、净利润（净亏损以“－”号 2,555,118,627.48 4,266,987,248.04 填列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 2,555,118,627.48 4,266,987,248.04 “－”号填列） 2.终止经营净利润"
+  },
+  {
+    "code": "sh.603324",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603324",
+        "pubDate": "2021-03-12",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.189375",
+        "npMargin": "0.129683",
+        "gpMargin": "0.278165",
+        "netProfit": "121609489.820000",
+        "epsTTM": "1.308572",
+        "MBRevenue": "936002968.800000",
+        "totalShare": "92932996.00",
+        "liqaShare": ""
+      }
+    ],
+    "raw_sha256": "eb99a942eb8f9d668d87e212e21a55dd79b97eff18e03f524fa6ac3e5ca6dc13",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.603324",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603324",
+        "pubDate": "2022-04-27",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.145992",
+        "npMargin": "0.123558",
+        "gpMargin": "0.272150",
+        "netProfit": "152351023.920000",
+        "epsTTM": "1.217673",
+        "MBRevenue": "1230165184.910000",
+        "totalShare": "125116500.00",
+        "liqaShare": "30987004.00"
+      }
+    ],
+    "raw_sha256": "eb99a942eb8f9d668d87e212e21a55dd79b97eff18e03f524fa6ac3e5ca6dc13",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204261561735190_1.pdf",
+    "source_text_sha256": "47b1e58466c04499433fdeafa80bf1f71cc09e13dc856234801fc28d806fb356",
+    "available_date": "2022-04-27",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "计数据 2021年 2020年 2019年 增减(%) 营业收入 1,233,029,658.53 937,742,067.28 31.49 885,709,412.41 归属于上市公 司股东的净利 152,351,023.92 121,609,489.82 25.28 113,374,614.69 润 归属于上市公 司股东的扣除 141,995,603.14 109,853,417.21 29.26 107,084,569"
+  },
+  {
+    "code": "sh.603324",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603324",
+        "pubDate": "2023-04-26",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.092786",
+        "npMargin": "0.098091",
+        "gpMargin": "0.280099",
+        "netProfit": "130311059.940000",
+        "epsTTM": "1.041899",
+        "MBRevenue": "1326043767.170000",
+        "totalShare": "125070700.00",
+        "liqaShare": "44379801.00"
+      }
+    ],
+    "raw_sha256": "eb99a942eb8f9d668d87e212e21a55dd79b97eff18e03f524fa6ac3e5ca6dc13",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304251585803742_1.pdf",
+    "source_text_sha256": "18ba0c937634bd500c0ff9c6357f79b2deebb391a09fe16d6c99e6aa40918f47",
+    "available_date": "2023-04-26",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "计数据 2022年 2021年 同期增减 2020年 (%) 营业收入 1,328,476,823.18 1,233,029,658.53 7.74 937,742,067.28 归属于上市公司股东 130,311,059.94 152,351,023.92 -14.47 121,609,489.82 的净利润 归属于上市公司股东 的扣除非经常性损益 119,393,504.35 141,995,603.14 -15.92 "
+  },
+  {
+    "code": "sh.603324",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603324",
+        "pubDate": "2024-04-19",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.109679",
+        "npMargin": "0.090592",
+        "gpMargin": "0.266012",
+        "netProfit": "165421264.420000",
+        "epsTTM": "1.326685",
+        "MBRevenue": "1821977199.140000",
+        "totalShare": "124703500.00",
+        "liqaShare": "44379801.00"
+      }
+    ],
+    "raw_sha256": "eb99a942eb8f9d668d87e212e21a55dd79b97eff18e03f524fa6ac3e5ca6dc13",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404181630515957_1.pdf",
+    "source_text_sha256": "59ed773c19c03df552b0941901ffa776a6315ce0ab3274ac78c477c4593996eb",
+    "available_date": "2024-04-19",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "损总额以“－”号 179,601,890.26 141,499,412.49 填列） 减：所得税费用 七、76 14,180,625.84 11,188,352.55 五、净利润（净亏损以“－”号填 165,421,264.42 130,311,059.94 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 165,421,264.42 130,311,059.94 “－”号填列） 2.终止经营净利润（净亏损以 “"
+  },
+  {
+    "code": "sh.603324",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603324",
+        "pubDate": "2025-04-24",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.073251",
+        "npMargin": "0.083637",
+        "gpMargin": "0.287721",
+        "netProfit": "121357240.300000",
+        "epsTTM": "0.802176",
+        "MBRevenue": "1449377722.120000",
+        "totalShare": "149462500.00",
+        "liqaShare": "149074060.00"
+      }
+    ],
+    "raw_sha256": "eb99a942eb8f9d668d87e212e21a55dd79b97eff18e03f524fa6ac3e5ca6dc13",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504231661141894_1.pdf",
+    "source_text_sha256": "2a06b1b8f34bf1c0790a5a72d89649286cd0dab6e30ea212fc37fa12142f6629",
+    "available_date": "2025-04-24",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "额以“－”号 135,611,691.61 179,601,890.26 填列） 减：所得税费用 七、76 14,254,451.31 14,180,625.84 五、净利润（净亏损以“－”号填列） 121,357,240.30 165,421,264.42 （一）按经营持续性分类 1.持续经营净利润（净亏损以 121,357,240.30 165,421,264.42 “－”号填列） 2.终止经营净利润（净亏损以 “－”号"
+  },
+  {
+    "code": "sh.600086",
+    "statDate": "2018-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600086",
+        "pubDate": "2019-04-30",
+        "statDate": "2018-12-31",
+        "roeAvg": "-0.731812",
+        "npMargin": "-0.580382",
+        "gpMargin": "-0.052225",
+        "netProfit": "-1718497530.380000",
+        "epsTTM": "-1.272926",
+        "MBRevenue": "2960978595.370000",
+        "totalShare": "1350000000.00",
+        "liqaShare": "1056845016.00"
+      }
+    ],
+    "raw_sha256": "c253c4e404c76fe64e28423e9f06aa3143cb6e82ed4f6a1f68a7a8d693121d39",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201904301324511109_1.pdf",
+    "source_text_sha256": "ab210a920b3fbdbc8381a2543e6af301e74b8ce0fdc2ccedde0dc47d2d89845f",
+    "available_date": "2019-04-30",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "” -2,279,232,430.45 308,803,937.58 号填列） 减：所得税费用 注释 44 -560,734,900.07 77,705,533.85 五、净利润（净亏损以“－”号填 -1,718,497,530.38 231,098,403.73 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 -1,718,497,530.38 231,098,403.73 “－”号填列） 2.终止经营净利润（净亏损"
+  },
+  {
+    "code": "sh.600086",
+    "statDate": "2019-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600086",
+        "pubDate": "2020-06-23",
+        "statDate": "2019-12-31",
+        "roeAvg": "-2.006018",
+        "npMargin": "-33.880163",
+        "gpMargin": "-0.597910",
+        "netProfit": "-1831653686.440000",
+        "epsTTM": "-1.353645",
+        "MBRevenue": "44776026.760000",
+        "totalShare": "1350000000.00",
+        "liqaShare": "1056845016.00"
+      }
+    ],
+    "raw_sha256": "c253c4e404c76fe64e28423e9f06aa3143cb6e82ed4f6a1f68a7a8d693121d39",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202006221386654696_1.pdf",
+    "source_text_sha256": "b8b9e90ce96d44642061b07069f0b42771567953131a3b76884328236174e904",
+    "available_date": "2020-06-23",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": ",901,472,163.45 -2,279,232,430.45 填列） 减：所得税费用 七、77 -69,818,477.01 -560,734,900.07 五、净利润（净亏损以“－”号填列） -1,831,653,686.44 -1,718,497,530.38 （一）按经营持续性分类 1.持续经营净利润（净亏损以 -1,831,653,686.44 -1,718,497,530.38 “－”号填列） 2.终止经营净利润（"
+  },
+  {
+    "code": "sh.600086",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600086",
+        "pubDate": "2021-04-29",
+        "statDate": "2020-12-31",
+        "roeAvg": "",
+        "npMargin": "-635.394121",
+        "gpMargin": "-9.509990",
+        "netProfit": "-1917182800.470000",
+        "epsTTM": "-1.420135",
+        "MBRevenue": "",
+        "totalShare": "1350000000.00",
+        "liqaShare": "1056845016.00"
+      }
+    ],
+    "raw_sha256": "c253c4e404c76fe64e28423e9f06aa3143cb6e82ed4f6a1f68a7a8d693121d39",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.600086",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600086",
+        "pubDate": "2022-04-29",
+        "statDate": "2021-12-31",
+        "roeAvg": "",
+        "npMargin": "-972.250070",
+        "gpMargin": "-7.057289",
+        "netProfit": "-2098681861.050000",
+        "epsTTM": "-1.554443",
+        "MBRevenue": "872566.370000",
+        "totalShare": "1350000000.00",
+        "liqaShare": "1056845016.00"
+      }
+    ],
+    "raw_sha256": "c253c4e404c76fe64e28423e9f06aa3143cb6e82ed4f6a1f68a7a8d693121d39",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.600086",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600086",
+        "pubDate": "2023-04-27",
+        "statDate": "2022-12-31",
+        "roeAvg": "",
+        "npMargin": "-2778.892468",
+        "gpMargin": "0.988243",
+        "netProfit": "-3616217230.650000",
+        "epsTTM": "-2.678679",
+        "MBRevenue": "1301316.000000",
+        "totalShare": "1350000000.00",
+        "liqaShare": "1056845016.00"
+      }
+    ],
+    "raw_sha256": "c253c4e404c76fe64e28423e9f06aa3143cb6e82ed4f6a1f68a7a8d693121d39",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.600687",
+    "statDate": "2016-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600687",
+        "pubDate": "2017-04-22",
+        "statDate": "2016-12-31",
+        "roeAvg": "0.091911",
+        "npMargin": "0.047818",
+        "gpMargin": "0.134741",
+        "netProfit": "509920287.820000",
+        "epsTTM": "0.333218",
+        "MBRevenue": "10628328666.540000",
+        "totalShare": "1488715304.00",
+        "liqaShare": "1078539429.00"
+      }
+    ],
+    "raw_sha256": "4da6925ddfdebd6be06b1206bd5ecbe9e3e1226d47cc8436ca2a74af9dcce39b",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201704210522003961_1.pdf",
+    "source_text_sha256": "3c5aa96932b8519fd9e93914ee8cbf0a09ea6e74de0416e51d55cdcecc6653c2",
+    "available_date": "2017-04-22",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "（亏损总额以“－”号填列） 714,351,835.61 489,744,184.99 减：所得税费用 204,431,547.79 142,192,704.83 五、净利润（净亏损以“－”号填列） 509,920,287.82 347,551,480.16 归属于母公司所有者的净利润 496,067,082.84 347,551,480.16 少数股东损益 13,853,204.98 六、其他综合收益的税后净额 1,626"
+  },
+  {
+    "code": "sh.600687",
+    "statDate": "2017-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600687",
+        "pubDate": "2018-04-26",
+        "statDate": "2017-12-31",
+        "roeAvg": "0.093091",
+        "npMargin": "0.068446",
+        "gpMargin": "0.176342",
+        "netProfit": "562458130.700000",
+        "epsTTM": "0.366190",
+        "MBRevenue": "8128534416.980000",
+        "totalShare": "1488715304.00",
+        "liqaShare": "1078539429.00"
+      }
+    ],
+    "raw_sha256": "4da6925ddfdebd6be06b1206bd5ecbe9e3e1226d47cc8436ca2a74af9dcce39b",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201804251130435553_1.pdf",
+    "source_text_sha256": "0e97471957ffb346f4f263ae82bbabf744bcf6cf2f451dbce2a9734383d8b54e",
+    "available_date": "2018-04-26",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "亏损总额以“－”号填 796,233,326.25 714,351,835.61 列） 减：所得税费用 233,775,195.55 204,431,547.79 五、净利润（净亏损以“－”号填列） 562,458,130.70 509,920,287.82 (一)按经营持续性分类 1.持续经营净利润（净亏损以“－” 562,458,130.70 509,920,287.82 号填列） 2.终止经营净利润（净亏损以“－” 号"
+  },
+  {
+    "code": "sh.600687",
+    "statDate": "2018-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600687",
+        "pubDate": "2019-04-30",
+        "statDate": "2018-12-31",
+        "roeAvg": "-0.212299",
+        "npMargin": "-0.106404",
+        "gpMargin": "0.072953",
+        "netProfit": "-1174539643.240000",
+        "epsTTM": "-0.782515",
+        "MBRevenue": "10968891890.460000",
+        "totalShare": "1488715304.00",
+        "liqaShare": "1078539429.00"
+      }
+    ],
+    "raw_sha256": "4da6925ddfdebd6be06b1206bd5ecbe9e3e1226d47cc8436ca2a74af9dcce39b",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201904291324503690_1.pdf",
+    "source_text_sha256": "2b55fd6550c738176f70b0b27aea64c40f0f792d603464d0ae2e34a88401a263",
+    "available_date": "2019-04-30",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "损总额以“－”号 -1,170,574,848.19 796,233,326.25 填列） 减：所得税费用 3,964,795.05 233,775,195.55 五、净利润（净亏损以“－”号填列） -1,174,539,643.24 562,458,130.70 （一）按经营持续性分类 1.持续经营净利润（净亏损以 -1,174,539,643.24 562,458,130.70 “－”号填列） 2.终止经营净利润（净亏损以 -"
+  },
+  {
+    "code": "sh.600687",
+    "statDate": "2019-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600687",
+        "pubDate": "2020-04-30",
+        "statDate": "2019-12-31",
+        "roeAvg": "-1.057550",
+        "npMargin": "-2.931088",
+        "gpMargin": "0.121963",
+        "netProfit": "-3417953124.060000",
+        "epsTTM": "-2.266746",
+        "MBRevenue": "1166104086.550000",
+        "totalShare": "1488715304.00",
+        "liqaShare": "1488715304.00"
+      }
+    ],
+    "raw_sha256": "4da6925ddfdebd6be06b1206bd5ecbe9e3e1226d47cc8436ca2a74af9dcce39b",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202004301379081046_1.pdf",
+    "source_text_sha256": "2c245449e2be3ecaba879a3bebd2b968da913051cc274602af9126f1c7968a8c",
+    "available_date": "2020-04-30",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "（亏损总额以 -3,337,586,643.28 -1,170,574,848.19 “－”号填列） 减：所得税费用 80,366,480.78 3,964,795.05 五、净利润（净亏损以“－” -3,417,953,124.06 -1,174,539,643.24 号填列） （一）按经营持续性分类 1.持续经营净利润（净亏 -3,417,953,124.06 -1,174,539,643.24 损以“－”号填列） 2.终止经"
+  },
+  {
+    "code": "sh.600687",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600687",
+        "pubDate": "2021-04-30",
+        "statDate": "2020-12-31",
+        "roeAvg": "-5.970148",
+        "npMargin": "-6.356100",
+        "gpMargin": "0.224974",
+        "netProfit": "-2254155602.760000",
+        "epsTTM": "-1.510073",
+        "MBRevenue": "354644432.380000",
+        "totalShare": "1488715304.00",
+        "liqaShare": "1488715304.00"
+      }
+    ],
+    "raw_sha256": "4da6925ddfdebd6be06b1206bd5ecbe9e3e1226d47cc8436ca2a74af9dcce39b",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002093",
+        "pubDate": "2021-04-23",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.024049",
+        "npMargin": "0.187935",
+        "gpMargin": "0.656329",
+        "netProfit": "81898916.850000",
+        "epsTTM": "0.080265",
+        "MBRevenue": "420237147.240000",
+        "totalShare": "1007500000.00",
+        "liqaShare": "1002533500.00"
+      }
+    ],
+    "raw_sha256": "9bfda08a76761f928148e0b48958fcca0ff805b6a1dad834d1fcfe06e8210b74",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104221487072819_1.pdf",
+    "source_text_sha256": "f3c01d673318e6a9fe562328fa8b86dd2f7df45b246afd8a91a946f92ac1e382",
+    "available_date": "2021-04-23",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "总额（亏损总额以“－”号 97,586,271.74 119,533,791.74 填列） 减：所得税费用 15,687,354.89 13,816,225.01 五、净利润（净亏损以“－”号填列） 81,898,916.85 105,717,566.73 （一）按经营持续性分类 1.持续经营净利润（净亏损以 81,898,916.85 105,717,566.73 “－”号填列） 2.终止经营净利润（净亏损以 “－”号填"
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002093",
+        "pubDate": "2022-04-23",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.028405",
+        "npMargin": "0.207891",
+        "gpMargin": "0.678747",
+        "netProfit": "99886264.890000",
+        "epsTTM": "0.097083",
+        "MBRevenue": "465496444.850000",
+        "totalShare": "1007500000.00",
+        "liqaShare": "1003493875.00"
+      }
+    ],
+    "raw_sha256": "9bfda08a76761f928148e0b48958fcca0ff805b6a1dad834d1fcfe06e8210b74",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204221560878375_1.pdf",
+    "source_text_sha256": "a2a64bb96ccbcf914d348224292ffdadbc38a298b41e353aac93644540b65ae6",
+    "available_date": "2022-04-23",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "利润总额（亏损总额以“－”号填列） 108,676,926.88 97,586,271.74 减：所得税费用 8,790,661.99 15,687,354.89 五、净利润（净亏损以“－”号填列） 99,886,264.89 81,898,916.85 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－” 99,886,264.89 81,898,916.85 号填列） 2.终止经营净利润（净亏损以“－” 号填列）"
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002093",
+        "pubDate": "2023-04-22",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.020327",
+        "npMargin": "0.144232",
+        "gpMargin": "0.520636",
+        "netProfit": "74214793.250000",
+        "epsTTM": "0.071053",
+        "MBRevenue": "514550327.100000",
+        "totalShare": "1007500000.00",
+        "liqaShare": "1006656250.00"
+      }
+    ],
+    "raw_sha256": "9bfda08a76761f928148e0b48958fcca0ff805b6a1dad834d1fcfe06e8210b74",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304211585681450_1.pdf",
+    "source_text_sha256": "27bf69b713a1e55526bf622627f18985684f396f8b43e29d8fdfad2232105654",
+    "available_date": "2023-04-22",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "、利润总额（亏损总额以“－”号 71,588,845.67 108,676,926.88 填列） 减：所得税费用 -2,625,947.58 8,790,661.99 五、净利润（净亏损以“－”号填 74,214,793.25 99,886,264.89 74 国脉科技股份有限公司 2022 年年度报告全文 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 74,214,793.25 99,886,264.89 "
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002093",
+        "pubDate": "2024-04-20",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.029011",
+        "npMargin": "0.199877",
+        "gpMargin": "0.472174",
+        "netProfit": "106465792.300000",
+        "epsTTM": "0.103683",
+        "MBRevenue": "516423119.590000",
+        "totalShare": "1007500000.00",
+        "liqaShare": "1006866250.00"
+      }
+    ],
+    "raw_sha256": "9bfda08a76761f928148e0b48958fcca0ff805b6a1dad834d1fcfe06e8210b74",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404191630691579_1.pdf",
+    "source_text_sha256": "d73ce290abaa1430051ecd7208f550ce716e9208597290b0f62a923ead2dc328",
+    "available_date": "2024-04-20",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "利润总额（亏损总额以“－”号 129,193,356.66 71,588,845.67 填列） 减：所得税费用 22,727,564.36 -2,625,947.58 五、净利润（净亏损以“－”号填 106,465,792.30 74,214,793.25 列） （一）按经营持续性分类 74 国脉科技股份有限公司 2023 年年度报告全文 1.持续经营净利润（净亏损以 106,465,792.30 74,214,793.25"
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sz.002093",
+        "pubDate": "2025-04-26",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.046172",
+        "npMargin": "0.317572",
+        "gpMargin": "0.394339",
+        "netProfit": "174480174.760000",
+        "epsTTM": "0.167359",
+        "MBRevenue": "540425336.120000",
+        "totalShare": "1007500000.00",
+        "liqaShare": "1006866250.00"
+      }
+    ],
+    "raw_sha256": "9bfda08a76761f928148e0b48958fcca0ff805b6a1dad834d1fcfe06e8210b74",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504251662378073_1.pdf",
+    "source_text_sha256": "8947f7be934555acfd800e5336d417a70e2010c8742f5ee13e88f0113dbf478a",
+    "available_date": "2025-04-26",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "额（亏损总额以“－”号填 218,129,144.80 129,193,356.66 列） 减：所得税费用 43,648,970.04 22,727,564.36 五、净利润（净亏损以“－”号填列） 174,480,174.76 106,465,792.30 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－” 174,480,174.76 106,465,792.30 号填列） 2.终止经营净利润（净亏损以“－” 号"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2019-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600647",
+        "pubDate": "2020-04-18",
+        "statDate": "2019-12-31",
+        "roeAvg": "0.067467",
+        "npMargin": "1.169757",
+        "gpMargin": "0.106543",
+        "netProfit": "18637679.570000",
+        "epsTTM": "0.134955",
+        "MBRevenue": "14100829.940000",
+        "totalShare": "139143550.00",
+        "liqaShare": "139143550.00"
+      }
+    ],
+    "raw_sha256": "0671d5002a23ca90b64b1e098da271a24d76baee8e5c621a1af141dea3992482",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202004171378155268_1.pdf",
+    "source_text_sha256": "4daa4abef611685530d1f8fe4a9e9ce6616c95d026cae757c6fe0a07fdbbb3dc",
+    "available_date": "2020-04-18",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "利润总额（亏损总额以“－”号 18,516,227.65 -40,540,768.06 填列） 减：所得税费用 -121,451.92 19,334,274.92 五、净利润（净亏损以“－”号填列） 18,637,679.57 -59,875,042.98 （一）按经营持续性分类 1.持续经营净利润（净亏损以 18,637,679.57 -59,875,042.98 “－”号填列） 2.终止经营净利润（净亏损以 “－”号填"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600647",
+        "pubDate": "2021-03-20",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.039835",
+        "npMargin": "0.049622",
+        "gpMargin": "0.040360",
+        "netProfit": "11869142.380000",
+        "epsTTM": "0.084051",
+        "MBRevenue": "237607095.400000",
+        "totalShare": "139143550.00",
+        "liqaShare": "139143550.00"
+      }
+    ],
+    "raw_sha256": "0671d5002a23ca90b64b1e098da271a24d76baee8e5c621a1af141dea3992482",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103191473907456_1.pdf",
+    "source_text_sha256": "bc53e5e640f84ad9495fef5d074cc6505fbbb4262ca9958afaf88d03ae3c808e",
+    "available_date": "2021-03-20",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": ".75 四、利润总额（亏损总额以“－” 12,244,142.38 18,516,227.65 号填列） 减：所得税费用 375,000.00 -121,451.92 五、净利润（净亏损以“－”号填 11,869,142.38 18,637,679.57 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 11,869,142.38 18,637,679.57 “－”号填列） 2.终止经营净利润（净亏损以 “－”号"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600647",
+        "pubDate": "2022-03-26",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.019390",
+        "npMargin": "0.059611",
+        "gpMargin": "0.672630",
+        "netProfit": "5797341.210000",
+        "epsTTM": "0.042136",
+        "MBRevenue": "95644888.080000",
+        "totalShare": "139143550.00",
+        "liqaShare": "139143550.00"
+      }
+    ],
+    "raw_sha256": "0671d5002a23ca90b64b1e098da271a24d76baee8e5c621a1af141dea3992482",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203251554922693_1.pdf",
+    "source_text_sha256": "5e60e85b8244ba480b7f9bd354037f4559a599afeb062851cb6e3dbc49d34408",
+    "available_date": "2022-03-26",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "333.73 四、利润总额（亏损总额以“－” 5,861,313.00 12,244,142.38 号填列） 减：所得税费用 63,971.79 375,000.00 五、净利润（净亏损以“－”号填 5,797,341.21 11,869,142.38 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 5,797,341.21 11,869,142.38 “－”号填列） 2.终止经营净利润（净亏损以 “－”号填"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600647",
+        "pubDate": "2023-04-29",
+        "statDate": "2022-12-31",
+        "roeAvg": "-0.033696",
+        "npMargin": "0.032314",
+        "gpMargin": "0.836294",
+        "netProfit": "603904.440000",
+        "epsTTM": "-0.072710",
+        "MBRevenue": "17673813.330000",
+        "totalShare": "139143550.00",
+        "liqaShare": "139143550.00"
+      }
+    ],
+    "raw_sha256": "0671d5002a23ca90b64b1e098da271a24d76baee8e5c621a1af141dea3992482",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304281586087024_1.pdf",
+    "source_text_sha256": "887b1b7076f84a830f14b0dee17fc10b104a2f70e6f6d1b49d248b4aa267767b",
+    "available_date": "2023-04-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "02.89 四、利润总额（亏损总额以“－” 6,026,905.95 5,861,313.00 号填列） 减：所得税费用 5,423,001.51 63,971.79 五、净利润（净亏损以“－”号填 603,904.44 5,797,341.21 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 603,904.44 5,797,341.21 “－”号填列） 2.终止经营净利润（净亏损以 “－”号填列） （"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600647",
+        "pubDate": "2024-04-30",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.019841",
+        "npMargin": "0.212850",
+        "gpMargin": "0.419610",
+        "netProfit": "23411609.380000",
+        "epsTTM": "0.050779",
+        "MBRevenue": "108761468.070000",
+        "totalShare": "139143550.00",
+        "liqaShare": "139143550.00"
+      }
+    ],
+    "raw_sha256": "0671d5002a23ca90b64b1e098da271a24d76baee8e5c621a1af141dea3992482",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404291631625928_1.pdf",
+    "source_text_sha256": "c434eca318807fffea1eb86ff6c4594e7603a7ec21f670d9789c5ec35661af7d",
+    "available_date": "2024-04-30",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "四、利润总额（亏损总额以“－”号填 27,166,119.91 6,026,905.95 列） 减：所得税费用 3,754,510.53 5,423,001.51 五、净利润（净亏损以“－”号填列） 23,411,609.38 603,904.44 （一）按经营持续性分类 1.持续经营净利润（净亏损以 23,411,609.38 603,904.44 “－”号填列） 51 / 160 2023 年年度报告 2.终止经营净利"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603687",
+        "pubDate": "2021-04-28",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.171372",
+        "npMargin": "0.201514",
+        "gpMargin": "0.116832",
+        "netProfit": "272241569.570000",
+        "epsTTM": "0.678702",
+        "MBRevenue": "1298914600.000000",
+        "totalShare": "410830732.00",
+        "liqaShare": "141788032.00"
+      }
+    ],
+    "raw_sha256": "583499fc27a1a9251cb0da808f0a7584847b6e73d0845e372d892e3eca94248c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104271488176834_1.pdf",
+    "source_text_sha256": "04458f6134cf1bd1f218234d4478dd4f65108afd4294a5a66764ff3bfb0f3617",
+    "available_date": "2021-04-28",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "168.36 111,368,777.15 填列） 78 / 198 2020 年年度报告 减：所得税费用 43,948,598.79 11,478,400.17 五、净利润（净亏损以“－”号填列） 272,241,569.57 99,890,376.98 （一）按经营持续性分类 1.持续经营净利润（净亏损以 272,241,569.57 99,890,376.98 “－”号填列） 2.终止经营净利润（净亏损以 “－”号填列"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603687",
+        "pubDate": "2022-04-29",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.052545",
+        "npMargin": "0.056795",
+        "gpMargin": "0.122297",
+        "netProfit": "94529578.200000",
+        "epsTTM": "0.235381",
+        "MBRevenue": "1597083200.000000",
+        "totalShare": "414413879.00",
+        "liqaShare": "145371179.00"
+      }
+    ],
+    "raw_sha256": "583499fc27a1a9251cb0da808f0a7584847b6e73d0845e372d892e3eca94248c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204281562213613_1.pdf",
+    "source_text_sha256": "25c7351c16c3585e02c89b591eb4691ebe0d0a4bd7ba4d4523fa7ac519edc529",
+    "available_date": "2022-04-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "利润总额（亏损总额以“－”号填列） 98,498,498.24 316,190,168.36 减：所得税费用 3,968,920.04 43,948,598.79 五、净利润（净亏损以“－”号填列） 94,529,578.20 272,241,569.57 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号 94,529,578.20 272,241,569.57 填列） 2.终止经营净利润（净亏损以“－”号 填"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603687",
+        "pubDate": "2023-04-29",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.053369",
+        "npMargin": "0.061794",
+        "gpMargin": "0.159511",
+        "netProfit": "127189012.950000",
+        "epsTTM": "0.251118",
+        "MBRevenue": "1991405400.000000",
+        "totalShare": "419466264.00",
+        "liqaShare": "419466264.00"
+      }
+    ],
+    "raw_sha256": "583499fc27a1a9251cb0da808f0a7584847b6e73d0845e372d892e3eca94248c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304281586089154_1.pdf",
+    "source_text_sha256": "775aaa027a7d4698b00d3b1fc2ab822eca95637497a7a12b603fd1d750a3afe9",
+    "available_date": "2023-04-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "润总额（亏损总额以“－”号 137,754,332.22 98,498,498.24 填列） 减：所得税费用 10,565,319.27 3,968,920.04 五、净利润（净亏损以“－”号填列） 127,189,012.95 94,529,578.20 （一）按经营持续性分类 1.持续经营净利润（净亏损以 127,189,012.95 94,529,578.20 “－”号填列） 2.终止经营净利润（净亏损以 “－”号填列"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603687",
+        "pubDate": "2024-04-29",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.033550",
+        "npMargin": "0.063632",
+        "gpMargin": "0.169453",
+        "netProfit": "128143315.620000",
+        "epsTTM": "0.160990",
+        "MBRevenue": "1952707600.000000",
+        "totalShare": "550031864.00",
+        "liqaShare": "473867159.00"
+      }
+    ],
+    "raw_sha256": "583499fc27a1a9251cb0da808f0a7584847b6e73d0845e372d892e3eca94248c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404281631527565_1.pdf",
+    "source_text_sha256": "552ccd13ac8f47a5e53956e1b9c3eec700c3f6e078cd1f2a3ffea330be7af795",
+    "available_date": "2024-04-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "润总额（亏损总额以“－” 145,500,439.54 137,754,332.22 号填列） 减：所得税费用 17,357,123.92 10,565,319.27 五、净利润（净亏损以“－”号填 128,143,315.62 127,189,012.95 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 128,143,315.62 127,189,012.95 “－”号填列） 2.终止经营净利润（净亏损以 “"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603687",
+        "pubDate": "2025-04-22",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.032716",
+        "npMargin": "0.061413",
+        "gpMargin": "0.180040",
+        "netProfit": "130890606.510000",
+        "epsTTM": "0.193184",
+        "MBRevenue": "2067908500.000000",
+        "totalShare": "550031864.00",
+        "liqaShare": "546502453.00"
+      }
+    ],
+    "raw_sha256": "583499fc27a1a9251cb0da808f0a7584847b6e73d0845e372d892e3eca94248c",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504211660083262_1.pdf",
+    "source_text_sha256": "eadd6c4a1fb53ddb9e4d27fa5f56abfaff18d98cf5f2d77ced4ca8083f51daac",
+    "available_date": "2025-04-22",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "总额（亏损总额以“－”号填列） 157,425,944.59 145,500,439.54 减：所得税费用 26,535,338.08 17,357,123.92 五、净利润（净亏损以“－”号填列） 130,890,606.51 128,143,315.62 （一）按经营持续性分类 1.持续经营净利润（净亏损以“－”号填 130,890,606.51 128,143,315.62 列） 2.终止经营净利润（净亏损以“－”号填"
+  },
+  {
+    "code": "sh.688249",
+    "statDate": "2020-12-31",
+    "provider_rows": [],
+    "raw_sha256": "1e278e0a470972d81f71ee022fcfc65213cfe60695f4ae7b3e189a51d91e4509",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.688249",
+    "statDate": "2021-12-31",
+    "provider_rows": [],
+    "raw_sha256": "1e278e0a470972d81f71ee022fcfc65213cfe60695f4ae7b3e189a51d91e4509",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.688249",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688249",
+        "pubDate": "2023-04-12",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.272561",
+        "npMargin": "0.314020",
+        "gpMargin": "0.461595",
+        "netProfit": "3156196231.490000",
+        "epsTTM": "2.024078",
+        "MBRevenue": "10025499527.490000",
+        "totalShare": "1504601368.00",
+        "liqaShare": ""
+      }
+    ],
+    "raw_sha256": "1e278e0a470972d81f71ee022fcfc65213cfe60695f4ae7b3e189a51d91e4509",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.688249",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688249",
+        "pubDate": "2024-04-15",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.012256",
+        "npMargin": "0.016451",
+        "gpMargin": "0.216105",
+        "netProfit": "119164780.880000",
+        "epsTTM": "0.105491",
+        "MBRevenue": "7182744130.980000",
+        "totalShare": "2006135157.00",
+        "liqaShare": "377377464.00"
+      }
+    ],
+    "raw_sha256": "1e278e0a470972d81f71ee022fcfc65213cfe60695f4ae7b3e189a51d91e4509",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404141630208898_1.pdf",
+    "source_text_sha256": "ef6d56c082284f07042f6e41ec9b4ec6b0afa3c1e819972587ea12a3d888a30b",
+    "available_date": "2024-04-15",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "（亏损总额以“－”号 119,340,389.16 3,156,404,224.07 填列） 减：所得税费用 七、76 175,608.28 207,992.58 五、净利润（净亏损以“－”号填列） 119,164,780.88 3,156,196,231.49 （一）按经营持续性分类 1.持续经营净利润（净亏损以 119,164,780.88 3,156,196,231.49 “－”号填列） 2.终止经营净利润（净亏损以 "
+  },
+  {
+    "code": "sh.688249",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.688249",
+        "pubDate": "2025-04-21",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.025205",
+        "npMargin": "0.052134",
+        "gpMargin": "0.255024",
+        "netProfit": "482196348.960000",
+        "epsTTM": "0.265606",
+        "MBRevenue": "9119580080.020000",
+        "totalShare": "2006135157.00",
+        "liqaShare": "1176731020.00"
+      }
+    ],
+    "raw_sha256": "1e278e0a470972d81f71ee022fcfc65213cfe60695f4ae7b3e189a51d91e4509",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504201659431434_1.pdf",
+    "source_text_sha256": "f78bc5d986fa08c3b22c2af0b9fb37bf54814c73f682e84d7e89277760ecfeae",
+    "available_date": "2025-04-21",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "总额（亏损总额以“－”号 482,459,402.07 119,340,389.16 填列） 减：所得税费用 七、76 263,053.11 175,608.28 五、净利润（净亏损以“－”号填列） 482,196,348.96 119,164,780.88 （一）按经营持续性分类 1.持续经营净利润（净亏损以 482,222,212.46 119,164,780.88 “－”号填列） 2.终止经营净利润（净亏损以 -25,"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600355",
+        "pubDate": "2021-04-15",
+        "statDate": "2020-12-31",
+        "roeAvg": "-0.127954",
+        "npMargin": "-0.180481",
+        "gpMargin": "0.181790",
+        "netProfit": "-35482770.900000",
+        "epsTTM": "-0.072106",
+        "MBRevenue": "189818926.330000",
+        "totalShare": "492089200.00",
+        "liqaShare": "492089200.00"
+      }
+    ],
+    "raw_sha256": "b9b08c5e64c0c93304ce3c3736656ce1c43156a642ac017e7f5d0e3801d72e17",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104141484772618_1.pdf",
+    "source_text_sha256": "6285b6190255c8332fecf2412ddac000d583f9328a30f04bcc3fe385fe90082f",
+    "available_date": "2021-04-15",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "董事会审议的报告期利润分配预案或公积金转增股本预案 中审众环会计师事务所（特殊普通合伙）为本公司2020年度财务报告出具了标准无保留意见 的审计报告。经审计，公司2020年实现归属于母公司股东的净利润-35,482,770.90元，因本年度 亏损，未提取法定盈余公积金，加期初未分配利润-389,698,564.18元，本年度可供分配的利润为 -425,181,335.08元。 根据公司实际情况，董事会建议2020年度不进行利"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600355",
+        "pubDate": "2022-03-31",
+        "statDate": "2021-12-31",
+        "roeAvg": "-0.036641",
+        "npMargin": "-0.035388",
+        "gpMargin": "0.250990",
+        "netProfit": "-9339636.300000",
+        "epsTTM": "-0.018980",
+        "MBRevenue": "247523720.570000",
+        "totalShare": "492089200.00",
+        "liqaShare": "492089200.00"
+      }
+    ],
+    "raw_sha256": "b9b08c5e64c0c93304ce3c3736656ce1c43156a642ac017e7f5d0e3801d72e17",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203301556127095_1.pdf",
+    "source_text_sha256": "7c69e124c9f1dbc25f8e82114bb6340570aab39aac13d811712d9038be78a5bd",
+    "available_date": "2022-03-31",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "决议通过的本报告期利润分配预案或公积金转增股本预案 中审众环会计师事务所（特殊普通合伙）为本公司2021年度财务报告出具了标准无保留意见 的审计报告。经审计，公司2021年实现归属于母公司股东的净利润-9,339,636.30元，因本年度 亏损，未提取法定盈余公积金，加期初未分配利润-425,181,335.08元，本年度可供分配的利润 为-434,520,971.38 元。 根据公司实际情况，董事会建议2021年度不进行"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600355",
+        "pubDate": "2023-04-29",
+        "statDate": "2022-12-31",
+        "roeAvg": "-0.137953",
+        "npMargin": "-0.180779",
+        "gpMargin": "0.222835",
+        "netProfit": "-32292307.250000",
+        "epsTTM": "-0.065623",
+        "MBRevenue": "157172627.500000",
+        "totalShare": "492089200.00",
+        "liqaShare": "492089200.00"
+      }
+    ],
+    "raw_sha256": "b9b08c5e64c0c93304ce3c3736656ce1c43156a642ac017e7f5d0e3801d72e17",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304281586042670_1.pdf",
+    "source_text_sha256": "31d73a15f08a951d82c888a73c8341ff8bf7d03e202d07e6270658ee631ff118",
+    "available_date": "2023-04-29",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "决议通过的本报告期利润分配预案或公积金转增股本预案 中审众环会计师事务所（特殊普通合伙）为本公司2022年度财务报告出具了标准无保留意见 的审计报告。经审计，公司2022年实现归属于母公司股东的净利润-32,292,307.25元，因本年度亏 损，未提取法定盈余公积金，加期初未分配利润-434,520,971.38元，本年度可供分配的利润为- 466,813,278.63元。 根据公司实际情况，董事会建议2022年度不进行利"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600355",
+        "pubDate": "2024-04-20",
+        "statDate": "2023-12-31",
+        "roeAvg": "-0.220948",
+        "npMargin": "-0.307602",
+        "gpMargin": "0.239674",
+        "netProfit": "-43360419.810000",
+        "epsTTM": "-0.088115",
+        "MBRevenue": "121423533.450000",
+        "totalShare": "492089200.00",
+        "liqaShare": "492089200.00"
+      }
+    ],
+    "raw_sha256": "b9b08c5e64c0c93304ce3c3736656ce1c43156a642ac017e7f5d0e3801d72e17",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404191630656990_1.pdf",
+    "source_text_sha256": "11b3afab241780adb0aa50dee5b4b0207673878ab89c82b51c875022b5c80e8f",
+    "available_date": "2024-04-20",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "决议通过的本报告期利润分配预案或公积金转增股本预案 中审众环会计师事务所（特殊普通合伙）为本公司2023年度财务报告出具了标准无保留意见 的审计报告。经审计，公司2023年实现归属于母公司股东的净利润-43,360,419.81元，因本年度 亏损，未提取法定盈余公积金，加期初未分配利润-466,828,848.45元，本年度可供分配的利润 为-510,189,268.26元。 根据公司实际情况，董事会建议2023年度不进行利"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.600355",
+        "pubDate": "2025-04-26",
+        "statDate": "2024-12-31",
+        "roeAvg": "-0.273955",
+        "npMargin": "-0.295167",
+        "gpMargin": "0.207684",
+        "netProfit": "-42060135.610000",
+        "epsTTM": "-0.085473",
+        "MBRevenue": "119789959.030000",
+        "totalShare": "492089200.00",
+        "liqaShare": "492089200.00"
+      }
+    ],
+    "raw_sha256": "b9b08c5e64c0c93304ce3c3736656ce1c43156a642ac017e7f5d0e3801d72e17",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504251662337974_1.pdf",
+    "source_text_sha256": "348f7eea34bb031d34315eed82c3d1097d593853d0a78a24dd38972af40c1481",
+    "available_date": "2025-04-26",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "决议通过的本报告期利润分配预案或公积金转增股本预案 中审众环会计师事务所（特殊普通合伙）为本公司2024年度财务报告出具了标准无保留意见 的审计报告。经审计，公司2024年实现归属于母公司股东的净利润-42,060,135.61元，因本年度 亏损，未提取法定盈余公积金，加期初未分配利润-510,189,268.26元，本年度可供分配的利润为 -552,249,403.87元。 根据公司实际情况，董事会建议2024年度不进行利"
+  },
+  {
+    "code": "sh.603230",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603230",
+        "pubDate": "2021-06-16",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.229919",
+        "npMargin": "0.158406",
+        "gpMargin": "0.410648",
+        "netProfit": "201191000.400000",
+        "epsTTM": "",
+        "MBRevenue": "1228198804.040000",
+        "totalShare": "",
+        "liqaShare": "0.00"
+      }
+    ],
+    "raw_sha256": "e443912b1c1a4d063220bbfe1656c59334c3e9108aa1adf8ff4d574f718deda3",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.603230",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603230",
+        "pubDate": "2022-04-16",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.152891",
+        "npMargin": "0.143850",
+        "gpMargin": "0.388706",
+        "netProfit": "228976754.220000",
+        "epsTTM": "0.646376",
+        "MBRevenue": "1545144236.800000",
+        "totalShare": "353523000.00",
+        "liqaShare": "88381000.00"
+      }
+    ],
+    "raw_sha256": "e443912b1c1a4d063220bbfe1656c59334c3e9108aa1adf8ff4d574f718deda3",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204151559468025_1.pdf",
+    "source_text_sha256": "923c18263fce1f73a4216ecc76f4a6171776259b03e1e14a081d5770f5d591d7",
+    "available_date": "2022-04-16",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "利润总额（亏损总额以“－”号 228,996,355.96 201,230,440.91 填列） 减：所得税费用 七、76 19,601.74 39,440.51 五、净利润（净亏损以“－”号填列） 228,976,754.22 201,191,000.40 （一）按经营持续性分类 1.持续经营净利润（净亏损以 228,976,754.22 201,191,000.40 64 / 177 2021 年年度报告 “－”号填列）"
+  },
+  {
+    "code": "sh.603230",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603230",
+        "pubDate": "2023-04-21",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.122416",
+        "npMargin": "0.161613",
+        "gpMargin": "0.393627",
+        "netProfit": "268026105.170000",
+        "epsTTM": "0.757575",
+        "MBRevenue": "1617400086.400000",
+        "totalShare": "353523000.00",
+        "liqaShare": "89401000.00"
+      }
+    ],
+    "raw_sha256": "e443912b1c1a4d063220bbfe1656c59334c3e9108aa1adf8ff4d574f718deda3",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304201585620051_1.pdf",
+    "source_text_sha256": "b0cb16aa6583ac07b9edb16105ea7cd2cd1ddaa94d4b3420c7c942c25bb77533",
+    "available_date": "2023-04-21",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "6.90 四、利润总额（亏损总额以“－” 268,050,868.88 228,996,355.96 号填列） 减：所得税费用 24,763.71 19,601.74 五、净利润（净亏损以“－”号填 268,026,105.17 228,976,754.22 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 268,026,105.17 228,976,754.22 “－”号填列） 2.终止经营净利润（净亏损以 “"
+  },
+  {
+    "code": "sh.603230",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603230",
+        "pubDate": "2024-04-10",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.128956",
+        "npMargin": "0.171408",
+        "gpMargin": "0.401615",
+        "netProfit": "315337428.280000",
+        "epsTTM": "0.890523",
+        "MBRevenue": "1792638694.500000",
+        "totalShare": "353523000.00",
+        "liqaShare": "89401000.00"
+      }
+    ],
+    "raw_sha256": "e443912b1c1a4d063220bbfe1656c59334c3e9108aa1adf8ff4d574f718deda3",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404101630095380_1.pdf",
+    "source_text_sha256": "936c8d4843fc983567aeba1409022c6de13a14edb7ef530118bec39cb3703cf6",
+    "available_date": "2024-04-10",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": ".87 四、利润总额（亏损总额以“－” 315,682,553.95 268,050,868.88 号填列） 减：所得税费用 345,125.67 24,763.71 五、净利润（净亏损以“－”号填 315,337,428.28 268,026,105.17 列） （一）按经营持续性分类 1.持续经营净利润（净亏损以 315,337,428.28 268,026,105.17 “－”号填列） 2.终止经营净利润（净亏损以 “"
+  },
+  {
+    "code": "sh.603230",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603230",
+        "pubDate": "2025-04-11",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.127005",
+        "npMargin": "0.187091",
+        "gpMargin": "0.403037",
+        "netProfit": "338794411.340000",
+        "epsTTM": "0.956322",
+        "MBRevenue": "1761885622.460000",
+        "totalShare": "353523000.00",
+        "liqaShare": "353523000.00"
+      }
+    ],
+    "raw_sha256": "e443912b1c1a4d063220bbfe1656c59334c3e9108aa1adf8ff4d574f718deda3",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504101654227747_1.pdf",
+    "source_text_sha256": "79aa036e2ba2d00f807198460d5cddde684cbf3e595d13537b0e71e1c3ea9864",
+    "available_date": "2025-04-11",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": " 四、利润总额（亏损总额以“－”号填 339,643,673.96 315,682,553.95 列） 减：所得税费用 849,262.62 345,125.67 五、净利润（净亏损以“－”号填列） 338,794,411.34 315,337,428.28 （一）按经营持续性分类 1.持续经营净利润（净亏损以 338,794,411.34 315,337,428.28 “－”号填列） 2.终止经营净利润（净亏损以 “－”号"
+  },
+  {
+    "code": "sh.603696",
+    "statDate": "2020-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603696",
+        "pubDate": "2021-04-21",
+        "statDate": "2020-12-31",
+        "roeAvg": "0.091324",
+        "npMargin": "0.125636",
+        "gpMargin": "0.247507",
+        "netProfit": "52817549.900000",
+        "epsTTM": "0.224564",
+        "MBRevenue": "298540892.930000",
+        "totalShare": "235200000.00",
+        "liqaShare": "235200000.00"
+      }
+    ],
+    "raw_sha256": "5979195836f06bee7f9403ffac9310b50dd8b1c5d31f3e507eee10f449f2a338",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104201486645375_1.pdf",
+    "source_text_sha256": "eeea9cbff424a842b6056ca2ae9cf346614ea39a3c88eb900c1210bd0fc36197",
+    "available_date": "2021-04-21",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "数据 2020年 2019年 年同期增 2018年 减(%) 营业收入 420,400,962.26 421,296,738.60 -0.21 339,010,123.47 归属于上市公司股东的净利 52,817,549.90 42,796,999.75 23.41 39,482,338.77 5 / 191 2020 年年度报告 润 归属于上市公司股东的扣除 38,280,536.06 31,824,767.80 20."
+  },
+  {
+    "code": "sh.603696",
+    "statDate": "2021-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603696",
+        "pubDate": "2022-04-21",
+        "statDate": "2021-12-31",
+        "roeAvg": "0.081468",
+        "npMargin": "0.082688",
+        "gpMargin": "0.215668",
+        "netProfit": "45392682.710000",
+        "epsTTM": "0.192996",
+        "MBRevenue": "311417371.770000",
+        "totalShare": "235200000.00",
+        "liqaShare": "235200000.00"
+      }
+    ],
+    "raw_sha256": "5979195836f06bee7f9403ffac9310b50dd8b1c5d31f3e507eee10f449f2a338",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204201560500098_1.pdf",
+    "source_text_sha256": "9eb6d180715a2cf47f05211b85112e576aad4843e1efbd66663ae2b46db70098",
+    "available_date": "2022-04-21",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "数据 2021年 2020年 年同期增 2019年 减(%) 营业收入 548,965,238.91 420,400,962.26 30.58 421,296,738.60 归属于上市公司股东的净利 45,392,682.71 52,817,549.90 -14.06 42,796,999.75 润 归属于上市公司股东的扣除 38,705,402.24 38,280,536.06 1.11 31,824,767.80 非经"
+  },
+  {
+    "code": "sh.603696",
+    "statDate": "2022-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603696",
+        "pubDate": "2023-04-21",
+        "statDate": "2022-12-31",
+        "roeAvg": "0.025485",
+        "npMargin": "0.024837",
+        "gpMargin": "0.162953",
+        "netProfit": "13839093.010000",
+        "epsTTM": "0.058840",
+        "MBRevenue": "225164430.560000",
+        "totalShare": "235200000.00",
+        "liqaShare": "235200000.00"
+      }
+    ],
+    "raw_sha256": "5979195836f06bee7f9403ffac9310b50dd8b1c5d31f3e507eee10f449f2a338",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304201585635265_1.pdf",
+    "source_text_sha256": "3fad27b7952d3b43e3c0c42109b243bdef1ac63427b4bcbf63532ec5672d0c2f",
+    "available_date": "2023-04-21",
+    "status": "numeric_literal_matches_date_matches",
+    "numeric_literal_found": true,
+    "publication_date_matches": true,
+    "excerpt": "据 2022年 2021年 年同期增 2020年 减(%) 营业收入 557,187,219.14 548,965,238.91 1.50 420,400,962.26 归属于上市公司股东的净利 润 13,839,093.01 45,392,682.71 -69.51 52,817,549.90 归属于上市公司股东的扣除 非经常性损益的净利润 22,720,426.51 38,705,402.24 -41.30 38,28"
+  },
+  {
+    "code": "sh.603696",
+    "statDate": "2023-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603696",
+        "pubDate": "2024-04-23",
+        "statDate": "2023-12-31",
+        "roeAvg": "0.056812",
+        "npMargin": "0.049185",
+        "gpMargin": "0.167925",
+        "netProfit": "31092258.410000",
+        "epsTTM": "0.132195",
+        "MBRevenue": "254218506.520000",
+        "totalShare": "235200000.00",
+        "liqaShare": "235200000.00"
+      }
+    ],
+    "raw_sha256": "5979195836f06bee7f9403ffac9310b50dd8b1c5d31f3e507eee10f449f2a338",
+    "status": "issuer_report_not_indexed"
+  },
+  {
+    "code": "sh.603696",
+    "statDate": "2024-12-31",
+    "provider_rows": [
+      {
+        "code": "sh.603696",
+        "pubDate": "2025-04-22",
+        "statDate": "2024-12-31",
+        "roeAvg": "0.067479",
+        "npMargin": "0.063204",
+        "gpMargin": "0.161502",
+        "netProfit": "38333532.950000",
+        "epsTTM": "0.162983",
+        "MBRevenue": "227907189.420000",
+        "totalShare": "235200000.00",
+        "liqaShare": "235200000.00"
+      }
+    ],
+    "raw_sha256": "5979195836f06bee7f9403ffac9310b50dd8b1c5d31f3e507eee10f449f2a338",
+    "status": "issuer_report_not_indexed"
+  }
+]

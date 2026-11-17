@@ -1,0 +1,145 @@
+{
+  "code": "sh.603322",
+  "effective_date": "2022-03-28",
+  "evaluation_dates": [
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202203241554692695",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "29245806061365",
+          "market_code": "1",
+          "short_name": "超讯科技",
+          "stock_code": "603322"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-03-24 16:06:58:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-03-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-03-25 12:00:00",
+      "source_type": "31",
+      "title": "603322:ST超讯:股票交易撤销其他风险警示暨公司股票停牌的公告",
+      "title_ch": "603322:ST超讯:股票交易撤销其他风险警示暨公司股票停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202203151552787148",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "29245806061365",
+          "market_code": "1",
+          "short_name": "超讯科技",
+          "stock_code": "603322"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-03-15 16:39:44:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-03-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-03-16 12:00:00",
+      "source_type": "31",
+      "title": "603322:ST超讯:关于申请撤销公司股票其他风险警示的公告",
+      "title_ch": "603322:ST超讯:关于申请撤销公司股票其他风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202203151552787146",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "29245806061365",
+          "market_code": "1",
+          "short_name": "超讯科技",
+          "stock_code": "603322"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001003001001003",
+          "column_name": "专项说明/独立意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-03-15 16:39:44:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-03-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-03-16 12:00:00",
+      "source_type": "31",
+      "title": "603322:ST超讯:独立董事关于申请撤销公司股票其他风险警示的独立意见",
+      "title_ch": "603322:ST超讯:独立董事关于申请撤销公司股票其他风险警示的独立意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202203151552787147",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "29245806061365",
+          "market_code": "1",
+          "short_name": "超讯科技",
+          "stock_code": "603322"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-03-15 16:40:44:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-03-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-03-16 12:00:00",
+      "source_type": "31",
+      "title": "603322:ST超讯:北京国枫律师事务所关于公司申请撤销对公司股票实施其他风险警示的法律意见书",
+      "title_ch": "603322:ST超讯:北京国枫律师事务所关于公司申请撤销对公司股票实施其他风险警示的法律意见书",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603322&begin_time=2022-02-26&end_time=2022-03-28"
+}

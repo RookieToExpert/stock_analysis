@@ -1,0 +1,698 @@
+[
+  {
+    "code": "sh.600608",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104261487898992_1.pdf",
+    "available_date": "2021-04-27",
+    "title": "600608:ST沪科2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600608",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204251561489180_1.pdf",
+    "available_date": "2022-04-26",
+    "title": "600608:ST沪科2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600608",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304241585766289_1.pdf",
+    "available_date": "2023-04-25",
+    "title": "ST沪科:ST沪科2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600608",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404291631616296_1.pdf",
+    "available_date": "2024-04-30",
+    "title": "ST沪科:ST沪科2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600608",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504281663997639_1.pdf",
+    "available_date": "2025-04-29",
+    "title": "ST沪科:ST沪科2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104221487093166_1.pdf",
+    "available_date": "2021-04-23",
+    "title": "688510:无锡航亚科技股份有限公司2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204261561747886_1.pdf",
+    "available_date": "2022-04-27",
+    "title": "688510:无锡航亚科技股份有限公司2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304251585804842_1.pdf",
+    "available_date": "2023-04-26",
+    "title": "航亚科技:无锡航亚科技股份有限公司2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202403271628323224_1.pdf",
+    "available_date": "2024-03-28",
+    "title": "航亚科技:无锡航亚科技股份有限公司2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688510",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503271648248215_1.pdf",
+    "available_date": "2025-03-28",
+    "title": "航亚科技:无锡航亚科技股份有限公司2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104011480556940_1.pdf",
+    "available_date": "2021-04-02",
+    "title": "600061:国投资本2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203301556052266_1.pdf",
+    "available_date": "2022-03-31",
+    "title": "600061:国投资本股份有限公司2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202303241584539109_1.pdf",
+    "available_date": "2023-03-25",
+    "title": "国投资本:国投资本股份有限公司2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202403291629064085_1.pdf",
+    "available_date": "2024-03-30",
+    "title": "国投资本:国投资本2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600061",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503281648761770_1.pdf",
+    "available_date": "2025-03-29",
+    "title": "国投资本:国投资本2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103051468852485_1.pdf",
+    "available_date": "2021-03-06",
+    "title": "利尔化学:2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203041550535455_1.pdf",
+    "available_date": "2022-03-05",
+    "title": "利尔化学:2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202303011583921583_1.pdf",
+    "available_date": "2023-03-02",
+    "title": "利尔化学:2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202403221627620130_1.pdf",
+    "available_date": "2024-03-23",
+    "title": "利尔化学:2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002258",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503271648198911_1.pdf",
+    "available_date": "2025-03-28",
+    "title": "利尔化学:2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104261487905056_1.pdf",
+    "available_date": "2021-04-27",
+    "title": "600335:国机汽车2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204121558842669_1.pdf",
+    "available_date": "2022-04-13",
+    "title": "600335:国机汽车2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304251585802738_1.pdf",
+    "available_date": "2023-04-26",
+    "title": "国机汽车:国机汽车2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404251631310758_1.pdf",
+    "available_date": "2024-04-26",
+    "title": "国机汽车:国机汽车2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600335",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504241661714411_1.pdf",
+    "available_date": "2025-04-25",
+    "title": "国机汽车:国机汽车2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688327",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304171585506726_1.pdf",
+    "available_date": "2023-04-18",
+    "title": "云从科技:2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688327",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404171630446364_1.pdf",
+    "available_date": "2024-04-18",
+    "title": "云从科技:2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688327",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504291664565165_1.pdf",
+    "available_date": "2025-04-30",
+    "title": "云从科技:2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103141471838035_1.pdf",
+    "available_date": "2021-03-15",
+    "title": "603773:沃格光电2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203141552602278_1.pdf",
+    "available_date": "2022-03-15",
+    "title": "603773:江西沃格光电股份有限公司2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304261585903659_1.pdf",
+    "available_date": "2023-04-27",
+    "title": "沃格光电:江西沃格光电股份有限公司2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404191630660252_1.pdf",
+    "available_date": "2024-04-20",
+    "title": "沃格光电:江西沃格光电股份有限公司2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603773",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504241661774815_1.pdf",
+    "available_date": "2025-04-25",
+    "title": "沃格光电:江西沃格光电集团股份有限公司2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104281488381013_1.pdf",
+    "available_date": "2021-04-29",
+    "title": "603286:2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204271561941608_1.pdf",
+    "available_date": "2022-04-28",
+    "title": "603286:2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304271585943067_1.pdf",
+    "available_date": "2023-04-28",
+    "title": "日盈电子:2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404261631388009_1.pdf",
+    "available_date": "2024-04-27",
+    "title": "日盈电子:2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603286",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503281648682369_1.pdf",
+    "available_date": "2025-03-29",
+    "title": "日盈电子:2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103301478575965_1.pdf",
+    "available_date": "2021-03-31",
+    "title": "600653:申华控股2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203301556120181_1.pdf",
+    "available_date": "2022-03-31",
+    "title": "600653:申华控股2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304271585982782_1.pdf",
+    "available_date": "2023-04-28",
+    "title": "申华控股:申华控股2022年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404261631404999_1.pdf",
+    "available_date": "2024-04-27",
+    "title": "申华控股:申华控股2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600653",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503281648775154_1.pdf",
+    "available_date": "2025-03-29",
+    "title": "申华控股:申华控股2024年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104261487952319_1.pdf",
+    "available_date": "2021-04-27",
+    "title": "601666:平煤股份2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203281555602174_1.pdf",
+    "available_date": "2022-03-29",
+    "title": "601666:平煤股份2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304061585193167_1.pdf",
+    "available_date": "2023-04-07",
+    "title": "平煤股份:平煤股份2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202403181626984965_1.pdf",
+    "available_date": "2024-03-19",
+    "title": "平煤股份:平顶山天安煤业股份有限公司2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.601666",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503201645227940_1.pdf",
+    "available_date": "2025-03-21",
+    "title": "平煤股份:平煤股份2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603324",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204261561735190_1.pdf",
+    "available_date": "2022-04-27",
+    "title": "603324:盛剑环境2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603324",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304251585803742_1.pdf",
+    "available_date": "2023-04-26",
+    "title": "盛剑环境:盛剑环境2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603324",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404181630515957_1.pdf",
+    "available_date": "2024-04-19",
+    "title": "盛剑环境:盛剑环境2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603324",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504231661141894_1.pdf",
+    "available_date": "2025-04-24",
+    "title": "盛剑科技:盛剑科技2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600086",
+    "statDate": "2018-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201904301324511109_1.pdf",
+    "available_date": "2019-04-30",
+    "title": "600086:东方金钰2018年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600086",
+    "statDate": "2019-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202006221386654696_1.pdf",
+    "available_date": "2020-06-23",
+    "title": "600086:东方金钰2019年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600687",
+    "statDate": "2016-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201704210522003961_1.pdf",
+    "available_date": "2017-04-22",
+    "title": "600687:刚泰控股2016年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600687",
+    "statDate": "2017-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201804251130435553_1.pdf",
+    "available_date": "2018-04-26",
+    "title": "600687:刚泰控股2017年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600687",
+    "statDate": "2018-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201904291324503690_1.pdf",
+    "available_date": "2019-04-30",
+    "title": "600687:ST刚泰2018年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600687",
+    "statDate": "2019-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202004301379081046_1.pdf",
+    "available_date": "2020-04-30",
+    "title": "600687:*ST刚泰2019年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104221487072819_1.pdf",
+    "available_date": "2021-04-23",
+    "title": "国脉科技:2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204221560878375_1.pdf",
+    "available_date": "2022-04-23",
+    "title": "国脉科技:2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304211585681450_1.pdf",
+    "available_date": "2023-04-22",
+    "title": "国脉科技:2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404191630691579_1.pdf",
+    "available_date": "2024-04-20",
+    "title": "国脉科技:2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sz.002093",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504251662378073_1.pdf",
+    "available_date": "2025-04-26",
+    "title": "国脉科技:2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2019-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202004171378155268_1.pdf",
+    "available_date": "2020-04-18",
+    "title": "600647:同达创业2019年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103191473907456_1.pdf",
+    "available_date": "2021-03-20",
+    "title": "600647:同达创业2020年年度报告全文",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203251554922693_1.pdf",
+    "available_date": "2022-03-26",
+    "title": "600647:同达创业2021年年度报告全文",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304281586087024_1.pdf",
+    "available_date": "2023-04-29",
+    "title": "同达创业:同达创业2022年年度报告全文",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600647",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404291631625928_1.pdf",
+    "available_date": "2024-04-30",
+    "title": "*ST同达:*ST同达2023年年度报告全文",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104271488176834_1.pdf",
+    "available_date": "2021-04-28",
+    "title": "603687:浙江大胜达包装股份有限公司2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204281562213613_1.pdf",
+    "available_date": "2022-04-29",
+    "title": "603687:浙江大胜达包装股份有限公司2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304281586089154_1.pdf",
+    "available_date": "2023-04-29",
+    "title": "大胜达:浙江大胜达包装股份有限公司2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404281631527565_1.pdf",
+    "available_date": "2024-04-29",
+    "title": "大胜达:浙江大胜达包装股份有限公司2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603687",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504211660083262_1.pdf",
+    "available_date": "2025-04-22",
+    "title": "大胜达:浙江大胜达包装股份有限公司2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688249",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404141630208898_1.pdf",
+    "available_date": "2024-04-15",
+    "title": "晶合集成:晶合集成2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.688249",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504201659431434_1.pdf",
+    "available_date": "2025-04-21",
+    "title": "晶合集成:晶合集成2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104141484772618_1.pdf",
+    "available_date": "2021-04-15",
+    "title": "600355:精伦电子2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202203301556127095_1.pdf",
+    "available_date": "2022-03-31",
+    "title": "600355:精伦电子2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304281586042670_1.pdf",
+    "available_date": "2023-04-29",
+    "title": "精伦电子:精伦电子2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404191630656990_1.pdf",
+    "available_date": "2024-04-20",
+    "title": "精伦电子:精伦电子2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.600355",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504251662337974_1.pdf",
+    "available_date": "2025-04-26",
+    "title": "精伦电子:精伦电子2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603230",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204151559468025_1.pdf",
+    "available_date": "2022-04-16",
+    "title": "603230:内蒙古新华发行集团股份有限公司2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603230",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304201585620051_1.pdf",
+    "available_date": "2023-04-21",
+    "title": "内蒙新华:内蒙古新华发行集团股份有限公司2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603230",
+    "statDate": "2023-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202404101630095380_1.pdf",
+    "available_date": "2024-04-10",
+    "title": "内蒙新华:内蒙古新华发行集团股份有限公司2023年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603230",
+    "statDate": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202504101654227747_1.pdf",
+    "available_date": "2025-04-11",
+    "title": "内蒙新华:内蒙古新华发行集团股份有限公司2024年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603696",
+    "statDate": "2020-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104201486645375_1.pdf",
+    "available_date": "2021-04-21",
+    "title": "603696:安记食品2020年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603696",
+    "statDate": "2021-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204201560500098_1.pdf",
+    "available_date": "2022-04-21",
+    "title": "603696:安记食品2021年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  },
+  {
+    "code": "sh.603696",
+    "statDate": "2022-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202304201585635265_1.pdf",
+    "available_date": "2023-04-21",
+    "title": "安记食品:安记食品2022年年度报告",
+    "vintage": "earliest_indexed_report_not_automatically_certified_original"
+  }
+]

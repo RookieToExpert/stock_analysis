@@ -1,0 +1,53 @@
+{
+  "code": "sh.600777",
+  "effective_date": "2026-06-23",
+  "evaluation_dates": [
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202606181823669166",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "10157315994075",
+          "market_code": "1",
+          "short_name": "新潮能源",
+          "stock_code": "600777"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2026-06-18 17:22:03:288",
+      "eiTime": "2026-06-18 17:23:02:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-06-19 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-06-19 12:00:00",
+      "source_type": "31",
+      "title": "*ST新潮:山东新潮能源股份有限公司关于撤销退市风险警示及其他风险警示暨停牌的公告",
+      "title_ch": "*ST新潮:山东新潮能源股份有限公司关于撤销退市风险警示及其他风险警示暨停牌的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600777&begin_time=2026-05-24&end_time=2026-06-23"
+}

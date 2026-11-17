@@ -1,0 +1,202 @@
+{
+  "2017-05-02": {
+    "universe": 3208,
+    "known_age_ST_eligible": 1910,
+    "known_age_ST_industry_eligible": 1857,
+    "market_cap_proxy_at_least_20bn": 364,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 586,
+    "unknown": 799,
+    "annual_complete": 1271
+  },
+  "2017-09-01": {
+    "universe": 3348,
+    "known_age_ST_eligible": 1935,
+    "known_age_ST_industry_eligible": 1880,
+    "market_cap_proxy_at_least_20bn": 394,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 582,
+    "unknown": 884,
+    "annual_complete": 1298
+  },
+  "2018-05-02": {
+    "universe": 3515,
+    "known_age_ST_eligible": 1917,
+    "known_age_ST_industry_eligible": 1858,
+    "market_cap_proxy_at_least_20bn": 339,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 547,
+    "unknown": 978,
+    "annual_complete": 1311
+  },
+  "2018-09-03": {
+    "universe": 3543,
+    "known_age_ST_eligible": 1903,
+    "known_age_ST_industry_eligible": 1843,
+    "market_cap_proxy_at_least_20bn": 274,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 536,
+    "unknown": 1000,
+    "annual_complete": 1307
+  },
+  "2019-05-06": {
+    "universe": 3611,
+    "known_age_ST_eligible": 1865,
+    "known_age_ST_industry_eligible": 1805,
+    "market_cap_proxy_at_least_20bn": 325,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 577,
+    "unknown": 1052,
+    "annual_complete": 1228
+  },
+  "2019-09-02": {
+    "universe": 3681,
+    "known_age_ST_eligible": 1873,
+    "known_age_ST_industry_eligible": 1811,
+    "market_cap_proxy_at_least_20bn": 297,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 576,
+    "unknown": 1075,
+    "annual_complete": 1235
+  },
+  "2020-05-06": {
+    "universe": 3834,
+    "known_age_ST_eligible": 1908,
+    "known_age_ST_industry_eligible": 1842,
+    "market_cap_proxy_at_least_20bn": 332,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 606,
+    "unknown": 1129,
+    "annual_complete": 1236
+  },
+  "2020-09-01": {
+    "universe": 3979,
+    "known_age_ST_eligible": 1928,
+    "known_age_ST_industry_eligible": 1860,
+    "market_cap_proxy_at_least_20bn": 407,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 571,
+    "unknown": 1187,
+    "annual_complete": 1289
+  },
+  "2021-05-06": {
+    "universe": 4289,
+    "known_age_ST_eligible": 1918,
+    "known_age_ST_industry_eligible": 1851,
+    "market_cap_proxy_at_least_20bn": 416,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 554,
+    "unknown": 1357,
+    "annual_complete": 1297
+  },
+  "2021-09-01": {
+    "universe": 4456,
+    "known_age_ST_eligible": 1940,
+    "known_age_ST_industry_eligible": 1871,
+    "market_cap_proxy_at_least_20bn": 469,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 561,
+    "unknown": 1476,
+    "annual_complete": 1310
+  },
+  "2022-05-05": {
+    "universe": 4713,
+    "known_age_ST_eligible": 2071,
+    "known_age_ST_industry_eligible": 1994,
+    "market_cap_proxy_at_least_20bn": 378,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 635,
+    "unknown": 1616,
+    "annual_complete": 1359
+  },
+  "2022-09-01": {
+    "universe": 4786,
+    "known_age_ST_eligible": 2114,
+    "known_age_ST_industry_eligible": 2036,
+    "market_cap_proxy_at_least_20bn": 426,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 625,
+    "unknown": 1679,
+    "annual_complete": 1411
+  },
+  "2023-05-04": {
+    "universe": 4972,
+    "known_age_ST_eligible": 2185,
+    "known_age_ST_industry_eligible": 2105,
+    "market_cap_proxy_at_least_20bn": 469,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 739,
+    "unknown": 1767,
+    "annual_complete": 1366
+  },
+  "2023-09-01": {
+    "universe": 5050,
+    "known_age_ST_eligible": 2184,
+    "known_age_ST_industry_eligible": 2103,
+    "market_cap_proxy_at_least_20bn": 443,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 720,
+    "unknown": 1838,
+    "annual_complete": 1383
+  },
+  "2024-05-06": {
+    "universe": 5112,
+    "known_age_ST_eligible": 2168,
+    "known_age_ST_industry_eligible": 2082,
+    "market_cap_proxy_at_least_20bn": 423,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 746,
+    "unknown": 1860,
+    "annual_complete": 1336
+  },
+  "2024-09-02": {
+    "universe": 5097,
+    "known_age_ST_eligible": 2207,
+    "known_age_ST_industry_eligible": 2119,
+    "market_cap_proxy_at_least_20bn": 376,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 766,
+    "unknown": 1893,
+    "annual_complete": 1353
+  },
+  "2025-05-06": {
+    "universe": 5144,
+    "known_age_ST_eligible": 2267,
+    "known_age_ST_industry_eligible": 2177,
+    "market_cap_proxy_at_least_20bn": 456,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 828,
+    "unknown": 1904,
+    "annual_complete": 1349
+  },
+  "2025-09-01": {
+    "universe": 5151,
+    "known_age_ST_eligible": 2354,
+    "known_age_ST_industry_eligible": 2264,
+    "market_cap_proxy_at_least_20bn": 553,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 862,
+    "unknown": 1935,
+    "annual_complete": 1402
+  },
+  "2026-05-06": {
+    "universe": 5199,
+    "known_age_ST_eligible": 2462,
+    "known_age_ST_industry_eligible": 2370,
+    "market_cap_proxy_at_least_20bn": 628,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 937,
+    "unknown": 1937,
+    "annual_complete": 1433
+  },
+  "2026-09-01": {
+    "universe": 5212,
+    "known_age_ST_eligible": 2563,
+    "known_age_ST_industry_eligible": 2467,
+    "market_cap_proxy_at_least_20bn": 586,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 967,
+    "unknown": 1983,
+    "annual_complete": 1500
+  }
+}

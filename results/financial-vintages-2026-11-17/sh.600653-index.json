@@ -1,0 +1,72 @@
+{
+  "code": "sh.600653",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202507111707029023",
+      "available_date": "2025-07-12",
+      "title": "申华控股:申华控股2024年年度报告(修订版)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202507111707029023_1.pdf"
+    },
+    {
+      "year": 2024,
+      "article": "AN202503281648775154",
+      "available_date": "2025-03-29",
+      "title": "申华控股:申华控股2024年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202503281648775154_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202404261631404999",
+      "available_date": "2024-04-27",
+      "title": "申华控股:申华控股2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404261631404999_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202306071590521267",
+      "available_date": "2023-06-08",
+      "title": "申华控股:2022年年度报告(修订稿)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202306071590521267_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304271585982782",
+      "available_date": "2023-04-28",
+      "title": "申华控股:申华控股2022年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304271585982782_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202203301556120181",
+      "available_date": "2022-03-31",
+      "title": "600653:申华控股2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202203301556120181_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202104191486450540",
+      "available_date": "2021-04-20",
+      "title": "600653:申华控股2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104191486450540_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202103301478575965",
+      "available_date": "2021-03-31",
+      "title": "600653:申华控股2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202103301478575965_1.pdf"
+    }
+  ],
+  "total_hits": 409,
+  "pages": 5,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=5&ann_type=A&client_source=web&stock_list=600653&begin_time=2021-01-01&end_time=2025-12-31"
+}

@@ -1,0 +1,310 @@
+{
+  "code": "sz.002477",
+  "effective_date": "2019-08-27",
+  "evaluation_dates": [
+    "2019-09-02"
+  ],
+  "outDate": "2019-10-16",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201908261345110968",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002008",
+          "column_name": "其他"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-08-26 18:36:55:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-08-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-08-27 12:00:00",
+      "source_type": "332",
+      "title": "*ST雏鹰:关于公司股票进入退市整理期交易的第一次风险提示性公告",
+      "title_ch": "*ST雏鹰:关于公司股票进入退市整理期交易的第一次风险提示性公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201908221344892529",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006002",
+          "column_name": "终止上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-08-22 17:28:35:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-08-23 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-08-23 12:00:00",
+      "source_type": "332",
+      "title": "*ST雏鹰:联合信用评级有限公司关于公司股票终止上市及进入退市整理期交易的关注公告",
+      "title_ch": "*ST雏鹰:联合信用评级有限公司关于公司股票终止上市及进入退市整理期交易的关注公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201908191344629806",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006002",
+          "column_name": "终止上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-08-19 19:20:28:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-08-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-08-20 12:00:00",
+      "source_type": "332",
+      "title": "*ST雏鹰:关于公司股票终止上市的公告",
+      "title_ch": "*ST雏鹰:关于公司股票终止上市的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201908191344629803",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002008",
+          "column_name": "其他"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-08-19 19:20:28:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-08-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-08-20 12:00:00",
+      "source_type": "332",
+      "title": "*ST雏鹰:关于公司股票进入退市整理期交易的公告",
+      "title_ch": "*ST雏鹰:关于公司股票进入退市整理期交易的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201908191344636985",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006002",
+          "column_name": "终止上市"
+        },
+        {
+          "column_code": "010001002",
+          "column_name": "深交所一般公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-08-19 20:35:13:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-08-19 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-08-19 12:00:00",
+      "source_type": "33",
+      "title": "关于雏鹰农牧集团股份有限公司股票终止上市的公告",
+      "title_ch": "关于雏鹰农牧集团股份有限公司股票终止上市的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201908011342069623",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-08-01 17:44:13:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-08-02 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-08-02 12:00:00",
+      "source_type": "332",
+      "title": "*ST雏鹰:关于公司股票停牌暨可能被终止上市的风险提示性公告",
+      "title_ch": "*ST雏鹰:关于公司股票停牌暨可能被终止上市的风险提示性公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201907311341792011",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-07-31 17:47:58:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-08-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-08-01 12:00:00",
+      "source_type": "332",
+      "title": "*ST雏鹰:关于公司股票可能将被终止上市的第十次风险提示性公告",
+      "title_ch": "*ST雏鹰:关于公司股票可能将被终止上市的第十次风险提示性公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201907301341629420",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-07-30 17:38:45:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-07-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-07-31 12:00:00",
+      "source_type": "332",
+      "title": "*ST雏鹰:关于公司股票可能将被终止上市的第九次风险提示性公告",
+      "title_ch": "*ST雏鹰:关于公司股票可能将被终止上市的第九次风险提示性公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201907291341566220",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-07-29 18:31:54:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-07-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-07-30 12:00:00",
+      "source_type": "332",
+      "title": "*ST雏鹰:关于公司股票可能将被终止上市的第八次风险提示性公告",
+      "title_ch": "*ST雏鹰:关于公司股票可能将被终止上市的第八次风险提示性公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201907281341517630",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "39306562320970",
+          "market_code": "0",
+          "short_name": "雏鹰退",
+          "stock_code": "002477"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-07-28 16:06:08:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-07-29 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-07-29 12:00:00",
+      "source_type": "332",
+      "title": "*ST雏鹰:关于公司股票可能将被终止上市的第七次风险提示性公告",
+      "title_ch": "*ST雏鹰:关于公司股票可能将被终止上市的第七次风险提示性公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002477&begin_time=2019-07-28&end_time=2019-08-27"
+}

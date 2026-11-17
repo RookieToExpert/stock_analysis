@@ -1,0 +1,44 @@
+{
+  "code": "sh.600086",
+  "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2019,
+      "article": "AN202006221386654696",
+      "available_date": "2020-06-23",
+      "title": "600086:东方金钰2019年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202006221386654696_1.pdf"
+    },
+    {
+      "year": 2018,
+      "article": "AN201905301332963391",
+      "available_date": "2019-05-31",
+      "title": "600086:东方金钰2018年年度报告(修订版2)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201905301332963391_1.pdf"
+    },
+    {
+      "year": 2018,
+      "article": "AN201905061326984327",
+      "available_date": "2019-05-07",
+      "title": "600086:东方金钰2018年年度报告(修订版)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201905061326984327_1.pdf"
+    },
+    {
+      "year": 2018,
+      "article": "AN201904301324511109",
+      "available_date": "2019-04-30",
+      "title": "600086:东方金钰2018年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201904301324511109_1.pdf"
+    }
+  ],
+  "total_hits": 431,
+  "pages": 5,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=5&ann_type=A&client_source=web&stock_list=600086&begin_time=2019-01-01&end_time=2023-12-31"
+}

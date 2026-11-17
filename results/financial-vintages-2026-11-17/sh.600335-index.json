@@ -1,0 +1,51 @@
+{
+  "code": "sh.600335",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202504241661714411",
+      "available_date": "2025-04-25",
+      "title": "国机汽车:国机汽车2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202504241661714411_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202404251631310758",
+      "available_date": "2024-04-26",
+      "title": "国机汽车:国机汽车2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404251631310758_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304251585802738",
+      "available_date": "2023-04-26",
+      "title": "国机汽车:国机汽车2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304251585802738_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202204121558842669",
+      "available_date": "2022-04-13",
+      "title": "600335:国机汽车2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202204121558842669_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202104261487905056",
+      "available_date": "2021-04-27",
+      "title": "600335:国机汽车2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104261487905056_1.pdf"
+    }
+  ],
+  "total_hits": 509,
+  "pages": 6,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=6&ann_type=A&client_source=web&stock_list=600335&begin_time=2021-01-01&end_time=2025-12-31"
+}

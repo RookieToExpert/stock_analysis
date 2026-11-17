@@ -1,0 +1,37 @@
+{
+  "code": "sh.688327",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202504291664565165",
+      "available_date": "2025-04-30",
+      "title": "云从科技:2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202504291664565165_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202404171630446364",
+      "available_date": "2024-04-18",
+      "title": "云从科技:2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404171630446364_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304171585506726",
+      "available_date": "2023-04-18",
+      "title": "云从科技:2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304171585506726_1.pdf"
+    }
+  ],
+  "total_hits": 611,
+  "pages": 7,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=7&ann_type=A&client_source=web&stock_list=688327&begin_time=2021-01-01&end_time=2025-12-31"
+}

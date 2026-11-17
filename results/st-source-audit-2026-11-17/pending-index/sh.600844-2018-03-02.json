@@ -1,0 +1,87 @@
+{
+  "code": "sh.600844",
+  "effective_date": "2018-03-02",
+  "evaluation_dates": [
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201802281095672824",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "40118750375019",
+          "market_code": "1",
+          "short_name": "金煤科技",
+          "stock_code": "600844"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-02-28 20:21:32:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-03-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-03-01 12:00:00",
+      "source_type": "31",
+      "title": "600844:*ST丹科关于公司股票撤销退市风险警示的公告",
+      "title_ch": "600844:*ST丹科关于公司股票撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201802251094417613",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "40118750375019",
+          "market_code": "1",
+          "short_name": "金煤科技",
+          "stock_code": "600844"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-02-25 14:05:14:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-02-26 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-02-26 12:00:00",
+      "source_type": "31",
+      "title": "600844:*ST丹科关于申请撤销公司股票退市风险警示的公告",
+      "title_ch": "600844:*ST丹科关于申请撤销公司股票退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600844&begin_time=2018-01-31&end_time=2018-03-02"
+}

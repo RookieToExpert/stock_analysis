@@ -8,13 +8,14 @@ import score_v032
 from price_risk import calculate as calculate_price_risk
 from risk_pipeline import current_risk
 from pathlib import Path
+from financial_evidence import balance_bound, financing_evidence
 sys.path.insert(0, str(Path(__file__).parent))
 from rules import MANUAL, fiscal_dividends, recent_from_rows, action, blue_chip, grade, metrics, missing_fields, recent_state, score, state_unknown, vetoes, warnings
 
 OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 HDR = {"User-Agent": "Mozilla/5.0", "Referer": "https://emweb.securities.eastmoney.com/"}
 F10 = "https://datacenter.eastmoney.com/securities/api/data"
-CALCULATION_REVISION = "2026-11-17-r8"
+CALCULATION_REVISION = "2026-11-17-r9"
 
 
 MAIN_FIELDS = ("REPORT_DATE", "NOTICE_DATE", "UPDATE_DATE", "TOTALOPERATEREVE", "PARENTNETPROFIT",
@@ -118,12 +119,15 @@ def fetch(code, quote=None):
     q = quote or get(f"https://push2.eastmoney.com/api/qt/stock/get?secid={1 if sh else 0}.{code}"
                      "&fields=f43,f58,f116,f127")["data"]
     as_of = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
+    div_end=int(as_of[:4])-(2 if int(as_of[5:7])<7 else 1)
     try:
         risk = current_risk(code, as_of, div_rows, get)
     except (OSError, ValueError, TypeError, KeyError) as exc:
         risk = fetch_price_risk(code, as_of)
         risk["reconstruction_failure"] = f"{type(exc).__name__}: {exc}"
     return {"model_version": "0.3.3", "calculation_revision": CALCULATION_REVISION, "as_of": as_of,
+            "balance_bound_verification": balance_bound(code,bs['statement_date'],as_of),
+            "financing_verification": financing_evidence(code,div_end-4,div_end,as_of),
             **recent_details(main), "code": code, "name": q.get("f58"), "industry": q.get("f127"), "price": q["f43"] / 100,
             "mv": q.get("f116"), "ttm_np": ttm, "kf_yoy": kf_yoy, "gm_delta": gm_delta, "bs": bs, "years": years,
             "balance_basis": "cash-debt-verification-v2",

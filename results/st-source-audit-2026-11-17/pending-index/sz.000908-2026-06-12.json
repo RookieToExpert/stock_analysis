@@ -1,0 +1,78 @@
+{
+  "code": "sz.000908",
+  "effective_date": "2026-06-12",
+  "evaluation_dates": [
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202606101823431933",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "44965503304326",
+          "market_code": "0",
+          "short_name": "石药景峰",
+          "stock_code": "000908"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "2026-06-10 20:11:08:166",
+      "eiTime": "2026-06-10 20:12:05:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-06-11 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-06-11 12:00:00",
+      "source_type": "331",
+      "title": "ST景峰:关于公司股票撤销其他风险警示暨停复牌的公告",
+      "title_ch": "ST景峰:关于公司股票撤销其他风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202605211822653021",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "44965503304326",
+          "market_code": "0",
+          "short_name": "石药景峰",
+          "stock_code": "000908"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "2026-05-21 19:32:10:797",
+      "eiTime": "2026-05-21 19:33:01:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-05-22 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-05-22 12:00:00",
+      "source_type": "331",
+      "title": "ST景峰:关于申请撤销其他风险警示的进展公告",
+      "title_ch": "ST景峰:关于申请撤销其他风险警示的进展公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000908&begin_time=2026-05-13&end_time=2026-06-12"
+}

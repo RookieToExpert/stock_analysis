@@ -1,0 +1,84 @@
+{
+  "code": "sh.603023",
+  "effective_date": "2025-06-04",
+  "evaluation_dates": [
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202505301681839799",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "13646825339157",
+          "market_code": "1",
+          "short_name": "威帝股份",
+          "stock_code": "603023"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2025-05-30 16:47:28:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-05-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-05-31 12:00:00",
+      "source_type": "31",
+      "title": "*ST威帝:哈尔滨威帝电子股份有限公司关于撤销退市风险警示暨停牌的公告",
+      "title_ch": "*ST威帝:哈尔滨威帝电子股份有限公司关于撤销退市风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202505131672241045",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "13646825339157",
+          "market_code": "1",
+          "short_name": "威帝股份",
+          "stock_code": "603023"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2025-05-13 18:26:05:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-05-14 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-05-14 12:00:00",
+      "source_type": "31",
+      "title": "*ST威帝:哈尔滨威帝电子股份有限公司关于申请撤销公司股票退市风险警示的进展公告",
+      "title_ch": "*ST威帝:哈尔滨威帝电子股份有限公司关于申请撤销公司股票退市风险警示的进展公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603023&begin_time=2025-05-05&end_time=2025-06-04"
+}

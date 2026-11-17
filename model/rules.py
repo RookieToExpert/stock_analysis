@@ -203,6 +203,24 @@ def metrics(d):
                 and cash is not None and debt is not None
                 and 0 <= available <= cash and complete_debt >= max(0, debt)):
             net_cash = available >= complete_debt
+        # A verified debt lower bound above ALL potentially available cash is
+        # sufficient to disprove net cash. It never certifies complete debt or
+        # turns an unverified positive result into a passing score.
+        bound = d.get('balance_bound_verification') or {}
+        try:
+            bound_dates = (date.fromisoformat(bound.get('statement_date',''))
+                           <= date.fromisoformat(bound.get('available_date',''))
+                           < date.fromisoformat(d.get('as_of','')))
+        except (ValueError,TypeError):
+            bound_dates = False
+        upper, lower = _n(bound.get('cash_upper_bound')), _n(bound.get('debt_lower_bound'))
+        if (bound_dates and bound.get('basis')=='negative_net_cash_bound'
+                and isinstance(bound.get('source'),str) and bound['source'].strip()
+                and bound.get('statement_date')==bs.get('statement_date')
+                and bound.get('code')==d.get('code')
+                and upper is not None and lower is not None and cash is not None
+                and 0 <= cash <= upper < lower):
+            net_cash = False
     np5 = sum(r["np"] for r in y) if complete("np") else None
     np_all5 = sum(r["np_all"] for r in y) if complete("np_all") else None
     ocf5 = sum(r["ocf"] for r in y) if complete("ocf") else None
@@ -224,6 +242,7 @@ def metrics(d):
         except (ValueError, TypeError, KeyError):
             available = False
         if (available and amount is not None and amount >= 0 and evidence.get("complete") is True
+                and (not evidence.get('code') or evidence['code']==d.get('code'))
                 and evidence.get("includes_noncash") is True and evidence.get("excludes_minority") is True
                 and isinstance(evidence.get("source"), str) and evidence["source"].strip()
                 and evidence.get("start_year") == int(dy[-1]["year"])

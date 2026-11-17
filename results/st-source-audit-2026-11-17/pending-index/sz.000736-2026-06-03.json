@@ -1,0 +1,86 @@
+{
+  "code": "sz.000736",
+  "effective_date": "2026-06-03",
+  "evaluation_dates": [
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202606011823133896",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41668586034890",
+          "market_code": "0",
+          "short_name": "中交发展",
+          "stock_code": "000736"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2026-06-01 19:34:09:389",
+      "eiTime": "2026-06-01 19:35:16:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-06-02 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-06-02 12:00:00",
+      "source_type": "331",
+      "title": "*ST中地:关于公司股票交易撤销退市风险警示暨股票停复牌的公告",
+      "title_ch": "*ST中地:关于公司股票交易撤销退市风险警示暨股票停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202605191822441318",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "41668586034890",
+          "market_code": "0",
+          "short_name": "中交发展",
+          "stock_code": "000736"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2026-05-19 15:39:29:369",
+      "eiTime": "2026-05-19 15:40:27:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-05-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-05-20 12:00:00",
+      "source_type": "331",
+      "title": "*ST中地:关于向深交所申请撤销退市风险警示的进展公告",
+      "title_ch": "*ST中地:关于向深交所申请撤销退市风险警示的进展公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000736&begin_time=2026-05-04&end_time=2026-06-03"
+}

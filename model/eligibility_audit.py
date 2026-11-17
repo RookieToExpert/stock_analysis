@@ -1,9 +1,29 @@
 #!/usr/bin/env python3
 """只读复核上市年限/ST资格后的年报覆盖。行业/市值过滤未知则不宣称正式门槛通过。"""
 import json,sys
+import gzip,hashlib
+from functools import lru_cache
 from datetime import date
 from pathlib import Path
 from pit_audit import annual_missing
+from historical_industry import lookup as industry_at
+from historical_market_cap import calculate as market_cap_at
+
+
+@lru_cache(maxsize=1)
+def release_ledger():
+    return json.loads(Path(__file__).with_name('verified_st_releases.json').read_text())
+
+
+def verified_release(code, effective):
+    matches=[r for r in release_ledger() if r['code']==code and r['effective_date']==effective]
+    if len(matches)!=1:return {}
+    proof=matches[0]
+    try:
+        with gzip.open(Path(__file__).resolve().parents[1]/proof['source_text_path'],'rt',newline='') as f:text=f.read()
+        if hashlib.sha256(text.encode()).hexdigest()!=proof['source_text_sha256']:return {}
+    except (OSError,ValueError):return {}
+    return proof
 
 
 def eligibility(data, day):
@@ -25,7 +45,7 @@ def eligibility(data, day):
     if last_st:
         releases=[r['date'] for r in history if r['date']>last_st and r.get('isST')=='0']
         effective=min(releases)
-        proof=data.get('st_release_verification') or {}
+        proof=data.get('st_release_verification') or verified_release(data.get('code'),effective)
         try:
             available=date.fromisoformat(proof.get('available_date',''))
             valid=(proof.get('source') and proof.get('effective_date')==effective
@@ -38,7 +58,7 @@ def eligibility(data, day):
 
 def audit(root):
     universe=json.loads((root/'universe.json').read_text());members={}
-    result={d:dict(universe=len(set(cs)),excluded=[],unknown_eligibility=[],eligible_annual_missing=[],eligible_complete=[]) for d,cs in universe.items()}
+    result={d:dict(universe=len(set(cs)),excluded=[],unknown_eligibility=[],eligible_annual_missing=[],eligible_complete=[],known_age_ST_eligible=0,market_cap_proxies={}) for d,cs in universe.items()}
     for day,codes in universe.items():
         for c in set(codes):members.setdefault(c,[]).append(day)
     for code,days in members.items():
@@ -53,19 +73,31 @@ def audit(root):
             if eligible is None:entry['unknown_eligibility'].append({'code':code,'reason':reason})
             elif not eligible:entry['excluded'].append({'code':code,'reason':reason})
             else:
+                entry['known_age_ST_eligible']+=1
+                industry=industry_at(code,day)
+                if industry is None:
+                    entry['unknown_eligibility'].append({'code':code,'reason':'historical_industry_missing_or_ambiguous'})
+                    continue
+                if industry['financial']:
+                    entry['excluded'].append({'code':code,'reason':'financial_industry_as_published','industry':industry})
+                    continue
+                entry['market_cap_proxies'][code]=market_cap_at(d,day)
                 missing=annual_missing(d,day)
                 if missing:entry['eligible_annual_missing'].append({'code':code,'reasons':missing})
                 else:entry['eligible_complete'].append(code)
-    for entry in result.values():
+    for day,entry in result.items():
         n=len(entry['eligible_annual_missing'])+len(entry['eligible_complete'])
-        entry['known_age_ST_eligible']=n
+        entry['known_age_ST_industry_eligible']=n
+        entry['industry_reference']=industry_at('000001',day)
+        entry['market_cap_proxy_at_least_20bn']=sum(1 for r in entry['market_cap_proxies'].values() if r and r['value_yuan']>=20_000_000_000)
+        entry['market_cap_proxy_unknown']=sum(r is None for r in entry['market_cap_proxies'].values())
         entry['missing_fraction_among_known_eligible']=len(entry['eligible_annual_missing'])/n if n else None
-    return {'scope':'IPO age and ST only; industry and market-cap cut not yet certified',
+    return {'scope':'IPO age, evidence-backed ST release and latest published official industry; market-cap cut not yet certified',
             'strategy_gate_pass':False,'evaluations':result}
 
 
 if __name__=='__main__':
     output=audit(Path(sys.argv[1]));Path(sys.argv[2]).write_text(json.dumps(output,ensure_ascii=False))
     for day,e in sorted(output['evaluations'].items()):
-        print(day,'eligible',e['known_age_ST_eligible'],'annual_missing',len(e['eligible_annual_missing']),
+        print(day,'age_ST_industry_eligible',e['known_age_ST_industry_eligible'],'annual_missing',len(e['eligible_annual_missing']),
               'eligibility_unknown',len(e['unknown_eligibility']))

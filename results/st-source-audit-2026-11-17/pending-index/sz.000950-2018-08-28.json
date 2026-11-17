@@ -1,0 +1,442 @@
+{
+  "code": "sz.000950",
+  "effective_date": "2018-08-28",
+  "evaluation_dates": [
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201808271183224281",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-27 16:47:50:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-28 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-28 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:关于公司股票恢复上市首日的提示性公告",
+      "title_ch": "*ST建峰:关于公司股票恢复上市首日的提示性公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808191180568833",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-19 16:06:59:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-20 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:关于撤销公司股票交易退市风险警示及变更证券简称的公告",
+      "title_ch": "*ST建峰:关于撤销公司股票交易退市风险警示及变更证券简称的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808191180568855",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-19 16:07:09:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-20 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:北京懋德律师事务所关于公司A股股票恢复上市的法律意见书",
+      "title_ch": "*ST建峰:北京懋德律师事务所关于公司A股股票恢复上市的法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808191180568857",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-19 16:07:09:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-20 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:恢复上市公告书",
+      "title_ch": "*ST建峰:恢复上市公告书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808191180568856",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-19 16:07:09:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-20 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:安信证券股份有限公司关于公司恢复上市的核查报告",
+      "title_ch": "*ST建峰:安信证券股份有限公司关于公司恢复上市的核查报告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808191180568834",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002004",
+          "column_name": "上市保荐书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-19 16:06:59:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-20 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:安信证券股份有限公司关于公司恢复上市保荐书",
+      "title_ch": "*ST建峰:安信证券股份有限公司关于公司恢复上市保荐书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808191180570443",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        },
+        {
+          "column_code": "010001002",
+          "column_name": "深交所一般公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-19 17:14:09:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-19 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-19 12:00:00",
+      "source_type": "33",
+      "title": "关于重药控股股份有限公司股票恢复上市的公告",
+      "title_ch": "关于重药控股股份有限公司股票恢复上市的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808141178359207",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-14 17:36:57:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-15 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:关于向深圳证券交易所申请撤销公司股票交易退市风险警示及变更证券简称的公告",
+      "title_ch": "*ST建峰:关于向深圳证券交易所申请撤销公司股票交易退市风险警示及变更证券简称的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808071175641852",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-07 16:59:08:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-08 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-08 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:关于深圳证券交易所核准公司股票恢复上市的公告",
+      "title_ch": "*ST建峰:关于深圳证券交易所核准公司股票恢复上市的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807301171661955",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002008",
+          "column_name": "其他"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-30 18:08:33:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-31 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:关于回复深圳证券交易所《关于提交恢复上市补充材料有关事项的函》的公告",
+      "title_ch": "*ST建峰:关于回复深圳证券交易所《关于提交恢复上市补充材料有关事项的函》的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807301171661957",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-30 18:08:33:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-31 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:安信证券股份有限公司关于深圳证券交易所《关于提交恢复上市补充材料有关事项的函》有关事项的核查意见",
+      "title_ch": "*ST建峰:安信证券股份有限公司关于深圳证券交易所《关于提交恢复上市补充材料有关事项的函》有关事项的核查意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807301171661956",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-30 18:08:33:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-31 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:安信证券股份有限公司关于公司恢复上市审核关注问题相关事项的专项核查意见",
+      "title_ch": "*ST建峰:安信证券股份有限公司关于公司恢复上市审核关注问题相关事项的专项核查意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807301171661958",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002005001008002",
+          "column_name": "审计机构变更"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-30 18:08:33:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-31 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:立信会计师事务所(特殊普通合伙)《关于提交恢复上市补充材料有关事项的函》的回复",
+      "title_ch": "*ST建峰:立信会计师事务所(特殊普通合伙)《关于提交恢复上市补充材料有关事项的函》的回复",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807301171661959",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "10431080255574",
+          "market_code": "0",
+          "short_name": "重药控股",
+          "stock_code": "000950"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        },
+        {
+          "column_code": "001002005001008002",
+          "column_name": "审计机构变更"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-30 18:08:33:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-31 12:00:00",
+      "source_type": "331",
+      "title": "*ST建峰:立信会计师事务所(特殊普通合伙)关于公司恢复上市审核关注问题相关事项的回复",
+      "title_ch": "*ST建峰:立信会计师事务所(特殊普通合伙)关于公司恢复上市审核关注问题相关事项的回复",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000950&begin_time=2018-07-29&end_time=2018-08-28"
+}

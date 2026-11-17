@@ -1,0 +1,80 @@
+{
+  "code": "sz.002211",
+  "effective_date": "2023-06-21",
+  "evaluation_dates": [
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202306191591072995",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "48398346335658",
+          "market_code": "0",
+          "short_name": "ST宏达",
+          "stock_code": "002211"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-06-19 18:51:50:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-06-20 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-06-20 12:00:00",
+      "source_type": "331",
+      "title": "ST宏达:关于撤销其他风险警示暨停复牌的公告",
+      "title_ch": "ST宏达:关于撤销其他风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202306141590946550",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "48398346335658",
+          "market_code": "0",
+          "short_name": "ST宏达",
+          "stock_code": "002211"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-06-14 18:48:01:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-06-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-06-15 12:00:00",
+      "source_type": "331",
+      "title": "ST宏达:关于申请撤销公司股票其他风险警示的公告",
+      "title_ch": "ST宏达:关于申请撤销公司股票其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002211&begin_time=2023-05-22&end_time=2023-06-21"
+}

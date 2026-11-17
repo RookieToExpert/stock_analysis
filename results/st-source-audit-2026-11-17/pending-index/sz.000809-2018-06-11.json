@@ -1,0 +1,17 @@
+{
+  "code": "sz.000809",
+  "effective_date": "2018-06-11",
+  "evaluation_dates": [
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000809&begin_time=2018-05-12&end_time=2018-06-11"
+}

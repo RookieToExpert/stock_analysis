@@ -1,0 +1,83 @@
+{
+  "code": "sh.600381",
+  "effective_date": "2016-11-21",
+  "evaluation_dates": [
+    "2017-05-02",
+    "2017-09-01",
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201611170107306585",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "37621403247019",
+          "market_code": "1",
+          "short_name": "*ST春天",
+          "stock_code": "600381"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002008",
+          "column_name": "其他"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2016-11-17 20:00:14:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2016-11-18 00:00:00",
+      "product_code": "",
+      "sort_date": "2016-11-18 12:00:00",
+      "source_type": "31",
+      "title": "600381:ST春天关于股票撤销风险警示的公告",
+      "title_ch": "600381:ST春天关于股票撤销风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201611110085900113",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "37621403247019",
+          "market_code": "1",
+          "short_name": "*ST春天",
+          "stock_code": "600381"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2016-11-11 18:35:52:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2016-11-12 00:00:00",
+      "product_code": "",
+      "sort_date": "2016-11-12 12:00:00",
+      "source_type": "31",
+      "title": "600381:ST春天关于申请撤销公司股票其他风险警示的公告",
+      "title_ch": "600381:ST春天关于申请撤销公司股票其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600381&begin_time=2016-10-22&end_time=2016-11-21"
+}

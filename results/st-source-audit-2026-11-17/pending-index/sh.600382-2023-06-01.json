@@ -1,0 +1,51 @@
+{
+  "code": "sh.600382",
+  "effective_date": "2023-06-01",
+  "evaluation_dates": [
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202305301587359577",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "49629019677531",
+          "market_code": "1",
+          "short_name": "广东明珠",
+          "stock_code": "600382"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2023-05-30 17:48:50:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2023-05-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2023-05-31 12:00:00",
+      "source_type": "31",
+      "title": "ST广珠:广东明珠集团股份有限公司关于撤销其他风险警示暨临时停牌的公告",
+      "title_ch": "ST广珠:广东明珠集团股份有限公司关于撤销其他风险警示暨临时停牌的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600382&begin_time=2023-05-02&end_time=2023-06-01"
+}

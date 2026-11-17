@@ -1,0 +1,58 @@
+{
+  "code": "sh.600687",
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2019,
+      "article": "AN202004301379081046",
+      "available_date": "2020-04-30",
+      "title": "600687:*ST刚泰2019年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202004301379081046_1.pdf"
+    },
+    {
+      "year": 2018,
+      "article": "AN201906101334361282",
+      "available_date": "2019-06-11",
+      "title": "600687:*ST刚泰2018年年度报告(修订稿)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201906101334361282_1.pdf"
+    },
+    {
+      "year": 2018,
+      "article": "AN201904291324503690",
+      "available_date": "2019-04-30",
+      "title": "600687:ST刚泰2018年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201904291324503690_1.pdf"
+    },
+    {
+      "year": 2017,
+      "article": "AN201805291150140572",
+      "available_date": "2018-05-30",
+      "title": "600687:刚泰控股2017年年度报告(修订稿)",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201805291150140572_1.pdf"
+    },
+    {
+      "year": 2017,
+      "article": "AN201804251130435553",
+      "available_date": "2018-04-26",
+      "title": "600687:刚泰控股2017年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201804251130435553_1.pdf"
+    },
+    {
+      "year": 2016,
+      "article": "AN201704210522003961",
+      "available_date": "2017-04-22",
+      "title": "600687:刚泰控股2016年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201704210522003961_1.pdf"
+    }
+  ],
+  "total_hits": 767,
+  "pages": 8,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=8&ann_type=A&client_source=web&stock_list=600687&begin_time=2017-01-01&end_time=2021-12-31"
+}

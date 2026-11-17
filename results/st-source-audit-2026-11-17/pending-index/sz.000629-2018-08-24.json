@@ -1,0 +1,467 @@
+{
+  "code": "sz.000629",
+  "effective_date": "2018-08-24",
+  "evaluation_dates": [
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201808231182039633",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-23 16:50:20:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-24 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-24 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:关于公司股票恢复上市首日的提示性公告",
+      "title_ch": "*ST钒钛:关于公司股票恢复上市首日的提示性公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808151179144691",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-15 19:27:36:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-16 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:关于撤销公司股票交易退市风险警示的公告",
+      "title_ch": "*ST钒钛:关于撤销公司股票交易退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808151179144695",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-15 19:27:56:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-16 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:恢复上市公告书",
+      "title_ch": "*ST钒钛:恢复上市公告书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808151179144692",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-15 19:27:36:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-16 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:北京市嘉源律师事务所关于公司申请股票恢复上市的法律意见书",
+      "title_ch": "*ST钒钛:北京市嘉源律师事务所关于公司申请股票恢复上市的法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808151179144693",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002004",
+          "column_name": "上市保荐书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-15 19:27:36:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-16 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:广发证券股份有限公司关于公司恢复上市保荐书",
+      "title_ch": "*ST钒钛:广发证券股份有限公司关于公司恢复上市保荐书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808151179144694",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-15 19:27:36:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-16 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:广发证券股份有限公司关于公司恢复上市的核查报告",
+      "title_ch": "*ST钒钛:广发证券股份有限公司关于公司恢复上市的核查报告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808151179178717",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        },
+        {
+          "column_code": "010001002",
+          "column_name": "深交所一般公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-15 19:51:25:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-15 12:00:00",
+      "source_type": "33",
+      "title": "关于攀钢集团钒钛资源股份有限公司股票恢复上市的公告",
+      "title_ch": "关于攀钢集团钒钛资源股份有限公司股票恢复上市的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808091176544473",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-09 15:42:54:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-10 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-10 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:关于申请撤销公司股票交易退市风险警示的公告",
+      "title_ch": "*ST钒钛:关于申请撤销公司股票交易退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808071175652793",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005002",
+          "column_name": "恢复上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-07 17:25:27:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-08 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-08 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:关于深圳证券交易所核准公司股票恢复上市的公告",
+      "title_ch": "*ST钒钛:关于深圳证券交易所核准公司股票恢复上市的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201808031174610344",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004005001",
+          "column_name": "恢复上市进展公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-08-03 19:06:33:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-08-04 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-08-04 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:关于为恢复上市采取的措施及有关工作进展的公告",
+      "title_ch": "*ST钒钛:关于为恢复上市采取的措施及有关工作进展的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807291171432488",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002001",
+          "column_name": "保荐/核查意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-29 16:05:11:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-30 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:广发证券股份有限公司关于《深圳证券交易所关于提交恢复上市补充材料有关事项的函》的核查意见",
+      "title_ch": "*ST钒钛:广发证券股份有限公司关于《深圳证券交易所关于提交恢复上市补充材料有关事项的函》的核查意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807291171432489",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002011005",
+          "column_name": "问询函"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-29 16:05:11:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-30 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:瑞华会计师事务所(特殊普通合伙)关于深圳证券交易所对提交恢复上市补充材料有关事项问询函的回复",
+      "title_ch": "*ST钒钛:瑞华会计师事务所(特殊普通合伙)关于深圳证券交易所对提交恢复上市补充材料有关事项问询函的回复",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807291171432487",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-29 16:05:11:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-30 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:北京市嘉源律师事务所关于公司申请股票恢复上市的补充法律意见书(二)",
+      "title_ch": "*ST钒钛:北京市嘉源律师事务所关于公司申请股票恢复上市的补充法律意见书(二)",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807291171432486",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001003002002",
+          "column_name": "法律意见书"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-29 16:05:11:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-30 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:北京市嘉源律师事务所关于公司申请股票恢复上市的补充法律意见书",
+      "title_ch": "*ST钒钛:北京市嘉源律师事务所关于公司申请股票恢复上市的补充法律意见书",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201807291171432485",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "23527386824314",
+          "market_code": "0",
+          "short_name": "钒钛股份",
+          "stock_code": "000629"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002008",
+          "column_name": "其他"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-07-29 16:05:11:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-07-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-07-30 12:00:00",
+      "source_type": "331",
+      "title": "*ST钒钛:关于对《深圳证券交易所关于提交恢复上市补充材料有关事项的函》及相关机构调查核实所提问题的回复公告",
+      "title_ch": "*ST钒钛:关于对《深圳证券交易所关于提交恢复上市补充材料有关事项的函》及相关机构调查核实所提问题的回复公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000629&begin_time=2018-07-25&end_time=2018-08-24"
+}

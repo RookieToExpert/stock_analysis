@@ -1,0 +1,79 @@
+{
+  "code": "sz.000697",
+  "effective_date": "2026-05-06",
+  "evaluation_dates": [
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202604291821772664",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "13825776720662",
+          "market_code": "0",
+          "short_name": "炼石航空",
+          "stock_code": "000697"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "2026-04-29 20:35:24:545",
+      "eiTime": "2026-04-29 20:36:29:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-04-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-04-30 12:00:00",
+      "source_type": "331",
+      "title": "ST炼石:关于公司股票交易撤销其他风险警示暨停复牌公告",
+      "title_ch": "ST炼石:关于公司股票交易撤销其他风险警示暨停复牌公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202604141821181316",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "13825776720662",
+          "market_code": "0",
+          "short_name": "炼石航空",
+          "stock_code": "000697"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "2026-04-14 16:37:11:297",
+      "eiTime": "2026-04-14 16:38:29:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-04-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-04-15 12:00:00",
+      "source_type": "331",
+      "title": "ST炼石:关于申请撤销对公司股票交易实施其他风险警示的进展公告",
+      "title_ch": "ST炼石:关于申请撤销对公司股票交易实施其他风险警示的进展公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000697&begin_time=2026-04-06&end_time=2026-05-06"
+}

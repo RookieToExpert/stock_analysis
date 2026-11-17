@@ -1,0 +1,78 @@
+{
+  "code": "sh.603117",
+  "effective_date": "2024-07-30",
+  "evaluation_dates": [
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202407261638343942",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "26252123190187",
+          "market_code": "1",
+          "short_name": "万林物流",
+          "stock_code": "603117"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-07-26 17:56:39:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-07-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-07-27 12:00:00",
+      "source_type": "31",
+      "title": "ST万林:江苏万林现代物流股份有限公司关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_ch": "ST万林:江苏万林现代物流股份有限公司关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202407181638052281",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "26252123190187",
+          "market_code": "1",
+          "short_name": "万林物流",
+          "stock_code": "603117"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-07-18 18:36:31:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-07-19 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-07-19 12:00:00",
+      "source_type": "31",
+      "title": "ST万林:江苏万林现代物流股份有限公司关于公司股票申请撤销其他风险警示的公告",
+      "title_ch": "ST万林:江苏万林现代物流股份有限公司关于公司股票申请撤销其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603117&begin_time=2024-06-30&end_time=2024-07-30"
+}

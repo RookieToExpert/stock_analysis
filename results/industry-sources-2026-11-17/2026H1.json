@@ -1,0 +1,26 @@
+{
+  "period": "2026H1",
+  "available_date": "2026-09-30",
+  "title": "2026年上半年上市公司行业分类结果",
+  "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/2e1b516684544cc7be7eab6f93f7dddc.js",
+  "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+  "taxonomy": "CAPCO2023",
+  "complete": true,
+  "documents": [
+    {
+      "key": "2026H1-0",
+      "source": "https://sp.capco.org.cn:82/file/202609/gwfile/2026shangbangupiaodaima.pdf",
+      "label": "2026年上半年上市公司行业分类结果（按股票代码排序）.pdf",
+      "pdf_sha256": "1f1862ae2199a82a3a35c62f16a7d576120bca97f3de608989c8897df9b6c8a6",
+      "text_sha256": "63050b24fb9def71421cc56d426fa3e80133ea7781fd54071ba039d2eafbeca4"
+    },
+    {
+      "key": "2026H1-1",
+      "source": "https://sp.capco.org.cn:82/file/202609/gwfile/2026shangbanhangyefenlei.pdf",
+      "label": "2026年上半年上市公司行业分类结果（按行业排序）.pdf",
+      "pdf_sha256": "0400e5ad54a920ff0996219201e76bd03eed426c712bdd47cfb5bed11ae71109",
+      "text_sha256": "5021d26964ff3999fbe12855861e4d480bb547167902dbaffa7faa534a85f7a0"
+    }
+  ],
+  "page_sha256": "e2e4ac866954985d1bbd2c501b16f288f0542b62b1963053cff41215443ef92a"
+}

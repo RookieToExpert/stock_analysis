@@ -4,6 +4,20 @@ from score import evaluate
 
 
 class BalanceVerification(unittest.TestCase):
+    def test_issuer_other_liability_loan_disproves_net_cash(self):
+        from financial_evidence import balance_bound
+        d=self.data();d['as_of']='2025-04-30';d['code']='600608'
+        d['bs'].update(statement_date='2024-12-31',cash=27191426.46,debt=10934850.94)
+        d['balance_bound_verification']=balance_bound('600608','2024-12-31',d['as_of'])
+        self.assertFalse(evaluate(d)['metrics']['net_cash'])
+        self.assertIsNone(balance_bound('600608','2024-12-31','2025-04-29'))
+        self.assertIsNone(balance_bound('600608','2025-12-31','2026-05-01'))
+        for change in ({'debt_lower_bound':1},{'cash_upper_bound':1},
+                       {'statement_date':'2023-12-31'},{'source':''},{'debt_lower_bound':float('inf')}):
+            copy=dict(d['balance_bound_verification']);d['balance_bound_verification'].update(change)
+            self.assertIsNone(evaluate(d)['metrics']['net_cash'])
+            d['balance_bound_verification']=copy
+
     def data(self):
         d=fixture();d['balance_basis']='cash-debt-verification-v2';d['bs']['statement_date']='2025-12-31';return d
     def test_unverified_cash_does_not_earn_seven(self):

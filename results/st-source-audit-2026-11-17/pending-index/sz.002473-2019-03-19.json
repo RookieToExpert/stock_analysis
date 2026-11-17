@@ -1,0 +1,72 @@
+{
+  "code": "sz.002473",
+  "effective_date": "2019-03-19",
+  "evaluation_dates": [
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06"
+  ],
+  "outDate": "2022-06-22",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201903171306557567",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "48455875441078",
+          "market_code": "0",
+          "short_name": "圣莱退",
+          "stock_code": "002473"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-03-17 16:09:57:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-03-18 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-03-18 12:00:00",
+      "source_type": "332",
+      "title": "*ST圣莱:关于公司股票撤销退市风险警示的公告",
+      "title_ch": "*ST圣莱:关于公司股票撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201902281300990993",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "48455875441078",
+          "market_code": "0",
+          "short_name": "圣莱退",
+          "stock_code": "002473"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-02-28 18:57:32:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2019-03-01 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-03-01 12:00:00",
+      "source_type": "332",
+      "title": "*ST圣莱:关于申请撤销退市风险警示的公告",
+      "title_ch": "*ST圣莱:关于申请撤销退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002473&begin_time=2019-02-17&end_time=2019-03-19"
+}

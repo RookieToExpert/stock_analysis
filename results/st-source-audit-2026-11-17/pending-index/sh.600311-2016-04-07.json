@@ -1,0 +1,75 @@
+{
+  "code": "sh.600311",
+  "effective_date": "2016-04-07",
+  "evaluation_dates": [
+    "2017-05-02",
+    "2017-09-01",
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02"
+  ],
+  "outDate": "2023-03-27",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201604050014235773",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "26558205580645",
+          "market_code": "1",
+          "short_name": "*ST荣华",
+          "stock_code": "600311"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2016-04-05 18:12:08:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2016-04-06 00:00:00",
+      "product_code": "",
+      "sort_date": "2016-04-06 12:00:00",
+      "source_type": "31",
+      "title": "600311:ST荣华关于公司股票撤销其他风险警示的公告",
+      "title_ch": "600311:ST荣华关于公司股票撤销其他风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201604010014200121",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "26558205580645",
+          "market_code": "1",
+          "short_name": "*ST荣华",
+          "stock_code": "600311"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2016-04-01 17:04:11:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2016-04-02 00:00:00",
+      "product_code": "",
+      "sort_date": "2016-04-02 12:00:00",
+      "source_type": "31",
+      "title": "600311:ST荣华关于筹划撤销公司股票其他风险警示的公告",
+      "title_ch": "600311:ST荣华关于筹划撤销公司股票其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600311&begin_time=2016-03-08&end_time=2016-04-07"
+}

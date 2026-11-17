@@ -1,0 +1,75 @@
+{
+  "code": "sh.600306",
+  "effective_date": "2017-04-19",
+  "evaluation_dates": [
+    "2017-05-02",
+    "2017-09-01",
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02"
+  ],
+  "outDate": "2024-06-26",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201704170510357872",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "21928150931301",
+          "market_code": "1",
+          "short_name": "退市商城",
+          "stock_code": "600306"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-04-17 20:05:56:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2017-04-18 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-04-18 12:00:00",
+      "source_type": "31",
+      "title": "600306:*ST商城关于公司股票撤销退市风险警示的公告",
+      "title_ch": "600306:*ST商城关于公司股票撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201704100492699241",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "21928150931301",
+          "market_code": "1",
+          "short_name": "退市商城",
+          "stock_code": "600306"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-04-10 16:07:07:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2017-04-11 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-04-11 12:00:00",
+      "source_type": "31",
+      "title": "600306:*ST商城关于申请撤销公司股票退市风险警示的公告",
+      "title_ch": "600306:*ST商城关于申请撤销公司股票退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600306&begin_time=2017-03-20&end_time=2017-04-19"
+}

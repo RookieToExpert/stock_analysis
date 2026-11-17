@@ -1,0 +1,17 @@
+{
+  "period": "2021Q3",
+  "available_date": "2021-11-10",
+  "page": "https://www.csrc.gov.cn/csrc/c100103/c1558619/content.shtml",
+  "index_url": "https://www.csrc.gov.cn/csrc/c100103/common_list.shtml",
+  "taxonomy": "CSRC2012",
+  "complete": true,
+  "documents": [
+    {
+      "source": "https://www.csrc.gov.cn/csrc/c100103/c1558619/1558619/files/1638277734844_11692.pdf",
+      "key": "2021Q3-0",
+      "pdf_sha256": "0e8af6662353037135bb8e8a08a409dcebea9c47f71e7e25b48fe66a24f8c62b",
+      "text_sha256": "52ebbb7474ff984ab6343a1d0e60cbb0533239edc2d04eac6a8b35eadc102e9a"
+    }
+  ],
+  "page_sha256": "23342a25d6e2af038d6c18bd29f5634313239ec6cbb975993eff39891a9d836c"
+}

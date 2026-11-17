@@ -1,0 +1,86 @@
+{
+  "code": "sz.000668",
+  "effective_date": "2026-06-03",
+  "evaluation_dates": [
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202606011823135282",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "29501621383434",
+          "market_code": "0",
+          "short_name": "荣丰控股",
+          "stock_code": "000668"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2026-06-01 20:45:15:478",
+      "eiTime": "2026-06-01 20:46:16:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-06-02 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-06-02 12:00:00",
+      "source_type": "331",
+      "title": "*ST荣控:荣丰控股集团关于公司股票交易撤销退市风险警示暨股票停复牌的公告",
+      "title_ch": "*ST荣控:荣丰控股集团关于公司股票交易撤销退市风险警示暨股票停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202605121822224904",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "29501621383434",
+          "market_code": "0",
+          "short_name": "荣丰控股",
+          "stock_code": "000668"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2026-05-12 20:22:03:334",
+      "eiTime": "2026-05-12 20:23:02:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-05-13 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-05-13 12:00:00",
+      "source_type": "331",
+      "title": "*ST荣控:荣丰控股集团关于申请撤销退市风险警示的进展公告",
+      "title_ch": "*ST荣控:荣丰控股集团关于申请撤销退市风险警示的进展公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000668&begin_time=2026-05-04&end_time=2026-06-03"
+}

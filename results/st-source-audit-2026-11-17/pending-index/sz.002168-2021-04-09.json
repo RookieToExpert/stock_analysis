@@ -1,0 +1,81 @@
+{
+  "code": "sz.002168",
+  "effective_date": "2021-04-09",
+  "evaluation_dates": [
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202104071481966147",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "38208529371578",
+          "market_code": "0",
+          "short_name": "ST惠程",
+          "stock_code": "002168"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-04-07 18:11:09:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2021-04-08 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-04-08 12:00:00",
+      "source_type": "331",
+      "title": "ST惠程:关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_ch": "ST惠程:关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202103261476930080",
+      "codes": [
+        {
+          "ann_type": "A,ZXB,SZA",
+          "inner_code": "38208529371578",
+          "market_code": "0",
+          "short_name": "ST惠程",
+          "stock_code": "002168"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-03-26 18:06:38:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2021-03-27 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-03-27 12:00:00",
+      "source_type": "332",
+      "title": "ST惠程:关于向深圳证券交易所申请撤销公司股票其他风险警示的公告",
+      "title_ch": "ST惠程:关于向深圳证券交易所申请撤销公司股票其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002168&begin_time=2021-03-10&end_time=2021-04-09"
+}

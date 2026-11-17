@@ -1,0 +1,51 @@
+{
+  "code": "sz.002258",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202503271648198911",
+      "available_date": "2025-03-28",
+      "title": "利尔化学:2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202503271648198911_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202403221627620130",
+      "available_date": "2024-03-23",
+      "title": "利尔化学:2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202403221627620130_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202303011583921583",
+      "available_date": "2023-03-02",
+      "title": "利尔化学:2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202303011583921583_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202203041550535455",
+      "available_date": "2022-03-05",
+      "title": "利尔化学:2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202203041550535455_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202103051468852485",
+      "available_date": "2021-03-06",
+      "title": "利尔化学:2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202103051468852485_1.pdf"
+    }
+  ],
+  "total_hits": 442,
+  "pages": 5,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=5&ann_type=A&client_source=web&stock_list=002258&begin_time=2021-01-01&end_time=2025-12-31"
+}

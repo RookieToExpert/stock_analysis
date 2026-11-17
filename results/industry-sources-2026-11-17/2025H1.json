@@ -1,0 +1,33 @@
+{
+  "period": "2025H1",
+  "available_date": "2025-09-30",
+  "title": "2025年上半年上市公司行业分类结果",
+  "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/29adc9e66d844d6fba0001bb2cdc529c.js",
+  "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+  "taxonomy": "CAPCO2023",
+  "complete": true,
+  "documents": [
+    {
+      "key": "2025H1-0",
+      "source": "https://sp.capco.org.cn:82/file/202603/hangyefenlei/2025shangban/hangyefenleigupiaodaima.pdf",
+      "label": "2025年上半年上市公司行业分类结果（按股票代码排序）.pdf",
+      "pdf_sha256": "b622b76b96d59611db36b01888cf6afd8cd711c5753a19ab8547e74bb0bb8228",
+      "text_sha256": "354286969fe6019691fcc28291ee79e2dd6e480bd5cdac80fceacc7ca98a1154"
+    },
+    {
+      "key": "2025H1-1",
+      "source": "https://sp.capco.org.cn:82/file/202603/hangyefenlei/2025shangban/hangyefenleihangye.pdf",
+      "label": "2025年上半年上市公司行业分类结果（按行业排序）.pdf",
+      "pdf_sha256": "caa7d96b05ff9ec2165aa3b4cb69edd69c8b1a1a0f99198c4cfcf85727f1d7bc",
+      "text_sha256": "f3de3d998d6a4ffd1f352d19c590025357fbdfdc9d42b8b1090a0597a9c93851"
+    },
+    {
+      "key": "2025H1-2",
+      "source": "https://sp.capco.org.cn:82/file/202603/hangyefenlei/2025shangban/beijiaosuocunliang.pdf",
+      "label": "北交所存量上市公司股票新旧代码对照表.pdf",
+      "pdf_sha256": "f85a6691a74a8c7e4d2bb838277161b9d0496f52cc66ddde4ba0211153401c3d",
+      "text_sha256": "3743e563df3b65426e161114d226869f5377591dfacaf120a0574f046f08d948"
+    }
+  ],
+  "page_sha256": "b408b41fd2c932c74e9704211ad82117458035483c933f722fca3ba85d0e1b8b"
+}

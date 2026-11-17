@@ -1,0 +1,161 @@
+{
+  "code": "sz.002450",
+  "effective_date": "2021-04-14",
+  "evaluation_dates": [
+    "2021-05-06"
+  ],
+  "outDate": "2021-05-31",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202104131484484865",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "19137988267430",
+          "market_code": "0",
+          "short_name": "康得退",
+          "stock_code": "002450"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003004",
+          "column_name": "实施退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-04-13 20:01:47:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-04-14 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-04-14 12:00:00",
+      "source_type": "331",
+      "title": "*ST康得:关于公司股票进入退市整理期交易的第一次风险提示公告",
+      "title_ch": "*ST康得:关于公司股票进入退市整理期交易的第一次风险提示公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202104061481639823",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "19137988267430",
+          "market_code": "0",
+          "short_name": "康得退",
+          "stock_code": "002450"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006002",
+          "column_name": "终止上市"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-04-06 21:20:59:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-04-07 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-04-07 12:00:00",
+      "source_type": "331",
+      "title": "*ST康得:关于公司股票终止上市的公告",
+      "title_ch": "*ST康得:关于公司股票终止上市的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202104061481639821",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "19137988267430",
+          "market_code": "0",
+          "short_name": "康得退",
+          "stock_code": "002450"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002008",
+          "column_name": "其他"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-04-06 21:20:59:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-04-07 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-04-07 12:00:00",
+      "source_type": "331",
+      "title": "*ST康得:关于公司股票进入退市整理期交易的公告",
+      "title_ch": "*ST康得:关于公司股票进入退市整理期交易的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202104061481641259",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "19137988267430",
+          "market_code": "0",
+          "short_name": "康得退",
+          "stock_code": "002450"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006002",
+          "column_name": "终止上市"
+        },
+        {
+          "column_code": "010001002",
+          "column_name": "深交所一般公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-04-06 21:30:03:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-04-06 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-04-06 12:00:00",
+      "source_type": "33",
+      "title": "关于康得新复合材料集团股份有限公司股票终止上市的公告",
+      "title_ch": "关于康得新复合材料集团股份有限公司股票终止上市的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202103151472207910",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "19137988267430",
+          "market_code": "0",
+          "short_name": "康得退",
+          "stock_code": "002450"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-03-15 21:44:23:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-03-16 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-03-16 12:00:00",
+      "source_type": "332",
+      "title": "*ST康得:关于收到深圳证券交易所事先告知书暨公司股票可能被终止上市的风险提示公告",
+      "title_ch": "*ST康得:关于收到深圳证券交易所事先告知书暨公司股票可能被终止上市的风险提示公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002450&begin_time=2021-03-15&end_time=2021-04-14"
+}

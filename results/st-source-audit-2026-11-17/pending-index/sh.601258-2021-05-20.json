@@ -1,0 +1,77 @@
+{
+  "code": "sh.601258",
+  "effective_date": "2021-05-20",
+  "evaluation_dates": [
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04"
+  ],
+  "outDate": "2023-06-30",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202105181492482706",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "40703713005013",
+          "market_code": "1",
+          "short_name": "*ST庞大",
+          "stock_code": "601258"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-05-18 18:23:23:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-05-19 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-05-19 12:00:00",
+      "source_type": "31",
+      "title": "601258:关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_ch": "601258:关于公司股票撤销其他风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202104291488644716",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "40703713005013",
+          "market_code": "1",
+          "short_name": "*ST庞大",
+          "stock_code": "601258"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-04-29 19:04:32:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-04-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-04-30 12:00:00",
+      "source_type": "31",
+      "title": "601258:关于申请撤销对公司股票实施其他风险警示的公告",
+      "title_ch": "601258:关于申请撤销对公司股票实施其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=601258&begin_time=2021-04-20&end_time=2021-05-20"
+}

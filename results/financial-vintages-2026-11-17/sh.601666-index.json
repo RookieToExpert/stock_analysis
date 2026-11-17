@@ -1,0 +1,51 @@
+{
+  "code": "sh.601666",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202503201645227940",
+      "available_date": "2025-03-21",
+      "title": "平煤股份:平煤股份2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202503201645227940_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202403181626984965",
+      "available_date": "2024-03-19",
+      "title": "平煤股份:平顶山天安煤业股份有限公司2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202403181626984965_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304061585193167",
+      "available_date": "2023-04-07",
+      "title": "平煤股份:平煤股份2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304061585193167_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202203281555602174",
+      "available_date": "2022-03-29",
+      "title": "601666:平煤股份2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202203281555602174_1.pdf"
+    },
+    {
+      "year": 2020,
+      "article": "AN202104261487952319",
+      "available_date": "2021-04-27",
+      "title": "601666:平煤股份2020年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104261487952319_1.pdf"
+    }
+  ],
+  "total_hits": 859,
+  "pages": 9,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=9&ann_type=A&client_source=web&stock_list=601666&begin_time=2021-01-01&end_time=2025-12-31"
+}

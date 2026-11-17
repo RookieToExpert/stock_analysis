@@ -1,0 +1,79 @@
+{
+  "code": "sz.002388",
+  "effective_date": "2026-01-13",
+  "evaluation_dates": [
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202601091816885784",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "28664538975814",
+          "market_code": "0",
+          "short_name": "新亚制程",
+          "stock_code": "002388"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "2026-01-09 19:15:05:548",
+      "eiTime": "2026-01-09 19:16:12:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-01-10 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-01-10 12:00:00",
+      "source_type": "331",
+      "title": "ST新亚:关于撤销其他风险警示暨停复牌的公告",
+      "title_ch": "ST新亚:关于撤销其他风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202601051815474838",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "28664538975814",
+          "market_code": "0",
+          "short_name": "新亚制程",
+          "stock_code": "002388"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "2026-01-05 19:01:18:393",
+      "eiTime": "2026-01-05 19:02:14:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-01-06 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-01-06 12:00:00",
+      "source_type": "331",
+      "title": "ST新亚:关于申请撤销其他风险警示的公告",
+      "title_ch": "ST新亚:关于申请撤销其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002388&begin_time=2025-12-14&end_time=2026-01-13"
+}

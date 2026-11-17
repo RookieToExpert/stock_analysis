@@ -1,0 +1,26 @@
+{
+  "period": "2025H2",
+  "available_date": "2026-04-03",
+  "title": "2025年下半年上市公司行业分类结果",
+  "page": "https://www.capco.org.cn/dataFile/zsxfb/hyfl/hyfljg/d9221cd5eb1448e5956f0e9d84ecba89.js",
+  "index_url": "https://www.capco.org.cn/assets/index-D0TMHR_W.js",
+  "taxonomy": "CAPCO2023",
+  "complete": true,
+  "documents": [
+    {
+      "key": "2025H2-0",
+      "source": "https://sp.capco.org.cn:82/file/202604/hangyefenlei/2025xiaban/2025xiabangupiaodaima.pdf",
+      "label": "2025年下半年上市公司行业分类结果（按股票代码排序）.pdf",
+      "pdf_sha256": "b1d0140572b20de11cd62ca478edb4da6e229928b216116df6345b3c2e461f58",
+      "text_sha256": "b05f9a2a6d1697b910629e244399fbeb8756dfe5e2291f31d0df22d46a3d7ef4"
+    },
+    {
+      "key": "2025H2-1",
+      "source": "https://sp.capco.org.cn:82/file/202604/hangyefenlei/2025xiaban/2025xiabanhangyefenlei.pdf",
+      "label": "2025年下半年上市公司行业分类结果（按行业排序）.pdf",
+      "pdf_sha256": "7614c4baf65574c3ecc6a5ebc853dacfdd6df135cfeb0c3e50815b8ce0c702cd",
+      "text_sha256": "8178c860c6d7167ddc79e72dd6398dd07cc94be22418eb9a9c9d11ebaa849294"
+    }
+  ],
+  "page_sha256": "800821d377c1b29705aa371b20e9d8a2f84a9dda14442023d9f0d32f9a07cd65"
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "code": "sh.600355",
+    "fin": {
+      "profit": [
+        {
+          "code": "sh.600355",
+          "pubDate": "2025-04-26",
+          "statDate": "2024-12-31",
+          "roeAvg": "-0.273955",
+          "npMargin": "-0.295167",
+          "gpMargin": "0.207684",
+          "netProfit": "-42060135.610000",
+          "epsTTM": "-0.085473",
+          "MBRevenue": "119789959.030000",
+          "totalShare": "492089200.00",
+          "liqaShare": "492089200.00"
+        }
+      ],
+      "cash": [
+        {
+          "code": "sh.600355",
+          "pubDate": "2025-04-26",
+          "statDate": "2024-12-31",
+          "CAToAsset": "0.433042",
+          "NCAToAsset": "0.566958",
+          "tangibleAssetToAsset": "0.433312",
+          "ebitToInterest": "-27.382807",
+          "CFOToOR": "-0.089017",
+          "CFOToNP": "",
+          "CFOToGr": "-0.089017"
+        }
+      ]
+    }
+  },
+  {
+    "code": "sh.600086",
+    "fin": {
+      "profit": [
+        {
+          "code": "sh.600086",
+          "pubDate": "2023-04-27",
+          "statDate": "2022-12-31",
+          "roeAvg": "",
+          "npMargin": "-2778.892468",
+          "gpMargin": "0.988243",
+          "netProfit": "-3616217230.650000",
+          "epsTTM": "-2.678679",
+          "MBRevenue": "1301316.000000",
+          "totalShare": "1350000000.00",
+          "liqaShare": "1056845016.00"
+        }
+      ],
+      "cash": [
+        {
+          "code": "sh.600086",
+          "pubDate": "2023-04-27",
+          "statDate": "2022-12-31",
+          "CAToAsset": "0.831549",
+          "NCAToAsset": "0.168451",
+          "tangibleAssetToAsset": "-1.219774",
+          "ebitToInterest": "-1.626217",
+          "CFOToOR": "-0.080768",
+          "CFOToNP": "",
+          "CFOToGr": "-0.080768"
+        }
+      ]
+    }
+  },
+  {
+    "code": "sh.600687",
+    "fin": {
+      "profit": [
+        {
+          "code": "sh.600687",
+          "pubDate": "2021-04-30",
+          "statDate": "2020-12-31",
+          "roeAvg": "-5.970148",
+          "npMargin": "-6.356100",
+          "gpMargin": "0.224974",
+          "netProfit": "-2254155602.760000",
+          "epsTTM": "-1.510073",
+          "MBRevenue": "354644432.380000",
+          "totalShare": "1488715304.00",
+          "liqaShare": "1488715304.00"
+        }
+      ],
+      "cash": [
+        {
+          "code": "sh.600687",
+          "pubDate": "2021-04-30",
+          "statDate": "2020-12-31",
+          "CAToAsset": "0.888276",
+          "NCAToAsset": "0.111724",
+          "tangibleAssetToAsset": "-0.186611",
+          "ebitToInterest": "-3.258366",
+          "CFOToOR": "-0.047889",
+          "CFOToNP": "",
+          "CFOToGr": "-0.047889"
+        }
+      ]
+    }
+  },
+  {
+    "code": "sh.600608",
+    "fin": {
+      "profit": [
+        {
+          "code": "sh.600608",
+          "pubDate": "2025-04-29",
+          "statDate": "2024-12-31",
+          "roeAvg": "-0.139739",
+          "npMargin": "-0.421795",
+          "gpMargin": "0.415549",
+          "netProfit": "-7266156.550000",
+          "epsTTM": "-0.017280",
+          "MBRevenue": "17226735.080000",
+          "totalShare": "328861441.00",
+          "liqaShare": "318371441.00"
+        }
+      ],
+      "cash": [
+        {
+          "code": "sh.600608",
+          "pubDate": "2025-04-29",
+          "statDate": "2024-12-31",
+          "CAToAsset": "0.988790",
+          "NCAToAsset": "0.011210",
+          "tangibleAssetToAsset": "0.301813",
+          "ebitToInterest": "-2.164911",
+          "CFOToOR": "0.532849",
+          "CFOToNP": "",
+          "CFOToGr": "0.532849"
+        }
+      ]
+    }
+  },
+  {
+    "code": "sh.603773",
+    "fin": {
+      "profit": [
+        {
+          "code": "sh.603773",
+          "pubDate": "2025-04-25",
+          "statDate": "2024-12-31",
+          "roeAvg": "-0.093037",
+          "npMargin": "-0.040779",
+          "gpMargin": "0.171490",
+          "netProfit": "-90563120.810000",
+          "epsTTM": "-0.548402",
+          "MBRevenue": "2217368891.900000",
+          "totalShare": "223125633.00",
+          "liqaShare": "203647282.00"
+        }
+      ],
+      "cash": [
+        {
+          "code": "sh.603773",
+          "pubDate": "2025-04-25",
+          "statDate": "2024-12-31",
+          "CAToAsset": "0.483171",
+          "NCAToAsset": "0.516829",
+          "tangibleAssetToAsset": "0.198981",
+          "ebitToInterest": "-0.440977",
+          "CFOToOR": "0.057169",
+          "CFOToNP": "",
+          "CFOToGr": "0.057169"
+        }
+      ]
+    }
+  },
+  {
+    "code": "sh.688327",
+    "fin": {
+      "profit": [
+        {
+          "code": "sh.688327",
+          "pubDate": "2025-04-30",
+          "statDate": "2024-12-31",
+          "roeAvg": "-0.507672",
+          "npMargin": "-1.774440",
+          "gpMargin": "0.358135",
+          "netProfit": "-705667667.510000",
+          "epsTTM": "-0.670905",
+          "MBRevenue": "396788133.310000",
+          "totalShare": "1036938787.00",
+          "liqaShare": "752008860.00"
+        }
+      ],
+      "cash": [
+        {
+          "code": "sh.688327",
+          "pubDate": "2025-04-30",
+          "statDate": "2024-12-31",
+          "CAToAsset": "0.859933",
+          "NCAToAsset": "0.140067",
+          "tangibleAssetToAsset": "0.525407",
+          "ebitToInterest": "",
+          "CFOToOR": "-0.772099",
+          "CFOToNP": "",
+          "CFOToGr": "-0.772099"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,843 @@
+{
+  "data": {
+    "list": [
+      {
+        "art_code": "AN201704050475892060",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001001001001001",
+            "column_name": "年度报告全文"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-04-05 18:01:23:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-04-06 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-04-06 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年年度报告(更新后)",
+        "title_ch": "*ST冀装:2016年年度报告(更新后)",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201704050475892059",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002011001",
+            "column_name": "年报问询函"
+          },
+          {
+            "column_code": "001002011005",
+            "column_name": "问询函"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-04-05 18:00:43:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-04-06 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-04-06 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:关于对深圳证券交易所年报问询函回复的公告",
+        "title_ch": "*ST冀装:关于对深圳证券交易所年报问询函回复的公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201704050475892058",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001001001001003",
+            "column_name": "年度报告补充公告"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-04-05 18:00:54:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-04-06 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-04-06 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:关于2016年年度报告的补充公告",
+        "title_ch": "*ST冀装:关于2016年年度报告的补充公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201704050475892062",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002004003005",
+            "column_name": "撤销退市风险警示"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-04-05 18:01:44:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-04-06 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-04-06 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:关于撤消公司股票交易退市风险警示的公告",
+        "title_ch": "*ST冀装:关于撤消公司股票交易退市风险警示的公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201704050475892061",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001001001001002",
+            "column_name": "年度报告摘要"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-04-05 18:00:54:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-04-06 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-04-06 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年年度报告摘要(更新后)",
+        "title_ch": "*ST冀装:2016年年度报告摘要(更新后)",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201704040471976281",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002008",
+            "column_name": "其他"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-04-04 18:34:46:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-04-05 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-04-05 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:提示性公告",
+        "title_ch": "*ST冀装:提示性公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703290448829223",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002011001",
+            "column_name": "年报问询函"
+          },
+          {
+            "column_code": "001002011005",
+            "column_name": "问询函"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-29 19:31:23:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-30 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-30 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:关于延期回复深圳证券交易所《关于对唐山冀东装备工程股份有限公司的年报问询函》的公告",
+        "title_ch": "*ST冀装:关于延期回复深圳证券交易所《关于对唐山冀东装备工程股份有限公司的年报问询函》的公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201709220905229431",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002011001",
+            "column_name": "年报问询函"
+          },
+          {
+            "column_code": "010001004",
+            "column_name": "深交所问询函"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-09-23 16:10:24:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-25 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-25 12:00:00",
+        "source_type": "33",
+        "title": "000856:*ST冀装年报问询函",
+        "title_ch": "000856:*ST冀装年报问询函",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510199",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002010",
+            "column_name": "监事会决议公告"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:32:50:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:第五届监事会第二十七次会议决议公告",
+        "title_ch": "*ST冀装:第五届监事会第二十七次会议决议公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510195",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001003003001",
+            "column_name": "管理办法/制度"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:33:11:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:投资者关系管理制度(2017年3月)",
+        "title_ch": "*ST冀装:投资者关系管理制度(2017年3月)",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510190",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001001001001001",
+            "column_name": "年度报告全文"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:32:17:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年年度报告",
+        "title_ch": "*ST冀装:2016年年度报告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510203",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002002001001",
+            "column_name": "分配预案"
+          },
+          {
+            "column_code": "001002009",
+            "column_name": "董事会决议公告"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:33:00:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:第五届董事会第五十六次会议决议公告",
+        "title_ch": "*ST冀装:第五届董事会第五十六次会议决议公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510201",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001003001001003",
+            "column_name": "专项说明/独立意见"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:32:07:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:关于公司2016年度涉及财务公司关联交易的存款、贷款等金融业务的专项说明",
+        "title_ch": "*ST冀装:关于公司2016年度涉及财务公司关联交易的存款、贷款等金融业务的专项说明",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510198",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001003002005",
+            "column_name": "审计报告"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:33:20:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年年度审计报告",
+        "title_ch": "*ST冀装:2016年年度审计报告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510194",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002008",
+            "column_name": "其他"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:33:15:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:关于计提2016年度资产减值准备的公告",
+        "title_ch": "*ST冀装:关于计提2016年度资产减值准备的公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510189",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001003003001",
+            "column_name": "管理办法/制度"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:33:37:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:投资者投诉处理工作制度(2017年3月)",
+        "title_ch": "*ST冀装:投资者投诉处理工作制度(2017年3月)",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510186",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001003001001003",
+            "column_name": "专项说明/独立意见"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:31:54:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:独立董事关于公司第五届董事会第五十六次会议相关议案的独立意见",
+        "title_ch": "*ST冀装:独立董事关于公司第五届董事会第五十六次会议相关议案的独立意见",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510200",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001003001001003",
+            "column_name": "专项说明/独立意见"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:32:07:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年度非经营性资金占用及其他关联资金往来的专项说明",
+        "title_ch": "*ST冀装:2016年度非经营性资金占用及其他关联资金往来的专项说明",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510197",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002004003006",
+            "column_name": "申请撤销风险警示及特别处理"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:32:35:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:关于申请撤消公司股票交易退市风险警示的公告",
+        "title_ch": "*ST冀装:关于申请撤消公司股票交易退市风险警示的公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510193",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001003003004",
+            "column_name": "内部控制报告"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:33:00:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年度内部控制评价报告",
+        "title_ch": "*ST冀装:2016年度内部控制评价报告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510188",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002008",
+            "column_name": "其他"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:33:20:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:关于北京金隅财务有限公司的风险评估报告",
+        "title_ch": "*ST冀装:关于北京金隅财务有限公司的风险评估报告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510185",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002007005",
+            "column_name": "关联交易"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:32:35:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2017年日常关联交易预计的公告",
+        "title_ch": "*ST冀装:2017年日常关联交易预计的公告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510183",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002003001002",
+            "column_name": "召开股东大会通知"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:32:07:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:关于召开2016年年度股东大会的通知",
+        "title_ch": "*ST冀装:关于召开2016年年度股东大会的通知",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510196",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001003002005",
+            "column_name": "审计报告"
+          },
+          {
+            "column_code": "001003003004",
+            "column_name": "内部控制报告"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:32:25:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年12月31日内部控制审计报告",
+        "title_ch": "*ST冀装:2016年12月31日内部控制审计报告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510192",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001003001001004",
+            "column_name": "独立董事述职报告"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:33:11:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年度独立董事述职报告",
+        "title_ch": "*ST冀装:2016年度独立董事述职报告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510187",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002008",
+            "column_name": "其他"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:31:43:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年度监事会工作报告",
+        "title_ch": "*ST冀装:2016年度监事会工作报告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510184",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002008",
+            "column_name": "其他"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:33:50:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年度董事会工作报告",
+        "title_ch": "*ST冀装:2016年度董事会工作报告",
+        "title_en": ""
+      },
+      {
+        "art_code": "AN201703160412510191",
+        "codes": [
+          {
+            "ann_type": "A,SZA",
+            "inner_code": "18466239608602",
+            "market_code": "0",
+            "short_name": "冀东装备",
+            "stock_code": "000856"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001001001001002",
+            "column_name": "年度报告摘要"
+          }
+        ],
+        "display_time": "",
+        "eiTime": "2017-03-16 17:32:07:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2017-03-17 00:00:00",
+        "product_code": "",
+        "sort_date": "2017-03-17 12:00:00",
+        "source_type": "331",
+        "title": "*ST冀装:2016年年度报告摘要",
+        "title_ch": "*ST冀装:2016年年度报告摘要",
+        "title_en": ""
+      }
+    ],
+    "page_index": 1,
+    "page_size": 100,
+    "total_hits": 28
+  },
+  "error": "",
+  "success": 1
+}

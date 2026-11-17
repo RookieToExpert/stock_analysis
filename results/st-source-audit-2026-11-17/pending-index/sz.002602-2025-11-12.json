@@ -1,0 +1,79 @@
+{
+  "code": "sz.002602",
+  "effective_date": "2025-11-12",
+  "evaluation_dates": [
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202511101778833810",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "39892387770154",
+          "market_code": "0",
+          "short_name": "世纪华通",
+          "stock_code": "002602"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "2025-11-10 21:07:07:413",
+      "eiTime": "2025-11-10 21:08:27:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-11-11 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-11-11 12:00:00",
+      "source_type": "331",
+      "title": "ST华通:关于公司股票交易撤销其他风险警示暨停复牌的公告",
+      "title_ch": "ST华通:关于公司股票交易撤销其他风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202511071776905432",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "39892387770154",
+          "market_code": "0",
+          "short_name": "世纪华通",
+          "stock_code": "002602"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "2025-11-07 17:19:20:723",
+      "eiTime": "2025-11-07 17:20:27:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-11-08 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-11-08 12:00:00",
+      "source_type": "331",
+      "title": "ST华通:关于申请撤销其他风险警示的公告",
+      "title_ch": "ST华通:关于申请撤销其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002602&begin_time=2025-10-13&end_time=2025-11-12"
+}

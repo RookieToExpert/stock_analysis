@@ -1,0 +1,13 @@
+{
+  "pending_unique_events": 463,
+  "resolved_from_issuer_evidence": 453,
+  "terminal_notices_still_excluded": 9,
+  "conflicting_effective_date_still_unknown": 1,
+  "total_verified_release_ledger": 461,
+  "machine_extracted_hash_bound": 447,
+  "individually_reviewed": 14,
+  "original_candidate_documents": 580,
+  "original_successfully_archived": 579,
+  "unreadable_original_documents": 1,
+  "supplemental_documents_archived": 3
+}

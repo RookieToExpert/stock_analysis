@@ -1,0 +1,283 @@
+{
+  "2017-05-02": {
+    "universe": 3208,
+    "known_age_ST_eligible": 1980,
+    "known_age_ST_industry_eligible": 1927,
+    "market_cap_proxy_at_least_20bn": 368,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 655,
+    "unknown": 726,
+    "annual_complete": 1272,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 723,
+      "historical_industry_missing_or_ambiguous": 3
+    }
+  },
+  "2017-09-01": {
+    "universe": 3348,
+    "known_age_ST_eligible": 2019,
+    "known_age_ST_industry_eligible": 1964,
+    "market_cap_proxy_at_least_20bn": 402,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 665,
+    "unknown": 797,
+    "annual_complete": 1299,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 794,
+      "historical_industry_missing_or_ambiguous": 3
+    }
+  },
+  "2018-05-02": {
+    "universe": 3515,
+    "known_age_ST_eligible": 2014,
+    "known_age_ST_industry_eligible": 1953,
+    "market_cap_proxy_at_least_20bn": 346,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 640,
+    "unknown": 878,
+    "annual_complete": 1313,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 875,
+      "historical_industry_missing_or_ambiguous": 3
+    }
+  },
+  "2018-09-03": {
+    "universe": 3543,
+    "known_age_ST_eligible": 2013,
+    "known_age_ST_industry_eligible": 1951,
+    "market_cap_proxy_at_least_20bn": 284,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 642,
+    "unknown": 887,
+    "annual_complete": 1309,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 885,
+      "historical_industry_missing_or_ambiguous": 2
+    }
+  },
+  "2019-05-06": {
+    "universe": 3611,
+    "known_age_ST_eligible": 1986,
+    "known_age_ST_industry_eligible": 1924,
+    "market_cap_proxy_at_least_20bn": 338,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 693,
+    "unknown": 928,
+    "annual_complete": 1231,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 927,
+      "historical_industry_missing_or_ambiguous": 1
+    }
+  },
+  "2019-09-02": {
+    "universe": 3681,
+    "known_age_ST_eligible": 1993,
+    "known_age_ST_industry_eligible": 1929,
+    "market_cap_proxy_at_least_20bn": 308,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 691,
+    "unknown": 952,
+    "annual_complete": 1238,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 950,
+      "ST_release_requires_issuer_evidence": 1,
+      "historical_industry_missing_or_ambiguous": 1
+    }
+  },
+  "2020-05-06": {
+    "universe": 3834,
+    "known_age_ST_eligible": 2024,
+    "known_age_ST_industry_eligible": 1956,
+    "market_cap_proxy_at_least_20bn": 341,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 702,
+    "unknown": 1010,
+    "annual_complete": 1254,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1009,
+      "ST_release_requires_issuer_evidence": 1
+    }
+  },
+  "2020-09-01": {
+    "universe": 3979,
+    "known_age_ST_eligible": 2051,
+    "known_age_ST_industry_eligible": 1980,
+    "market_cap_proxy_at_least_20bn": 423,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 672,
+    "unknown": 1063,
+    "annual_complete": 1308,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1063
+    }
+  },
+  "2021-05-06": {
+    "universe": 4289,
+    "known_age_ST_eligible": 2068,
+    "known_age_ST_industry_eligible": 1998,
+    "market_cap_proxy_at_least_20bn": 434,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 663,
+    "unknown": 1206,
+    "annual_complete": 1335,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1203,
+      "ST_release_requires_issuer_evidence": 3
+    }
+  },
+  "2021-09-01": {
+    "universe": 4456,
+    "known_age_ST_eligible": 2143,
+    "known_age_ST_industry_eligible": 2071,
+    "market_cap_proxy_at_least_20bn": 498,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 718,
+    "unknown": 1272,
+    "annual_complete": 1353,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1271,
+      "ST_release_requires_issuer_evidence": 1
+    }
+  },
+  "2022-05-05": {
+    "universe": 4713,
+    "known_age_ST_eligible": 2283,
+    "known_age_ST_industry_eligible": 2203,
+    "market_cap_proxy_at_least_20bn": 403,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 795,
+    "unknown": 1403,
+    "annual_complete": 1408,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1398,
+      "ST_release_requires_issuer_evidence": 5
+    }
+  },
+  "2022-09-01": {
+    "universe": 4786,
+    "known_age_ST_eligible": 2356,
+    "known_age_ST_industry_eligible": 2275,
+    "market_cap_proxy_at_least_20bn": 455,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 814,
+    "unknown": 1437,
+    "annual_complete": 1461,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1435,
+      "ST_release_requires_issuer_evidence": 2
+    }
+  },
+  "2023-05-04": {
+    "universe": 4972,
+    "known_age_ST_eligible": 2440,
+    "known_age_ST_industry_eligible": 2357,
+    "market_cap_proxy_at_least_20bn": 498,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 930,
+    "unknown": 1512,
+    "annual_complete": 1427,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1510,
+      "ST_release_requires_issuer_evidence": 2
+    }
+  },
+  "2023-09-01": {
+    "universe": 5050,
+    "known_age_ST_eligible": 2453,
+    "known_age_ST_industry_eligible": 2369,
+    "market_cap_proxy_at_least_20bn": 468,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 923,
+    "unknown": 1569,
+    "annual_complete": 1446,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1567,
+      "ST_release_requires_issuer_evidence": 2
+    }
+  },
+  "2024-05-06": {
+    "universe": 5112,
+    "known_age_ST_eligible": 2430,
+    "known_age_ST_industry_eligible": 2340,
+    "market_cap_proxy_at_least_20bn": 444,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 934,
+    "unknown": 1598,
+    "annual_complete": 1406,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1596,
+      "ST_release_requires_issuer_evidence": 2
+    }
+  },
+  "2024-09-02": {
+    "universe": 5097,
+    "known_age_ST_eligible": 2494,
+    "known_age_ST_industry_eligible": 2402,
+    "market_cap_proxy_at_least_20bn": 396,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 979,
+    "unknown": 1606,
+    "annual_complete": 1423,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1603,
+      "ST_release_requires_issuer_evidence": 2,
+      "universe_conflicts_with_delisting": 1
+    }
+  },
+  "2025-05-06": {
+    "universe": 5144,
+    "known_age_ST_eligible": 2538,
+    "known_age_ST_industry_eligible": 2444,
+    "market_cap_proxy_at_least_20bn": 478,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 1016,
+    "unknown": 1633,
+    "annual_complete": 1428,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1632,
+      "ST_release_requires_issuer_evidence": 1
+    }
+  },
+  "2025-09-01": {
+    "universe": 5151,
+    "known_age_ST_eligible": 2651,
+    "known_age_ST_industry_eligible": 2557,
+    "market_cap_proxy_at_least_20bn": 591,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 1073,
+    "unknown": 1638,
+    "annual_complete": 1484,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1637,
+      "ST_release_requires_issuer_evidence": 1
+    }
+  },
+  "2026-05-06": {
+    "universe": 5199,
+    "known_age_ST_eligible": 2749,
+    "known_age_ST_industry_eligible": 2652,
+    "market_cap_proxy_at_least_20bn": 676,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 1138,
+    "unknown": 1650,
+    "annual_complete": 1514,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1649,
+      "ST_release_requires_issuer_evidence": 1
+    }
+  },
+  "2026-09-01": {
+    "universe": 5212,
+    "known_age_ST_eligible": 2891,
+    "known_age_ST_industry_eligible": 2790,
+    "market_cap_proxy_at_least_20bn": 629,
+    "market_cap_proxy_unknown": 0,
+    "annual_missing": 1207,
+    "unknown": 1655,
+    "annual_complete": 1583,
+    "unknown_reasons": {
+      "file_missing_or_invalid": 1654,
+      "ST_release_requires_issuer_evidence": 1
+    }
+  }
+}

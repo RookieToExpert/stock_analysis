@@ -1,0 +1,38 @@
+{
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002502&begin_time=2021-05-05&end_time=2021-05-25",
+  "documents": [
+    {
+      "art_code": "AN202105211493051150",
+      "codes": [
+        {
+          "ann_type": "A",
+          "inner_code": "32638724571258",
+          "market_code": "0",
+          "short_name": "ST鼎龙",
+          "stock_code": "002502"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-05-21 19:10:19:000",
+      "language": "0",
+      "listing_state": "2",
+      "notice_date": "2021-05-22 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-05-22 12:00:00",
+      "source_type": "331",
+      "title": "*ST鼎龙:关于公司股票撤销退市风险警示暨停牌的公告",
+      "title_ch": "*ST鼎龙:关于公司股票撤销退市风险警示暨停牌的公告",
+      "title_en": ""
+    }
+  ]
+}

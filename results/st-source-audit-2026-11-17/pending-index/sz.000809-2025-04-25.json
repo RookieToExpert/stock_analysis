@@ -1,0 +1,89 @@
+{
+  "code": "sz.000809",
+  "effective_date": "2025-04-25",
+  "evaluation_dates": [
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202504231661192905",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "24968743607290",
+          "market_code": "0",
+          "short_name": "和展能源",
+          "stock_code": "000809"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2025-04-23 21:20:45:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-04-24 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-04-24 12:00:00",
+      "source_type": "331",
+      "title": "*ST和展:关于公司股票交易撤销退市风险警示暨停复牌的公告",
+      "title_ch": "*ST和展:关于公司股票交易撤销退市风险警示暨停复牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202504021650461173",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "24968743607290",
+          "market_code": "0",
+          "short_name": "和展能源",
+          "stock_code": "000809"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2025-04-02 21:51:44:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2025-04-03 00:00:00",
+      "product_code": "",
+      "sort_date": "2025-04-03 12:00:00",
+      "source_type": "331",
+      "title": "*ST和展:关于申请撤销对公司股票交易实施退市风险警示的公告",
+      "title_ch": "*ST和展:关于申请撤销对公司股票交易实施退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000809&begin_time=2025-03-26&end_time=2025-04-25"
+}

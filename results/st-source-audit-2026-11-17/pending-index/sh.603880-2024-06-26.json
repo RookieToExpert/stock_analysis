@@ -1,0 +1,78 @@
+{
+  "code": "sh.603880",
+  "effective_date": "2024-06-26",
+  "evaluation_dates": [
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202406241636829005",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "41140674131845",
+          "market_code": "1",
+          "short_name": "南卫股份",
+          "stock_code": "603880"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-06-24 17:39:04:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-06-25 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-06-25 12:00:00",
+      "source_type": "31",
+      "title": "ST南卫:南卫股份关于撤销其他风险警示暨停牌的公告",
+      "title_ch": "ST南卫:南卫股份关于撤销其他风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202406201636715778",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "41140674131845",
+          "market_code": "1",
+          "short_name": "南卫股份",
+          "stock_code": "603880"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-06-20 18:24:40:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-06-21 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-06-21 12:00:00",
+      "source_type": "31",
+      "title": "ST南卫:南卫股份关于公司股票申请撤销其他风险警示的公告",
+      "title_ch": "ST南卫:南卫股份关于公司股票申请撤销其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=603880&begin_time=2024-05-27&end_time=2024-06-26"
+}

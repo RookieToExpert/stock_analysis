@@ -1,0 +1,256 @@
+{
+  "code": "sh.600615",
+  "effective_date": "2022-08-24",
+  "evaluation_dates": [
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202208221577464689",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "39443242621909",
+          "market_code": "1",
+          "short_name": "鑫源智造",
+          "stock_code": "600615"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-08-22 17:31:28:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-08-23 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-08-23 12:00:00",
+      "source_type": "31",
+      "title": "600615:上海丰华(集团)股份有限公司关于公司股票撤销退市风险警示暨停牌的公告",
+      "title_ch": "600615:上海丰华(集团)股份有限公司关于公司股票撤销退市风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202208181577345460",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "39443242621909",
+          "market_code": "1",
+          "short_name": "鑫源智造",
+          "stock_code": "600615"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-08-18 18:03:52:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-08-19 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-08-19 12:00:00",
+      "source_type": "31",
+      "title": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/08/19)",
+      "title_ch": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/08/19)",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202208171577304986",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "39443242621909",
+          "market_code": "1",
+          "short_name": "鑫源智造",
+          "stock_code": "600615"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-08-17 17:27:55:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-08-18 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-08-18 12:00:00",
+      "source_type": "31",
+      "title": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/08/18)",
+      "title_ch": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/08/18)",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202208121577154378",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "39443242621909",
+          "market_code": "1",
+          "short_name": "鑫源智造",
+          "stock_code": "600615"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-08-12 16:14:14:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-08-13 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-08-13 12:00:00",
+      "source_type": "31",
+      "title": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/08/13)",
+      "title_ch": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/08/13)",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202208091577040428",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "39443242621909",
+          "market_code": "1",
+          "short_name": "鑫源智造",
+          "stock_code": "600615"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-08-09 16:22:56:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-08-10 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-08-10 12:00:00",
+      "source_type": "31",
+      "title": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告",
+      "title_ch": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202208041576896359",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "39443242621909",
+          "market_code": "1",
+          "short_name": "鑫源智造",
+          "stock_code": "600615"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-08-04 16:25:56:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-08-05 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-08-05 12:00:00",
+      "source_type": "31",
+      "title": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/08/05)",
+      "title_ch": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/08/05)",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202208011576753430",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "39443242621909",
+          "market_code": "1",
+          "short_name": "鑫源智造",
+          "stock_code": "600615"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-08-01 16:40:21:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-08-02 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-08-02 12:00:00",
+      "source_type": "31",
+      "title": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告",
+      "title_ch": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202207271576593649",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "39443242621909",
+          "market_code": "1",
+          "short_name": "鑫源智造",
+          "stock_code": "600615"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004006001",
+          "column_name": "终止上市风险提示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-07-27 16:09:27:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-07-28 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-07-28 12:00:00",
+      "source_type": "31",
+      "title": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/07/28)",
+      "title_ch": "600615:上海丰华(集团)股份有限公司关于公司股票可能被终止上市的风险提示公告(2022/07/28)",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600615&begin_time=2022-07-25&end_time=2022-08-24"
+}

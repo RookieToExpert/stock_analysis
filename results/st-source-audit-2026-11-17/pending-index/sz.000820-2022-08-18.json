@@ -1,0 +1,53 @@
+{
+  "code": "sz.000820",
+  "effective_date": "2022-08-18",
+  "evaluation_dates": [
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202208161577283434",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "49127672419114",
+          "market_code": "0",
+          "short_name": "神雾节能",
+          "stock_code": "000820"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2022-08-16 23:31:31:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2022-08-17 00:00:00",
+      "product_code": "",
+      "sort_date": "2022-08-17 12:00:00",
+      "source_type": "331",
+      "title": "*ST节能:关于公司股票交易撤销退市风险警示及其他风险警示暨停牌的公告",
+      "title_ch": "*ST节能:关于公司股票交易撤销退市风险警示及其他风险警示暨停牌的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000820&begin_time=2022-07-19&end_time=2022-08-18"
+}

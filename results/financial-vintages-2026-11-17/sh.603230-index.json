@@ -1,0 +1,44 @@
+{
+  "code": "sh.603230",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "complete": true,
+  "documents": [
+    {
+      "year": 2024,
+      "article": "AN202504101654227747",
+      "available_date": "2025-04-11",
+      "title": "内蒙新华:内蒙古新华发行集团股份有限公司2024年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202504101654227747_1.pdf"
+    },
+    {
+      "year": 2023,
+      "article": "AN202404101630095380",
+      "available_date": "2024-04-10",
+      "title": "内蒙新华:内蒙古新华发行集团股份有限公司2023年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202404101630095380_1.pdf"
+    },
+    {
+      "year": 2022,
+      "article": "AN202304201585620051",
+      "available_date": "2023-04-21",
+      "title": "内蒙新华:内蒙古新华发行集团股份有限公司2022年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202304201585620051_1.pdf"
+    },
+    {
+      "year": 2021,
+      "article": "AN202204151559468025",
+      "available_date": "2022-04-16",
+      "title": "603230:内蒙古新华发行集团股份有限公司2021年年度报告",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202204151559468025_1.pdf"
+    }
+  ],
+  "total_hits": 414,
+  "pages": 5,
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=5&ann_type=A&client_source=web&stock_list=603230&begin_time=2021-01-01&end_time=2025-12-31"
+}

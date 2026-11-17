@@ -1,0 +1,75 @@
+{
+  "code": "sh.600319",
+  "effective_date": "2017-02-27",
+  "evaluation_dates": [
+    "2017-05-02",
+    "2017-09-01",
+    "2018-05-02",
+    "2018-09-03",
+    "2019-05-06",
+    "2019-09-02"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201702230360115231",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "20584605343451",
+          "market_code": "1",
+          "short_name": "亚星化学",
+          "stock_code": "600319"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-02-23 18:34:07:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-02-24 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-02-24 12:00:00",
+      "source_type": "31",
+      "title": "600319:*ST亚星关于公司股票撤销退市风险警示的公告",
+      "title_ch": "600319:*ST亚星关于公司股票撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201702170348941022",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "20584605343451",
+          "market_code": "1",
+          "short_name": "亚星化学",
+          "stock_code": "600319"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2017-02-17 20:09:07:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2017-02-18 00:00:00",
+      "product_code": "",
+      "sort_date": "2017-02-18 12:00:00",
+      "source_type": "31",
+      "title": "600319:*ST亚星关于申请撤销公司股票退市风险警示的公告",
+      "title_ch": "600319:*ST亚星关于申请撤销公司股票退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600319&begin_time=2017-01-28&end_time=2017-02-27"
+}

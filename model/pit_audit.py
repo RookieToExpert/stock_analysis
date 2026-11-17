@@ -6,6 +6,7 @@ python3 model/pit_audit.py DATA_DIR OUTPUT_JSON
 import json
 import sys
 from pathlib import Path
+from financial_evidence import verified_operating_cash_flow
 
 TABLES=('profit','cash','balance','dupont')
 REQUIRED={'profit':('netProfit','roeAvg','gpMargin','MBRevenue','totalShare'),
@@ -25,6 +26,8 @@ def annual_missing(data, day):
             if len(xs)!=1:
                 errors.append(f'{table}:{period}:rows={len(xs)}');continue
             for field in REQUIRED[table]:
+                if table=='cash' and field=='CFOToNP' and verified_operating_cash_flow(data,period,day):
+                    continue
                 try:
                     from math import isfinite
                     if not isfinite(float(xs[0].get(field))): raise ValueError()

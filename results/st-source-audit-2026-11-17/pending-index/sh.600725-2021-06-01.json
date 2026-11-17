@@ -1,0 +1,84 @@
+{
+  "code": "sh.600725",
+  "effective_date": "2021-06-01",
+  "evaluation_dates": [
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202105301494896716",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "44166826879797",
+          "market_code": "1",
+          "short_name": "云维股份",
+          "stock_code": "600725"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-05-30 15:41:34:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2021-05-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-05-31 12:00:00",
+      "source_type": "31",
+      "title": "600725:云维股份关于撤销股票其他风险警示暨停牌的公告",
+      "title_ch": "600725:云维股份关于撤销股票其他风险警示暨停牌的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN202105141491665037",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "44166826879797",
+          "market_code": "1",
+          "short_name": "云维股份",
+          "stock_code": "600725"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2021-05-14 16:05:37:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2021-05-15 00:00:00",
+      "product_code": "",
+      "sort_date": "2021-05-15 12:00:00",
+      "source_type": "31",
+      "title": "600725:ST云维关于申请撤销股票其他风险警示的公告",
+      "title_ch": "600725:ST云维关于申请撤销股票其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600725&begin_time=2021-05-02&end_time=2021-06-01"
+}

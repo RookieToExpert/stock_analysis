@@ -1,0 +1,57 @@
+{
+  "code": "sz.002021",
+  "effective_date": "2024-06-03",
+  "evaluation_dates": [
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202405301634977705",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "34931331129466",
+          "market_code": "0",
+          "short_name": "中捷资源",
+          "stock_code": "002021"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2024-05-30 22:33:49:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2024-05-31 00:00:00",
+      "product_code": "",
+      "sort_date": "2024-05-31 12:00:00",
+      "source_type": "331",
+      "title": "*ST中捷:关于公司股票交易撤销退市风险警示及其他风险警示暨停复牌的公告",
+      "title_ch": "*ST中捷:关于公司股票交易撤销退市风险警示及其他风险警示暨停复牌的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002021&begin_time=2024-05-04&end_time=2024-06-03"
+}

@@ -1,0 +1,11 @@
+{
+  "unit_tests": 228,
+  "unit_test_result": "passed",
+  "legacy_inputs": 2881,
+  "legacy_results": 2881,
+  "legacy_mismatch": 0,
+  "legacy_no_input": 0,
+  "main_directory_modified": false,
+  "baostock_session_started": false,
+  "formal_strategy_gate_pass": false
+}

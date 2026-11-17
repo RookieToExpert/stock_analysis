@@ -1,0 +1,57 @@
+{
+  "code": "sz.002713",
+  "effective_date": "2026-07-20",
+  "evaluation_dates": [
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN202607161827032170",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "26011249222778",
+          "market_code": "0",
+          "short_name": "东易日盛",
+          "stock_code": "002713"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        },
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        },
+        {
+          "column_code": "001002004008",
+          "column_name": "停牌公告"
+        },
+        {
+          "column_code": "001002004009",
+          "column_name": "复牌公告"
+        },
+        {
+          "column_code": "001002004012",
+          "column_name": "其它风险提示公告"
+        }
+      ],
+      "display_time": "2026-07-16 21:10:16:314",
+      "eiTime": "2026-07-16 21:11:18:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2026-07-17 00:00:00",
+      "product_code": "",
+      "sort_date": "2026-07-17 12:00:00",
+      "source_type": "331",
+      "title": "*ST东易:关于公司股票交易撤销退市风险警示及其他风险警示暨停复牌的公告",
+      "title_ch": "*ST东易:关于公司股票交易撤销退市风险警示及其他风险警示暨停复牌的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=002713&begin_time=2026-06-20&end_time=2026-07-20"
+}

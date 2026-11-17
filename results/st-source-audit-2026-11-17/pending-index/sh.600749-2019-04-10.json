@@ -1,0 +1,85 @@
+{
+  "code": "sh.600749",
+  "effective_date": "2019-04-10",
+  "evaluation_dates": [
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201904081316939903",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "27646927737067",
+          "market_code": "1",
+          "short_name": "西藏旅游",
+          "stock_code": "600749"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003005",
+          "column_name": "撤销退市风险警示"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-04-08 18:45:59:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2019-04-09 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-04-09 12:00:00",
+      "source_type": "31",
+      "title": "600749:*ST藏旅关于公司股票撤销退市风险警示的公告",
+      "title_ch": "600749:*ST藏旅关于公司股票撤销退市风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201903291311665739",
+      "codes": [
+        {
+          "ann_type": "A,SHA",
+          "inner_code": "27646927737067",
+          "market_code": "1",
+          "short_name": "西藏旅游",
+          "stock_code": "600749"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2019-03-29 19:57:04:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2019-03-30 00:00:00",
+      "product_code": "",
+      "sort_date": "2019-03-30 12:00:00",
+      "source_type": "31",
+      "title": "600749:*ST藏旅关于申请撤销公司股票退市风险警示的公告",
+      "title_ch": "600749:*ST藏旅关于申请撤销公司股票退市风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=600749&begin_time=2019-03-11&end_time=2019-04-10"
+}

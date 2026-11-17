@@ -1,0 +1,118 @@
+{
+  "code": "sz.000403",
+  "effective_date": "2018-11-22",
+  "evaluation_dates": [
+    "2019-05-06",
+    "2019-09-02",
+    "2020-05-06",
+    "2020-09-01",
+    "2021-05-06",
+    "2021-09-01",
+    "2022-05-05",
+    "2022-09-01",
+    "2023-05-04",
+    "2023-09-01",
+    "2024-05-06",
+    "2024-09-02",
+    "2025-05-06",
+    "2025-09-01",
+    "2026-05-06",
+    "2026-09-01"
+  ],
+  "outDate": "",
+  "complete": true,
+  "documents": [
+    {
+      "art_code": "AN201811201249174325",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "40721804428634",
+          "market_code": "0",
+          "short_name": "派林生物",
+          "stock_code": "000403"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003002",
+          "column_name": "撤销其他特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-11-20 19:23:03:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-11-21 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-11-21 12:00:00",
+      "source_type": "331",
+      "title": "ST生化:关于股票交易撤销其他风险警示的公告",
+      "title_ch": "ST生化:关于股票交易撤销其他风险警示的公告",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201811131244072551",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "40721804428634",
+          "market_code": "0",
+          "short_name": "派林生物",
+          "stock_code": "000403"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        },
+        {
+          "column_code": "001003001001003",
+          "column_name": "专项说明/独立意见"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-11-13 20:15:00:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-11-14 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-11-14 12:00:00",
+      "source_type": "331",
+      "title": "ST生化:独立董事关于向深圳证券交易所申请撤销公司股票其他风险警示的独立意见",
+      "title_ch": "ST生化:独立董事关于向深圳证券交易所申请撤销公司股票其他风险警示的独立意见",
+      "title_en": ""
+    },
+    {
+      "art_code": "AN201811131244072549",
+      "codes": [
+        {
+          "ann_type": "A,SZA",
+          "inner_code": "40721804428634",
+          "market_code": "0",
+          "short_name": "派林生物",
+          "stock_code": "000403"
+        }
+      ],
+      "columns": [
+        {
+          "column_code": "001002004003006",
+          "column_name": "申请撤销风险警示及特别处理"
+        }
+      ],
+      "display_time": "",
+      "eiTime": "2018-11-13 20:15:00:000",
+      "language": "0",
+      "listing_state": "0",
+      "notice_date": "2018-11-14 00:00:00",
+      "product_code": "",
+      "sort_date": "2018-11-14 12:00:00",
+      "source_type": "331",
+      "title": "ST生化:关于申请撤销公司股票其他风险警示的公告",
+      "title_ch": "ST生化:关于申请撤销公司股票其他风险警示的公告",
+      "title_en": ""
+    }
+  ],
+  "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=000403&begin_time=2018-10-23&end_time=2018-11-22"
+}
