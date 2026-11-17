@@ -1,5 +1,6 @@
 """税前总回报研究序列：除息日收盘按现金权利再投资，允许碎股，无税费。
-仅支持现金分红与送转；配股等未建模事件拒绝。不等于实际到账可交易组合。
+支持现金分红、送转及公告核验的无股东分配重整；配股等未建模事件拒绝。
+不等于实际到账可交易组合。
 """
 import math
 from datetime import date
@@ -22,11 +23,15 @@ def number(value, label):
     return x
 
 
-def redundant_adjustment_dates(snapshot, events):
+def redundant_adjustment_dates(snapshot, events, start=None):
     """仅识别已知事件之后、前后复权累计因子均未变化的重复记录。"""
     ignored = []
     previous = None
     anchored = False
+    anchors=set(events)
+    # 起点已是除权后的收盘价，不再领一次分红，但该日仍能锚定随后重复的因子。
+    if start and any(r.get('dividOperateDate')==start for r in snapshot.get('dividend',[])):
+        anchors.add(start)
     for row in sorted(snapshot.get('adjust', []), key=lambda r: r.get('dividOperateDate', '')):
         day = row.get('dividOperateDate', '')
         factors = []
@@ -38,7 +43,7 @@ def redundant_adjustment_dates(snapshot, events):
                 factors.append(None)
         unchanged = (previous is not None and day > previous[0]
                      and None not in factors and factors == previous[1])
-        if day in events:
+        if day in anchors:
             anchored = True
         elif anchored and unchanged:
             ignored.append(day)
@@ -69,7 +74,7 @@ def events_from_snapshot(snapshot, start, end):
         e={'cash':value('dividCashPsBeforeTax','派'),
            'shares':value('dividStocksPs','送')+value('dividReserveToStockPs','转')}
         # 差异化分派：实际持有人权益用于收益，公告虚拟权益仅用于校验除权参考价。
-        for field in ('reference_cash','reference_shares'):
+        for field in ('reference_cash','reference_shares','announced_reference_price','announced_previous_close'):
             if field in r:
                 if not r.get('verified_action_source'):
                     raise CoverageError('reference action lacks verified source '+day)
@@ -78,7 +83,7 @@ def events_from_snapshot(snapshot, start, end):
         if day in events and events[day]!=e:
             raise CoverageError('conflicting events '+day)
         events[day]=e
-    redundant = set(redundant_adjustment_dates(snapshot, events))
+    redundant = set(redundant_adjustment_dates(snapshot, events, start))
     for r in snapshot.get('adjust',[]):
         day=r.get('dividOperateDate','')
         if start < day <= end and day not in events and day not in redundant:
@@ -108,6 +113,15 @@ def build(daily, events, start, end):
         ref_shares=number(e.get('reference_shares',shares),'reference shares')
         if ref_cash<0 or ref_shares<0:raise CoverageError('negative reference action')
         expected=(previous-ref_cash)/(1+ref_shares)
+        # 重整转增可能全部分给债权人；公告确定的参考价不等于持有人收益。
+        # 仅接受同一事件的公告价与其前收盘锚点，不能从供应商 preclose 反推。
+        if 'announced_reference_price' in e or 'announced_previous_close' in e:
+            if not all(k in e for k in ('announced_reference_price','announced_previous_close')):
+                raise CoverageError('incomplete announced reference '+r['date'])
+            anchor=number(e['announced_previous_close'],'announced previous close')
+            if anchor<=0 or abs(previous-anchor)>0.000001:
+                raise CoverageError('announced previous close mismatch '+r['date'])
+            expected=number(e['announced_reference_price'],'announced reference price')
         # 交易所参考价以分舍入；留 1.1 分容差，不靠收益曲线猜缺失分红。
         if expected<=0 or abs(expected-reference)>0.011:
             raise CoverageError('unexplained reference price '+r['date'])
@@ -139,5 +153,5 @@ def analyze(snapshot, start, end):
     series=build(snapshot['daily'],events,start,end)
     return {'assumption':'gross-ex-date-close-reinvestment-v1','start':start,'end':end,
             'events':events,'series':series,'metrics':risk(series),
-            'redundant_adjustment_dates':[d for d in redundant_adjustment_dates(snapshot,events) if start<d<=end],
+            'redundant_adjustment_dates':[d for d in redundant_adjustment_dates(snapshot,events,start) if start<d<=end],
             'validation':'internal consistency only; official announcement audit required'}

@@ -105,5 +105,328 @@
     "shares": "0",
     "source": "https://epaper.stcn.com/att/202507/03/ZQ03B044-HF_eBook.pdf",
     "reason": "2024第四季度与2025一季度同日实施，合计每股0.084元"
+  },
+  {
+    "code": "sh.600165",
+    "ex_date": "2025-12-11",
+    "available_date": "2025-12-10",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.3593"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "reserve": "0",
+    "stocks": "0",
+    "announced_previous_close": "4.04",
+    "announced_reference_price": "2.84",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11686563&stockid=600165",
+    "reason": "重整转增全部分给投资人或债权人，不向原普通股东分配；用公告前收盘锚点和除权价校验，持有人股数不变"
+  },
+  {
+    "code": "sh.600375",
+    "ex_date": "2024-12-26",
+    "available_date": "2024-12-25",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.45"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "reserve": "0",
+    "stocks": "0",
+    "announced_previous_close": "6.14",
+    "announced_reference_price": "5.77",
+    "source": "https://finance.sina.com.cn/roll/2024-12-25/doc-ineaqxse8074682.shtml",
+    "reason": "重整转增全部分给投资人或债权人，不向原普通股东分配；用公告前收盘锚点和除权价校验，持有人股数不变"
+  },
+  {
+    "code": "sh.600589",
+    "ex_date": "2023-12-29",
+    "available_date": "2023-12-28",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.1"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "reserve": "0",
+    "stocks": "0",
+    "announced_previous_close": "3.84",
+    "announced_reference_price": "3.04",
+    "source": "https://finance.sina.com.cn/jjxw/2023-12-28/doc-imzznxhq4595728.shtml",
+    "reason": "重整转增全部分给投资人或债权人，不向原普通股东分配；用公告前收盘锚点和除权价校验，持有人股数不变"
+  },
+  {
+    "code": "sh.600715",
+    "ex_date": "2024-12-16",
+    "available_date": "2024-12-13",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "1.188773"
+      }
+    ],
+    "cash": "0",
+    "shares": "0",
+    "reserve": "0",
+    "stocks": "0",
+    "announced_previous_close": "2.45",
+    "announced_reference_price": "2.12",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2024-12/13/nw.D110000zgzqb_20241213_3-B061.htm",
+    "reason": "重整转增全部分给投资人或债权人，不向原普通股东分配；用公告前收盘锚点和除权价校验，持有人股数不变"
+  },
+  {
+    "code": "sh.600519",
+    "ex_date": "2025-06-26",
+    "available_date": "2025-06-20",
+    "expected_cash": [
+      "27.673"
+    ],
+    "cash": "27.673",
+    "shares": "0",
+    "reference_cash": "27.600",
+    "reference_shares": "0",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2025-06/20/nw.D110000zgzqb_20250620_3-B013.htm",
+    "reason": "回购账户不参与分红，实际持有人红利与公告摊薄除息红利分别处理"
+  },
+  {
+    "code": "sh.600211",
+    "ex_date": "2026-09-15",
+    "available_date": "2026-09-07",
+    "expected_cash": [
+      "1.146"
+    ],
+    "cash": "1.146",
+    "shares": "0",
+    "reference_cash": "1.1318",
+    "reference_shares": "0",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-09-07/1225550288.PDF",
+    "reason": "回购账户不参与分红，实际持有人红利与公告摊薄除息红利分别处理"
+  },
+  {
+    "code": "sh.600256",
+    "ex_date": "2025-07-18",
+    "available_date": "2025-07-10",
+    "expected_cash": [
+      "0.622"
+    ],
+    "cash": "0.622",
+    "shares": "0",
+    "reference_cash": "0.612",
+    "reference_shares": "0",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-07-10/1224119436.PDF",
+    "reason": "回购账户不参与分红，实际持有人红利与公告摊薄除息红利分别处理"
+  },
+  {
+    "code": "sh.600720",
+    "ex_date": "2024-06-13",
+    "available_date": "2024-06-04",
+    "expected_cash": [
+      "0.257",
+      "0.1104"
+    ],
+    "cash": "0.3674",
+    "shares": "0",
+    "reference_cash": "0.3674",
+    "reference_shares": "0",
+    "source": "https://paper.cnstock.com/html/2024-06/04/content_1926541.htm",
+    "reason": "公告合并实施两期分红；供应商分别记载或漏记一笔，不把分拆行误当矛盾事件"
+  },
+  {
+    "code": "sh.601898",
+    "ex_date": "2024-08-20",
+    "available_date": "2024-08-13",
+    "expected_cash": [
+      "0.442",
+      "0.113"
+    ],
+    "cash": "0.555",
+    "shares": "0",
+    "reference_cash": "0.555",
+    "reference_shares": "0",
+    "source": "https://www.chinacoalenergy.com/cms_files/jcms1/web2/site/attach/0/5c706ac8437542fc8b925e9dc0c84260.pdf",
+    "reason": "公告合并实施两期分红；供应商分别记载或漏记一笔，不把分拆行误当矛盾事件"
+  },
+  {
+    "code": "sh.603259",
+    "ex_date": "2025-05-21",
+    "available_date": "2025-05-15",
+    "expected_cash": [
+      "0.98169",
+      "0.35"
+    ],
+    "cash": "1.33169",
+    "shares": "0",
+    "reference_cash": "1.33017",
+    "reference_shares": "0",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2025-05/15/nw.D110000zgzqb_20250515_6-B028.htm",
+    "reason": "公告合并实施两期分红；供应商分别记载或漏记一笔，不把分拆行误当矛盾事件"
+  },
+  {
+    "code": "sz.002352",
+    "ex_date": "2024-11-07",
+    "available_date": "2024-10-31",
+    "expected_cash": [
+      "0.4",
+      "1"
+    ],
+    "cash": "1.4",
+    "shares": "0",
+    "reference_cash": "1.3939620",
+    "reference_shares": "0",
+    "source": "https://finance.sina.com.cn/jjxw/2024-10-31/doc-incukuyf7317060.shtml",
+    "reason": "公告合并实施两期分红；供应商分别记载或漏记一笔，不把分拆行误当矛盾事件"
+  },
+  {
+    "code": "sz.002352",
+    "ex_date": "2026-09-17",
+    "available_date": "2026-09-09",
+    "expected_cash": [
+      "0.49"
+    ],
+    "cash": "0.49",
+    "shares": "0",
+    "reference_cash": "0.4736483",
+    "reference_shares": "0",
+    "source": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirensh4070907.shtml",
+    "reason": "回购股份不参与中期分红，除息按A股总股本摊薄，持有人实际现金0.49元"
+  },
+  {
+    "code": "sz.001283",
+    "ex_date": "2024-06-18",
+    "available_date": "2024-06-11",
+    "expected_cash": [
+      "0.48"
+    ],
+    "cash": "0.48",
+    "shares": "0",
+    "reference_cash": "0.4646796",
+    "reference_shares": "0",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10268068&stockid=001283",
+    "reason": "公告除息红利按总股本摊薄并截断七位小数，实际持有人每股0.48元"
+  },
+  {
+    "code": "sz.001211",
+    "ex_date": "2026-06-04",
+    "available_date": "2026-05-28",
+    "expected_positions": [
+      {
+        "cash": "0",
+        "shares": "0.394620"
+      }
+    ],
+    "cash": "0",
+    "shares": "0.3946202",
+    "stocks": "0",
+    "reserve": "0.3946202",
+    "reference_cash": "0",
+    "reference_shares": "0.3888888",
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-05-28/cbaf35ae-7de5-43e5-b0de-780159d10669.PDF",
+    "reason": "公告每10股转增3.946202股，回购股份不参加；参考股数按总股本摊薄截断，非四舍五入"
+  },
+  {
+    "code": "sh.688032",
+    "ex_date": "2024-06-19",
+    "available_date": "2024-06-13",
+    "expected_cash": [
+      "3.6"
+    ],
+    "cash": "3.6",
+    "shares": "0.49",
+    "reference_cash": "3.5665",
+    "reference_shares": "0.4854",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2024-06/13/nw.D110000zgzqb_20240613_2-B054.htm",
+    "reason": "实际每股派3.6元转0.49股，回购账户不参加，公告虚拟现金3.5665元及转增0.4854股"
+  },
+  {
+    "code": "sh.600382",
+    "ex_date": "2024-07-12",
+    "available_date": "2024-07-05",
+    "expected_cash": [
+      "0.1828"
+    ],
+    "cash": "0.1828",
+    "shares": "0",
+    "reference_cash": "0.1650",
+    "reference_shares": "0",
+    "source": "https://epaper.stcn.com/att/202407/05/ZQ05B028-BB_eBook.pdf",
+    "reason": "公司回购74,797,682股不参与分配；实际红利与总股本摊薄红利分开"
+  },
+  {
+    "code": "sh.600580",
+    "ex_date": "2025-06-27",
+    "available_date": "2025-06-20",
+    "expected_cash": [
+      "0.15"
+    ],
+    "cash": "0.15",
+    "shares": "0.2",
+    "reference_cash": "0.14941",
+    "reference_shares": "0.19921",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2025-06/20/nw.D110000zgzqb_20250620_5-B061.htm",
+    "reason": "回购账户不参与现金和转增，公告虚拟现金及股数只用于除权验证"
+  },
+  {
+    "code": "sz.001283",
+    "ex_date": "2025-06-12",
+    "available_date": "2025-06-05",
+    "expected_cash": [
+      "0.479999"
+    ],
+    "cash": "0.4799991",
+    "shares": "0",
+    "reference_cash": "0.4430679",
+    "reference_shares": "0",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-05/1223766361.PDF",
+    "reason": "实际每10股4.799991元；回购账户不参与分红，除息红利按总股本摊薄并截断七位"
+  },
+  {
+    "code": "sh.688032",
+    "ex_date": "2025-06-19",
+    "available_date": "2025-06-13",
+    "expected_cash": [
+      "3.2"
+    ],
+    "cash": "3.2",
+    "shares": "0",
+    "reference_cash": "3.1749",
+    "reference_shares": "0",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11178160&stockid=688032",
+    "reason": "回购账户不参与分派；实际持有人现金及股份与公告除权参考口径分开"
+  },
+  {
+    "code": "sh.600382",
+    "ex_date": "2026-05-25",
+    "available_date": "2026-05-19",
+    "expected_cash": [
+      "0.213"
+    ],
+    "cash": "0.213",
+    "shares": "0",
+    "reference_cash": "0.199",
+    "reference_shares": "0",
+    "source": "https://epaper.stcn.com/pic/202605/19/ac3075c01468538d18fcfc2123e00549.pdf",
+    "reason": "回购账户不参与分派；实际持有人现金及股份与公告除权参考口径分开"
+  },
+  {
+    "code": "sz.001283",
+    "ex_date": "2026-05-26",
+    "available_date": "2026-05-19",
+    "expected_cash": [
+      "0.38"
+    ],
+    "cash": "0.38",
+    "shares": "0.3",
+    "reference_cash": "0.3768839",
+    "reference_shares": "0.2975399",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-05-19/1225312469.PDF",
+    "reason": "回购账户不参与分派；实际持有人现金及股份与公告除权参考口径分开"
   }
 ]

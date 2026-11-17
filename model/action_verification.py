@@ -7,6 +7,17 @@ from pathlib import Path
 from total_return import CoverageError
 
 
+def check_supported_actions(code, start, end, as_of, ledger=None):
+    """Known paid rights need a funding model, not a fabricated free-share event."""
+    if ledger is None:
+        ledger=json.loads(Path(__file__).with_name('unsupported_actions.json').read_text())
+    for event in ledger:
+        if (event['code']==code and start<event['ex_date']<=end
+                and event['available_date']<=as_of):
+            raise CoverageError('unsupported '+event['kind']+' '+event['ex_date']+
+                                ': '+event['reason']+'; source='+event['source'])
+
+
 def apply_verified_actions(snapshot, as_of, ledger=None):
     if ledger is None:
         ledger=json.loads(Path(__file__).with_name('verified_actions.json').read_text())
@@ -23,7 +34,7 @@ def apply_verified_actions(snapshot, as_of, ledger=None):
             if row.get('dividOperateDate')!=fix['ex_date']:
                 continue
             try:
-                cash=Decimal(row['dividCashPsBeforeTax'])
+                cash=Decimal(row.get('dividCashPsBeforeTax') or '0')
                 shares=sum(Decimal(row.get(k) or '0') for k in ('dividStocksPs','dividReserveToStockPs'))
                 allowed={(Decimal(v),Decimal(fix['shares'])) for v in fix.get('expected_cash',[])}
                 allowed.update((Decimal(v['cash']),Decimal(v['shares'])) for v in fix.get('expected_positions',[]))
@@ -32,7 +43,8 @@ def apply_verified_actions(snapshot, as_of, ledger=None):
                     raise CoverageError('verified-action source changed: '+fix['ex_date'])
             except (InvalidOperation,TypeError,KeyError) as exc:
                 raise CoverageError('invalid verified-action input') from exc
-            references={k:fix[k] for k in ('reference_cash','reference_shares') if k in fix}
+            references={k:fix[k] for k in ('reference_cash','reference_shares',
+                                         'announced_reference_price','announced_previous_close') if k in fix}
             corrected={'dividCashPsBeforeTax':fix['cash'],**references}
             if 'reserve' in fix:
                 corrected.update(dividStocksPs=fix.get('stocks','0'),dividReserveToStockPs=fix['reserve'])

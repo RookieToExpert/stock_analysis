@@ -9,7 +9,8 @@ from datetime import date,timedelta
 from decimal import Decimal
 from pathlib import Path
 from total_return import analyze,CoverageError
-from action_verification import apply_verified_actions
+from action_verification import apply_verified_actions,check_supported_actions
+from action_precision import reconcile_precision
 from calendar_coverage import calendar_gap_reason
 
 _CACHE={}
@@ -87,11 +88,13 @@ def reconstruct(code,as_of,dividends,cal,root):
     path=Path(root)/(sec+'.json')
     raw=path.read_bytes();data=json.loads(raw)
     if data.get('code')!=sec:raise CoverageError('wrong local security')
+    check_supported_actions(sec,cal['start'],cal['end'],as_of)
     gap=calendar_gap_reason(data,cal)
     if gap:raise CoverageError('daily data does not cover independent calendar: '+gap)
     overlays=action_rows(dividends,code,as_of,cal['start'],cal['end'])
     data=copy.deepcopy(data);data.setdefault('dividend',[]).extend(overlays)
     verified_actions=apply_verified_actions(data,as_of)
+    precision_changes=reconcile_precision(data)
     calculation=analyze(data,cal['start'],cal['end'])
     series=calculation['series'];m=calculation['metrics'];monthly={}
     for r in series:monthly[r['date'][:7]]=r['index']
@@ -106,6 +109,7 @@ def reconstruct(code,as_of,dividends,cal,root):
                       'redundant_adjustment_dates':calculation['redundant_adjustment_dates'],
                       'adjustments':data.get('adjust',[]),
                       'verified_actions':verified_actions,
+                      'precision_changes':precision_changes,
                       'daily':[r for r in data['daily'] if cal['start']<=r['date']<=cal['end']]}}
 
 

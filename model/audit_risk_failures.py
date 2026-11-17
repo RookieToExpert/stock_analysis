@@ -16,7 +16,9 @@ def run(root, baseline, output, as_of):
         raise ValueError('audit output belongs to another run')
     manifest.write_text(json.dumps(expected,indent=2))
     with gzip.open(baseline,'rt') as f:base=json.load(f)
-    targets=[r for r in base['rows'] if r.get('status')=='failed' and r.get('reason')!='incomplete calendar']
+    calendar_failures={'incomplete calendar','listed_after_window_start',
+                       'delisted_before_window_end','duplicate_daily_dates','incomplete_calendar_unexplained'}
+    targets=[r for r in base['rows'] if r.get('status')=='failed' and r.get('reason') not in calendar_failures]
     for n,row in enumerate(targets,1):
         code=row['code'];target=output/(code+'.json.gz')
         if target.exists():continue

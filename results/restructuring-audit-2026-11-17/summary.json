@@ -1,0 +1,233 @@
+[
+  {
+    "code": "sh.600165",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.0,
+      "announced_reference_price": 2.84,
+      "announced_previous_close": 4.04
+    },
+    "event_return": -0.2623762376237624,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600375",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.0,
+      "announced_reference_price": 5.77,
+      "announced_previous_close": 6.14
+    },
+    "event_return": -0.013029315960912058,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600589",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.0,
+      "announced_reference_price": 3.04,
+      "announced_previous_close": 3.84
+    },
+    "event_return": -0.16927083333333337,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600715",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.0,
+      "announced_reference_price": 2.12,
+      "announced_previous_close": 2.45
+    },
+    "event_return": -0.08979591836734702,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600519",
+    "event": {
+      "cash": 27.673,
+      "shares": 0.0,
+      "reference_cash": 27.6,
+      "reference_shares": 0.0
+    },
+    "event_return": 0.008227125207193042,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600211",
+    "event": {
+      "cash": 1.146,
+      "shares": 0.0,
+      "reference_cash": 1.1318,
+      "reference_shares": 0.0
+    },
+    "event_return": -0.009412390321722919,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600256",
+    "event": {
+      "cash": 0.622,
+      "shares": 0.0,
+      "reference_cash": 0.612,
+      "reference_shares": 0.0
+    },
+    "event_return": -0.001315789473684159,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600720",
+    "event": {
+      "cash": 0.3674,
+      "shares": 0.0,
+      "reference_cash": 0.3674,
+      "reference_shares": 0.0
+    },
+    "event_return": -0.014900731452455518,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.601898",
+    "event": {
+      "cash": 0.555,
+      "shares": 0.0,
+      "reference_cash": 0.555,
+      "reference_shares": 0.0
+    },
+    "event_return": -0.018121301775147924,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.603259",
+    "event": {
+      "cash": 1.33169,
+      "shares": 0.0,
+      "reference_cash": 1.33017,
+      "reference_shares": 0.0
+    },
+    "event_return": 0.011517555059048945,
+    "full_window": "passed"
+  },
+  {
+    "code": "sz.002352",
+    "event": {
+      "cash": 1.4,
+      "shares": 0.0,
+      "reference_cash": 1.393962,
+      "reference_shares": 0.0
+    },
+    "event_return": 0.010733844468784337,
+    "full_window": "passed"
+  },
+  {
+    "code": "sz.002352",
+    "event": {
+      "cash": 0.49,
+      "shares": 0.0,
+      "reference_cash": 0.4736483,
+      "reference_shares": 0.0
+    },
+    "event_return": 0.015934959349593436,
+    "full_window": "passed"
+  },
+  {
+    "code": "sz.001283",
+    "event": {
+      "cash": 0.48,
+      "shares": 0.0,
+      "reference_cash": 0.4646796,
+      "reference_shares": 0.0
+    },
+    "event_return": -0.011746453900709275,
+    "full_window": "passed"
+  },
+  {
+    "code": "sz.001211",
+    "event": {
+      "cash": 0.0,
+      "shares": 0.3946202,
+      "reference_cash": 0.0,
+      "reference_shares": 0.3888888
+    },
+    "event_return": 0.04660080186873272,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.688032",
+    "event": {
+      "cash": 3.6,
+      "shares": 0.49,
+      "reference_cash": 3.5665,
+      "reference_shares": 0.4854
+    },
+    "event_return": -0.03198339007531226,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600382",
+    "event": {
+      "cash": 0.1828,
+      "shares": 0.0,
+      "reference_cash": 0.165,
+      "reference_shares": 0.0
+    },
+    "event_return": 0.011443850267379707,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600580",
+    "event": {
+      "cash": 0.15,
+      "shares": 0.2,
+      "reference_cash": 0.14941,
+      "reference_shares": 0.19921
+    },
+    "event_return": 0.0068405301410858765,
+    "full_window": "passed"
+  },
+  {
+    "code": "sz.001283",
+    "event": {
+      "cash": 0.4799991,
+      "shares": 0.0,
+      "reference_cash": 0.4430679,
+      "reference_shares": 0.0
+    },
+    "event_return": 0.0158227670094937,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.688032",
+    "event": {
+      "cash": 3.2,
+      "shares": 0.0,
+      "reference_cash": 3.1749,
+      "reference_shares": 0.0
+    },
+    "event_return": -0.028879099363680938,
+    "full_window": "passed"
+  },
+  {
+    "code": "sh.600382",
+    "event": {
+      "cash": 0.213,
+      "shares": 0.0,
+      "reference_cash": 0.199,
+      "reference_shares": 0.0
+    },
+    "event_return": -0.015376569037657162,
+    "full_window": "passed"
+  },
+  {
+    "code": "sz.001283",
+    "event": {
+      "cash": 0.38,
+      "shares": 0.3,
+      "reference_cash": 0.3768839,
+      "reference_shares": 0.2975399
+    },
+    "event_return": 0.006199799196787037,
+    "full_window": "passed"
+  }
+]
