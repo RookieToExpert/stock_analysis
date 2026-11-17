@@ -79,3 +79,7 @@ price_risk.basis 可为 eastmoney-fqt1 或 tencent-qfq；两源都失败则为 N
 默认修订升为r5。对已知公司行动之后、前后复权累计因子均未变的重复记录，仅跳过其“缺事件”误报，仍校验逐日参考价。source新增 adjustments、redundant_adjustment_dates、verified_actions，以保存原始因子、忽略日期及公告纠正前记录。
 
 model/verified_actions.json只容纳已核对发行人公告的精确纠正，按证券、除息日、预期旧金额、零送转及非未来可用日匹配，未知冲突不得覆盖。现有一项为600007的2024-06-24特别分红漏记；并非通用自动判定。融资核验available_date须不早于窗口结束年年底，完整有息负债须非负。详见 [扩大样本验收](../results/expanded-risk-2026-11-16/README.md)。
+
+## 2026-11-17-r6 差异化除权
+
+公司行动新增reference_cash/reference_shares，仅用于校验除权参考价；cash/shares仍用于投资者税前收益。前两项必须有verified_action_source，未知差异不可从价格倒推。公告纠正台账支持明确的现金/送转原始值组合，修复纯转增被填为现金的已知错误；更正公告及同日多期分派按已核对总额去重，不能任意求和。详见 [六个事件与四只真实样本验收](../results/action-audit-2026-11-17/README.md)。

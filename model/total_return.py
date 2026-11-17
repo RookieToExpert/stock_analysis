@@ -68,6 +68,13 @@ def events_from_snapshot(snapshot, start, end):
             return n
         e={'cash':value('dividCashPsBeforeTax','派'),
            'shares':value('dividStocksPs','送')+value('dividReserveToStockPs','转')}
+        # 差异化分派：实际持有人权益用于收益，公告虚拟权益仅用于校验除权参考价。
+        for field in ('reference_cash','reference_shares'):
+            if field in r:
+                if not r.get('verified_action_source'):
+                    raise CoverageError('reference action lacks verified source '+day)
+                e[field]=number(r[field],field)
+                if e[field]<0:raise CoverageError('negative reference action '+day)
         if day in events and events[day]!=e:
             raise CoverageError('conflicting events '+day)
         events[day]=e
@@ -97,7 +104,10 @@ def build(daily, events, start, end):
         e=events.get(r['date'],{'cash':0.,'shares':0.})
         cash=number(e['cash'],'cash');shares=number(e['shares'],'shares')
         if cash<0 or shares<0: raise CoverageError('unsupported negative action')
-        expected=(previous-cash)/(1+shares)
+        ref_cash=number(e.get('reference_cash',cash),'reference cash')
+        ref_shares=number(e.get('reference_shares',shares),'reference shares')
+        if ref_cash<0 or ref_shares<0:raise CoverageError('negative reference action')
+        expected=(previous-ref_cash)/(1+ref_shares)
         # 交易所参考价以分舍入；留 1.1 分容差，不靠收益曲线猜缺失分红。
         if expected<=0 or abs(expected-reference)>0.011:
             raise CoverageError('unexplained reference price '+r['date'])

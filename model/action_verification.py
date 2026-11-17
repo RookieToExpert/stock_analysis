@@ -25,14 +25,19 @@ def apply_verified_actions(snapshot, as_of, ledger=None):
             try:
                 cash=Decimal(row['dividCashPsBeforeTax'])
                 shares=sum(Decimal(row.get(k) or '0') for k in ('dividStocksPs','dividReserveToStockPs'))
-                allowed=[Decimal(v) for v in fix['expected_cash']]+[Decimal(fix['cash'])]
-                if shares!=Decimal(fix['shares']) or cash not in allowed:
+                allowed={(Decimal(v),Decimal(fix['shares'])) for v in fix.get('expected_cash',[])}
+                allowed.update((Decimal(v['cash']),Decimal(v['shares'])) for v in fix.get('expected_positions',[]))
+                allowed.add((Decimal(fix['cash']),Decimal(fix['shares'])))
+                if (cash,shares) not in allowed:
                     raise CoverageError('verified-action source changed: '+fix['ex_date'])
             except (InvalidOperation,TypeError,KeyError) as exc:
                 raise CoverageError('invalid verified-action input') from exc
-            if cash==Decimal(fix['cash']):
+            references={k:fix[k] for k in ('reference_cash','reference_shares') if k in fix}
+            corrected={'dividCashPsBeforeTax':fix['cash'],**references}
+            if 'reserve' in fix:
+                corrected.update(dividStocksPs=fix.get('stocks','0'),dividReserveToStockPs=fix['reserve'])
+            if all(row.get(k)==v for k,v in corrected.items()):
                 continue
             changes.append({'evidence':copy.deepcopy(fix),'original':copy.deepcopy(row)})
-            row.update(dividCashPsBeforeTax=fix['cash'],dividCashStock='公告核验现金分红',
-                       verified_action_source=fix['source'])
+            row.update(dividCashStock='公告核验公司行动',verified_action_source=fix['source'],**corrected)
     return changes

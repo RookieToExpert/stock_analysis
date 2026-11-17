@@ -3,11 +3,107 @@
     "code": "sh.600007",
     "ex_date": "2024-06-24",
     "available_date": "2024-06-18",
-    "expected_cash": ["0.8", "0.5"],
+    "expected_cash": [
+      "0.8",
+      "0.5"
+    ],
     "cash": "1.3",
     "shares": "0",
     "source": "https://static.cninfo.com.cn/finalpage/2024-06-18/1220377252.PDF",
-    "pages": [1, 2],
+    "pages": [
+      1,
+      2
+    ],
     "reason": "2023年度及特别权益分派合计每股1.30元；原下载仅记录年度0.80元，遗漏特别0.50元。"
+  },
+  {
+    "code": "sh.601966",
+    "ex_date": "2024-06-14",
+    "available_date": "2024-06-07",
+    "expected_cash": [
+      "0.286",
+      "0.091"
+    ],
+    "cash": "0.377",
+    "shares": "0",
+    "reference_cash": "0.37444",
+    "reference_shares": "0",
+    "source": "https://epaper.stcn.com/pic/202406/07/39b5d9d80fd564560fbcddfe5394f4bf.pdf",
+    "reason": "年度及一季度合并派发；实际红利与虚拟除息红利不同"
+  },
+  {
+    "code": "sh.688320",
+    "ex_date": "2024-06-14",
+    "available_date": "2024-06-08",
+    "expected_cash": [
+      "0.11"
+    ],
+    "cash": "0.11038",
+    "shares": "0",
+    "reference_cash": "0.10990",
+    "reference_shares": "0",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-06-08/1220299514.PDF",
+    "reason": "更正版替代原公告；不是两次派发"
+  },
+  {
+    "code": "sz.002043",
+    "ex_date": "2026-06-01",
+    "available_date": "2026-05-26",
+    "expected_cash": [
+      "0.132",
+      "0.18"
+    ],
+    "cash": "0.312",
+    "shares": "0",
+    "reference_cash": "0.3080016",
+    "reference_shares": "0",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-05-26/1225328690.PDF",
+    "reason": "年度及一季度合并派发；回购股份不参与分配"
+  },
+  {
+    "code": "sz.001323",
+    "ex_date": "2025-08-21",
+    "available_date": "2025-08-15",
+    "expected_positions": [
+      {
+        "cash": "1",
+        "shares": "0"
+      }
+    ],
+    "cash": "0",
+    "shares": "0.1",
+    "reserve": "0.1",
+    "stocks": "0",
+    "reference_cash": "0",
+    "reference_shares": "0.0993994",
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-08-14/61a6268c-eeb7-40e1-bc58-00811fb85fd5.PDF",
+    "reason": "纯转增被错误填入现金列；实际每股转增0.1股，公告除权使用0.0993994"
+  },
+  {
+    "code": "sz.001323",
+    "ex_date": "2025-06-09",
+    "available_date": "2025-06-03",
+    "expected_cash": [
+      "1"
+    ],
+    "cash": "1",
+    "shares": "0",
+    "reference_cash": "0.9833939",
+    "reference_shares": "0",
+    "source": "https://epaper.stcn.com/att/202506/03/ZQ03B060-MM_eBook.pdf",
+    "reason": "持有人每股现金1元；除息参考按总股本摊薄为0.9833939元"
+  },
+  {
+    "code": "sh.601966",
+    "ex_date": "2025-07-10",
+    "available_date": "2025-07-03",
+    "expected_cash": [
+      "0.014",
+      "0.07"
+    ],
+    "cash": "0.084",
+    "shares": "0",
+    "source": "https://epaper.stcn.com/att/202507/03/ZQ03B044-HF_eBook.pdf",
+    "reason": "2024第四季度与2025一季度同日实施，合计每股0.084元"
   }
 ]

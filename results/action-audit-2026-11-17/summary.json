@@ -1,0 +1,334 @@
+{
+  "sh.601966": {
+    "changes": [
+      {
+        "evidence": {
+          "code": "sh.601966",
+          "ex_date": "2024-06-14",
+          "available_date": "2024-06-07",
+          "expected_cash": [
+            "0.286",
+            "0.091"
+          ],
+          "cash": "0.377",
+          "shares": "0",
+          "reference_cash": "0.37444",
+          "reference_shares": "0",
+          "source": "https://epaper.stcn.com/pic/202406/07/39b5d9d80fd564560fbcddfe5394f4bf.pdf",
+          "reason": "年度及一季度合并派发；实际红利与虚拟除息红利不同"
+        },
+        "original": {
+          "code": "sh.601966",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-16",
+          "dividPlanAnnounceDate": "2024-04-25",
+          "dividPlanDate": "2024-06-07",
+          "dividRegistDate": "2024-06-13",
+          "dividOperateDate": "2024-06-14",
+          "dividPayDate": "2024-06-14",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.286",
+          "dividCashPsAfterTax": "0.2574或0.286",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派2.86元（含税，扣税后2.574或2.86元）",
+          "dividReserveToStockPs": ""
+        }
+      },
+      {
+        "evidence": {
+          "code": "sh.601966",
+          "ex_date": "2024-06-14",
+          "available_date": "2024-06-07",
+          "expected_cash": [
+            "0.286",
+            "0.091"
+          ],
+          "cash": "0.377",
+          "shares": "0",
+          "reference_cash": "0.37444",
+          "reference_shares": "0",
+          "source": "https://epaper.stcn.com/pic/202406/07/39b5d9d80fd564560fbcddfe5394f4bf.pdf",
+          "reason": "年度及一季度合并派发；实际红利与虚拟除息红利不同"
+        },
+        "original": {
+          "code": "sh.601966",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-16",
+          "dividPlanAnnounceDate": "2024-04-25",
+          "dividPlanDate": "2024-06-07",
+          "dividRegistDate": "2024-06-13",
+          "dividOperateDate": "2024-06-14",
+          "dividPayDate": "2024-06-14",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.091",
+          "dividCashPsAfterTax": "0.0819或0.091",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派0.91元（含税，扣税后0.819或0.91元）",
+          "dividReserveToStockPs": ""
+        }
+      },
+      {
+        "evidence": {
+          "code": "sh.601966",
+          "ex_date": "2025-07-10",
+          "available_date": "2025-07-03",
+          "expected_cash": [
+            "0.014",
+            "0.07"
+          ],
+          "cash": "0.084",
+          "shares": "0",
+          "source": "https://epaper.stcn.com/att/202507/03/ZQ03B044-HF_eBook.pdf",
+          "reason": "2024第四季度与2025一季度同日实施，合计每股0.084元"
+        },
+        "original": {
+          "code": "sh.601966",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2025-05-16",
+          "dividPlanAnnounceDate": "2025-04-25",
+          "dividPlanDate": "2025-07-03",
+          "dividRegistDate": "2025-07-09",
+          "dividOperateDate": "2025-07-10",
+          "dividPayDate": "2025-07-10",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.07",
+          "dividCashPsAfterTax": "0.063或0.07",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派0.7元（含税，扣税后0.63或0.7元）",
+          "dividReserveToStockPs": ""
+        }
+      }
+    ],
+    "remaining_error": "adjustment without corporate action 2025-10-23",
+    "with_supplement": "reconstructed"
+  },
+  "sh.688320": {
+    "changes": [
+      {
+        "evidence": {
+          "code": "sh.688320",
+          "ex_date": "2024-06-14",
+          "available_date": "2024-06-08",
+          "expected_cash": [
+            "0.11"
+          ],
+          "cash": "0.11038",
+          "shares": "0",
+          "reference_cash": "0.10990",
+          "reference_shares": "0",
+          "source": "https://static.cninfo.com.cn/finalpage/2024-06-08/1220299514.PDF",
+          "reason": "更正版替代原公告；不是两次派发"
+        },
+        "original": {
+          "code": "sh.688320",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-17",
+          "dividPlanAnnounceDate": "2024-04-26",
+          "dividPlanDate": "2024-06-07",
+          "dividRegistDate": "2024-06-13",
+          "dividOperateDate": "2024-06-14",
+          "dividPayDate": "2024-06-14",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.11",
+          "dividCashPsAfterTax": "0.099或0.11",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派1.1元（含税，扣税后0.99或1.1元）",
+          "dividReserveToStockPs": ""
+        }
+      },
+      {
+        "evidence": {
+          "code": "sh.688320",
+          "ex_date": "2024-06-14",
+          "available_date": "2024-06-08",
+          "expected_cash": [
+            "0.11"
+          ],
+          "cash": "0.11038",
+          "shares": "0",
+          "reference_cash": "0.10990",
+          "reference_shares": "0",
+          "source": "https://static.cninfo.com.cn/finalpage/2024-06-08/1220299514.PDF",
+          "reason": "更正版替代原公告；不是两次派发"
+        },
+        "original": {
+          "code": "sh.688320",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-17",
+          "dividPlanAnnounceDate": "2024-04-26",
+          "dividPlanDate": "2024-06-07",
+          "dividRegistDate": "2024-06-13",
+          "dividOperateDate": "2024-06-14",
+          "dividPayDate": "2024-06-14",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.11038",
+          "dividCashPsAfterTax": "0.09934或0.11038",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派1.1038元（含税，扣税后0.9934或1.1038元）",
+          "dividReserveToStockPs": ""
+        }
+      }
+    ],
+    "metrics": {
+      "current_drawdown": 48.44995571302032,
+      "max_drawdown": 60.63425213845968,
+      "vol": 54.982866525185656,
+      "total_return": -28.38804930815573
+    }
+  },
+  "sz.001323": {
+    "changes": [
+      {
+        "evidence": {
+          "code": "sz.001323",
+          "ex_date": "2025-08-21",
+          "available_date": "2025-08-15",
+          "expected_positions": [
+            {
+              "cash": "1",
+              "shares": "0"
+            }
+          ],
+          "cash": "0",
+          "shares": "0.1",
+          "reserve": "0.1",
+          "stocks": "0",
+          "reference_cash": "0",
+          "reference_shares": "0.0993994",
+          "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-08-14/61a6268c-eeb7-40e1-bc58-00811fb85fd5.PDF",
+          "reason": "纯转增被错误填入现金列；实际每股转增0.1股，公告除权使用0.0993994"
+        },
+        "original": {
+          "code": "sz.001323",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2025-08-14",
+          "dividPlanAnnounceDate": "2025-07-29",
+          "dividPlanDate": "2025-08-15",
+          "dividRegistDate": "2025-08-20",
+          "dividOperateDate": "2025-08-21",
+          "dividPayDate": "",
+          "dividStockMarketDate": "2025-08-21",
+          "dividCashPsBeforeTax": "1",
+          "dividCashPsAfterTax": "",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转1",
+          "dividReserveToStockPs": ""
+        }
+      },
+      {
+        "evidence": {
+          "code": "sz.001323",
+          "ex_date": "2025-06-09",
+          "available_date": "2025-06-03",
+          "expected_cash": [
+            "1"
+          ],
+          "cash": "1",
+          "shares": "0",
+          "reference_cash": "0.9833939",
+          "reference_shares": "0",
+          "source": "https://epaper.stcn.com/att/202506/03/ZQ03B060-MM_eBook.pdf",
+          "reason": "持有人每股现金1元；除息参考按总股本摊薄为0.9833939元"
+        },
+        "original": {
+          "code": "sz.001323",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2025-05-17",
+          "dividPlanAnnounceDate": "2025-04-25",
+          "dividPlanDate": "2025-06-03",
+          "dividRegistDate": "2025-06-06",
+          "dividOperateDate": "2025-06-09",
+          "dividPayDate": "2025-06-09",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "1",
+          "dividCashPsAfterTax": "0.9或1",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派10元（含税，扣税后9或10元）",
+          "dividReserveToStockPs": ""
+        }
+      }
+    ],
+    "metrics": {
+      "current_drawdown": 50.49552718472583,
+      "max_drawdown": 54.89201677755664,
+      "vol": 27.29806777697733,
+      "total_return": -33.88858409940192
+    }
+  },
+  "sz.002043": {
+    "changes": [
+      {
+        "evidence": {
+          "code": "sz.002043",
+          "ex_date": "2026-06-01",
+          "available_date": "2026-05-26",
+          "expected_cash": [
+            "0.132",
+            "0.18"
+          ],
+          "cash": "0.312",
+          "shares": "0",
+          "reference_cash": "0.3080016",
+          "reference_shares": "0",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-05-26/1225328690.PDF",
+          "reason": "年度及一季度合并派发；回购股份不参与分配"
+        },
+        "original": {
+          "code": "sz.002043",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-05-22",
+          "dividPlanAnnounceDate": "2026-04-29",
+          "dividPlanDate": "2026-05-26",
+          "dividRegistDate": "2026-05-29",
+          "dividOperateDate": "2026-06-01",
+          "dividPayDate": "2026-06-01",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.132",
+          "dividCashPsAfterTax": "0.1188或0.132",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派1.32元（含税，扣税后1.188或1.32元）",
+          "dividReserveToStockPs": ""
+        }
+      },
+      {
+        "evidence": {
+          "code": "sz.002043",
+          "ex_date": "2026-06-01",
+          "available_date": "2026-05-26",
+          "expected_cash": [
+            "0.132",
+            "0.18"
+          ],
+          "cash": "0.312",
+          "shares": "0",
+          "reference_cash": "0.3080016",
+          "reference_shares": "0",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-05-26/1225328690.PDF",
+          "reason": "年度及一季度合并派发；回购股份不参与分配"
+        },
+        "original": {
+          "code": "sz.002043",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-05-22",
+          "dividPlanAnnounceDate": "2026-04-29",
+          "dividPlanDate": "2026-05-26",
+          "dividRegistDate": "2026-05-29",
+          "dividOperateDate": "2026-06-01",
+          "dividPayDate": "2026-06-01",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.18",
+          "dividCashPsAfterTax": "0.162或0.18",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派1.8元（含税，扣税后1.62或1.8元）",
+          "dividReserveToStockPs": ""
+        }
+      }
+    ],
+    "metrics": {
+      "current_drawdown": 25.77965021055274,
+      "max_drawdown": 36.875219529329165,
+      "vol": 30.110786579058495,
+      "total_return": 56.09099724907627
+    }
+  }
+}
