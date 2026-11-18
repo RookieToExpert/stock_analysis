@@ -166,6 +166,15 @@ class AnnualSupplements(unittest.TestCase):
         self.assertEqual(proof['page'], 8)
         self.assertEqual(proof['prior_year_amount'], '-19167624.89')
 
+    def test_original_annual_cash_can_be_verified_against_all_four_reported_quarters(self):
+        period = '2018-12-31'
+        stock = provider('sz.300023', period)
+        reported = verified_operating_cash_flow(stock, period, '2019-05-06')
+        self.assertEqual(reported['amount'], 967602935.57)
+        row = reported['evidence']['evidence']['reviewed_fields']['operating_cash_flow']
+        self.assertEqual(sum(map(Decimal, row['amounts'])), Decimal(row['reported_year_total']))
+        self.assertEqual(reported['evidence']['available_date'], '2019-03-22')
+
     def test_modified_evidence_shard_fails_closed(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

@@ -1,0 +1,290 @@
+{
+  "2017-05-02": {
+    "universe": 3208,
+    "missing_files": 589,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 1969,
+    "annual_incomplete_before": 661,
+    "annual_incomplete_after": 42,
+    "annual_inputs_complete": 1927,
+    "gap_rows_before": 1118,
+    "gap_rows_after": 59,
+    "remaining_reasons": {
+      "已核实但指标不可比": 59
+    }
+  },
+  "2017-09-01": {
+    "universe": 3348,
+    "missing_files": 635,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2005,
+    "annual_incomplete_before": 671,
+    "annual_incomplete_after": 43,
+    "annual_inputs_complete": 1962,
+    "gap_rows_before": 1136,
+    "gap_rows_after": 63,
+    "remaining_reasons": {
+      "已核实但指标不可比": 63
+    }
+  },
+  "2018-05-02": {
+    "universe": 3515,
+    "missing_files": 682,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 1995,
+    "annual_incomplete_before": 649,
+    "annual_incomplete_after": 30,
+    "annual_inputs_complete": 1965,
+    "gap_rows_before": 1039,
+    "gap_rows_after": 56,
+    "remaining_reasons": {
+      "调仓日前尚未披露": 24,
+      "已核实但指标不可比": 32
+    }
+  },
+  "2018-09-03": {
+    "universe": 3543,
+    "missing_files": 689,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 1993,
+    "annual_incomplete_before": 651,
+    "annual_incomplete_after": 23,
+    "annual_inputs_complete": 1970,
+    "gap_rows_before": 1033,
+    "gap_rows_after": 31,
+    "remaining_reasons": {
+      "已核实但指标不可比": 31
+    }
+  },
+  "2019-05-06": {
+    "universe": 3611,
+    "missing_files": 714,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 1966,
+    "annual_incomplete_before": 709,
+    "annual_incomplete_after": 16,
+    "annual_inputs_complete": 1950,
+    "gap_rows_before": 1083,
+    "gap_rows_after": 19,
+    "remaining_reasons": {
+      "已核实但指标不可比": 19
+    }
+  },
+  "2019-09-02": {
+    "universe": 3681,
+    "missing_files": 729,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 1970,
+    "annual_incomplete_before": 706,
+    "annual_incomplete_after": 15,
+    "annual_inputs_complete": 1955,
+    "gap_rows_before": 1077,
+    "gap_rows_after": 18,
+    "remaining_reasons": {
+      "已核实但指标不可比": 18
+    }
+  },
+  "2020-05-06": {
+    "universe": 3834,
+    "missing_files": 767,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 1997,
+    "annual_incomplete_before": 719,
+    "annual_incomplete_after": 71,
+    "annual_inputs_complete": 1926,
+    "gap_rows_before": 1219,
+    "gap_rows_after": 258,
+    "remaining_reasons": {
+      "调仓日前尚未披露": 248,
+      "已核实但指标不可比": 10
+    }
+  },
+  "2020-09-01": {
+    "universe": 3979,
+    "missing_files": 812,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2026,
+    "annual_incomplete_before": 688,
+    "annual_incomplete_after": 9,
+    "annual_inputs_complete": 2017,
+    "gap_rows_before": 990,
+    "gap_rows_after": 10,
+    "remaining_reasons": {
+      "已核实但指标不可比": 10
+    }
+  },
+  "2021-05-06": {
+    "universe": 4289,
+    "missing_files": 907,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2058,
+    "annual_incomplete_before": 686,
+    "annual_incomplete_after": 11,
+    "annual_inputs_complete": 2047,
+    "gap_rows_before": 1049,
+    "gap_rows_after": 17,
+    "remaining_reasons": {
+      "调仓日前尚未披露": 4,
+      "已核实但指标不可比": 13
+    }
+  },
+  "2021-09-01": {
+    "universe": 4456,
+    "missing_files": 975,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2144,
+    "annual_incomplete_before": 745,
+    "annual_incomplete_after": 16,
+    "annual_inputs_complete": 2128,
+    "gap_rows_before": 1178,
+    "gap_rows_after": 26,
+    "remaining_reasons": {
+      "已核实但指标不可比": 26
+    }
+  },
+  "2022-05-05": {
+    "universe": 4713,
+    "missing_files": 1102,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2328,
+    "annual_incomplete_before": 838,
+    "annual_incomplete_after": 24,
+    "annual_inputs_complete": 2304,
+    "gap_rows_before": 1465,
+    "gap_rows_after": 50,
+    "remaining_reasons": {
+      "已核实但指标不可比": 30,
+      "调仓日前尚未披露": 20
+    }
+  },
+  "2022-09-01": {
+    "universe": 4786,
+    "missing_files": 1142,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2424,
+    "annual_incomplete_before": 861,
+    "annual_incomplete_after": 26,
+    "annual_inputs_complete": 2398,
+    "gap_rows_before": 1513,
+    "gap_rows_after": 48,
+    "remaining_reasons": {
+      "已核实但指标不可比": 48
+    }
+  },
+  "2023-05-04": {
+    "universe": 4972,
+    "missing_files": 1217,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2536,
+    "annual_incomplete_before": 995,
+    "annual_incomplete_after": 33,
+    "annual_inputs_complete": 2503,
+    "gap_rows_before": 1946,
+    "gap_rows_after": 63,
+    "remaining_reasons": {
+      "已核实但指标不可比": 55,
+      "调仓日前尚未披露": 8
+    }
+  },
+  "2023-09-01": {
+    "universe": 5050,
+    "missing_files": 1275,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2549,
+    "annual_incomplete_before": 988,
+    "annual_incomplete_after": 31,
+    "annual_inputs_complete": 2518,
+    "gap_rows_before": 1935,
+    "gap_rows_after": 56,
+    "remaining_reasons": {
+      "已核实但指标不可比": 56
+    }
+  },
+  "2024-05-06": {
+    "universe": 5112,
+    "missing_files": 1305,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2529,
+    "annual_incomplete_before": 1005,
+    "annual_incomplete_after": 32,
+    "annual_inputs_complete": 2497,
+    "gap_rows_before": 2088,
+    "gap_rows_after": 59,
+    "remaining_reasons": {
+      "已核实但指标不可比": 47,
+      "调仓日前尚未披露": 8,
+      "发行人公告无法按期披露": 4
+    }
+  },
+  "2024-09-02": {
+    "universe": 5097,
+    "missing_files": 1312,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2600,
+    "annual_incomplete_before": 1052,
+    "annual_incomplete_after": 40,
+    "annual_inputs_complete": 2560,
+    "gap_rows_before": 2273,
+    "gap_rows_after": 63,
+    "remaining_reasons": {
+      "已核实但指标不可比": 63
+    }
+  },
+  "2025-05-06": {
+    "universe": 5144,
+    "missing_files": 1341,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2658,
+    "annual_incomplete_before": 1092,
+    "annual_incomplete_after": 36,
+    "annual_inputs_complete": 2622,
+    "gap_rows_before": 2458,
+    "gap_rows_after": 53,
+    "remaining_reasons": {
+      "已核实但指标不可比": 49,
+      "发行人公告无法按期披露": 4
+    }
+  },
+  "2025-09-01": {
+    "universe": 5151,
+    "missing_files": 1346,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2782,
+    "annual_incomplete_before": 1154,
+    "annual_incomplete_after": 39,
+    "annual_inputs_complete": 2743,
+    "gap_rows_before": 2627,
+    "gap_rows_after": 57,
+    "remaining_reasons": {
+      "已核实但指标不可比": 57
+    }
+  },
+  "2026-05-06": {
+    "universe": 5199,
+    "missing_files": 1358,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 2914,
+    "annual_incomplete_before": 1235,
+    "annual_incomplete_after": 31,
+    "annual_inputs_complete": 2883,
+    "gap_rows_before": 2926,
+    "gap_rows_after": 42,
+    "remaining_reasons": {
+      "已核实但指标不可比": 42
+    }
+  },
+  "2026-09-01": {
+    "universe": 5212,
+    "missing_files": 1366,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 3056,
+    "annual_incomplete_before": 1308,
+    "annual_incomplete_after": 39,
+    "annual_inputs_complete": 3017,
+    "gap_rows_before": 3165,
+    "gap_rows_after": 52,
+    "remaining_reasons": {
+      "已核实但指标不可比": 52
+    }
+  }
+}

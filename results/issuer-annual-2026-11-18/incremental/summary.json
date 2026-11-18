@@ -1,0 +1,36 @@
+{
+  "snapshot_Beijing": "2026-11-18T16:06:37+08:00",
+  "original_stock_files": 3997,
+  "additional_stock_files": 57,
+  "total_stock_files": 4054,
+  "additional_companies_requiring_financial_evidence": 30,
+  "additional_company_years_requiring_financial_evidence": 104,
+  "additional_issuer_financial_disclosures_used": 118,
+  "additional_verified_withdrawn_attachments": 6,
+  "additional_newly_verified_ST_releases": 3,
+  "evaluations": 20,
+  "baseline_financial_gap_occurrences_after_ST_reconciliation": 33318,
+  "remaining_financial_gap_occurrences": 1100,
+  "remaining_reasons": {
+    "调仓日前尚未披露": 312,
+    "已核实但指标不可比": 780,
+    "发行人公告无法按期披露": 8
+  },
+  "open_financial_or_ST_evidence_requests_in_snapshot": 0,
+  "september_2026": {
+    "universe": 5212,
+    "missing_files": 1366,
+    "ST_notices_unverified": 0,
+    "known_age_ST_industry_eligible": 3056,
+    "annual_incomplete_before": 1308,
+    "annual_incomplete_after": 39,
+    "annual_inputs_complete": 3017,
+    "gap_rows_before": 3165,
+    "gap_rows_after": 52,
+    "remaining_reasons": {
+      "已核实但指标不可比": 52
+    }
+  },
+  "september_2026_fields_recovered": 3113,
+  "all_market_strategy_gate_pass": false
+}

@@ -3970,5 +3970,131 @@
       "bytes": 4238653,
       "layout_sha256": "acf9ac7e81a97730b371bb45f573176bfd4edcbd5981bfa5d64715e073da594a"
     }
+  },
+  "1207642853": {
+    "code": "sz.300008",
+    "period": "2019-12-31",
+    "date": "2020-04-28",
+    "source": "https://static.cninfo.com.cn/finalpage/2020-04-28/1207642853.PDF",
+    "pdf_sha256": "acdd4a4e01cc5461de722aae1c9ca0960706d290c318f264756cd5cd93b7a729",
+    "valid_through": "2020-05-25",
+    "replacement": "https://static.cninfo.com.cn/finalpage/2020-05-25/1207858654.PDF",
+    "confirmed_by": {
+      "verification": "identical_report_text_in_separately_dated_archive",
+      "code": "sz.300008",
+      "date": "2020-04-28",
+      "title": "2019年年度报告",
+      "kind": "full",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202004281378803143_1.pdf",
+      "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=2&ann_type=A&client_source=web&stock_list=300008&begin_time=2020-04-28&end_time=2020-04-28",
+      "pdf_sha256": "8eee1e103ab353390d60ae7375bbbc84ec64c81cc0d35499eef58f90b06acefd",
+      "bytes": 1380291,
+      "layout_sha256": "a7db7b5a0ed5d88cfd9f29a84eb55f241c6e3edd8af3800ec6cac6a4d4829b14"
+    }
+  },
+  "1206101864": {
+    "code": "sz.300010",
+    "period": "2018-12-31",
+    "date": "2019-04-26",
+    "source": "https://static.cninfo.com.cn/finalpage/2019-04-26/1206101864.PDF",
+    "pdf_sha256": "905dc701ef512960dd2a1f1de1711b56df02e540563188674641f50be6f2cab8",
+    "valid_through": "2021-04-26",
+    "replacement": "https://static.cninfo.com.cn/finalpage/2021-04-26/1209799964.PDF",
+    "confirmed_by": {
+      "verification": "identical_issuer_pdf_in_separately_dated_archive",
+      "code": "sz.300010",
+      "date": "2019-04-26",
+      "title": "2018年年度报告摘要",
+      "kind": "summary",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201904251322660091_1.pdf",
+      "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=300010&begin_time=2019-04-26&end_time=2019-04-26",
+      "pdf_sha256": "905dc701ef512960dd2a1f1de1711b56df02e540563188674641f50be6f2cab8",
+      "bytes": 404762,
+      "layout_sha256": "81a01cc6c8af291b9c033d280f1e6cb172a0c00ffb93bb9c7c1e078c6fce4373"
+    }
+  },
+  "1206101865": {
+    "code": "sz.300010",
+    "period": "2018-12-31",
+    "date": "2019-04-26",
+    "source": "https://static.cninfo.com.cn/finalpage/2019-04-26/1206101865.PDF",
+    "pdf_sha256": "70eb7a683a943ce8bb7119993c7fa6bc2f67c0695d9c77082cf51ad4041df553",
+    "valid_through": "2021-04-26",
+    "replacement": "https://static.cninfo.com.cn/finalpage/2021-04-26/1209799964.PDF",
+    "confirmed_by": {
+      "verification": "identical_issuer_pdf_in_separately_dated_archive",
+      "code": "sz.300010",
+      "date": "2019-04-26",
+      "title": "2018年年度报告",
+      "kind": "full",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201904251322660090_1.pdf",
+      "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=300010&begin_time=2019-04-26&end_time=2019-04-26",
+      "pdf_sha256": "70eb7a683a943ce8bb7119993c7fa6bc2f67c0695d9c77082cf51ad4041df553",
+      "bytes": 9201290,
+      "layout_sha256": "c67789575024721c583ad77d57e7554abca2dc8841943b0662bc0fcc758dce79"
+    }
+  },
+  "1207663845": {
+    "code": "sz.300022",
+    "period": "2019-12-31",
+    "date": "2020-04-29",
+    "source": "https://static.cninfo.com.cn/finalpage/2020-04-29/1207663845.PDF",
+    "pdf_sha256": "f4ddb2911dc904dcc44361217c1a1864f568c52577c950d7ddcd71eaaf23794d",
+    "valid_through": "2020-05-19",
+    "replacement": "https://static.cninfo.com.cn/finalpage/2020-05-22/1207851889.PDF",
+    "confirmed_by": {
+      "verification": "identical_report_text_in_separately_dated_archive",
+      "code": "sz.300022",
+      "date": "2020-04-29",
+      "title": "2019年年度报告",
+      "kind": "full",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202004291378939757_1.pdf",
+      "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=300022&begin_time=2020-04-29&end_time=2020-04-29",
+      "pdf_sha256": "dcb55fb517c2e7657f9c7e4aedba622dbfdfae53dfee378c51c36a6d65aa65df",
+      "bytes": 8106359,
+      "layout_sha256": "91ef8569a21abfbb670e3744dc06576ce6a4a1bb32fb5ca5a57784528b1754f2"
+    }
+  },
+  "1209836282": {
+    "code": "sz.300027",
+    "period": "2020-12-31",
+    "date": "2021-04-28",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-04-28/1209836282.PDF",
+    "pdf_sha256": "0a7d4337c7a5f6e350eceeddadc6a8596e8112c729a4814e6c7fdd2192d06e2c",
+    "valid_through": "2021-05-17",
+    "replacement": "https://static.cninfo.com.cn/finalpage/2021-05-17/1209996366.PDF",
+    "confirmed_by": {
+      "verification": "identical_issuer_pdf_in_separately_dated_archive",
+      "code": "sz.300027",
+      "date": "2021-04-28",
+      "title": "2020年年度报告",
+      "kind": "full",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202104271488232217_1.pdf",
+      "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=2&ann_type=A&client_source=web&stock_list=300027&begin_time=2021-04-28&end_time=2021-04-28",
+      "pdf_sha256": "0a7d4337c7a5f6e350eceeddadc6a8596e8112c729a4814e6c7fdd2192d06e2c",
+      "bytes": 6475659,
+      "layout_sha256": "b395dd677ef8edb9cd23b690d080791a2ce7ab4405380254b23bd9b5ee30eb24"
+    }
+  },
+  "1206047370": {
+    "code": "sz.300029",
+    "period": "2018-12-31",
+    "date": "2019-04-18",
+    "source": "https://static.cninfo.com.cn/finalpage/2019-04-18/1206047370.PDF",
+    "pdf_sha256": "3604419cdd0a35c7ee8d9693b407adcf647751e03c503c7b56334a42cf335062",
+    "valid_through": "2019-05-21",
+    "replacement": "https://static.cninfo.com.cn/finalpage/2019-05-21/1206285186.PDF",
+    "confirmed_by": {
+      "verification": "identical_report_text_in_separately_dated_archive",
+      "code": "sz.300029",
+      "date": "2019-04-18",
+      "title": "2018年年度报告",
+      "kind": "full",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN201904171320049869_1.pdf",
+      "index_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=300029&begin_time=2019-04-18&end_time=2019-04-18",
+      "pdf_sha256": "8e5391347e3258dc1c28258d052e3ab26eadf6b82cc3c48d3218578cdd779c52",
+      "bytes": 5665193,
+      "layout_sha256": "0b498b2ac2962c4a90f051cc7e16c02019e87d0cbf0dd3c919f838aa7252ed02"
+    }
   }
 }
