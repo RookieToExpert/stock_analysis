@@ -1,5 +1,7 @@
 # 查哪只股票还缺财报字段或摘帽公告
 
+在同一批 3,913 个已下载证券文件上复算，2026 年 9 月 1 日有年报缺项的股票从 1,270 只降到 1,266 只。万科 A、申华控股、日盈电子和沃格光电共补齐 10 个公司年度的经营现金流。该日待核实的摘帽公告仍为 0 只。[最新逐股清单](cash-followup/gaps-2026-09-01.csv) · [四家公司对应的原始年报](cash-followup/README.md)
+
 在独立的 `stock_analysis-codex` 目录运行以下命令。程序读取已下载文件，终端显示该调仓日各类问题的股票数，CSV 列出需要查公告的股票、日期和字段。
 
 ```sh
@@ -17,7 +19,7 @@ python3 model/eligibility_audit.py ~/stock_analysis/data/pit --day 2026-09-01 --
 
 可以从[巨潮资讯披露入口](https://www.cninfo.com.cn/)查询原文。财务补证保存在 [verified_financials.json](../../model/verified_financials.json)，摘帽证据保存在 [verified_st_releases.json](../../model/verified_st_releases.json)。
 
-## 2026 年 9 月 1 日调仓日
+## 2026 年 9 月 1 日调仓日的首轮核查
 
 本次固定了北京时间 11 月 18 日 10:57 已有的 3,913 个证券文件名。该调仓日有 5,212 只股票，1,503 只文件缺失或不可读。已知上市年限、ST 和行业条件都满足的 2,930 只中，有 1,270 只仍缺至少一个年报字段或年度记录，其中 1,208 只只缺一个或多个财年的 CFOToNP。每缺一个公司年度的字段或一张表的一行，就在 CSV 中列一条。这里的分母还未经过正式市值筛选。[逐股清单](gaps-2026-09-01.csv) · [前后计数](summary.json)
 

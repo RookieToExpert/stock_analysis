@@ -1,0 +1,158 @@
+[
+  {
+    "code": "sh.600653",
+    "fin": {
+      "cash": [
+        {
+          "code": "sh.600653",
+          "statDate": "2022-12-31",
+          "pubDate": "2023-04-28",
+          "CFOToNP": ""
+        },
+        {
+          "code": "sh.600653",
+          "statDate": "2023-12-31",
+          "pubDate": "2024-04-27",
+          "CFOToNP": ""
+        },
+        {
+          "code": "sh.600653",
+          "statDate": "2025-12-31",
+          "pubDate": "2026-04-25",
+          "CFOToNP": ""
+        }
+      ],
+      "profit": [
+        {
+          "code": "sh.600653",
+          "statDate": "2022-12-31",
+          "pubDate": "2023-04-28",
+          "netProfit": "-146571279.580000"
+        },
+        {
+          "code": "sh.600653",
+          "statDate": "2023-12-31",
+          "pubDate": "2024-04-27",
+          "netProfit": "-185248679.900000"
+        },
+        {
+          "code": "sh.600653",
+          "statDate": "2025-12-31",
+          "pubDate": "2026-04-25",
+          "netProfit": "-198633173.690000"
+        }
+      ]
+    }
+  },
+  {
+    "code": "sh.603286",
+    "fin": {
+      "cash": [
+        {
+          "code": "sh.603286",
+          "statDate": "2022-12-31",
+          "pubDate": "2023-04-28",
+          "CFOToNP": ""
+        },
+        {
+          "code": "sh.603286",
+          "statDate": "2025-12-31",
+          "pubDate": "2026-03-28",
+          "CFOToNP": ""
+        }
+      ],
+      "profit": [
+        {
+          "code": "sh.603286",
+          "statDate": "2022-12-31",
+          "pubDate": "2023-04-28",
+          "netProfit": "-13741711.420000"
+        },
+        {
+          "code": "sh.603286",
+          "statDate": "2025-12-31",
+          "pubDate": "2026-03-28",
+          "netProfit": "-49253960.490000"
+        }
+      ]
+    }
+  },
+  {
+    "code": "sh.603773",
+    "fin": {
+      "cash": [
+        {
+          "code": "sh.603773",
+          "statDate": "2021-12-31",
+          "pubDate": "2022-03-15",
+          "CFOToNP": ""
+        },
+        {
+          "code": "sh.603773",
+          "statDate": "2022-12-31",
+          "pubDate": "2023-04-27",
+          "CFOToNP": ""
+        },
+        {
+          "code": "sh.603773",
+          "statDate": "2025-12-31",
+          "pubDate": "2026-04-23",
+          "CFOToNP": ""
+        }
+      ],
+      "profit": [
+        {
+          "code": "sh.603773",
+          "statDate": "2021-12-31",
+          "pubDate": "2022-03-15",
+          "netProfit": "-17241939.040000"
+        },
+        {
+          "code": "sh.603773",
+          "statDate": "2022-12-31",
+          "pubDate": "2023-04-27",
+          "netProfit": "-304563225.590000"
+        },
+        {
+          "code": "sh.603773",
+          "statDate": "2025-12-31",
+          "pubDate": "2026-04-23",
+          "netProfit": "-135817348.970000"
+        }
+      ]
+    }
+  },
+  {
+    "code": "sz.000002",
+    "fin": {
+      "cash": [
+        {
+          "code": "sz.000002",
+          "statDate": "2024-12-31",
+          "pubDate": "2025-04-01",
+          "CFOToNP": ""
+        },
+        {
+          "code": "sz.000002",
+          "statDate": "2025-12-31",
+          "pubDate": "2026-04-01",
+          "CFOToNP": ""
+        }
+      ],
+      "profit": [
+        {
+          "code": "sz.000002",
+          "statDate": "2024-12-31",
+          "pubDate": "2025-04-01",
+          "netProfit": "-48703934402.330000"
+        },
+        {
+          "code": "sz.000002",
+          "statDate": "2025-12-31",
+          "pubDate": "2026-04-01",
+          "netProfit": "-91810091101.490000"
+        }
+      ]
+    }
+  }
+]

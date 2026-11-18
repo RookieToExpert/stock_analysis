@@ -73,12 +73,19 @@ def verified_operating_cash_flow(data, period, day, ledger=None):
                  and r.get('pubDate') and date.fromisoformat(r['pubDate'])<when] for t in ('cash','profit')}
         if any(len(v)!=1 for v in rows.values()):return None
         cash,profit=rows['cash'][0],rows['profit'][0]
+        if any(row.get('code', fix['code']) != fix['code'] for row in (cash, profit)):
+            return None
         if (cash.get('CFOToNP') not in (None,'')
                 or cash['pubDate']!=fix['expected_cash_pubDate']
                 or profit['pubDate']!=fix['available_date']
                 or Decimal(profit['netProfit'])!=Decimal(fix['expected_net_profit'])):return None
         amount=Decimal(fix['value'])
         if not amount.is_finite() or not fix.get('source'):return None
+        if 'operating_cash_inflow' in fix or 'operating_cash_outflow' in fix:
+            inflow = Decimal(fix['operating_cash_inflow'])
+            outflow = Decimal(fix['operating_cash_outflow'])
+            if not (inflow.is_finite() and outflow.is_finite() and inflow - outflow == amount):
+                return None
         if fix.get('statement_basis')!='consolidated_cash_flow_statement_current_year_RMB_yuan':return None
         with gzip.open(ROOT/fix['source_text_path'],'rt',newline='') as f:text=f.read()
         if hashlib.sha256(text.encode()).hexdigest()!=fix['source_text_sha256']:return None

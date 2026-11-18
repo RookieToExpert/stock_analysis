@@ -10,6 +10,41 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 class FinancialEvidence(unittest.TestCase):
+    def test_original_cash_statements_for_four_companies(self):
+        inputs = json.loads((ROOT/'results/pit-evidence-2026-11-18/cash-followup/provider-inputs.json').read_text())
+        expected = {
+            'sh.600653': {2022: 138769283.74, 2023: 65964583.69, 2025: 65783429.43},
+            'sh.603286': {2022: -58128112.00, 2025: 37102459.99},
+            'sh.603773': {2021: 91015280.30, 2022: -172735584.39, 2025: 212156180.45},
+            'sz.000002': {2024: 3799847632.35, 2025: -988124860.96},
+        }
+        self.assertEqual({stock['code'] for stock in inputs}, set(expected))
+        for stock in inputs:
+            amounts = expected[stock['code']]
+            self.assertEqual({int(row['statDate'][:4]) for row in stock['fin']['cash']}, set(amounts))
+            for row in stock['fin']['cash']:
+                with self.subTest(code=stock['code'], period=row['statDate']):
+                    pub = date.fromisoformat(row['pubDate'])
+                    self.assertIsNone(verified_operating_cash_flow(stock, row['statDate'], pub.isoformat()))
+                    proof = verified_operating_cash_flow(stock, row['statDate'], (pub + timedelta(days=1)).isoformat())
+                    self.assertEqual(proof['amount'], amounts[int(row['statDate'][:4])])
+                    self.assertNotIn('cash:' + row['statDate'] + ':CFOToNP', annual_missing(stock, '2026-09-01'))
+
+    def test_mismatched_company_row_and_cash_subtotals_do_not_clear_gap(self):
+        inputs = json.loads((ROOT/'results/pit-evidence-2026-11-18/cash-followup/provider-inputs.json').read_text())
+        stock = next(stock for stock in inputs if stock['code'] == 'sz.000002')
+        period = '2025-12-31'
+        proof = verified_operating_cash_flow(stock, period, '2026-09-01')['evidence']
+        for table in ('cash', 'profit'):
+            other = copy.deepcopy(stock)
+            row = next(row for row in other['fin'][table] if row['statDate'] == period)
+            row['code'] = 'sz.000001'
+            self.assertIsNone(verified_operating_cash_flow(other, period, '2026-09-01'))
+        for field, value in [('operating_cash_inflow', '0'), ('operating_cash_outflow', None),
+                             ('value', '988124860.96')]:
+            changed = {**proof, field: value}
+            self.assertIsNone(verified_operating_cash_flow(stock, period, '2026-09-01', [changed]))
+
     def test_bingshan_reported_cash_with_missing_ratio_and_negative_profit(self):
         data = json.loads((ROOT/'results/pit-evidence-2026-11-18/cash-input.json').read_text())
         self.assertEqual(data['fin']['cash'][0]['CFOToNP'], '')

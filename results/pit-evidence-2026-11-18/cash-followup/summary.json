@@ -1,0 +1,50 @@
+{
+  "baseline_commit": "32188fb",
+  "evaluation_day": "2026-09-01",
+  "file_list_time_Beijing": "2026-11-18T10:57:05+08:00",
+  "fixed_file_list_count": 3913,
+  "fixed_filename_list_sha256": "493bfcf261fcbf30540a607880970271fe34966394415d82360fe669c42fd41e",
+  "universe": 5212,
+  "eligible_for_financial_check": 2930,
+  "before": {
+    "companies_with_incomplete_annual_data": 1270,
+    "companies_missing_only_CFOToNP_across_one_or_more_years": 1208,
+    "companies_with_missing_CFOToNP": 1260,
+    "missing_company_year_fields_or_table_rows": 3089,
+    "missing_CFOToNP_company_years": 3007
+  },
+  "after": {
+    "companies_with_incomplete_annual_data": 1266,
+    "companies_missing_only_CFOToNP_across_one_or_more_years": 1204,
+    "companies_with_missing_CFOToNP": 1256,
+    "missing_company_year_fields_or_table_rows": 3079,
+    "missing_CFOToNP_company_years": 2997
+  },
+  "missing_after_by_field": {
+    "CFOToNP": 2997,
+    "MBRevenue": 14,
+    "dupontPnitoni": 3,
+    "gpMargin": 4,
+    "roeAvg": 53,
+    "rows=0": 5,
+    "totalShare": 3
+  },
+  "all_financial_gaps_cleared_for": [
+    "sh.600653",
+    "sh.603286",
+    "sh.603773",
+    "sz.000002"
+  ],
+  "verified_company_years": 10,
+  "missing_or_invalid_files": 1503,
+  "ST_release_unknown": 0,
+  "formal_strategy_gate_pass": false,
+  "baseline_csv_sha256": "3284a94f96310e9d1edfa31230f01a45c123491da296bcc60ce3364a670048dd",
+  "csv_sha256": "1bc6fe731fcba763021a37af665b6b3ad77254153dfac9fb6c91526372b9a4ca",
+  "source_sha256_for_four_input_files": {
+    "sh.600653": "6271df978245a7de717f33ca3186df365cf9ac0fc07b85b1e56577a8d41bbafd",
+    "sh.603286": "a781e86b3781e45f4aef275a04d315768ba73afa91555ff857f4151bc9015170",
+    "sh.603773": "e17b78f6e569eb0969ca4350d976a5357184755d3984a1a120e23d56102d44e3",
+    "sz.000002": "4906667f1e05a4d8e6cac559bc5446d043ad9c12f0bae0727211ec85e4a00241"
+  }
+}
