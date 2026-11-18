@@ -6039,5 +6039,18 @@
     "source": "https://static.cninfo.com.cn/finalpage/2025-05-22/1223629606.PDF",
     "source_text_path": "results/pit-evidence-2026-11-18/st-followup/reports/sz.002951-2025-05-23.txt.gz",
     "source_text_sha256": "9713c2635948d003535dd68f2020d1fd7f1ada69bb51eaed19ce398192712445"
+  },
+  {
+    "effective_date": "2026-05-20",
+    "available_date": "2026-05-19",
+    "status": "normal_listing",
+    "old_name": "*ST声迅",
+    "new_name": "声迅股份",
+    "extraction_method": "explicit_date_and_ST_to_normal_name_in_same_passage_v1",
+    "excerpt": "销退市风险警示暨股票停复牌的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。特别提示：1、北京声迅电子股份有限公司（以下简称“公司”）股票交易将于2026年5月19日（星期二）停牌一天，并于2026年5月20日（星期三）开市起复牌。2、公司股票交易自2026年5月20日开市起撤销退市风险警示，股票简称由“*ST声迅”变更为“声迅股份”，证券代码仍为“003004”，公司股票交易价格日涨跌幅限制由“5%”变更为“10%”。一、公司股票种类、简称、证券代码以及停复牌安排（一）股票种类：人民币普通股A股；（二）股票简称：由“*ST声迅”变更为“声迅股份”（三）股票代码：无变更，仍为“003004”（四）撤销退市风险警示的起始日：自2026年5月20日开市起撤销（五）公司股票停复牌安排：公司股票将于2026年5月19日开市起停牌一天，并于2026年5月20日开市起复牌；（六）日涨跌幅限制：撤销退市风险警示后，公司股票交易价格日涨跌幅限制由“5%”变更为“10%”。二",
+    "code": "sz.003004",
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-05-19/baf80594-70c5-49d7-bae9-60d15ff4b2d9.PDF",
+    "source_text_path": "results/issuer-annual-2026-11-18/releases/sz.003004-2026-05-20.txt.gz",
+    "source_text_sha256": "a885e7b95fa85460be587aebd3e84d17940f6b70b21a6a4f67a5bc455646f7d1"
   }
 ]

@@ -1,0 +1,32 @@
+{
+  "branch_baseline": "9f9197434ac239f1c4e6bb2523bb26d132ce4f09",
+  "snapshot_Beijing": "2026-11-18T13:37:25+08:00",
+  "retained_stock_files": 3997,
+  "sorted_filenames_sha256": "fb54a76b4121ca329b3f2cdbfebc9adaed42284464afa00cb1b466c4a57f9412",
+  "evaluation": "2026-09-01",
+  "universe": 5212,
+  "missing_files": 1419,
+  "known_age_ST_industry_eligible": 3007,
+  "initial_companies_missing_annual_fields": 1288,
+  "final_companies_with_unusable_ROE": 38,
+  "companies_with_all_required_annual_inputs": 2969,
+  "initial_gap_rows": 3115,
+  "initial_gaps_by_field": {
+    "CFOToNP": 3033,
+    "MBRevenue": 14,
+    "roeAvg": 53,
+    "gpMargin": 4,
+    "dupontPnitoni": 3,
+    "rows=0": 5,
+    "totalShare": 3
+  },
+  "disposition": {
+    "已核实": 3064,
+    "已核实但不可比": 51
+  },
+  "stock_financial_years": 3066,
+  "referenced_issuer_disclosures_all_editions": 3306,
+  "company_years_with_different_provider_and_reported_profit": 40,
+  "ST_release_needing_issuer_notice": 0,
+  "strategy_gate_pass": false
+}

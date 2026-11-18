@@ -5,7 +5,9 @@ python3 model/pit_audit.py DATA_DIR OUTPUT_JSON
 """
 import json
 import sys
+from math import isfinite
 from pathlib import Path
+from annual_supplements import field_value, verified_annual_version
 from financial_evidence import verified_operating_cash_flow
 
 TABLES=('profit','cash','balance','dupont')
@@ -16,6 +18,15 @@ REQUIRED={'profit':('netProfit','roeAvg','gpMargin','MBRevenue','totalShare'),
 def annual_missing(data, day):
     end=int(day[:4])-1
     errors=[]
+    versions = {}
+
+    def has_filing(table, field, period):
+        if period not in versions:
+            versions[period] = verified_annual_version(data, period, day)
+        key = 'operating_cash_flow' if field == 'CFOToNP' else field
+        if field_value(versions[period], key) is not None:
+            return True
+        return table == 'cash' and verified_operating_cash_flow(data, period, day) is not None
     for table in TABLES:
         by={}
         for row in data.get('fin',{}).get(table,[]):
@@ -24,14 +35,15 @@ def annual_missing(data, day):
         for year in range(end-4,end+1):
             period=f'{year}-12-31';xs=by.get(period,[])
             if len(xs)!=1:
+                if not xs and all(has_filing(table, field, period) for field in REQUIRED[table]):
+                    continue
                 errors.append(f'{table}:{period}:rows={len(xs)}');continue
             for field in REQUIRED[table]:
-                if table=='cash' and field=='CFOToNP' and verified_operating_cash_flow(data,period,day):
-                    continue
                 try:
-                    from math import isfinite
                     if not isfinite(float(xs[0].get(field))): raise ValueError()
-                except (ValueError,TypeError):errors.append(f'{table}:{period}:{field}')
+                except (ValueError,TypeError):
+                    if xs[0].get(field) not in (None, '') or not has_filing(table, field, period):
+                        errors.append(f'{table}:{period}:{field}')
     return errors
 
 

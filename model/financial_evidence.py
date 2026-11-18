@@ -6,6 +6,7 @@ import hashlib
 import json
 from functools import lru_cache
 from pathlib import Path
+from annual_supplements import field_value, verified_annual_version
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -13,6 +14,14 @@ ROOT=Path(__file__).resolve().parents[1]
 @lru_cache(maxsize=1)
 def default_ledger():
     return json.loads((ROOT/'model/verified_financials.json').read_text())
+
+
+@lru_cache(maxsize=1)
+def cash_by_period():
+    by_period = {}
+    for row in default_ledger():
+        by_period.setdefault((row['code'], row['statDate']), []).append(row)
+    return by_period
 
 
 def balance_bound(code, statement_date, as_of):
@@ -61,7 +70,18 @@ def verified_operating_cash_flow(data, period, day, ledger=None):
     Evidence is usable strictly after publication, like the PIT specification.
     """
     if ledger is None:
-        ledger=default_ledger()
+        ledger = cash_by_period().get((data.get('code'), period), [])
+        if not ledger:
+            visible = [r for r in data.get('fin', {}).get('cash', []) if r.get('statDate') == period
+                       and r.get('pubDate') and r['pubDate'] < day]
+            if len(visible) > 1 or any(r.get('CFOToNP') not in (None, '') for r in visible):
+                return None
+            version = verified_annual_version(data, period, day)
+            amount = field_value(version, 'operating_cash_flow')
+            if amount is None:
+                return None
+            proof = next(s for s in version['sources'] if s['facts'].get('operating_cash_flow') == str(amount))
+            return {'amount': float(amount), 'evidence': proof}
     try:
         when=date.fromisoformat(day);end=date.fromisoformat(period)
         fixes=[r for r in ledger if r['code']==data.get('code') and r['statDate']==period

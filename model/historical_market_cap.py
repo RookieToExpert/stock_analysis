@@ -5,6 +5,7 @@ share register. Corporate actions after the report can change actual shares.
 """
 from datetime import date
 from decimal import Decimal, InvalidOperation
+from annual_supplements import field_value, later_reported_shares, verified_annual_version
 
 
 def calculate(data, day):
@@ -16,14 +17,25 @@ def calculate(data, day):
             if pub<when:
                 if period>pub:return None
                 reports.append(row)
-        if not reports:return None
-        latest=max(r['statDate'] for r in reports)
-        selected=[r for r in reports if r['statDate']==latest]
-        if len(selected)!=1:return None
-        report=selected[0]
-        if report.get('code',data.get('code'))!=data.get('code'):return None
-        if isinstance(report['totalShare'],bool):return None
-        shares=Decimal(report['totalShare'])
+        latest=max((r['statDate'] for r in reports), default='')
+        later = later_reported_shares(data, day, latest)
+        if later:
+            latest, published, shares = later
+        else:
+            selected=[r for r in reports if r['statDate']==latest]
+            if len(selected)!=1:return None
+            report=selected[0]
+            if report.get('code',data.get('code'))!=data.get('code'):return None
+            published = report['pubDate']
+            value = report.get('totalShare')
+            if value in (None, ''):
+                version = verified_annual_version(data, latest, day)
+                shares = field_value(version, 'totalShare')
+                if shares is None:return None
+                published = max(published, version['available_date'])
+            else:
+                if isinstance(value,bool):return None
+                shares=Decimal(value)
         prices=[r for r in data.get('daily',[]) if date.fromisoformat(r['date'])<when]
         if not prices:return None
         price_day=max(r['date'] for r in prices)
@@ -33,7 +45,7 @@ def calculate(data, day):
         close=Decimal(rows[0]['close'])
         if not shares.is_finite() or not close.is_finite() or shares<=0 or close<=0:return None
         return {'value_yuan':float(shares*close),'shares':str(shares),'close':str(close),
-                'price_date':price_day,'statement_date':report['statDate'],'publication_date':report['pubDate'],
+                'price_date':price_day,'statement_date':latest,'publication_date':published,
                 'basis':'v1.1 latest published reported shares times prior unadjusted close',
                 'effective_share_register_verified':False,'unrestated_vintage_verified':False}
     except (KeyError,TypeError,ValueError,InvalidOperation):return None
