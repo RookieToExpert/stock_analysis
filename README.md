@@ -39,4 +39,4 @@ cd model && python3 -m unittest
 - [r8 最新修复验收](results/action-completion-2026-11-17/README.md)：固定 329 只异常全部重建通过；完整历史数据及正式回测仍有独立验收门槛。
 
 - [按调仓日查财报缺项和摘帽公告](results/pit-evidence-2026-11-18/README.md)。包含查询命令、发行人公告和可下载的逐股 CSV。
-- [20 个历史调仓日的财报与摘帽核对结果](results/issuer-annual-2026-11-18/incremental/README.md)。截至北京时间 11 月 18 日 16:06，已复核 4,054 个证券文件，逐项可查财报缺项原因和发行人公告。
+- [20 个历史调仓日的财报与摘帽核对结果](results/issuer-annual-2026-11-18/incremental/README.md)。截至北京时间 11 月 18 日 16:16，已复核 4,056 个证券文件，逐项可查财报缺项原因和发行人公告。

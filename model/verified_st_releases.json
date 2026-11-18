@@ -6091,5 +6091,18 @@
     "source": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223414193.PDF",
     "source_text_path": "results/issuer-annual-2026-11-18/incremental/releases/sz.300013-2025-05-06.txt.gz",
     "source_text_sha256": "7f38d6c822f86ae6fd859361adcfd6b87190237f7f628a0c175db8e51a871040"
+  },
+  {
+    "effective_date": "2022-06-10",
+    "available_date": "2022-06-09",
+    "status": "normal_listing",
+    "old_name": "*ST赛为",
+    "new_name": "赛为智能",
+    "extraction_method": "explicit_date_and_ST_to_normal_name_in_same_passage_v1",
+    "excerpt": "司关于公司股票交易撤销退市风险警示及其他风险警示暨停牌一天的公告本公司及董事会全体成员保证信息披露内容的真实、准确和完整，没有虚假记载、误导性陈述或重大遗漏。特别提示：1、深圳市赛为智能股份有限公司（以下简称“公司”）股票将于2022年6月9日停牌一天，并于2022年6月10日开市起复牌；2、公司自2022年6月10日开市起撤销退市风险警示和其他风险警示，股票简称由“*ST赛为”变更为“赛为智能”，股票代码仍为“300044”，撤销退市风险警示和其他风险警示后公司股票交易的日涨跌幅限制不变，仍为20%。一、股票的种类、简称、代码、涨跌幅及股票停复牌安排1、股票种类：人民币普通股A股2、股票简称：由“*ST赛为”变更为“赛为智能”3、股票代码：3000444、股票停复牌安排：2022年6月9日停牌一天，并于2022年6月10日开市起复牌。5、撤销退市风险警示和其他风险警示的起始日：2022年6月10日。6、股票交易日涨跌幅限制：撤销退市风险警示和其他风险警示后，股票交1易日涨跌幅限制不变，仍为20%。二、公司",
+    "code": "sz.300044",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-06-09/1213647997.PDF",
+    "source_text_path": "results/issuer-annual-2026-11-18/incremental/releases/sz.300044-2022-06-10.txt.gz",
+    "source_text_sha256": "b1a8959a6a804ef9d33272ca5138d9ba6f8b435e14d7cf0e966aa0715f47b44f"
   }
 ]
