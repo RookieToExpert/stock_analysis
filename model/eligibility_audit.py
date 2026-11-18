@@ -188,6 +188,7 @@ if __name__ == '__main__':
     parser.add_argument('output_json', nargs='?', type=Path, help='完整审计结果，可省略')
     parser.add_argument('--day', help='只检查指定调仓日，如 2026-09-01')
     parser.add_argument('--gaps-csv', type=Path, help='按股票列出待核的财报字段和 ST 公告')
+    parser.add_argument('--explain-csv', type=Path, help='导出每个剩余缺项的中文原因和发行人公告')
     args = parser.parse_args()
     try:
         result = audit(args.pit_dir, args.day)
@@ -197,6 +198,9 @@ if __name__ == '__main__':
         args.output_json.write_text(json.dumps(result, ensure_ascii=False))
     if args.gaps_csv:
         write_gap_csv(result['evaluations'], args.gaps_csv)
+    if args.explain_csv:
+        from explain_annual_gaps import write_explanations
+        write_explanations(result['evaluations'], args.pit_dir, args.explain_csv)
     for day, entry in sorted(result['evaluations'].items()):
         if args.output_json and not args.day and not args.gaps_csv:
             print(day, 'age_ST_industry_eligible', entry['known_age_ST_industry_eligible'],

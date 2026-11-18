@@ -1,0 +1,30 @@
+{
+  "sz.001872": {
+    "filing_code": "sz.000022",
+    "effective_date": "2018-12-26",
+    "available_date": "2018-12-26",
+    "source": "https://static.cninfo.com.cn/finalpage/2018-12-26/1205690369.PDF",
+    "pdf_sha256": "bf406b1759dd7fda45cc46927e36316840b0b1152bb40677a7b52e11568d4350",
+    "source_text_path": "results/issuer-annual-2026-11-18/historical/notices/sz.001872-2018-12-26.txt.gz",
+    "source_text_sha256": "d57019e1f7198543e729a3bf9f247146c8fce927e3e5b4550f318f103cb7ebb3",
+    "excerpt": [
+      "证券代码：000022/200022     证券简称：深赤湾 A/深赤湾 B       公告编号：2018-124",
+      "变更后的证券代码：001872/201872",
+      "B”；公司证券代码由“000022/200022”变更为“001872/201872”。2018 年 12"
+    ]
+  },
+  "sz.001914": {
+    "filing_code": "sz.000043",
+    "effective_date": "2019-12-16",
+    "available_date": "2019-12-06",
+    "source": "https://static.cninfo.com.cn/finalpage/2019-12-06/1207141416.PDF",
+    "pdf_sha256": "73b211e1d155d125203a3ea689439efbd64136f767ade3446de6b2e9d91adf9f",
+    "source_text_path": "results/issuer-annual-2026-11-18/historical/notices/sz.001914-2019-12-16.txt.gz",
+    "source_text_sha256": "a64079806f238e20251dd18eb3083109bdb973a7045e9a553ea15bf59b8d3ec5",
+    "excerpt": [
+      "证券代码：000043              证券简称：中航善达                         公告编号：2019-152",
+      "拟变更后的证券代码：001914",
+      "公司证券代码        000043                   001914"
+    ]
+  }
+}

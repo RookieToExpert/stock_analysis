@@ -7,6 +7,7 @@ import hashlib
 import json
 from pathlib import Path
 
+from annual_supplements import visible_version
 from collect_gap_reports import load, save, save_json
 from pit_audit import REQUIRED
 
@@ -28,6 +29,8 @@ def bundle(records, destination):
 
 def metric_pages(source, field):
     proof = source['evidence']
+    if field in proof.get('reviewed_fields', {}):
+        return [proof['reviewed_fields'][field]['page']]
     review = proof.get('reviewed_rows', {})
     if review.get('field') == field:
         return [review['page']]
@@ -54,7 +57,7 @@ def resolutions(manifest, records, day, path):
         for code, years in sorted(manifest.items()):
             for period, item in sorted(years.items()):
                 versions = records.get(code, {}).get(period, {}).get('versions', [])
-                version = next((v for v in reversed(versions) if v['available_date'] < day), {})
+                version = visible_version(versions, period, day) or {}
                 for table, name in item['fields']:
                     wanted = REQUIRED[table] if name == 'rows=0' else [name]
                     state, results, links = '已核实', [], []
@@ -69,7 +72,12 @@ def resolutions(manifest, records, day, path):
                         if limitation:
                             if state != '待核':
                                 state = '已核实但不可比'
-                            results.append(metric + ':平均归母净资产非正，算术结果=' + limitation['signed_formula_value'])
+                            reason = {'nonpositive_average_parent_equity':'平均归母净资产非正',
+                                      'zero_average_parent_equity':'平均归母净资产为零',
+                                      'zero_consolidated_profit':'合并净利润为零',
+                                      'zero_operating_revenue':'营业收入为零'}[limitation['reason']]
+                            signed = limitation.get('signed_formula_value')
+                            results.append(metric + ':' + reason + ('，算术结果=' + signed if signed else ''))
                         else:
                             results.append(metric + '=' + value)
                         for source in version['sources']:
@@ -89,7 +97,16 @@ if __name__ == '__main__':
     parser.add_argument('manifest', type=Path)
     parser.add_argument('destination', type=Path)
     parser.add_argument('--day', required=True)
+    parser.add_argument('--additional-ledger', type=Path, action='append', default=[],
+                        help='include disjoint company-years from another source selection')
     args = parser.parse_args()
     records, manifest = load(args.ledger), load(args.manifest)
+    for path in args.additional_ledger:
+        for code, years in load(path).items():
+            existing = records.setdefault(code, {})
+            for period, record in years.items():
+                if period in existing and existing[period] != record:
+                    raise ValueError(f'Incompatible evidence for {code} {period}')
+                existing[period] = record
     bundle(records, args.destination)
     print(dict(resolutions(manifest, records, args.day, args.destination / ('resolutions-' + args.day + '.csv'))))

@@ -39,3 +39,4 @@ cd model && python3 -m unittest
 - [r8 最新修复验收](results/action-completion-2026-11-17/README.md)：固定 329 只异常全部重建通过；完整历史数据及正式回测仍有独立验收门槛。
 
 - [按调仓日查财报缺项和摘帽公告](results/pit-evidence-2026-11-18/README.md)。包含查询命令、发行人公告和可下载的逐股 CSV。
+- [20 个历史调仓日的财报与摘帽核对结果](results/issuer-annual-2026-11-18/historical/README.md)。逐项列明可用金额、未披露或不可比的原因，以及发行人公告。

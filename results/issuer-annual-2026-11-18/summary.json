@@ -25,8 +25,9 @@
     "已核实但不可比": 51
   },
   "stock_financial_years": 3066,
-  "referenced_issuer_disclosures_all_editions": 3306,
-  "company_years_with_different_provider_and_reported_profit": 40,
+  "referenced_issuer_disclosures_all_editions": 3326,
+  "company_years_with_different_provider_and_reported_profit": 41,
   "ST_release_needing_issuer_notice": 0,
-  "strategy_gate_pass": false
+  "strategy_gate_pass": false,
+  "disclosures_with_different_provider_and_reported_profit": 46
 }

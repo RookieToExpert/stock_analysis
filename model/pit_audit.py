@@ -7,7 +7,7 @@ import json
 import sys
 from math import isfinite
 from pathlib import Path
-from annual_supplements import field_value, verified_annual_version
+from annual_supplements import effective_publication_date, field_value, verified_annual_version
 from financial_evidence import verified_operating_cash_flow
 
 TABLES=('profit','cash','balance','dupont')
@@ -30,7 +30,8 @@ def annual_missing(data, day):
     for table in TABLES:
         by={}
         for row in data.get('fin',{}).get(table,[]):
-            if row.get('pubDate','') and row['pubDate']<day:
+            published = effective_publication_date(data.get('code'), row.get('statDate'), row.get('pubDate'))
+            if published and published < day:
                 by.setdefault(row.get('statDate'),[]).append(row)
         for year in range(end-4,end+1):
             period=f'{year}-12-31';xs=by.get(period,[])

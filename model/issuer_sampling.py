@@ -1,5 +1,6 @@
 """Select report years usable while the sampled company was still listed."""
 from datetime import date
+from annual_supplements import effective_publication_date
 
 
 def latest_listed_annual(data, as_of, period_ceiling):
@@ -11,7 +12,8 @@ def latest_listed_annual(data, as_of, period_ceiling):
     candidates=[]
     for row in data.get('fin',{}).get('profit',[]):
         try:
-            period=date.fromisoformat(row['statDate']);pub=date.fromisoformat(row['pubDate'])
+            period=date.fromisoformat(row['statDate'])
+            pub=date.fromisoformat(effective_publication_date(data.get('code'), row['statDate'], row['pubDate']))
         except (KeyError,TypeError,ValueError):continue
         if period.month==12 and period.day==31 and period<=ceiling and period<=pub and ipo<=pub<min(out,when):
             candidates.append(row)

@@ -139,15 +139,15 @@ def disclosures(code, org, years, cutoff, base, pace):
 
 def report_kind(title, year, publication=None):
     title = title.replace('_', '').replace('年度年度报告', '年度报告').replace('年年年度报告', '年年度报告')
-    if re.search('英文|外文|英语|English|H股|境外监管|独立董事|审议|提示性公告|内部控制|工作报告|已取消|书面确认意见', title, re.I):
+    if re.search('英文|外文|英语|English|H股|境外监管|独立董事|独立意见|审核意见|审议|提示性公告|内部控制|工作报告|已取消|书面确认意见', title, re.I):
         return None
     yearless = publication and int(publication[:4]) == year + 1 and re.fullmatch(r'(?:年度报告|年报全文)(?:合并报告)?(?:摘要)?', title)
     if not yearless and not re.search(str(year) + r'年?(?:年度报告|年报)', title):
         return None
+    if re.search('问询|说明会|业绩会|专项核查|回复|延期披露|会议通知', title) or ('关于' in title and '公告' in title):
+        return 'notice'
     if '摘要' in title:
         return 'summary'
-    if '关于' in title and '公告' in title:
-        return 'notice'
     return 'full'
 
 

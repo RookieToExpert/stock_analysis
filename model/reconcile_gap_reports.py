@@ -13,6 +13,7 @@ from pathlib import Path
 from collect_gap_reports import load, report_kind, save_json
 from issuer_statements import Report, compact, ratio_agrees
 from pit_audit import REQUIRED
+from reviewed_history import verified_review
 
 
 def make_manifest(pit_dir, gap_files, day):
@@ -61,6 +62,22 @@ def reviewed_rows():
     return load(Path(__file__).with_name('reviewed_annual_rows.json'))
 
 
+@lru_cache(maxsize=1)
+def code_changes():
+    root = Path(__file__).resolve().parents[1]
+    ledger = load(root/'results/issuer-annual-2026-11-18/historical/code-changes.json')
+    for proof in ledger.values():
+        text = gzip.decompress((root/proof['source_text_path']).read_bytes())
+        if hashlib.sha256(text).hexdigest() != proof['source_text_sha256']:
+            raise ValueError('Stock code change notice failed its digest check')
+    return ledger
+
+
+@lru_cache(maxsize=1)
+def archived_editions():
+    return load(Path(__file__).resolve().parents[1]/'results/issuer-annual-2026-11-18/historical/archived-editions.json')
+
+
 def checked_transcription(meta, record, report):
     row = reviewed_rows().get(meta['id'])
     if not row or (row['pdf_sha256'], row['code'], row['year']) != (record['pdf_sha256'], report.code, report.year):
@@ -92,11 +109,16 @@ def extract_filing(args):
               'source': meta['source'], 'pdf_sha256': record['pdf_sha256'], 'title': meta['title'],
               'available_date': meta['date'], 'facts': {}, 'evidence': {}, 'errors': {}}
     facts, proof, errors = result['facts'], result['evidence'], result['errors']
-    if not report.cover_ok:
+    manual = verified_review(meta, record, report)
+    if not report.cover_ok and not manual:
         result['foreign_owner'] = report.foreign_owner
         errors['identity'] = 'annual report issuer/year not found on opening pages'
         return result
     proof['issuer_identity'] = report.identity
+    if meta.get('code_change'):
+        proof['code_change'] = meta['code_change']
+    if meta.get('original_publication'):
+        proof['original_publication'] = meta['original_publication']
     raw = item['rows']
     wanted = required_fields(item['fields'])
     try:
@@ -144,15 +166,16 @@ def extract_filing(args):
                 np = Decimal(printed['value'])
                 matched = (ratio_agrees(Decimal(parent['value']), np, raw['dupont']['dupontPnitoni'])
                            and ratio_agrees(Decimal(proof['cash_statement']['value']), np, raw.get('cash',{}).get('CFOToNP')))
-        if printed:
-            facts.update(fields)
-        else:
-            errors['profit_anchor'] = 'issuer and archived profit need reconciling'
+        facts.update(fields)
         proof['other_fields'] = basis
         errors.update(field_errors)
         if 'roeAvg' in facts and Decimal(basis['average_parent_equity']) <= 0:
             result['non_comparable'] = {'roeAvg': {'reason': 'nonpositive_average_parent_equity',
                                                    'signed_formula_value': facts.pop('roeAvg')}}
+        for field, reason in (('gpMargin', 'zero_operating_revenue'), ('dupontPnitoni', 'zero_consolidated_profit'),
+                              ('roeAvg', 'zero_average_parent_equity')):
+            if field_errors.get(field) == 'zero denominator':
+                result.setdefault('non_comparable', {})[field] = {'reason': reason}
     reviewed = checked_transcription(meta, record, report)
     if reviewed and reviewed['field'] in wanted:
         field = reviewed['field']
@@ -163,8 +186,29 @@ def extract_filing(args):
         errors.pop(field, None)
         if field == 'operating_cash_flow':
             result['cash_basis'] = reviewed['method']
+    if manual:
+        for field in wanted & manual['evidence'].keys():
+            value = manual['facts'].get(field)
+            if field in facts and (value is None or Decimal(value) != Decimal(facts[field])):
+                raise ValueError(f"Manual and automatic readings differ: {meta['id']} {field}")
+            if value is not None:
+                facts[field] = value
+            else:
+                result.setdefault('non_comparable', {})[field] = manual['non_comparable'][field]
+            if field == 'operating_cash_flow':
+                result['cash_basis'] = manual['evidence'][field]['method']
+            proof.setdefault('reviewed_fields', {})[field] = manual['evidence'][field]
+            errors.pop(field, None)
     if 'operating_cash_flow' not in wanted:
         facts.pop('operating_cash_flow', None)
+    certified = meta.get('original_publication', {}).get('confirmed_by', {}).get('confirmed_fields')
+    if certified is not None:
+        for field in list(facts):
+            if certified.get(field, {}).get('value') != facts[field]:
+                del facts[field]
+        for field in list(result.get('non_comparable', {})):
+            if certified.get(field, {}).get('non_comparable') != result['non_comparable'][field]:
+                del result['non_comparable'][field]
     result['profit_anchor_matches'] = matched
     if expected not in (None,'') and printed and not matched:
         result['provider_profit_conflict'] = {'provider':expected,'issuer':printed['value'],'precision':printed['precision']}
@@ -182,12 +226,32 @@ def filing_groups(cache, manifest, cutoff, inventory=None):
         start = str(min(int(y[:4]) for y in years) + 1) + '-01-01'
         file = cache/'index'/f'{code}-{start}-{cutoff}.json'
         docs = load(file) if file.exists() else []
+        change = code_changes().get(code)
+        if change and start < change['effective_date']:
+            earlier = cache/'index'/f"{change['filing_code']}-{start}-{cutoff}.json"
+            if earlier.exists():
+                docs += [{**d, 'code_change':change} for d in load(earlier) if d['date'] < change['effective_date']]
         for period in years:
             year = int(period[:4])
-            full = [d for d in docs if d['date'] < cutoff and report_kind(d['title'], year, d['date']) == 'full']
+            scoped = []
+            for d in docs:
+                if d['date'] >= cutoff:
+                    continue
+                title = d['title']
+                if '已取消' in title:
+                    confirmation = archived_editions().get(d['id'])
+                    if not confirmation or (confirmation['code'], confirmation['period'], confirmation['source'],
+                                            confirmation['date']) != (code, period, d['source'], d['date']):
+                        continue
+                    d = {**d, 'original_publication':confirmation, 'pdf_sha256':confirmation['pdf_sha256']}
+                    title = title.replace('（已取消）', '').replace('(已取消)', '')
+                scoped.append((d, report_kind(title, year, d['date'])))
+            full = [d for d, kind in scoped if kind == 'full']
             dates = {d['date'] for d in full}
-            summaries = [d for d in docs if d['date'] < cutoff and report_kind(d['title'], year, d['date']) == 'summary'
-                         and (not dates or d['date'] in dates) and (cache/'text'/(d['id']+'.json')).exists()]
+            summaries = [d for d, kind in scoped if kind == 'summary'
+                         and (not dates or d['date'] <= min(dates) or d['date'] in dates
+                              or any(word in d['title'] for word in ('更新', '修订', '补充', '更正')))
+                         and (cache/'text'/(d['id']+'.json')).exists()]
             groups[(code, period)] = full + summaries
     return groups
 
@@ -208,13 +272,14 @@ def choose_source(field, candidates):
         return min(candidates, key=lambda r:r['source']) if len(values) == 1 else None
     rank = {'consolidated_statement_and_subtotals': 0, 'consolidated_notes_and_annual_comparison': 1,
             'annual_cash_comparison_and_subtotals': 2, 'annual_cash_and_four_quarters': 2,
-            'annual_comparison_and_provider_ratios': 3}
+            'reviewed_annual_comparison': 2, 'annual_comparison_and_provider_ratios': 3}
     def grade(r):
         return rank[r['cash_basis']]
     def precision(r):
         proof = r['evidence']
         cell = (proof.get('cash_statement') or proof.get('annual_cash_comparison') or
-                proof.get('annual_highlights', {}).get('cash') or proof['reviewed_rows'])
+                proof.get('annual_highlights', {}).get('cash') or proof.get('reviewed_rows')
+                or proof['reviewed_fields']['operating_cash_flow'])
         return Decimal(cell.get('precision', Decimal(1).scaleb(Decimal(r['facts'][field]).as_tuple().exponent)))
     best = min(candidates, key=lambda r:(grade(r), precision(r), r['source']))
     reference = Decimal(best['facts'][field])
@@ -243,6 +308,8 @@ def build(groups, manifest, parsed):
             facts, by_source, non_comparable = {}, {}, {}
             for field in sorted(wanted):
                 accepted = [r for r in candidates if field in r.get('facts', {})]
+                if accepted and any(field in r.get('non_comparable', {}) for r in candidates):
+                    continue
                 if not accepted:
                     for r in candidates:
                         if field in r.get('non_comparable', {}):
@@ -255,7 +322,15 @@ def build(groups, manifest, parsed):
                 facts[field] = proof['facts'][field]
                 by_source[proof['source']] = proof
             evidence = [{k:v for k,v in source.items() if k != 'input_sha256'} for source in by_source.values()]
-            versions.append({'available_date':day,'facts':facts,'non_comparable':non_comparable,'sources':evidence})
+            version = {'available_date':day,'facts':facts,'non_comparable':non_comparable,'sources':evidence}
+            changes = [r['evidence']['code_change'] for r in evidence if r['evidence'].get('code_change')]
+            if changes:
+                version['identity_available_date'] = max(max(c['effective_date'], c['available_date']) for c in changes)
+            expiry = [r['evidence']['original_publication']['valid_through'] for r in evidence
+                      if r['evidence'].get('original_publication')]
+            if expiry:
+                version['valid_through'] = min(expiry)
+            versions.append(version)
         found = versions[-1]['facts'] if versions else {}
         absent = wanted - set(found)
         if absent:
@@ -308,8 +383,9 @@ def main():
         code, year, ident = key
         return saved/f'{code}-{year}-{ident}.json'
     extractor = hashlib.sha256()
-    for filename in ('issuer_statements.py', 'reconcile_gap_reports.py', 'reviewed_annual_rows.json'):
-        extractor.update(Path(__file__).with_name(filename).read_bytes())
+    for filename in ('issuer_statements.py', 'reconcile_gap_reports.py', 'reviewed_annual_rows.json', 'reviewed_history.py',
+                     '../results/issuer-annual-2026-11-18/historical/reviewed-rows.json'):
+        extractor.update((Path(__file__).parent/filename).read_bytes())
     def signature(job):
         doc, year, item, _ = job
         payload = json.dumps([doc, year, item], ensure_ascii=False, sort_keys=True).encode()

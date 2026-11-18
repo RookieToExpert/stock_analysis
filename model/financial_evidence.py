@@ -6,7 +6,7 @@ import hashlib
 import json
 from functools import lru_cache
 from pathlib import Path
-from annual_supplements import field_value, verified_annual_version
+from annual_supplements import field_value, first_annual_release_dates, verified_annual_version
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -69,6 +69,8 @@ def verified_operating_cash_flow(data, period, day, ledger=None):
     A financial field match does not certify all fields or historical versions.
     Evidence is usable strictly after publication, like the PIT specification.
     """
+    if not isinstance(day, str) or day <= first_annual_release_dates().get((data.get('code'), period), ''):
+        return None
     if ledger is None:
         ledger = cash_by_period().get((data.get('code'), period), [])
         if not ledger:

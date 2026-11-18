@@ -1,0 +1,46 @@
+[
+  {
+    "code": "sz.000662",
+    "period": "2019-12-31",
+    "available_date": "2020-06-30",
+    "issuer_pdf": "https://static.cninfo.com.cn/finalpage/2020-06-30/1207969030.PDF",
+    "issuer_pdf_sha256": "7f00b055a6bfca3b5671d6a602d8f5823b43a1c3d2600e4239f669d2a57b72ec",
+    "independent_pdf": "https://pdf.dfcfw.com/pdf/H2_AN202006291388285596_1.pdf",
+    "independent_pdf_sha256": "e6fa532e50565d9aa633dfee2e358a443d2eea6bb7ba0828e8df484746595c85",
+    "archive_index": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=000662&begin_time=2020-06-30&end_time=2020-06-30",
+    "identical_report_text": true
+  },
+  {
+    "code": "sz.002224",
+    "period": "2019-12-31",
+    "available_date": "2020-05-29",
+    "issuer_pdf": "https://static.cninfo.com.cn/finalpage/2020-05-29/1207873518.PDF",
+    "issuer_pdf_sha256": "f67b1f0a9c3577a11d7729fd3a23976dbc8b4a49466e26f5f197bf56d66f2699",
+    "independent_pdf": "https://pdf.dfcfw.com/pdf/H2_AN202005281380463026_1.pdf",
+    "independent_pdf_sha256": "90cbcaab73732a28d31b7ae38d75f92ba4adadc88c7aeaad78c53b2fbbb555de",
+    "archive_index": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=002224&begin_time=2020-05-29&end_time=2020-05-29",
+    "identical_report_text": true
+  },
+  {
+    "code": "sz.002432",
+    "period": "2019-12-31",
+    "available_date": "2020-06-29",
+    "issuer_pdf": "https://static.cninfo.com.cn/finalpage/2020-06-29/1207962260.PDF",
+    "issuer_pdf_sha256": "cc2596e4fd35cf0e73b1650e402d5931dc1b5fb8f48aa33c0a64024440a4b337",
+    "independent_pdf": "https://pdf.dfcfw.com/pdf/H2_AN202006281387993427_1.pdf",
+    "independent_pdf_sha256": "7ba13fb9b75a49a3b33c6dcc06edc797d1658fe6846cae9cd80c3d6ef5714f7d",
+    "archive_index": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=002432&begin_time=2020-06-29&end_time=2020-06-29",
+    "identical_report_text": true
+  },
+  {
+    "code": "sz.002740",
+    "period": "2019-12-31",
+    "available_date": "2020-05-30",
+    "issuer_pdf": "https://static.cninfo.com.cn/finalpage/2020-05-30/1207878436.PDF",
+    "issuer_pdf_sha256": "d857670bf2f78c714cd20f4626ad630ff1d6f7fdada068454745f43903c2b3e1",
+    "independent_pdf": "https://pdf.dfcfw.com/pdf/H2_AN202005291380893036_1.pdf",
+    "independent_pdf_sha256": "19a309ef2353970e9d3e95e5d08449b059357d1925e2f63a6e4d9f59f0d04652",
+    "archive_index": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=002740&begin_time=2020-05-30&end_time=2020-05-30",
+    "identical_report_text": true
+  }
+]

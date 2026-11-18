@@ -1,0 +1,26 @@
+{
+  "snapshot_Beijing": "2026-11-18T13:37:25+08:00",
+  "stock_files": 3997,
+  "separate_universe_files": 1,
+  "evaluations": 20,
+  "distinct_companies_with_requested_fields": 1945,
+  "distinct_company_years_with_requested_fields": 5925,
+  "company_years_with_annual_filings_used": 5923,
+  "annual_filings_not_yet_disclosed_as_of_relevant_dates": 2,
+  "distinct_issuer_disclosures_used": 6691,
+  "earlier_withdrawn_attachments_verified": 188,
+  "verification_of_withdrawn_attachments": {
+    "identical_issuer_pdf_in_separately_dated_archive": 116,
+    "identical_report_text_in_separately_dated_archive": 66,
+    "issuer_identifies_original_release": 4,
+    "matching_issuer_fields_in_separately_dated_archive": 2
+  },
+  "baseline_gap_occurrences": 32671,
+  "remaining_gap_occurrences": 1093,
+  "noncomparable_ROE_occurrences": 758,
+  "zero_revenue_gross_margin_occurrences": 15,
+  "before_first_annual_release_table_occurrences": 312,
+  "issuer_nonfiling_table_occurrences": 8,
+  "awaiting_financial_or_ST_evidence_occurrences": 0,
+  "full_market_backtest_certified": false
+}

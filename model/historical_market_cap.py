@@ -5,7 +5,7 @@ share register. Corporate actions after the report can change actual shares.
 """
 from datetime import date
 from decimal import Decimal, InvalidOperation
-from annual_supplements import field_value, later_reported_shares, verified_annual_version
+from annual_supplements import effective_publication_date, field_value, later_reported_shares, verified_annual_version
 
 
 def calculate(data, day):
@@ -13,9 +13,10 @@ def calculate(data, day):
         when=date.fromisoformat(day)
         reports=[]
         for row in data.get('fin',{}).get('profit',[]):
-            pub=date.fromisoformat(row['pubDate']);period=date.fromisoformat(row['statDate'])
+            pub=date.fromisoformat(effective_publication_date(data.get('code'), row['statDate'], row['pubDate']))
+            period=date.fromisoformat(row['statDate'])
             if pub<when:
-                if period>pub:return None
+                if period>date.fromisoformat(row['pubDate']):return None
                 reports.append(row)
         latest=max((r['statDate'] for r in reports), default='')
         later = later_reported_shares(data, day, latest)
@@ -26,7 +27,7 @@ def calculate(data, day):
             if len(selected)!=1:return None
             report=selected[0]
             if report.get('code',data.get('code'))!=data.get('code'):return None
-            published = report['pubDate']
+            published = effective_publication_date(data.get('code'), latest, report['pubDate'])
             value = report.get('totalShare')
             if value in (None, ''):
                 version = verified_annual_version(data, latest, day)

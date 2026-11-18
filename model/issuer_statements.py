@@ -21,16 +21,20 @@ def compact(value):
 
 
 def fiscal_year_evidence(lines, year):
-    digits = str.maketrans('零〇一二三四五六七八九', '00123456789')
+    digits = str.maketrans('零〇○一二三四五六七八九', '000123456789')
     observed = {}
-    for line in lines:
+    for i, line in enumerate(lines):
         if line.page > 12:
             break
         key = line.key.translate(digits)
-        if len(key) > 120:
+        if re.fullmatch(r'20\d\d年?', key) and i + 1 < len(lines) and lines[i+1].page == line.page:
+            key += lines[i+1].key
+        if len(key) > 120 or re.search(r'详见|请参|查阅|参见|披露于', key):
             continue
-        patterns = (r'(20\d\d)年(?:年?度|年)?报告(?:全文|摘要)?',
+        patterns = (r'(20\d\d)年(?:年?度|年)?报告(?:全文|摘要|正文)?(?:[（(][^()（）]{1,12}[）)])?\d*$',
                     r'AnnualReport(20\d\d)', r'^(20\d\d)[\u4e00-\u9fff]{2,15}年度报告',
+                    r'本公司董事.{0,34}对《(20\d\d)年年度报告》',
+                    r'(20\d\d)年年度报告已经本公司',
                     r'报告期(?:间)?(?:指|为|[:：])(20\d\d)年(?:1|01)月')
         for pattern in patterns:
             match = re.search(pattern, key, re.I)
@@ -53,11 +57,11 @@ def decimal_tokens(line):
     return numbers
 
 
-def decimals_in_columns(line):
-    """Take two actual monetary columns, skipping an optional statement note on the left."""
+def decimals_in_columns(line, count=2):
+    """Read the monetary columns, including explicit dashes, after any statement note."""
     line = normalize(line).strip()
     amount = r'(?:\(\s*[-+]?\d[\d,]*(?:\.\d+)?\s*\)|[-+]?\d[\d,]*(?:\.\d+)?|[-—/])'
-    tail = re.search(r'(?<![\d,.])(' + amount + r')\s+(' + amount + r')\s*$', line)
+    tail = re.search(r'(?<![\d,.])' + r'\s+'.join(['(' + amount + ')'] * count) + r'\s*$', line)
     if tail:
         return tuple(decimal_tokens(s)[0] if decimal_tokens(s) else None for s in tail.groups())
     cells = re.split(r'\s{2,}|\t+', line)
@@ -67,8 +71,8 @@ def decimals_in_columns(line):
             values.append(decimal_tokens(cell)[0])
         elif cell.strip() in ('-', '—', '/'):
             values.append(None)
-    if len(values) >= 2:
-        return tuple(values[-2:])
+    if len(values) >= count:
+        return tuple(values[-count:])
     return None
 
 
@@ -131,7 +135,7 @@ class Statement:
             if year_end and year_start:
                 return (0, 1) if year_end.start() < year_start.start() else (1, 0)
         for pattern in (r'本(?:期|年)(?:本期)?(?:度|发生额|金额|数|累计|实际|已审计)*.{0,15}上(?:期|年)',
-                        r'期末余额.{0,15}期初余额', r'年末余额.{0,15}年初余额'):
+                        r'(?:期|年)末(?:余额|数|金额)?.{0,15}(?:期|年)初(?:余额|数|金额)?'):
             if re.search(pattern, text):
                 return 0, 1
         raise ValueError('current/prior columns missing')
@@ -145,13 +149,14 @@ class Statement:
                 continue
             for j in range(i, min(i + 5, stop)):
                 line = self.lines[j]
-                if j > i and re.match(r'^(?:[一二三四五六七八九十]+[、.][\u4e00-\u9fff]|(?:投资|筹资)活动|其中[:：])', line.key):
+                if j > i and not re.match(r'^[-—+(/\d]|^[一二三四五六七八九十]+[、.]\d+|^(?:额|净额|净利润|权|益|者|本|量|股东权益|'
+                                          r'所有者权益|的净|的现|的股|的权|的合|的余|的利|归属)[^:]{0,20}', line.key):
                     break
                 if self.combined:
                     hdr = ''.join(l.key for l in self.heading[1:])
                     group_first = re.search(r'(?:合并|集团)(?:合并|本集团|集团)?.{0,18}(?:母公司|公司)', hdr)
-                    numbers = decimal_tokens(line.text)
-                    pair = tuple(numbers[-4:-2]) if group_first and len(numbers) >= 4 else None
+                    cells = decimals_in_columns(line.text, 4) if group_first else None
+                    pair = cells[:2] if cells else None
                 else:
                     pair = decimals_in_columns(line.text)
                 if pair:
@@ -184,7 +189,7 @@ class Report:
             if not re.search(r'(?<!\d)' + ticker + r'(?!\d)', normalize(line.text)):
                 continue
             context = cover[max(0,i-3):i+2]
-            if ticker in codes or re.search(r'股票代码|证券代码|公司代码|上海证券交易所|深圳证券交易所|股票上市地|A股代码|A股.*(?:上交所|深交所)', ''.join(l.key for l in context)):
+            if ticker in codes or re.search(r'股票代码|股票代号|证券代码|公司代码|Companycode|上海证券交易所|深圳证券交易所|股票上市地|A股代码|A股.*(?:上交所|深交所)', ''.join(l.key for l in context), re.I):
                 self.identity = quoted(context)
                 break
         fiscal = fiscal_year_evidence(cover, year)
@@ -381,12 +386,16 @@ class Report:
                 return best
         raise ValueError('annual cash comparisons do not match the archived provider ratios')
 
-    def statement_pair(self, kind, pattern):
+    def statement_pair(self, kind, pattern, description=None):
         problems = []
         for stmt in self.sections(kind):
             try:
                 factor = stmt.unit
-                values, row, _, _ = stmt.row(pattern)
+                values, row, first, last = stmt.row(pattern)
+                if description:
+                    label = re.sub(r'[^\u4e00-\u9fff]', '', ''.join(l.key for l in stmt.lines[first:last+3]))
+                    if not re.search(description, label):
+                        raise ValueError('ambiguous wrapped statement label')
                 if values[0] is None:
                     raise ValueError('no current amount')
                 return {'value': str(values[0] * factor), 'prior': str(values[1] * factor) if values[1] is not None else None,
@@ -394,6 +403,43 @@ class Report:
             except ValueError as exc:
                 problems.append(str(exc))
         raise ValueError(', '.join(dict.fromkeys(problems)) or ('missing: ' + kind))
+
+    def comparison_parent_pair(self, field):
+        """Parent-attributable earnings or equity in the statutory annual comparison."""
+        term = '净利润' if field == 'parent' else '净资产'
+        for i, line in enumerate(self.lines):
+            if line.page > 25:
+                break
+            if not re.match(r'^[*＊]?归属于(?:上市公|母公司)', line.key):
+                continue
+            group = [line]
+            for nxt in self.lines[i+1:i+4]:
+                if re.match(r'^(?:[＊*]?归属于|营业|经营活动|总资产|资产总|加权|基本|扣除后|非经常性损益项目)', nxt.key):
+                    break
+                group.append(nxt)
+            label = re.sub(r'[^\u4e00-\u9fff]', '', ''.join(l.key for l in group)).replace('不适用', '')
+            if term not in label or '扣除' in label or '每股' in label:
+                continue
+            before = self.lines[max(0,i-48):i]
+            header_index = next((n for n in reversed(range(len(before)))
+                                 if re.search(str(self.year) + r'年.{0,15}' + str(self.year-1) + r'年', before[n].key)), None)
+            if header_index is None:
+                continue
+            header = before[header_index:]
+            if any(re.search(r'季度|调整前|调整后|母公司资产负债表', l.key) for l in header):
+                continue
+            # The unit may be printed on the row itself, or above the annual comparison.
+            units = [m for l in before + group for m in re.findall(r'单位[:为]*(?:人民币)?' + UNIT_RE, l.key)]
+            own_unit = re.search(r'[(](?:人民币)?' + UNIT_RE + r'[)]', ''.join(l.key for l in group))
+            if not own_unit and not units:
+                continue
+            factor = Decimal(UNITS[own_unit[1] if own_unit else units[-1]])
+            pair = next((decimal_tokens(l.text) for l in group if len(decimal_tokens(l.text)) >= 2), [])
+            if len(pair) < 2:
+                continue
+            return {'value': str(pair[0]*factor), 'prior':str(pair[1]*factor), 'page':line.page,
+                    'unit_multiplier':str(factor), 'header':quoted(header[:1]), 'row':quoted(group)}
+        raise ValueError('annual parent comparison missing: ' + field)
 
     def main_business(self, turnover):
         target = Decimal(turnover)
@@ -404,21 +450,29 @@ class Report:
                 line = Line(line.page, label.text.strip() + ' ' + line.text.strip())
             lines.append(line)
         for i, line in enumerate(lines):
-            if not re.match(r'^主营(?:业务(?:收入)?)?[-\d(]', line.key):
+            if not re.match(r'^(?:其中:)?主营(?:业(?:务(?:收入)?)?)?[-\d(]', line.key):
                 continue
             heads = lines[max(0, i-12):i]
             header = ''.join(l.key for l in heads)
-            if not re.search(r'收入成本|营业收入营业成本', header) or not re.search(r'本[期年]|' + str(self.year) + '年', header):
+            explicit = bool(re.match(r'^(?:其中:)?主营业务收入', line.key))
+            if (not explicit and not re.search(r'收入成本|营业收入.{0,4}营业成本', header)) or not re.search(r'本[期年]|' + str(self.year) + '年', header):
                 continue
-            others = next((l for l in lines[i+1:i+15] if re.match(r'^其他(?:业务)?[\d(]', l.key)), None)
+            others = next((l for l in lines[i+1:i+15] if re.match(r'^其他(?:业务(?:收入)?)?[\d(]', l.key)), None)
             total = next((l for l in lines[i+1:i+16] if re.match(r'^(?:合计|总计)[\d(]', l.key)), None)
-            if not total:
-                continue
-            main, summed = decimal_tokens(line.text), decimal_tokens(total.text)
+            main = decimal_tokens(line.text)
             other = decimal_tokens(others.text) if others else [Decimal(0)]
-            if not (main and other and summed) or main[0] + other[0] != summed[0]:
+            if not (main and other):
                 continue
-            scales = [scale for scale in UNITS.values() if summed[0] * scale == target]
+            combined = main[0] + other[0]
+            if explicit and others and others.key.startswith('其他业务收入'):
+                # Older notes show main and ancillary sales on separate rows, without a total.
+                total = None
+            elif not total or decimal_tokens(total.text)[0] != combined:
+                continue
+            scales = [scale for scale in UNITS.values() if combined * scale == target]
+            if combined == target == 0:
+                declared = re.search(r'单位[:为]*(?:人民币)?' + UNIT_RE, header)
+                scales = [UNITS[declared[1]]] if declared else []
             if len(scales) == 1:
                 return {'value': str(main[0] * scales[0]), 'unit_multiplier': str(scales[0]), 'page': line.page,
                         'header': quoted(heads[-5:]), 'row': quoted([r for r in (line, others, total) if r])}
@@ -437,14 +491,29 @@ class Report:
                     and values[-2] > 100 and values[1] == 100 and '单位:股' in ordered):
                 return {'value': str(values[-2]), 'page': line.page, 'row': quoted([line]),
                         'header': quoted([l for l in header if re.search(r'单位:股|本次变动前|本次变动后|期初|期末|数量.*比例', l.key)][-7:])}
+        # Some older change tables state capital in yuan. Require a separate share-denominated
+        # issuer disclosure of the same count, keeping both the balance and the share evidence.
+        capital = self.statement_pair('资产负债表', r'^(?:实收资本(?:\(或股本\))?|股本)(?=\d|[-(]|$)')
+        closing = Decimal(capital['value'])
+        number = r'([\d,]+(?:\.\d+)?)(万|亿)?股'
+        for i, line in enumerate(self.lines):
+            if not re.search('总股本|股份总数', line.key):
+                continue
+            span = self.lines[max(0, i-1):i+3]
+            text = ''.join(l.key for l in span)
+            for match in re.finditer(r'(?:总股本|股份总数)(?:变更为|为|共|合计|计|共计|由)?' + number, text):
+                shares = Decimal(match[1].replace(',', '')) * {'万': 10000, '亿': 100000000, None: 1}[match[2]]
+                if shares == closing and shares > 0 and shares == shares.to_integral_value():
+                    return {'value': str(int(shares)), 'page': line.page, 'row': quoted(span),
+                            'header': capital['header'], 'capital_row': capital['row']}
         raise ValueError('no year-end share count in shares')
 
     def extra_fields(self, fields, printed_profit):
         facts, problems, basis = {}, {}, {}
         want = set(fields)
         patterns = {
-            'parent': ('利润表', r'^(?:[0-9(一二)]+[、.)]?)?归属于母公司(?:股东|所有者)的?净'),
-            'equity': ('资产负债表', r'^归属于母公司(?:所有者|股东)(?:权益|的权益)'),
+            'parent': ('利润表', r'^(?:[0-9(一二)]+[、.)]?)?归属于母公司(?:股东|所有者)的?(?:净|(?=[-\d(])|$)'),
+            'equity': ('资产负债表', r'^归属于母公司(?:所有者|股东)(?:权益|的权益|权|(?=[-\d(])|$)'),
             'turnover': ('利润表', r'^(?:其中:|[一1][、.])?营业收入(?!及|和|增长|占|与)'),
             'cost': ('利润表', r'^(?:其中:|减:|[二2][、.])?营业成本(?!及|和|增长|占|与)'),
             'assets': ('资产负债表', r'^资产总计'),
@@ -454,8 +523,13 @@ class Report:
             if name not in basis:
                 kind, pattern = patterns[name]
                 try:
-                    basis[name] = self.statement_pair(kind, pattern)
+                    description = {'parent':r'归属于母公司(?:股东|所有者)的?净(?:利润|亏损)',
+                                   'equity':r'归属于母公司(?:所有者|股东)的?权益'}.get(name)
+                    basis[name] = self.statement_pair(kind, pattern, description)
                 except ValueError:
+                    if name in ('parent', 'equity'):
+                        basis[name] = self.comparison_parent_pair(name)
+                        return basis[name]
                     if name != 'turnover':
                         raise
                     # An explicitly identified total revenue line is only used when the non-financial income
@@ -484,6 +558,8 @@ class Report:
                     facts[field] = ratio(val('parent'), average)
                     basis['average_parent_equity'] = str(average)
                 elif field == 'gpMargin':
+                    if any('营业总收入' in line[1] for line in source('turnover')['row']):
+                        raise ValueError('gross margin needs operating revenue excluding other components')
                     facts[field] = ratio(val('turnover') - val('cost'), val('turnover'))
                 elif field == 'MBRevenue':
                     basis['main_business'] = self.main_business(source('turnover')['value'])

@@ -211,7 +211,7 @@
 2026-09-01,sh.600308,华泰股份,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=186271506.52,2026-04-18,https://static.cninfo.com.cn/finalpage/2026-04-18/1225116008.PDF#page=122
 2026-09-01,sh.600310,广西能源,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=1289972770.68,2023-04-21,https://static.cninfo.com.cn/finalpage/2023-04-21/1216494360.PDF#page=124
 2026-09-01,sh.600310,广西能源,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=1528191137.90,2026-03-27,https://static.cninfo.com.cn/finalpage/2026-03-27/1225037758.PDF#page=95
-2026-09-01,sh.600315,上海家化,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=273196710.98,2025-04-25,https://static.cninfo.com.cn/finalpage/2025-04-25/1223275297.PDF#page=84
+2026-09-01,sh.600315,上海家化,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=273196710.98,2025-04-25,https://static.cninfo.com.cn/finalpage/2025-04-25/1223275297.PDF#page=5
 2026-09-01,sh.600319,亚星化学,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=31175437.55,2025-04-26,https://static.cninfo.com.cn/finalpage/2025-04-26/1223314844.PDF#page=63
 2026-09-01,sh.600319,亚星化学,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=-20838345.84,2026-04-23,https://static.cninfo.com.cn/finalpage/2026-04-23/1225149638.PDF#page=71
 2026-09-01,sh.600322,津投城开,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=2236516828.97,2022-04-12,https://static.cninfo.com.cn/finalpage/2022-04-12/1212887628.PDF#page=65
@@ -507,7 +507,7 @@
 2026-09-01,sh.600725,云维股份,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=37891988.74,2025-04-12,https://static.cninfo.com.cn/finalpage/2025-04-12/1223069662.PDF#page=74
 2026-09-01,sh.600725,云维股份,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=67898010.03,2026-04-29,https://static.cninfo.com.cn/finalpage/2026-04-29/1225224219.PDF#page=74
 2026-09-01,sh.600726,华电能源,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=87070375.37,2022-04-28,https://static.cninfo.com.cn/finalpage/2022-04-28/1213176074.PDF#page=76
-2026-09-01,sh.600726,华电能源,2021-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=3.899732434224497234942742856,2022-04-28,https://static.cninfo.com.cn/finalpage/2022-04-28/1213176074.PDF#page=70 | https://static.cninfo.com.cn/finalpage/2022-04-28/1213176074.PDF#page=73
+2026-09-01,sh.600726,华电能源,2021-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=3.899732434224497234942742856,2022-04-28,https://static.cninfo.com.cn/finalpage/2022-04-28/1213176074.PDF#page=70 | https://static.cninfo.com.cn/finalpage/2022-04-28/1213176074.PDF#page=73 | https://static.cninfo.com.cn/finalpage/2022-04-28/1213176072.PDF#page=3 | https://static.cninfo.com.cn/finalpage/2022-04-28/1213176072.PDF#page=4
 2026-09-01,sh.600728,佳都科技,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-188862357.26,2023-04-29,https://static.cninfo.com.cn/finalpage/2023-04-29/1216705502.PDF#page=91
 2026-09-01,sh.600728,佳都科技,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=180425810.69,2025-04-11,https://static.cninfo.com.cn/finalpage/2025-04-11/1223058860.PDF#page=102
 2026-09-01,sh.600732,爱旭股份,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=458753757.07,2022-04-30,https://static.cninfo.com.cn/finalpage/2022-04-30/1213270121.PDF#page=103
@@ -530,9 +530,9 @@
 2026-09-01,sh.600744,华银电力,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=1763979120.33,2025-04-24,https://static.cninfo.com.cn/finalpage/2025-04-24/1223247647.PDF#page=81
 2026-09-01,sh.600748,上实发展,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=-1275918341.06,2025-03-22,https://static.cninfo.com.cn/finalpage/2025-03-22/1222865914.PDF#page=69
 2026-09-01,sh.600748,上实发展,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=1117586168.35,2026-03-21,https://static.cninfo.com.cn/finalpage/2026-03-21/1225021961.PDF#page=64
-2026-09-01,sh.600749,西藏旅游,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=42227386.25,2022-03-15,https://static.cninfo.com.cn/finalpage/2022-03-15/1212568281.PDF#page=85
+2026-09-01,sh.600749,西藏旅游,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=42227386.25,2022-03-15,https://static.cninfo.com.cn/finalpage/2022-03-15/1212568281.PDF#page=85 | https://static.cninfo.com.cn/finalpage/2022-03-15/1212568270.PDF#page=5
 2026-09-01,sh.600749,西藏旅游,2021-12-31,profit,gpMargin,已核实,gpMargin=0.3865734945399372277108861753,2022-03-15,https://static.cninfo.com.cn/finalpage/2022-03-15/1212568281.PDF#page=81
-2026-09-01,sh.600749,西藏旅游,2021-12-31,profit,roeAvg,已核实,roeAvg=-0.007831029350453453143712519101,2022-03-15,https://static.cninfo.com.cn/finalpage/2022-03-15/1212568281.PDF#page=79 | https://static.cninfo.com.cn/finalpage/2022-03-15/1212568281.PDF#page=82
+2026-09-01,sh.600749,西藏旅游,2021-12-31,profit,roeAvg,已核实,roeAvg=-0.007831029350453453143712519101,2022-03-15,https://static.cninfo.com.cn/finalpage/2022-03-15/1212568281.PDF#page=79 | https://static.cninfo.com.cn/finalpage/2022-03-15/1212568281.PDF#page=82 | https://static.cninfo.com.cn/finalpage/2022-03-15/1212568270.PDF#page=5
 2026-09-01,sh.600749,西藏旅游,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-2853966.55,2023-03-31,https://static.cninfo.com.cn/finalpage/2023-03-31/1216281887.PDF#page=93
 2026-09-01,sh.600756,浪潮软件,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=-46600991.03,2026-04-18,https://static.cninfo.com.cn/finalpage/2026-04-18/1225120805.PDF#page=71
 2026-09-01,sh.600758,辽宁能源,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=852555703.42,2026-04-23,https://static.cninfo.com.cn/finalpage/2026-04-23/1225156917.PDF#page=59
@@ -1130,8 +1130,8 @@
 2026-09-01,sh.603887,城地香江,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=376262153.28,2026-04-21,https://static.cninfo.com.cn/finalpage/2026-04-21/1225133837.PDF#page=98
 2026-09-01,sh.603890,春秋电子,2023-12-31,cash,CFOToNP,已核实,operating_cash_flow=525004073.23,2024-04-25,https://static.cninfo.com.cn/finalpage/2024-04-25/1219792724.PDF#page=81
 2026-09-01,sh.603895,天永智能,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-165668631.00,2023-04-28,https://static.cninfo.com.cn/finalpage/2023-04-28/1216668310.PDF#page=102
-2026-09-01,sh.603895,天永智能,2023-12-31,cash,CFOToNP,已核实,operating_cash_flow=-109888599.70,2024-04-27,https://static.cninfo.com.cn/finalpage/2024-04-27/1219881295.PDF#page=129
-2026-09-01,sh.603895,天永智能,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=23288467.44,2025-04-26,https://static.cninfo.com.cn/finalpage/2025-04-26/1223312169.PDF#page=111
+2026-09-01,sh.603895,天永智能,2023-12-31,cash,CFOToNP,已核实,operating_cash_flow=-109888599.70,2024-04-27,https://static.cninfo.com.cn/finalpage/2024-04-27/1219881295.PDF#page=23
+2026-09-01,sh.603895,天永智能,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=23288467.44,2025-04-26,https://static.cninfo.com.cn/finalpage/2025-04-26/1223312169.PDF#page=7
 2026-09-01,sh.603899,晨光股份,2021-12-31,profit,MBRevenue,已核实,MBRevenue=17602085153.48,2022-03-29,https://static.cninfo.com.cn/finalpage/2022-03-29/1212708801.PDF#page=169
 2026-09-01,sh.603900,莱绅通灵,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=220033023.31,2023-04-20,https://static.cninfo.com.cn/finalpage/2023-04-20/1216470859.PDF#page=77
 2026-09-01,sh.603900,莱绅通灵,2023-12-31,cash,CFOToNP,已核实,operating_cash_flow=-89127548.24,2024-04-19,https://static.cninfo.com.cn/finalpage/2024-04-19/1219667751.PDF#page=76
@@ -1672,8 +1672,8 @@
 2026-09-01,sz.000402,金融街,2023-12-31,cash,CFOToNP,已核实,operating_cash_flow=6057775306.87,2024-04-12,https://static.cninfo.com.cn/finalpage/2024-04-12/1219578772.PDF#page=94
 2026-09-01,sz.000402,金融街,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=5998297835.63,2025-04-29,https://static.cninfo.com.cn/finalpage/2025-04-29/1223369949.PDF#page=108
 2026-09-01,sz.000402,金融街,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=2032454660.23,2026-04-29,https://static.cninfo.com.cn/finalpage/2026-04-29/1225240594.PDF#page=98
-2026-09-01,sz.000410,沈阳机床,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=-309393365.48,2022-04-16,https://static.cninfo.com.cn/finalpage/2022-04-16/1212943999.PDF#page=79
-2026-09-01,sz.000410,沈阳机床,2021-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=12.92342025033859130621736404,2022-04-16,https://static.cninfo.com.cn/finalpage/2022-04-16/1212943999.PDF#page=73 | https://static.cninfo.com.cn/finalpage/2022-04-16/1212943999.PDF#page=76
+2026-09-01,sz.000410,沈阳机床,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=-309393365.48,2022-04-16,https://static.cninfo.com.cn/finalpage/2022-04-16/1212943999.PDF#page=79 | https://static.cninfo.com.cn/finalpage/2022-04-16/1212943989.PDF#page=2
+2026-09-01,sz.000410,沈阳机床,2021-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=12.92342025033859130621736404,2022-04-16,https://static.cninfo.com.cn/finalpage/2022-04-16/1212943999.PDF#page=73 | https://static.cninfo.com.cn/finalpage/2022-04-16/1212943999.PDF#page=76 | https://static.cninfo.com.cn/finalpage/2022-04-16/1212943989.PDF#page=2
 2026-09-01,sz.000415,渤海租赁,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=16092187000,2022-04-30,https://static.cninfo.com.cn/finalpage/2022-04-30/1213265873.PDF#page=136
 2026-09-01,sz.000415,渤海租赁,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=21012331000,2023-04-28,https://static.cninfo.com.cn/finalpage/2023-04-28/1216658168.PDF#page=112
 2026-09-01,sz.000420,吉林化纤,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=168886089.53,2022-05-28,https://static.cninfo.com.cn/finalpage/2022-05-28/1213526742.PDF#page=78
@@ -1879,8 +1879,8 @@
 2026-09-01,sz.000691,亚太实业,2024-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=8.526836769030233662468097986,2025-04-29,https://static.cninfo.com.cn/finalpage/2025-04-29/1223375086.PDF#page=90 | https://static.cninfo.com.cn/finalpage/2025-04-29/1223375086.PDF#page=93
 2026-09-01,sz.000691,亚太实业,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=14152190.40,2026-03-31,https://static.cninfo.com.cn/finalpage/2026-03-31/1225061125.PDF#page=146
 2026-09-01,sz.000692,惠天热电,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=-311988735.06,2022-04-27,https://static.cninfo.com.cn/finalpage/2022-04-27/1213137702.PDF#page=68
-2026-09-01,sz.000692,惠天热电,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-235243270.58,2023-04-25,https://static.cninfo.com.cn/finalpage/2023-04-25/1216560406.PDF#page=64
-2026-09-01,sz.000692,惠天热电,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=2.149748957291232057725746711,2023-04-25,https://static.cninfo.com.cn/finalpage/2023-04-25/1216560406.PDF#page=58 | https://static.cninfo.com.cn/finalpage/2023-04-25/1216560406.PDF#page=62
+2026-09-01,sz.000692,惠天热电,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-235243270.58,2023-04-25,https://static.cninfo.com.cn/finalpage/2023-04-25/1216560406.PDF#page=64 | https://static.cninfo.com.cn/finalpage/2023-04-25/1216560398.PDF#page=3
+2026-09-01,sz.000692,惠天热电,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=2.149748957291232057725746711,2023-04-25,https://static.cninfo.com.cn/finalpage/2023-04-25/1216560406.PDF#page=58 | https://static.cninfo.com.cn/finalpage/2023-04-25/1216560406.PDF#page=62 | https://static.cninfo.com.cn/finalpage/2023-04-25/1216560398.PDF#page=3
 2026-09-01,sz.000692,惠天热电,2023-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=-1.152544118263357725932928036,2024-04-30,https://static.cninfo.com.cn/finalpage/2024-04-30/1219918224.PDF#page=68 | https://static.cninfo.com.cn/finalpage/2024-04-30/1219918224.PDF#page=71
 2026-09-01,sz.000692,惠天热电,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=-113531774.38,2025-06-14,https://static.cninfo.com.cn/finalpage/2025-06-14/1223879619.PDF#page=71
 2026-09-01,sz.000692,惠天热电,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=615184378.65,2026-04-29,https://static.cninfo.com.cn/finalpage/2026-04-29/1225240687.PDF#page=73
@@ -1971,7 +1971,7 @@
 2026-09-01,sz.000790,华神科技,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=85373523.83,2026-03-31,https://static.cninfo.com.cn/finalpage/2026-03-31/1225061180.PDF#page=76
 2026-09-01,sz.000796,凯撒旅业,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=-84654019.91,2022-07-30,https://static.cninfo.com.cn/finalpage/2022-07-30/1214176706.PDF#page=114
 2026-09-01,sz.000796,凯撒旅业,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-383392186.86,2024-04-26,https://static.cninfo.com.cn/finalpage/2024-04-26/1219843818.PDF#page=124
-2026-09-01,sz.000796,凯撒旅业,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=2.555063861560576762521424107,2024-04-26,https://static.cninfo.com.cn/finalpage/2024-04-26/1219843818.PDF#page=117 | https://static.cninfo.com.cn/finalpage/2024-04-26/1219843818.PDF#page=121
+2026-09-01,sz.000796,凯撒旅业,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=2.555063861560576762521424107,2024-04-26,https://static.cninfo.com.cn/finalpage/2024-04-26/1219843818.PDF#page=117 | https://static.cninfo.com.cn/finalpage/2024-04-26/1219843818.PDF#page=121 | https://static.cninfo.com.cn/finalpage/2024-04-26/1219843797.PDF#page=4
 2026-09-01,sz.000796,凯撒旅业,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=-177115773.14,2025-04-24,https://static.cninfo.com.cn/finalpage/2025-04-24/1223249144.PDF#page=111
 2026-09-01,sz.000797,中国武夷,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=447673219.87,2026-06-02,https://static.cninfo.com.cn/finalpage/2026-06-02/1225343938.PDF#page=89
 2026-09-01,sz.000798,中水渔业,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=89061330.44,2022-02-10,https://static.cninfo.com.cn/finalpage/2022-02-10/1212333125.PDF#page=77
@@ -2136,8 +2136,8 @@
 2026-09-01,sz.002009,天奇股份,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=27360051.77,2025-04-25,https://static.cninfo.com.cn/finalpage/2025-04-25/1223268300.PDF#page=109
 2026-09-01,sz.002019,亿帆医药,2023-12-31,cash,CFOToNP,已核实,operating_cash_flow=348584791.89,2024-04-20,https://static.cninfo.com.cn/finalpage/2024-04-20/1219698398.PDF#page=120
 2026-09-01,sz.002021,中捷资源,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=214077476.95,2022-04-29,https://static.cninfo.com.cn/finalpage/2022-04-29/1213211281.PDF#page=109
-2026-09-01,sz.002021,中捷资源,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=15181696.60,2023-04-28,https://static.cninfo.com.cn/finalpage/2023-04-28/1216657982.PDF#page=98
-2026-09-01,sz.002021,中捷资源,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=4.438777065718367908503118195,2023-04-28,https://static.cninfo.com.cn/finalpage/2023-04-28/1216657982.PDF#page=92 | https://static.cninfo.com.cn/finalpage/2023-04-28/1216657982.PDF#page=95
+2026-09-01,sz.002021,中捷资源,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=15181696.60,2023-04-28,https://static.cninfo.com.cn/finalpage/2023-04-28/1216657982.PDF#page=98 | https://static.cninfo.com.cn/finalpage/2023-04-28/1216658027.PDF#page=3
+2026-09-01,sz.002021,中捷资源,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=4.438777065718367908503118195,2023-04-28,https://static.cninfo.com.cn/finalpage/2023-04-28/1216657982.PDF#page=92 | https://static.cninfo.com.cn/finalpage/2023-04-28/1216657982.PDF#page=95 | https://static.cninfo.com.cn/finalpage/2023-04-28/1216658027.PDF#page=2 | https://static.cninfo.com.cn/finalpage/2023-04-28/1216658027.PDF#page=3
 2026-09-01,sz.002021,中捷资源,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=53649470.12,2026-04-29,https://static.cninfo.com.cn/finalpage/2026-04-29/1225228161.PDF#page=84
 2026-09-01,sz.002022,科华生物,2023-12-31,cash,CFOToNP,已核实,operating_cash_flow=-474894786.47,2024-03-23,https://static.cninfo.com.cn/finalpage/2024-03-23/1219387575.PDF#page=80
 2026-09-01,sz.002022,科华生物,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=-50115999.67,2025-04-28,https://static.cninfo.com.cn/finalpage/2025-04-28/1223302312.PDF#page=85
@@ -2199,8 +2199,8 @@
 2026-09-01,sz.002084,海鸥住工,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=156154738.34,2025-04-29,https://static.cninfo.com.cn/finalpage/2025-04-29/1223360237.PDF#page=96
 2026-09-01,sz.002084,海鸥住工,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=245860603.51,2026-04-21,https://static.cninfo.com.cn/finalpage/2026-04-21/1225132133.PDF#page=85
 2026-09-01,sz.002086,东方海洋,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=27791662.06,2022-04-30,https://static.cninfo.com.cn/finalpage/2022-04-30/1213266521.PDF#page=121
-2026-09-01,sz.002086,东方海洋,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-42962176.47,2023-04-29,https://static.cninfo.com.cn/finalpage/2023-04-29/1216705757.PDF#page=119
-2026-09-01,sz.002086,东方海洋,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=4.184565183677149685888084691,2023-04-29,https://static.cninfo.com.cn/finalpage/2023-04-29/1216705757.PDF#page=113 | https://static.cninfo.com.cn/finalpage/2023-04-29/1216705757.PDF#page=116
+2026-09-01,sz.002086,东方海洋,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-42962176.47,2023-04-29,https://static.cninfo.com.cn/finalpage/2023-04-29/1216705757.PDF#page=119 | https://static.cninfo.com.cn/finalpage/2023-04-29/1216705744.PDF#page=4
+2026-09-01,sz.002086,东方海洋,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=4.184565183677149685888084691,2023-04-29,https://static.cninfo.com.cn/finalpage/2023-04-29/1216705757.PDF#page=113 | https://static.cninfo.com.cn/finalpage/2023-04-29/1216705757.PDF#page=116 | https://static.cninfo.com.cn/finalpage/2023-04-29/1216705744.PDF#page=4
 2026-09-01,sz.002086,东方海洋,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=-193108739.30,2025-04-28,https://static.cninfo.com.cn/finalpage/2025-04-28/1223315696.PDF#page=95
 2026-09-01,sz.002086,东方海洋,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=-124916474.05,2026-04-29,https://static.cninfo.com.cn/finalpage/2026-04-29/1225240808.PDF#page=82
 2026-09-01,sz.002092,中泰化学,2023-12-31,cash,CFOToNP,已核实,operating_cash_flow=4165067913.26,2024-04-30,https://static.cninfo.com.cn/finalpage/2024-04-30/1219917121.PDF#page=136
@@ -2271,8 +2271,8 @@
 2026-09-01,sz.002153,石基信息,2024-12-31,cash,CFOToNP,已核实,operating_cash_flow=67130825.61,2025-04-29,https://static.cninfo.com.cn/finalpage/2025-04-29/1223378868.PDF#page=90
 2026-09-01,sz.002153,石基信息,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=318516461.42,2026-03-26,https://static.cninfo.com.cn/finalpage/2026-03-26/1225032378.PDF#page=93
 2026-09-01,sz.002157,正邦科技,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=-2204291113.41,2022-04-30,https://static.cninfo.com.cn/finalpage/2022-04-30/1213251585.PDF#page=164
-2026-09-01,sz.002157,正邦科技,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-5467628075.78,2023-04-29,https://static.cninfo.com.cn/finalpage/2023-04-29/1216705289.PDF#page=130
-2026-09-01,sz.002157,正邦科技,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=4.000744312957167421197290919,2023-04-29,https://static.cninfo.com.cn/finalpage/2023-04-29/1216705289.PDF#page=124 | https://static.cninfo.com.cn/finalpage/2023-04-29/1216705289.PDF#page=128
+2026-09-01,sz.002157,正邦科技,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=-5467628075.78,2023-04-29,https://static.cninfo.com.cn/finalpage/2023-04-29/1216705289.PDF#page=130 | https://static.cninfo.com.cn/finalpage/2023-04-29/1216705237.PDF#page=4
+2026-09-01,sz.002157,正邦科技,2022-12-31,profit,roeAvg,已核实但不可比,roeAvg:平均归母净资产非正，算术结果=4.000744312957167421197290919,2023-04-29,https://static.cninfo.com.cn/finalpage/2023-04-29/1216705289.PDF#page=124 | https://static.cninfo.com.cn/finalpage/2023-04-29/1216705289.PDF#page=128 | https://static.cninfo.com.cn/finalpage/2023-04-29/1216705237.PDF#page=4
 2026-09-01,sz.002157,正邦科技,2025-12-31,cash,CFOToNP,已核实,operating_cash_flow=829904493.98,2026-04-29,https://static.cninfo.com.cn/finalpage/2026-04-29/1225242036.PDF#page=85
 2026-09-01,sz.002159,三特索道,2021-12-31,cash,CFOToNP,已核实,operating_cash_flow=95745843.00,2022-04-30,https://static.cninfo.com.cn/finalpage/2022-04-30/1213256572.PDF#page=85
 2026-09-01,sz.002159,三特索道,2022-12-31,cash,CFOToNP,已核实,operating_cash_flow=143018190.02,2023-04-08,https://static.cninfo.com.cn/finalpage/2023-04-08/1216357532.PDF#page=75
