@@ -18,15 +18,50 @@ def release_ledger():
     return json.loads(Path(__file__).with_name('verified_st_releases.json').read_text())
 
 
+@lru_cache(maxsize=1)
+def delisting_periods():
+    return json.loads(Path(__file__).with_name('verified_delisting_periods.json').read_text())
+
+
+def source_matches(proof):
+    try:
+        with gzip.open(Path(__file__).resolve().parents[1]/proof['source_text_path'], 'rb') as handle:
+            return bool(proof['source']) and hashlib.sha256(handle.read()).hexdigest() == proof['source_text_sha256']
+    except (OSError, EOFError, ValueError, KeyError, TypeError):
+        return False
+
+
 def verified_release(code, effective, *, match_on='effective_date'):
     matches=[r for r in release_ledger() if r['code']==code and r.get(match_on)==effective]
     if len(matches)!=1:return {}
-    proof=matches[0]
-    try:
-        with gzip.open(Path(__file__).resolve().parents[1]/proof['source_text_path'],'rt',newline='') as f:text=f.read()
-        if hashlib.sha256(text.encode()).hexdigest()!=proof['source_text_sha256']:return {}
-    except (OSError,ValueError):return {}
-    return proof
+    return matches[0] if source_matches(matches[0]) else {}
+
+
+def delisting_reason(data, effective, day):
+    notices = [row for row in delisting_periods()
+               if row['code'] == data.get('code') and row['effective_date'] == effective]
+    if len(notices) != 1:
+        return None
+    notice = notices[0]
+    if not notice['available_date'] < effective <= day or not source_matches(notice):
+        return None
+    last_trade = notice['scheduled_last_trade']
+    if day <= last_trade:
+        return 'delisting_period'
+
+    # The final notice can identify the remaining session and the exchange's removal window.
+    pending = notice.get('pending_removal')
+    if not pending or day not in pending['removal_sessions'] or not source_matches(pending):
+        return None
+    prior_day = pending['remaining_as_of']
+    if not prior_day < pending['available_date'] <= last_trade < day or pending['remaining_trade_sessions'] != 1:
+        return None
+    expected = {d: '0' for d in pending['removal_sessions'] if d <= day}
+    expected[last_trade] = '1'
+    bars = [row for row in data['daily'] if prior_day < row['date'] <= day]
+    if len(bars) == len(expected) and {row['date']: row.get('tradestatus') for row in bars} == expected:
+        return 'awaiting_delisting_after_final_trade'
+    return None
 
 
 def first_zero_after_st(data, day):
@@ -69,6 +104,9 @@ def eligibility(data, day):
     # A 1 -> 0 flag also occurs during delisting. It is not proof of ST release.
     effective = first_zero_after_st(data, day)
     if effective:
+        terminal = delisting_reason(data, effective, day)
+        if terminal:
+            return False, terminal
         proof=data.get('st_release_verification') or verified_release(data.get('code'),effective)
         try:
             available=date.fromisoformat(proof.get('available_date',''))

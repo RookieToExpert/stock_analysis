@@ -6026,5 +6026,18 @@
     "source_text_sha256": "f1610c04761f516465298bdd3ce9d8e33a79df5f90f18584d599d0645ca70de7",
     "verification_method": "later_issuer_confirmation_after_suspended_provider_transition",
     "excerpt": "公司股票自2021年6月22日开市起停牌1天，2021年6月23日开市起恢复交易并撤销退市风险警示。"
+  },
+  {
+    "effective_date": "2025-05-23",
+    "available_date": "2025-05-22",
+    "status": "normal_listing",
+    "old_name": "*ST金时",
+    "new_name": "金时科技",
+    "extraction_method": "explicit_date_and_ST_to_normal_name_in_same_passage_v1",
+    "excerpt": "于撤销退市风险警示及其他风险警示暨停复牌的公告本公司及董事会全体成员保证信息披露内容的真实、准确、完整、没有虚假记载、误导性陈述或重大遗漏。特别提示：1、四川金时科技股份有限公司（以下简称“公司”）股票自2025年5月22日（星期四）开市起停牌1天，并于5月23日（星期五）开市起复牌。2、公司股票自2025年5月23日起被撤销退市风险警示及其他风险警示，股票简称由“*ST金时”变更为“金时科技”，证券代码仍为“002951”。3、公司股票交易价格的日涨跌幅限制由“5%”变更为“10%”一、股票种类、简称、证券代码以及撤销退市风险警示及其他风险警示的起始日1、股票种类：人民币普通股A股；2、股票简称：由“*ST金时”变更为“金时科技”；3、证券代码：无变更，仍为“002951”；4、撤销退市风险警示及其他风险警示的起始日：2025年5月23日5、股票停复牌安排：公司股票自2025年5月22日开市起停牌1天，自5月23日开市起复牌；6、股票交易日涨跌幅限制：撤销退市风险警示和其他风险警示后，公司股票交易价格的日",
+    "code": "sz.002951",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-05-22/1223629606.PDF",
+    "source_text_path": "results/pit-evidence-2026-11-18/st-followup/reports/sz.002951-2025-05-23.txt.gz",
+    "source_text_sha256": "9713c2635948d003535dd68f2020d1fd7f1ada69bb51eaed19ce398192712445"
   }
 ]

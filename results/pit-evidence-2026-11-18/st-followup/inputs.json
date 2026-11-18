@@ -1,0 +1,302 @@
+[
+  {
+    "code": "sh.600074",
+    "basic": [
+      {
+        "code": "sh.600074",
+        "ipoDate": "1997-06-23",
+        "outDate": "2020-06-02"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2020-04-09",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2020-04-10",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2020-05-06",
+        "tradestatus": "1",
+        "isST": "0"
+      }
+    ]
+  },
+  {
+    "code": "sh.600891",
+    "basic": [
+      {
+        "code": "sh.600891",
+        "ipoDate": "1996-03-25",
+        "outDate": "2021-05-12"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2021-03-18",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2021-03-19",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2021-04-29",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2021-04-30",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2021-05-06",
+        "tradestatus": "0",
+        "isST": "0"
+      },
+      {
+        "date": "2021-05-07",
+        "tradestatus": "0",
+        "isST": "0"
+      },
+      {
+        "date": "2021-05-10",
+        "tradestatus": "0",
+        "isST": "0"
+      },
+      {
+        "date": "2021-05-11",
+        "tradestatus": "0",
+        "isST": "0"
+      }
+    ]
+  },
+  {
+    "code": "sh.603996",
+    "basic": [
+      {
+        "code": "sh.603996",
+        "ipoDate": "2015-12-22",
+        "outDate": "2022-05-24"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2022-04-21",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2022-04-22",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2022-05-05",
+        "tradestatus": "1",
+        "isST": "0"
+      }
+    ]
+  },
+  {
+    "code": "sz.000585",
+    "basic": [
+      {
+        "code": "sz.000585",
+        "ipoDate": "1995-12-13",
+        "outDate": "2022-05-24"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2022-04-27",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2022-04-28",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2022-05-05",
+        "tradestatus": "1",
+        "isST": "0"
+      }
+    ]
+  },
+  {
+    "code": "sz.000835",
+    "basic": [
+      {
+        "code": "sz.000835",
+        "ipoDate": "1999-06-25",
+        "outDate": "2022-05-23"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2022-04-26",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2022-04-27",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2022-05-05",
+        "tradestatus": "1",
+        "isST": "0"
+      }
+    ]
+  },
+  {
+    "code": "sz.002071",
+    "basic": [
+      {
+        "code": "sz.002071",
+        "ipoDate": "2006-10-12",
+        "outDate": "2021-05-07"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2021-03-19",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2021-03-22",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2021-05-06",
+        "tradestatus": "1",
+        "isST": "0"
+      }
+    ]
+  },
+  {
+    "code": "sz.002260",
+    "basic": [
+      {
+        "code": "sz.002260",
+        "ipoDate": "2008-07-16",
+        "outDate": "2022-06-17"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2022-04-29",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2022-05-05",
+        "tradestatus": "1",
+        "isST": "0"
+      }
+    ]
+  },
+  {
+    "code": "sz.002450",
+    "basic": [
+      {
+        "code": "sz.002450",
+        "ipoDate": "2010-07-16",
+        "outDate": "2021-05-31"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2021-04-13",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2021-04-14",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2021-05-06",
+        "tradestatus": "1",
+        "isST": "0"
+      }
+    ]
+  },
+  {
+    "code": "sz.002477",
+    "basic": [
+      {
+        "code": "sz.002477",
+        "ipoDate": "2010-09-15",
+        "outDate": "2019-10-16"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2019-08-26",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2019-08-27",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2019-09-02",
+        "tradestatus": "1",
+        "isST": "0"
+      }
+    ]
+  },
+  {
+    "code": "sz.002951",
+    "basic": [
+      {
+        "code": "sz.002951",
+        "ipoDate": "2019-03-15",
+        "outDate": ""
+      }
+    ],
+    "daily": [
+      {
+        "date": "2025-05-22",
+        "tradestatus": "0",
+        "isST": "1"
+      },
+      {
+        "date": "2025-05-23",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2025-09-01",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2026-05-06",
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      {
+        "date": "2026-09-01",
+        "tradestatus": "1",
+        "isST": "0"
+      }
+    ]
+  }
+]

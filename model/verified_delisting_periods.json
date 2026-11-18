@@ -1,0 +1,109 @@
+[
+  {
+    "code": "sh.600074",
+    "effective_date": "2020-04-10",
+    "scheduled_last_trade": "2020-05-26",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202004011377390773_1.pdf",
+    "available_date": "2020-04-02",
+    "source_text_path": "results/st-source-audit-2026-11-17/pending-reports/sh.600074-2020-04-10-AN202004011377390773.txt.gz",
+    "source_text_sha256": "a76497e784296c71ebb175e62ae892c171b071f4aed779fbe544f77f302e2fe4",
+    "evidence_excerpt": "2020年4月10日进入退市整理期。最后交易日期为2020年5月26日。"
+  },
+  {
+    "code": "sh.600891",
+    "effective_date": "2021-03-19",
+    "scheduled_last_trade": "2021-04-30",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103111470792282_1.pdf",
+    "available_date": "2021-03-12",
+    "source_text_path": "results/st-source-audit-2026-11-17/pending-reports/sh.600891-2021-03-19-AN202103111470792282.txt.gz",
+    "source_text_sha256": "a85ebdd20f588ad857781784af2060a4316f6bc8c9beded3463df606673ed8a3",
+    "evidence_excerpt": "2021年3月19日进入退市整理期。最后交易日期为2021年4月30日。",
+    "pending_removal": {
+      "source": "https://static.cninfo.com.cn/finalpage/2021-04-30/1209875119.PDF",
+      "available_date": "2021-04-30",
+      "source_text_path": "results/pit-evidence-2026-11-18/st-followup/reports/sh.600891-2021-04-30.txt.gz",
+      "source_text_sha256": "6b7213f831150d4db361ddb905e5d15d39701bcd6ec0a74a468c61664209e753",
+      "remaining_trade_sessions": 1,
+      "remaining_as_of": "2021-04-29",
+      "removal_sessions": [
+        "2021-05-06",
+        "2021-05-07",
+        "2021-05-10",
+        "2021-05-11",
+        "2021-05-12"
+      ],
+      "calendar_source": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20201224_5286949.shtml",
+      "evidence_excerpt": "截至2021年4月29日，交易29个交易日，剩余1个交易日。退市整理期届满后五个交易日内，上海证券交易所将对公司股票予以摘牌。"
+    }
+  },
+  {
+    "code": "sh.603996",
+    "effective_date": "2022-04-22",
+    "scheduled_last_trade": "2022-05-17",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204141559243550_1.pdf",
+    "available_date": "2022-04-15",
+    "source_text_path": "results/st-source-audit-2026-11-17/pending-reports/sh.603996-2022-04-22-AN202204141559243550.txt.gz",
+    "source_text_sha256": "fbe11a78cf0b4d2bd9280a000263021e5b7a7974d2a05f3000f7721ecca25d56",
+    "evidence_excerpt": "2022年4月22日进入退市整理期。最后交易日期为2022年5月17日。"
+  },
+  {
+    "code": "sz.000585",
+    "effective_date": "2022-04-28",
+    "scheduled_last_trade": "2022-05-23",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204201560481559_1.pdf",
+    "available_date": "2022-04-21",
+    "source_text_path": "results/st-source-audit-2026-11-17/pending-reports/sz.000585-2022-04-28-AN202204201560481559.txt.gz",
+    "source_text_sha256": "f9a8713106dfb520e6c34ee2184ac46cbdfd4dae346ae86fee878444bd1971df",
+    "evidence_excerpt": "2022年4月28日进入退市整理期。最后交易日期为2022年5月23日。"
+  },
+  {
+    "code": "sz.000835",
+    "effective_date": "2022-04-27",
+    "scheduled_last_trade": "2022-05-20",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204191560270192_1.pdf",
+    "available_date": "2022-04-20",
+    "source_text_path": "results/st-source-audit-2026-11-17/pending-reports/sz.000835-2022-04-27-AN202204191560270192.txt.gz",
+    "source_text_sha256": "0924116ad3ffe56dc43fe5af8c689813855aed5460e4cff196efaea6f5e92abc",
+    "evidence_excerpt": "2022年4月27日进入退市整理期。最后交易日期为2022年5月20日。"
+  },
+  {
+    "code": "sz.002071",
+    "effective_date": "2021-03-22",
+    "scheduled_last_trade": "2021-05-06",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202103121471414493_1.pdf",
+    "available_date": "2021-03-13",
+    "source_text_path": "results/st-source-audit-2026-11-17/pending-reports/sz.002071-2021-03-22-AN202103121471414493.txt.gz",
+    "source_text_sha256": "6231d5151f47e28e75c0729cf3f341ec8938917efa8f1996369dd1457d9fe7b0",
+    "evidence_excerpt": "2021年3月22日起进入退市整理期。最后交易日期为2021年5月6日。"
+  },
+  {
+    "code": "sz.002260",
+    "effective_date": "2022-05-05",
+    "scheduled_last_trade": "2022-06-16",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204251561513062_1.pdf",
+    "available_date": "2022-04-26",
+    "source_text_path": "results/st-source-audit-2026-11-17/pending-reports/sz.002260-2022-05-05-AN202204251561513062.txt.gz",
+    "source_text_sha256": "ef4c1df2b63eb02a2a50d684467ed56b97b0693f372ad70199bf2f427cf2ceaa",
+    "evidence_excerpt": "2022年5月5日进入退市整理期。最后交易日期为2022年6月16日。"
+  },
+  {
+    "code": "sz.002450",
+    "effective_date": "2021-04-14",
+    "scheduled_last_trade": "2021-05-28",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202104061481639821_1.pdf",
+    "available_date": "2021-04-07",
+    "source_text_path": "results/st-source-audit-2026-11-17/pending-reports/sz.002450-2021-04-14-AN202104061481639821.txt.gz",
+    "source_text_sha256": "b5ebe6154eeba24253677656ea7ff9d904c146342b215daddaf3708d354ff089",
+    "evidence_excerpt": "2021年4月14日起进入退市整理期。最后交易日期为2021年5月28日。"
+  },
+  {
+    "code": "sz.002477",
+    "effective_date": "2019-08-27",
+    "scheduled_last_trade": "2019-10-15",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201908191344629803_1.pdf",
+    "available_date": "2019-08-20",
+    "source_text_path": "results/st-source-audit-2026-11-17/pending-reports/sz.002477-2019-08-27-AN201908191344629803.txt.gz",
+    "source_text_sha256": "dd1627557582071e88d8756b4475add9571f04b3c1ff1a715be768fd24b59048",
+    "evidence_excerpt": "2019年8月27日起进入退市整理期。最后交易日期为2019年10月15日。"
+  }
+]

@@ -6,6 +6,54 @@ def sample():return {'basic':[{'ipoDate':'2015-05-06','outDate':''}],'daily':[{'
 
 
 class Eligibility(unittest.TestCase):
+    def test_terminal_notices_and_jinshi_release(self):
+        import json
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[1]
+        stocks = json.loads((root/'results/pit-evidence-2026-11-18/st-followup/inputs.json').read_text())
+        days = {
+            'sz.002477': '2019-09-02', 'sh.600074': '2020-05-06', 'sh.600891': '2021-05-06',
+            'sz.002450': '2021-05-06', 'sz.002071': '2021-05-06', 'sz.002260': '2022-05-05',
+            'sz.000585': '2022-05-05', 'sh.603996': '2022-05-05', 'sz.000835': '2022-05-05',
+            'sz.002951': '2026-09-01',
+        }
+        self.assertEqual({stock['code'] for stock in stocks}, set(days))
+        for stock in stocks:
+            code = stock['code']
+            with self.subTest(code=code):
+                # A future delisting date is unnecessary for a decision already disclosed at the time.
+                stock['basic'][0]['outDate'] = ''
+                if code == 'sz.002951':
+                    for day in ('2025-05-23', '2025-09-01', '2026-05-06', days[code]):
+                        self.assertEqual(eligibility(stock, day), (True, 'age_ST_pass'))
+                else:
+                    reason = 'awaiting_delisting_after_final_trade' if code == 'sh.600891' else 'delisting_period'
+                    self.assertEqual(eligibility(stock, days[code]), (False, reason))
+
+    def test_delisting_evidence_respects_bounds_publication_and_final_trade(self):
+        import copy
+        import json
+        from pathlib import Path
+        from unittest.mock import patch
+        from eligibility_audit import delisting_periods, delisting_reason
+        root = Path(__file__).resolve().parents[1]
+        stocks = json.loads((root/'results/pit-evidence-2026-11-18/st-followup/inputs.json').read_text())
+        stock = next(s for s in stocks if s['code'] == 'sh.600891')
+        proof = next(p for p in delisting_periods() if p['code'] == stock['code'])
+        flag = '2021-03-19'
+        self.assertIsNone(delisting_reason(stock, flag, '2021-03-18'))
+        self.assertIsNone(delisting_reason(stock, flag, '2021-05-13'))
+        for patch_value in ({'available_date': '2021-05-06'}, {'source_text_sha256': 'changed'}):
+            with patch('eligibility_audit.delisting_periods', return_value=[{**proof, **patch_value}]):
+                self.assertIsNone(delisting_reason(stock, flag, '2021-05-06'))
+        for date, status in (('2021-04-30', '0'), ('2021-05-06', '1')):
+            other = copy.deepcopy(stock)
+            next(row for row in other['daily'] if row['date'] == date)['tradestatus'] = status
+            self.assertIsNone(delisting_reason(other, flag, '2021-05-06'))
+        other = copy.deepcopy(stock)
+        other['daily'] = [r for r in other['daily'] if r['date'] != '2021-04-30']
+        self.assertIsNone(delisting_reason(other, flag, '2021-05-06'))
+
     def test_delayed_confirmation_is_usable_only_after_publication_and_with_matching_bars(self):
         import copy
         import json

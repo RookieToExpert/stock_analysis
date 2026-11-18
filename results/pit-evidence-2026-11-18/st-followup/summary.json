@@ -1,0 +1,235 @@
+{
+  "baseline_commit": "693af65",
+  "fixed_file_list_time_Beijing": "2026-11-18T11:32:12+08:00",
+  "fixed_file_list_count": 3930,
+  "fixed_filename_list_sha256": "9c2db91e6e37cd48c86a9afb09d7906779c9e482dda70aa1a8df11359c0299f1",
+  "verified_transition_events": {
+    "sz.002477": {
+      "flag_date": "2019-08-27",
+      "evaluations": {
+        "2019-09-02": "delisting_period"
+      }
+    },
+    "sh.600074": {
+      "flag_date": "2020-04-10",
+      "evaluations": {
+        "2020-05-06": "delisting_period"
+      }
+    },
+    "sh.600891": {
+      "flag_date": "2021-03-19",
+      "evaluations": {
+        "2021-05-06": "awaiting_delisting_after_final_trade"
+      }
+    },
+    "sz.002450": {
+      "flag_date": "2021-04-14",
+      "evaluations": {
+        "2021-05-06": "delisting_period"
+      }
+    },
+    "sz.002071": {
+      "flag_date": "2021-03-22",
+      "evaluations": {
+        "2021-05-06": "delisting_period"
+      }
+    },
+    "sz.000585": {
+      "flag_date": "2022-04-28",
+      "evaluations": {
+        "2022-05-05": "delisting_period"
+      }
+    },
+    "sz.002260": {
+      "flag_date": "2022-05-05",
+      "evaluations": {
+        "2022-05-05": "delisting_period"
+      }
+    },
+    "sz.000835": {
+      "flag_date": "2022-04-27",
+      "evaluations": {
+        "2022-05-05": "delisting_period"
+      }
+    },
+    "sh.603996": {
+      "flag_date": "2022-04-22",
+      "evaluations": {
+        "2022-05-05": "delisting_period"
+      }
+    },
+    "sz.002951": {
+      "flag_date": "2025-05-23",
+      "evaluations": {
+        "2025-09-01": "age_ST_industry_pass",
+        "2026-05-06": "age_ST_industry_pass",
+        "2026-09-01": "age_ST_industry_pass"
+      }
+    }
+  },
+  "per_evaluation": {
+    "2017-05-02": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 655,
+      "eligible_for_financial_check": 1927,
+      "missing_or_invalid_files": 631
+    },
+    "2017-09-01": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 665,
+      "eligible_for_financial_check": 1964,
+      "missing_or_invalid_files": 677
+    },
+    "2018-05-02": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 640,
+      "eligible_for_financial_check": 1953,
+      "missing_or_invalid_files": 724
+    },
+    "2018-09-03": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 642,
+      "eligible_for_financial_check": 1951,
+      "missing_or_invalid_files": 731
+    },
+    "2019-05-06": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 693,
+      "eligible_for_financial_check": 1924,
+      "missing_or_invalid_files": 757
+    },
+    "2019-09-02": {
+      "ST_release_unknown_before": 1,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 691,
+      "eligible_for_financial_check": 1929,
+      "missing_or_invalid_files": 777
+    },
+    "2020-05-06": {
+      "ST_release_unknown_before": 1,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 702,
+      "eligible_for_financial_check": 1956,
+      "missing_or_invalid_files": 836
+    },
+    "2020-09-01": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 672,
+      "eligible_for_financial_check": 1987,
+      "missing_or_invalid_files": 890
+    },
+    "2021-05-06": {
+      "ST_release_unknown_before": 3,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 670,
+      "eligible_for_financial_check": 2021,
+      "missing_or_invalid_files": 1030
+    },
+    "2021-09-01": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 729,
+      "eligible_for_financial_check": 2107,
+      "missing_or_invalid_files": 1098
+    },
+    "2022-05-05": {
+      "ST_release_unknown_before": 4,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 822,
+      "eligible_for_financial_check": 2291,
+      "missing_or_invalid_files": 1225
+    },
+    "2022-09-01": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 845,
+      "eligible_for_financial_check": 2387,
+      "missing_or_invalid_files": 1263
+    },
+    "2023-05-04": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 977,
+      "eligible_for_financial_check": 2500,
+      "missing_or_invalid_files": 1338
+    },
+    "2023-09-01": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 970,
+      "eligible_for_financial_check": 2513,
+      "missing_or_invalid_files": 1396
+    },
+    "2024-05-06": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 988,
+      "eligible_for_financial_check": 2495,
+      "missing_or_invalid_files": 1426
+    },
+    "2024-09-02": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 1034,
+      "eligible_for_financial_check": 2561,
+      "missing_or_invalid_files": 1433
+    },
+    "2025-05-06": {
+      "ST_release_unknown_before": 0,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 1069,
+      "eligible_for_financial_check": 2598,
+      "missing_or_invalid_files": 1462
+    },
+    "2025-09-01": {
+      "ST_release_unknown_before": 1,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 1127,
+      "eligible_for_financial_check": 2712,
+      "missing_or_invalid_files": 1467
+    },
+    "2026-05-06": {
+      "ST_release_unknown_before": 1,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 1198,
+      "eligible_for_financial_check": 2804,
+      "missing_or_invalid_files": 1479
+    },
+    "2026-09-01": {
+      "ST_release_unknown_before": 1,
+      "ST_release_unknown_after": 0,
+      "annual_incomplete": 1269,
+      "eligible_for_financial_check": 2944,
+      "missing_or_invalid_files": 1486
+    }
+  },
+  "latest_day": {
+    "day": "2026-09-01",
+    "universe": 5212,
+    "ST_release_unknown_before": 1,
+    "ST_release_unknown_after": 0,
+    "annual_incomplete": 1269,
+    "eligible_for_financial_check": 2944,
+    "missing_or_invalid_files": 1486,
+    "financial_gap_rows": 3086,
+    "missing_by_field": {
+      "CFOToNP": 3004,
+      "MBRevenue": 14,
+      "roeAvg": 53,
+      "gpMargin": 4,
+      "dupontPnitoni": 3,
+      "rows=0": 5,
+      "totalShare": 3
+    },
+    "companies_missing_only_CFOToNP": 1207,
+    "cash_gap_companies": 1259,
+    "gap_csv_sha256": "1d54a0b39114dd1acbe0853d5b4a9c52687282eca93af9efd2f923bfa3f0b294"
+  },
+  "strategy_gate_pass": false
+}
