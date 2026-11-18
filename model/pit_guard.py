@@ -97,8 +97,12 @@ class Guard:
             lock.close()
             raise Stop("已有下载进程在运行，禁止并发")
         self.lock = lock
-        self.check_block()
-        self.state = self.load()
+        try:
+            self.check_block()
+            self.state = self.load()
+        except BaseException:
+            self.release()
+            raise
 
     def release(self):
         if self.lock:

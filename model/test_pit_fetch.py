@@ -119,7 +119,7 @@ class GuardTest(NoNetwork):
             g = Guard(d)
             with self.assertRaises(Stop):
                 g.acquire()
-            g.release()
+            self.assertIsNone(g.lock)
             self.assertEqual((d / "state.json").read_text(), text)
 
     def test_blacklist_response_stops_and_stays_stopped(self):
