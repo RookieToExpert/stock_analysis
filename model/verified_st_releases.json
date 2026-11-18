@@ -5961,5 +5961,70 @@
     "source": "https://pdf.dfcfw.com/pdf/H2_AN201704050475892062_1.pdf",
     "source_text_path": "results/st-source-audit-2026-11-17/supplemental-reports/sz.000856-2017-04-07-AN201704050475892062.txt.gz",
     "source_text_sha256": "6b5e8d51a1b2bb24001254c77163a2ad0ba07b4917a18c413e6c00106da9a958"
+  },
+  {
+    "effective_date": "2022-05-11",
+    "available_date": "2022-05-10",
+    "status": "normal_listing",
+    "old_name": "*ST索菱",
+    "new_name": "索菱股份",
+    "extraction_method": "explicit_date_and_ST_to_normal_name_in_same_passage_v1",
+    "excerpt": "票交易撤销退市风险警示及其他风险警示暨停牌的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。特别提示：1、深圳市索菱实业股份有限公司（以下简称“公司”或“索菱股份”）股票将于2022年5月10日停牌一天，并于2022年5月11日开市起复牌；2、公司自2022年5月11日开市起撤销退市风险警示及其他风险警示，股票简称由“*ST索菱”变更为“索菱股份”，股票代码仍为“002766”，股票价格的日涨跌幅限制由“5%”变更为“10%”。一、股票的种类、简称、代码、涨跌幅及股票停复牌安排1、股票种类：人民币普通股A股；2、股票简称：由“*ST索菱”变更为“索菱股份”；3、股票代码：002766；4、股票停复牌安排：股票将于2022年5月10日停牌一天，并于2022年5月11日开市起复牌。5、撤销退市风险警示及其他风险警示的起始日：2022年5月11日。6、股票交易日涨跌幅限制：撤销退市风险警示及其他风险警示后，股票交易日涨跌幅限制由“5%”变更为“10%”。二、公司股",
+    "code": "sz.002766",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-05-10/1213301997.PDF",
+    "source_text_path": "results/pit-evidence-2026-11-18/releases/sz.002766-2022-05-11.txt.gz",
+    "source_text_sha256": "b78fbcb7263f704f616a5df18e9aeb21b34c33b85c0b5a632176da08aeb29c3b"
+  },
+  {
+    "effective_date": "2024-06-13",
+    "available_date": "2024-06-12",
+    "status": "normal_listing",
+    "old_name": "ST天顺",
+    "new_name": "天顺股份",
+    "extraction_method": "explicit_date_and_ST_to_normal_name_in_same_passage_v1",
+    "excerpt": "疆天顺供应链股份有限公司关于撤销其他风险警示暨停复牌的公告本公司及董事会全体成员保证信息披露内容的真实、准确和完整，没有虚假记载、误导性陈述或重大遗漏。特别提示：1.新疆天顺供应链股份有限公司（以下简称“公司”）股票交易于2024年6月12日停牌一天，于2024年6月13日开市起复牌。2.公司股票自2024年6月13日开市起撤销其他风险警示，证券简称由“ST天顺”变更为“天顺股份”，证券代码仍为“002800”，撤销其他风险警示后，公司股票交易日的涨跌幅限制由5%变更为10%。一、股票种类、简称、证券代码以及撤销其他风险警示的起始日1.股票种类：A股股票；2.证券简称：由“ST天顺”变更为“天顺股份”；3.证券代码：无变动，仍为“002800”；4.撤销其他风险警示的起始日：2024年6月13日；5.日涨跌幅限制：撤销其他风险警示后，公司股票交易日的涨跌幅限制由“5%”变更为“10%”。二、公司股票前期被实施其他风险警示的情况2022年度公司发生控股股东非经营性资金占用的情形，公司被大信会计事务所（特殊普通",
+    "code": "sz.002800",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-06-12/1220325260.PDF",
+    "source_text_path": "results/pit-evidence-2026-11-18/releases/sz.002800-2024-06-13.txt.gz",
+    "source_text_sha256": "3213c7eb73c71f0d11132fd5ab2358b7cac597af51c7a9837774b89ba9c13df8"
+  },
+  {
+    "effective_date": "2026-06-02",
+    "available_date": "2026-05-30",
+    "status": "normal_listing",
+    "old_name": "*ST高斯",
+    "new_name": "高斯贝尔",
+    "extraction_method": "explicit_date_and_ST_to_normal_name_in_same_passage_v1",
+    "excerpt": "警示及其他风险警示暨股票停复牌的公告本公司及董事会全体成员保证信息披露内容的真实、准确和完整，没有虚假记载、误导性陈述或重大遗漏。特别提示：1、高斯贝尔数码科技股份有限公司（以下简称“公司”）股票将于2026年6月1日（星期一）停牌1天，并于2026年6月2日（星期二）开市起复牌。2、公司股票交易自2026年6月2日（星期二）开市起撤销退市风险警示及其他风险警示，股票简称由“*ST高斯”变更为“高斯贝尔”，股票代码仍为“002848”。3、撤销退市风险警示及其他风险警示后，公司股票交易价格日涨跌幅限制变更为“10%”。一、股票的种类、简称、证券代码、涨跌幅、撤销退市风险警示及其他风险警示的起始日期及股票停复牌安排1、股票种类：人民币普通股A股；2、股票简称：由“*ST高斯”变更为“高斯贝尔”；3、股票代码：仍为“002848”；4、撤销退市风险警示其他风险警示的起始日：自2026年6月2日（星期二）开市起撤销；5、停复牌安排：公司股票将于2026年6月1日（星期一）开市起停牌1天，于2026年6月2日（星",
+    "code": "sz.002848",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-05-30/1225338105.PDF",
+    "source_text_path": "results/pit-evidence-2026-11-18/releases/sz.002848-2026-06-02.txt.gz",
+    "source_text_sha256": "eeb460ce672ad162d59266c4da91540c8bd62dee9c216d166fb25fd797944d9a"
+  },
+  {
+    "effective_date": "2026-05-13",
+    "available_date": "2026-05-12",
+    "status": "normal_listing",
+    "old_name": "*ST绿康",
+    "new_name": "绿康生化",
+    "extraction_method": "explicit_date_and_ST_to_normal_name_in_same_passage_v1",
+    "excerpt": "风险警示及其他风险警示暨股票停复牌的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。特别提示：1、绿康生化股份有限公司（以下简称“公司”）股票将于2026年5月12日（星期二）停牌一天，并于2026年5月13日（星期三）开市起复盘。2、公司股票交易自2026年5月13日（星期三）开市起撤销退市风险警示及其他风险警示，股票简称由“*ST绿康”变更为“绿康生化”，股票代码仍为“002868”。3、撤销退市风险警示及其他风险警示后，公司股票交易价格日涨跌幅限制变更为10%。一、股票种类、简称、股票代码、涨跌幅、撤销退市风险警示及其他风险警示的起始日期及股票停复牌安排1、股票种类：人民币普通股A股2、股票简称：由“*ST绿康”变更为“绿康生化”3、股票代码：0028684、撤销退市风险警示及其他风险警示的起始日期：自2026年5月13日（星期三）开市起撤销。5、停复牌安排：公司股票将于2026年5月12日（星期二）开市起停牌1天，于2026年5月13日（星期三）开市",
+    "code": "sz.002868",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-05-12/1225292876.PDF",
+    "source_text_path": "results/pit-evidence-2026-11-18/releases/sz.002868-2026-05-13.txt.gz",
+    "source_text_sha256": "22c16223a2a133583c64f82398e41b4b27d7f7e945d1145006830d5dc4726579"
+  },
+  {
+    "code": "sz.002529",
+    "provider_zero_date": "2021-06-22",
+    "effective_date": "2021-06-23",
+    "available_date": "2021-07-02",
+    "status": "normal_listing",
+    "new_name": "海源复材",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-07-02/1210383875.PDF",
+    "source_text_path": "results/pit-evidence-2026-11-18/reports/sz.002529-2021-06-23.txt.gz",
+    "source_text_sha256": "f1610c04761f516465298bdd3ce9d8e33a79df5f90f18584d599d0645ca70de7",
+    "verification_method": "later_issuer_confirmation_after_suspended_provider_transition",
+    "excerpt": "公司股票自2021年6月22日开市起停牌1天，2021年6月23日开市起恢复交易并撤销退市风险警示。"
   }
 ]

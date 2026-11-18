@@ -82,5 +82,19 @@
     "source_text_sha256": "5c8c9b292f8080ae89406eeabf715cdd894524b7b0dc6e9f55d4cf93cc53210b",
     "statement_basis": "consolidated_cash_flow_statement_current_year_RMB_yuan",
     "evidence_excerpt": "38,458,911.22 32.79 财务费用 -16,668,253.63 -3,119,890.48 不适用 研发费用 472,148,658.34 577,688,501.33 -18.27 经营活动产生的现金流量净额 -307,051,752.30 -239,748,686.02 不适用 投资活动产生的现金流量净额 139,226,126.93 354,814,188.23 -60.76 筹资活动产生的现金流量净额 106,048,308.08 -369,904,190.37 不适用 营业收入变动原因说明：主要系商业模式和产品化转型的战略性调整阶段，新签订单规模不及预 期所致； 营业"
+  },
+  {
+    "code": "sz.000530",
+    "statDate": "2021-12-31",
+    "available_date": "2022-04-23",
+    "field": "operating_cash_flow",
+    "value": "1518218.37",
+    "expected_net_profit": "-275189594.040000",
+    "expected_cash_pubDate": "2022-04-23",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-04-23/1213060612.PDF#page=66",
+    "source_text_path": "results/pit-evidence-2026-11-18/reports/sz.000530-2021-12-31.txt.gz",
+    "source_text_sha256": "5e5eff6c12d387d49e196abc37cef376f3b724fd9b88600e5f03223c5de42834",
+    "statement_basis": "consolidated_cash_flow_statement_current_year_RMB_yuan",
+    "evidence_excerpt": "合并现金流量表，PDF 第 65–66 页，2021 年度在前，2020 年度在后。经营活动产生的现金流量净额         1,518,218.37             -13,142,427.45"
   }
 ]

@@ -10,6 +10,14 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 class FinancialEvidence(unittest.TestCase):
+    def test_bingshan_reported_cash_with_missing_ratio_and_negative_profit(self):
+        data = json.loads((ROOT/'results/pit-evidence-2026-11-18/cash-input.json').read_text())
+        self.assertEqual(data['fin']['cash'][0]['CFOToNP'], '')
+        self.assertIsNone(verified_operating_cash_flow(data, '2021-12-31', '2022-04-23'))
+        proof = verified_operating_cash_flow(data, '2021-12-31', '2022-04-24')
+        self.assertEqual(proof['amount'], 1518218.37)
+        self.assertNotIn('cash:2021-12-31:CFOToNP', annual_missing(data, '2026-09-01'))
+
     def test_five_year_parent_financing_requires_every_year_and_matching_window(self):
         from financial_evidence import financing_evidence
         proof=financing_evidence('600608',2020,2024,'2025-07-01')

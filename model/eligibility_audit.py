@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """只读复核上市年限/ST资格后的年报覆盖。行业/市值过滤未知则不宣称正式门槛通过。"""
-import json,sys
+import argparse
+import csv
+import json
+from collections import Counter
 import gzip,hashlib
 from functools import lru_cache
 from datetime import date
@@ -15,8 +18,8 @@ def release_ledger():
     return json.loads(Path(__file__).with_name('verified_st_releases.json').read_text())
 
 
-def verified_release(code, effective):
-    matches=[r for r in release_ledger() if r['code']==code and r['effective_date']==effective]
+def verified_release(code, effective, *, match_on='effective_date'):
+    matches=[r for r in release_ledger() if r['code']==code and r.get(match_on)==effective]
     if len(matches)!=1:return {}
     proof=matches[0]
     try:
@@ -24,6 +27,30 @@ def verified_release(code, effective):
         if hashlib.sha256(text.encode()).hexdigest()!=proof['source_text_sha256']:return {}
     except (OSError,ValueError):return {}
     return proof
+
+
+def first_zero_after_st(data, day):
+    history = data.get('daily', [])
+    last_st = max((r['date'] for r in history if r.get('isST') == '1' and r['date'] <= day), default=None)
+    if last_st is None:
+        return None
+    return min((r['date'] for r in history if r.get('isST') == '0' and last_st < r['date'] <= day), default=None)
+
+
+def confirmed_after_suspension(data, flag_day, day):
+    """A later issuer notice can establish status for subsequent evaluations."""
+    proof = verified_release(data.get('code'), flag_day, match_on='provider_zero_date')
+    if proof.get('status') != 'normal_listing' or not proof.get('source'):
+        return False
+    first_trade = proof['effective_date']
+    if not flag_day < first_trade <= proof['available_date'] < day:
+        return False
+    bars = [r for r in data['daily'] if flag_day <= r['date'] <= first_trade]
+    days = {r['date'] for r in bars}
+    if len(days) != len(bars) or flag_day not in days or first_trade not in days:
+        return False
+    return all(row.get('isST') == '0' and row.get('tradestatus') == ('1' if row['date'] == first_trade else '0')
+               for row in bars)
 
 
 def eligibility(data, day):
@@ -40,11 +67,8 @@ def eligibility(data, day):
     if len(rows)!=1 or rows[0].get('isST') not in ('0','1'):return None,'evaluation_day_ST_unknown'
     if rows[0]['isST']=='1':return False,'ST'
     # A 1 -> 0 flag also occurs during delisting. It is not proof of ST release.
-    history=sorted((r for r in data.get('daily',[]) if r.get('date','')<=day),key=lambda r:r['date'])
-    last_st=max((r['date'] for r in history if r.get('isST')=='1'),default=None)
-    if last_st:
-        releases=[r['date'] for r in history if r['date']>last_st and r.get('isST')=='0']
-        effective=min(releases)
+    effective = first_zero_after_st(data, day)
+    if effective:
         proof=data.get('st_release_verification') or verified_release(data.get('code'),effective)
         try:
             available=date.fromisoformat(proof.get('available_date',''))
@@ -52,12 +76,17 @@ def eligibility(data, day):
                    and available<=date.fromisoformat(effective)
                    and proof.get('status')=='normal_listing')
         except (ValueError,TypeError):valid=False
-        if not valid:return None,'ST_release_requires_issuer_evidence'
+        if not valid and not confirmed_after_suspension(data, effective, day):
+            return None,'ST_release_requires_issuer_evidence'
     return True,'age_ST_pass'
 
 
-def audit(root):
+def audit(root, evaluation_date=None):
     universe=json.loads((root/'universe.json').read_text());members={}
+    if evaluation_date is not None:
+        if evaluation_date not in universe:
+            raise ValueError('日期不在本地调仓日列表中。可查日期为 ' + ', '.join(sorted(universe)))
+        universe = {evaluation_date: universe[evaluation_date]}
     result={d:dict(universe=len(set(cs)),excluded=[],unknown_eligibility=[],eligible_annual_missing=[],eligible_complete=[],known_age_ST_eligible=0,market_cap_proxies={}) for d,cs in universe.items()}
     for day,codes in universe.items():
         for c in set(codes):members.setdefault(c,[]).append(day)
@@ -70,7 +99,11 @@ def audit(root):
             continue
         for day in days:
             eligible,reason=eligibility(d,day);entry=result[day]
-            if eligible is None:entry['unknown_eligibility'].append({'code':code,'reason':reason})
+            if eligible is None:
+                unknown = {'code': code, 'reason': reason}
+                if reason == 'ST_release_requires_issuer_evidence':
+                    unknown['flag_date'] = first_zero_after_st(d, day)
+                entry['unknown_eligibility'].append(unknown)
             elif not eligible:entry['excluded'].append({'code':code,'reason':reason})
             else:
                 entry['known_age_ST_eligible']+=1
@@ -96,8 +129,47 @@ def audit(root):
             'strategy_gate_pass':False,'evaluations':result}
 
 
-if __name__=='__main__':
-    output=audit(Path(sys.argv[1]));Path(sys.argv[2]).write_text(json.dumps(output,ensure_ascii=False))
-    for day,e in sorted(output['evaluations'].items()):
-        print(day,'age_ST_industry_eligible',e['known_age_ST_industry_eligible'],'annual_missing',len(e['eligible_annual_missing']),
-              'eligibility_unknown',len(e['unknown_eligibility']))
+def write_gap_csv(evaluations, path):
+    """One row per financial field/year or outstanding ST notice."""
+    with path.open('w', encoding='utf-8-sig', newline='') as handle:
+        writer = csv.writer(handle, lineterminator='\n')
+        writer.writerow(['评价日', '证券代码', '待核事项', '报告期或标志变化日', '数据表', '数据项'])
+        for day, entry in sorted(evaluations.items()):
+            for row in sorted(entry['eligible_annual_missing'], key=lambda r: r['code']):
+                for reason in row['reasons']:
+                    table, period, field = reason.split(':', 2)
+                    writer.writerow([day, row['code'], '财报', period, table, field])
+            for row in sorted(entry['unknown_eligibility'], key=lambda r: r['code']):
+                if row['reason'] == 'ST_release_requires_issuer_evidence':
+                    writer.writerow([day, row['code'], '摘帽公告', row['flag_date'], 'daily', 'isST'])
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('pit_dir', type=Path)
+    parser.add_argument('output_json', nargs='?', type=Path, help='完整审计结果，可省略')
+    parser.add_argument('--day', help='只检查指定调仓日，如 2026-09-01')
+    parser.add_argument('--gaps-csv', type=Path, help='按股票列出待核的财报字段和 ST 公告')
+    args = parser.parse_args()
+    try:
+        result = audit(args.pit_dir, args.day)
+    except ValueError as exc:
+        parser.exit(2, str(exc) + '\n')
+    if args.output_json:
+        args.output_json.write_text(json.dumps(result, ensure_ascii=False))
+    if args.gaps_csv:
+        write_gap_csv(result['evaluations'], args.gaps_csv)
+    for day, entry in sorted(result['evaluations'].items()):
+        if args.output_json and not args.day and not args.gaps_csv:
+            print(day, 'age_ST_industry_eligible', entry['known_age_ST_industry_eligible'],
+                  'annual_missing', len(entry['eligible_annual_missing']),
+                  'eligibility_unknown', len(entry['unknown_eligibility']))
+            continue
+        reasons = Counter(row['reason'] for row in entry['unknown_eligibility'])
+        print(day, '年限/ST/行业通过', entry['known_age_ST_industry_eligible'],
+              '其中年报有缺项', len(entry['eligible_annual_missing']),
+              '待核摘帽公告', reasons['ST_release_requires_issuer_evidence'],
+              '文件未下载或无效', reasons['file_missing_or_invalid'],
+              '资格未知合计', len(entry['unknown_eligibility']))
+    if args.gaps_csv:
+        print('待核明细', args.gaps_csv)

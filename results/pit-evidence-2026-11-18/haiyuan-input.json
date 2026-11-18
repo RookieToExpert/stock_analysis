@@ -1,0 +1,75 @@
+{
+  "code": "sz.002529",
+  "basic": [
+    {
+      "code": "sz.002529",
+      "code_name": "海源复材",
+      "ipoDate": "2010-12-24",
+      "outDate": "",
+      "type": "1",
+      "status": "1"
+    }
+  ],
+  "daily": [
+    {
+      "date": "2021-06-18",
+      "isST": "1",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-06-21",
+      "isST": "1",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-06-22",
+      "isST": "0",
+      "tradestatus": "0"
+    },
+    {
+      "date": "2021-06-23",
+      "isST": "0",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-06-24",
+      "isST": "0",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-06-25",
+      "isST": "0",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-06-28",
+      "isST": "0",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-06-29",
+      "isST": "0",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-06-30",
+      "isST": "0",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-07-01",
+      "isST": "0",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-07-02",
+      "isST": "0",
+      "tradestatus": "1"
+    },
+    {
+      "date": "2021-07-05",
+      "isST": "0",
+      "tradestatus": "1"
+    }
+  ]
+}

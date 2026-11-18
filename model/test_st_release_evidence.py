@@ -10,7 +10,7 @@ class ReleaseEvidence(unittest.TestCase):
         from pathlib import Path
         root=Path(__file__).resolve().parents[1]
         ledger=json.loads((root/'model/verified_st_releases.json').read_text())
-        count=0
+        original_count=0
         for proof in ledger:
             if 'extraction_method' not in proof:continue
             path=root/proof['source_text_path']
@@ -20,8 +20,9 @@ class ReleaseEvidence(unittest.TestCase):
             parsed=extract(meta,text)
             self.assertIsNotNone(parsed,proof['code'])
             self.assertTrue(all(proof[k]==v for k,v in parsed.items()))
-            count+=1
-        self.assertEqual(count,447)
+            if 'st-source-audit-2026-11-17' in path.parts:
+                original_count+=1
+        self.assertEqual(original_count,447)
         directory=root/'results/st-source-audit-2026-11-17/pending-reports'
         terminal=0
         for path in directory.glob('*.json'):

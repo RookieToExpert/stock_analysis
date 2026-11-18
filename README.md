@@ -37,3 +37,5 @@ cd model && python3 -m unittest
 - [总回报重建、历史数据审计与周期实验](results/data-audit-2026-11-16/README.md)（独立研究输出；未完成正式回测验收）
 
 - [r8 最新修复验收](results/action-completion-2026-11-17/README.md)：固定 329 只异常全部重建通过；完整历史数据及正式回测仍有独立验收门槛。
+
+- [按调仓日查财报缺项和摘帽公告](results/pit-evidence-2026-11-18/README.md)。包含查询命令、发行人公告和可下载的逐股 CSV。
