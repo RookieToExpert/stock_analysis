@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """用法：python3 model/score.py 002749 600519 ...  数据源：东方财富、腾讯行情，只读。"""
-import json, sys, time, urllib.request
+import json, re, sys, time, urllib.request
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from rules import MANUAL, fiscal_dividends, recent_from_rows, action, blue_chip, grade, metrics, missing_fields, recent_state, score, state_unknown, vetoes, warnings
@@ -35,16 +35,16 @@ def pick(row, fields):
     return {k: row.get(k) for k in fields}
 
 
-def get(url):
+def get(url, waits=(1, 2, 3, 4)):
     # CDN 偶有不通的节点，短超时重试比长时间等待更快
-    for i in range(5):
+    for i in range(len(waits) + 1):
         try:
             req = urllib.request.Request(url, headers=HDR)
             return json.load(OPENER.open(req, timeout=8))
         except Exception:
-            if i == 4:
+            if i == len(waits):
                 raise
-            time.sleep(1 + i)
+            time.sleep(waits[i])
 
 
 def rows(url):
@@ -106,56 +106,63 @@ def fetch(code, quote=None):
                      "&fields=f43,f58,f116,f127")["data"]
     return {"code": code, "name": q.get("f58"), "industry": q.get("f127"), "price": q["f43"] / 100,
             "mv": q.get("f116"), "ttm_np": ttm, "kf_yoy": kf_yoy, "kf_events": kf_events, "gm_delta": gm_delta, "bs": bs, "years": years,
-            **dict(zip(("high36", "vol", "closes"), price_stats(code))),
+            **dict(zip(("high36", "vol", "closes"), price_stats(code, div_rows))),
             "source": {"main": [pick(r, MAIN_FIELDS) for r in main[:24]],
                        "cash_flow": [pick(r, CF_FIELDS) for r in cf if r["REPORT_DATE"][5:10] == "12-31"][:7],
                        "balance": [pick(r, BS_FIELDS) for r in bal[:1]], "dividends": div_rows}}
 
 
-KLINE = "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid={secid}&fields1=f1&fields2=f51,f53,f54&klt=101&fqt={fqt}&end=20500101&lmt=800"
+KLINE_WAITS = (2, 4, 8, 16, 30)
+KLINE = "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid={secid}&fields1=f1&fields2=f51,f53,f54&klt=101&fqt=0&end=20500101&lmt=800"
+PLAN = re.compile(r"^(\d+(?:\.\d+)?)(?:送(\d+(?:\.\d+)?)股?)?(?:转(?:增)?(\d+(?:\.\d+)?)股?)?(?:派(\d+(?:\.\d+)?)元)?")
 
 
-def _fits(raw, arith, k, c, j):
-    return abs(k * arith[j][1] + c - raw[j][1]) <= 0.006 * k + 0.006
-
-
-def ratio_adjust(raw, arith, check=3):
-    """由不复权和东方财富算术前复权（fqt=1）日线，重建等比前复权序列。
-
-    fqt=1 按 前复权价 = (原价 - 每股分红) / (1 + 送转比例) 逐次套用，高分红股的历史高点会被压得过低。
-    每一段两次除权之间，原价 = k × fqt1价 + c。从最新一天 (k=1, c=0) 往前走，
-    某天对不上就是除权日：除权参考价 ref = k × 前一天的 fqt1价 + c，等比因子乘 ref / 前收；
-    再按 k' = k(1+r)、c' = 前收 - k' × fqt1价 搜送转比例 r（0～2，步长 0.01），
-    取往前连续对得上天数最多的 r（最多看 check 天，平手取小的），一天都对不上就放弃。最新一天因子为 1，结果与当前价可直接相比。
-    raw、arith：[(日期, 收盘, 最高)]，日期一一对应。还原不出时返回 None，按未知处理。
-    """
-    n = len(raw)
-    if not n or [x[0] for x in raw] != [x[0] for x in arith] or not _fits(raw, arith, 1, 0, n - 1):
+def plan_terms(text):
+    """'10送1转2派3元' -> (每股现金 0.3, 每股送转 0.3)。认不出返回 None。"""
+    m = PLAN.match(text or "")
+    if not m or not any(m.group(i) for i in (2, 3, 4)):
         return None
-    out, f, k, c = [], 1.0, 1.0, 0.0
-    for i in range(n - 1, -1, -1):
-        out.append((raw[i][0], raw[i][1] * f, raw[i][2] * f))
-        if i == 0 or _fits(raw, arith, k, c, i - 1):
+    base = float(m.group(1))
+    send, conv, cash = (float(m.group(i) or 0) for i in (2, 3, 4))
+    return cash / base, (send + conv) / base
+
+
+def ex_events(div_rows):
+    """已实施分红送转 -> [(除权日, 每股现金, 每股送转)]。配股等不在分红表里的事件不处理。"""
+    out = []
+    for r in div_rows or []:
+        terms = plan_terms(r.get("IMPL_PLAN_PROFILE"))
+        ex = (r.get("EX_DIVIDEND_DATE") or "")[:10]
+        if r.get("ASSIGN_PROGRESS") == "实施方案" and terms and len(ex) == 10:
+            out.append((ex, *terms))
+    return out
+
+
+def ratio_adjust(raw, events):
+    """不复权日线 + 除权事件 -> 等比前复权日线。
+
+    除权参考价 ref = (前收 - 每股现金) / (1 + 每股送转)，除权日之前的价格都乘 ref / 前收。
+    东方财富 fqt=1 是直接减去每股分红，高分红股的历史高点会被压得过低，所以不用。
+    最新一天因子为 1，结果与当前价可直接相比。raw：[(日期, 收盘, 最高)]，按日期升序。
+    参考价非正时返回 None，按未知处理。
+    """
+    if not raw:
+        return None
+    days = [x[0] for x in raw]
+    step = [1.0] * len(raw)  # step[i]：第 i 天及以前要乘的因子（来自第 i+1 天的除权）
+    for ex, cash, shares in events:
+        if not days[0] < ex <= days[-1]:
             continue
-        prev, ref = raw[i - 1][1], k * arith[i - 1][1] + c
+        i = next(j for j, d in enumerate(days) if d >= ex)
+        prev = raw[i - 1][1]
+        ref = (prev - cash) / (1 + shares)
         if prev <= 0 or ref <= 0:
             return None
-        f *= ref / prev
-        span = list(range(i - 2, max(i - 2 - check, -1), -1))
-        best = None
-        for r in range(201):
-            k2 = k * (1 + r / 100)
-            c2 = prev - k2 * arith[i - 1][1]
-            if c2 - c * (1 + r / 100) < -0.01:
-                continue
-            run = 0
-            while run < len(span) and _fits(raw, arith, k2, c2, span[run]):
-                run += 1
-            if best is None or run > best[0]:
-                best = (run, k2, c2)
-        if best is None or (span and best[0] == 0):
-            return None
-        _, k, c = best
+        step[i - 1] *= ref / prev
+    out, f = [], 1.0
+    for i in range(len(raw) - 1, -1, -1):
+        f *= step[i] if i < len(raw) - 1 else 1.0
+        out.append((raw[i][0], raw[i][1] * f, raw[i][2] * f))
     return out[::-1]
 
 
@@ -174,14 +181,13 @@ def stats_from_daily(rows_):
     return max(h for k in keys[-36:] for _, h in months[k]), vol, closes
 
 
-def price_stats(code):
-    """返回 (近36个月等比前复权最高价, 月收益年化波动率%, 月收盘价)。复权重建失败时返回 None，按未知处理。"""
+def price_stats(code, div_rows=()):
+    """返回 (近36个月等比前复权最高价, 月收益年化波动率%, 月收盘价)。复权失败时返回 None，按未知处理。"""
     secid = f"{1 if code.startswith('6') else 0}.{code}"
-    series = []
-    for fqt in (0, 1):
-        d = get(KLINE.format(secid=secid, fqt=fqt))
-        series.append([(x[0], float(x[1]), float(x[2])) for x in (y.split(",") for y in (d.get("data") or {}).get("klines") or [])])
-    adj = ratio_adjust(*series)
+    # K 线接口会成段断开连接（11-17 抽查约一半请求失败），退避拉长到约 1 分钟
+    d = get(KLINE.format(secid=secid), waits=KLINE_WAITS)
+    raw = [(x[0], float(x[1]), float(x[2])) for x in (y.split(",") for y in (d.get("data") or {}).get("klines") or [])]
+    adj = ratio_adjust(raw, ex_events(div_rows))
     if adj is None:
         return None, None, []
     return stats_from_daily(adj)
